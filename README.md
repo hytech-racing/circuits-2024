@@ -1,8 +1,8 @@
 ![HyTech Logo](https://hytechracing.gatech.edu/images/hytech_logo_small.png)
 
-# 2022 Circuits
+# 2023 Circuits
 
-Repository for all of the circuits for the 2021-2022 car.
+Repository for all of the circuits for the 2022-2023 car.
 
 ## Getting Started with this Git Repository
 1. Follow HyTech's [Software Guide](https://github.com/hytech-racing/training/tree/master/Resources).
