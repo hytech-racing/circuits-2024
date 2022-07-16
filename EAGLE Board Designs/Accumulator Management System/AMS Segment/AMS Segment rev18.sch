@@ -924,12 +924,12 @@ Pins tied to VREG: ISOMD, DTEN
 <wire x1="1.27" y1="-3.81" x2="2.54" y2="-2.5654" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
 <wire x1="1.2443" y1="-1.27" x2="2.54" y2="-2.5396" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
 <wire x1="1.27" y1="-1.27" x2="2.54" y2="-0.0254" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
-<pin name="MX+" x="12.7" y="-10.16" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="MX-" x="12.7" y="-10.16" visible="off" length="point" direction="pas" rot="R180"/>
 <pin name="MCT" x="12.7" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<pin name="MX-" x="12.7" y="10.16" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="MX+" x="12.7" y="10.16" visible="off" length="point" direction="pas" rot="R180"/>
 <pin name="TCT" x="-15.24" y="-12.7" visible="off" length="point" direction="pas"/>
-<pin name="TD+" x="-33.02" y="-7.62" visible="off" length="point" direction="pas"/>
-<pin name="TD-" x="-33.02" y="7.62" visible="off" length="point" direction="pas"/>
+<pin name="TD-" x="-33.02" y="-7.62" visible="off" length="point" direction="pas"/>
+<pin name="TD+" x="-33.02" y="7.62" visible="off" length="point" direction="pas"/>
 <wire x1="-22.86" y1="0.508" x2="-12.7" y2="0.508" width="0.1524" layer="94"/>
 <wire x1="-12.7" y1="-0.508" x2="-22.86" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="-22.86" y1="2.5146" x2="-21.59" y2="1.2446" width="0.1524" layer="94" curve="90" cap="flat"/>
@@ -954,15 +954,15 @@ Pins tied to VREG: ISOMD, DTEN
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-12.7" y1="2.54" x2="-12.7" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="-12.7" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="94"/>
-<circle x="2.54" y="-8.89" radius="0.381" width="0" layer="94"/>
-<circle x="-2.54" y="-8.89" radius="0.381" width="0" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.381" width="0" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.381" width="0" layer="94"/>
 <circle x="-13.97" y="-2.54" radius="0.381" width="0" layer="94"/>
 <circle x="-13.97" y="2.54" radius="0.381" width="0" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="0" x2="-7.62" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="-12.7" x2="-15.24" y2="-12.7" width="0.1524" layer="94"/>
-<circle x="2.54" y="1.27" radius="0.381" width="0" layer="94"/>
-<circle x="-2.54" y="1.27" radius="0.381" width="0" layer="94"/>
+<circle x="2.54" y="8.89" radius="0.381" width="0" layer="94"/>
+<circle x="-2.54" y="8.89" radius="0.381" width="0" layer="94"/>
 <wire x1="2.54" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="12.7" y2="0" width="0.1524" layer="94"/>
@@ -2280,8 +2280,8 @@ Turns ratio: 1CT: 1CT&lt;br/&gt;
 Isolation Voltage: 4300 VDC&lt;br/&gt;
 Inductance: 150 uH&lt;br/&gt;
 Leakage Inductance: 0.50 uH max
-&lt;p&gt;HM2102NLT: &lt;a href="https://www.mouser.com/datasheet/2/336/HM2102NL-1218600.pdf"&gt;DataSheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;HM2112ZNLT: &lt;a href="https://www.mouser.com/datasheet/2/336/HM2112ZNL-1224892.pdf"&gt;DataSheet&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;HM2102NLT: &lt;a href="https://www.mouser.com/datasheet/2/336/HM2102NL-1218600.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;HM2112ZNLT: &lt;a href="https://www.mouser.com/datasheet/2/336/HM2112ZNL-1224892.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="A" symbol="TRANSFORMER" x="5.08" y="17.78" swaplevel="1"/>
 <gate name="B" symbol="TRANSFORMER" x="5.08" y="-17.78" swaplevel="1"/>
@@ -12140,7 +12140,7 @@ datasheet recommendation.</text>
 <wire x1="149.86" y1="149.86" x2="147.32" y2="149.86" width="0.1524" layer="91"/>
 <label x="147.32" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C18" gate="G$1" pin="2"/>
-<pinref part="T1" gate="A" pin="TD+"/>
+<pinref part="T1" gate="A" pin="TD-"/>
 <junction x="149.86" y="149.86"/>
 </segment>
 <segment>
@@ -12474,7 +12474,7 @@ datasheet recommendation.</text>
 <wire x1="149.86" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
 <label x="147.32" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C16" gate="G$1" pin="2"/>
-<pinref part="T1" gate="B" pin="TD+"/>
+<pinref part="T1" gate="B" pin="TD-"/>
 <junction x="149.86" y="124.46"/>
 </segment>
 <segment>
@@ -13743,7 +13743,7 @@ datasheet recommendation.</text>
 <wire x1="149.86" y1="165.1" x2="147.32" y2="165.1" width="0.1524" layer="91"/>
 <label x="147.32" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R25" gate="G$1" pin="2"/>
-<pinref part="T1" gate="A" pin="TD-"/>
+<pinref part="T1" gate="A" pin="TD+"/>
 <junction x="149.86" y="165.1"/>
 </segment>
 </net>
@@ -13752,7 +13752,7 @@ datasheet recommendation.</text>
 <wire x1="149.86" y1="139.7" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
 <label x="147.32" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="T1" gate="B" pin="TD-"/>
+<pinref part="T1" gate="B" pin="TD+"/>
 <junction x="149.86" y="139.7"/>
 </segment>
 <segment>
@@ -13770,14 +13770,14 @@ datasheet recommendation.</text>
 <net name="N$22" class="5">
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
-<pinref part="T1" gate="A" pin="MX+"/>
+<pinref part="T1" gate="A" pin="MX-"/>
 <wire x1="198.12" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="5">
 <segment>
 <pinref part="R28" gate="G$1" pin="2"/>
-<pinref part="T1" gate="A" pin="MX-"/>
+<pinref part="T1" gate="A" pin="MX+"/>
 <wire x1="198.12" y1="167.64" x2="195.58" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13790,14 +13790,14 @@ datasheet recommendation.</text>
 <net name="N$32" class="5">
 <segment>
 <pinref part="R26" gate="G$1" pin="2"/>
-<pinref part="T1" gate="B" pin="MX+"/>
+<pinref part="T1" gate="B" pin="MX-"/>
 <wire x1="198.12" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="5">
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
-<pinref part="T1" gate="B" pin="MX-"/>
+<pinref part="T1" gate="B" pin="MX+"/>
 <wire x1="198.12" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
