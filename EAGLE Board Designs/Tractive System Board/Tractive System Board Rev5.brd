@@ -484,7 +484,7 @@ Designed by Cody Kaminsky</text>
 <package name="0603-CAP">
 <description>0603 Cap
 &lt;br&gt;
-&lt;a href="http://new-web.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;a href="https://www.yageo.com/upload/website/yageo_UPY-C_GEN_26_20092411_950.pdf"&gt;Datasheet&lt;/a&gt;
 &lt;br&gt;
 &lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"&gt;Size&lt;/a&gt;</description>
 <smd name="1" x="-0.75" y="0" dx="0.9" dy="0.9" layer="1"/>
@@ -527,12 +527,12 @@ Designed by Cody Kaminsky</text>
 <rectangle x1="-1.025" y1="0.5" x2="-0.625" y2="0.75" layer="21"/>
 <rectangle x1="-1.025" y1="-0.75" x2="-0.625" y2="-0.5" layer="21"/>
 </package>
-<package name="0885">
-<description>0885 Fuse
+<package name="885">
+<description>885 Fuse
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;
 &lt;br&gt;
-Keepout is 0.8 mm around fuse to get 1.6 mmbetween fuses.</description>
+Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
 <smd name="1" x="-5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
 <smd name="2" x="5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
 <wire x1="-5.43" y1="2.39" x2="-5.43" y2="-2.39" width="0.127" layer="21"/>
@@ -559,38 +559,7 @@ Keepout is 0.8 mm around fuse to get 1.6 mmbetween fuses.</description>
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.1524" layer="21"/>
 <rectangle x1="-5.715" y1="-3.302" x2="5.715" y2="3.175" layer="39"/>
 <text x="-5.08" y="2.794" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<circle x="-5.842" y="3.302" radius="0.254" width="0" layer="21"/>
-</package>
-<package name="MOLEX_MICROFIT_PTH_VERTICAL_04_DUAL">
-<description>4 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0430450414"&gt;Part&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430450414_sd.pdf"&gt;Footprint&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430250400_sd.pdf"&gt;Plug Size&lt;/a&gt;</description>
-<pad name="2" x="-1.4986" y="-2.9972" drill="1.0668"/>
-<pad name="1" x="1.4986" y="-2.9972" drill="1.0668"/>
-<hole x="4.4958" y="0.9398" drill="1.0668"/>
-<hole x="-4.4958" y="0.9398" drill="1.0668"/>
-<wire x1="-4.826" y1="-5.461" x2="4.826" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="4.826" y1="-5.461" x2="4.826" y2="1.905" width="0.127" layer="21"/>
-<wire x1="4.826" y1="1.905" x2="1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="1.905" x2="-1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-4.826" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-4.826" y1="1.905" x2="-4.826" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="1.9304" y2="3.302" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="3.302" x2="1.9304" y2="1.905" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="-1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="5.969" x2="1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="1.9304" y1="5.969" x2="1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<rectangle x1="-5.5626" y1="-5.842" x2="5.5626" y2="2.286" layer="39"/>
-<rectangle x1="-2.54" y1="2.286" x2="2.54" y2="6.35" layer="39"/>
-<rectangle x1="-5.5626" y1="-5.842" x2="5.5626" y2="2.286" layer="40"/>
-<text x="0" y="-6.477" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-<pad name="3" x="1.4986" y="0" drill="1.0668"/>
-<pad name="4" x="-1.4986" y="0" drill="1.0668"/>
+<circle x="-5.588" y="3.048" radius="0.254" width="0" layer="21"/>
 </package>
 <package name="SOT-23">
 <description>SOT-23
@@ -605,6 +574,7 @@ Keepout is 0.8 mm around fuse to get 1.6 mmbetween fuses.</description>
 <smd name="3" x="0" y="1.0033" dx="0.7112" dy="0.889" layer="1"/>
 <text x="0" y="1.778" size="0.635" layer="25" font="vector" rot="R180" align="top-center">&gt;NAME</text>
 <rectangle x1="-1.778" y1="-1.778" x2="1.778" y2="1.778" layer="39"/>
+<circle x="-1.778" y="-1.0033" radius="0.15875" width="0" layer="21"/>
 </package>
 <package name="0603-RES">
 <description>0603 Resistor Footprint
@@ -655,19 +625,19 @@ Keepout is 0.8 mm around fuse to get 1.6 mmbetween fuses.</description>
 <rectangle x1="-3.556" y1="-6.858" x2="3.556" y2="6.858" layer="39"/>
 <text x="-3.556" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
 <circle x="-3.556" y="-5.08" radius="0.254" width="0" layer="21"/>
-<wire x1="-3.556" y1="4.0386" x2="3.556" y2="4.0386" width="0" layer="46"/>
-<wire x1="3.556" y1="4.0386" x2="3.556" y2="-4.0386" width="0" layer="46"/>
-<wire x1="3.556" y1="-4.0386" x2="-3.556" y2="-4.0386" width="0" layer="46"/>
-<wire x1="-3.556" y1="-4.0386" x2="-3.556" y2="4.0386" width="0" layer="46"/>
+<wire x1="-3.556" y1="4.11" x2="3.556" y2="4.11" width="0" layer="46"/>
+<wire x1="3.556" y1="4.11" x2="3.556" y2="-4.11" width="0" layer="46"/>
+<wire x1="3.556" y1="-4.11" x2="-3.556" y2="-4.11" width="0" layer="46"/>
+<wire x1="-3.556" y1="-4.11" x2="-3.556" y2="4.11" width="0" layer="46"/>
 <polygon width="0" layer="20">
-<vertex x="3.556" y="-4.0386"/>
-<vertex x="-3.556" y="-4.0386"/>
-<vertex x="-3.556" y="4.0386"/>
-<vertex x="3.556" y="4.0386"/>
+<vertex x="3.556" y="-4.11"/>
+<vertex x="-3.556" y="-4.11"/>
+<vertex x="-3.556" y="4.11"/>
+<vertex x="3.556" y="4.11"/>
 </polygon>
 </package>
-<package name="SOT223">
-<description>SOT223
+<package name="SOT-223">
+<description>SOT-223
 &lt;br&gt;
 &lt;a href="https://www.diodes.com/assets/Package-Files/SOT223.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
@@ -680,24 +650,28 @@ Keepout is 0.8 mm around fuse to get 1.6 mmbetween fuses.</description>
 <wire x1="3.275" y1="-1.775" x2="-3.275" y2="-1.775" width="0.127" layer="21"/>
 <wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.127" layer="21"/>
 <rectangle x1="-3.81" y1="-4.445" x2="3.81" y2="4.445" layer="39"/>
+<circle x="-3.556" y="-3.2" radius="0.15875" width="0" layer="21"/>
 </package>
-<package name="MICRO_MINIATURE">
+<package name="5015">
 <description>Keystone Micro-Miniature SMD Test Point
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
+<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
 </package>
 <package name="MOUNTING_M3">
 <description>M3 Mounting Hole
 &lt;br&gt;
-&lt;a href="https://www.engineersedge.com/iso_socket_head_screw.htm"&gt;Datasheet&lt;/a&gt;</description>
-<hole x="0" y="0" drill="3.4"/>
-<circle x="0" y="0" radius="3" width="0" layer="39"/>
-<circle x="0" y="0" radius="3" width="0" layer="40"/>
-<circle x="0" y="0" radius="3" width="0" layer="41"/>
-<circle x="0" y="0" radius="3" width="0" layer="42"/>
+&lt;a href="https://www.engineersedge.com/iso_socket_head_screw.htm"&gt;Datasheet&lt;/a&gt;&lt;br&gt;
+&lt;a href = "https://pcbartists.com/uncategorized/pcb-drill-size-for-standard-screws-fasteners/"&gt;Drill Sizes&lt;/a&gt;</description>
+<circle x="0" y="0" radius="3.2" width="0" layer="39"/>
+<circle x="0" y="0" radius="3.2" width="0" layer="40"/>
+<circle x="0" y="0" radius="3.2" width="0" layer="43"/>
+<pad name="1" x="0" y="0" drill="3.4" diameter="6"/>
+<text x="0" y="3.5" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.5" size="0.8128" layer="27" font="vector" align="top-center">M3</text>
 </package>
 <package name="MOLEX_MICROFIT_PTH_VERTICAL_06_SINGLE_SPACED">
 <description>6 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
@@ -11573,9 +11547,11 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="NAME" x="31.124521875" y="19.28820625" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="VOLTAGE" value="30V" x="31.115" y="17.526" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="F1" library="HyTechDevices" package="0885" value="FUSE_0885_1.25" x="125.222" y="83.947" smashed="yes" rot="R180">
+<element name="F1" library="HyTechDevices" package="885" value="FUSE_885_1.25A" x="125.222" y="83.947" smashed="yes" rot="R180">
 <attribute name="CURRENT" value="1.25A" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DKPN" value="F10986CT-ND" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="125.222" y="83.947" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="I2T" value="1.25" x="125.222" y="83.947" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc." x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOPN" value="576-08851.25DR" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="08851.25DR" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11588,11 +11564,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="MOPN" value="" x="41.2" y="5.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="PPPC042LFBN-RC" x="41.2" y="5.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="41.2" y="8.748" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-</element>
-<element name="J1" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_04_DUAL" value="CONNECTOR-4__" x="112.2606125" y="123.98095" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER" value="Molex" x="112.2606125" y="123.98095" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="2068320423" x="112.2606125" y="123.98095" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="106.5456125" y="123.98095" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
 </element>
 <element name="Q1" library="HyTechDevices" package="SOT-23" value="TRANSISTOR_N_MOS__PMV15ENEA" x="52.832" y="8.509" smashed="yes" rot="R90">
 <attribute name="DKPN" value="1727-8588-1-ND" x="217.932" y="26.289" size="1.778" layer="27" rot="R90" display="off"/>
@@ -11671,7 +11642,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="NAME" x="52.451" y="2.54" size="0.8128" layer="25" font="vector" rot="R180" align="top-center"/>
 <attribute name="VOLTAGE" value="8V" x="54.864" y="2.921" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U4" library="HyTechDevices" package="SOT223" value="VOLTAGE_REGULATOR_SOT223_5V" x="66.421" y="4.191" smashed="yes" rot="R180">
+<element name="U4" library="HyTechDevices" package="SOT-223" value="VOLTAGE_REGULATOR_SOT-223_5V" x="66.421" y="4.191" smashed="yes" rot="R180">
 <attribute name="DKPN" value="497-17240-1-ND" x="66.421" y="4.191" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="STMicroelectronics" x="66.421" y="4.191" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOPN" value="511-LDL1117S50R" x="66.421" y="4.191" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11707,7 +11678,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="POWER" value="0.1W" x="114.554" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="39" x="114.554" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="114.554" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="" x="114.554" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="1.97V" x="114.554" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="114.554" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R22" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_39" x="188.722" y="17.399" smashed="yes" rot="R270">
@@ -11719,80 +11690,66 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="POWER" value="0.1W" x="188.722" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RESISTANCE" value="39" x="188.722" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="188.722" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="" x="188.722" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="1.97V" x="188.722" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="188.722" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="TP19" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="12.446" y="7.493" smashed="yes">
+<element name="TP19" library="HyTechDevices" package="5015" value="TEST_POINT" x="12.446" y="7.493" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="12.446" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="12.446" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="12.446" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="12.446" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="10.668" y="7.493" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP20" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="17.272" y="7.493" smashed="yes">
+<element name="TP20" library="HyTechDevices" package="5015" value="TEST_POINT" x="17.272" y="7.493" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="17.272" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="17.272" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="17.272" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="17.272" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15.494" y="7.493" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP22" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="9.779" y="3.302" smashed="yes">
+<element name="TP22" library="HyTechDevices" package="5015" value="TEST_POINT" x="9.779" y="3.302" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="9.779" y="3.302" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="9.779" y="3.302" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="9.779" y="3.302" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="9.779" y="3.302" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12.446" y="3.429" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP18" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="7.62" y="7.493" smashed="yes">
+<element name="TP18" library="HyTechDevices" package="5015" value="TEST_POINT" x="7.62" y="7.493" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="7.62" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="7.62" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="7.62" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="7.62" y="7.493" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="5.842" y="7.493" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP15" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="36.576" y="11.303" smashed="yes">
+<element name="TP15" library="HyTechDevices" package="5015" value="TEST_POINT" x="36.576" y="11.303" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="36.576" y="11.303" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="36.576" y="11.303" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="36.576" y="11.303" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="36.576" y="11.303" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="34.798" y="11.303" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP14" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="31.877" y="11.303" smashed="yes">
+<element name="TP14" library="HyTechDevices" package="5015" value="TEST_POINT" x="31.877" y="11.303" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="31.877" y="11.303" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="31.877" y="11.303" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="31.877" y="11.303" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="31.877" y="11.303" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.972" y="11.176" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP16" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="26.924" y="11.176" smashed="yes">
+<element name="TP16" library="HyTechDevices" package="5015" value="TEST_POINT" x="26.924" y="11.176" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="26.924" y="11.176" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="26.924" y="11.176" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="26.924" y="11.176" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="26.924" y="11.176" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.146" y="11.176" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP17" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="22.098" y="11.049" smashed="yes">
+<element name="TP17" library="HyTechDevices" package="5015" value="TEST_POINT" x="22.098" y="11.049" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="22.098" y="11.049" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="22.098" y="11.049" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="22.098" y="11.049" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="22.098" y="11.049" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.32" y="10.922" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP1" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="99.187" y="125.0188" smashed="yes">
-<attribute name="DKPN" value="36-5015CT-ND" x="99.187" y="125.0188" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics" x="99.187" y="125.0188" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="534-5015" x="99.187" y="125.0188" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5015" x="99.187" y="125.0188" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="97.028" y="125.1458" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-</element>
-<element name="TP2" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="99.187" y="121.2088" smashed="yes">
-<attribute name="DKPN" value="36-5015CT-ND" x="99.187" y="121.2088" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics" x="99.187" y="121.2088" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="534-5015" x="99.187" y="121.2088" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5015" x="99.187" y="121.2088" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="97.028" y="121.4628" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-</element>
-<element name="TP21" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="14.478" y="3.429" smashed="yes">
+<element name="TP21" library="HyTechDevices" package="5015" value="TEST_POINT" x="14.478" y="3.429" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="14.478" y="3.429" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="14.478" y="3.429" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="14.478" y="3.429" size="1.778" layer="27" display="off"/>
@@ -11830,28 +11787,28 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="$$U$6" library="HyTechDevices" package="MOUNTING_M3" value="" x="91.4153125" y="114.9856375" smashed="yes"/>
 <element name="U$9" library="HyTechDevices" package="MOUNTING_M3" value="" x="57.40469375" y="83.028409375" smashed="yes"/>
 <element name="$$$$U$3" library="HyTechDevices" package="MOUNTING_M3" value="" x="91.4153125" y="83.028409375" smashed="yes"/>
-<element name="TP6" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="112.581109375" y="97.76256875" smashed="yes">
+<element name="TP6" library="HyTechDevices" package="5015" value="TEST_POINT" x="112.581109375" y="97.76256875" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="112.581109375" y="97.76256875" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="112.581109375" y="97.76256875" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MOPN" value="534-5015" x="112.581109375" y="97.76256875" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MPN" value="5015" x="112.581109375" y="97.76256875" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="110.39043125" y="97.849109375" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP8" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="112.581109375" y="94.3061375" smashed="yes">
+<element name="TP8" library="HyTechDevices" package="5015" value="TEST_POINT" x="112.581109375" y="94.3061375" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="112.581109375" y="94.3061375" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="112.581109375" y="94.3061375" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MOPN" value="534-5015" x="112.581109375" y="94.3061375" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MPN" value="5015" x="112.581109375" y="94.3061375" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="110.4178625" y="94.293109375" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP11" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="121.471109375" y="94.124275" smashed="yes">
+<element name="TP11" library="HyTechDevices" package="5015" value="TEST_POINT" x="121.471109375" y="94.124275" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="121.471109375" y="94.124275" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="121.471109375" y="94.124275" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MOPN" value="534-5015" x="121.471109375" y="94.124275" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MPN" value="5015" x="121.471109375" y="94.124275" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="119.108725" y="94.166109375" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP10" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="130.302" y="94.22384375" smashed="yes">
+<element name="TP10" library="HyTechDevices" package="5015" value="TEST_POINT" x="130.302" y="94.22384375" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="130.361109375" y="94.22384375" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="130.361109375" y="94.22384375" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MOPN" value="534-5015" x="130.361109375" y="94.22384375" size="1.778" layer="27" font="vector" display="off"/>
@@ -11906,21 +11863,21 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="MPN" value="APT1608SECK" x="19.714625" y="0.567109375" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="18.964625" y="0.567109375" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP4" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="130.361109375" y="97.80508125" smashed="yes">
+<element name="TP4" library="HyTechDevices" package="5015" value="TEST_POINT" x="130.361109375" y="97.80508125" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="130.361109375" y="97.80508125" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="130.361109375" y="97.80508125" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MOPN" value="534-5015" x="130.361109375" y="97.80508125" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MPN" value="5015" x="130.361109375" y="97.80508125" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="128.12791875" y="97.849109375" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP5" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="121.471109375" y="97.77765" smashed="yes">
+<element name="TP5" library="HyTechDevices" package="5015" value="TEST_POINT" x="121.471109375" y="97.77765" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="121.471109375" y="97.77765" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="121.471109375" y="97.77765" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MOPN" value="534-5015" x="121.471109375" y="97.77765" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MPN" value="5015" x="121.471109375" y="97.77765" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="119.26535" y="97.849109375" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP3" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="104.648" y="97.96135625" smashed="yes">
+<element name="TP3" library="HyTechDevices" package="5015" value="TEST_POINT" x="104.648" y="97.96135625" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="104.707109375" y="97.96135625" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="104.707109375" y="97.96135625" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MOPN" value="534-5015" x="104.707109375" y="97.96135625" size="1.778" layer="27" font="vector" display="off"/>
@@ -11947,9 +11904,11 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="TOLERANCE" value="5%" x="68.258109375" y="7.09850625" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="68.258109375" y="7.09850625" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
 </element>
-<element name="F2" library="HyTechDevices" package="0885" value="FUSE_0885_1.25" x="125.3255" y="70.62036875" smashed="yes" rot="R180">
+<element name="F2" library="HyTechDevices" package="885" value="FUSE_885_1.25A" x="125.3255" y="70.62036875" smashed="yes" rot="R180">
 <attribute name="CURRENT" value="1.25A" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="DKPN" value="F10986CT-ND" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="125.3255" y="70.62036875" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="I2T" value="1.25" x="125.3255" y="70.62036875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc." x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="MOPN" value="576-08851.25DR" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="MPN" value="08851.25DR" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
@@ -11973,7 +11932,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="$$$$$$U$9" library="HyTechDevices" package="MOUNTING_M3" value="" x="182.1688" y="67.8942" smashed="yes"/>
 <element name="$$U$3" library="HyTechDevices" package="MOUNTING_M3" value="" x="97.5" y="129.73596875" smashed="yes"/>
 <element name="$$U$2" library="HyTechDevices" package="MOUNTING_M3" value="" x="51" y="129.73596875" smashed="yes"/>
-<element name="TP7" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="104.902" y="94.361" smashed="yes">
+<element name="TP7" library="HyTechDevices" package="5015" value="TEST_POINT" x="104.902" y="94.361" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="104.902" y="94.361" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="104.902" y="94.361" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="MOPN" value="534-5015" x="104.902" y="94.361" size="1.778" layer="27" font="vector" display="off"/>
@@ -12053,21 +12012,21 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="MPN" value="APT1608ZGCK" x="30.734" y="1.905" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="26.174" y="0.635" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP9" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="98.552" y="94.234" smashed="yes">
+<element name="TP9" library="HyTechDevices" package="5015" value="TEST_POINT" x="98.552" y="94.234" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="98.552" y="94.234" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="98.552" y="94.234" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="98.552" y="94.234" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="98.552" y="94.234" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="96.266" y="94.361" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="TP12" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="96.647" y="29.21" smashed="yes">
+<element name="TP12" library="HyTechDevices" package="5015" value="TEST_POINT" x="96.647" y="29.21" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="96.647" y="29.21" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="96.647" y="29.21" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="96.647" y="29.21" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="96.647" y="29.21" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="96.647" y="30.48" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="TP13" library="HyTechDevices" package="MICRO_MINIATURE" value="TEST_POINT" x="86.487" y="28.956" smashed="yes">
+<element name="TP13" library="HyTechDevices" package="5015" value="TEST_POINT" x="86.487" y="28.956" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="86.487" y="28.956" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="86.487" y="28.956" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="534-5015" x="86.487" y="28.956" size="1.778" layer="27" display="off"/>
@@ -12527,10 +12486,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 </polygon>
 </signal>
 <signal name="DCDC+">
-<contactref element="J1" pad="1"/>
-<contactref element="TP1" pad="1"/>
-<contactref element="J1" pad="3"/>
-<wire x1="99.187" y1="125.0188" x2="99.783" y2="125.6148" width="0.254" layer="1"/>
 <polygon width="0.254" layer="15" thermals="no">
 <vertex x="90.043" y="133.858"/>
 <vertex x="90.043" y="130.048"/>
@@ -12555,14 +12510,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <vertex x="85.344" y="125.984"/>
 <vertex x="81.407" y="125.984"/>
 </polygon>
-<wire x1="109.2634125" y1="122.48235" x2="112.2606125" y2="122.48235" width="0" layer="19" extent="1-1"/>
-<wire x1="99.783" y1="125.6148" x2="109.2634125" y2="122.48235" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DCDC-">
-<contactref element="J1" pad="4"/>
-<contactref element="TP2" pad="1"/>
-<contactref element="J1" pad="2"/>
-<wire x1="99.504" y1="120.8918" x2="99.187" y2="121.2088" width="0.254" layer="1"/>
 <polygon width="0.254" layer="16" thermals="no">
 <vertex x="54.483" y="130.429"/>
 <vertex x="58.166" y="134.112"/>
@@ -12591,8 +12540,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <vertex x="96.647" y="119.888"/>
 <vertex x="54.483" y="119.888"/>
 </polygon>
-<wire x1="109.2634125" y1="125.47955" x2="112.2606125" y2="125.47955" width="0" layer="19" extent="1-1"/>
-<wire x1="99.504" y1="120.8918" x2="109.2634125" y2="125.47955" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PRECHARGE_OK">
 <contactref element="J4" pad="3"/>

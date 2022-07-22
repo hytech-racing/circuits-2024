@@ -5373,12 +5373,12 @@ Layer: 94 Symbol</description>
 </library>
 <library name="HyTechDevices">
 <packages>
-<package name="0885">
-<description>0885 Fuse
+<package name="885">
+<description>885 Fuse
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;
 &lt;br&gt;
-Keepout is 0.8 mm around fuse to get 1.6 mmbetween fuses.</description>
+Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
 <smd name="1" x="-5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
 <smd name="2" x="5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
 <wire x1="-5.43" y1="2.39" x2="-5.43" y2="-2.39" width="0.127" layer="21"/>
@@ -5389,25 +5389,6 @@ Keepout is 0.8 mm around fuse to get 1.6 mmbetween fuses.</description>
 <rectangle x1="-8.85" y1="-4.415" x2="8.85" y2="4.415" layer="39"/>
 <rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="43"/>
 <rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="41"/>
-</package>
-<package name="MINI-BLADE_FUSE_HOLDER">
-<description>Mini-Blade Fuse Holder
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/215/3568-742601.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-MOPN: 534-3568</description>
-<wire x1="-8.001" y1="-3.3655" x2="-8.001" y2="3.3655" width="0.127" layer="21"/>
-<wire x1="-8.001" y1="3.3655" x2="8.001" y2="3.3655" width="0.127" layer="21"/>
-<wire x1="8.001" y1="-3.3655" x2="8.001" y2="3.3655" width="0.127" layer="21"/>
-<wire x1="-8.001" y1="-3.3655" x2="8.001" y2="-3.3655" width="0.127" layer="21"/>
-<pad name="L1" x="-4.953" y="1.7018" drill="1.6002"/>
-<pad name="L2" x="-4.953" y="-1.7018" drill="1.6002"/>
-<pad name="R1" x="4.953" y="1.7018" drill="1.6002"/>
-<pad name="R2" x="4.953" y="-1.7018" drill="1.6002"/>
-<rectangle x1="-8.382" y1="-3.81" x2="8.382" y2="3.81" layer="39"/>
-<text x="0" y="3.81" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-6.35" y1="-3.3655" x2="-3.556" y2="3.3655" layer="40"/>
-<rectangle x1="3.556" y1="-3.3655" x2="6.35" y2="3.3655" layer="40"/>
 </package>
 <package name="PWR163">
 <description>PWR163 Resistor
@@ -5496,7 +5477,7 @@ MOPN: 534-3568</description>
 <package name="0603-CAP">
 <description>0603 Cap
 &lt;br&gt;
-&lt;a href="http://new-web.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;a href="https://www.yageo.com/upload/website/yageo_UPY-C_GEN_26_20092411_950.pdf"&gt;Datasheet&lt;/a&gt;
 &lt;br&gt;
 &lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"&gt;Size&lt;/a&gt;</description>
 <smd name="1" x="-0.75" y="0" dx="0.9" dy="0.9" layer="1"/>
@@ -5507,51 +5488,6 @@ MOPN: 534-3568</description>
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="21"/>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
 <rectangle x1="-1.35" y1="-0.75" x2="1.35" y2="0.75" layer="39"/>
-</package>
-<package name="2220-CAP">
-<description>2220 Cap
-&lt;br&gt;
-&lt;a href="http://new-web.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.knowlescapacitors.com/getattachment/fe7386b2-d58d-4a83-96e0-cf03dfba634f/Safety-Cap.aspx"&gt;Size&lt;/a&gt;</description>
-<smd name="1" x="-2.775" y="0" dx="1.05" dy="5.3" layer="1"/>
-<smd name="2" x="2.775" y="0" dx="1.05" dy="5.3" layer="1"/>
-<text x="0" y="2.95" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-2.85" y1="2.5" x2="2.85" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.85" y1="2.5" x2="2.85" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.85" y1="-2.5" x2="-2.85" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.85" y1="-2.5" x2="-2.85" y2="2.5" width="0.127" layer="21"/>
-<rectangle x1="-3.5" y1="-2.95" x2="3.5" y2="2.95" layer="39"/>
-</package>
-<package name="0805-CAP">
-<description>0805 Cap
-&lt;br&gt;
-&lt;a href="http://new-web.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"&gt;Size&lt;/a&gt;</description>
-<smd name="1" x="-0.925" y="0" dx="0.95" dy="1.4" layer="1"/>
-<smd name="2" x="0.925" y="0" dx="0.95" dy="1.4" layer="1"/>
-<text x="0" y="1.05" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
-<rectangle x1="-1.6" y1="-1.05" x2="1.6" y2="1.05" layer="39"/>
-</package>
-<package name="1206-CAP">
-<description>1206 Cap
-&lt;br&gt;
-&lt;a href="http://new-web.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"&gt;Size&lt;/a&gt;</description>
-<smd name="1" x="-1.5" y="0" dx="1" dy="1.8" layer="1"/>
-<smd name="2" x="1.5" y="0" dx="1" dy="1.8" layer="1"/>
-<text x="0" y="1.25" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
-<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
-<rectangle x1="-2.2" y1="-1.25" x2="2.2" y2="1.25" layer="39"/>
 </package>
 <package name="0603-LED">
 <description>0603 LED
@@ -5582,6 +5518,7 @@ MOPN: 534-3568</description>
 <smd name="3" x="0" y="1.0033" dx="0.7112" dy="0.889" layer="1"/>
 <text x="0" y="1.778" size="0.635" layer="25" font="vector" rot="R180" align="top-center">&gt;NAME</text>
 <rectangle x1="-1.778" y1="-1.778" x2="1.778" y2="1.778" layer="39"/>
+<circle x="-1.778" y="-1.0033" radius="0.15875" width="0" layer="21"/>
 </package>
 <package name="DPAK(2-7K1S)">
 <description>DPAK(2-7K1S)
@@ -5602,52 +5539,6 @@ Toshiba
 <wire x1="2.67" y1="6.18" x2="2.67" y2="5.1" width="0.127" layer="21"/>
 <text x="0" y="6.858" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-3.81" y1="-5.588" x2="3.81" y2="6.858" layer="39"/>
-</package>
-<package name="SOT89">
-<description>SOT89
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/308/1/NCP785A_D-2317346.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-Based on page 10.</description>
-<smd name="2" x="0" y="-0.355" dx="0.58" dy="0.86" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
-<smd name="3" x="1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
-<wire x1="-2.3" y1="2.7" x2="2.3" y2="2.7" width="0.127" layer="21"/>
-<wire x1="2.3" y1="2.7" x2="2.3" y2="0.1" width="0.127" layer="21"/>
-<wire x1="2.3" y1="0.1" x2="-2.3" y2="0.1" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="0.1" x2="-2.3" y2="2.7" width="0.127" layer="21"/>
-<rectangle x1="-2.54" y1="-1.14" x2="2.54" y2="3.94" layer="39"/>
-<text x="0" y="3.94" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<polygon width="0" layer="1">
-<vertex x="-1" y="3.665"/>
-<vertex x="-1" y="0.785"/>
-<vertex x="-0.29" y="0.075"/>
-<vertex x="-0.29" y="0"/>
-<vertex x="0.29" y="0"/>
-<vertex x="0.29" y="0.075"/>
-<vertex x="1" y="0.785"/>
-<vertex x="1" y="3.665"/>
-</polygon>
-<polygon width="0" layer="31" spacing="0.05" pour="hatch">
-<vertex x="-1" y="3.665"/>
-<vertex x="-1" y="0.785"/>
-<vertex x="-0.29" y="0.075"/>
-<vertex x="-0.29" y="0"/>
-<vertex x="0.29" y="0"/>
-<vertex x="0.29" y="0.075"/>
-<vertex x="1" y="0.785"/>
-<vertex x="1" y="3.665"/>
-</polygon>
-<polygon width="0" layer="29" spacing="0.1" pour="hatch">
-<vertex x="-1.1" y="3.765"/>
-<vertex x="-1.1" y="0.714"/>
-<vertex x="-0.361" y="0.004"/>
-<vertex x="-0.29" y="0"/>
-<vertex x="0.29" y="0"/>
-<vertex x="0.361" y="0.004"/>
-<vertex x="1.1" y="0.714"/>
-<vertex x="1.1" y="3.765"/>
-</polygon>
 </package>
 <package name="SOD-323">
 <description>SOD-323 Diode Package
@@ -5703,15 +5594,15 @@ Based on page 10.</description>
 <rectangle x1="-3.556" y1="-6.858" x2="3.556" y2="6.858" layer="39"/>
 <text x="-3.556" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
 <circle x="-3.556" y="-5.08" radius="0.254" width="0" layer="21"/>
-<wire x1="-3.556" y1="4.0386" x2="3.556" y2="4.0386" width="0" layer="46"/>
-<wire x1="3.556" y1="4.0386" x2="3.556" y2="-4.0386" width="0" layer="46"/>
-<wire x1="3.556" y1="-4.0386" x2="-3.556" y2="-4.0386" width="0" layer="46"/>
-<wire x1="-3.556" y1="-4.0386" x2="-3.556" y2="4.0386" width="0" layer="46"/>
+<wire x1="-3.556" y1="4.11" x2="3.556" y2="4.11" width="0" layer="46"/>
+<wire x1="3.556" y1="4.11" x2="3.556" y2="-4.11" width="0" layer="46"/>
+<wire x1="3.556" y1="-4.11" x2="-3.556" y2="-4.11" width="0" layer="46"/>
+<wire x1="-3.556" y1="-4.11" x2="-3.556" y2="4.11" width="0" layer="46"/>
 <polygon width="0" layer="20">
-<vertex x="3.556" y="-4.0386"/>
-<vertex x="-3.556" y="-4.0386"/>
-<vertex x="-3.556" y="4.0386"/>
-<vertex x="3.556" y="4.0386"/>
+<vertex x="3.556" y="-4.11"/>
+<vertex x="-3.556" y="-4.11"/>
+<vertex x="-3.556" y="4.11"/>
+<vertex x="3.556" y="4.11"/>
 </polygon>
 </package>
 <package name="POWERPAK_SO-8">
@@ -5780,66 +5671,10 @@ Based on page 10.</description>
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.1524" layer="21"/>
 <rectangle x1="-5.715" y1="-3.302" x2="5.715" y2="3.175" layer="39"/>
 <text x="-5.08" y="2.794" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<circle x="-5.842" y="3.302" radius="0.254" width="0" layer="21"/>
+<circle x="-5.588" y="3.048" radius="0.254" width="0" layer="21"/>
 </package>
-<package name="SOURIAU_12-04">
-<description>SOURIAU 4 Pin
-&lt;br&gt;
-&lt;a href="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773721-9_as_technical&amp;DocType=DS&amp;DocLang=EN"&gt;Footprint&lt;/a&gt;</description>
-<circle x="0" y="0" radius="8.72" width="0.127" layer="22"/>
-<pad name="1" x="0" y="3.81" drill="2"/>
-<pad name="2" x="3.7084" y="0.889" drill="2"/>
-<pad name="3" x="0" y="-2.1082" drill="2"/>
-<pad name="4" x="-3.7084" y="0.889" drill="2"/>
-<circle x="0" y="0" radius="13" width="0.127" layer="21"/>
-<hole x="10.2884" y="10.2884" drill="3.4"/>
-<circle x="10.2884" y="10.2884" radius="3" width="0" layer="39"/>
-<circle x="10.2884" y="10.2884" radius="3" width="0" layer="40"/>
-<circle x="10.2884" y="10.2884" radius="3" width="0" layer="41"/>
-<circle x="10.2884" y="10.2884" radius="3" width="0" layer="42"/>
-<hole x="-10.2884" y="-10.2884" drill="3.4"/>
-<circle x="-10.2884" y="-10.2884" radius="3" width="0" layer="39"/>
-<circle x="-10.2884" y="-10.2884" radius="3" width="0" layer="40"/>
-<circle x="-10.2884" y="-10.2884" radius="3" width="0" layer="41"/>
-<circle x="-10.2884" y="-10.2884" radius="3" width="0" layer="42"/>
-<circle x="0" y="0" radius="13" width="0" layer="39"/>
-<circle x="0" y="0" radius="8.72" width="0" layer="40"/>
-<text x="0" y="8.89" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center">&gt;NAME</text>
-<text x="0" y="13.97" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="MOLEX_MICROFIT_PTH_VERTICAL_04_DUAL">
-<description>4 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0430450414"&gt;Part&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430450414_sd.pdf"&gt;Footprint&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430250400_sd.pdf"&gt;Plug Size&lt;/a&gt;</description>
-<pad name="2" x="-1.4986" y="-2.9972" drill="1.0668"/>
-<pad name="1" x="1.4986" y="-2.9972" drill="1.0668"/>
-<hole x="4.4958" y="0.9398" drill="1.0668"/>
-<hole x="-4.4958" y="0.9398" drill="1.0668"/>
-<wire x1="-4.826" y1="-5.461" x2="4.826" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="4.826" y1="-5.461" x2="4.826" y2="1.905" width="0.127" layer="21"/>
-<wire x1="4.826" y1="1.905" x2="1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="1.905" x2="-1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-4.826" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-4.826" y1="1.905" x2="-4.826" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="1.9304" y2="3.302" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="3.302" x2="1.9304" y2="1.905" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="-1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="5.969" x2="1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="1.9304" y1="5.969" x2="1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<rectangle x1="-5.5626" y1="-5.842" x2="5.5626" y2="2.286" layer="39"/>
-<rectangle x1="-2.54" y1="2.286" x2="2.54" y2="6.35" layer="39"/>
-<rectangle x1="-5.5626" y1="-5.842" x2="5.5626" y2="2.286" layer="40"/>
-<text x="0" y="-6.477" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-<pad name="3" x="1.4986" y="0" drill="1.0668"/>
-<pad name="4" x="-1.4986" y="0" drill="1.0668"/>
-</package>
-<package name="SOT223">
-<description>SOT223
+<package name="SOT-223">
+<description>SOT-223
 &lt;br&gt;
 &lt;a href="https://www.diodes.com/assets/Package-Files/SOT223.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
@@ -5852,14 +5687,16 @@ Based on page 10.</description>
 <wire x1="3.275" y1="-1.775" x2="-3.275" y2="-1.775" width="0.127" layer="21"/>
 <wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.127" layer="21"/>
 <rectangle x1="-3.81" y1="-4.445" x2="3.81" y2="4.445" layer="39"/>
+<circle x="-3.556" y="-3.2" radius="0.15875" width="0" layer="21"/>
 </package>
-<package name="MICRO_MINIATURE">
+<package name="5015">
 <description>Keystone Micro-Miniature SMD Test Point
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
+<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
 </package>
 <package name="MOLEX_MICROFIT_PTH_VERTICAL_06_SINGLE_SPACED">
 <description>6 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
@@ -6076,6 +5913,133 @@ Dashed line is edge of mated connector.</description>
 <text x="0" y="1.524" size="0.8128" layer="21" font="vector" align="bottom-center">+ -</text>
 <circle x="-2.032" y="1.778" radius="0.127" width="0" layer="21"/>
 </package>
+<package name="MST_250">
+<description>Footprint for Schurter MST 250 Series fuse.&lt;br&gt;
+&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_MST_250-1772502.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pad name="1" x="-2.54" y="0" drill="1"/>
+<pad name="2" x="2.54" y="0" drill="1"/>
+<text x="0" y="4.445" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="4.2418" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.2418" width="0" layer="39"/>
+<circle x="0" y="0" radius="4.2418" width="0" layer="40"/>
+</package>
+<package name="OMF_125">
+<description>Footprint for Schurter OMF 125 Series Fuse.&lt;br&gt;
+&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_OMF_125-1275954.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-3.25" y="0" dx="3" dy="2.8" layer="1"/>
+<smd name="2" x="3.25" y="0" dx="3" dy="2.8" layer="1"/>
+<wire x1="-3.7" y1="1.6" x2="-3.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-1.6" x2="3.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-1.6" x2="3.7" y2="1.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="1.6" x2="-3.7" y2="1.6" width="0.127" layer="21"/>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-5.08" y1="-1.905" x2="5.08" y2="1.905" layer="39"/>
+<rectangle x1="-1.75" y1="-1.905" x2="1.75" y2="1.905" layer="43"/>
+<rectangle x1="-1.75" y1="-1.905" x2="1.75" y2="1.905" layer="41"/>
+</package>
+<package name="0603-FUSE">
+<description>&lt;ul&gt;&lt;li&gt;&lt;a href = "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"&gt;C2F 0603 Fuse Footprint Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+<smd name="1" x="-0.8382" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="0.8382" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90" thermals="no"/>
+<rectangle x1="-1.524" y1="-1.016" x2="1.524" y2="1.016" layer="39"/>
+<wire x1="-0.8128" y1="0.4064" x2="0.8128" y2="0.4064" width="0.127" layer="21"/>
+<wire x1="0.8128" y1="0.4064" x2="0.8128" y2="-0.4064" width="0.127" layer="21"/>
+<wire x1="0.8128" y1="-0.4064" x2="-0.8128" y2="-0.4064" width="0.127" layer="21"/>
+<wire x1="-0.8128" y1="-0.4064" x2="-0.8128" y2="0.4064" width="0.127" layer="21"/>
+<text x="0" y="1.016" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="2220-CAP">
+<description>2220 Cap
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/website/yageo_UPY-C_GEN_26_20092411_950.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.knowlescapacitors.com/getattachment/fe7386b2-d58d-4a83-96e0-cf03dfba634f/Safety-Cap.aspx"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-2.775" y="0" dx="1.05" dy="5.3" layer="1"/>
+<smd name="2" x="2.775" y="0" dx="1.05" dy="5.3" layer="1"/>
+<text x="0" y="2.95" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.85" y1="2.5" x2="2.85" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.85" y1="2.5" x2="2.85" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.85" y1="-2.5" x2="-2.85" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.85" y1="-2.5" x2="-2.85" y2="2.5" width="0.127" layer="21"/>
+<rectangle x1="-3.5" y1="-2.95" x2="3.5" y2="2.95" layer="39"/>
+</package>
+<package name="0805-CAP">
+<description>0805 Cap
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/website/yageo_UPY-C_GEN_26_20092411_950.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-0.925" y="0" dx="0.95" dy="1.4" layer="1"/>
+<smd name="2" x="0.925" y="0" dx="0.95" dy="1.4" layer="1"/>
+<text x="0" y="1.05" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
+<rectangle x1="-1.6" y1="-1.05" x2="1.6" y2="1.05" layer="39"/>
+</package>
+<package name="1206-CAP">
+<description>1206 Cap
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/website/yageo_UPY-C_GEN_26_20092411_950.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-1.5" y="0" dx="1" dy="1.8" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1" dy="1.8" layer="1"/>
+<text x="0" y="1.25" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<rectangle x1="-2.2" y1="-1.25" x2="2.2" y2="1.25" layer="39"/>
+</package>
+<package name="SOT-89">
+<description>SOT-89
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/308/1/NCP785A_D-2317346.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+Based on page 10.</description>
+<smd name="2" x="0" y="-0.355" dx="0.58" dy="0.86" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
+<smd name="3" x="1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
+<wire x1="-2.3" y1="2.7" x2="2.3" y2="2.7" width="0.127" layer="21"/>
+<wire x1="2.3" y1="2.7" x2="2.3" y2="0.1" width="0.127" layer="21"/>
+<wire x1="2.3" y1="0.1" x2="-2.3" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="0.1" x2="-2.3" y2="2.7" width="0.127" layer="21"/>
+<rectangle x1="-2.54" y1="-1.14" x2="2.54" y2="3.94" layer="39"/>
+<text x="0" y="3.94" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<polygon width="0" layer="1">
+<vertex x="-1" y="3.665"/>
+<vertex x="-1" y="0.785"/>
+<vertex x="-0.29" y="0.075"/>
+<vertex x="-0.29" y="0"/>
+<vertex x="0.29" y="0"/>
+<vertex x="0.29" y="0.075"/>
+<vertex x="1" y="0.785"/>
+<vertex x="1" y="3.665"/>
+</polygon>
+<polygon width="0" layer="31" spacing="0.05" pour="hatch">
+<vertex x="-1" y="3.665"/>
+<vertex x="-1" y="0.785"/>
+<vertex x="-0.29" y="0.075"/>
+<vertex x="-0.29" y="0"/>
+<vertex x="0.29" y="0"/>
+<vertex x="0.29" y="0.075"/>
+<vertex x="1" y="0.785"/>
+<vertex x="1" y="3.665"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.1" pour="hatch">
+<vertex x="-1.1" y="3.765"/>
+<vertex x="-1.1" y="0.714"/>
+<vertex x="-0.361" y="0.004"/>
+<vertex x="-0.29" y="0"/>
+<vertex x="0.29" y="0"/>
+<vertex x="0.361" y="0.004"/>
+<vertex x="1.1" y="0.714"/>
+<vertex x="1.1" y="3.765"/>
+</polygon>
+<circle x="-2.3" y="-0.508" radius="0.15875" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -6237,22 +6201,6 @@ Dashed line is edge of mated connector.</description>
 <wire x1="3.81" y1="-20.32" x2="5.08" y2="-20.32" width="0.6096" layer="94"/>
 <text x="0" y="-23.495" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
-<symbol name="CONNECTOR_04">
-<wire x1="7.62" y1="-12.7" x2="0" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
-<text x="0" y="-13.335" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
-<pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="10.16" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="10.16" y="-10.16" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="DIODE_TVS_UNIDIRECTIONAL">
 <wire x1="0" y1="1.016" x2="0" y2="-0.762" width="0.1524" layer="94"/>
 <pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
@@ -6273,19 +6221,21 @@ Dashed line is edge of mated connector.</description>
 <wire x1="0.254" y1="-1.016" x2="0.508" y2="-1.27" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="VOLTAGE_REGULATOR">
-<wire x1="0" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="0" width="0.254" layer="94"/>
+<description>This symbol is not fully style guide compliant, but it was intentionally done to be 0.3" spacing between the pins and easier reading of the small symbol.</description>
+<wire x1="0" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="0" width="0.254" layer="94"/>
 <wire x1="15.24" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
-<pin name="GND" x="7.62" y="-12.7" length="short" direction="pwr" rot="R90"/>
+<wire x1="0" y1="0" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<pin name="GND" x="7.62" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
 <pin name="IN" x="-2.54" y="-2.54" length="short" direction="pwr"/>
-<pin name="OUT" x="17.78" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="OUT" x="17.78" y="-2.54" length="short" direction="sup" rot="R180"/>
 <text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
-<text x="8.89" y="-10.922" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<text x="8.89" y="-8.382" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<text x="7.62" y="-6.35" size="1.524" layer="95" align="bottom-center">GND</text>
 </symbol>
 <symbol name="TEST_POINT">
 <circle x="-1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<pin name="P$1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="-2.54" y="1.778" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-1.778" size="1.27" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
@@ -6312,57 +6262,103 @@ Dashed line is edge of mated connector.</description>
 <deviceset name="FUSE_?_*" prefix="F">
 <description>Fuse
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;0885 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;885 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_MST_250-1772502.pdf"&gt;MST 250 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_OMF_125-1275954.pdf"&gt;OMF 125 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/643/ds-CP-c2f-series-1291054.pdf"&gt;0686F0750-01&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0885" package="0885">
+<device name="885" package="885">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="1">
-<attribute name="CURRENT" value="1A" constant="no"/>
-<attribute name="DKPN" value="F10985TR-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
-<attribute name="MOPN" value="576-0885001DR" constant="no"/>
-<attribute name="MPN" value="0885001DR" constant="no"/>
-<attribute name="VOLTAGE" value="500V" constant="no"/>
-</technology>
-<technology name="1.25">
+<technology name="1.25A">
 <attribute name="CURRENT" value="1.25A"/>
 <attribute name="DKPN" value="F10986CT-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="1.25"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc."/>
 <attribute name="MOPN" value="576-08851.25DR"/>
 <attribute name="MPN" value="08851.25DR"/>
 <attribute name="VOLTAGE" value="500V"/>
 </technology>
-<technology name="1.6">
+<technology name="1.6A">
 <attribute name="CURRENT" value="1.6A"/>
 <attribute name="DKPN" value="F10987CT-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="2.30"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc."/>
 <attribute name="MOPN" value="576-088501.6DR"/>
 <attribute name="MPN" value="088501.6DR"/>
 <attribute name="VOLTAGE" value="500V"/>
 </technology>
+<technology name="1A">
+<attribute name="CURRENT" value="1A"/>
+<attribute name="DKPN" value="F10985CT-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="0.80"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MOPN" value="576-0885001.DR"/>
+<attribute name="MPN" value="0885001.DR"/>
+<attribute name="VOLTAGE" value="500V"/>
+</technology>
 </technologies>
 </device>
-<device name="MB" package="MINI-BLADE_FUSE_HOLDER">
+<device name="MST_250" package="MST_250">
 <connects>
-<connect gate="G$1" pin="1" pad="L1 L2"/>
-<connect gate="G$1" pin="2" pad="R1 R2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="10">
-<attribute name="CURRENT" value="10A" constant="no"/>
-<attribute name="DKPN" value="F991-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
-<attribute name="MOPN" value="576-0297010.WXNV" constant="no"/>
-<attribute name="MPN" value="0297010.WXNV" constant="no"/>
-<attribute name="VOLTAGE" value="32V" constant="no"/>
+<technology name=".8A">
+<attribute name="CURRENT" value="800mA"/>
+<attribute name="DKPN" value="486-1470-ND"/>
+<attribute name="FUSE_TYPE" value="THT"/>
+<attribute name="I2T" value="8"/>
+<attribute name="MANUFACTURER" value="Schurter Inc."/>
+<attribute name="MOPN" value="693-0034.6614"/>
+<attribute name="MPN" value="0034.6614"/>
+<attribute name="VOLTAGE" value="63V"/>
+</technology>
+</technologies>
+</device>
+<device name="OMF_125" package="OMF_125">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=".63A">
+<attribute name="CURRENT" value="630mA"/>
+<attribute name="DKPN" value="486-2997-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="0.02"/>
+<attribute name="MANUFACTURER" value="Schurter Inc."/>
+<attribute name="MOPN" value="693-3404.0008.11"/>
+<attribute name="MPN" value="3404.0008.11"/>
+<attribute name="VOLTAGE" value="125V"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="0603-FUSE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=".75A">
+<attribute name="CURRENT" value="0.75A"/>
+<attribute name="DKPN" value="507-2159-2-ND"/>
+<attribute name="I2T" value="0.0013"/>
+<attribute name="MANUFACTURER" value="Bel Fuse"/>
+<attribute name="MOPN" value="530-0686F0750-01"/>
+<attribute name="MPN" value="0686F0750-01"/>
+<attribute name="VOLTAGE" value="63V"/>
 </technology>
 </technologies>
 </device>
@@ -6381,6 +6377,10 @@ Dashed line is edge of mated connector.</description>
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C328-1530132.pdf"&gt;ERJ PB3, PB6 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf"&gt;ERJ  PA2, P03, PA3, P06, P08, P14 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.ohmite.com/assets/docs/res_200.pdf?r=false"&gt;B20 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/418/4/NG_DS_1773270_M-604713.pdf"&gt;TE Connectivity/Holsworthy RN73 Series&lt;a/&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"&gt;Vishay Dale D/CRCW e3&lt;a/&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
@@ -6430,8 +6430,30 @@ Dashed line is edge of mated connector.</description>
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="0.5"/>
 <attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value=""/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.22V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="1.13K">
+<attribute name="DKPN" value="P1.13KHCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-3EKF1131V"/>
+<attribute name="MPN" value="ERJ-3EKF1131V"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="1.13k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="1.13M">
+<attribute name="DKPN" value="541-1.13MHCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="MOPN" value="71-CRCW06031M13FKEA"/>
+<attribute name="MPN" value="CRCW06031M13FKEA"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="1.13M"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
+<attribute name="VOLTAGE_MAX" value="100V"/>
 </technology>
 <technology name="1.24K">
 <attribute name="DKPN" value="311-1.24KHRCT-ND"/>
@@ -6609,6 +6631,17 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="34.64V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="13">
+<attribute name="DKPN" value="P122724CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-1GNF13R0C"/>
+<attribute name="MPN" value="ERJ-1GNF13R0C"/>
+<attribute name="POWER" value="0.05W"/>
+<attribute name="RESISTANCE" value="13"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="25V"/>
+<attribute name="VOLTAGE_MAX" value="50V"/>
+</technology>
 <technology name="13.3K">
 <attribute name="DKPN" value="P20099TR-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -6617,19 +6650,19 @@ Dashed line is edge of mated connector.</description>
 <attribute name="POWER" value="0.2W"/>
 <attribute name="RESISTANCE" value="13.3k"/>
 <attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="" constant="no"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="51.58V"/>
 <attribute name="VOLTAGE_MAX" value="75k"/>
 </technology>
 <technology name="13K">
-<attribute name="DKPN" value="P20098TR-ND"/>
+<attribute name="DKPN" value="P13KBECT-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-PB3B1302V"/>
-<attribute name="MPN" value=" ERJ-PB3B1302V"/>
+<attribute name="MOPN" value="667-ERA-3ARW133V"/>
+<attribute name="MPN" value="ERA-3ARW133V"/>
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="13k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="36.05V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
+<attribute name="TOLERANCE" value="0.05%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
 <technology name="15">
 <attribute name="DKPN" value="541-15.0STR-ND"/>
@@ -6895,6 +6928,17 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="19.75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="30.9K">
+<attribute name="DKPN" value="P20140CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B3092V"/>
+<attribute name="MPN" value="ERJ-PB3B3092V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="30.9k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
 <technology name="30K">
 <attribute name="DKPN" value="P30KBDCT-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -6991,7 +7035,7 @@ Dashed line is edge of mated connector.</description>
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="39"/>
 <attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="" constant="no"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="1.97V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="4.12K">
@@ -7026,6 +7070,28 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="6.34V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="41.2">
+<attribute name="DKPN" value="P123000CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-1GNF41R2C"/>
+<attribute name="MPN" value="ERJ-1GNF41R2C"/>
+<attribute name="POWER" value="0.05W"/>
+<attribute name="RESISTANCE" value="41.2"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="25V"/>
+<attribute name="VOLTAGE_MAX" value="50V"/>
+</technology>
+<technology name="41.2K">
+<attribute name="DKPN" value="P20155CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B4122V"/>
+<attribute name="MPN" value=" ERJ-PB3B4122V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="41.2k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
 </technology>
 <technology name="43K">
 <attribute name="DKPN" value="311-43.0KHRCT-ND"/>
@@ -7070,6 +7136,28 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="22.58V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="5.49">
+<attribute name="DKPN" value="A124665CT-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MOPN" value="279-RN73C1J5R49BTD"/>
+<attribute name="MPN" value="RN73C1J5R49BTD"/>
+<attribute name="POWER" value="0.0625W"/>
+<attribute name="RESISTANCE" value="5.49"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="50V"/>
+<attribute name="VOLTAGE_MAX" value="100V"/>
+</technology>
+<technology name="5.49K">
+<attribute name="DKPN" value="P20367CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3D5491V"/>
+<attribute name="MPN" value="ERJ-PB3D5491V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="5.49k"/>
+<attribute name="TOLERANCE" value="0.5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
 </technology>
 <technology name="5.9K">
 <attribute name="DKPN" value="P5.9KDBCT-ND"/>
@@ -7200,7 +7288,7 @@ Dashed line is edge of mated connector.</description>
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="750k"/>
 <attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="" constant="no"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="273.86V"/>
 <attribute name="VOLTAGE_MAX" value="350V"/>
 </technology>
 <technology name="HV75K">
@@ -7211,7 +7299,7 @@ Dashed line is edge of mated connector.</description>
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="75k"/>
 <attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="" constant="no"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="86.60V"/>
 <attribute name="VOLTAGE_MAX" value="350V"/>
 </technology>
 </technologies>
@@ -7241,6 +7329,17 @@ Dashed line is edge of mated connector.</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="0.62">
+<attribute name="DKPN" value="311-.62SCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RL0805FR-070R62L"/>
+<attribute name="MPN" value="RL0805FR-070R62L"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="0.62"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.28V"/>
+<attribute name="VOLTAGE_MAX" value="0.70V"/>
+</technology>
 <technology name="1">
 <attribute name="DKPN" value="P1.0DTR-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -7273,6 +7372,28 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="55.68V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="14.3K">
+<attribute name="DKPN" value="P14.3KCCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-6ENF1432V"/>
+<attribute name="MPN" value="ERJ-6ENF1432V"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="14.3k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
+<technology name="19.1K">
+<attribute name="DKPN" value="P19.1KCCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-6ENF1912V"/>
+<attribute name="MPN" value="ERJ-6ENF1912V"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="19.1k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
 </technology>
 <technology name="1M">
 <attribute name="DKPN" value="P20936TR-ND"/>
@@ -7307,6 +7428,28 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="3.32V"/>
 <attribute name="VOLTAGE_MAX" value="400V"/>
 </technology>
+<technology name="31.6K">
+<attribute name="DKPN" value="541-31.6KSCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="MOPN" value="71-CRCW060331K6FKEAH"/>
+<attribute name="MPN" value="CRCW060331K6FKEAHP"/>
+<attribute name="POWER" value="0.33W"/>
+<attribute name="RESISTANCE" value="31.6k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
+<technology name="36">
+<attribute name="DKPN" value="P36ADTR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-P06J360V"/>
+<attribute name="MPN" value="ERJ-P06J360V"/>
+<attribute name="POWER" value="0.5W"/>
+<attribute name="RESISTANCE" value="36"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="4.243V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
 <technology name="365K">
 <attribute name="DKPN" value="P20885CT-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -7317,6 +7460,17 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="5.1">
+<attribute name="DKPN" value="P19237TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-6DQJ5R1V"/>
+<attribute name="MPN" value="ERJ-6DQJ5R1V"/>
+<attribute name="POWER" value="0.5W"/>
+<attribute name="RESISTANCE" value="5.1"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="1.597V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
 </technology>
 <technology name="5.9K">
 <attribute name="DKPN" value="P20174TR-ND "/>
@@ -7350,6 +7504,28 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="5.29V"/>
 <attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
+<technology name="931K">
+<attribute name="DKPN" value="P20933CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB6B9313V"/>
+<attribute name="MPN" value="ERJ-PB6B9313V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="931k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
+<technology name="953K">
+<attribute name="DKPN" value="P953KCCT-ND "/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-6ENF9533V"/>
+<attribute name="MPN" value="ERJ-6ENF9533V"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="953k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
 </technology>
 <technology name="976K">
 <attribute name="DKPN" value="P20935TR-ND"/>
@@ -7452,6 +7628,7 @@ Dashed line is edge of mated connector.</description>
 &lt;li&gt;&lt;a href="https://www.mouser.com/ProductDetail/TDK/C3216X5R1V226M160AC?qs=%2Fha2pyFadujbcx9jh7lYl%2F4NeMoXFhdc8AqVWNq4wW6M2y7zl6GzBuhgtI0ngznN"&gt;TDK C Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/40/AutoMLCC-777028.pdf"&gt;AVX Automotive MLCC&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"&gt; KEMET X7R Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/40/C0GNP0_Dielectric-951274.pdf"&gt;Kyocera AVX&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
@@ -7480,6 +7657,15 @@ Dashed line is edge of mated connector.</description>
 <attribute name="MPN" value="CC0603KRX7R0BB103"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="10V_0.082UF">
+<attribute name="CAPACITANCE" value="0.082µF"/>
+<attribute name="DKPN" value="399-17417-2-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOPN" value="80-C0603C823K8R"/>
+<attribute name="MPN" value="C0603C823K8RACTU"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </technology>
 <technology name="10V_0.1UF">
 <attribute name="CAPACITANCE" value="0.1µF"/>
@@ -7571,6 +7757,24 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </technology>
+<technology name="10V_68NF">
+<attribute name="CAPACITANCE" value="68nF"/>
+<attribute name="DKPN" value="399-C0603C683K8RAC7867CT-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOPN" value="80-C0603C683K8R"/>
+<attribute name="MPN" value="C0603C683K8RACTU"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</technology>
+<technology name="10V_82PF">
+<attribute name="CAPACITANCE" value="82pF"/>
+<attribute name="DKPN" value="478-1025-1-ND"/>
+<attribute name="MANUFACTURER" value="Kyocera AVX"/>
+<attribute name="MOPN" value="581-0201ZA820JAT2A"/>
+<attribute name="MPN" value="0201ZA820JAT2A"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</technology>
 <technology name="25V_0.1UF">
 <attribute name="CAPACITANCE" value="0.1µF"/>
 <attribute name="DKPN" value="1276-1006-1-ND"/>
@@ -7589,6 +7793,15 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </technology>
+<technology name="25V_1.2NF">
+<attribute name="CAPACITANCE" value="1.2nF"/>
+<attribute name="DKPN" value="311-4079-2-ND"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MOPN" value="603-CC603KRX7R8BB122 "/>
+<attribute name="MPN" value="CC0603KRX7R8BB122"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
 <technology name="25V_10UF">
 <attribute name="CAPACITANCE" value="10µF"/>
 <attribute name="DKPN" value="490-7202-1-ND"/>
@@ -7604,6 +7817,15 @@ Dashed line is edge of mated connector.</description>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MOPN" value="187-CL10B105KA8NNNC"/>
 <attribute name="MPN" value="CL10B105KA8NNNC"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="25V_47NF">
+<attribute name="CAPACITANCE" value="47nF"/>
+<attribute name="DKPN" value="478-6340-1-ND"/>
+<attribute name="MANUFACTURER" value="Kyocera AVX"/>
+<attribute name="MOPN" value="581-06033C473K42ZA"/>
+<attribute name="MPN" value="06033C473K4Z2A"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </technology>
@@ -7670,7 +7892,7 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE" value="250V"/>
 </technology>
 <technology name="630V_0.1UF">
-<attribute name="CAPACITANCE" value="0.1uF"/>
+<attribute name="CAPACITANCE" value="0.1μF"/>
 <attribute name="DKPN" value="445-11980-2-ND"/>
 <attribute name="MANUFACTURER" value="TDK Coporation"/>
 <attribute name="MOPN" value="810-C5750CH2J104K2KC"/>
@@ -7731,13 +7953,22 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE" value="100V"/>
 </technology>
 <technology name="250V_0.1UF">
-<attribute name="CAPACITANCE" value="0.1uF"/>
+<attribute name="CAPACITANCE" value="0.1μF"/>
 <attribute name="DKPN" value="445-6079-2-ND"/>
 <attribute name="MANUFACTURER" value="TDK Corporation"/>
 <attribute name="MOPN" value="810-C3216X7R2E104KT5"/>
 <attribute name="MPN" value="C3216X7R2E104K160AM"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="250V"/>
+</technology>
+<technology name="25V_33UF">
+<attribute name="CAPACITANCE" value="33µF"/>
+<attribute name="DKPN" value="445-8046-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-C3216X5R1E336M"/>
+<attribute name="MPN" value="C3216X5R1E336M160AC"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="25V"/>
 </technology>
 <technology name="35V_22UF">
 <attribute name="CAPACITANCE" value="22µF"/>
@@ -7852,6 +8083,13 @@ Dashed line is edge of mated connector.</description>
 <attribute name="MANUFACTURER" value="Lumileds"/>
 <attribute name="MOPN" value="997-L128RED10350"/>
 <attribute name="MPN" value="L128-RED1003500000"/>
+</technology>
+<technology name="RED-ORANGE">
+<attribute name="COLOR" value="Red-Orange"/>
+<attribute name="DKPN" value=""/>
+<attribute name="MANUFACTURER" value="Lumileds"/>
+<attribute name="MOPN" value="997-L128RNG10350 "/>
+<attribute name="MPN" value="L128-RNG1003500000 "/>
 </technology>
 </technologies>
 </device>
@@ -7981,6 +8219,12 @@ ISO224B: High-Grade
 <connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
+<technology name="TK100S04N1LLQ">
+<attribute name="DKPN" value="TK100S04N1LLQCT-ND"/>
+<attribute name="MANUFACTURER" value="Toshiba Semiconductor and Storage"/>
+<attribute name="MOPN" value="757-TK100S04N1LLQ"/>
+<attribute name="MPN" value="TK100S04N1L,LQ"/>
+</technology>
 <technology name="TK6P65W">
 <attribute name="DKPN" value="TK6P65WRQCT-ND"/>
 <attribute name="MANUFACTURER" value="Toshiba Semiconductor and Storage"/>
@@ -8100,41 +8344,6 @@ ISO224B: High-Grade
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONNECTOR-4_?_*" prefix="J">
-<gates>
-<gate name="G$1" symbol="CONNECTOR_04" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOURIAU" package="SOURIAU_12-04">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="Souriau"/>
-<attribute name="MPN" value="8STA21204PN "/>
-</technology>
-</technologies>
-</device>
-<device name="" package="MOLEX_MICROFIT_PTH_VERTICAL_04_DUAL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MPN" value="2068320423"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TVS_*" prefix="D">
 <description>TVS Diode
 &lt;br&gt;
@@ -8164,18 +8373,18 @@ ISO224B: High-Grade
 <attribute name="VOLTAGE" value="4V"/>
 </technology>
 <technology name="5V">
-<attribute name="DKPN" value="GSOT05-E3-08TR-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" constant="no"/>
-<attribute name="MOPN" value="78-GSOT05-E3-08" constant="no"/>
-<attribute name="MPN" value="GSOT05-E3-08" constant="no"/>
-<attribute name="VOLTAGE" value="5V" constant="no"/>
+<attribute name="DKPN" value="GSOT05-E3-08TR-ND"/>
+<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division"/>
+<attribute name="MOPN" value="78-GSOT05-E3-08"/>
+<attribute name="MPN" value="GSOT05-E3-08"/>
+<attribute name="VOLTAGE" value="5V"/>
 </technology>
 <technology name="8V">
-<attribute name="DKPN" value="GSOT08-E3-08TR-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" constant="no"/>
-<attribute name="MOPN" value="78-GSOT08-E3-08" constant="no"/>
-<attribute name="MPN" value="GSOT08-E3-08" constant="no"/>
-<attribute name="VOLTAGE" value="8V" constant="no"/>
+<attribute name="DKPN" value="GSOT08-E3-08TR-ND"/>
+<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division"/>
+<attribute name="MOPN" value="78-GSOT08-E3-08"/>
+<attribute name="MPN" value="GSOT08-E3-08"/>
+<attribute name="VOLTAGE" value="8V"/>
 </technology>
 </technologies>
 </device>
@@ -8186,18 +8395,25 @@ ISO224B: High-Grade
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/389/dm00366442-1799212.pdf"&gt;LDL1117S50R Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/308/NCP785A_D-1812704.pdf"&gt;NCP785AH120T1G&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ti.com/lit/ds/symlink/lms8117a.pdf?HQS"&gt;LMS8117A Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOT223" package="SOT223">
+<device name="SOT-223" package="SOT-223">
 <connects>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="2 4"/>
 </connects>
 <technologies>
+<technology name="3.3V">
+<attribute name="DKPN" value="LMS8117AMP-3.3/NOPBCT-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MOPN" value="926-LMS8117AMP33NOPB"/>
+<attribute name="MPN" value="LMS8117AMP-3.3/NOPB"/>
+</technology>
 <technology name="5V">
 <attribute name="DKPN" value="497-17240-1-ND"/>
 <attribute name="MANUFACTURER" value="STMicroelectronics"/>
@@ -8206,7 +8422,7 @@ ISO224B: High-Grade
 </technology>
 </technologies>
 </device>
-<device name="SOT89" package="SOT89">
+<device name="SOT-89" package="SOT-89">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
@@ -8230,15 +8446,15 @@ ISO224B: High-Grade
 </devices>
 </deviceset>
 <deviceset name="TEST_POINT" prefix="TP">
-<description>Test Point
+<description>Test Point for Probing
 &lt;br&gt;</description>
 <gates>
 <gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MICRO_MINIATURE">
+<device name="" package="5015">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="1" pad="1"/>
 </connects>
 <technologies>
 <technology name="">
@@ -8563,8 +8779,8 @@ ISO224B: High-Grade
 <wire x1="15.24" y1="0" x2="15.24" y2="-17.78" width="0.1524" layer="94"/>
 <wire x1="15.24" y1="-17.78" x2="0" y2="-17.78" width="0.1524" layer="94"/>
 <wire x1="0" y1="-17.78" x2="0" y2="0" width="0.1524" layer="94"/>
-<text x="0" y="0" size="1.27" layer="95">&gt;NAME</text>
-<text x="0" y="-17.78" size="1.27" layer="95" align="top-left">&gt;MPN</text>
+<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-18.542" size="1.27" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -8701,7 +8917,9 @@ ISO224B: High-Grade
 <attribute name="MPN" value="0297010.WXNV"/>
 </technology>
 <technology name="MINI_BLADE_2">
+<attribute name="CURRENT" value="2A"/>
 <attribute name="DKPN" value="F986-ND"/>
+<attribute name="FUSE_TYPE" value="MINI 297"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc."/>
 <attribute name="MOPN" value="576-0297002.WXNV"/>
 <attribute name="MPN" value="0297002.WXNV"/>
@@ -8807,7 +9025,7 @@ ISO224B: High-Grade
 <part name="J4" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="S" technology="S"/>
 <part name="P39" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$32" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
-<part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1.25"/>
+<part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="885" technology="1.25A"/>
 <part name="P44" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="U$36" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="FRAME5" library="HyTechFrames" deviceset="FRAME" device="">
@@ -8835,11 +9053,10 @@ ISO224B: High-Grade
 <part name="C15" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="C16" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="U$40" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
-<part name="J1" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device=""/>
 <part name="U$2" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="D5" library="HyTechDevices" deviceset="TVS_*" device="" technology="8V" value="TVS_8V"/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="U4" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT223" technology="5V"/>
+<part name="U4" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-223" technology="5V"/>
 <part name="C104" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF"/>
 <part name="C101" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
 <part name="P3" library="HyTechSupplies" deviceset="+12V" device=""/>
@@ -8856,8 +9073,6 @@ ISO224B: High-Grade
 <part name="TP14" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP16" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP17" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="P8" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P9" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P10" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -8885,7 +9100,7 @@ ISO224B: High-Grade
 <part name="C100" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
 <part name="C105" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P14" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
-<part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1.25"/>
+<part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="885" technology="1.25A"/>
 <part name="P12" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="P15" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="P16" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
@@ -9117,7 +9332,7 @@ Undervoltage: 56V</text>
 <nets>
 <net name="LR8_O" class="0">
 <segment>
-<pinref part="TP9" gate="G$1" pin="P$1"/>
+<pinref part="TP9" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="185.42" x2="45.72" y2="185.42" width="0.1524" layer="91"/>
 <label x="45.72" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -9258,7 +9473,7 @@ Undervoltage: 56V</text>
 <label x="55.88" y="66.04" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="TP13" gate="G$1" pin="P$1"/>
+<pinref part="TP13" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
 <label x="45.72" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -9276,7 +9491,7 @@ Undervoltage: 56V</text>
 <label x="58.42" y="129.54" size="1.27" layer="95"/>
 </segment>
 <segment>
-<pinref part="TP12" gate="G$1" pin="P$1"/>
+<pinref part="TP12" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="177.8" x2="45.72" y2="177.8" width="0.1524" layer="91"/>
 <label x="45.72" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -9465,9 +9680,6 @@ Undervoltage: 56V</text>
 <instance part="U$36" gate="G$1" x="246.38" y="104.14" smashed="yes">
 <attribute name="VALUE" x="246.38" y="109.22" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="J1" gate="G$1" x="35.56" y="109.22" smashed="yes">
-<attribute name="NAME" x="35.56" y="109.982" size="1.27" layer="95"/>
-</instance>
 <instance part="D5" gate="G$1" x="149.86" y="124.46" smashed="yes" rot="MR90">
 <attribute name="NAME" x="151.765" y="123.19" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="147.955" y="123.19" size="1.27" layer="96" rot="MR90" align="top-center"/>
@@ -9536,14 +9748,6 @@ Undervoltage: 56V</text>
 <instance part="TP17" gate="G$1" x="116.84" y="170.18" smashed="yes">
 <attribute name="NAME" x="114.3" y="171.958" size="1.27" layer="95"/>
 <attribute name="MPN" x="114.3" y="168.402" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="TP1" gate="G$1" x="53.34" y="93.98" smashed="yes">
-<attribute name="NAME" x="50.8" y="95.758" size="1.27" layer="95"/>
-<attribute name="MPN" x="50.8" y="92.202" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="TP2" gate="G$1" x="53.34" y="86.36" smashed="yes">
-<attribute name="NAME" x="50.8" y="88.138" size="1.27" layer="95"/>
-<attribute name="MPN" x="50.8" y="84.582" size="1.27" layer="95" align="top-left"/>
 </instance>
 <instance part="P8" gate="1" x="86.36" y="175.26" smashed="yes">
 <attribute name="VALUE" x="86.36" y="173.99" size="1.27" layer="96" align="top-center"/>
@@ -9758,7 +9962,7 @@ Undervoltage: 56V</text>
 <wire x1="30.48" y1="124.46" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="121.92" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="GND"/>
-<wire x1="45.72" y1="121.92" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="121.92" x2="45.72" y2="127" width="0.1524" layer="91"/>
 <pinref part="C101" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="121.92" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
@@ -9782,7 +9986,7 @@ Undervoltage: 56V</text>
 <junction x="71.12" y="121.92"/>
 </segment>
 <segment>
-<pinref part="TP22" gate="G$1" pin="P$1"/>
+<pinref part="TP22" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="177.8" x2="86.36" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="P8" gate="1" pin="GND"/>
 </segment>
@@ -9850,7 +10054,7 @@ Undervoltage: 56V</text>
 <label x="48.26" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TP18" gate="G$1" pin="P$1"/>
+<pinref part="TP18" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
 <label x="86.36" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -9871,7 +10075,7 @@ Undervoltage: 56V</text>
 <junction x="71.12" y="134.62"/>
 </segment>
 <segment>
-<pinref part="TP20" gate="G$1" pin="P$1"/>
+<pinref part="TP20" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="185.42" x2="86.36" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="P10" gate="1" pin="+5V"/>
 </segment>
@@ -9916,7 +10120,7 @@ Undervoltage: 56V</text>
 <label x="48.26" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TP21" gate="G$1" pin="P$1"/>
+<pinref part="TP21" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="162.56" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 <label x="91.44" y="162.56" size="1.27" layer="95" xref="yes"/>
 <wire x1="88.9" y1="162.56" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
@@ -9948,7 +10152,7 @@ Undervoltage: 56V</text>
 <junction x="233.68" y="101.6"/>
 </segment>
 <segment>
-<pinref part="TP10" gate="G$1" pin="P$1"/>
+<pinref part="TP10" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="96.52" x2="205.74" y2="96.52" width="0.6096" layer="91"/>
 <pinref part="P11" gate="G$1" pin="TS+UNFUSED"/>
 </segment>
@@ -9974,7 +10178,7 @@ Undervoltage: 56V</text>
 <pinref part="R22" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="TP8" gate="G$1" pin="P$1"/>
+<pinref part="TP8" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="172.72" x2="208.28" y2="172.72" width="0.6096" layer="91"/>
 <label x="208.28" y="172.72" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -9999,7 +10203,7 @@ Undervoltage: 56V</text>
 <label x="187.96" y="167.64" size="1.27" layer="95" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TP6" gate="G$1" pin="P$1"/>
+<pinref part="TP6" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="180.34" x2="208.28" y2="180.34" width="0.6096" layer="91"/>
 <label x="208.28" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -10012,7 +10216,7 @@ Undervoltage: 56V</text>
 </net>
 <net name="IP+" class="0">
 <segment>
-<pinref part="TP15" gate="G$1" pin="P$1"/>
+<pinref part="TP15" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="193.04" x2="121.92" y2="193.04" width="0.1524" layer="91"/>
 <label x="121.92" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -10024,7 +10228,7 @@ Undervoltage: 56V</text>
 </net>
 <net name="IP-" class="0">
 <segment>
-<pinref part="TP14" gate="G$1" pin="P$1"/>
+<pinref part="TP14" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="185.42" x2="119.38" y2="185.42" width="0.1524" layer="91"/>
 <label x="121.92" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -10036,7 +10240,7 @@ Undervoltage: 56V</text>
 </net>
 <net name="IT+" class="0">
 <segment>
-<pinref part="TP16" gate="G$1" pin="P$1"/>
+<pinref part="TP16" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="177.8" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
 <label x="121.92" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -10048,7 +10252,7 @@ Undervoltage: 56V</text>
 </net>
 <net name="IT-" class="0">
 <segment>
-<pinref part="TP17" gate="G$1" pin="P$1"/>
+<pinref part="TP17" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="170.18" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
 <label x="121.92" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -10056,40 +10260,6 @@ Undervoltage: 56V</text>
 <pinref part="J4" gate="G$1" pin="8"/>
 <wire x1="45.72" y1="172.72" x2="48.26" y2="172.72" width="0.1524" layer="91"/>
 <label x="48.26" y="172.72" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="DCDC+" class="0">
-<segment>
-<label x="48.26" y="106.68" size="1.27" layer="95" xref="yes"/>
-<wire x1="45.72" y1="106.68" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="TP1" gate="G$1" pin="P$1"/>
-<wire x1="55.88" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
-<label x="58.42" y="93.98" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="45.72" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91" style="longdash"/>
-<label x="48.26" y="101.6" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="DCDC-" class="0">
-<segment>
-<label x="48.26" y="99.06" size="1.27" layer="95" xref="yes"/>
-<wire x1="45.72" y1="99.06" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="4"/>
-</segment>
-<segment>
-<pinref part="TP2" gate="G$1" pin="P$1"/>
-<wire x1="55.88" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
-<label x="58.42" y="86.36" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91" style="longdash"/>
-<label x="48.26" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TSMP+" class="0">
@@ -10100,7 +10270,7 @@ Undervoltage: 56V</text>
 </segment>
 <segment>
 <label x="243.84" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="TP4" gate="G$1" pin="P$1"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="93.98" x2="243.84" y2="88.9" width="0.6096" layer="91"/>
 <wire x1="243.84" y1="88.9" x2="248.92" y2="88.9" width="0.6096" layer="91"/>
 </segment>
@@ -10113,7 +10283,7 @@ Undervoltage: 56V</text>
 </segment>
 <segment>
 <label x="243.84" y="76.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="TP5" gate="G$1" pin="P$1"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="76.2" x2="243.84" y2="81.28" width="0.6096" layer="91"/>
 <wire x1="243.84" y1="81.28" x2="248.92" y2="81.28" width="0.6096" layer="91"/>
 </segment>
@@ -10144,7 +10314,7 @@ Undervoltage: 56V</text>
 <pinref part="P3" gate="1" pin="+12V"/>
 </segment>
 <segment>
-<pinref part="TP19" gate="G$1" pin="P$1"/>
+<pinref part="TP19" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="193.04" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="P9" gate="1" pin="+12V"/>
 </segment>
@@ -10173,7 +10343,7 @@ Undervoltage: 56V</text>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="198.12" x2="236.22" y2="198.12" width="0.6096" layer="91"/>
 <pinref part="U$21" gate="G$1" pin="TS+5V"/>
-<pinref part="TP3" gate="G$1" pin="P$1"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="198.12" x2="233.68" y2="198.12" width="0.6096" layer="91"/>
 <junction x="236.22" y="198.12"/>
 </segment>
@@ -10209,7 +10379,7 @@ Undervoltage: 56V</text>
 <wire x1="190.5" y1="71.12" x2="190.5" y2="68.58" width="0.6096" layer="91"/>
 </segment>
 <segment>
-<pinref part="TP11" gate="G$1" pin="P$1"/>
+<pinref part="TP11" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="88.9" x2="205.74" y2="88.9" width="0.6096" layer="91"/>
 <pinref part="P15" gate="G$1" pin="TS-UNFUSED"/>
 </segment>
@@ -10244,7 +10414,7 @@ Undervoltage: 56V</text>
 <junction x="243.84" y="152.4"/>
 </segment>
 <segment>
-<pinref part="TP7" gate="G$1" pin="P$1"/>
+<pinref part="TP7" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="137.16" x2="208.28" y2="137.16" width="0.6096" layer="91"/>
 <pinref part="U$42" gate="G$1" pin="TS-FUSED"/>
 </segment>
