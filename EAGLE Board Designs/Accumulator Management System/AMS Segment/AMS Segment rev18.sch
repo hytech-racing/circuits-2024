@@ -10835,13 +10835,11 @@ We choose to use a 1kΩ for part commonality.</text>
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device="">
 <attribute name="DESCRIPTION_1" value="Uses two LTC6811s to measure 21 cell voltages,"/>
 <attribute name="DESCRIPTION_2" value="temperatures of 8 cells, and two humidity/temperature sensors."/>
-<attribute name="DESIGNER_BOARD" value="Noah Bruckner"/>
-<attribute name="DESIGNER_FURTHER" value="Cody Kaminsky"/>
-<attribute name="DESIGNER_SCHEMATIC" value="Cody Kaminsky"/>
-<attribute name="ENGINEER" value="Cody Kaminsky"/>
-<attribute name="REVIEWER_BOARD" value="Zekun Li"/>
-<attribute name="REVIEWER_FURTHER" value="Arvind Srinivasan"/>
-<attribute name="REVIEWER_SCHEMATIC" value="Ethan Weinstock"/>
+<attribute name="DESIGNER_BOARD" value="Liwei Sun"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
+<attribute name="ENGINEER" value="Liwei Sun"/>
+<attribute name="REVIEWER_BOARD" value="Cody Kaminsky"/>
+<attribute name="REVIEWER_SCHEMATIC" value="Zekun Li"/>
 </part>
 <part name="R48" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP" value="RESISTOR_0603_DNP"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP" value="RESISTOR_0603_DNP"/>

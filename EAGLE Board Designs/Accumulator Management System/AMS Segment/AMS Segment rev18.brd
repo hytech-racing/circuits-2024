@@ -204,11 +204,9 @@
 <wire x1="256.3368" y1="-46.4566" x2="260.7564" y2="-41.9862" width="0.1524" layer="20" locked="yes"/>
 <text x="144.78" y="-23.622" size="1.016" layer="21" font="vector" align="center">HyTech Racing 2022
 AMS Segment rev18
-Designed by Cody Kaminsky,
-Noah Bruckner, and
-Ethan Weinstock
-Based on rev15
-by Arvind Srinivasan
+Designed by Liwei Sun
+Based on AMS Segment rev17
+By Cody Kaminsky
 </text>
 <text x="156.083" y="-69.8754" size="1.1684" layer="21" font="vector" align="bottom-center">IM</text>
 <text x="117.856" y="-69.8754" size="1.1684" layer="21" font="vector" align="bottom-center">IP</text>
