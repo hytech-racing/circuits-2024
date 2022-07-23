@@ -6060,6 +6060,29 @@ Based on page 10.</description>
 <rectangle x1="-9.398" y1="-3.302" x2="9.398" y2="3.302" layer="39"/>
 <text x="0" y="3.302" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="B20">
+<description>Ohmite B20 Resistor</description>
+<wire x1="-25.4" y1="5.555" x2="-25.4" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-5.555" x2="25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-5.555" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="25.4" y2="5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="5.555" x2="-25.4" y2="5.555" width="0.127" layer="21"/>
+<rectangle x1="-38.1" y1="-6.35" x2="38.1" y2="6.35" layer="39"/>
+<text x="0" y="6.985" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<pad name="2" x="-25.4" y="0" drill="1.35"/>
+<pad name="1" x="25.4" y="0" drill="1.35" first="yes"/>
+<hole x="-32.51" y="0" drill="3.74"/>
+<hole x="32.51" y="0" drill="3.74"/>
+<wire x1="-25.4" y1="3.81" x2="-37.211" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-37.211" y1="3.81" x2="-37.211" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-37.211" y1="-3.81" x2="-25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="37.211" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="37.211" y1="3.81" x2="37.211" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="37.211" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-3.81" x2="25.4" y2="3.81" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -6462,6 +6485,8 @@ Based on page 10.</description>
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/418/4/NG_DS_1773270_M-604713.pdf"&gt;TE Connectivity/Holsworthy RN73 Series&lt;a/&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"&gt;Vishay Dale D/CRCW e3&lt;a/&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ohmite.com/assets/docs/res_200.pdf?r=false"&gt;Ohmite B20&lt;a/&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
@@ -7451,6 +7476,36 @@ Based on page 10.</description>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="5.123V"/>
 <attribute name="VOLTAGE_MAX" value="5.123V"/>
+</technology>
+</technologies>
+</device>
+<device name="B20" package="B20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="1.5K">
+<attribute name="DKPN" value="B20J1K5E-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J1K5E"/>
+<attribute name="MPN" value="B20J1K5E"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="1.5K"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="173V"/>
+<attribute name="VOLTAGE_MAX" value="750V"/>
+</technology>
+<technology name="15K">
+<attribute name="DKPN" value="B20J15KE-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J15KE"/>
+<attribute name="MPN" value="B20J15KE"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="15K"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="548V"/>
+<attribute name="VOLTAGE_MAX" value="750V"/>
 </technology>
 </technologies>
 </device>
@@ -9047,6 +9102,11 @@ AB38S-Q
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.3K"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="1.5K"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="1.5K"/>
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="15K"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="15K"/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="15K"/>
 </parts>
 <sheets>
 <sheet>
@@ -9729,8 +9789,8 @@ Undervoltage: 56V</text>
 <attribute name="NAME" x="240.03" y="69.85" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="CURRENT" x="240.03" y="67.31" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P12" gate="G$1" x="190.5" y="66.04" smashed="yes">
-<attribute name="VALUE" x="190.5" y="63.5" size="1.27" layer="96" align="top-center"/>
+<instance part="P12" gate="G$1" x="203.2" y="66.04" smashed="yes">
+<attribute name="VALUE" x="203.2" y="63.5" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P15" gate="G$1" x="205.74" y="86.36" smashed="yes">
 <attribute name="VALUE" x="205.74" y="83.82" size="1.27" layer="96" align="top-center"/>
@@ -9802,6 +9862,26 @@ Undervoltage: 56V</text>
 <instance part="R3" gate="G$1" x="88.9" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.63" y="156.21" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="90.17" y="156.21" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R4" gate="G$1" x="198.12" y="149.86" smashed="yes">
+<attribute name="NAME" x="196.85" y="151.13" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="196.85" y="148.59" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R5" gate="G$1" x="198.12" y="144.78" smashed="yes">
+<attribute name="NAME" x="196.85" y="146.05" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="196.85" y="143.51" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R6" gate="G$1" x="195.58" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="194.31" y="74.93" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="196.85" y="74.93" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R7" gate="G$1" x="190.5" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="189.23" y="74.93" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="191.77" y="74.93" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R8" gate="G$1" x="185.42" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="184.15" y="74.93" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="186.69" y="74.93" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -10026,12 +10106,22 @@ Undervoltage: 56V</text>
 <segment>
 <wire x1="185.42" y1="149.86" x2="185.42" y2="147.32" width="0.6096" layer="91"/>
 <wire x1="185.42" y1="147.32" x2="193.04" y2="147.32" width="0.6096" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="147.32" x2="193.04" y2="149.86" width="0.6096" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="147.32" x2="193.04" y2="144.78" width="0.6096" layer="91"/>
+<junction x="193.04" y="147.32"/>
 </segment>
 </net>
 <net name="TS+UNFUSED" class="0">
 <segment>
 <wire x1="200.66" y1="147.32" x2="203.2" y2="147.32" width="0.6096" layer="91"/>
 <pinref part="P31" gate="G$1" pin="TS+UNFUSED"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="149.86" x2="200.66" y2="147.32" width="0.6096" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="147.32" x2="200.66" y2="144.78" width="0.6096" layer="91"/>
+<junction x="200.66" y="147.32"/>
 </segment>
 <segment>
 <pinref part="P36" gate="G$1" pin="TS+UNFUSED"/>
@@ -10063,6 +10153,12 @@ Undervoltage: 56V</text>
 <net name="N$51" class="0">
 <segment>
 <wire x1="190.5" y1="81.28" x2="190.5" y2="78.74" width="0.6096" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="78.74" x2="190.5" y2="78.74" width="0.6096" layer="91"/>
+<junction x="190.5" y="78.74"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="78.74" x2="195.58" y2="78.74" width="0.6096" layer="91"/>
 </segment>
 </net>
 <net name="PACK+FUSED" class="0">
@@ -10274,7 +10370,14 @@ Undervoltage: 56V</text>
 <net name="TS-UNFUSED" class="0">
 <segment>
 <pinref part="P12" gate="G$1" pin="TS-UNFUSED"/>
-<wire x1="190.5" y1="71.12" x2="190.5" y2="68.58" width="0.6096" layer="91"/>
+<wire x1="190.5" y1="68.58" x2="203.2" y2="68.58" width="0.6096" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="71.12" x2="190.5" y2="71.12" width="0.6096" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="71.12" x2="195.58" y2="71.12" width="0.6096" layer="91"/>
+<junction x="190.5" y="71.12"/>
+<wire x1="190.5" y1="71.12" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TP11" gate="G$1" pin="1"/>

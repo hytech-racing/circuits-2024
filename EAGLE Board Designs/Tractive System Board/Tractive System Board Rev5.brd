@@ -736,6 +736,29 @@ Designed by Cody Kaminsky</text>
 <circle x="-2.54" y="-3.175" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-2.286" y1="-4.064" x2="2.286" y2="4.064" layer="39"/>
 </package>
+<package name="B20">
+<description>Ohmite B20 Resistor</description>
+<wire x1="-25.4" y1="5.555" x2="-25.4" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-5.555" x2="25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-5.555" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="25.4" y2="5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="5.555" x2="-25.4" y2="5.555" width="0.127" layer="21"/>
+<rectangle x1="-38.1" y1="-6.35" x2="38.1" y2="6.35" layer="39"/>
+<text x="0" y="6.985" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<pad name="2" x="-25.4" y="0" drill="1.35"/>
+<pad name="1" x="25.4" y="0" drill="1.35" first="yes"/>
+<hole x="-32.51" y="0" drill="3.74"/>
+<hole x="32.51" y="0" drill="3.74"/>
+<wire x1="-25.4" y1="3.81" x2="-37.211" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-37.211" y1="3.81" x2="-37.211" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-37.211" y1="-3.81" x2="-25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="37.211" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="37.211" y1="3.81" x2="37.211" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="37.211" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-3.81" x2="25.4" y2="3.81" width="0.1524" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="HyTechAesthetics">
@@ -12051,6 +12074,66 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="VOLTAGE_CONTINUOUS" value="22.36V" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="150V" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
 </element>
+<element name="R4" library="HyTechDevices" package="B20" value="RESISTOR_B20_1.5K" x="31.75" y="-26.67" smashed="yes">
+<attribute name="DKPN" value="B20J1K5E-ND" x="31.75" y="-26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Ohmite" x="31.75" y="-26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="588-B20J1K5E" x="31.75" y="-26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B20J1K5E" x="31.75" y="-26.67" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-19.685" size="1.27" layer="21" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="20W" x="31.75" y="-26.67" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="1.5K" x="31.75" y="-26.67" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="31.75" y="-26.67" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="173V" x="31.75" y="-26.67" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="750V" x="31.75" y="-26.67" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R5" library="HyTechDevices" package="B20" value="RESISTOR_B20_1.5K" x="31.75" y="-41.91" smashed="yes">
+<attribute name="DKPN" value="B20J1K5E-ND" x="31.75" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Ohmite" x="31.75" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="588-B20J1K5E" x="31.75" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B20J1K5E" x="31.75" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-34.925" size="1.27" layer="21" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="20W" x="31.75" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="1.5K" x="31.75" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="31.75" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="173V" x="31.75" y="-41.91" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="750V" x="31.75" y="-41.91" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="HyTechDevices" package="B20" value="RESISTOR_B20_15K" x="31.75" y="-57.15" smashed="yes">
+<attribute name="DKPN" value="B20J15KE-ND" x="31.75" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Ohmite" x="31.75" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="588-B20J15KE" x="31.75" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B20J15KE" x="31.75" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-50.165" size="1.27" layer="21" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="20W" x="31.75" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="15K" x="31.75" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="31.75" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="548V" x="31.75" y="-57.15" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="750V" x="31.75" y="-57.15" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R7" library="HyTechDevices" package="B20" value="RESISTOR_B20_15K" x="31.75" y="-72.39" smashed="yes">
+<attribute name="DKPN" value="B20J15KE-ND" x="31.75" y="-72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Ohmite" x="31.75" y="-72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="588-B20J15KE" x="31.75" y="-72.39" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B20J15KE" x="31.75" y="-72.39" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-65.405" size="1.27" layer="21" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="20W" x="31.75" y="-72.39" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="15K" x="31.75" y="-72.39" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="31.75" y="-72.39" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="548V" x="31.75" y="-72.39" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="750V" x="31.75" y="-72.39" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R8" library="HyTechDevices" package="B20" value="RESISTOR_B20_15K" x="31.75" y="-87.63" smashed="yes">
+<attribute name="DKPN" value="B20J15KE-ND" x="31.75" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Ohmite" x="31.75" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="588-B20J15KE" x="31.75" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B20J15KE" x="31.75" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="31.75" y="-80.645" size="1.27" layer="21" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="20W" x="31.75" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="15K" x="31.75" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="5%" x="31.75" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="548V" x="31.75" y="-87.63" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="750V" x="31.75" y="-87.63" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -12665,6 +12748,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="154.305" y1="63.881" x2="154.305" y2="64.389" width="0.508" layer="2"/>
 <wire x1="82.55" y1="47.625" x2="72.39" y2="57.785" width="0.508" layer="2"/>
 <wire x1="181.286925" y1="20.377925" x2="193.264503125" y2="32.355503125" width="0.508" layer="1"/>
+<contactref element="R4" pad="2"/>
+<contactref element="R5" pad="2"/>
+<wire x1="6.35" y1="-26.67" x2="72.39" y2="57.785" width="0" layer="19" extent="1-2"/>
+<wire x1="6.35" y1="-41.91" x2="6.35" y2="-26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PACK+">
 <contactref element="TP6" pad="1"/>
@@ -12899,7 +12986,13 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="134.40916875" y1="90.12556875" x2="134.4098" y2="90.1262" width="0.254" layer="15"/>
 <wire x1="194.56525625" y1="48.52968125" x2="183.14968125" y2="48.52968125" width="1.3716" layer="15"/>
 <wire x1="138.684" y1="70.231" x2="163.449" y2="70.231" width="0.508" layer="16"/>
+<contactref element="R8" pad="1"/>
+<contactref element="R7" pad="1"/>
+<contactref element="R6" pad="1"/>
 <wire x1="163.449" y1="70.231" x2="183.14968125" y2="48.52968125" width="0" layer="19" extent="15-16"/>
+<wire x1="57.15" y1="-57.15" x2="132.2255" y2="70.62036875" width="0" layer="19" extent="1-1"/>
+<wire x1="57.15" y1="-72.39" x2="57.15" y2="-57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="57.15" y1="-87.63" x2="57.15" y2="-72.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TS-FUSED">
 <contactref element="C16" pad="2"/>
@@ -13019,6 +13112,18 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="D11" pad="2"/>
 <contactref element="R3" pad="1"/>
 <wire x1="19.714625" y1="1.392109375" x2="-5.93" y2="-16.51" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$50">
+<contactref element="R4" pad="1"/>
+<contactref element="R5" pad="1"/>
+<wire x1="57.15" y1="-41.91" x2="57.15" y2="-26.67" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$51">
+<contactref element="R7" pad="2"/>
+<contactref element="R8" pad="2"/>
+<contactref element="R6" pad="2"/>
+<wire x1="6.35" y1="-72.39" x2="6.35" y2="-87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="-57.15" x2="6.35" y2="-72.39" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
