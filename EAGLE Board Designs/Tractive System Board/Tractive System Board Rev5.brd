@@ -527,22 +527,19 @@ Designed by Cody Kaminsky</text>
 <rectangle x1="-1.025" y1="0.5" x2="-0.625" y2="0.75" layer="21"/>
 <rectangle x1="-1.025" y1="-0.75" x2="-0.625" y2="-0.5" layer="21"/>
 </package>
-<package name="885">
-<description>885 Fuse
+<package name="485">
+<description>485 Fuse
 &lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
-<smd name="1" x="-5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
-<smd name="2" x="5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
-<wire x1="-5.43" y1="2.39" x2="-5.43" y2="-2.39" width="0.127" layer="21"/>
-<wire x1="-5.43" y1="-2.39" x2="5.43" y2="-2.39" width="0.127" layer="21"/>
-<wire x1="5.43" y1="-2.39" x2="5.43" y2="2.39" width="0.127" layer="21"/>
-<wire x1="5.43" y1="2.39" x2="-5.43" y2="2.39" width="0.127" layer="21"/>
-<text x="0" y="3.65" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-8.85" y1="-4.415" x2="8.85" y2="4.415" layer="39"/>
-<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="43"/>
-<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="41"/>
+&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_485_Datasheet_pdf-1372450.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
+<smd name="1" x="-6.9" y="0" dx="5.6" dy="3.5" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="6.9" y="0" dx="5.6" dy="3.5" layer="1" rot="R90" thermals="no"/>
+<wire x1="-6.05" y1="2.25" x2="6.05" y2="2.25" width="0.127" layer="21"/>
+<wire x1="6.05" y1="2.25" x2="6.05" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="6.05" y1="-2.25" x2="-6.05" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-6.05" y1="-2.25" x2="-6.05" y2="2.25" width="0.127" layer="21"/>
+<rectangle x1="-9.398" y1="-3.302" x2="9.398" y2="3.302" layer="39"/>
+<text x="0" y="3.302" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="FLEX_STACK_PTH_08_DUAL">
 <pad name="1" x="-3.81" y="1.27" drill="1.016"/>
@@ -11549,16 +11546,15 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="NAME" x="31.124521875" y="19.28820625" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="VOLTAGE" value="30V" x="31.115" y="17.526" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="F1" library="HyTechDevices" package="885" value="FUSE_885_1.25A" x="125.222" y="83.947" smashed="yes" rot="R180">
-<attribute name="CURRENT" value="1.25A" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="F10986CT-ND" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="FUSE_TYPE" value="SMD" x="125.222" y="83.947" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="I2T" value="1.25" x="125.222" y="83.947" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="F1" library="HyTechDevices" package="485" value="FUSE_485_1A" x="125.222" y="83.947" smashed="yes" rot="R180">
+<attribute name="CURRENT" value="1A" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="F5921TR-ND" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="I2T" value="0.3044" x="125.222" y="83.947" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc." x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="576-08851.25DR" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="08851.25DR" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="576-0485001.DR" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="0485001.DR" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="125.222" y="80.297" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-<attribute name="VOLTAGE" value="500V" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="600VDC" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J4" library="HyTechDevices" package="FLEX_STACK_PTH_08_DUAL" value="CONNECTOR-8_S_S" x="41.2" y="5.7" smashed="yes" rot="R180">
 <attribute name="DKPN" value="S7107-ND" x="41.2" y="5.7" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11882,16 +11878,15 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="TOLERANCE" value="5%" x="68.258109375" y="7.09850625" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="68.258109375" y="7.09850625" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
 </element>
-<element name="F2" library="HyTechDevices" package="885" value="FUSE_885_1.25A" x="125.3255" y="70.62036875" smashed="yes" rot="R180">
-<attribute name="CURRENT" value="1.25A" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="DKPN" value="F10986CT-ND" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="FUSE_TYPE" value="SMD" x="125.3255" y="70.62036875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="I2T" value="1.25" x="125.3255" y="70.62036875" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="F2" library="HyTechDevices" package="485" value="FUSE_485_1A" x="125.3255" y="70.62036875" smashed="yes" rot="R180">
+<attribute name="CURRENT" value="1A" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="DKPN" value="F5921TR-ND" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="I2T" value="0.3044" x="125.3255" y="70.62036875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc." x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MOPN" value="576-08851.25DR" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MPN" value="08851.25DR" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MOPN" value="576-0485001.DR" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="MPN" value="0485001.DR" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="NAME" x="125.5795" y="66.84336875" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-<attribute name="VOLTAGE" value="500V" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="600VDC" x="125.3255" y="70.62036875" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
 </element>
 <element name="J2" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_06_SINGLE_SPACED" value="CONNECTOR-5_MICRO_V6S_" x="198.671275" y="51.9166625" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Molex" x="198.671275" y="51.9166625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -12031,6 +12026,30 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="TOLERANCE" value="0.5%" x="-5.08" y="-8.89" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="25.69V" x="-5.08" y="-8.89" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="150" x="-5.08" y="-8.89" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R2" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="-5.08" y="-12.7" smashed="yes">
+<attribute name="DKPN" value="10-ERJ-UP3F2001VTR-ND" x="-5.08" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-5.08" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERJ-UP3F2001V" x="-5.08" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERJ-UP3F2001V" x="-5.08" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.08" y="-12.065" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.25W" x="-5.08" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="2k" x="-5.08" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="-5.08" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.36V" x="-5.08" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="-5.08" y="-12.7" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R3" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="-5.08" y="-16.51" smashed="yes">
+<attribute name="DKPN" value="10-ERJ-UP3F2001VTR-ND" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERJ-UP3F2001V" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERJ-UP3F2001V" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.08" y="-15.875" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.25W" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="2k" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.36V" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="-5.08" y="-16.51" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -12615,9 +12634,11 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="42.47" y1="4.43" x2="42.47470625" y2="4.42529375" width="0.762" layer="16"/>
 <wire x1="42.47470625" y1="4.42529375" x2="42.47470625" y2="3.0869875" width="0.762" layer="16"/>
 <contactref element="R1" pad="1"/>
+<contactref element="R3" pad="2"/>
 <wire x1="136.347190625" y1="-0.508" x2="131.579" y2="15.113" width="0" layer="19" extent="15-16"/>
 <wire x1="15.381" y1="4.332" x2="20.588" y2="4.332" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.93" y1="-8.89" x2="14.478" y2="3.429" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.23" y1="-16.51" x2="-5.93" y2="-8.89" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TS+UNFUSED">
 <contactref element="F1" pad="1"/>
@@ -12630,10 +12651,10 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="189.992" y1="64.389" x2="194.356009375" y2="60.024990625" width="1.3716" layer="2"/>
 <via x="135.763" y="82.931" extent="1-16" drill="0.762"/>
 <wire x1="135.763" y1="82.931" x2="134.747" y2="83.947" width="0.508" layer="1"/>
-<wire x1="134.747" y1="83.947" x2="130.472" y2="83.947" width="0.508" layer="1"/>
+<wire x1="134.747" y1="83.947" x2="132.122" y2="83.947" width="0.508" layer="1"/>
 <wire x1="193.264503125" y1="32.355503125" x2="198.65894375" y2="32.355503125" width="0.508" layer="1"/>
 <wire x1="132.377" y1="92.14884375" x2="132.377" y2="85.852" width="0.254" layer="1"/>
-<wire x1="130.472" y1="83.947" x2="132.377" y2="85.852" width="0.254" layer="1"/>
+<wire x1="132.122" y1="83.947" x2="132.377" y2="85.852" width="0.254" layer="1"/>
 <wire x1="132.377" y1="92.14884375" x2="130.302" y2="94.22384375" width="0.254" layer="1"/>
 <wire x1="111.633" y1="47.625" x2="82.55" y2="47.625" width="0.508" layer="2"/>
 <wire x1="117.094" y1="53.086" x2="143.51" y2="53.086" width="0.508" layer="2"/>
@@ -12746,6 +12767,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="42.2374375" y1="1.3589" x2="45.01" y2="4.1314625" width="0.254" layer="1"/>
 <wire x1="45.01" y1="4.1314625" x2="45.01" y2="4.43" width="0.254" layer="1"/>
 <wire x1="46.7222" y1="2.7178" x2="45.01" y2="4.43" width="0.508" layer="15"/>
+<contactref element="R2" pad="2"/>
+<wire x1="-4.23" y1="-12.7" x2="12.446" y2="7.493" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="P_DO">
 <contactref element="R20" pad="1"/>
@@ -12769,6 +12792,8 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 </signal>
 <signal name="N$25">
 <contactref element="D6" pad="2"/>
+<contactref element="R2" pad="1"/>
+<wire x1="-5.93" y1="-12.7" x2="29.337" y2="1.587" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TS+5V">
 <contactref element="U3" pad="3"/>
@@ -12840,11 +12865,11 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="109.982" y1="49.784" x2="114.173" y2="53.975" width="0.508" layer="2"/>
 <wire x1="120.0785" y1="83.82" x2="120.0785" y2="83.2485" width="0.254" layer="1"/>
 <wire x1="120.8405" y1="84.8155" x2="120.8405" y2="89.8525" width="0.762" layer="1"/>
-<wire x1="119.972" y1="83.947" x2="120.0785" y2="83.8405" width="0.508" layer="1"/>
+<wire x1="118.322" y1="83.947" x2="120.0785" y2="83.8405" width="0.508" layer="1"/>
 <wire x1="120.0785" y1="83.8405" x2="120.0785" y2="83.82" width="0.508" layer="1"/>
-<wire x1="119.972" y1="83.947" x2="119.38" y2="83.947" width="0.508" layer="1"/>
+<wire x1="118.322" y1="83.947" x2="119.38" y2="83.947" width="0.508" layer="1"/>
 <wire x1="120.8405" y1="89.8525" x2="120.904" y2="89.916" width="0.762" layer="1"/>
-<wire x1="119.972" y1="83.947" x2="120.8405" y2="84.8155" width="0.508" layer="1"/>
+<wire x1="118.322" y1="83.947" x2="120.8405" y2="84.8155" width="0.508" layer="1"/>
 <wire x1="114.173" y1="87.503" x2="114.173" y2="88.646" width="0.508" layer="2"/>
 <wire x1="114.173" y1="88.646" x2="108.839" y2="93.98" width="1.3716" layer="2"/>
 <wire x1="108.839" y1="93.98" x2="105.41" y2="93.98" width="1.524" layer="2"/>
@@ -12863,7 +12888,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="198.671275" y1="44.4236625" x2="194.56525625" y2="48.52968125" width="1.3716" layer="15"/>
 <via x="138.684" y="70.231" extent="1-16" drill="0.762"/>
 <wire x1="138.684" y1="70.231" x2="130.96486875" y2="70.231" width="0.508" layer="1"/>
-<wire x1="130.96486875" y1="70.231" x2="130.5755" y2="70.62036875" width="0.508" layer="1"/>
+<wire x1="130.96486875" y1="70.231" x2="132.2255" y2="70.62036875" width="0.508" layer="1"/>
 <wire x1="126.89675" y1="90.12556875" x2="122.89804375" y2="94.124275" width="0.254" layer="1"/>
 <wire x1="121.471109375" y1="94.124275" x2="122.89804375" y2="94.124275" width="0.254" layer="1"/>
 <wire x1="126.89675" y1="90.12556875" x2="126.972846875" y2="90.12556875" width="0.254" layer="1"/>
@@ -12894,7 +12919,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <via x="106.934" y="60.706" extent="1-16" drill="0.381"/>
 <via x="98.044" y="56.515" extent="1-16" drill="0.762"/>
 <wire x1="98.044" y1="56.515" x2="98.044" y2="56.61285" width="0.254" layer="1"/>
-<wire x1="119.507" y1="70.62036875" x2="120.0755" y2="70.62036875" width="0.254" layer="1"/>
+<wire x1="119.507" y1="70.62036875" x2="118.4255" y2="70.62036875" width="0.254" layer="1"/>
 <wire x1="198.671275" y1="59.4096625" x2="198.671275" y2="56.4124625" width="0.508" layer="16"/>
 <wire x1="86.499" y1="22.987" x2="86.499" y2="21.463" width="0.254" layer="1"/>
 <wire x1="86.499" y1="21.463" x2="86.487" y2="21.451" width="0.254" layer="1"/>
@@ -12953,7 +12978,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <via x="91.694" y="25.654" extent="1-16" drill="0.381"/>
 <wire x1="91.694" y1="25.654" x2="90.932" y2="24.892" width="0.254" layer="1"/>
 <wire x1="90.932" y1="24.892" x2="90.932" y2="22.721" width="0.254" layer="1"/>
-<wire x1="116.2655" y1="70.62036875" x2="120.0755" y2="70.62036875" width="0.254" layer="1"/>
+<wire x1="116.2655" y1="70.62036875" x2="118.4255" y2="70.62036875" width="0.254" layer="1"/>
 <wire x1="116.2655" y1="70.62036875" x2="113.411" y2="73.47486875" width="0.254" layer="1"/>
 <wire x1="83.439" y1="68.453" x2="76.2" y2="68.453" width="1.3716" layer="15"/>
 <wire x1="76.2" y1="68.453" x2="69.215" y2="68.453" width="1.3716" layer="15"/>
@@ -12989,6 +13014,11 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <contactref element="U1" pad="1"/>
 <contactref element="R1" pad="2"/>
 <wire x1="-5.08" y1="-4.52" x2="-4.23" y2="-8.89" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="D11" pad="2"/>
+<contactref element="R3" pad="1"/>
+<wire x1="19.714625" y1="1.392109375" x2="-5.93" y2="-16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

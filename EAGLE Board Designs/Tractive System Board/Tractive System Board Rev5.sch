@@ -6046,6 +6046,20 @@ Based on page 10.</description>
 <circle x="-2.54" y="-3.175" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-2.286" y1="-4.064" x2="2.286" y2="4.064" layer="39"/>
 </package>
+<package name="485">
+<description>485 Fuse
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_485_Datasheet_pdf-1372450.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
+<smd name="1" x="-6.9" y="0" dx="5.6" dy="3.5" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="6.9" y="0" dx="5.6" dy="3.5" layer="1" rot="R90" thermals="no"/>
+<wire x1="-6.05" y1="2.25" x2="6.05" y2="2.25" width="0.127" layer="21"/>
+<wire x1="6.05" y1="2.25" x2="6.05" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="6.05" y1="-2.25" x2="-6.05" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-6.05" y1="-2.25" x2="-6.05" y2="2.25" width="0.127" layer="21"/>
+<rectangle x1="-9.398" y1="-3.302" x2="9.398" y2="3.302" layer="39"/>
+<text x="0" y="3.302" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -6412,6 +6426,23 @@ Based on page 10.</description>
 <attribute name="MOPN" value="530-0686F0750-01"/>
 <attribute name="MPN" value="0686F0750-01"/>
 <attribute name="VOLTAGE" value="63V"/>
+</technology>
+</technologies>
+</device>
+<device name="485" package="485">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="1A">
+<attribute name="CURRENT" value="1A"/>
+<attribute name="DKPN" value="F5921TR-ND"/>
+<attribute name="I2T" value="0.3044"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MOPN" value="576-0485001.DR"/>
+<attribute name="MPN" value="0485001.DR"/>
+<attribute name="VOLTAGE" value="600VDC"/>
 </technology>
 </technologies>
 </device>
@@ -6892,15 +6923,15 @@ Based on page 10.</description>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="2K">
-<attribute name="DKPN" value="P2.0KBDCT-ND"/>
+<attribute name="DKPN" value="10-ERJ-UP3F2001VTR-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3ARB202V"/>
-<attribute name="MPN" value="ERA-3ARB202V"/>
-<attribute name="POWER" value="0.1W"/>
+<attribute name="MOPN" value="667-ERJ-UP3F2001V"/>
+<attribute name="MPN" value="ERJ-UP3F2001V"/>
+<attribute name="POWER" value="0.25W"/>
 <attribute name="RESISTANCE" value="2k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="14.14V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.36V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
 <technology name="3.32K">
 <attribute name="DKPN" value="YAG1651TR-ND"/>
@@ -8888,7 +8919,7 @@ AB38S-Q
 <part name="J4" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="S" technology="S"/>
 <part name="P39" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$32" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
-<part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="885" technology="1.25A"/>
+<part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="485" technology="1A" value="FUSE_485_1A"/>
 <part name="P44" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="U$36" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="FRAME5" library="HyTechFrames" deviceset="FRAME" device="">
@@ -8961,7 +8992,7 @@ AB38S-Q
 <part name="C100" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
 <part name="C105" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P14" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
-<part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="885" technology="1.25A"/>
+<part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="485" technology="1A" value="FUSE_485_1A"/>
 <part name="P12" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="P15" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="P16" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
@@ -9014,6 +9045,8 @@ AB38S-Q
 <part name="P19" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="U1" library="HyTechDevices" deviceset="RELAY_SOLIDSTATE_NO_*" device="AB38S-Q"/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.3K"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 </parts>
 <sheets>
 <sheet>
@@ -9762,6 +9795,14 @@ Undervoltage: 56V</text>
 <attribute name="NAME" x="161.29" y="194.31" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="161.29" y="191.77" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="R2" gate="G$1" x="15.24" y="134.62" smashed="yes">
+<attribute name="NAME" x="13.97" y="135.89" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="13.97" y="133.35" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R3" gate="G$1" x="88.9" y="157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.63" y="156.21" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="90.17" y="156.21" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9978,6 +10019,7 @@ Undervoltage: 56V</text>
 <wire x1="88.9" y1="162.56" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="160.02" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 <junction x="88.9" y="162.56"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -10184,12 +10226,14 @@ Undervoltage: 56V</text>
 <pinref part="C100" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="132.08" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
 <junction x="20.32" y="134.62"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="D6" gate="LED" pin="A"/>
 <wire x1="10.16" y1="134.62" x2="10.16" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="TS+5V" class="0">
@@ -10291,6 +10335,12 @@ Undervoltage: 56V</text>
 <segment>
 <pinref part="U100" gate="G$1" pin="DIV"/>
 <wire x1="132.08" y1="119.38" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="D11" gate="LED" pin="A"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
