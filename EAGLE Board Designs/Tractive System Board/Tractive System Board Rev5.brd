@@ -11699,15 +11699,15 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="NAME" x="52.451" y="2.54" size="0.8128" layer="25" font="vector" rot="R180" align="top-center"/>
 <attribute name="VOLTAGE" value="8V" x="54.864" y="2.921" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C104" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_25V_1UF" x="65.31786875" y="7.0846875" smashed="yes" rot="MR180">
-<attribute name="CAPACITANCE" value="1µF" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="1276-1184-1-ND" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="187-CL10B105KA8NNNC" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CL10B105KA8NNNC" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C104" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_50V_1UF" x="65.31786875" y="7.0846875" smashed="yes" rot="MR180">
+<attribute name="CAPACITANCE" value="1uF" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="587-2400-2-ND" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="963-UMK107BJ105KA-T" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="UMK107BJ105KA-T" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="65.31495" y="7.627346875" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="TOLERANCE" value="10%" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="25V" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="65.31786875" y="7.0846875" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C101" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_4.7UF" x="68.326" y="5.588" smashed="yes" rot="MR180">
 <attribute name="CAPACITANCE" value="4.7µF" x="68.326" y="5.588" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -11910,15 +11910,15 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="MPN" value="5015" x="104.707109375" y="97.96135625" size="1.778" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="102.57164375" y="98.044" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="C100" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_25V_0.1UF" x="65.337109375" y="5.559075" smashed="yes" rot="MR180">
+<element name="C100" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_50V_0.1UF" x="65.337109375" y="5.559075" smashed="yes" rot="MR180">
 <attribute name="CAPACITANCE" value="0.1µF" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
-<attribute name="DKPN" value="1276-1006-1-ND" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
-<attribute name="MOPN" value="187-CL10B104KA8NNNC" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
-<attribute name="MPN" value="CL10B104KA8NNNC" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
+<attribute name="DKPN" value="311-1344-1-ND" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R9BB104" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R9BB104" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
 <attribute name="NAME" x="65.337109375" y="4.809075" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="10%" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
-<attribute name="VOLTAGE" value="25V" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="65.337109375" y="5.559075" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
 </element>
 <element name="C105" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="68.258109375" y="7.09850625" smashed="yes" rot="MR180">
 <attribute name="CAPACITANCE" value="0.1µF" x="68.258109375" y="7.09850625" size="1.778" layer="28" font="vector" rot="MR180" display="off"/>
