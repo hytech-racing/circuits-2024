@@ -11587,23 +11587,23 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="TOLERANCE" value="10%" x="265.811" y="74.676" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="265.811" y="74.676" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D100" library="HyTechDevices" package="SOD-323" value="SCHOTTKY_SOD323_30V" x="130.429" y="15.113" smashed="yes" rot="MR180">
-<attribute name="CURRENT" value="0.8A" x="130.429" y="15.113" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="CUS08F30H3FTR-ND" x="235.839" y="192.913" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Toshiba Semiconductor and Storage" x="235.839" y="192.913" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="757-CUS08F30H3F" x="235.839" y="192.913" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CUS08F30" x="235.839" y="192.913" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="D100" library="HyTechDevices" package="SOD-323" value="SCHOTTKY_SOD323_60V" x="130.429" y="15.113" smashed="yes" rot="MR180">
+<attribute name="CURRENT" value="1A" x="130.429" y="15.113" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="3757-MBR1060HEWS_R1_00001TR-ND" x="235.839" y="192.913" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Panjit International Inc." x="235.839" y="192.913" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="241-MBR1060HEWSR1000" x="235.839" y="192.913" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="MBR1060HEWS_R1_00001" x="235.839" y="192.913" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="129.738546875" y="16.698815625" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="VOLTAGE" value="30V" x="130.429" y="15.113" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="60V" x="130.429" y="15.113" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="D101" library="HyTechDevices" package="SOD-323" value="SCHOTTKY_SOD323_30V" x="31.115" y="17.526" smashed="yes" rot="MR180">
-<attribute name="CURRENT" value="0.8A" x="31.115" y="17.526" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="CUS08F30H3FTR-ND" x="139.065" y="187.706" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Toshiba Semiconductor and Storage" x="139.065" y="187.706" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="757-CUS08F30H3F" x="139.065" y="187.706" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CUS08F30" x="139.065" y="187.706" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="D101" library="HyTechDevices" package="SOD-323" value="SCHOTTKY_SOD323_60V" x="31.115" y="17.526" smashed="yes" rot="MR180">
+<attribute name="CURRENT" value="1A" x="31.115" y="17.526" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="3757-MBR1060HEWS_R1_00001TR-ND" x="139.065" y="187.706" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Panjit International Inc." x="139.065" y="187.706" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="241-MBR1060HEWSR1000" x="139.065" y="187.706" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="MBR1060HEWS_R1_00001" x="139.065" y="187.706" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="31.124521875" y="19.28820625" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="VOLTAGE" value="30V" x="31.115" y="17.526" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="VOLTAGE" value="60V" x="31.115" y="17.526" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="F1" library="HyTechDevices" package="485" value="FUSE_485_1A" x="125.222" y="83.947" smashed="yes" rot="R180">
 <attribute name="CURRENT" value="1A" x="37.592" y="231.267" size="1.778" layer="27" rot="R180" display="off"/>

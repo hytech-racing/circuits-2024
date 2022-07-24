@@ -8461,6 +8461,14 @@ Based on page 10.</description>
 <attribute name="MPN" value="CUS08F30"/>
 <attribute name="VOLTAGE" value="30V"/>
 </technology>
+<technology name="60V">
+<attribute name="CURRENT" value="1A"/>
+<attribute name="DKPN" value="3757-MBR1060HEWS_R1_00001TR-ND"/>
+<attribute name="MANUFACTURER" value="Panjit International Inc."/>
+<attribute name="MOPN" value="241-MBR1060HEWSR1000"/>
+<attribute name="MPN" value="MBR1060HEWS_R1_00001"/>
+<attribute name="VOLTAGE" value="60V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -9594,8 +9602,8 @@ AB38S-Q
 <attribute name="DESCRIPTION_1" value="Relays and connectors"/>
 <attribute name="DESIGNER_SCHEMATIC" value="Cody Kaminsky"/>
 </part>
-<part name="D100" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30V"/>
-<part name="D101" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30V"/>
+<part name="D100" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="60V" value="SCHOTTKY_SOD323_60V"/>
+<part name="D101" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="60V" value="SCHOTTKY_SOD323_60V"/>
 <part name="Q1" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="PMV15ENEA"/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10"/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
