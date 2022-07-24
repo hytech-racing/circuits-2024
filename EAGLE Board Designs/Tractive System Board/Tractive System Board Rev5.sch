@@ -9188,8 +9188,8 @@ AB38S-Q
 <wire x1="1.27" y1="1.905" x2="0" y2="3.81" width="0.254" layer="94"/>
 <text x="0" y="5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="TS+5V">
-<text x="0" y="2.54" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<symbol name="TS+12V">
+<text x="0" y="3.556" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="TS+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <wire x1="2.54" y1="1.016" x2="2.032" y2="0.254" width="0.254" layer="94"/>
 <wire x1="2.032" y1="0.254" x2="2.667" y2="-0.254" width="0.254" layer="94"/>
@@ -9206,6 +9206,8 @@ AB38S-Q
 <wire x1="2.667" y1="-1.778" x2="3.302" y2="-1.778" width="0.254" layer="94" curve="-180"/>
 <wire x1="1.778" y1="-1.778" x2="2.032" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="3.556" y1="-1.778" x2="3.302" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
 </symbol>
 <symbol name="TS-UNFUSED">
 <wire x1="2.794" y1="-0.254" x2="2.286" y2="-1.016" width="0.254" layer="94"/>
@@ -9298,9 +9300,9 @@ AB38S-Q
 </device>
 </devices>
 </deviceset>
-<deviceset name="TS+5V">
+<deviceset name="TS+12V">
 <gates>
-<gate name="G$1" symbol="TS+5V" x="0" y="2.54"/>
+<gate name="G$1" symbol="TS+12V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -9664,11 +9666,7 @@ AB38S-Q
 <part name="P10" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="TP21" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="D6" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="BLUE"/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180" value="RESISTOR_0603_180"/>
-<part name="U$18" library="HyTechSupplies" deviceset="TS+5V" device=""/>
-<part name="U$19" library="HyTechSupplies" deviceset="TS+5V" device=""/>
-<part name="U$20" library="HyTechSupplies" deviceset="TS+5V" device=""/>
-<part name="U$21" library="HyTechSupplies" deviceset="TS+5V" device=""/>
+<part name="U$21" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="TP6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP8" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP11" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
@@ -9764,6 +9762,8 @@ AB38S-Q
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1M"/>
 <part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="39"/>
 <part name="U4" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-23-5" technology="5V"/>
+<part name="U$13" library="HyTechSupplies" deviceset="TS+12V" device=""/>
+<part name="U$14" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9891,15 +9891,6 @@ Undervoltage: 56V</text>
 <instance part="U$2" gate="G$1" x="66.04" y="200.66" smashed="yes">
 <attribute name="VALUE" x="66.04" y="205.74" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$18" gate="G$1" x="76.2" y="154.94" smashed="yes">
-<attribute name="VALUE" x="76.2" y="157.48" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="U$19" gate="G$1" x="248.92" y="200.66" smashed="yes">
-<attribute name="VALUE" x="248.92" y="203.2" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="U$20" gate="G$1" x="76.2" y="91.44" smashed="yes">
-<attribute name="VALUE" x="76.2" y="93.98" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="U$4" gate="G$1" x="93.98" y="114.3" smashed="yes">
 <attribute name="VALUE" x="93.98" y="111.76" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -9972,6 +9963,12 @@ Undervoltage: 56V</text>
 <instance part="R30" gate="G$1" x="50.8" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.53" y="74.93" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="52.07" y="74.93" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="U$13" gate="G$1" x="76.2" y="154.94" smashed="yes">
+<attribute name="VALUE" x="76.2" y="158.496" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="U$14" gate="G$1" x="76.2" y="91.44" smashed="yes">
+<attribute name="VALUE" x="76.2" y="94.996" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -10147,7 +10144,7 @@ Undervoltage: 56V</text>
 <label x="45.72" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TS+5V" class="0">
+<net name="TS+12V" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VDD1"/>
 <pinref part="C21" gate="G$1" pin="1"/>
@@ -10159,7 +10156,7 @@ Undervoltage: 56V</text>
 <junction x="88.9" y="88.9"/>
 <wire x1="78.74" y1="88.9" x2="76.2" y2="88.9" width="0.6096" layer="91"/>
 <junction x="78.74" y="88.9"/>
-<pinref part="U$20" gate="G$1" pin="TS+5V"/>
+<pinref part="U$14" gate="G$1" pin="TS+5V"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="1"/>
@@ -10172,11 +10169,7 @@ Undervoltage: 56V</text>
 <junction x="88.9" y="152.4"/>
 <wire x1="78.74" y1="152.4" x2="76.2" y2="152.4" width="0.6096" layer="91"/>
 <junction x="78.74" y="152.4"/>
-<pinref part="U$18" gate="G$1" pin="TS+5V"/>
-</segment>
-<segment>
-<pinref part="U$19" gate="G$1" pin="TS+5V"/>
-<wire x1="248.92" y1="198.12" x2="248.92" y2="193.04" width="0.6096" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="TS+5V"/>
 </segment>
 </net>
 <net name="PACK+FUSED" class="0">
@@ -10428,10 +10421,6 @@ Undervoltage: 56V</text>
 <instance part="D6" gate="LED" x="10.16" y="127" smashed="yes" rot="R270">
 <attribute name="COLOR" x="8.382" y="128.27" size="1.27" layer="95" rot="R270" align="top-center"/>
 <attribute name="NAME" x="13.716" y="128.27" size="1.27" layer="96" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="R9" gate="G$1" x="243.84" y="198.12" smashed="yes">
-<attribute name="NAME" x="242.57" y="199.39" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="242.57" y="196.85" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U$21" gate="G$1" x="236.22" y="200.66" smashed="yes">
 <attribute name="VALUE" x="236.22" y="203.2" size="1.27" layer="96" align="bottom-center"/>
@@ -11052,7 +11041,6 @@ Undervoltage: 56V</text>
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="198.12" x2="248.92" y2="198.12" width="0.6096" layer="91"/>
 <label x="248.92" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11097,9 +11085,8 @@ Undervoltage: 56V</text>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="TS+5V" class="0">
+<net name="TS+12V" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="198.12" x2="236.22" y2="198.12" width="0.6096" layer="91"/>
 <pinref part="U$21" gate="G$1" pin="TS+5V"/>
 <pinref part="TP3" gate="G$1" pin="1"/>
