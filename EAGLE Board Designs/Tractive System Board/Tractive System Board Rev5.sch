@@ -9789,8 +9789,8 @@ Undervoltage: 56V</text>
 <attribute name="NAME" x="240.03" y="69.85" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="CURRENT" x="240.03" y="67.31" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P12" gate="G$1" x="203.2" y="66.04" smashed="yes">
-<attribute name="VALUE" x="203.2" y="63.5" size="1.27" layer="96" align="top-center"/>
+<instance part="P12" gate="G$1" x="203.2" y="68.58" smashed="yes">
+<attribute name="VALUE" x="203.2" y="66.04" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P15" gate="G$1" x="205.74" y="86.36" smashed="yes">
 <attribute name="VALUE" x="205.74" y="83.82" size="1.27" layer="96" align="top-center"/>
@@ -10369,17 +10369,6 @@ Undervoltage: 56V</text>
 </net>
 <net name="TS-UNFUSED" class="0">
 <segment>
-<pinref part="P12" gate="G$1" pin="TS-UNFUSED"/>
-<wire x1="190.5" y1="68.58" x2="203.2" y2="68.58" width="0.6096" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="71.12" x2="190.5" y2="71.12" width="0.6096" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="71.12" x2="195.58" y2="71.12" width="0.6096" layer="91"/>
-<junction x="190.5" y="71.12"/>
-<wire x1="190.5" y1="71.12" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="TP11" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="88.9" x2="205.74" y2="88.9" width="0.6096" layer="91"/>
 <pinref part="P15" gate="G$1" pin="TS-UNFUSED"/>
@@ -10444,6 +10433,18 @@ Undervoltage: 56V</text>
 <segment>
 <pinref part="D11" gate="LED" pin="A"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="71.12" x2="195.58" y2="71.12" width="0.6096" layer="91"/>
+<junction x="190.5" y="71.12"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="71.12" x2="190.5" y2="71.12" width="0.6096" layer="91"/>
+<pinref part="P12" gate="G$1" pin="TS-UNFUSED"/>
+<wire x1="195.58" y1="71.12" x2="203.2" y2="71.12" width="0.6096" layer="91"/>
 </segment>
 </net>
 </nets>
