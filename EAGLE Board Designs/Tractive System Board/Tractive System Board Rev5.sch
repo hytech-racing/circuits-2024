@@ -6216,6 +6216,24 @@ Based on page 10.</description>
 <rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
 <circle x="-1.8" y="-1.31" radius="0.15875" width="0" layer="21"/>
 </package>
+<package name="SOT-23-6">
+<description>6-Lead Plastic ThinSOT-23
+&lt;br&gt;
+&lt;a href="https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sot-23/SOT_6_05-08-1636.pdf"&gt;Footprint Detailing&lt;/a&gt;</description>
+<wire x1="-1.45" y1="0.875" x2="1.45" y2="0.875" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="0.875" x2="-1.45" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
+<smd name="1" x="-0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="3" x="0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="4" x="-0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="5" x="0" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="6" x="0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<circle x="-1.8" y="-1.31" radius="0.15875" width="0" layer="21"/>
+<text x="-2" y="0" size="0.8128" layer="21" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -6550,6 +6568,25 @@ Based on page 10.</description>
 <text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
 <text x="8.89" y="-8.382" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 <text x="7.62" y="-6.35" size="1.524" layer="95" align="bottom-center">GND</text>
+</symbol>
+<symbol name="LTC6994">
+<description>Analog Devices Inc Delay IC
+&lt;br&gt;
+1us to 33.6s
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/609/LTC6994_1_6994_2-1270043.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pin name="IN" x="-2.54" y="-2.54" length="short"/>
+<pin name="SET" x="-2.54" y="-7.62" length="short"/>
+<pin name="GND" x="-2.54" y="-15.24" length="short" direction="pwr"/>
+<pin name="OUT" x="17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="V+" x="17.78" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="DIV" x="17.78" y="-15.24" length="short" rot="R180"/>
+<wire x1="0" y1="0" x2="15.24" y2="0" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="0" x2="15.24" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-17.78" x2="0" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="0" y1="-17.78" x2="0" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-18.542" size="1.27" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -9097,6 +9134,42 @@ AB38S-Q
 </device>
 </devices>
 </deviceset>
+<deviceset name="LTC6994-*" prefix="U">
+<description>Analog Devices Inc Delay IC
+&lt;br&gt;
+1us to 33.6s
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/609/LTC6994_1_6994_2-1270043.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LTC6994" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="DIV" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="SET" pad="3"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+</connects>
+<technologies>
+<technology name="1">
+<attribute name="DKPN" value="505-LTC6994CS6-1#TRMPBFTR-ND"/>
+<attribute name="MANUFACTURER" value="Analog Devices Incorporated"/>
+<attribute name="MOPN" value="584-C6994CS6-1TRMPBF"/>
+<attribute name="MPN" value="LTC6994CS6-1#TRMPBF"/>
+</technology>
+<technology name="2">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -9320,87 +9393,6 @@ AB38S-Q
 <device name="">
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="HyTechDevicesTempTSB">
-<packages>
-<package name="SOT-23-6">
-<description>6-Lead Plastic ThinSOT-23
-&lt;br&gt;
-&lt;a href="https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sot-23/SOT_6_05-08-1636.pdf"&gt;Footprint Detailing&lt;/a&gt;</description>
-<wire x1="-1.45" y1="0.875" x2="1.45" y2="0.875" width="0.127" layer="21"/>
-<wire x1="1.45" y1="0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="0.875" x2="-1.45" y2="-0.875" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="-0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
-<smd name="1" x="-0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<smd name="2" x="0" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<smd name="3" x="0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<smd name="4" x="-0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<smd name="5" x="0" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<smd name="6" x="0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<circle x="-1.8" y="-1.31" radius="0.15875" width="0" layer="21"/>
-<text x="-2" y="0" size="0.8128" layer="21" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LTC6994">
-<description>Analog Devices Inc Delay IC
-&lt;br&gt;
-1us to 33.6s
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/609/LTC6994_1_6994_2-1270043.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<pin name="IN" x="-2.54" y="-2.54" length="short"/>
-<pin name="SET" x="-2.54" y="-7.62" length="short"/>
-<pin name="GND" x="-2.54" y="-15.24" length="short" direction="pwr"/>
-<pin name="OUT" x="17.78" y="-2.54" length="short" rot="R180"/>
-<pin name="V+" x="17.78" y="-7.62" length="short" direction="pwr" rot="R180"/>
-<pin name="DIV" x="17.78" y="-15.24" length="short" rot="R180"/>
-<wire x1="0" y1="0" x2="15.24" y2="0" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-17.78" x2="0" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="0" y1="-17.78" x2="0" y2="0" width="0.1524" layer="94"/>
-<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
-<text x="0" y="-18.542" size="1.27" layer="95" align="top-left">&gt;MPN</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LTC6994-*" prefix="U">
-<description>Analog Devices Inc Delay IC
-&lt;br&gt;
-1us to 33.6s
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/609/LTC6994_1_6994_2-1270043.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="LTC6994" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-23-6">
-<connects>
-<connect gate="G$1" pin="DIV" pad="6"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="4"/>
-<connect gate="G$1" pin="SET" pad="3"/>
-<connect gate="G$1" pin="V+" pad="5"/>
-</connects>
-<technologies>
-<technology name="1">
-<attribute name="DKPN" value="505-LTC6994CS6-1#TRMPBFTR-ND"/>
-<attribute name="MANUFACTURER" value="Analog Devices Incorporated"/>
-<attribute name="MOPN" value="584-C6994CS6-1TRMPBF"/>
-<attribute name="MPN" value="LTC6994CS6-1#TRMPBF"/>
-</technology>
-<technology name="2">
-<attribute name="DKPN" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MOPN" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -9644,7 +9636,6 @@ AB38S-Q
 <part name="C15" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="C16" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="U$40" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
-<part name="U$2" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="D5" library="HyTechDevices" deviceset="TVS_*" device="" technology="8V" value="TVS_8V"/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C104" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_1UF" value="CAPACITOR_0603_50V_1UF"/>
@@ -9693,7 +9684,6 @@ AB38S-Q
 <part name="U$16" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$17" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$22" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
-<part name="U$23" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$24" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$25" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$3" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
@@ -9725,13 +9715,12 @@ AB38S-Q
 <part name="O1" library="HyTechExternal" deviceset="RECEPTACLE-8_*" device="" technology="FLEXSTACK"/>
 <part name="O2" library="HyTechExternal" deviceset="RECEPTACLE-7_*" device="" technology="MICROFIT"/>
 <part name="O3" library="HyTechExternal" deviceset="RECEPTACLE-6_SINGLE_*" device="" technology="MICROFIT"/>
-<part name="U100" library="HyTechDevicesTempTSB" deviceset="LTC6994-*" device="" technology="2"/>
+<part name="U100" library="HyTechDevices" deviceset="LTC6994-*" device="" technology="2"/>
 <part name="C106" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P13" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R104" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="75K" value="RESISTOR_0603_75K"/>
 <part name="R29" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="D10" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN" value="LED_0603_GREEN"/>
-<part name="TP9" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP12" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP13" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="P19" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -9778,9 +9767,6 @@ AB38S-Q
 <wire x1="71.12" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="97" style="longdash"/>
 <wire x1="10.16" y1="17.78" x2="10.16" y2="210.82" width="0.254" layer="97" style="longdash"/>
 <wire x1="10.16" y1="210.82" x2="271.78" y2="210.82" width="0.254" layer="97" style="longdash"/>
-<text x="53.34" y="193.04" size="1.27" layer="97">Shunt resistor rated to 50 mA</text>
-<text x="175.26" y="205.74" size="1.27" layer="97">Overvoltage: 145V
-Undervoltage: 56V</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
@@ -9888,9 +9874,6 @@ Undervoltage: 56V</text>
 <instance part="U$40" gate="G$1" x="50.8" y="160.02" smashed="yes">
 <attribute name="VALUE" x="50.8" y="165.1" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$2" gate="G$1" x="66.04" y="200.66" smashed="yes">
-<attribute name="VALUE" x="66.04" y="205.74" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="U$4" gate="G$1" x="93.98" y="114.3" smashed="yes">
 <attribute name="VALUE" x="93.98" y="111.76" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -9903,18 +9886,11 @@ Undervoltage: 56V</text>
 <instance part="U$22" gate="G$1" x="96.52" y="50.8" smashed="yes">
 <attribute name="VALUE" x="96.52" y="48.26" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="U$23" gate="G$1" x="180.34" y="165.1" smashed="yes">
-<attribute name="VALUE" x="180.34" y="162.56" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="U$24" gate="G$1" x="76.2" y="139.7" smashed="yes">
 <attribute name="VALUE" x="76.2" y="137.16" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U$25" gate="G$1" x="76.2" y="76.2" smashed="yes">
 <attribute name="VALUE" x="76.2" y="73.66" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="TP9" gate="G$1" x="40.64" y="185.42" smashed="yes">
-<attribute name="NAME" x="38.1" y="187.198" size="1.27" layer="95"/>
-<attribute name="MPN" x="38.1" y="183.642" size="1.27" layer="95" align="top-left"/>
 </instance>
 <instance part="TP12" gate="G$1" x="40.64" y="177.8" smashed="yes">
 <attribute name="NAME" x="38.1" y="179.578" size="1.27" layer="95"/>
@@ -9974,13 +9950,6 @@ Undervoltage: 56V</text>
 <busses>
 </busses>
 <nets>
-<net name="LR8_O" class="0">
-<segment>
-<pinref part="TP9" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="185.42" x2="45.72" y2="185.42" width="0.1524" layer="91"/>
-<label x="45.72" y="185.42" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$69" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="VCAP"/>
@@ -10095,16 +10064,12 @@ Undervoltage: 56V</text>
 </net>
 <net name="TS+FUSED" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="TS+FUSED"/>
-<wire x1="66.04" y1="198.12" x2="68.58" y2="198.12" width="0.6096" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$40" gate="G$1" pin="TS+FUSED"/>
 <wire x1="50.8" y1="154.94" x2="50.8" y2="157.48" width="0.6096" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="P_DO" class="0">
+<net name="PACK_DIV_OUT" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="66.04" x2="86.36" y2="66.04" width="0.6096" layer="91"/>
@@ -10123,7 +10088,7 @@ Undervoltage: 56V</text>
 <label x="45.72" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TS_DO" class="0">
+<net name="TS_DIV_OUT" class="0">
 <segment>
 <wire x1="48.26" y1="127" x2="50.8" y2="127" width="0.6096" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>

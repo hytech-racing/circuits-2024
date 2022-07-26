@@ -795,6 +795,24 @@ Designed by Cody Kaminsky</text>
 <rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
 <circle x="-1.8" y="-1.31" radius="0.15875" width="0" layer="21"/>
 </package>
+<package name="SOT-23-6">
+<description>6-Lead Plastic ThinSOT-23
+&lt;br&gt;
+&lt;a href="https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sot-23/SOT_6_05-08-1636.pdf"&gt;Footprint Detailing&lt;/a&gt;</description>
+<wire x1="-1.45" y1="0.875" x2="1.45" y2="0.875" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="0.875" x2="-1.45" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
+<smd name="1" x="-0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="3" x="0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="4" x="-0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="5" x="0" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="6" x="0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<circle x="-1.8" y="-1.31" radius="0.15875" width="0" layer="21"/>
+<text x="-2" y="0" size="0.8128" layer="21" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
+</package>
 </packages>
 </library>
 <library name="HyTechAesthetics">
@@ -4170,28 +4188,6 @@ Designed by Cody Kaminsky</text>
 <rectangle x1="-2.4384" y1="3.68935" x2="-1.9685" y2="3.70205" layer="21"/>
 <rectangle x1="0.0381" y1="3.68935" x2="1.2827" y2="3.70205" layer="21"/>
 <rectangle x1="0.0381" y1="3.70205" x2="1.2827" y2="3.71475" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="HyTechDevicesTempTSB">
-<packages>
-<package name="SOT-23-6">
-<description>6-Lead Plastic ThinSOT-23
-&lt;br&gt;
-&lt;a href="https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sot-23/SOT_6_05-08-1636.pdf"&gt;Footprint Detailing&lt;/a&gt;</description>
-<wire x1="-1.45" y1="0.875" x2="1.45" y2="0.875" width="0.127" layer="21"/>
-<wire x1="1.45" y1="0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="0.875" x2="-1.45" y2="-0.875" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="-0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
-<smd name="1" x="-0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<smd name="2" x="0" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<smd name="3" x="0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<smd name="4" x="-0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<smd name="5" x="0" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<smd name="6" x="0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
-<circle x="-1.8" y="-1.31" radius="0.15875" width="0" layer="21"/>
-<text x="-2" y="0" size="0.8128" layer="21" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
 </package>
 </packages>
 </library>
@@ -11976,7 +11972,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <element name="U$101" library="HyTechManufacturing" package="LOGO_GT_LARGE" value="" x="140.335" y="31.75" smashed="yes" rot="MR0"/>
 <element name="U$100" library="HyTechManufacturing" package="LOGO_HYTECH_EXTRA_LARGE" value="" x="81.28" y="21.59" smashed="yes" rot="MR0"/>
 <element name="U$8" library="HyTechManufacturing" package="LOGO_HYTECH_MEDIUM" value="" x="100.33" y="105.41" smashed="yes"/>
-<element name="U100" library="HyTechDevicesTempTSB" package="SOT-23-6" value="LTC6994-2" x="57.658" y="4.572" smashed="yes" rot="MR270">
+<element name="U100" library="HyTechDevices" package="SOT-23-6" value="LTC6994-2" x="57.658" y="4.572" smashed="yes" rot="MR270">
 <attribute name="DKPN" value="" x="57.658" y="4.572" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="" x="57.658" y="4.572" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOPN" value="" x="57.658" y="4.572" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -12024,13 +12020,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <attribute name="MOPN" value="604-APT1608ZGCK" x="30.734" y="1.905" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="APT1608ZGCK" x="30.734" y="1.905" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="26.174" y="0.635" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-</element>
-<element name="TP9" library="HyTechDevices" package="5015" value="TEST_POINT" x="98.552" y="94.234" smashed="yes">
-<attribute name="DKPN" value="36-5015CT-ND" x="98.552" y="94.234" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics" x="98.552" y="94.234" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="534-5015" x="98.552" y="94.234" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5015" x="98.552" y="94.234" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="96.266" y="94.361" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
 <element name="TP12" library="HyTechDevices" package="5015" value="TEST_POINT" x="96.647" y="29.21" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="96.647" y="29.21" size="1.778" layer="27" display="off"/>
@@ -12485,16 +12474,6 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="86.062446875" y1="8.774559375" x2="73.32955625" y2="8.44644375" width="0" layer="19" extent="1-1"/>
 <wire x1="93.218" y1="8.128" x2="88.15" y2="8.128" width="0" layer="19" extent="16-16"/>
 <wire x1="129.094075" y1="15.297925" x2="95.516" y2="8.001" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="LR8_O">
-<wire x1="103.397" y1="75.673" x2="103.397" y2="76.449" width="0.254" layer="1"/>
-<wire x1="101.6" y1="79.336" x2="101.6" y2="77.47" width="0.254" layer="16"/>
-<via x="101.6" y="77.47" extent="1-16" drill="0.381"/>
-<wire x1="101.6" y1="77.47" x2="103.397" y2="75.673" width="0.254" layer="1"/>
-<contactref element="TP9" pad="1"/>
-<wire x1="101.6" y1="77.47" x2="101.6" y2="84.201" width="0.254" layer="1"/>
-<wire x1="98.552" y1="87.249" x2="98.552" y2="94.234" width="0.254" layer="1"/>
-<wire x1="101.6" y1="84.201" x2="98.552" y2="87.249" width="0.254" layer="1"/>
 </signal>
 <signal name="N$69">
 <contactref element="U3" pad="1"/>
@@ -13099,7 +13078,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="-4.23" y1="-12.7" x2="-3.81" y2="-208.32" width="0" layer="19" extent="1-1"/>
 <wire x1="12.446" y1="7.493" x2="-4.23" y2="-12.7" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="P_DO">
+<signal name="PACK_DIV_OUT">
 <contactref element="R20" pad="1"/>
 <wire x1="85.598" y1="33.616" x2="85.598" y2="33.655" width="0.254" layer="1"/>
 <wire x1="85.598" y1="33.616" x2="85.598" y2="33.655" width="0.254" layer="1"/>
@@ -13116,7 +13095,7 @@ Source: &lt;a href=&quot;https://www.4pcb.com/capabilities2018.pdf&quot;&gt;Adva
 <wire x1="-0.42" y1="-191.77" x2="-4.23" y2="-191.77" width="0" layer="19" extent="1-1"/>
 <wire x1="86.487" y1="28.956" x2="-0.42" y2="-191.77" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TS_DO">
+<signal name="TS_DIV_OUT">
 <contactref element="R21" pad="1"/>
 <wire x1="97.409" y1="34.886" x2="97.409" y2="33.489" width="0.254" layer="1"/>
 <contactref element="TP12" pad="1"/>
