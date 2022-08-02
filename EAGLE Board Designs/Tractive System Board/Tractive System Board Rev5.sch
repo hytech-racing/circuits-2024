@@ -7888,6 +7888,28 @@ Based on page 10.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
+<technology name="HV1M">
+<attribute name="DKPN" value="RHM1.00MAHTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR10EZPF1004"/>
+<attribute name="MPN" value="KTR10EZPF1004"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="1M"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="353.5V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
+<technology name="HV330K">
+<attribute name="DKPN" value="RHM330KAHTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR10EZPF3303"/>
+<attribute name="MPN" value="KTR10EZPF3303"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="330k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="203.1V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
 <technology name="HV365K">
 <attribute name="DKPN" value="RHM365KAHTR-ND "/>
 <attribute name="MANUFACTURER" value="Rohm"/>
@@ -7898,6 +7920,17 @@ Based on page 10.</description>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="213V"/>
 <attribute name="VOLTAGE_MAX" value="350V"/>
+</technology>
+<technology name="HV75K">
+<attribute name="DKPN" value="RHM75KAHTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR10EZPF7502"/>
+<attribute name="MPN" value="KTR10EZPF7502 "/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="75k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="96.8V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
 </technology>
 </technologies>
 </device>
@@ -9250,7 +9283,7 @@ AB38S-Q
 <wire x1="1.27" y1="1.905" x2="0" y2="3.81" width="0.254" layer="94"/>
 </symbol>
 <symbol name="+24V">
-<pin name="TS+" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="+24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
@@ -9263,7 +9296,7 @@ AB38S-Q
 </symbol>
 <symbol name="TS+12V">
 <text x="0" y="3.556" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="TS+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="TS+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <wire x1="2.54" y1="1.016" x2="2.032" y2="0.254" width="0.254" layer="94"/>
 <wire x1="2.032" y1="0.254" x2="2.667" y2="-0.254" width="0.254" layer="94"/>
 <wire x1="2.667" y1="-0.254" x2="2.286" y2="-1.016" width="0.254" layer="94"/>
@@ -9617,24 +9650,24 @@ AB38S-Q
 </part>
 <part name="U2" library="HyTechDevices" deviceset="ISO224*" device="_AIRGAP" technology="B"/>
 <part name="U3" library="HyTechDevices" deviceset="ISO224*" device="_AIRGAP" technology="B"/>
-<part name="C20" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C18" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
+<part name="C20" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF" value="CAPACITOR_0603_25V_1UF"/>
+<part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF" value="CAPACITOR_0603_25V_1UF"/>
+<part name="C18" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF" value="CAPACITOR_0603_25V_1UF"/>
 <part name="C107" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
 <part name="C102" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C108" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C103" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C19" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C21" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C17" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
+<part name="C19" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF" value="CAPACITOR_0603_25V_1UF"/>
+<part name="C21" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF" value="CAPACITOR_0603_25V_1UF"/>
+<part name="C17" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF" value="CAPACITOR_0603_25V_1UF"/>
 <part name="P45" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P46" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P47" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P48" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_"/>
 <part name="R21" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_"/>
-<part name="C15" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
-<part name="C16" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
+<part name="C15" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF" value="CAPACITOR_0603_50V_10NF"/>
+<part name="C16" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF" value="CAPACITOR_0603_50V_10NF"/>
 <part name="U$40" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="D5" library="HyTechDevices" deviceset="TVS_*" device="" technology="8V" value="TVS_8V"/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -9739,16 +9772,16 @@ AB38S-Q
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="523K"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="15K"/>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="15K"/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="73.2K" value="RESISTOR_0603_73.2K"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="73.2K" value="RESISTOR_0603_73.2K"/>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="330K"/>
-<part name="R17" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="330K"/>
-<part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1M"/>
-<part name="R19" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="73.2K" value="RESISTOR_0603_73.2K"/>
-<part name="R22" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="73.2K" value="RESISTOR_0603_73.2K"/>
-<part name="R25" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="330K"/>
-<part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="330K"/>
-<part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1M"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV75K" value="RESISTOR_0805_HV75K"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV75K" value="RESISTOR_0805_HV75K"/>
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV365K" value="RESISTOR_0805_HV365K"/>
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV365K" value="RESISTOR_0805_HV365K"/>
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV1M" value="RESISTOR_0805_HV1M"/>
+<part name="R19" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV75K" value="RESISTOR_0805_HV75K"/>
+<part name="R22" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV75K" value="RESISTOR_0805_HV75K"/>
+<part name="R25" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV365K" value="RESISTOR_0805_HV365K"/>
+<part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV365K" value="RESISTOR_0805_HV365K"/>
+<part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV1M" value="RESISTOR_0805_HV1M"/>
 <part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="39"/>
 <part name="U4" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-23-5" technology="5V"/>
 <part name="U$13" library="HyTechSupplies" deviceset="TS+12V" device=""/>
@@ -10121,7 +10154,7 @@ AB38S-Q
 <junction x="88.9" y="88.9"/>
 <wire x1="78.74" y1="88.9" x2="76.2" y2="88.9" width="0.6096" layer="91"/>
 <junction x="78.74" y="88.9"/>
-<pinref part="U$14" gate="G$1" pin="TS+5V"/>
+<pinref part="U$14" gate="G$1" pin="TS+12V"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="1"/>
@@ -10134,7 +10167,7 @@ AB38S-Q
 <junction x="88.9" y="152.4"/>
 <wire x1="78.74" y1="152.4" x2="76.2" y2="152.4" width="0.6096" layer="91"/>
 <junction x="78.74" y="152.4"/>
-<pinref part="U$13" gate="G$1" pin="TS+5V"/>
+<pinref part="U$13" gate="G$1" pin="TS+12V"/>
 </segment>
 </net>
 <net name="PACK+FUSED" class="0">
@@ -11021,16 +11054,16 @@ AB38S-Q
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="190.5" x2="48.26" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="P3" gate="G$1" pin="TS+"/>
+<pinref part="P3" gate="G$1" pin="+24V"/>
 </segment>
 <segment>
 <pinref part="TP19" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="193.04" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="P9" gate="G$1" pin="TS+"/>
+<pinref part="P9" gate="G$1" pin="+24V"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="P4" gate="G$1" pin="TS+"/>
+<pinref part="P4" gate="G$1" pin="+24V"/>
 <wire x1="30.48" y1="134.62" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
 <junction x="30.48" y="134.62"/>
 <pinref part="C104" gate="G$1" pin="1"/>
@@ -11053,7 +11086,7 @@ AB38S-Q
 <net name="TS+12V" class="0">
 <segment>
 <wire x1="238.76" y1="198.12" x2="236.22" y2="198.12" width="0.6096" layer="91"/>
-<pinref part="U$21" gate="G$1" pin="TS+5V"/>
+<pinref part="U$21" gate="G$1" pin="TS+12V"/>
 <pinref part="TP3" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="198.12" x2="233.68" y2="198.12" width="0.6096" layer="91"/>
 <junction x="236.22" y="198.12"/>
