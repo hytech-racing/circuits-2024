@@ -3265,86 +3265,6 @@ Dashed line is edge of mated connector.</description>
 <rectangle x1="-2.286" y1="-2.794" x2="2.286" y2="2.794" layer="39"/>
 <text x="-2.54" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="OKI-78SR">
-<description>OKI-78SR Regulator
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/281/oki-78sr-56393.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<pad name="1" x="-2.54" y="0" drill="0.9906" first="yes"/>
-<pad name="2" x="0" y="0" drill="0.9906"/>
-<pad name="3" x="2.54" y="0" drill="0.9906"/>
-<wire x1="-5.461" y1="5.588" x2="5.461" y2="5.588" width="0.127" layer="21" style="shortdash"/>
-<wire x1="5.461" y1="5.588" x2="5.461" y2="-3.81" width="0.127" layer="21" style="shortdash"/>
-<wire x1="5.461" y1="-3.81" x2="-5.461" y2="-3.81" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-5.461" y1="-3.81" x2="-5.461" y2="5.588" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-5.207" y1="1.27" x2="5.207" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-5.207" y1="2.794" x2="5.207" y2="2.794" width="0.127" layer="21"/>
-<wire x1="-5.207" y1="1.27" x2="-5.207" y2="2.794" width="0.127" layer="21"/>
-<wire x1="5.207" y1="2.794" x2="5.207" y2="1.27" width="0.127" layer="21"/>
-<text x="0" y="5.715" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-5.588" y1="-3.937" x2="5.588" y2="5.715" layer="39"/>
-<rectangle x1="-3.81" y1="-1.27" x2="3.81" y2="1.27" layer="40"/>
-</package>
-<package name="SOT223">
-<description>SOT223
-&lt;br&gt;
-&lt;a href="https://www.diodes.com/assets/Package-Files/SOT223.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="2" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="3" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="4" x="0" y="3.2" dx="3.3" dy="1.6" layer="1"/>
-<text x="0" y="4.445" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-3.275" y1="1.775" x2="3.275" y2="1.775" width="0.127" layer="21"/>
-<wire x1="3.275" y1="1.775" x2="3.275" y2="-1.775" width="0.127" layer="21"/>
-<wire x1="3.275" y1="-1.775" x2="-3.275" y2="-1.775" width="0.127" layer="21"/>
-<wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.127" layer="21"/>
-<rectangle x1="-3.81" y1="-4.445" x2="3.81" y2="4.445" layer="39"/>
-</package>
-<package name="SOT89">
-<description>SOT89
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/308/1/NCP785A_D-2317346.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-Based on page 10.</description>
-<smd name="2" x="0" y="-0.355" dx="0.58" dy="0.86" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
-<smd name="3" x="1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
-<wire x1="-2.3" y1="2.7" x2="2.3" y2="2.7" width="0.127" layer="21"/>
-<wire x1="2.3" y1="2.7" x2="2.3" y2="0.1" width="0.127" layer="21"/>
-<wire x1="2.3" y1="0.1" x2="-2.3" y2="0.1" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="0.1" x2="-2.3" y2="2.7" width="0.127" layer="21"/>
-<rectangle x1="-2.54" y1="-1.14" x2="2.54" y2="3.94" layer="39"/>
-<text x="0" y="3.94" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<polygon width="0" layer="1">
-<vertex x="-1" y="3.665"/>
-<vertex x="-1" y="0.785"/>
-<vertex x="-0.29" y="0.075"/>
-<vertex x="-0.29" y="0"/>
-<vertex x="0.29" y="0"/>
-<vertex x="0.29" y="0.075"/>
-<vertex x="1" y="0.785"/>
-<vertex x="1" y="3.665"/>
-</polygon>
-<polygon width="0" layer="31" spacing="0.05" pour="hatch">
-<vertex x="-1" y="3.665"/>
-<vertex x="-1" y="0.785"/>
-<vertex x="-0.29" y="0.075"/>
-<vertex x="-0.29" y="0"/>
-<vertex x="0.29" y="0"/>
-<vertex x="0.29" y="0.075"/>
-<vertex x="1" y="0.785"/>
-<vertex x="1" y="3.665"/>
-</polygon>
-<polygon width="0" layer="29" spacing="0.1" pour="hatch">
-<vertex x="-1.1" y="3.765"/>
-<vertex x="-1.1" y="0.714"/>
-<vertex x="-0.361" y="0.004"/>
-<vertex x="-0.29" y="0"/>
-<vertex x="0.29" y="0"/>
-<vertex x="0.361" y="0.004"/>
-<vertex x="1.1" y="0.714"/>
-<vertex x="1.1" y="3.765"/>
-</polygon>
-</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_08">
@@ -3515,17 +3435,6 @@ Pins tied to GND: SLOW
 <wire x1="0" y1="-17.78" x2="0" y2="0" width="0.254" layer="94"/>
 <text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="-18.542" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-</symbol>
-<symbol name="VOLTAGE_REGULATOR">
-<wire x1="0" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="0" width="0.254" layer="94"/>
-<wire x1="15.24" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
-<pin name="GND" x="7.62" y="-12.7" length="short" direction="pwr" rot="R90"/>
-<pin name="IN" x="-2.54" y="-2.54" length="short" direction="pwr"/>
-<pin name="OUT" x="17.78" y="-2.54" length="short" direction="pwr" rot="R180"/>
-<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
-<text x="8.89" y="-10.922" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4823,91 +4732,6 @@ Pins tied to GND: SLOW
 </device>
 </devices>
 </deviceset>
-<deviceset name="VOLTAGE_REGULATOR_MODULE_?_*" prefix="A">
-<description>Voltage Regulator Modules
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/281/oki-78sr-56393.pdf"&gt;OKI-78SR Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="OKI-78SR" package="OKI-78SR">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-</connects>
-<technologies>
-<technology name="3.3V">
-<attribute name="DKPN" value="811-2195-5-ND"/>
-<attribute name="MANUFACTURER" value="Murata Power Solutions Inc."/>
-<attribute name="MOPN" value="580-OKI78SR3.31.536C"/>
-<attribute name="MPN" value="OKI-78SR-3.3/1.5-W36-C"/>
-</technology>
-<technology name="5V">
-<attribute name="DKPN" value="811-2196-5-ND"/>
-<attribute name="MANUFACTURER" value="Murata Power Solutions Inc."/>
-<attribute name="MOPN" value="580-OKI78SR5/1.5W36C"/>
-<attribute name="MPN" value="OKI-78SR-5/1.5-W36-C"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VOLTAGE_REGULATOR_?_*" prefix="U">
-<description>Voltage Regulators
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/389/dm00366442-1799212.pdf"&gt;LDL1117S50R Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/308/NCP785A_D-1812704.pdf"&gt;NCP785AH120T1G&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOT223" package="SOT223">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2 4"/>
-</connects>
-<technologies>
-<technology name="3.3V">
-<attribute name="DKPN" value="497-17239-1-ND"/>
-<attribute name="MANUFACTURER" value="STMicroelectronics"/>
-<attribute name="MOPN" value="511-LDL1117S33R"/>
-<attribute name="MPN" value="LDL1117S33R"/>
-</technology>
-<technology name="5V">
-<attribute name="DKPN" value="497-17240-1-ND"/>
-<attribute name="MANUFACTURER" value="STMicroelectronics"/>
-<attribute name="MOPN" value="511-LDL1117S50R"/>
-<attribute name="MPN" value="LDL1117S50R"/>
-</technology>
-</technologies>
-</device>
-<device name="SOT89" package="SOT89">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-</connects>
-<technologies>
-<technology name="12V">
-<attribute name="DKPN" value="NCP785AH120T1GOSCT-ND"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor"/>
-<attribute name="MOPN" value="863-NCP785AH120T1G"/>
-<attribute name="MPN" value="NCP785AH120T1G"/>
-</technology>
-<technology name="15V">
-<attribute name="DKPN" value="NCP785AH150T1GOSTR-ND"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor"/>
-<attribute name="MOPN" value="863-NCP785AH150T1G"/>
-<attribute name="MPN" value="NCP785AH150T1G"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -6050,6 +5874,69 @@ Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
 <pad name="13" x="-5.9944" y="0" drill="1.0668"/>
 <pad name="14" x="-8.9916" y="0" drill="1.0668"/>
 </package>
+<package name="SOT-223">
+<description>SOT-223
+&lt;br&gt;
+&lt;a href="https://www.diodes.com/assets/Package-Files/SOT223.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="2" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="3" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="4" x="0" y="3.2" dx="3.3" dy="1.6" layer="1"/>
+<text x="0" y="4.445" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-3.275" y1="1.775" x2="3.275" y2="1.775" width="0.127" layer="21"/>
+<wire x1="3.275" y1="1.775" x2="3.275" y2="-1.775" width="0.127" layer="21"/>
+<wire x1="3.275" y1="-1.775" x2="-3.275" y2="-1.775" width="0.127" layer="21"/>
+<wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.127" layer="21"/>
+<rectangle x1="-3.81" y1="-4.445" x2="3.81" y2="4.445" layer="39"/>
+<circle x="-3.556" y="-3.2" radius="0.15875" width="0" layer="21"/>
+</package>
+<package name="SOT-89">
+<description>SOT-89
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/308/1/NCP785A_D-2317346.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+Based on page 10.</description>
+<smd name="2" x="0" y="-0.355" dx="0.58" dy="0.86" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
+<smd name="3" x="1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
+<wire x1="-2.3" y1="2.7" x2="2.3" y2="2.7" width="0.127" layer="21"/>
+<wire x1="2.3" y1="2.7" x2="2.3" y2="0.1" width="0.127" layer="21"/>
+<wire x1="2.3" y1="0.1" x2="-2.3" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="0.1" x2="-2.3" y2="2.7" width="0.127" layer="21"/>
+<rectangle x1="-2.54" y1="-1.14" x2="2.54" y2="3.94" layer="39"/>
+<text x="0" y="3.94" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<polygon width="0" layer="1">
+<vertex x="-1" y="3.665"/>
+<vertex x="-1" y="0.785"/>
+<vertex x="-0.29" y="0.075"/>
+<vertex x="-0.29" y="0"/>
+<vertex x="0.29" y="0"/>
+<vertex x="0.29" y="0.075"/>
+<vertex x="1" y="0.785"/>
+<vertex x="1" y="3.665"/>
+</polygon>
+<polygon width="0" layer="31" spacing="0.05" pour="hatch">
+<vertex x="-1" y="3.665"/>
+<vertex x="-1" y="0.785"/>
+<vertex x="-0.29" y="0.075"/>
+<vertex x="-0.29" y="0"/>
+<vertex x="0.29" y="0"/>
+<vertex x="0.29" y="0.075"/>
+<vertex x="1" y="0.785"/>
+<vertex x="1" y="3.665"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.1" pour="hatch">
+<vertex x="-1.1" y="3.765"/>
+<vertex x="-1.1" y="0.714"/>
+<vertex x="-0.361" y="0.004"/>
+<vertex x="-0.29" y="0"/>
+<vertex x="0.29" y="0"/>
+<vertex x="0.361" y="0.004"/>
+<vertex x="1.1" y="0.714"/>
+<vertex x="1.1" y="3.765"/>
+</polygon>
+<circle x="-2.3" y="-0.508" radius="0.15875" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -6964,6 +6851,15 @@ Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </technology>
+<technology name="50V_10UF">
+<attribute name="CAPACITANCE" value="10uF"/>
+<attribute name="DKPN" value="490-18663-2-ND"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MOPN" value="81-GRM21BR61H106KE3L"/>
+<attribute name="MPN" value=" GRM21BR61H106KE43L"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
 </technologies>
 </device>
 <device name="1206" package="1206-CAP">
@@ -7360,6 +7256,17 @@ Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
+<technology name="14K">
+<attribute name="DKPN" value="RT0603BRB0714KL-ND"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MOPN" value="603-RT0603BRB0714KL"/>
+<attribute name="MPN" value="RT0603BRB0714KL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="14k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="37.4V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
 <technology name="15">
 <attribute name="DKPN" value="541-15.0STR-ND"/>
 <attribute name="MANUFACTURER" value="Vishay Dale"/>
@@ -7438,15 +7345,15 @@ Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="1K">
-<attribute name="DKPN" value="311-1.00KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL"/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="POWER" value="0.1W"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E"/>
+<attribute name="POWER" value="0.0625W"/>
 <attribute name="RESISTANCE" value="1k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V"/>
+<attribute name="VOLTAGE_MAX" value="50V"/>
 </technology>
 <technology name="1M">
 <attribute name="DKPN" value="311-1.00MHRCT-ND"/>
@@ -9503,6 +9410,77 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 </device>
 </devices>
 </deviceset>
+<deviceset name="VOLTAGE_REGULATOR_?_*" prefix="U">
+<description>Voltage Regulators
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/389/dm00366442-1799212.pdf"&gt;LDL1117S50R Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/308/NCP785A_D-1812704.pdf"&gt;NCP785AH120T1G&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ti.com/lit/ds/symlink/lms8117a.pdf?HQS"&gt;LMS8117A Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/389/st732-1830546.pdf"&gt;ST732M50R Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOT-223" package="SOT-223">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 4"/>
+</connects>
+<technologies>
+<technology name="3.3V">
+<attribute name="DKPN" value="LMS8117AMP-3.3/NOPBCT-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MOPN" value="926-LMS8117AMP33NOPB"/>
+<attribute name="MPN" value="LMS8117AMP-3.3/NOPB"/>
+</technology>
+<technology name="5V">
+<attribute name="DKPN" value="497-17240-1-ND"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MOPN" value="511-LDL1117S50R"/>
+<attribute name="MPN" value="LDL1117S50R"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT-89" package="SOT-89">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="12V">
+<attribute name="DKPN" value="NCP785AH120T1GOSCT-ND"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor"/>
+<attribute name="MOPN" value="863-NCP785AH120T1G"/>
+<attribute name="MPN" value="NCP785AH120T1G"/>
+</technology>
+<technology name="15V">
+<attribute name="DKPN" value="NCP785AH150T1GOSTR-ND"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor"/>
+<attribute name="MOPN" value="863-NCP785AH150T1G"/>
+<attribute name="MPN" value="NCP785AH150T1G"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT-23-5" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="5V">
+<attribute name="DKPN" value="497-ST732M50RTR-ND"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MOPN" value="511-ST732M50R"/>
+<attribute name="MPN" value="ST732M50R"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
@@ -9605,7 +9583,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P6" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P11" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
+<part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="50V_10UF" value="CAPACITOR_0805_50V_10UF"/>
 <part name="C33" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="P12" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P13" library="HyTechSupplies" deviceset="+24V" device=""/>
@@ -9644,18 +9622,18 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="P28" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P29" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="U22" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
-<part name="R67" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="11.5K"/>
+<part name="R67" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K" value="RESISTOR_0603_13K"/>
 <part name="R68" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
-<part name="R66" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="11.5K"/>
+<part name="R66" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K" value="RESISTOR_0603_13K"/>
 <part name="R65" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="GND1" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+1" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="U23" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
-<part name="R75" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="11.5K"/>
+<part name="R75" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K" value="RESISTOR_0603_13K"/>
 <part name="R76" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
-<part name="R74" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="11.5K"/>
+<part name="R74" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K" value="RESISTOR_0603_13K"/>
 <part name="R72" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
 <part name="GND7" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C28" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
@@ -9682,7 +9660,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="C19" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="GND17" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+9" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="R51" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="11.5K"/>
+<part name="R51" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.9K" value="RESISTOR_0603_5.9K"/>
 <part name="R53" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="11.5K"/>
 <part name="GND20" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+10" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -9710,10 +9688,10 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="P+16" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="R47" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
 <part name="R64" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
-<part name="R48" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.2K"/>
-<part name="R49" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.12K"/>
-<part name="R41" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.2K"/>
-<part name="R63" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.12K"/>
+<part name="R48" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="14K" value="RESISTOR_0603_14K"/>
+<part name="R49" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K" value="RESISTOR_0603_1K"/>
+<part name="R41" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="14K" value="RESISTOR_0603_14K"/>
+<part name="R63" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K" value="RESISTOR_0603_1K"/>
 <part name="R46" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="215K"/>
 <part name="R70" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="11.3K"/>
 <part name="R39" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="84.5K"/>
@@ -9888,7 +9866,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="R15" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="2.2K"/>
 <part name="P4" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="J2" library="HyTechDevices - Copy" deviceset="CONNECTOR-8_?_*" device="MF_T_V"/>
-<part name="A1" library="HyTechDevices - Copy" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V"/>
+<part name="A1" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V"/>
 <part name="P41" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P43" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P9" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -9923,7 +9901,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="R35" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="470"/>
 <part name="P+13" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="C103" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
-<part name="U26" library="HyTechDevices - Copy" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT223" technology="3.3V"/>
+<part name="U26" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-223" technology="3.3V"/>
 <part name="P42" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="C37" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
 <part name="C36" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
@@ -10029,6 +10007,11 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="P109" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="TP1_24V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="J3" library="HyTechDevices" deviceset="CONNECTOR-14_?_*" device="MF_T_V"/>
+<part name="U$21" library="HyTechSupplies" deviceset="+24V" device=""/>
+<part name="P110" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P111" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="50V_10UF"/>
+<part name="C40" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="50V_10UF"/>
 </parts>
 <sheets>
 <sheet>
@@ -10334,7 +10317,7 @@ Accumulator GND, both AIR+ and -</text>
 </instance>
 <instance part="U26" gate="G$1" x="154.94" y="165.1" smashed="yes">
 <attribute name="NAME" x="154.94" y="165.862" size="1.27" layer="95"/>
-<attribute name="MPN" x="163.83" y="154.178" size="1.27" layer="96" align="top-left"/>
+<attribute name="MPN" x="153.67" y="154.178" size="1.27" layer="96" align="top-left"/>
 </instance>
 <instance part="P42" gate="1" x="144.78" y="167.64" smashed="yes">
 <attribute name="VALUE" x="144.78" y="170.18" size="1.27" layer="96" align="bottom-center"/>
@@ -10423,9 +10406,9 @@ Accumulator GND, both AIR+ and -</text>
 <attribute name="NAME" x="82.55" y="179.07" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="CURRENT" x="82.55" y="176.53" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="A3" gate="G$1" x="116.84" y="160.02" smashed="yes">
-<attribute name="NAME" x="116.84" y="160.782" size="1.27" layer="95"/>
-<attribute name="MPN" x="125.73" y="151.638" size="1.27" layer="96" align="top-left"/>
+<instance part="A3" gate="G$1" x="109.22" y="160.02" smashed="yes">
+<attribute name="NAME" x="109.22" y="160.782" size="1.27" layer="95"/>
+<attribute name="MPN" x="107.95" y="149.098" size="1.27" layer="96" align="top-left"/>
 </instance>
 <instance part="P109" gate="G$1" x="200.66" y="205.74" smashed="yes">
 <attribute name="VALUE" x="200.66" y="209.55" size="1.27" layer="96" align="bottom-center"/>
@@ -10437,6 +10420,25 @@ Accumulator GND, both AIR+ and -</text>
 <instance part="J3" gate="G$1" x="10.16" y="132.08" smashed="yes">
 <attribute name="NAME" x="10.16" y="132.842" size="1.27" layer="95"/>
 <attribute name="MPN" x="10.16" y="93.345" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="U$21" gate="G$1" x="101.6" y="160.02" smashed="yes">
+<attribute name="VALUE" x="101.6" y="165.1" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P110" gate="1" x="116.84" y="142.24" smashed="yes">
+<attribute name="VALUE" x="116.84" y="140.97" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P111" gate="1" x="132.08" y="160.02" smashed="yes">
+<attribute name="VALUE" x="132.08" y="163.83" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C7" gate="G$1" x="101.6" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="99.06" y="151.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="104.14" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="105.918" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C40" gate="G$1" x="132.08" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="129.54" y="151.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="134.62" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="136.398" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -10491,6 +10493,11 @@ Accumulator GND, both AIR+ and -</text>
 <wire x1="20.32" y1="106.68" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
 <label x="22.86" y="106.68" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="10"/>
+</segment>
+<segment>
+<wire x1="20.32" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
+<label x="22.86" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="ISO_PACK+" class="0">
@@ -10573,7 +10580,7 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="J5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="162.56" y1="182.88" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="185.42" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="177.8" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
 <junction x="162.56" y="180.34"/>
 <wire x1="162.56" y1="180.34" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
@@ -10655,7 +10662,7 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="J3" gate="G$1" pin="11"/>
 </segment>
 <segment>
-<wire x1="162.56" y1="152.4" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="154.94" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="147.32" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
 <junction x="162.56" y="149.86"/>
 <wire x1="162.56" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
@@ -10720,6 +10727,17 @@ Accumulator GND, both AIR+ and -</text>
 <junction x="266.7" y="86.36"/>
 <wire x1="266.7" y1="86.36" x2="266.7" y2="78.74" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="147.32" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="P110" gate="1" pin="GND"/>
+<wire x1="116.84" y1="147.32" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="A3" gate="G$1" pin="GND"/>
+<wire x1="116.84" y1="149.86" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
+<junction x="116.84" y="147.32"/>
+<pinref part="C40" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="147.32" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
@@ -10782,6 +10800,14 @@ Accumulator GND, both AIR+ and -</text>
 <wire x1="200.66" y1="190.5" x2="200.66" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="TP_12V" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="187.96" x2="198.12" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P111" gate="1" pin="+12V"/>
+<pinref part="C40" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="157.48" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="A3" gate="G$1" pin="OUT"/>
+<wire x1="127" y1="157.48" x2="132.08" y2="157.48" width="0.1524" layer="91"/>
+<junction x="132.08" y="157.48"/>
 </segment>
 </net>
 <net name="BSPD_CURRENT" class="0">
@@ -11165,12 +11191,13 @@ Accumulator GND, both AIR+ and -</text>
 <wire x1="17.78" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="63.5" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 </segment>
-</net>
-<net name="N$32" class="0">
 <segment>
-<wire x1="20.32" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
-<label x="22.86" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="12"/>
+<pinref part="U$21" gate="G$1" pin="+24V"/>
+<pinref part="A3" gate="G$1" pin="IN"/>
+<wire x1="101.6" y1="157.48" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="157.48" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
+<junction x="101.6" y="157.48"/>
 </segment>
 </net>
 </nets>
@@ -11504,6 +11531,9 @@ the voltage divider.</text>
 current across precharge relay</text>
 <text x="129.54" y="22.86" size="2.54" layer="97">Josh Kirshenbaum</text>
 <text x="185.42" y="106.68" size="2.54" layer="97">AIR2- Low Side Switching with PRECHARGE_OK</text>
+<text x="7.62" y="129.54" size="1.778" layer="97">550V corresponds to 4.816V out of difference op amp</text>
+<text x="55.88" y="203.2" size="1.778" layer="97">OV fault at 533V</text>
+<text x="73.66" y="20.32" size="1.778" layer="97">UV fault at 377V</text>
 </plain>
 <instances>
 <instance part="U22" gate="A" x="38.1" y="160.02" smashed="yes">
@@ -12402,7 +12432,7 @@ current across precharge relay</text>
 <pinref part="PACK+_OUT_TEST" gate="G$1" pin="P$1"/>
 </segment>
 </net>
-<net name="2.5_DIV" class="0">
+<net name="3.305V_DIV" class="0">
 <segment>
 <pinref part="R54" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
@@ -12443,7 +12473,7 @@ current across precharge relay</text>
 <junction x="104.14" y="35.56"/>
 </segment>
 </net>
-<net name="3.56V_DIV_B" class="0">
+<net name="4.66V_DIV_B" class="0">
 <segment>
 <wire x1="66.04" y1="83.82" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U15" gate="A" pin="VIN+"/>
@@ -12473,20 +12503,20 @@ current across precharge relay</text>
 <junction x="104.14" y="177.8"/>
 </segment>
 </net>
-<net name="3.56V_DIV_A" class="0">
+<net name="4.66V_DIV_A" class="0">
 <segment>
-<wire x1="68.58" y1="177.8" x2="68.58" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="U11" gate="A" pin="VIN+"/>
-<wire x1="68.58" y1="180.34" x2="91.44" y2="180.34" width="0.1524" layer="91"/>
-<label x="76.2" y="180.34" size="1.27" layer="95"/>
 <pinref part="R64" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="182.88" x2="68.58" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="182.88" x2="71.12" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="182.88" x2="68.58" y2="180.34" width="0.1524" layer="91"/>
 <junction x="68.58" y="182.88"/>
-<junction x="68.58" y="180.34"/>
 <pinref part="R41" gate="G$1" pin="2"/>
 <pinref part="R63" gate="G$1" pin="1"/>
+<pinref part="U11" gate="A" pin="VIN+"/>
+<wire x1="68.58" y1="180.34" x2="68.58" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="180.34" x2="68.58" y2="180.34" width="0.1524" layer="91"/>
+<junction x="68.58" y="180.34"/>
+<label x="73.66" y="180.34" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="V_PACK_REF_OV_OK" class="0">
