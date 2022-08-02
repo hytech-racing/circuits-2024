@@ -6174,14 +6174,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="10%" x="65.33470625" y="-61.60451875" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="65.33470625" y="-61.60451875" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D8" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="103.90549375" y="23.27591875" smashed="yes">
-<attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="142.00549375" y="-51.65408125" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="142.00549375" y="-51.65408125" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="78-GSOT15-E3-08" x="142.00549375" y="-51.65408125" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GSOT15-E3-08" x="142.00549375" y="-51.65408125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="103.90549375" y="25.05391875" size="0.635" layer="25" font="vector" rot="R180" align="top-center"/>
-<attribute name="VOLTAGE" value="15V" x="142.00549375" y="-51.65408125" size="1.778" layer="27" display="off"/>
-</element>
 <element name="OKHS" library="HyTechDevices - Copy" package="0603-LED" value="LED_0603_YELLOW" x="112.039253125" y="92.16383125" smashed="yes" rot="R90">
 <attribute name="COLOR" value="Yellow" x="199.669253125" y="141.69383125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DKPN" value="754-1788-1-ND" x="199.669253125" y="141.69383125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8014,6 +8006,26 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="10%" x="-22.098" y="-45.72" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="-22.098" y="-45.72" size="1.778" layer="27" display="off"/>
 </element>
+<element name="24V" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="-22.098" y="-48.768" smashed="yes">
+<attribute name="COLOR" value="Orange" x="-22.098" y="-48.768" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="754-1120-1-ND" x="-22.098" y="-48.768" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Kingbright" x="-22.098" y="-48.768" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="604-APT1608SECK" x="-22.098" y="-48.768" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="APT1608SECK" x="-22.098" y="-48.768" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.098" y="-48.018" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
+<element name="R83" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_3.3K" x="-22.098" y="-51.816" smashed="yes">
+<attribute name="DKPN" value="P20340TR-ND" x="-22.098" y="-51.816" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-22.098" y="-51.816" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERJ-PB3D3301V" x="-22.098" y="-51.816" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERJ-PB3D3301V" x="-22.098" y="-51.816" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-22.098" y="-51.181" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.2W" x="-22.098" y="-51.816" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="3.3k" x="-22.098" y="-51.816" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.5%" x="-22.098" y="-51.816" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="25.69V" x="-22.098" y="-51.816" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150" x="-22.098" y="-51.816" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="CANH">
@@ -8369,7 +8381,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="J5" pad="2"/>
 <contactref element="C24" pad="2"/>
 <contactref element="C33" pad="2"/>
-<contactref element="D8" pad="1"/>
 <contactref element="TP_GND" pad="1"/>
 <contactref element="U100" pad="4"/>
 <contactref element="U100" pad="8"/>
@@ -8792,9 +8803,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="132.40429375" y1="28.95211875" x2="132.40429375" y2="27.60389375" width="0.508" layer="1"/>
 <wire x1="132.3848" y1="27.5844" x2="132.40429375" y2="27.60389375" width="0.508" layer="1"/>
 <via x="132.3848" y="27.5844" extent="1-16" drill="0.762"/>
-<wire x1="103.6828" y1="20.9042" x2="103.6828" y2="21.5555125" width="0.508" layer="1"/>
-<wire x1="103.6828" y1="21.5555125" x2="102.96569375" y2="22.27261875" width="0.508" layer="1"/>
-<via x="103.6828" y="20.9042" extent="1-16" drill="0.762"/>
 <wire x1="138.23359375" y1="14.76691875" x2="136.78851875" y2="14.76691875" width="0.1524" layer="1"/>
 <wire x1="136.78851875" y1="14.76691875" x2="136.779" y2="14.7574" width="0.1524" layer="1"/>
 <via x="136.779" y="14.7574" extent="1-16" drill="0.35"/>
@@ -8947,6 +8955,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="J3" pad="6"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C40" pad="2"/>
+<contactref element="R83" pad="1"/>
 <wire x1="167.386" y1="68.6176" x2="168.9608" y2="68.6176" width="0" layer="19" extent="1-1"/>
 <wire x1="164.7444" y1="63.7032" x2="167.386" y2="68.6176" width="0" layer="19" extent="1-1"/>
 <wire x1="162.0012" y1="57.7088" x2="164.75030625" y2="62.26048125" width="0" layer="19" extent="1-1"/>
@@ -8990,7 +8999,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="138.21064375" y1="85.690846875" x2="142.5389" y2="77.62001875" width="0" layer="19" extent="1-1"/>
 <wire x1="158.75" y1="21.844" x2="148.539628125" y2="19.352375" width="0" layer="19" extent="1-1"/>
 <wire x1="105.4862" y1="32.5247" x2="117.79929375" y2="31.50551875" width="0" layer="19" extent="1-1"/>
-<wire x1="102.96569375" y1="22.27261875" x2="103.886" y2="31.496" width="0" layer="19" extent="1-1"/>
 <wire x1="173.04068125" y1="30.88049375" x2="160.62229375" y2="21.35821875" width="0" layer="19" extent="1-1"/>
 <wire x1="175.58068125" y1="46.12049375" x2="173.04068125" y2="30.88049375" width="0" layer="19" extent="1-1"/>
 <wire x1="120.4672375" y1="77.99139375" x2="136.55875" y2="75.39586875" width="0" layer="19" extent="1-1"/>
@@ -9012,7 +9020,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="72.4036" y1="89.5096" x2="72.4036" y2="85.5726" width="0" layer="19" extent="1-1"/>
 <wire x1="75.159665625" y1="104.523246875" x2="72.4036" y2="89.5096" width="0" layer="19" extent="1-1"/>
 <wire x1="48.15210625" y1="73.57428125" x2="64.19259375" y2="70.74851875" width="0" layer="19" extent="1-1"/>
-<wire x1="81.5714" y1="26.5176" x2="102.96569375" y2="22.27261875" width="0" layer="19" extent="1-1"/>
+<wire x1="81.5714" y1="26.5176" x2="103.886" y2="31.496" width="0" layer="19" extent="1-1"/>
 <wire x1="79.7306" y1="27.0256" x2="79.7306" y2="26.1112" width="0" layer="19" extent="1-1"/>
 <wire x1="75.1586" y1="29.476" x2="78.1184" y2="26.5176" width="0" layer="19" extent="1-1"/>
 <wire x1="72.5544" y1="26.5176" x2="73.9648" y2="28.702" width="0" layer="19" extent="1-1"/>
@@ -9098,6 +9106,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="-16.9164" y1="-35.5092" x2="-10.922" y2="-35.5092" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.173" y1="-42.418" x2="-16.9164" y2="-35.5092" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.173" y1="-45.72" x2="-21.173" y2="-42.418" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.948" y1="-51.816" x2="-21.173" y2="-45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
 <contactref element="U100" pad="5"/>
@@ -9393,17 +9402,15 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="24VIN">
 <contactref element="J5" pad="1"/>
-<contactref element="D8" pad="3"/>
 <wire x1="28.64529375" y1="7.17231875" x2="34.9794125" y2="0.8382" width="0.508" layer="1"/>
 <wire x1="28.64529375" y1="7.55331875" x2="28.64529375" y2="7.17231875" width="0.508" layer="1"/>
 <wire x1="34.9794125" y1="0.8382" x2="69.16715" y2="0.8382" width="0.508" layer="1"/>
 <wire x1="69.16715" y1="0.8382" x2="92.60816875" y2="24.27921875" width="0.508" layer="1"/>
-<wire x1="103.90549375" y1="24.27921875" x2="92.60816875" y2="24.27921875" width="0.508" layer="1"/>
 <contactref element="XF1" pad="1"/>
 <contactref element="XF1" pad="2"/>
-<wire x1="103.90549375" y1="24.27921875" x2="111.30598125" y2="24.27921875" width="0.508" layer="1"/>
 <wire x1="111.30598125" y1="24.27921875" x2="111.3282" y2="24.257" width="0.508" layer="1"/>
 <wire x1="111.3282" y1="24.257" x2="114.7318" y2="24.257" width="0.508" layer="1"/>
+<wire x1="92.60816875" y1="24.27921875" x2="111.30598125" y2="24.27921875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TIMER_EN">
 <contactref element="U100" pad="10"/>
@@ -9468,7 +9475,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="6.76229375" y1="20.07551875" x2="6.63529375" y2="20.20251875" width="0.1524" layer="16"/>
 </signal>
 <signal name="+3V3">
-<contactref element="TP_3.3V" pad="1"/>
 <contactref element="C29" pad="1"/>
 <contactref element="U24" pad="5"/>
 <contactref element="C30" pad="1"/>
@@ -9554,9 +9560,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="147.842471875" y1="59.34276875" x2="149.162071875" y2="59.34276875" width="0.1524" layer="1"/>
 <wire x1="149.162071875" y1="59.34276875" x2="149.1740125" y2="59.354709375" width="0.1524" layer="1"/>
 <via x="149.1740125" y="59.354709375" extent="1-16" drill="0.3048"/>
-<wire x1="84.678840625" y1="73.1186" x2="87.3172" y2="73.1186" width="0.1524" layer="1"/>
-<wire x1="87.3172" y1="73.1186" x2="87.4014" y2="73.2028" width="0.1524" layer="1"/>
-<via x="87.4014" y="73.2028" extent="1-16" drill="0.3048"/>
 <wire x1="121.62129375" y1="55.76251875" x2="120.32931875" y2="55.76251875" width="0.1524" layer="1"/>
 <wire x1="120.32931875" y1="55.76251875" x2="120.3198" y2="55.753" width="0.1524" layer="1"/>
 <via x="120.3198" y="55.753" extent="1-16" drill="0.3048"/>
@@ -9567,7 +9570,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="132.85151875" y1="43.95151875" x2="133.35" y2="44.45" width="0.1524" layer="1"/>
 <via x="133.35" y="44.45" extent="1-16" drill="0.254"/>
 <contactref element="3.3V" pad="2"/>
-<wire x1="84.678840625" y1="73.1186" x2="79.127359375" y2="73.1186" width="0.1524" layer="1"/>
 <wire x1="79.127359375" y1="73.1186" x2="79.057" y2="73.188959375" width="0.1524" layer="1"/>
 <contactref element="U26" pad="4"/>
 <contactref element="U26" pad="2"/>
@@ -9616,6 +9618,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="153.274" y1="69.172" x2="151.808" y2="69.172" width="0.1524" layer="1"/>
 <wire x1="151.808" y1="69.172" x2="151.384" y2="69.596" width="0.1524" layer="1"/>
 <via x="151.384" y="69.596" extent="1-16" drill="0.35"/>
+<contactref element="TP_3.3V" pad="1"/>
 <wire x1="149.1740125" y1="59.354709375" x2="151.384" y2="69.596" width="0" layer="19" extent="1-1"/>
 <wire x1="146.275378125" y1="56.4642875" x2="146.275378125" y2="58.9642875" width="0" layer="19" extent="1-1"/>
 <wire x1="146.05" y1="52.07" x2="145.777734375" y2="55.10915" width="0" layer="19" extent="1-1"/>
@@ -9630,13 +9633,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="122.682" y1="24.6634" x2="123.38729375" y2="40.14151875" width="0" layer="19" extent="1-1"/>
 <wire x1="138.23359375" y1="18.57691875" x2="127.6604" y2="18.263" width="0" layer="19" extent="1-1"/>
 <wire x1="170.50068125" y1="30.88049375" x2="146.05" y2="50.38" width="0" layer="19" extent="1-1"/>
-<wire x1="87.4014" y1="73.2028" x2="120.3198" y2="55.753" width="0" layer="19" extent="1-1"/>
 <wire x1="83.7692" y1="23.0632" x2="121.031" y2="22.9108" width="0" layer="19" extent="1-1"/>
 <wire x1="77.1779" y1="20.5486" x2="82.3849" y2="23.0886" width="0" layer="19" extent="1-1"/>
 <wire x1="74.2774" y1="24.5006" x2="74.1426" y2="20.1676" width="0" layer="19" extent="1-1"/>
 <wire x1="75.1586" y1="30.976" x2="75.2348" y2="26.4922" width="0" layer="19" extent="1-1"/>
 <wire x1="73.7186" y1="33.67" x2="73.4568" y2="31.3182" width="0" layer="19" extent="1-1"/>
 <wire x1="82.0801" y1="33.274" x2="76.8731" y2="30.734" width="0" layer="19" extent="1-1"/>
+<wire x1="79.127359375" y1="73.1186" x2="74.6252" y2="35.7886" width="0" layer="19" extent="1-1"/>
+<wire x1="84.678840625" y1="73.1186" x2="79.127359375" y2="73.1186" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PRECHARGE_OK">
 <contactref element="R16" pad="2"/>
@@ -10821,6 +10825,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="J3" pad="7"/>
 <contactref element="A3" pad="1"/>
 <contactref element="C7" pad="1"/>
+<contactref element="24V" pad="2"/>
 <wire x1="119.5578" y1="34.3514" x2="131.852621875" y2="92.04886875" width="0" layer="19" extent="1-1"/>
 <wire x1="114.7318" y1="34.163" x2="119.5578" y2="34.3514" width="0" layer="19" extent="1-1"/>
 <wire x1="111.3282" y1="34.163" x2="114.7318" y2="34.163" width="0" layer="19" extent="1-1"/>
@@ -10831,6 +10836,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="-20.828" y1="-23.368" x2="-21.082" y2="-16.764" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.9136" y1="-35.5092" x2="-20.828" y2="-23.368" width="0" layer="19" extent="1-1"/>
 <wire x1="-23.023" y1="-42.418" x2="-19.9136" y2="-35.5092" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.273" y1="-48.768" x2="-23.023" y2="-42.418" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$32">
+<contactref element="24V" pad="1"/>
+<contactref element="R83" pad="2"/>
+<wire x1="-21.248" y1="-51.816" x2="-22.923" y2="-48.768" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
