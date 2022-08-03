@@ -10275,12 +10275,12 @@ Accumulator GND, both AIR+ and -</text>
 <instance part="P8" gate="G$1" x="27.94" y="68.58" smashed="yes">
 <attribute name="VALUE" x="27.94" y="72.39" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P86" gate="1" x="43.18" y="43.18" smashed="yes">
-<attribute name="VALUE" x="43.18" y="41.91" size="1.27" layer="96" align="top-center"/>
+<instance part="P86" gate="1" x="48.26" y="43.18" smashed="yes">
+<attribute name="VALUE" x="48.26" y="41.91" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R15" gate="G$1" x="43.18" y="53.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.91" y="52.07" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="44.45" y="52.07" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R15" gate="G$1" x="48.26" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.99" y="52.07" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="49.53" y="52.07" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="P4" gate="1" x="45.72" y="119.38" smashed="yes">
 <attribute name="VALUE" x="45.72" y="118.11" size="1.27" layer="96" align="top-center"/>
@@ -10688,11 +10688,11 @@ Accumulator GND, both AIR+ and -</text>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="P86" gate="1" pin="GND"/>
-<wire x1="43.18" y1="45.72" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="55.88" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-<junction x="43.18" y="45.72"/>
+<wire x1="48.26" y1="45.72" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="55.88" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="45.72" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
+<junction x="48.26" y="45.72"/>
 <pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 <segment>
@@ -11050,11 +11050,11 @@ Accumulator GND, both AIR+ and -</text>
 </net>
 <net name="MHS" class="0">
 <segment>
-<wire x1="17.78" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="58.42" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<junction x="43.18" y="58.42"/>
-<label x="45.72" y="58.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="17.78" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="58.42" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
+<junction x="48.26" y="58.42"/>
+<label x="50.8" y="58.42" size="1.27" layer="95" xref="yes"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
