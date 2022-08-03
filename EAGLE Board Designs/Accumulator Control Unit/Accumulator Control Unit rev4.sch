@@ -9750,8 +9750,8 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 </part>
 <part name="R59" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="P39" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R57" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
-<part name="R58" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_30K"/>
+<part name="R57" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.74K" value="RESISTOR_0603_2.74K"/>
+<part name="R58" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K" value="RESISTOR_0603_10.5K"/>
 <part name="BSPD_CURRENT" library="HyTechDevices - Copy" deviceset="TEST_POINT" device=""/>
 <part name="A2" library="HyTechDevices" deviceset="TEENSY_4.0" device=""/>
 <part name="R26" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
