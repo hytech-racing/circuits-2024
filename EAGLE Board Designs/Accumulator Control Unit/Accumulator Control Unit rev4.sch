@@ -11066,7 +11066,7 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="J3" gate="G$1" pin="13"/>
 </segment>
 </net>
-<net name="CURRENT_REF" class="0">
+<net name="CURR_SENSOR_TEMP" class="0">
 <segment>
 <wire x1="20.32" y1="109.22" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
 <label x="22.86" y="109.22" size="1.27" layer="95" xref="yes"/>
@@ -12972,16 +12972,16 @@ current across precharge relay</text>
 <attribute name="VOLTAGE" x="203.2" y="156.21" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="204.978" y="156.21" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R22" gate="G$1" x="149.86" y="172.72" smashed="yes">
-<attribute name="NAME" x="148.59" y="173.99" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="148.59" y="171.45" size="1.27" layer="96" align="top-center"/>
+<instance part="R22" gate="G$1" x="154.94" y="172.72" smashed="yes">
+<attribute name="NAME" x="153.67" y="173.99" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="153.67" y="171.45" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R23" gate="G$1" x="157.48" y="165.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="158.75" y="166.37" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="RESISTANCE" x="156.21" y="166.37" size="1.27" layer="96" rot="R270" align="top-center"/>
+<instance part="R23" gate="G$1" x="160.02" y="165.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="161.29" y="166.37" size="1.27" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="RESISTANCE" x="158.75" y="166.37" size="1.27" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="P93" gate="1" x="157.48" y="157.48" smashed="yes">
-<attribute name="VALUE" x="157.48" y="156.21" size="1.27" layer="96" align="top-center"/>
+<instance part="P93" gate="1" x="160.02" y="157.48" smashed="yes">
+<attribute name="VALUE" x="160.02" y="156.21" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P94" gate="G$1" x="213.36" y="193.04" smashed="yes">
 <attribute name="VALUE" x="213.36" y="194.31" size="1.27" layer="96" align="bottom-center"/>
@@ -13173,7 +13173,7 @@ current across precharge relay</text>
 </segment>
 <segment>
 <pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="162.56" x2="157.48" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="162.56" x2="160.02" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="P93" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -13255,14 +13255,14 @@ current across precharge relay</text>
 <label x="88.9" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CURRENT_REF" class="0">
+<net name="CURR_SENSOR_TEMP" class="0">
 <segment>
-<wire x1="144.78" y1="172.72" x2="142.24" y2="172.72" width="0.1524" layer="91"/>
-<label x="142.24" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="172.72" x2="147.32" y2="172.72" width="0.1524" layer="91"/>
+<label x="147.32" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R22" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="CURRENT_REF_BUFFER" class="0">
+<net name="CURR_SENSOR_TEMP_BUFFER" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="VOUT"/>
 <wire x1="177.8" y1="170.18" x2="185.42" y2="170.18" width="0.1524" layer="91"/>
@@ -13299,7 +13299,7 @@ current across precharge relay</text>
 <pinref part="U10" gate="G$1" pin="OUT"/>
 </segment>
 </net>
-<net name="CURRENT_REF_FILTERED" class="0">
+<net name="CURR_SENSOR_TEMP_FILTERED" class="0">
 <segment>
 <wire x1="238.76" y1="170.18" x2="243.84" y2="170.18" width="0.1524" layer="91"/>
 <label x="243.84" y="170.18" size="1.27" layer="95" xref="yes"/>
@@ -13540,11 +13540,11 @@ current across precharge relay</text>
 <segment>
 <pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="U3" gate="A" pin="VIN+"/>
-<wire x1="152.4" y1="172.72" x2="157.48" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="172.72" x2="160.02" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="172.72" x2="167.64" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="170.18" x2="157.48" y2="172.72" width="0.1524" layer="91"/>
-<junction x="157.48" y="172.72"/>
+<wire x1="160.02" y1="172.72" x2="167.64" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="170.18" x2="160.02" y2="172.72" width="0.1524" layer="91"/>
+<junction x="160.02" y="172.72"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -14423,7 +14423,7 @@ current across precharge relay</text>
 <pinref part="A2" gate="G$1" pin="A7"/>
 </segment>
 </net>
-<net name="CURRENT_REF_FILTERED" class="0">
+<net name="CURR_SENSOR_TEMP_FILTERED" class="0">
 <segment>
 <wire x1="48.26" y1="154.94" x2="45.72" y2="154.94" width="0.1524" layer="91"/>
 <label x="45.72" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
