@@ -11587,7 +11587,7 @@ current across precharge relay</text>
 <text x="7.62" y="129.54" size="1.778" layer="97">550V corresponds to 4.816V out of difference op amp</text>
 <text x="55.88" y="203.2" size="1.778" layer="97">OV fault at 533V</text>
 <text x="73.66" y="20.32" size="1.778" layer="97">UV fault at 377V</text>
-<text x="220.98" y="190.5" size="1.778" layer="97">Trips at 59.9V</text>
+<text x="220.98" y="190.5" size="1.778" layer="97">Trips at 60.06V</text>
 </plain>
 <instances>
 <instance part="U22" gate="A" x="38.1" y="160.02" smashed="yes">
@@ -12629,7 +12629,7 @@ current across precharge relay</text>
 <junction x="203.2" y="88.9"/>
 </segment>
 </net>
-<net name="0.5989V_DIV" class="0">
+<net name="0.526V_DIV" class="0">
 <segment>
 <wire x1="193.04" y1="175.26" x2="190.5" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="175.26" x2="187.96" y2="175.26" width="0.1524" layer="91"/>

@@ -10042,7 +10042,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="43.18" y1="36.80288125" x2="43.11731875" y2="36.80288125" width="0.1524" layer="1"/>
 <wire x1="43.11731875" y1="36.80288125" x2="42.2012" y2="37.719" width="0.1524" layer="1"/>
 </signal>
-<signal name="0.5989V_DIV">
+<signal name="0.526V_DIV">
 <contactref element="U21" pad="3"/>
 <wire x1="23.25470625" y1="30.40928125" x2="23.25470625" y2="32.30328125" width="0.1524" layer="1"/>
 <contactref element="R38" pad="2"/>
