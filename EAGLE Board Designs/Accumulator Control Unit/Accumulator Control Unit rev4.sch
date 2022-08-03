@@ -12767,7 +12767,7 @@ current across precharge relay</text>
 <plain>
 <text x="129.54" y="22.86" size="2.54" layer="95">Josh Kirshenbaum</text>
 <text x="124.46" y="198.12" size="2.54" layer="97">Analog Filtering</text>
-<text x="43.18" y="48.26" size="1.778" layer="97">Multiplies current signal voltage by 4</text>
+<text x="48.26" y="48.26" size="1.778" layer="97">5V to 24.16V</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
