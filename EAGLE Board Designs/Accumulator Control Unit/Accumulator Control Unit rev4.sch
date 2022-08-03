@@ -14374,9 +14374,9 @@ current across precharge relay</text>
 <pinref part="R21" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="48.26" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
-<label x="45.72" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="A2" gate="G$1" pin="A0"/>
+<pinref part="A2" gate="G$1" pin="D7"/>
+<wire x1="73.66" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
+<label x="76.2" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TEENSY_OK" class="0">
