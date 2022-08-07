@@ -9671,19 +9671,11 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="P28" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P29" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="U22" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
-<part name="R67" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K" value="RESISTOR_0603_13K"/>
-<part name="R68" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
-<part name="R66" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K" value="RESISTOR_0603_13K"/>
-<part name="R65" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
 <part name="GND2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="GND1" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+1" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="U23" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
-<part name="R75" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K" value="RESISTOR_0603_13K"/>
-<part name="R76" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
-<part name="R74" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K" value="RESISTOR_0603_13K"/>
-<part name="R72" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
 <part name="GND7" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C28" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="GND9" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -10078,6 +10070,14 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="P113" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P114" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C42" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="R65" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K"/>
+<part name="R66" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K"/>
+<part name="R67" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
+<part name="R68" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
+<part name="R72" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K"/>
+<part name="R74" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K"/>
+<part name="R75" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
+<part name="R76" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K"/>
 </parts>
 <sheets>
 <sheet>
@@ -11652,22 +11652,6 @@ current across precharge relay</text>
 <attribute name="NAME" x="40.64" y="186.182" size="1.27" layer="95"/>
 <attribute name="MPN" x="40.64" y="171.958" size="1.27" layer="95" align="top-left"/>
 </instance>
-<instance part="R67" gate="G$1" x="30.48" y="162.56" smashed="yes">
-<attribute name="NAME" x="29.21" y="163.83" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="29.21" y="161.29" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R68" gate="G$1" x="40.64" y="167.64" smashed="yes">
-<attribute name="NAME" x="39.37" y="168.91" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="39.37" y="166.37" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R66" gate="G$1" x="30.48" y="157.48" smashed="yes">
-<attribute name="NAME" x="29.21" y="158.75" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="29.21" y="156.21" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R65" gate="G$1" x="40.64" y="152.4" smashed="yes">
-<attribute name="NAME" x="39.37" y="153.67" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="39.37" y="151.13" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="GND2" gate="1" x="48.26" y="165.1" smashed="yes">
 <attribute name="VALUE" x="48.26" y="163.83" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -11689,22 +11673,6 @@ current across precharge relay</text>
 <instance part="U23" gate="P" x="40.64" y="73.66" smashed="yes">
 <attribute name="NAME" x="40.64" y="74.422" size="1.27" layer="95"/>
 <attribute name="MPN" x="40.64" y="60.198" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="R75" gate="G$1" x="30.48" y="50.8" smashed="yes">
-<attribute name="NAME" x="29.21" y="52.07" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="29.21" y="49.53" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R76" gate="G$1" x="40.64" y="55.88" smashed="yes">
-<attribute name="NAME" x="39.37" y="57.15" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="39.37" y="54.61" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R74" gate="G$1" x="30.48" y="45.72" smashed="yes">
-<attribute name="NAME" x="29.21" y="46.99" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="29.21" y="44.45" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R72" gate="G$1" x="40.64" y="40.64" smashed="yes">
-<attribute name="NAME" x="39.37" y="41.91" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="39.37" y="39.37" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="GND7" gate="1" x="48.26" y="53.34" smashed="yes">
 <attribute name="VALUE" x="48.26" y="52.07" size="1.27" layer="96" align="top-center"/>
@@ -12106,29 +12074,61 @@ current across precharge relay</text>
 <attribute name="NAME" x="186.69" y="171.45" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="189.23" y="171.45" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="R65" gate="G$1" x="40.64" y="167.64" smashed="yes">
+<attribute name="NAME" x="39.37" y="168.91" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="39.37" y="166.37" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R66" gate="G$1" x="40.64" y="152.4" smashed="yes">
+<attribute name="NAME" x="39.37" y="153.67" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="39.37" y="151.13" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R67" gate="G$1" x="30.48" y="162.56" smashed="yes">
+<attribute name="NAME" x="29.21" y="163.83" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="29.21" y="161.29" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R68" gate="G$1" x="30.48" y="157.48" smashed="yes">
+<attribute name="NAME" x="29.21" y="158.75" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="29.21" y="156.21" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R72" gate="G$1" x="40.64" y="55.88" smashed="yes">
+<attribute name="NAME" x="39.37" y="57.15" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="39.37" y="54.61" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R74" gate="G$1" x="40.64" y="40.64" smashed="yes">
+<attribute name="NAME" x="39.37" y="41.91" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="39.37" y="39.37" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R75" gate="G$1" x="30.48" y="50.8" smashed="yes">
+<attribute name="NAME" x="29.21" y="52.07" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="29.21" y="49.53" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R76" gate="G$1" x="30.48" y="45.72" smashed="yes">
+<attribute name="NAME" x="29.21" y="46.99" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="29.21" y="44.45" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R67" gate="G$1" pin="2"/>
 <pinref part="U22" gate="A" pin="VIN+"/>
 <wire x1="33.02" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="162.56" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
-<junction x="33.02" y="162.56"/>
-<pinref part="R68" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="167.64" x2="35.56" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R65" gate="G$1" pin="1"/>
+<pinref part="R67" gate="G$1" pin="2"/>
+<junction x="33.02" y="162.56"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="U22" gate="A" pin="VIN-"/>
-<pinref part="R66" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="157.48" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R65" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="152.4" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R66" gate="G$1" pin="1"/>
+<pinref part="R68" gate="G$1" pin="2"/>
 <junction x="33.02" y="157.48"/>
 </segment>
 </net>
@@ -12152,12 +12152,12 @@ current across precharge relay</text>
 <pinref part="U22" gate="A" pin="VOUT"/>
 <wire x1="45.72" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="160.02" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R65" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
 <label x="45.72" y="160.02" size="1.27" layer="95"/>
 <wire x1="53.34" y1="152.4" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R69" gate="G$1" pin="2"/>
 <junction x="53.34" y="152.4"/>
+<pinref part="R66" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="205.74" y1="167.64" x2="213.36" y2="167.64" width="0.1524" layer="91"/>
@@ -12167,9 +12167,9 @@ current across precharge relay</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="R68" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="43.18" y1="167.64" x2="48.26" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R65" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U22" gate="P" pin="GND"/>
@@ -12180,9 +12180,9 @@ current across precharge relay</text>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R76" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="43.18" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R72" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U23" gate="P" pin="GND"/>
@@ -12486,23 +12486,23 @@ current across precharge relay</text>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R75" gate="G$1" pin="2"/>
 <pinref part="U23" gate="A" pin="VIN+"/>
 <wire x1="33.02" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="50.8" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
-<junction x="33.02" y="50.8"/>
-<pinref part="R76" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R72" gate="G$1" pin="1"/>
+<pinref part="R75" gate="G$1" pin="2"/>
+<junction x="33.02" y="50.8"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="U23" gate="A" pin="VIN-"/>
-<pinref part="R74" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="R72" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="40.64" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R74" gate="G$1" pin="1"/>
+<pinref part="R76" gate="G$1" pin="2"/>
 <junction x="33.02" y="45.72"/>
 </segment>
 </net>
@@ -12511,12 +12511,12 @@ current across precharge relay</text>
 <pinref part="U23" gate="A" pin="VOUT"/>
 <wire x1="45.72" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="48.26" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R72" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <label x="45.72" y="48.26" size="1.27" layer="95"/>
 <wire x1="53.34" y1="40.64" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R71" gate="G$1" pin="2"/>
 <junction x="53.34" y="40.64"/>
+<pinref part="R74" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="149.86" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
@@ -12731,35 +12731,35 @@ current across precharge relay</text>
 </net>
 <net name="ISO_PACK+" class="0">
 <segment>
-<pinref part="R75" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
 <label x="22.86" y="50.8" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="R75" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ISO_PACK-" class="0">
 <segment>
-<pinref part="R74" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
 <label x="22.86" y="45.72" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R73" gate="G$1" pin="2"/>
+<pinref part="R76" gate="G$1" pin="1"/>
 <junction x="25.4" y="45.72"/>
 </segment>
 </net>
 <net name="ISO_TS+" class="0">
 <segment>
-<pinref part="R67" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="162.56" x2="22.86" y2="162.56" width="0.1524" layer="91"/>
 <label x="22.86" y="162.56" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="R67" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ISO_TS-" class="0">
 <segment>
-<pinref part="R66" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="157.48" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
 <label x="22.86" y="157.48" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <wire x1="25.4" y1="157.48" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R81" gate="G$1" pin="2"/>
+<pinref part="R68" gate="G$1" pin="1"/>
 <junction x="25.4" y="157.48"/>
 </segment>
 </net>
