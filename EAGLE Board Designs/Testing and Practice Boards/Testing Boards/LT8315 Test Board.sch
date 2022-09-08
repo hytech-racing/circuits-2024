@@ -5279,6 +5279,10 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="50V_10UF"/>
 <part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="100V_0.1UF"/>
 <part name="C8" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="" technology="0.1UF"/>
+<part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="25V_33UF"/>
+<part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="25V_33UF"/>
+<part name="P4" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
+<part name="P5" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5396,8 +5400,24 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <attribute name="VOLTAGE" x="247.65" y="142.24" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="249.428" y="142.24" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="C8" gate="G$1" x="186.69" y="138.43" smashed="yes" rot="R90">
-<attribute name="NAME" x="184.15" y="137.16" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<instance part="C8" gate="G$1" x="60.96" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="58.42" y="138.43" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="C9" gate="G$1" x="255.27" y="143.51" smashed="yes" rot="R90">
+<attribute name="NAME" x="252.73" y="142.24" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="257.81" y="142.24" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="259.588" y="142.24" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C10" gate="G$1" x="265.43" y="143.51" smashed="yes" rot="R90">
+<attribute name="NAME" x="262.89" y="142.24" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="267.97" y="142.24" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="269.748" y="142.24" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="P4" gate="G$1" x="60.96" y="147.32" smashed="yes">
+<attribute name="VALUE" x="60.96" y="152.4" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P5" gate="G$1" x="60.96" y="129.54" smashed="yes">
+<attribute name="VALUE" x="60.96" y="127" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -5418,9 +5438,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="186.69" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="132.08" x2="156.21" y2="132.08" width="0.1524" layer="91"/>
 <junction x="177.8" y="132.08"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="186.69" y1="133.35" x2="186.69" y2="132.08" width="0.1524" layer="91"/>
-<junction x="186.69" y="132.08"/>
 </segment>
 </net>
 <net name="TS+UNFUSED" class="0">
@@ -5432,10 +5449,12 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <junction x="177.8" y="147.32"/>
 <wire x1="182.88" y1="142.24" x2="186.69" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="3"/>
-<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="186.69" y1="142.24" x2="189.23" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="186.69" y1="140.97" x2="186.69" y2="142.24" width="0.1524" layer="91"/>
-<junction x="186.69" y="142.24"/>
+</segment>
+<segment>
+<pinref part="P4" gate="G$1" pin="TS+UNFUSED"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="142.24" x2="60.96" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -5499,6 +5518,11 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="189.23" y1="144.78" x2="184.15" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="184.15" y1="144.78" x2="184.15" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="171.45" y1="157.48" x2="184.15" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P5" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="132.08" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -5609,6 +5633,14 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="234.95" y1="147.32" x2="245.11" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="245.11" y1="147.32" x2="245.11" y2="146.05" width="0.1524" layer="91"/>
 <junction x="234.95" y="147.32"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="245.11" y1="147.32" x2="255.27" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="255.27" y1="147.32" x2="255.27" y2="146.05" width="0.1524" layer="91"/>
+<junction x="245.11" y="147.32"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="255.27" y1="147.32" x2="265.43" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="265.43" y1="147.32" x2="265.43" y2="146.05" width="0.1524" layer="91"/>
+<junction x="255.27" y="147.32"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -5621,6 +5653,14 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="245.11" y1="138.43" x2="245.11" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="245.11" y1="137.16" x2="234.95" y2="137.16" width="0.1524" layer="91"/>
 <junction x="234.95" y="137.16"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="245.11" y1="137.16" x2="255.27" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="255.27" y1="137.16" x2="255.27" y2="138.43" width="0.1524" layer="91"/>
+<junction x="245.11" y="137.16"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="255.27" y1="137.16" x2="265.43" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="265.43" y1="137.16" x2="265.43" y2="138.43" width="0.1524" layer="91"/>
+<junction x="255.27" y="137.16"/>
 </segment>
 </net>
 </nets>
