@@ -3750,6 +3750,15 @@ Toshiba
 <rectangle x1="-4" y1="-2" x2="4" y2="2" layer="39"/>
 <rectangle x1="-4" y1="-2" x2="4" y2="2" layer="40"/>
 </package>
+<package name="5015">
+<description>Keystone Micro-Miniature SMD Test Point
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
+<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
+<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
+</package>
 </packages>
 <symbols>
 <symbol name="VOLTAGE_REGULATOR">
@@ -4438,6 +4447,12 @@ Toshiba
 <wire x1="3.81" y1="-33.02" x2="5.08" y2="-33.02" width="0.6096" layer="94"/>
 <wire x1="3.81" y1="-35.56" x2="5.08" y2="-35.56" width="0.6096" layer="94"/>
 <text x="0" y="-38.735" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+</symbol>
+<symbol name="TEST_POINT">
+<circle x="-1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-2.54" y="1.778" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-1.778" size="1.27" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7306,6 +7321,28 @@ PN for the holder; if 1/3N batteries needed, order separately.
 </device>
 </devices>
 </deviceset>
+<deviceset name="TEST_POINT" prefix="TP">
+<description>Test Point for Probing
+&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5015">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="36-5015CT-ND"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics"/>
+<attribute name="MOPN" value="534-5015"/>
+<attribute name="MPN" value="5015"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -7838,6 +7875,10 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="C29" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
 <part name="P12" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P73" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP3" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP4" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9230,7 +9271,7 @@ CAN_3 - Sensors and anything else</text>
 </instance>
 <instance part="A5" gate="G$1" x="101.6" y="180.34" smashed="yes">
 <attribute name="NAME" x="101.6" y="181.102" size="1.27" layer="95"/>
-<attribute name="MPN" x="110.49" y="171.958" size="1.27" layer="96" align="top-left"/>
+<attribute name="MPN" x="110.49" y="169.418" size="1.27" layer="96" align="top-left"/>
 </instance>
 <instance part="U$5" gate="G$1" x="96.52" y="182.88" smashed="yes">
 <attribute name="VALUE" x="96.52" y="187.96" size="1.778" layer="96" align="bottom-center"/>
@@ -9284,6 +9325,22 @@ CAN_3 - Sensors and anything else</text>
 <instance part="U$2" gate="G$1" x="139.7" y="180.34" smashed="yes">
 <attribute name="VALUE" x="139.7" y="185.42" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="TP1" gate="G$1" x="91.44" y="132.08" smashed="yes">
+<attribute name="NAME" x="88.9" y="133.858" size="1.27" layer="95"/>
+<attribute name="MPN" x="88.9" y="130.302" size="1.27" layer="95" align="top-left"/>
+</instance>
+<instance part="TP2" gate="G$1" x="66.04" y="177.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.58" y="176.022" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="68.58" y="179.578" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP3" gate="G$1" x="66.04" y="147.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.58" y="145.542" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="68.58" y="149.098" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP4" gate="G$1" x="127" y="177.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="129.54" y="176.022" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="129.54" y="179.578" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9306,6 +9363,8 @@ CAN_3 - Sensors and anything else</text>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="175.26" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
 <junction x="60.96" y="177.8"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="177.8" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P151" gate="1" pin="+5V"/>
@@ -9329,6 +9388,8 @@ CAN_3 - Sensors and anything else</text>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="144.78" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <junction x="60.96" y="147.32"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P165" gate="G$1" pin="+3V3"/>
@@ -9352,6 +9413,9 @@ CAN_3 - Sensors and anything else</text>
 <pinref part="XF2" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="134.62" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="132.08" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="132.08" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
+<junction x="96.52" y="132.08"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="+24V"/>
@@ -9839,6 +9903,8 @@ CAN_3 - Sensors and anything else</text>
 <wire x1="121.92" y1="177.8" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
 <junction x="121.92" y="177.8"/>
 <pinref part="C75" gate="G$1" pin="1"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="177.8" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
