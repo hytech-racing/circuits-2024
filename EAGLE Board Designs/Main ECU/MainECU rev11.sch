@@ -3669,51 +3669,21 @@ Toshiba
 <circle x="5.04" y="3.75" radius="1.5" width="0.127" layer="40"/>
 <circle x="5.04" y="-3.75" radius="1.5" width="0.127" layer="40"/>
 </package>
-<package name="MOLEX_MICROFIT_PTH_VERTICAL_14_DUAL">
-<description>14 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
+<package name="5015">
+<description>Keystone Micro-Miniature SMD Test Point
 &lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0430451414"&gt;Part&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430451414_sd.pdf"&gt;Footprint&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430251400_sd.pdf"&gt;Plug Size&lt;/a&gt;</description>
-<pad name="2" x="5.9944" y="-2.9972" drill="1.0668"/>
-<pad name="1" x="8.9916" y="-2.9972" drill="1.0668" first="yes"/>
-<hole x="11.9888" y="0.9398" drill="1.0668"/>
-<hole x="-11.9888" y="0.9398" drill="1.0668"/>
-<wire x1="-12.319" y1="-5.461" x2="12.319" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="12.319" y1="-5.461" x2="12.319" y2="1.905" width="0.127" layer="21"/>
-<wire x1="12.319" y1="1.905" x2="1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="1.905" x2="-1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-12.319" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-12.319" y1="1.905" x2="-12.319" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="1.9304" y2="3.302" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="3.302" x2="1.9304" y2="1.905" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="-1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="5.969" x2="1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="1.9304" y1="5.969" x2="1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<rectangle x1="-13.0556" y1="-5.842" x2="13.0556" y2="2.286" layer="39"/>
-<rectangle x1="-2.54" y1="2.286" x2="2.54" y2="6.35" layer="39"/>
-<rectangle x1="-13.0556" y1="-5.842" x2="13.0556" y2="2.286" layer="40"/>
-<text x="0" y="-6.477" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-<pad name="3" x="2.9972" y="-2.9972" drill="1.0668"/>
-<pad name="4" x="0" y="-2.9972" drill="1.0668"/>
-<pad name="5" x="-2.9972" y="-2.9972" drill="1.0668"/>
-<pad name="6" x="-5.9944" y="-2.9972" drill="1.0668"/>
-<pad name="7" x="-8.9916" y="-2.9972" drill="1.0668"/>
-<pad name="8" x="8.9916" y="0" drill="1.0668"/>
-<pad name="9" x="5.9944" y="0" drill="1.0668"/>
-<pad name="10" x="2.9972" y="0" drill="1.0668"/>
-<pad name="11" x="0" y="0" drill="1.0668"/>
-<pad name="12" x="-2.9972" y="0" drill="1.0668"/>
-<pad name="13" x="-5.9944" y="0" drill="1.0668"/>
-<pad name="14" x="-8.9916" y="0" drill="1.0668"/>
+&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
+<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
+<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
 </package>
-<package name="CLM-107-02">
-<description>Samtec Tiger Claw CLM107-02 14 pin female header
+<package name="ADIS16460">
+<description>Samtec Tiger Claw CLM107-02 14 pin female header. Adapted for ADIS16460
 &lt;br&gt;
-&lt;a href="https://suddendocs.samtec.com/catalog_english/clm_sm.pdf"&gt;Datasheet&lt;/a&gt;</description>
+&lt;a href="https://suddendocs.samtec.com/catalog_english/clm_sm.pdf"&gt;Connector Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.analog.com/media/en/technical-documentation/data-sheets/ADIS16460.pdf"&gt;ADIS16460 Datasheet&lt;/a&gt;</description>
 <hole x="0" y="-0.5" drill="0.56"/>
 <hole x="0" y="0.5" drill="0.56"/>
 <hole x="-1" y="0.5" drill="0.56"/>
@@ -3728,36 +3698,39 @@ Toshiba
 <hole x="-3" y="-0.5" drill="0.56"/>
 <hole x="3" y="0.5" drill="0.56"/>
 <hole x="3" y="-0.5" drill="0.56"/>
-<smd name="1" x="-3" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="2" x="-3" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="3" x="-2" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="4" x="-2" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="5" x="-1" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="6" x="-1" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="7" x="0" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="8" x="0" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="9" x="1" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="10" x="1" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="11" x="2" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="12" x="2" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="13" x="3" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<smd name="14" x="3" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R90"/>
-<wire x1="-3.659" y1="1.27" x2="3.659" y2="1.27" width="0.127" layer="21"/>
-<wire x1="3.659" y1="1.27" x2="3.659" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.659" y1="-1.27" x2="-3.659" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-3.659" y1="-1.27" x2="-3.659" y2="1.27" width="0.127" layer="21"/>
-<text x="-3.81" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-4" y1="-2" x2="4" y2="2" layer="39"/>
-<rectangle x1="-4" y1="-2" x2="4" y2="2" layer="40"/>
-</package>
-<package name="5015">
-<description>Keystone Micro-Miniature SMD Test Point
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
-<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
+<smd name="1" x="-3" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="2" x="-3" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="3" x="-2" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="4" x="-2" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="5" x="-1" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="6" x="-1" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="7" x="0" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="8" x="0" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="9" x="1" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="10" x="1" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="11" x="2" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="12" x="2" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="13" x="3" y="1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<smd name="14" x="3" y="-1.6" dx="1.37" dy="0.5" layer="1" rot="R270"/>
+<wire x1="-3.659" y1="-1.27" x2="3.659" y2="-1.27" width="0.127" layer="22"/>
+<wire x1="3.659" y1="-1.27" x2="3.659" y2="1.27" width="0.127" layer="22"/>
+<wire x1="3.659" y1="1.27" x2="-3.659" y2="1.27" width="0.127" layer="22"/>
+<wire x1="-3.659" y1="1.27" x2="-3.659" y2="-1.27" width="0.127" layer="22"/>
+<text x="-3.81" y="0" size="0.8128" layer="26" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<hole x="-7.1" y="-0.19" drill="2.4"/>
+<hole x="7.1" y="-0.19" drill="2.4"/>
+<hole x="0" y="18.06" drill="2.4"/>
+<wire x1="-11.2" y1="-3.49" x2="-11.2" y2="18.91" width="0.1524" layer="21"/>
+<wire x1="11.2" y1="18.91" x2="11.2" y2="-3.49" width="0.1524" layer="21"/>
+<wire x1="-11.2" y1="-3.49" x2="11.2" y2="-3.49" width="0.1524" layer="21"/>
+<wire x1="-2.6" y1="18.91" x2="2.6" y2="18.91" width="0.1524" layer="21" curve="-143"/>
+<wire x1="-11.2" y1="18.91" x2="-2.6" y2="18.91" width="0.1524" layer="21"/>
+<wire x1="2.6" y1="18.91" x2="11.2" y2="18.91" width="0.1524" layer="21"/>
+<rectangle x1="-11.43" y1="-3.81" x2="11.43" y2="21.082" layer="39"/>
+<circle x="-7.1" y="-0.19" radius="0.889" width="1.778" layer="40"/>
+<circle x="7.1" y="-0.19" radius="0.889" width="1.778" layer="40"/>
+<circle x="0" y="18.06" radius="0.889" width="1.778" layer="40"/>
+<rectangle x1="-3.81" y1="-1.524" x2="3.81" y2="1.524" layer="40"/>
 </package>
 </packages>
 <symbols>
@@ -4412,6 +4385,12 @@ Toshiba
 <vertex x="7.112" y="-30.226"/>
 </polygon>
 </symbol>
+<symbol name="TEST_POINT">
+<circle x="-1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-2.54" y="1.778" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-1.778" size="1.27" layer="95" align="top-left">&gt;MPN</text>
+</symbol>
 <symbol name="CONNECTOR_14">
 <wire x1="7.62" y1="-38.1" x2="0" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
@@ -4447,12 +4426,6 @@ Toshiba
 <wire x1="3.81" y1="-33.02" x2="5.08" y2="-33.02" width="0.6096" layer="94"/>
 <wire x1="3.81" y1="-35.56" x2="5.08" y2="-35.56" width="0.6096" layer="94"/>
 <text x="0" y="-38.735" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-</symbol>
-<symbol name="TEST_POINT">
-<circle x="-1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-2.54" y="1.778" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-1.778" size="1.27" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7257,43 +7230,37 @@ PN for the holder; if 1/3N batteries needed, order separately.
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONNECTOR-14_?_*" prefix="J">
-<description>14 pin connector
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/276/3/0430451414_PCB_HEADERS-2877114.pdf"&gt;Molex Micro-Fit Datasheet&lt;/a&gt;
+<deviceset name="TEST_POINT" prefix="TP">
+<description>Test Point for Probing
+&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5015">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="36-5015CT-ND"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics"/>
+<attribute name="MOPN" value="534-5015"/>
+<attribute name="MPN" value="5015"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADIS16460*" prefix="J">
+<description>14 pin connector specifically for ADIS16460 IMU
 &lt;br&gt;
 &lt;a href="https://suddendocs.samtec.com/catalog_english/clm_sm.pdf"&gt;Samtec Tiger Claw Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CONNECTOR_14" x="0" y="0"/>
 </gates>
 <devices>
-<device name="MF_T_V" package="MOLEX_MICROFIT_PTH_VERTICAL_14_DUAL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="WM4717-ND"/>
-<attribute name="MANUFACTURER" value="MOLEX"/>
-<attribute name="MOPN" value="538-43045-1414 "/>
-<attribute name="MPN" value="430451414"/>
-</technology>
-</technologies>
-</device>
-<device name="TC_F_V" package="CLM-107-02">
+<device name="" package="ADIS16460">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -7316,28 +7283,6 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <attribute name="MANUFACTURER" value="Samtec Inc."/>
 <attribute name="MOPN" value=""/>
 <attribute name="MPN" value="CLM-107-02"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TEST_POINT" prefix="TP">
-<description>Test Point for Probing
-&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="5015">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="36-5015CT-ND"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics"/>
-<attribute name="MOPN" value="534-5015"/>
-<attribute name="MPN" value="5015"/>
 </technology>
 </technologies>
 </device>
@@ -7867,7 +7812,6 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="U$4" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
-<part name="J2" library="HyTechDevices" deviceset="CONNECTOR-14_?_*" device="TC_F_V"/>
 <part name="P9" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P11" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
@@ -7879,13 +7823,14 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP3" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP4" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="J2" library="HyTechDevices" deviceset="ADIS16460*" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="68.58" y="63.5" size="1.27" layer="97">IMU_DOUT</text>
-<text x="68.58" y="60.96" size="1.27" layer="97">IMU_SCLK</text>
-<text x="68.58" y="55.88" size="1.27" layer="97">IMU_DIN</text>
+<text x="66.04" y="60.96" size="1.27" layer="97">IMU_DOUT</text>
+<text x="66.04" y="63.5" size="1.27" layer="97">IMU_SCLK</text>
+<text x="66.04" y="58.42" size="1.27" layer="97">IMU_DIN</text>
 </plain>
 <instances>
 <instance part="FRAME8" gate="O" x="0" y="0" smashed="yes">
@@ -7939,15 +7884,11 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <attribute name="NAME" x="205.74" y="200.787" size="1.27" layer="95"/>
 <attribute name="VALUE" x="205.74" y="96.393" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="J2" gate="G$1" x="33.02" y="71.12" smashed="yes">
-<attribute name="NAME" x="33.02" y="71.882" size="1.27" layer="95"/>
-<attribute name="MPN" x="33.02" y="32.385" size="1.27" layer="96" align="top-left"/>
+<instance part="P9" gate="G$1" x="48.26" y="48.26" smashed="yes">
+<attribute name="VALUE" x="48.26" y="49.53" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P9" gate="G$1" x="50.8" y="45.72" smashed="yes">
-<attribute name="VALUE" x="50.8" y="46.99" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P11" gate="1" x="50.8" y="30.48" smashed="yes">
-<attribute name="VALUE" x="50.8" y="29.21" size="1.27" layer="96" align="top-center"/>
+<instance part="P11" gate="1" x="48.26" y="33.02" smashed="yes">
+<attribute name="VALUE" x="48.26" y="31.75" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="C27" gate="G$1" x="60.96" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.42" y="36.83" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -7969,6 +7910,10 @@ PN for the holder; if 1/3N batteries needed, order separately.
 </instance>
 <instance part="P73" gate="1" x="81.28" y="25.4" smashed="yes">
 <attribute name="VALUE" x="81.28" y="24.13" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="J2" gate="G$1" x="30.48" y="71.12" smashed="yes">
+<attribute name="NAME" x="30.48" y="71.882" size="1.27" layer="95"/>
+<attribute name="MPN" x="30.48" y="32.385" size="1.27" layer="96" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -8192,10 +8137,10 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <pinref part="J5" gate="G$1" pin="40"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="14"/>
-<wire x1="43.18" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="P11" gate="1" pin="GND"/>
-<wire x1="50.8" y1="35.56" x2="50.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="38.1" x2="48.26" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="13"/>
 </segment>
 <segment>
 <pinref part="C27" gate="G$1" pin="2"/>
@@ -8837,59 +8782,59 @@ PN for the holder; if 1/3N batteries needed, order separately.
 </net>
 <net name="IMU_DATAREADY" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
-<label x="50.8" y="66.04" size="1.27" layer="95" xref="yes"/>
+<wire x1="40.64" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
+<label x="48.26" y="68.58" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="IMU_SYNC" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="68.58" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
-<label x="50.8" y="68.58" size="1.27" layer="95" xref="yes"/>
+<wire x1="40.64" y1="66.04" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
+<label x="48.26" y="66.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MCU_SDI" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="43.18" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
-<label x="50.8" y="63.5" size="1.27" layer="95" xref="yes"/>
+<wire x1="40.64" y1="60.96" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
+<label x="48.26" y="60.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="MCU_CLK" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="43.18" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
-<label x="50.8" y="60.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="40.64" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
+<label x="48.26" y="63.5" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="!IMU_CS" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="5"/>
-<wire x1="43.18" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
-<label x="50.8" y="58.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="40.64" y1="55.88" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
+<label x="48.26" y="55.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="MCU_SDO" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="6"/>
-<wire x1="43.18" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
-<label x="50.8" y="55.88" size="1.27" layer="95" xref="yes"/>
+<wire x1="40.64" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
+<label x="48.26" y="58.42" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="!IMU_RESET" class="0">
 <segment>
+<wire x1="40.64" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
+<label x="48.26" y="53.34" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="7"/>
-<wire x1="43.18" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
-<label x="50.8" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="12"/>
-<wire x1="43.18" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="P9" gate="G$1" pin="+3V3"/>
-<wire x1="50.8" y1="43.18" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="45.72" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="11"/>
 </segment>
 <segment>
 <pinref part="P12" gate="G$1" pin="+3V3"/>
