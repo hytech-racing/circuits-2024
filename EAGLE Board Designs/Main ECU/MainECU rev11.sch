@@ -7824,32 +7824,32 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <attribute name="NAME" x="88.9" y="200.787" size="1.27" layer="95"/>
 <attribute name="VALUE" x="88.9" y="96.393" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="P9" gate="G$1" x="48.26" y="48.26" smashed="yes">
-<attribute name="VALUE" x="48.26" y="49.53" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P9" gate="G$1" x="48.26" y="45.72" smashed="yes">
+<attribute name="VALUE" x="48.26" y="46.99" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P11" gate="1" x="48.26" y="33.02" smashed="yes">
 <attribute name="VALUE" x="48.26" y="31.75" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C27" gate="G$1" x="60.96" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="58.42" y="36.83" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="63.5" y="36.83" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="65.278" y="36.83" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C27" gate="G$1" x="60.96" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="58.42" y="34.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="63.5" y="34.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="65.278" y="34.29" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="C28" gate="G$1" x="71.12" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.58" y="36.83" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="73.66" y="36.83" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="75.438" y="36.83" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C28" gate="G$1" x="71.12" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="68.58" y="34.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="73.66" y="34.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="75.438" y="34.29" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="C29" gate="G$1" x="81.28" y="38.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.74" y="36.83" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="83.82" y="36.83" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="85.598" y="36.83" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C29" gate="G$1" x="81.28" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="78.74" y="34.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="83.82" y="34.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="85.598" y="34.29" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P12" gate="G$1" x="60.96" y="48.26" smashed="yes">
-<attribute name="VALUE" x="60.96" y="49.53" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P12" gate="G$1" x="60.96" y="45.72" smashed="yes">
+<attribute name="VALUE" x="60.96" y="46.99" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P73" gate="1" x="81.28" y="25.4" smashed="yes">
-<attribute name="VALUE" x="81.28" y="24.13" size="1.27" layer="96" align="top-center"/>
+<instance part="P73" gate="1" x="81.28" y="22.86" smashed="yes">
+<attribute name="VALUE" x="81.28" y="21.59" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="J2" gate="G$1" x="30.48" y="71.12" smashed="yes">
 <attribute name="NAME" x="30.48" y="71.882" size="1.27" layer="95"/>
@@ -7958,17 +7958,17 @@ PN for the holder; if 1/3N batteries needed, order separately.
 </segment>
 <segment>
 <pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="33.02" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="30.48" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="30.48" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="27.94" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="30.48" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="30.48" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="27.94" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="27.94" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="P73" gate="1" pin="GND"/>
-<wire x1="81.28" y1="30.48" x2="81.28" y2="27.94" width="0.1524" layer="91"/>
-<junction x="81.28" y="30.48"/>
+<wire x1="81.28" y1="27.94" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
+<junction x="81.28" y="27.94"/>
 <pinref part="C28" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="33.02" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
-<junction x="71.12" y="30.48"/>
+<wire x1="71.12" y1="30.48" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
+<junction x="71.12" y="27.94"/>
 </segment>
 <segment>
 <wire x1="195.58" y1="195.58" x2="157.48" y2="195.58" width="0.1524" layer="91"/>
@@ -8673,31 +8673,30 @@ PN for the holder; if 1/3N batteries needed, order separately.
 </net>
 <net name="!IMU_RESET" class="0">
 <segment>
-<wire x1="40.64" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
-<label x="48.26" y="53.34" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="7"/>
+<wire x1="40.64" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="8"/>
+<label x="48.26" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
 <wire x1="40.64" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="P9" gate="G$1" pin="+3V3"/>
-<wire x1="48.26" y1="45.72" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="11"/>
 </segment>
 <segment>
 <pinref part="P12" gate="G$1" pin="+3V3"/>
 <pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="45.72" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C29" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="43.18" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="43.18" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="43.18" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
-<junction x="60.96" y="43.18"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="40.64" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="40.64" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
+<junction x="60.96" y="40.64"/>
 <pinref part="C28" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="40.64" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
-<junction x="71.12" y="43.18"/>
+<wire x1="71.12" y1="38.1" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<junction x="71.12" y="40.64"/>
 </segment>
 </net>
 <net name="TCU_RX4" class="0">
