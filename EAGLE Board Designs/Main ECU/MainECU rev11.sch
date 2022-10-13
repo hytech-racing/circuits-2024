@@ -8651,14 +8651,14 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MCU_SDI" class="0">
+<net name="ECU_SDI" class="0">
 <segment>
 <wire x1="40.64" y1="60.96" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <label x="48.26" y="60.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MCU_CLK" class="0">
+<net name="ECU_CLK" class="0">
 <segment>
 <wire x1="40.64" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
 <label x="48.26" y="63.5" size="1.27" layer="95" xref="yes"/>
@@ -8672,7 +8672,7 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <pinref part="J2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MCU_SDO" class="0">
+<net name="ECU_SDO" class="0">
 <segment>
 <wire x1="40.64" y1="58.42" x2="48.26" y2="58.42" width="0.1524" layer="91"/>
 <label x="48.26" y="58.42" size="1.27" layer="95" xref="yes"/>
@@ -12135,7 +12135,7 @@ trips at 4.802kW. </text>
 <label x="200.66" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MCU_SDO" class="0">
+<net name="ECU_SDO" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="SDI"/>
 <wire x1="88.9" y1="152.4" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
@@ -12157,7 +12157,7 @@ trips at 4.802kW. </text>
 <label x="149.86" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MCU_SDI" class="0">
+<net name="ECU_SDI" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="SDO"/>
 <wire x1="88.9" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
@@ -12179,7 +12179,7 @@ trips at 4.802kW. </text>
 <label x="149.86" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MCU_CLK" class="0">
+<net name="ECU_CLK" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="CLK"/>
 <wire x1="88.9" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
