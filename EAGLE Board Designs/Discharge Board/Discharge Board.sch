@@ -2238,9 +2238,9 @@ Dashed line is edge of mated connector.</description>
 <junction x="22.86" y="20.32"/>
 <pinref part="K1" gate="G$1" pin="COIL-"/>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="30.48" x2="-2.54" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="5.08" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="5.08" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="30.48" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="12.7" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
 <junction x="22.86" y="10.16"/>
 </segment>
 </net>
@@ -2251,13 +2251,12 @@ Dashed line is edge of mated connector.</description>
 <wire x1="10.16" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="40.64" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <junction x="22.86" y="40.64"/>
-<label x="20.32" y="45.72" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="22.86" y="45.72" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <wire x1="22.86" y1="40.64" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="K1" gate="G$1" pin="COIL+"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="33.02" x2="-2.54" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TS+UNFUSED" class="0">
@@ -2266,8 +2265,8 @@ Dashed line is edge of mated connector.</description>
 <wire x1="33.02" y1="43.18" x2="33.02" y2="38.1" width="0.6096" layer="91"/>
 <pinref part="K1" gate="G$1" pin="CONTACT1"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="35.56" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="35.56" x2="55.88" y2="43.18" width="0.6096" layer="91"/>
+<wire x1="55.88" y1="43.18" x2="33.02" y2="43.18" width="0.6096" layer="91"/>
 <junction x="33.02" y="43.18"/>
 </segment>
 </net>
@@ -2294,9 +2293,8 @@ Dashed line is edge of mated connector.</description>
 <pinref part="P12" gate="G$1" pin="TS-UNFUSED"/>
 <wire x1="40.64" y1="12.7" x2="48.26" y2="12.7" width="0.6096" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="33.02" x2="55.88" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="10.16" x2="48.26" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="10.16" x2="48.26" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="33.02" x2="55.88" y2="12.7" width="0.6096" layer="91"/>
+<wire x1="55.88" y1="12.7" x2="48.26" y2="12.7" width="0.6096" layer="91"/>
 <junction x="48.26" y="12.7"/>
 </segment>
 </net>
