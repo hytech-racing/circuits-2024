@@ -297,15 +297,6 @@ Dashed line is edge of mated connector.</description>
 <wire x1="37.211" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="25.4" y1="-3.81" x2="25.4" y2="3.81" width="0.1524" layer="21"/>
 </package>
-<package name="5015">
-<description>Keystone Micro-Miniature SMD Test Point
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
-<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
-</package>
 </packages>
 </library>
 </libraries>
@@ -501,13 +492,13 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="D100" library="HyTechDevices" package="SOD-323" value="SCHOTTKY_SOD323_60V" x="-27.94" y="100.33" smashed="yes">
+<element name="D100" library="HyTechDevices" package="SOD-323" value="SCHOTTKY_SOD323_60V" x="-15.24" y="100.33" smashed="yes">
 <attribute name="CURRENT" value="1A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="DKPN" value="3757-MBR1060HEWS_R1_00001TR-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Panjit International Inc." x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="241-MBR1060HEWSR1000" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="MBR1060HEWS_R1_00001" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-27.94" y="101.33" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="NAME" x="-15.24" y="101.33" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VOLTAGE" value="60V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J1" library="HyTechDevices" package="MOLEX_MICROFIT_SMD_RIGHTANGLE_02_SINGLE" value="CONNECTOR-2_MICROFIT_SMD_RIGHTANGLE_02_SINGLE_BLACK" x="-21.59" y="26.67" smashed="yes">
@@ -567,41 +558,25 @@ design rules under a new name.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="548V" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="750V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP10" library="HyTechDevices" package="5015" value="TEST_POINT" x="-16.51" y="101.6" smashed="yes">
-<attribute name="DKPN" value="36-5015CT-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="534-5015" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5015" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.542" y="101.6" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-</element>
-<element name="TP11" library="HyTechDevices" package="5015" value="TEST_POINT" x="-22.86" y="101.6" smashed="yes">
-<attribute name="DKPN" value="36-5015CT-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="534-5015" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5015" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-24.892" y="101.6" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="D100" pad="A"/>
 <contactref element="K1" pad="3"/>
 <contactref element="J1" pad="2"/>
-<wire x1="-43.18" y1="48.26" x2="-29.09" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.18" y1="48.26" x2="-16.39" y2="100.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-23.0886" y1="32.1437" x2="-43.18" y2="48.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SHDN">
 <contactref element="D100" pad="C"/>
 <contactref element="K1" pad="4"/>
 <contactref element="J1" pad="1"/>
-<wire x1="-43.18" y1="38.1" x2="-26.79" y2="100.33" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.0914" y1="32.1437" x2="-43.18" y2="38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.0914" y1="32.1437" x2="-14.09" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.18" y1="38.1" x2="-20.0914" y2="32.1437" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TS+UNFUSED">
 <contactref element="K1" pad="2"/>
 <contactref element="J2" pad="2"/>
-<contactref element="TP10" pad="1"/>
-<wire x1="-17.78" y1="43.18" x2="-16.51" y2="101.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-39.5986" y1="32.1437" x2="-17.78" y2="43.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$51">
@@ -612,9 +587,6 @@ design rules under a new name.</description>
 <wire x1="-76.2" y1="59.69" x2="-68.58" y2="43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.2" y1="74.93" x2="-76.2" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.2" y1="90.17" x2="-76.2" y2="74.93" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="TS-UNFUSED">
-<contactref element="TP11" pad="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R6" pad="1"/>

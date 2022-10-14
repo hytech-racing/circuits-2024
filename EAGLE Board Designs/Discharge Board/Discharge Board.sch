@@ -312,15 +312,6 @@
 <rectangle x1="1.261" y1="0.5" x2="1.661" y2="0.75" layer="21"/>
 <rectangle x1="1.261" y1="-0.75" x2="1.661" y2="-0.5" layer="21"/>
 </package>
-<package name="5015">
-<description>Keystone Micro-Miniature SMD Test Point
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
-<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
-</package>
 <package name="335X">
 <description>335x Reed Relay
 &lt;br&gt;
@@ -553,12 +544,6 @@ Dashed line is edge of mated connector.</description>
 <wire x1="-0.508" y1="1.27" x2="-0.508" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="0" y1="-1.27" x2="0.508" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="0.508" y1="-1.27" x2="0.508" y2="-1.016" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="TEST_POINT">
-<circle x="-1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-2.54" y="1.778" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-1.778" size="1.27" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
 <symbol name="RELAY_SPST_NC_POLARIZED">
 <description>Single pole, single throw polarized normally closed relay</description>
@@ -1950,28 +1935,6 @@ Dashed line is edge of mated connector.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEST_POINT" prefix="TP">
-<description>Test Point for Probing
-&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="5015">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="36-5015CT-ND"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics"/>
-<attribute name="MOPN" value="534-5015"/>
-<attribute name="MPN" value="5015"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RELAY_SPST_NC_POLARIZED_?*" prefix="K">
 <description>Single Pole, Single Throw Normally Closed Polarized Relay
 &lt;ul&gt;
@@ -2210,11 +2173,7 @@ Dashed line is edge of mated connector.</description>
 <part name="D100" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="60V" value="SCHOTTKY_SOD323_60V"/>
 <part name="P36" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="TP11" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="TP10" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="P11" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="P12" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
-<part name="P15" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="15K"/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="15K"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="15K"/>
@@ -2237,22 +2196,8 @@ Dashed line is edge of mated connector.</description>
 <instance part="P2" gate="1" x="22.86" y="7.62" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="22.86" y="6.35" size="1.27" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="TP11" gate="G$1" x="78.74" y="20.32" smashed="yes">
-<attribute name="NAME" x="76.2" y="22.098" size="1.27" layer="95"/>
-<attribute name="MPN" x="76.2" y="18.542" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="TP10" gate="G$1" x="78.74" y="27.94" smashed="yes">
-<attribute name="NAME" x="76.2" y="29.718" size="1.27" layer="95"/>
-<attribute name="MPN" x="76.2" y="26.162" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="P11" gate="G$1" x="83.82" y="30.48" smashed="yes">
-<attribute name="VALUE" x="83.82" y="35.56" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="P12" gate="G$1" x="48.26" y="10.16" smashed="yes">
 <attribute name="VALUE" x="48.26" y="7.62" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P15" gate="G$1" x="83.82" y="17.78" smashed="yes">
-<attribute name="VALUE" x="83.82" y="15.24" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="R6" gate="G$1" x="40.64" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.37" y="16.51" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -2325,11 +2270,6 @@ Dashed line is edge of mated connector.</description>
 <wire x1="55.88" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 <junction x="33.02" y="43.18"/>
 </segment>
-<segment>
-<pinref part="TP10" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="27.94" x2="83.82" y2="27.94" width="0.6096" layer="91"/>
-<pinref part="P11" gate="G$1" pin="TS+UNFUSED"/>
-</segment>
 </net>
 <net name="N$51" class="0">
 <segment>
@@ -2341,13 +2281,6 @@ Dashed line is edge of mated connector.</description>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="20.32" x2="40.64" y2="20.32" width="0.6096" layer="91"/>
 <pinref part="K1" gate="G$1" pin="CONTACT2"/>
-</segment>
-</net>
-<net name="TS-UNFUSED" class="0">
-<segment>
-<pinref part="TP11" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="20.32" x2="83.82" y2="20.32" width="0.6096" layer="91"/>
-<pinref part="P15" gate="G$1" pin="TS-UNFUSED"/>
 </segment>
 </net>
 <net name="N$5" class="0">
