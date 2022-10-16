@@ -205,7 +205,7 @@
 <wire x1="20.574" y1="43.434" x2="30.48" y2="43.434" width="1.016" layer="22"/>
 <wire x1="30.48" y1="43.434" x2="30.48" y2="27.94" width="1.016" layer="22"/>
 <wire x1="30.48" y1="27.94" x2="0.508" y2="27.94" width="1.016" layer="22"/>
-<text x="33.02" y="3.302" size="1.27" layer="16" rot="MR0">HyTech Racing 2022
+<text x="33.02" y="3.302" size="1.27" layer="16" rot="MR0">HyTech Racing 2023
 Discharge Board
 Designed by Zheng-Yin Lee</text>
 </plain>
