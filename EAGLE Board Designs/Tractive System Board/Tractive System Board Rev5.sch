@@ -6342,166 +6342,6 @@ Based on page 10.</description>
 <rectangle x1="-11.43" y1="-13.97" x2="11.43" y2="13.97" layer="42"/>
 <circle x="-16.256" y="13.843" radius="0.254" width="0" layer="21"/>
 </package>
-<package name="MOLEX_NANOFIT_SMD_VERTICAL_02">
-<description>2 Pin Nano-Fit Vertical Header, SMD Mount, Single Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/1054311102"&gt;Part&lt;\a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/1054311102_sd.pdf"&gt;Footprint&lt;\a&gt;</description>
-<smd name="1" x="1.25" y="0" dx="1.24" dy="7" layer="1"/>
-<smd name="2" x="-1.25" y="0" dx="1.24" dy="7" layer="1"/>
-<smd name="PAD" x="3.055" y="0" dx="1.1" dy="8" layer="1"/>
-<smd name="PAD1" x="-3.055" y="0" dx="1.1" dy="8" layer="1"/>
-<rectangle x1="-4.115" y1="-4" x2="4.115" y2="5.05" layer="39"/>
-<wire x1="-4.115" y1="-1.74" x2="4.115" y2="-1.74" width="0.127" layer="21"/>
-<wire x1="4.115" y1="-1.74" x2="4.115" y2="1.74" width="0.127" layer="21"/>
-<wire x1="4.115" y1="1.74" x2="2.55" y2="1.74" width="0.127" layer="21"/>
-<wire x1="2.55" y1="1.74" x2="2.55" y2="4.95" width="0.127" layer="21"/>
-<wire x1="2.55" y1="4.95" x2="-2.55" y2="4.95" width="0.127" layer="21"/>
-<wire x1="-2.55" y1="4.95" x2="-2.55" y2="1.74" width="0.127" layer="21"/>
-<wire x1="-2.55" y1="1.74" x2="-4.115" y2="1.74" width="0.127" layer="21"/>
-<wire x1="-4.115" y1="1.74" x2="-4.115" y2="-1.74" width="0.127" layer="21"/>
-<text x="0" y="5.08" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<circle x="3.81" y="5.08" radius="0.635" width="0" layer="21"/>
-</package>
-<package name="MOLEX_MICROFIT_SMD_RIGHTANGLE_02_DUAL">
-<description>2 Pin Micro-Fit Right Angle Header, SMD, Dual Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0430450211"&gt;Part&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430450211_sd.pdf"&gt;Footprint&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430250200_sd.pdf"&gt;Plug Size&lt;/a&gt;
-&lt;br&gt;
-Solid line must not be visible on PCB if no cutout is desired.
-&lt;br&gt;
-Dashed line is edge of mated connector.</description>
-<smd name="PAD1" x="3.8862" y="0" dx="3.429" dy="1.651" layer="1"/>
-<smd name="PAD2" x="-3.8862" y="0" dx="3.429" dy="1.651" layer="1"/>
-<smd name="1" x="0" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
-<smd name="2" x="0" y="10.0965" dx="1.27" dy="2.921" layer="1"/>
-<rectangle x1="2.1717" y1="1.8034" x2="4.6101" y2="3.4036" layer="43"/>
-<rectangle x1="-4.6101" y1="1.8034" x2="-2.1717" y2="3.4036" layer="43"/>
-<wire x1="-3.3274" y1="5.4737" x2="3.3274" y2="5.4737" width="0.127" layer="21"/>
-<wire x1="1.4986" y1="-4.4323" x2="-1.4986" y2="-4.4323" width="0.127" layer="21"/>
-<wire x1="-3.3274" y1="-2.6035" x2="-3.3274" y2="5.4737" width="0.127" layer="21"/>
-<wire x1="-1.4986" y1="-4.4323" x2="-3.3274" y2="-2.6035" width="0.127" layer="21"/>
-<wire x1="1.4986" y1="-4.4323" x2="3.3274" y2="-2.6035" width="0.127" layer="21"/>
-<wire x1="3.3274" y1="-2.6035" x2="3.3274" y2="5.4737" width="0.127" layer="21"/>
-<rectangle x1="-6.35" y1="-5.08" x2="6.35" y2="12.7" layer="39"/>
-<text x="0" y="-5.207" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-4.6101" y1="1.8034" x2="-2.1717" y2="3.4036" layer="41"/>
-<rectangle x1="2.1717" y1="1.8034" x2="4.6101" y2="3.4036" layer="41"/>
-<wire x1="-6.35" y1="-10.033" x2="6.35" y2="-10.033" width="0.127" layer="51"/>
-<wire x1="-6.35" y1="-12.3698" x2="6.35" y2="-12.3698" width="0.127" layer="51" style="shortdash"/>
-<rectangle x1="-2.54" y1="-25.527" x2="2.54" y2="-10.033" layer="41"/>
-<wire x1="-2.54" y1="-10.033" x2="2.54" y2="-10.033" width="0" layer="46"/>
-<wire x1="2.54" y1="-10.033" x2="2.54" y2="-25.527" width="0" layer="46"/>
-<wire x1="2.54" y1="-25.527" x2="-2.54" y2="-25.527" width="0" layer="46"/>
-<wire x1="-2.54" y1="-25.527" x2="-2.54" y2="-10.033" width="0" layer="46"/>
-<rectangle x1="-2.54" y1="-25.527" x2="2.54" y2="-10.033" layer="42"/>
-<polygon width="0" layer="20">
-<vertex x="2.54" y="-25.527"/>
-<vertex x="-2.54" y="-25.527"/>
-<vertex x="-2.54" y="-10.033"/>
-<vertex x="2.54" y="-10.033"/>
-</polygon>
-</package>
-<package name="MOLEX_MICROFIT_SMD_RIGHTANGLE_02_SINGLE">
-<description>2 Pin Micro-Fit Right Angle Header, SMD, Single Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0436500214"&gt;Part&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/436500214_sd.pdf"&gt;Footprint&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/436450200_sd.pdf"&gt;Plug Size&lt;/a&gt;
-&lt;br&gt;
-Solid line must not be visible on PCB if no cutout is desired.
-&lt;br&gt;
-Dashed line is edge of mated connector.</description>
-<smd name="PAD1" x="5.3721" y="0" dx="3.429" dy="1.651" layer="1"/>
-<smd name="PAD2" x="-5.3721" y="0" dx="3.429" dy="1.651" layer="1"/>
-<smd name="1" x="1.4986" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
-<smd name="2" x="-1.4986" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
-<rectangle x1="3.1496" y1="1.8034" x2="5.588" y2="3.4036" layer="43"/>
-<rectangle x1="-5.588" y1="1.8034" x2="-3.1496" y2="3.4036" layer="43"/>
-<wire x1="-4.826" y1="5.4737" x2="4.826" y2="5.4737" width="0.127" layer="21"/>
-<wire x1="2.9972" y1="-4.4323" x2="-2.9972" y2="-4.4323" width="0.127" layer="21"/>
-<wire x1="-4.826" y1="-2.6035" x2="-4.826" y2="5.4737" width="0.127" layer="21"/>
-<wire x1="-2.9972" y1="-4.4323" x2="-4.826" y2="-2.6035" width="0.127" layer="21"/>
-<wire x1="2.9972" y1="-4.4323" x2="4.826" y2="-2.6035" width="0.127" layer="21"/>
-<wire x1="4.826" y1="-2.6035" x2="4.826" y2="5.4737" width="0.127" layer="21"/>
-<rectangle x1="-7.8486" y1="-5.08" x2="7.8486" y2="7.62" layer="39"/>
-<wire x1="-6.35" y1="-10.033" x2="6.35" y2="-10.033" width="0.127" layer="51"/>
-<wire x1="-6.35" y1="-12.3698" x2="6.35" y2="-12.3698" width="0.127" layer="51" style="shortdash"/>
-<text x="0.2286" y="-5.207" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-5.588" y1="1.8034" x2="-3.1496" y2="3.4036" layer="41"/>
-<rectangle x1="3.1496" y1="1.8034" x2="5.588" y2="3.4036" layer="41"/>
-<wire x1="-4.4704" y1="-10.033" x2="4.4704" y2="-10.033" width="0" layer="46"/>
-<wire x1="4.4704" y1="-10.033" x2="4.4704" y2="-25.527" width="0" layer="46"/>
-<wire x1="4.4704" y1="-25.527" x2="-4.4704" y2="-25.527" width="0" layer="46"/>
-<wire x1="-4.4704" y1="-25.527" x2="-4.4704" y2="-10.033" width="0" layer="46"/>
-<polygon width="0" layer="20">
-<vertex x="4.4704" y="-25.527"/>
-<vertex x="-4.4704" y="-25.527"/>
-<vertex x="-4.4704" y="-10.033"/>
-<vertex x="4.4704" y="-10.033"/>
-</polygon>
-<rectangle x1="-5.08" y1="-26.162" x2="5.08" y2="-5.08" layer="39"/>
-<rectangle x1="-5.08" y1="-26.162" x2="5.08" y2="-9.525" layer="40"/>
-</package>
-<package name="MOLEX_NANOFIT_PTH_02">
-<description>2 Pin Nano-Fit Vertical Header, Through Hole, Single Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/1053091202"&gt;Part&lt;\a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/1053091202_sd.pdf"&gt;Footprint&lt;\a&gt;</description>
-<pad name="1" x="1.25" y="0" drill="1.2" rot="R180" first="yes"/>
-<pad name="2" x="-1.25" y="0" drill="1.2" rot="R180"/>
-<wire x1="3" y1="-1.74" x2="-3" y2="-1.74" width="0.127" layer="21"/>
-<wire x1="-3" y1="-1.74" x2="-3" y2="1.74" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="4.6" x2="2.6" y2="4.6" width="0.127" layer="21"/>
-<wire x1="3" y1="1.74" x2="3" y2="-1.74" width="0.127" layer="21"/>
-<wire x1="3" y1="1.74" x2="2.6" y2="1.74" width="0.127" layer="21"/>
-<wire x1="2.6" y1="1.74" x2="2.6" y2="4.6" width="0.127" layer="21"/>
-<wire x1="-3" y1="1.74" x2="-2.6" y2="1.74" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="1.74" x2="-2.6" y2="4.6" width="0.127" layer="21"/>
-<hole x="0" y="1.34" drill="1.3"/>
-<wire x1="2.6" y1="1.74" x2="-2.6" y2="1.74" width="0.127" layer="21"/>
-<rectangle x1="-3.175" y1="-1.905" x2="3.175" y2="1.905" layer="40" rot="R180"/>
-<rectangle x1="-3.175" y1="1.905" x2="3.175" y2="5.08" layer="39" rot="R180"/>
-<rectangle x1="-3.175" y1="-1.905" x2="3.175" y2="1.905" layer="39" rot="R180"/>
-<text x="0" y="-2.54" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="MOLEX_MICROFIT_PTH_VERTICAL_02_DUAL">
-<description>2 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0430450214"&gt;Part&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430450214_sd.pdf"&gt;Footprint&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430250200_sd.pdf"&gt;Plug Size&lt;/a&gt;</description>
-<pad name="2" x="0" y="0" drill="1.0668"/>
-<pad name="1" x="0" y="-2.9972" drill="1.0668"/>
-<hole x="2.9972" y="0.9398" drill="1.0668"/>
-<hole x="-2.9972" y="0.9398" drill="1.0668"/>
-<wire x1="-3.3274" y1="-5.461" x2="3.3274" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="3.3274" y1="-5.461" x2="3.3274" y2="1.905" width="0.127" layer="21"/>
-<wire x1="3.3274" y1="1.905" x2="1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="1.905" x2="-1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-3.3274" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-3.3274" y1="1.905" x2="-3.3274" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="1.9304" y2="3.302" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="3.302" x2="1.9304" y2="1.905" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="-1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="5.969" x2="1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="1.9304" y1="5.969" x2="1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<rectangle x1="-4.064" y1="-5.842" x2="4.064" y2="2.286" layer="39"/>
-<rectangle x1="-2.54" y1="2.286" x2="2.54" y2="6.35" layer="39"/>
-<rectangle x1="-4.064" y1="-5.842" x2="4.064" y2="2.286" layer="40"/>
-<text x="0" y="-6.477" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -6931,18 +6771,6 @@ Dashed line is edge of mated connector.</description>
 <wire x1="2.54" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="-10.16" x2="-2.54" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="CONNECTOR_02">
-<wire x1="7.62" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<text x="0" y="-8.255" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
-<pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9777,90 +9605,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONNECTOR-2_?_*" prefix="J">
-<description>2 Pin Connector</description>
-<gates>
-<gate name="G$1" symbol="CONNECTOR_02" x="0" y="0"/>
-</gates>
-<devices>
-<device name="NANOFIT_SMD_VERTICAL" package="MOLEX_NANOFIT_SMD_VERTICAL_02">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="BLACK">
-<attribute name="DKPN" value="900-1054291304TR-ND"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MOPN" value="538-105429-1304"/>
-<attribute name="MPN" value="105429-1304"/>
-</technology>
-<technology name="NATURAL">
-<attribute name="DKPN" value="900-1054312302TR-ND"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MOPN" value="538-105431-2302"/>
-<attribute name="MPN" value="105431-2302"/>
-</technology>
-</technologies>
-</device>
-<device name="MICROFIT_SMD_RIGHTANGLE_02_DUAL" package="MOLEX_MICROFIT_SMD_RIGHTANGLE_02_DUAL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="BLACK">
-<attribute name="DKPN" value="23-0430450211CT-ND"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MOPN" value="538-43045-0211"/>
-<attribute name="MPN" value="0430450211"/>
-</technology>
-</technologies>
-</device>
-<device name="MICROFIT_SMD_RIGHTANGLE_02_SINGLE" package="MOLEX_MICROFIT_SMD_RIGHTANGLE_02_SINGLE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="BLACK">
-<attribute name="DKPN" value="WM14310CT-ND"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MOPN" value="538-43650-0214"/>
-<attribute name="MPN" value="0436500214"/>
-</technology>
-</technologies>
-</device>
-<device name="MOLEX_NANOFIT_PTH_VERTICAL_02" package="MOLEX_NANOFIT_PTH_02">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="BLACK">
-<attribute name="DKPN" value="WM15036-ND"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MOPN" value="538-105309-1302 "/>
-<attribute name="MPN" value="105309-1302"/>
-</technology>
-</technologies>
-</device>
-<device name="μF_T_V" package="MOLEX_MICROFIT_PTH_VERTICAL_02_DUAL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="BLACK">
-<attribute name="DKPN" value="WM12762-ND"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MOPN" value="538-43650-0217"/>
-<attribute name="MPN" value="436500217"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -10319,7 +10063,7 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="P33" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P36" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="P37" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="J4" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="S" technology="S"/>
+<part name="J4" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="NF_T_V" technology="BLACK" value="CONNECTOR-8_NF_T_V_BLACK"/>
 <part name="P39" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$32" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="485" technology="1A" value="FUSE_485_1A"/>
@@ -10488,7 +10232,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="100V_0.1UF"/>
 <part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="25V_33UF"/>
 <part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="25V_33UF"/>
-<part name="J1" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="μF_T_V" technology="BLACK"/>
 <part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP9" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
@@ -10795,10 +10538,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <attribute name="VOLTAGE" x="257.81" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="259.588" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="J1" gate="G$1" x="274.32" y="215.9" smashed="yes" rot="MR0">
-<attribute name="MPN" x="274.32" y="207.645" size="1.27" layer="96" rot="MR0" align="top-left"/>
-<attribute name="NAME" x="274.32" y="216.662" size="1.27" layer="95" rot="MR0"/>
-</instance>
 <instance part="TP1" gate="G$1" x="88.9" y="234.95" smashed="yes">
 <attribute name="NAME" x="86.36" y="236.728" size="1.27" layer="95"/>
 <attribute name="MPN" x="86.36" y="233.172" size="1.27" layer="95" align="top-left"/>
@@ -10896,7 +10635,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <junction x="245.11" y="208.28"/>
 <wire x1="255.27" y1="208.28" x2="261.62" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="208.28" x2="261.62" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="210.82" x2="264.16" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="TP9" gate="G$1" pin="1"/>
 <junction x="261.62" y="208.28"/>
@@ -11359,7 +11097,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="245.11" y1="218.44" x2="255.27" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="255.27" y1="218.44" x2="255.27" y2="217.17" width="0.1524" layer="91"/>
 <junction x="245.11" y="218.44"/>
-<pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="213.36" x2="261.62" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="213.36" x2="261.62" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="218.44" x2="255.27" y2="218.44" width="0.1524" layer="91"/>
