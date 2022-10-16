@@ -312,6 +312,18 @@ Dashed line is edge of mated connector.</description>
 </package>
 </packages>
 </library>
+<library name="HyTechManufacturing">
+<packages>
+<package name="GLV">
+<text x="0" y="0" size="2.032" layer="21" font="vector" align="center">GLV</text>
+<text x="0" y="0" size="2.032" layer="22" font="vector" rot="MR0" align="center">GLV</text>
+</package>
+<package name="TS">
+<text x="0" y="0" size="2.032" layer="21" font="vector" align="center">TS</text>
+<text x="0" y="0" size="2.032" layer="22" font="vector" rot="MR0" align="center">TS</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -564,6 +576,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VOLTAGE_CONTINUOUS" value="548V" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="750V" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
+<element name="U$1" library="HyTechManufacturing" package="GLV" value="" x="3.302" y="48.006" smashed="yes"/>
+<element name="U$2" library="HyTechManufacturing" package="GLV" value="" x="16.764" y="29.718" smashed="yes" rot="R180"/>
+<element name="U$3" library="HyTechManufacturing" package="TS" value="" x="3.302" y="51.562" smashed="yes"/>
+<element name="U$4" library="HyTechManufacturing" package="TS" value="" x="16.764" y="26.162" smashed="yes"/>
+<element name="U$5" library="HyTechManufacturing" package="GLV" value="" x="28.448" y="33.528" smashed="yes" rot="R90"/>
+<element name="U$6" library="HyTechManufacturing" package="TS" value="" x="32.512" y="33.528" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
