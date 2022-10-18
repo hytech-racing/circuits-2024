@@ -6593,42 +6593,6 @@ Based on page 10.</description>
 <wire x1="10.16" y1="-2.54" x2="17.78" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-10.16" x2="17.78" y2="-10.16" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="RELAY_SPST_NC_POLARIZED">
-<description>Single pole, single throw polarized normally closed relay</description>
-<circle x="2.54" y="-17.78" radius="0.635" width="0.1524" layer="94"/>
-<circle x="7.62" y="-20.32" radius="0.635" width="0.1524" layer="94"/>
-<circle x="7.62" y="-15.24" radius="0.635" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="2.54" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-12.7" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-17.78" x2="1.778" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="8.382" y2="-20.32" width="0.1524" layer="94"/>
-<pin name="CONTACT2" x="12.7" y="-20.32" visible="pad" length="point" swaplevel="2"/>
-<pin name="CONTACT1" x="-2.54" y="-17.78" visible="pad" length="point" swaplevel="2" rot="R180"/>
-<pin name="COIL-" x="12.7" y="-7.62" visible="pad" length="point"/>
-<pin name="COIL+" x="-2.54" y="-7.62" visible="pad" length="point" rot="R180"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="-22.86" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<text x="0" y="-23.622" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
-<wire x1="3.175" y1="-18.0975" x2="6.985" y2="-20.0025" width="0.1524" layer="94"/>
-<polygon width="0.0254" layer="94">
-<vertex x="6.096" y="-20.066"/>
-<vertex x="6.604" y="-19.304"/>
-<vertex x="7.112" y="-20.066"/>
-</polygon>
-<text x="-1.27" y="-8.89" size="1.778" layer="94" rot="R90" align="center">+</text>
-</symbol>
 <symbol name="RELAY_SPST_NO">
 <description>Single pole, single throw normally open relay</description>
 <circle x="2.54" y="-17.78" radius="0.635" width="0.1524" layer="94"/>
@@ -9286,62 +9250,6 @@ AB38S-Q
 </device>
 </devices>
 </deviceset>
-<deviceset name="RELAY_SPST_NC_POLARIZED_?*" prefix="K">
-<description>Single Pole, Single Throw Normally Closed Polarized Relay
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.comus-intl.com/wp-content/uploads/2017/01/High-Voltage-Reed-Relays.pdf"&gt;355x Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/657/cynergy3_d_pcb_v2-1892244.pdf"&gt;D Series&lt;/a&gt;&lt;/li&gt;
-&lt;\ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="RELAY_SPST_NC_POLARIZED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="355" package="335X">
-<connects>
-<connect gate="G$1" pin="COIL+" pad="2"/>
-<connect gate="G$1" pin="COIL-" pad="3"/>
-<connect gate="G$1" pin="CONTACT1" pad="1"/>
-<connect gate="G$1" pin="CONTACT2" pad="4"/>
-</connects>
-<technologies>
-<technology name="0_12">
-<attribute name="DKPN" value="1835-1040-ND"/>
-<attribute name="MANUFACTURER" value="Comus International"/>
-<attribute name="MOPN" value=""/>
-<attribute name="MPN" value="3350-4275-126"/>
-</technology>
-<technology name="0_24">
-<attribute name="DKPN" value="1835-1041-ND"/>
-<attribute name="MANUFACTURER" value="Comus International"/>
-<attribute name="MOPN" value=""/>
-<attribute name="MPN" value="3350-4275-246"/>
-</technology>
-</technologies>
-</device>
-<device name="D_" package="D">
-<connects>
-<connect gate="G$1" pin="COIL+" pad="4"/>
-<connect gate="G$1" pin="COIL-" pad="3"/>
-<connect gate="G$1" pin="CONTACT1" pad="2"/>
-<connect gate="G$1" pin="CONTACT2" pad="1"/>
-</connects>
-<technologies>
-<technology name="12">
-<attribute name="DKPN" value="725-1049-ND"/>
-<attribute name="MANUFACTURER" value="Sensata-Cynergy3"/>
-<attribute name="MOPN" value="285-DBR71210"/>
-<attribute name="MPN" value="DBR71210"/>
-</technology>
-<technology name="24">
-<attribute name="DKPN" value="725-1050-ND"/>
-<attribute name="MANUFACTURER" value="Sensata-Cynergy3"/>
-<attribute name="MOPN" value="285-DBR72410"/>
-<attribute name="MPN" value="DBR72410"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RELAY_SPST_NO_?*" prefix="K">
 <description>Single Pole, Single Throw Relay Normally Open
 &lt;ul&gt;
@@ -9731,16 +9639,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="-1.905" y1="-1.778" x2="1.905" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="-1.905" y1="-0.889" x2="1.905" y2="-0.889" width="0.254" layer="94"/>
 </symbol>
-<symbol name="+12V">
-<text x="0" y="3.81" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
-<pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TS+FUSED">
@@ -9833,19 +9731,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <deviceset name="TS-UNFUSED" prefix="P">
 <gates>
 <gate name="G$1" symbol="TS-UNFUSED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+12V" prefix="P">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+12V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -10054,14 +9939,12 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <attribute name="DESCRIPTION_1" value="Relays and connectors"/>
 <attribute name="DESIGNER_SCHEMATIC" value="Cody Kaminsky"/>
 </part>
-<part name="D100" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="60V" value="SCHOTTKY_SOD323_60V"/>
 <part name="D101" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="60V" value="SCHOTTKY_SOD323_60V"/>
 <part name="Q1" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="PMV15ENEA"/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10"/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="P31" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="P33" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P36" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="P37" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="J4" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="NF_T_V" technology="BLACK" value="CONNECTOR-8_NF_T_V_BLACK"/>
 <part name="P39" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -10095,7 +9978,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="C16" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF" value="CAPACITOR_0603_50V_10NF"/>
 <part name="U$40" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="D5" library="HyTechDevices" deviceset="TVS_*" device="" technology="8V" value="TVS_8V"/>
-<part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C104" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_1UF" value="CAPACITOR_0603_50V_1UF"/>
 <part name="C101" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
 <part name="P3" library="HyTechSupplies" deviceset="+24V" device=""/>
@@ -10118,9 +10000,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="U$21" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="TP6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP8" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="TP11" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="TP10" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="P11" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="R28" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="D8" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW" value="LED_0603_YELLOW"/>
 <part name="D9" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="BLUE"/>
@@ -10134,8 +10013,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="C105" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P14" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="485" technology="1A" value="FUSE_485_1A"/>
-<part name="P12" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
-<part name="P15" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="P16" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="P17" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="U$4" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
@@ -10188,7 +10065,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="1.5K"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20" technology="1.5K"/>
-<part name="K1" library="HyTechDevices" deviceset="RELAY_SPST_NC_POLARIZED_?*" device="D_" technology="24"/>
 <part name="K2" library="HyTechDevices" deviceset="RELAY_SPST_NO_?*" device="D_" technology="24"/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="1M"/>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="523K"/>
@@ -10235,13 +10111,14 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP9" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="P21" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P22" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="D2" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
-<part name="P23" library="HyTechSupplies" deviceset="+12V" device=""/>
-<part name="P24" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="D7" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SMA"/>
+<part name="U$1" library="HyTechSupplies" deviceset="TS+12V" device=""/>
+<part name="U$2" library="HyTechSupplies" deviceset="TS+12V" device=""/>
+<part name="P21" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
+<part name="P22" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
+<part name="P23" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10550,12 +10427,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <attribute name="NAME" x="259.842" y="203.2" size="1.27" layer="95" rot="R90"/>
 <attribute name="MPN" x="263.398" y="203.2" size="1.27" layer="95" rot="R90" align="top-left"/>
 </instance>
-<instance part="P21" gate="1" x="234.95" y="205.74" smashed="yes">
-<attribute name="VALUE" x="234.95" y="204.47" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P22" gate="1" x="234.95" y="177.8" smashed="yes">
-<attribute name="VALUE" x="234.95" y="176.53" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="R38" gate="G$1" x="234.95" y="193.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="233.68" y="191.77" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="236.22" y="191.77" size="1.27" layer="96" rot="R90" align="top-center"/>
@@ -10564,16 +10435,25 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <attribute name="COLOR" x="233.172" y="184.15" size="1.27" layer="95" rot="R270" align="top-center"/>
 <attribute name="NAME" x="238.506" y="184.15" size="1.27" layer="96" rot="R270" align="bottom-center"/>
 </instance>
-<instance part="P23" gate="1" x="234.95" y="198.12" smashed="yes">
-<attribute name="VALUE" x="234.95" y="201.93" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P24" gate="1" x="234.95" y="220.726" smashed="yes">
-<attribute name="VALUE" x="234.95" y="224.536" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="D7" gate="G$1" x="167.64" y="208.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="165.735" y="207.01" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="169.545" y="207.01" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="MPN" x="171.45" y="207.01" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="U$1" gate="G$1" x="224.79" y="228.854" smashed="yes">
+<attribute name="VALUE" x="224.79" y="232.41" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="U$2" gate="G$1" x="234.95" y="198.374" smashed="yes">
+<attribute name="VALUE" x="234.95" y="201.93" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P21" gate="G$1" x="231.14" y="172.72" smashed="yes">
+<attribute name="VALUE" x="231.14" y="170.18" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P22" gate="G$1" x="45.72" y="208.28" smashed="yes">
+<attribute name="VALUE" x="45.72" y="213.36" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P23" gate="G$1" x="45.72" y="190.5" smashed="yes">
+<attribute name="VALUE" x="45.72" y="187.96" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -10615,34 +10495,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="149.86" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
 <junction x="149.86" y="78.74"/>
 <pinref part="P48" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="T1" gate="G$1" pin="10,11"/>
-<wire x1="224.79" y1="209.55" x2="224.79" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="224.79" y1="208.28" x2="204.47" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="234.95" y1="209.55" x2="234.95" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="234.95" y1="208.28" x2="224.79" y2="208.28" width="0.1524" layer="91"/>
-<junction x="224.79" y="208.28"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="234.95" y1="208.28" x2="245.11" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="245.11" y1="208.28" x2="245.11" y2="209.55" width="0.1524" layer="91"/>
-<junction x="234.95" y="208.28"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="245.11" y1="208.28" x2="255.27" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="255.27" y1="208.28" x2="255.27" y2="209.55" width="0.1524" layer="91"/>
-<junction x="245.11" y="208.28"/>
-<wire x1="255.27" y1="208.28" x2="261.62" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="208.28" x2="261.62" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="210.82" x2="264.16" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="TP9" gate="G$1" pin="1"/>
-<junction x="261.62" y="208.28"/>
-<pinref part="P21" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="P22" gate="1" pin="GND"/>
-<pinref part="D2" gate="LED" pin="C"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -10793,6 +10645,36 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <junction x="78.74" y="152.4"/>
 <pinref part="U$13" gate="G$1" pin="TS+12V"/>
 </segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="C"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="218.44" x2="224.79" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="224.79" y1="218.44" x2="224.79" y2="217.17" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="224.79" y1="218.44" x2="234.95" y2="218.44" width="0.1524" layer="91"/>
+<junction x="224.79" y="218.44"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="234.95" y1="218.44" x2="234.95" y2="217.17" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="218.44" x2="245.11" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="245.11" y1="218.44" x2="245.11" y2="217.17" width="0.1524" layer="91"/>
+<junction x="234.95" y="218.44"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="245.11" y1="218.44" x2="255.27" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="255.27" y1="218.44" x2="255.27" y2="217.17" width="0.1524" layer="91"/>
+<junction x="245.11" y="218.44"/>
+<wire x1="264.16" y1="213.36" x2="261.62" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="213.36" x2="261.62" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="218.44" x2="255.27" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
+<junction x="261.62" y="218.44"/>
+<pinref part="U$1" gate="G$1" pin="TS+12V"/>
+<wire x1="224.79" y1="218.44" x2="224.79" y2="226.314" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R38" gate="G$1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="TS+12V"/>
+<wire x1="234.95" y1="195.58" x2="234.95" y2="195.834" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="PACK+FUSED" class="0">
 <segment>
@@ -10921,6 +10803,37 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 </segment>
 </net>
 <net name="TS-UNFUSED" class="0">
+<segment>
+<pinref part="T1" gate="G$1" pin="10,11"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="224.79" y1="209.55" x2="224.79" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="224.79" y1="208.28" x2="204.47" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="210.82" x2="264.16" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="208.28" x2="261.62" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="TP9" gate="G$1" pin="1"/>
+<junction x="261.62" y="208.28"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="255.27" y1="208.28" x2="255.27" y2="209.55" width="0.1524" layer="91"/>
+<wire x1="255.27" y1="208.28" x2="261.62" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="245.11" y1="208.28" x2="245.11" y2="209.55" width="0.1524" layer="91"/>
+<wire x1="245.11" y1="208.28" x2="255.27" y2="208.28" width="0.1524" layer="91"/>
+<junction x="245.11" y="208.28"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="234.95" y1="209.55" x2="234.95" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="208.28" x2="245.11" y2="208.28" width="0.1524" layer="91"/>
+<junction x="234.95" y="208.28"/>
+<wire x1="234.95" y1="208.28" x2="224.79" y2="208.28" width="0.1524" layer="91"/>
+<junction x="224.79" y="208.28"/>
+<junction x="224.79" y="208.28"/>
+<wire x1="224.79" y1="208.28" x2="224.79" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="D2" gate="LED" pin="C"/>
+<wire x1="234.95" y1="180.34" x2="234.95" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="175.26" x2="231.14" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="P21" gate="G$1" pin="TS-UNFUSED"/>
+<junction x="231.14" y="175.26"/>
+<wire x1="231.14" y1="175.26" x2="224.79" y2="175.26" width="0.1524" layer="91"/>
+</segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="GND"/>
 <pinref part="P1" gate="G$1" pin="TS-UNFUSED"/>
@@ -11074,38 +10987,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <pinref part="D2" gate="LED" pin="A"/>
 </segment>
 </net>
-<net name="+12V" class="0">
-<segment>
-<pinref part="R38" gate="G$1" pin="2"/>
-<pinref part="P23" gate="1" pin="+12V"/>
-</segment>
-<segment>
-<pinref part="D4" gate="G$1" pin="C"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="218.44" x2="224.79" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="224.79" y1="218.44" x2="224.79" y2="217.17" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="224.79" y1="218.44" x2="234.95" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="234.95" y1="218.44" x2="234.95" y2="218.186" width="0.1524" layer="91"/>
-<junction x="224.79" y="218.44"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="234.95" y1="218.186" x2="234.95" y2="217.17" width="0.1524" layer="91"/>
-<wire x1="234.95" y1="218.44" x2="245.11" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="245.11" y1="218.44" x2="245.11" y2="217.17" width="0.1524" layer="91"/>
-<junction x="234.95" y="218.44"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="245.11" y1="218.44" x2="255.27" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="255.27" y1="218.44" x2="255.27" y2="217.17" width="0.1524" layer="91"/>
-<junction x="245.11" y="218.44"/>
-<wire x1="264.16" y1="213.36" x2="261.62" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="213.36" x2="261.62" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="218.44" x2="255.27" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
-<junction x="261.62" y="218.44"/>
-<pinref part="P24" gate="1" pin="+12V"/>
-<junction x="234.95" y="218.186"/>
-</segment>
-</net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
@@ -11118,7 +10999,7 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <plain>
 <text x="144.78" y="200.66" size="2.54" layer="97">PACK+ Optoisolator</text>
 <text x="147.32" y="172.72" size="2.54" layer="97">Precharge Relay</text>
-<text x="129.54" y="91.44" size="2.54" layer="97">Discharge Relay</text>
+<text x="114.3" y="83.82" size="2.54" layer="97">Discharge Relay Moved to Separate Board</text>
 <text x="226.06" y="111.76" size="2.54" layer="97">TSMP and TS Fusing</text>
 <text x="30.48" y="144.78" size="2.54" layer="97">Power Regulation</text>
 <wire x1="182.88" y1="208.28" x2="182.88" y2="60.96" width="0.254" layer="97" style="longdash"/>
@@ -11143,10 +11024,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
 </instance>
-<instance part="D100" gate="G$1" x="165.1" y="91.44" smashed="yes" rot="MR90">
-<attribute name="NAME" x="167.005" y="90.17" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
-<attribute name="MPN" x="163.195" y="90.17" size="1.27" layer="96" rot="MR90" align="top-center"/>
-</instance>
 <instance part="D101" gate="G$1" x="165.1" y="160.02" smashed="yes" rot="MR90">
 <attribute name="NAME" x="167.005" y="158.75" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
 <attribute name="MPN" x="163.195" y="158.75" size="1.27" layer="96" rot="MR90" align="top-center"/>
@@ -11168,9 +11045,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 </instance>
 <instance part="P33" gate="1" x="177.8" y="111.76" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="177.8" y="110.49" size="1.27" layer="96" rot="MR0" align="top-center"/>
-</instance>
-<instance part="P36" gate="G$1" x="187.96" y="104.14" smashed="yes">
-<attribute name="VALUE" x="187.96" y="109.22" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P37" gate="1" x="167.64" y="180.34" smashed="yes">
 <attribute name="VALUE" x="167.64" y="179.07" size="1.27" layer="96" align="top-center"/>
@@ -11197,9 +11071,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <instance part="D5" gate="G$1" x="149.86" y="124.46" smashed="yes" rot="MR90">
 <attribute name="NAME" x="151.765" y="123.19" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="147.955" y="123.19" size="1.27" layer="96" rot="MR90" align="top-center"/>
-</instance>
-<instance part="P2" gate="1" x="177.8" y="66.04" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="177.8" y="64.77" size="1.27" layer="96" rot="MR0" align="top-center"/>
 </instance>
 <instance part="C104" gate="G$1" x="30.48" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.94" y="128.27" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -11283,17 +11154,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <attribute name="NAME" x="200.66" y="174.498" size="1.27" layer="95"/>
 <attribute name="MPN" x="200.66" y="170.942" size="1.27" layer="95" align="top-left"/>
 </instance>
-<instance part="TP11" gate="G$1" x="200.66" y="88.9" smashed="yes">
-<attribute name="NAME" x="198.12" y="90.678" size="1.27" layer="95"/>
-<attribute name="MPN" x="198.12" y="87.122" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="TP10" gate="G$1" x="200.66" y="96.52" smashed="yes">
-<attribute name="NAME" x="198.12" y="98.298" size="1.27" layer="95"/>
-<attribute name="MPN" x="198.12" y="94.742" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="P11" gate="G$1" x="205.74" y="99.06" smashed="yes">
-<attribute name="VALUE" x="205.74" y="104.14" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="R28" gate="G$1" x="142.24" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="140.97" y="128.27" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="143.51" y="128.27" size="1.27" layer="96" rot="R90" align="top-center"/>
@@ -11345,12 +11205,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <instance part="F2" gate="G$1" x="241.3" y="68.58" smashed="yes">
 <attribute name="NAME" x="240.03" y="69.85" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="CURRENT" x="240.03" y="67.31" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P12" gate="G$1" x="203.2" y="68.58" smashed="yes">
-<attribute name="VALUE" x="203.2" y="66.04" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P15" gate="G$1" x="205.74" y="86.36" smashed="yes">
-<attribute name="VALUE" x="205.74" y="83.82" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P16" gate="G$1" x="233.68" y="66.04" smashed="yes">
 <attribute name="VALUE" x="233.68" y="63.5" size="1.27" layer="96" align="top-center"/>
@@ -11428,10 +11282,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <attribute name="NAME" x="196.85" y="146.05" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="196.85" y="143.51" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="K1" gate="G$1" x="170.18" y="93.98" smashed="yes" rot="MR270">
-<attribute name="MPN" x="193.802" y="93.98" size="1.27" layer="96" rot="MR270" align="top-left"/>
-<attribute name="NAME" x="169.418" y="93.98" size="1.27" layer="95" rot="MR270"/>
-</instance>
 <instance part="K2" gate="G$1" x="170.18" y="162.56" smashed="yes" rot="MR270">
 <attribute name="MPN" x="193.802" y="162.56" size="1.27" layer="96" rot="MR270" align="top-left"/>
 <attribute name="NAME" x="169.418" y="162.56" size="1.27" layer="95" rot="MR270"/>
@@ -11499,16 +11349,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="167.64" y1="185.42" x2="167.64" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="P37" gate="1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="CONTROL-"/>
-</segment>
-<segment>
-<pinref part="D100" gate="G$1" pin="A"/>
-<wire x1="165.1" y1="86.36" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="78.74" x2="177.8" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="P2" gate="1" pin="GND"/>
-<wire x1="177.8" y1="78.74" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
-<junction x="177.8" y="78.74"/>
-<pinref part="K1" gate="G$1" pin="COIL-"/>
 </segment>
 <segment>
 <pinref part="C104" gate="G$1" pin="2"/>
@@ -11655,17 +11495,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <pinref part="K2" gate="G$1" pin="COIL+"/>
 </segment>
 <segment>
-<pinref part="D100" gate="G$1" pin="C"/>
-<wire x1="165.1" y1="93.98" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="99.06" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
-<junction x="177.8" y="99.06"/>
-<label x="175.26" y="104.14" size="1.27" layer="95" rot="MR0" xref="yes"/>
-<wire x1="177.8" y1="99.06" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="104.14" x2="175.26" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="K1" gate="G$1" pin="COIL+"/>
-</segment>
-<segment>
 <wire x1="157.48" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="91"/>
 <label x="154.94" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -11708,11 +11537,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <junction x="200.66" y="147.32"/>
 </segment>
 <segment>
-<pinref part="P36" gate="G$1" pin="TS+UNFUSED"/>
-<wire x1="187.96" y1="101.6" x2="187.96" y2="96.52" width="0.6096" layer="91"/>
-<pinref part="K1" gate="G$1" pin="CONTACT1"/>
-</segment>
-<segment>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="101.6" x2="233.68" y2="101.6" width="0.6096" layer="91"/>
 <wire x1="233.68" y1="101.6" x2="233.68" y2="93.98" width="0.6096" layer="91"/>
@@ -11722,11 +11546,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="TP10" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="96.52" x2="205.74" y2="96.52" width="0.6096" layer="91"/>
-<pinref part="P11" gate="G$1" pin="TS+UNFUSED"/>
-</segment>
-<segment>
 <pinref part="P14" gate="G$1" pin="TS+UNFUSED"/>
 <wire x1="241.3" y1="177.8" x2="246.38" y2="177.8" width="0.6096" layer="91"/>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -11734,15 +11553,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="241.3" y1="175.26" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="175.26" x2="246.38" y2="177.8" width="0.1524" layer="91"/>
 <junction x="246.38" y="177.8"/>
-</segment>
-</net>
-<net name="N$51" class="0">
-<segment>
-<wire x1="190.5" y1="81.28" x2="190.5" y2="78.74" width="0.6096" layer="91"/>
-<wire x1="185.42" y1="78.74" x2="190.5" y2="78.74" width="0.6096" layer="91"/>
-<junction x="190.5" y="78.74"/>
-<wire x1="190.5" y1="78.74" x2="195.58" y2="78.74" width="0.6096" layer="91"/>
-<pinref part="K1" gate="G$1" pin="CONTACT2"/>
 </segment>
 </net>
 <net name="PACK+FUSED" class="0">
@@ -11956,11 +11766,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 </net>
 <net name="TS-UNFUSED" class="0">
 <segment>
-<pinref part="TP11" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="88.9" x2="205.74" y2="88.9" width="0.6096" layer="91"/>
-<pinref part="P15" gate="G$1" pin="TS-UNFUSED"/>
-</segment>
-<segment>
 <wire x1="241.3" y1="142.24" x2="243.84" y2="142.24" width="0.6096" layer="91"/>
 <pinref part="P17" gate="G$1" pin="TS-UNFUSED"/>
 <pinref part="J2" gate="G$1" pin="5"/>
@@ -12024,12 +11829,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <segment>
 <pinref part="D11" gate="LED" pin="A"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="185.42" y1="71.12" x2="203.2" y2="71.12" width="0.6096" layer="91"/>
-<pinref part="P12" gate="G$1" pin="TS-UNFUSED"/>
 </segment>
 </net>
 </nets>
