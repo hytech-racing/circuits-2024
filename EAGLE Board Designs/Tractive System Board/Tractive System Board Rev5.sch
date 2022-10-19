@@ -10082,8 +10082,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV1M" value="RESISTOR_0805_HV1M"/>
 <part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="39"/>
 <part name="U4" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-23-5" technology="5V"/>
-<part name="U$13" library="HyTechSupplies" deviceset="TS+12V" device=""/>
-<part name="U$14" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="U5" library="HyTechDevices" deviceset="LT8315" device=""/>
 <part name="D1" library="HyTechDevices" deviceset="TVS_*" device="SOD323F"/>
 <part name="T1" library="HyTechDevices" deviceset="TRANSFORMER(3W)" device=""/>
@@ -10305,12 +10303,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <instance part="R30" gate="G$1" x="50.8" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.53" y="74.93" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="52.07" y="74.93" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="U$13" gate="G$1" x="76.2" y="154.94" smashed="yes">
-<attribute name="VALUE" x="76.2" y="158.496" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="U$14" gate="G$1" x="76.2" y="91.44" smashed="yes">
-<attribute name="VALUE" x="76.2" y="94.996" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U5" gate="G$1" x="128.27" y="205.74" smashed="yes">
 <attribute name="NAME" x="115.57" y="221.234" size="1.27" layer="95"/>
@@ -10619,32 +10611,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 </segment>
 </net>
 <net name="TS+12V" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="VDD1"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="88.9" x2="88.9" y2="88.9" width="0.6096" layer="91"/>
-<wire x1="88.9" y1="88.9" x2="88.9" y2="86.36" width="0.6096" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="86.36" x2="78.74" y2="88.9" width="0.6096" layer="91"/>
-<wire x1="78.74" y1="88.9" x2="88.9" y2="88.9" width="0.6096" layer="91"/>
-<junction x="88.9" y="88.9"/>
-<wire x1="78.74" y1="88.9" x2="76.2" y2="88.9" width="0.6096" layer="91"/>
-<junction x="78.74" y="88.9"/>
-<pinref part="U$14" gate="G$1" pin="TS+12V"/>
-</segment>
-<segment>
-<pinref part="C22" gate="G$1" pin="1"/>
-<pinref part="U2" gate="G$1" pin="VDD1"/>
-<wire x1="88.9" y1="149.86" x2="88.9" y2="152.4" width="0.6096" layer="91"/>
-<wire x1="88.9" y1="152.4" x2="106.68" y2="152.4" width="0.6096" layer="91"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="152.4" x2="78.74" y2="152.4" width="0.6096" layer="91"/>
-<wire x1="78.74" y1="152.4" x2="78.74" y2="149.86" width="0.6096" layer="91"/>
-<junction x="88.9" y="152.4"/>
-<wire x1="78.74" y1="152.4" x2="76.2" y2="152.4" width="0.6096" layer="91"/>
-<junction x="78.74" y="152.4"/>
-<pinref part="U$13" gate="G$1" pin="TS+12V"/>
-</segment>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -10991,6 +10957,34 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="D7" gate="G$1" pin="C"/>
+</segment>
+</net>
+<net name="TS+10V" class="0">
+<segment>
+<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="VDD1"/>
+<wire x1="88.9" y1="149.86" x2="88.9" y2="152.4" width="0.6096" layer="91"/>
+<wire x1="88.9" y1="152.4" x2="106.68" y2="152.4" width="0.6096" layer="91"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="152.4" x2="78.74" y2="152.4" width="0.6096" layer="91"/>
+<wire x1="78.74" y1="152.4" x2="78.74" y2="149.86" width="0.6096" layer="91"/>
+<junction x="88.9" y="152.4"/>
+<wire x1="78.74" y1="152.4" x2="76.2" y2="152.4" width="0.6096" layer="91"/>
+<junction x="78.74" y="152.4"/>
+<label x="76.2" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="VDD1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="88.9" x2="88.9" y2="88.9" width="0.6096" layer="91"/>
+<wire x1="88.9" y1="88.9" x2="88.9" y2="86.36" width="0.6096" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="86.36" x2="78.74" y2="88.9" width="0.6096" layer="91"/>
+<wire x1="78.74" y1="88.9" x2="88.9" y2="88.9" width="0.6096" layer="91"/>
+<junction x="88.9" y="88.9"/>
+<wire x1="78.74" y1="88.9" x2="76.2" y2="88.9" width="0.6096" layer="91"/>
+<junction x="78.74" y="88.9"/>
+<label x="76.2" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
