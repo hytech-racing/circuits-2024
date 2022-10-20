@@ -290,27 +290,25 @@ Dashed line is edge of mated connector.</description>
 <rectangle x1="24.13" y1="-1.27" x2="26.67" y2="1.27" layer="40"/>
 <circle x="-29.21" y="9.525" radius="0.635" width="0" layer="21"/>
 </package>
-<package name="B20">
-<description>Ohmite B20 Resistor</description>
+<package name="B20-SHORTENED">
+<description>Ohmite B20 Resistor without mounting holes</description>
 <wire x1="-25.4" y1="5.555" x2="-25.4" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-25.4" y1="-3.81" x2="-25.4" y2="-5.555" width="0.127" layer="21"/>
 <wire x1="-25.4" y1="-5.555" x2="25.4" y2="-5.555" width="0.127" layer="21"/>
 <wire x1="25.4" y1="-5.555" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="25.4" y1="3.81" x2="25.4" y2="5.555" width="0.127" layer="21"/>
 <wire x1="25.4" y1="5.555" x2="-25.4" y2="5.555" width="0.127" layer="21"/>
-<rectangle x1="-38.1" y1="-6.35" x2="38.1" y2="6.35" layer="39"/>
+<rectangle x1="-27.94" y1="-6.35" x2="27.94" y2="6.35" layer="39"/>
 <text x="0" y="6.985" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
 <pad name="2" x="-25.4" y="0" drill="1.35"/>
 <pad name="1" x="25.4" y="0" drill="1.35" first="yes"/>
-<hole x="-32.51" y="0" drill="3.74"/>
-<hole x="32.51" y="0" drill="3.74"/>
-<wire x1="-25.4" y1="3.81" x2="-37.211" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-37.211" y1="3.81" x2="-37.211" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-37.211" y1="-3.81" x2="-25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="3.81" x2="-27.051" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-27.051" y1="3.81" x2="-27.051" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-27.051" y1="-3.81" x2="-25.4" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="-25.4" y1="-3.81" x2="-25.4" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="25.4" y1="3.81" x2="37.211" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="37.211" y1="3.81" x2="37.211" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="37.211" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="27.051" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="27.051" y1="3.81" x2="27.051" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="27.051" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="25.4" y1="-3.81" x2="25.4" y2="3.81" width="0.1524" layer="21"/>
 </package>
 </packages>
@@ -1423,7 +1421,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MPN" value="DBR72410" x="64.83" y="82.14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="21.464" y="7.96" size="1.016" layer="21" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="R1" library="HyTechDevices" package="B20" value="RESISTOR_B20_15K" x="6.41" y="38.96" smashed="yes" rot="R90">
+<element name="R1" library="HyTechDevices" package="B20-SHORTENED" value="RESISTOR_B20-SHORTENED_15K" x="6.41" y="38.96" smashed="yes" rot="R90">
 <attribute name="DKPN" value="B20J15KE-ND" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Ohmite" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="588-B20J15KE" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1435,7 +1433,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VOLTAGE_CONTINUOUS" value="548V" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="750V" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="HyTechDevices" package="B20" value="RESISTOR_B20_15K" x="36.89" y="38.96" smashed="yes" rot="R90">
+<element name="R2" library="HyTechDevices" package="B20-SHORTENED" value="RESISTOR_B20-SHORTENED_15K" x="36.89" y="38.96" smashed="yes" rot="R90">
 <attribute name="DKPN" value="B20J15KE-ND" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Ohmite" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="588-B20J15KE" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1447,7 +1445,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VOLTAGE_CONTINUOUS" value="548V" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="750V" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="HyTechDevices" package="B20" value="RESISTOR_B20_15K" x="49.59" y="38.96" smashed="yes" rot="R90">
+<element name="R3" library="HyTechDevices" package="B20-SHORTENED" value="RESISTOR_B20-SHORTENED_15K" x="49.59" y="38.96" smashed="yes" rot="R90">
 <attribute name="DKPN" value="B20J15KE-ND" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Ohmite" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="588-B20J15KE" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
