@@ -10124,10 +10124,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="100V_0.1UF"/>
 <part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="25V_33UF"/>
 <part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="25V_33UF"/>
-<<<<<<< Updated upstream
-<part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-=======
->>>>>>> Stashed changes
 <part name="TS+12V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TS-UNFUSED" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
@@ -10429,13 +10425,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <attribute name="VOLTAGE" x="257.81" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="259.588" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<<<<<<< Updated upstream
-<instance part="TP1" gate="G$1" x="88.9" y="234.95" smashed="yes">
-<attribute name="NAME" x="86.36" y="236.728" size="1.27" layer="95"/>
-<attribute name="MPN" x="86.36" y="233.172" size="1.27" layer="95" align="top-left"/>
-</instance>
-=======
->>>>>>> Stashed changes
 <instance part="TS+12V" gate="G$1" x="261.62" y="218.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="264.16" y="216.662" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="264.16" y="220.218" size="1.27" layer="95" rot="R180" align="top-left"/>
@@ -10909,11 +10898,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="91.44" y1="234.95" x2="91.44" y2="218.44" width="0.1524" layer="91"/>
 <junction x="91.44" y="218.44"/>
 <wire x1="71.12" y1="218.44" x2="91.44" y2="218.44" width="0.1524" layer="91"/>
-<<<<<<< Updated upstream
-<pinref part="TP1" gate="G$1" pin="1"/>
-<junction x="91.44" y="234.95"/>
-=======
->>>>>>> Stashed changes
 </segment>
 </net>
 <net name="N$15" class="0">
