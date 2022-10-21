@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -189,9 +189,9 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="57.13" y2="0" width="0" layer="20"/>
-<wire x1="57.13" y1="0" x2="57.13" y2="77.14" width="0" layer="20"/>
-<wire x1="57.13" y1="77.14" x2="0" y2="77.14" width="0" layer="20"/>
-<wire x1="0" y1="77.14" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="57.13" y1="0" x2="57.13" y2="69.52" width="0" layer="20"/>
+<wire x1="57.13" y1="69.52" x2="0" y2="69.52" width="0" layer="20"/>
+<wire x1="0" y1="69.52" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="59" y1="77" x2="59" y2="1" x3="70" y3="39" textsize="1.778" layer="1" dtype="diameter"/>
 <dimension x1="1" y1="79" x2="57" y2="79" x3="29" y3="80.317" textsize="1.778" layer="1" dtype="diameter"/>
 <circle x="14.113" y="7.2898" radius="0.3302" width="0.6604" layer="21"/>
@@ -1426,7 +1426,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Ohmite" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="588-B20J15KE" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="B20J15KE" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="13.529" y="3.712" size="1.27" layer="21" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="6.4806" y="10.4994" size="1.27" layer="21" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POWER" value="20W" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RESISTANCE" value="15K" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="66.1" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1438,7 +1438,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Ohmite" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="588-B20J15KE" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="B20J15KE" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="29.905" y="3.908" size="1.27" layer="21" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="36.732" y="10.4994" size="1.27" layer="21" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POWER" value="20W" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RESISTANCE" value="15K" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="111.82" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1450,7 +1450,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Ohmite" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="588-B20J15KE" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="B20J15KE" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="55.439" y="4.474" size="1.27" layer="21" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="49.5844" y="10.4994" size="1.27" layer="21" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POWER" value="20W" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RESISTANCE" value="15K" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="139.76" y="89.76" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1520,9 +1520,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="J100" pad="1"/>
 <wire x1="49.59" y1="64.36" x2="36.89" y2="64.36" width="0.762" layer="1"/>
 <wire x1="36.89" y1="64.36" x2="33.4864" y2="64.36" width="0.762" layer="1"/>
-<wire x1="33.4864" y1="64.36" x2="26.0188" y2="71.8276" width="0.762" layer="1"/>
-<wire x1="26.0188" y1="71.8276" x2="17.205" y2="71.8276" width="0.762" layer="1"/>
-<wire x1="17.205" y1="71.8276" x2="9.7374" y2="64.36" width="0.762" layer="1"/>
+<wire x1="33.4864" y1="64.36" x2="29.0668" y2="68.7796" width="0.762" layer="1"/>
+<wire x1="29.0668" y1="68.7796" x2="14.157" y2="68.7796" width="0.762" layer="1"/>
+<wire x1="14.157" y1="68.7796" x2="9.7374" y2="64.36" width="0.762" layer="1"/>
 <wire x1="9.7374" y1="64.36" x2="6.41" y2="64.36" width="0.762" layer="1"/>
 <wire x1="55.2636" y1="59.2706" x2="50.1742" y2="64.36" width="0.762" layer="1"/>
 <wire x1="49.59" y1="64.36" x2="50.1742" y2="64.36" width="0.508" layer="1"/>
