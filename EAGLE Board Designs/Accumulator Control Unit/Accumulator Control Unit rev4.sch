@@ -7876,6 +7876,17 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
 <attribute name="VOLTAGE_MAX" value="200V"/>
 </technology>
+<technology name="42.2K">
+<attribute name="DKPN" value="P20156TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B4222V"/>
+<attribute name="MPN" value="ERJ-PB3B4222V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="42.2k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="91.86V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
 <technology name="43K">
 <attribute name="DKPN" value="311-43.0KHRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -8041,6 +8052,17 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="93.1K">
+<attribute name="DKPN" value="P20197TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B9312V"/>
+<attribute name="MPN" value="ERJ-PB3B9312V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="93.1k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="136.46V"/>
+</technology>
 <technology name="DNP">
 <attribute name="DKPN" value=""/>
 <attribute name="MANUFACTURER" value=""/>
@@ -8112,6 +8134,17 @@ Dashed line is edge of mated connector.</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="0.3">
+<attribute name="DKPN" value="P.3BITR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-U6QJR30V"/>
+<attribute name="MPN" value="ERJ-U6QJR30V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="0.3"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.27V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
 <technology name="0.62">
 <attribute name="DKPN" value="311-.62SCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -8177,6 +8210,17 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
 <attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
+<technology name="1K">
+<attribute name="DKPN" value="P1.0KADTR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-P06J102V"/>
+<attribute name="MPN" value="ERJ-P06J102V"/>
+<attribute name="POWER" value="0.5W"/>
+<attribute name="RESISTANCE" value="1k"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.36V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
 </technology>
 <technology name="1M">
 <attribute name="DKPN" value="P20936TR-ND"/>
@@ -8697,7 +8741,7 @@ Note: OPA991 is also a comparator</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RELAY_SOLIDSTATE_NO_*">
+<deviceset name="RELAY_SOLIDSTATE_NO_*" prefix="K">
 <description>AQY214EHA Normally Open Solid State Relay&lt;br&gt;
 &lt;a href=https://www.datasheetq.com/datasheet-download/287654/1/Panasonic/AQY214EH&gt; Datasheet &lt;/a&gt;
 &lt;br&gt;
@@ -9862,11 +9906,10 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device=""/>
 <part name="FRAME2" library="HyTechFrames" deviceset="FRAME" device=""/>
 <part name="FRAME4" library="HyTechFrames" deviceset="FRAME" device=""/>
-<part name="J100" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="S" technology="S"/>
+<part name="J100" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="NF_T_V" technology="NATURAL" value="CONNECTOR-8_NF_T_V_NATURAL"/>
 <part name="P1" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P6" library="HyTechSupplies" deviceset="+24V" device=""/>
-<part name="P11" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="50V_10UF" value="CAPACITOR_0805_50V_10UF"/>
 <part name="C33" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="P12" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -10330,6 +10373,10 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="C46" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P121" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P122" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="K1" library="HyTechDevices" deviceset="RELAY_SOLIDSTATE_NO_*" device="CPC1020NTR"/>
+<part name="U$30" library="HyTechSupplies" deviceset="+24V" device=""/>
+<part name="P11" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="R92" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -10382,9 +10429,6 @@ Accumulator GND, both AIR+ and -</text>
 </instance>
 <instance part="P6" gate="G$1" x="50.8" y="160.02" smashed="yes">
 <attribute name="VALUE" x="50.8" y="163.83" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P11" gate="1" x="114.3" y="180.34" smashed="yes">
-<attribute name="VALUE" x="114.3" y="179.07" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="C24" gate="G$1" x="147.32" y="187.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="144.78" y="186.69" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -10784,6 +10828,20 @@ Accumulator GND, both AIR+ and -</text>
 <instance part="P115" gate="1" x="76.2" y="152.4" smashed="yes">
 <attribute name="VALUE" x="76.2" y="151.13" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="K1" gate="G$1" x="83.82" y="58.42" smashed="yes">
+<attribute name="NAME" x="83.82" y="59.182" size="1.27" layer="95"/>
+<attribute name="MPN" x="83.82" y="44.958" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="U$30" gate="G$1" x="109.22" y="58.42" smashed="yes">
+<attribute name="VALUE" x="109.22" y="63.5" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P11" gate="1" x="73.66" y="45.72" smashed="yes">
+<attribute name="VALUE" x="73.66" y="44.45" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R92" gate="G$1" x="76.2" y="55.88" smashed="yes">
+<attribute name="NAME" x="74.93" y="57.15" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="74.93" y="54.61" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10895,11 +10953,6 @@ Accumulator GND, both AIR+ and -</text>
 <wire x1="22.86" y1="185.42" x2="27.94" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="185.42" x2="27.94" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="68.58" y1="182.88" x2="114.3" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="P11" gate="1" pin="GND"/>
-<pinref part="J5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="185.42" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
@@ -11069,6 +11122,11 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="P115" gate="1" pin="GND"/>
 <wire x1="68.58" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="157.48" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="K1" gate="G$1" pin="CONTROL-"/>
+<wire x1="81.28" y1="48.26" x2="73.66" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="P11" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -11538,6 +11596,11 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="U$29" gate="G$1" pin="+24V"/>
 <wire x1="68.58" y1="185.42" x2="83.82" y2="185.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$30" gate="G$1" pin="+24V"/>
+<pinref part="K1" gate="G$1" pin="CONTACT2"/>
+<wire x1="109.22" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$32" class="0">
 <segment>
@@ -11565,6 +11628,37 @@ Accumulator GND, both AIR+ and -</text>
 <wire x1="22.86" y1="187.96" x2="25.4" y2="187.96" width="0.1524" layer="91"/>
 <label x="25.4" y="187.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="J6" gate="G$1" pin="CANL"/>
+</segment>
+</net>
+<net name="INVERTER_EN" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="182.88" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
+<label x="83.82" y="182.88" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
+<label x="68.58" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R92" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="INVERTER_24V" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
+<label x="33.02" y="129.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="K1" gate="G$1" pin="CONTACT1"/>
+<wire x1="104.14" y1="48.26" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
+<label x="109.22" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="K1" gate="G$1" pin="CONTROL+"/>
+<wire x1="81.28" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R92" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
