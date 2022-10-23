@@ -189,9 +189,9 @@
 <board>
 <plain>
 <wire x1="0.1478" y1="-0.1898" x2="62.9122" y2="-0.0602" width="0" layer="20"/>
-<wire x1="62.9122" y1="-0.0602" x2="63.165" y2="82.5038" width="0" layer="20"/>
-<wire x1="63.165" y1="82.5038" x2="0.4006" y2="82.3742" width="0" layer="20"/>
-<wire x1="0.4006" y1="82.3742" x2="0.1478" y2="-0.1898" width="0" layer="20"/>
+<wire x1="62.9122" y1="-0.0602" x2="62.948" y2="76.7418" width="0" layer="20"/>
+<wire x1="62.948" y1="76.7418" x2="0.1836" y2="76.6122" width="0" layer="20"/>
+<wire x1="0.1836" y1="76.6122" x2="0.1478" y2="-0.1898" width="0" layer="20"/>
 <circle x="17.756" y="8.4542" radius="0.3302" width="0.6604" layer="21"/>
 <wire x1="17.867" y1="50.9484" x2="24.217" y2="44.5984" width="1.016" layer="21"/>
 <wire x1="24.217" y1="44.5984" x2="34.123" y2="44.5984" width="1.016" layer="21"/>
@@ -1482,8 +1482,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="U$14" library="HyTechManufacturing" package="HV_MEDIUM" value="" x="25.487" y="20.4684" smashed="yes" rot="MR0"/>
 <element name="U$15" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="3.6" y="3.1" smashed="yes"/>
 <element name="U$16" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="59.6" y="3.1" smashed="yes"/>
-<element name="U$17" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="3.6" y="79.1" smashed="yes"/>
-<element name="U$18" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="59.6" y="79.1" smashed="yes"/>
+<element name="U$17" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="3.6" y="73.1" smashed="yes"/>
+<element name="U$18" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="59.6" y="73.1" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
