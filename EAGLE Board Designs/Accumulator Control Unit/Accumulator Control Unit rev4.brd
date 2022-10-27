@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="16" fill="1" visible="yes" active="yes"/>
@@ -241,14 +241,13 @@
 <vertex x="178.2318" y="18.3642"/>
 <vertex x="185.4454" y="18.3642"/>
 </polygon>
-<wire x1="-38.958" y1="-17.594" x2="211.042" y2="-17.594" width="0.254" layer="20"/>
-<wire x1="211.042" y1="-17.594" x2="211.042" y2="20.406" width="0.254" layer="20"/>
-<wire x1="211.042" y1="20.406" x2="176.042" y2="20.406" width="0.254" layer="20"/>
-<wire x1="176.042" y1="20.406" x2="176.042" y2="52.406" width="0.254" layer="20"/>
-<wire x1="176.042" y1="52.406" x2="-3.958" y2="52.406" width="0.254" layer="20"/>
-<wire x1="-3.958" y1="52.406" x2="-3.958" y2="23.406" width="0.254" layer="20"/>
-<wire x1="-3.958" y1="23.406" x2="-38.958" y2="23.406" width="0.254" layer="20"/>
-<wire x1="-38.958" y1="23.406" x2="-38.958" y2="-17.594" width="0.254" layer="20"/>
+<wire x1="-72.200009375" y1="8.299990625" x2="191.200009375" y2="8.299990625" width="0.2" layer="20"/>
+<wire x1="191.200009375" y1="8.299990625" x2="191.200009375" y2="76.299990625" width="0.2" layer="20"/>
+<wire x1="191.200009375" y1="76.299990625" x2="-29.200009375" y2="76.299990625" width="0.2" layer="20"/>
+<wire x1="-29.200009375" y1="76.299990625" x2="-29.200009375" y2="72.84998125" width="0.2" layer="20"/>
+<wire x1="-29.200009375" y1="72.84998125" x2="-54.200009375" y2="47.84998125" width="0.2" layer="20"/>
+<wire x1="-54.200009375" y1="47.84998125" x2="-72.200009375" y2="47.84998125" width="0.2" layer="20"/>
+<wire x1="-72.200009375" y1="47.84998125" x2="-72.200009375" y2="8.299990625" width="0.2" layer="20"/>
 </plain>
 <libraries>
 <library name="HyTechDevices">
