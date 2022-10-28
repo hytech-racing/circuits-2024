@@ -4858,7 +4858,13 @@ Layer: 94 Symbol</description>
 <part name="K1" library="HyTechDevices" deviceset="RELAY_SPST_NC_POLARIZED_?*" device="D_" technology="24"/>
 <part name="J100" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="MICROFIT_SMD_RIGHTANGLE_02_SINGLE" technology="BLACK"/>
 <part name="J101" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="MICROFIT_SMD_RIGHTANGLE_02_SINGLE" technology="BLACK"/>
-<part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device=""/>
+<part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device="">
+<attribute name="DESIGNER_BOARD" value="Zheng-Yin Lee"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Zheng-Yin Lee"/>
+<attribute name="ENGINEER" value="Zheng-Yin Lee"/>
+<attribute name="REVIEWER_BOARD" value="Mikhail Allen"/>
+<attribute name="REVIEWER_SCHEMATIC" value="Liwei Sun"/>
+</part>
 </parts>
 <sheets>
 <sheet>
