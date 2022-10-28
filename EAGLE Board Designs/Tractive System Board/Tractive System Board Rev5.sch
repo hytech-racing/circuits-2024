@@ -10135,6 +10135,9 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="P22" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="P23" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="TS+10V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="U6" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-89" technology="12V"/>
+<part name="U$8" library="HyTechSupplies" deviceset="TS+12V" device=""/>
+<part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10465,6 +10468,16 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <attribute name="NAME" x="172.72" y="174.498" size="1.27" layer="95"/>
 <attribute name="MPN" x="172.72" y="170.942" size="1.27" layer="95" align="top-left"/>
 </instance>
+<instance part="U6" gate="G$1" x="182.88" y="193.04" smashed="yes">
+<attribute name="NAME" x="182.88" y="193.802" size="1.27" layer="95"/>
+<attribute name="MPN" x="191.77" y="184.658" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="U$8" gate="G$1" x="175.26" y="193.04" smashed="yes">
+<attribute name="VALUE" x="175.26" y="196.596" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P2" gate="1" x="190.5" y="177.8" smashed="yes">
+<attribute name="VALUE" x="190.5" y="176.53" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10505,6 +10518,16 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="149.86" y1="78.74" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
 <junction x="149.86" y="78.74"/>
 <pinref part="P48" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="GND"/>
+<pinref part="P2" gate="1" pin="GND"/>
+<wire x1="190.5" y1="182.88" x2="190.5" y2="180.34" width="0.1524" layer="91"/>
+<junction x="190.5" y="180.34"/>
+<wire x1="175.26" y1="185.42" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="180.34" x2="190.5" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="180.34" x2="203.2" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="180.34" x2="203.2" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -10655,6 +10678,11 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <pinref part="R38" gate="G$1" pin="2"/>
 <pinref part="U$2" gate="G$1" pin="TS+12V"/>
 <wire x1="234.95" y1="195.58" x2="234.95" y2="195.834" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="IN"/>
+<pinref part="U$8" gate="G$1" pin="TS+12V"/>
+<wire x1="180.34" y1="190.5" x2="175.26" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PACK+FUSED" class="0">
@@ -11000,6 +11028,11 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <pinref part="TS+10V" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="172.72" x2="182.88" y2="172.72" width="0.1524" layer="91"/>
 <label x="182.88" y="172.72" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="OUT"/>
+<wire x1="200.66" y1="190.5" x2="203.2" y2="190.5" width="0.1524" layer="91"/>
+<label x="203.2" y="190.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
