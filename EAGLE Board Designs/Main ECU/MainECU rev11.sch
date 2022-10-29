@@ -4150,6 +4150,18 @@ Toshiba
 <wire x1="0" y1="-1.27" x2="0.508" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="0.508" y1="-1.27" x2="0.508" y2="-1.016" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="LOGICGATE_AND">
+<description>AND Gate</description>
+<pin name="IN1" x="-2.54" y="2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+<pin name="IN2" x="-2.54" y="-2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
+<pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<text x="0" y="4.445" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-4.445" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<wire x1="0" y1="3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+</symbol>
 <symbol name="LOGICGATE_OR">
 <description>OR Gate</description>
 <pin name="IN1" x="-2.54" y="2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
@@ -4188,17 +4200,19 @@ Toshiba
 <wire x1="-0.889" y1="1.016" x2="-2.159" y2="1.524" width="0.1524" layer="94"/>
 <text x="1.524" y="-5.842" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
-<symbol name="LOGICGATE_NAND">
-<description>NAND Gate</description>
+<symbol name="LOGICGATE_NOR">
+<description>NOR Gate</description>
 <pin name="IN1" x="-2.54" y="2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
 <pin name="IN2" x="-2.54" y="-2.54" visible="pad" length="short" direction="in" swaplevel="1"/>
 <pin name="OUT" x="10.16" y="0" visible="pad" length="short" direction="out" function="dot" rot="R180"/>
 <text x="0" y="4.445" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="-4.445" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-<wire x1="0" y1="3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="-3.81" width="0.254" layer="94" curve="-90"/>
 <wire x1="0" y1="-3.81" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="0" y1="3.81" x2="3.81" y2="3.81" width="0.254" layer="94"/>
 <wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="0.889" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0.889" y2="2.54" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="CAPACITOR_POLARIZED">
 <wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
@@ -6960,6 +6974,40 @@ PN for the holder; if 1/3N batteries needed, order separately.
 </device>
 </devices>
 </deviceset>
+<deviceset name="LOGICGATE_AND_" prefix="U">
+<description>AND Gate
+&lt;br&gt;
+&lt;a href = "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"&gt;SN74LVC Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="LOGICGATE_AND" x="20.32" y="-5.08"/>
+<gate name="P" symbol="PWR_GND" x="0" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="" package="SC-70-5">
+<connects>
+<connect gate="A" pin="IN1" pad="1"/>
+<connect gate="A" pin="IN2" pad="2"/>
+<connect gate="A" pin="OUT" pad="4"/>
+<connect gate="P" pin="GND" pad="3"/>
+<connect gate="P" pin="VDD" pad="5"/>
+</connects>
+<technologies>
+<technology name="DCK3">
+<attribute name="DKPN" value="296-SN74LVC1G08DCK3TR-ND"/>
+<attribute name="MANUFACTURER" value="  Texas Instruments"/>
+<attribute name="MOPN" value="595-SN74LVC1G08DCK3"/>
+<attribute name="MPN" value="SN74LVC1G08DCK3"/>
+</technology>
+<technology name="DCKR">
+<attribute name="DKPN" value="296-11602-2-ND"/>
+<attribute name="MANUFACTURER" value="  Texas Instruments"/>
+<attribute name="MOPN" value="595-SN74LVC1G08DCKR"/>
+<attribute name="MPN" value="SN74LVC1G08DCKR"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="LOGICGATE_OR" prefix="U">
 <description>OR Gate
 &lt;br&gt;
@@ -7017,12 +7065,12 @@ PN for the holder; if 1/3N batteries needed, order separately.
 </device>
 </devices>
 </deviceset>
-<deviceset name="LOGICGATE_NAND" prefix="U">
-<description>NAND Gate
+<deviceset name="LOGICGATE_NOR">
+<description>NOR Gate
 &lt;br&gt;
-&lt;a href = "https://www.ti.com/lit/ds/symlink/sn74lvc1g34.pdf"&gt;SN74LVC Datasheet&lt;/a&gt;</description>
+&lt;a href = "https://www.ti.com/lit/ds/symlink/sn74lvc1g02.pdf"&gt;SN74LVC Datasheet&lt;/a&gt;</description>
 <gates>
-<gate name="A" symbol="LOGICGATE_NAND" x="20.32" y="-5.08"/>
+<gate name="A" symbol="LOGICGATE_NOR" x="17.78" y="-5.08"/>
 <gate name="P" symbol="PWR_GND" x="0" y="0"/>
 </gates>
 <devices>
@@ -7036,10 +7084,10 @@ PN for the holder; if 1/3N batteries needed, order separately.
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DKPN" value="296-22339-2-ND"/>
+<attribute name="DKPN" value="296-11598-1-ND"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
-<attribute name="MOPN" value="595-SN74LVC00MDCKREP"/>
-<attribute name="MPN" value="SN74LVC1G00MDCKREP"/>
+<attribute name="MOPN" value="595-SN74LVC1G02DCKR"/>
+<attribute name="MPN" value="SN74LVC1G02DCKR"/>
 </technology>
 </technologies>
 </device>
@@ -7635,10 +7683,10 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="VR1" library="HyTechDevices" deviceset="RESISTOR_TRIMPOT_*_?" device="3362P" technology="10K"/>
 <part name="P242" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P243" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="U42" library="HyTechDevices" deviceset="LOGICGATE_OR" device=""/>
+<part name="U42" library="HyTechDevices" deviceset="LOGICGATE_AND_" device="" technology="DCK3"/>
 <part name="P244" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P245" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="U44" library="HyTechDevices" deviceset="LOGICGATE_NAND" device=""/>
+<part name="U44" library="HyTechDevices" deviceset="LOGICGATE_NOR" device=""/>
 <part name="P250" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P251" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="Q3" library="HyTechDevices" deviceset="TRANSISTOR_P_MOS_?_*" device="SOT-23" technology="DMP3056L-7" value="TRANSISTOR_P_MOS_SOT-23_DMP3056L-7"/>
@@ -8801,7 +8849,6 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <text x="20.32" y="30.48" size="1.778" layer="97">CAN_1 - Front-wheel inverters
 CAN_2 - Rear-wheel inverters
 CAN_3 - Sensors and anything else</text>
-<text x="162.56" y="78.74" size="1.27" layer="97">curent out of range or signal missing</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="O" x="0" y="0" smashed="yes">
@@ -9684,13 +9731,6 @@ CAN_3 - Sensors and anything else</text>
 <wire x1="190.5" y1="83.82" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BRAKE_FAULT" class="0">
-<segment>
-<pinref part="R40" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
-<label x="177.8" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="D47" gate="LED" pin="A"/>
@@ -9703,6 +9743,13 @@ CAN_3 - Sensors and anything else</text>
 <wire x1="180.34" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
 <label x="177.8" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R38" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="BRAKE_HIGH" class="0">
+<segment>
+<pinref part="R40" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="83.82" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
+<label x="177.8" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -10211,9 +10258,9 @@ trips at 4.802kW. </text>
 <label x="116.84" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U38" gate="A" pin="IN1"/>
-<wire x1="226.06" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
-<label x="223.52" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="226.06" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
+<label x="223.52" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U42" gate="A" pin="IN2"/>
 </segment>
 </net>
 <net name="CURRENT_MISSING" class="0">
@@ -10223,21 +10270,9 @@ trips at 4.802kW. </text>
 <label x="50.8" y="172.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U38" gate="A" pin="IN2"/>
 <wire x1="226.06" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
 <label x="223.52" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CURRENT_FAULT" class="0">
-<segment>
-<pinref part="U38" gate="A" pin="OUT"/>
-<wire x1="238.76" y1="104.14" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
-<label x="241.3" y="104.14" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U44" gate="A" pin="IN1"/>
-<wire x1="60.96" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
-<label x="58.42" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U38" gate="A" pin="IN2"/>
 </segment>
 </net>
 <net name="N$76" class="0">
@@ -10267,9 +10302,9 @@ trips at 4.802kW. </text>
 <label x="236.22" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U42" gate="A" pin="IN2"/>
-<wire x1="226.06" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
-<label x="223.52" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="226.06" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
+<label x="223.52" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U38" gate="A" pin="IN1"/>
 </segment>
 </net>
 <net name="BRAKE_HIGH" class="0">
@@ -10282,18 +10317,6 @@ trips at 4.802kW. </text>
 <pinref part="U42" gate="A" pin="IN1"/>
 <wire x1="226.06" y1="81.28" x2="223.52" y2="81.28" width="0.1524" layer="91"/>
 <label x="223.52" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="BRAKE_FAULT" class="0">
-<segment>
-<pinref part="U42" gate="A" pin="OUT"/>
-<wire x1="238.76" y1="78.74" x2="241.3" y2="78.74" width="0.1524" layer="91"/>
-<label x="241.3" y="78.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U44" gate="A" pin="IN2"/>
-<wire x1="60.96" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<label x="58.42" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$74" class="0">
@@ -10383,6 +10406,30 @@ trips at 4.802kW. </text>
 <pinref part="U41" gate="A" pin="VIN+"/>
 <wire x1="228.6" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
 <label x="215.9" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SIG_MISSING" class="0">
+<segment>
+<pinref part="U38" gate="A" pin="OUT"/>
+<wire x1="238.76" y1="104.14" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
+<label x="241.3" y="104.14" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U44" gate="A" pin="IN1"/>
+<wire x1="60.96" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
+<label x="58.42" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BSPD_FAULT" class="0">
+<segment>
+<pinref part="U42" gate="A" pin="OUT"/>
+<wire x1="238.76" y1="78.74" x2="241.3" y2="78.74" width="0.1524" layer="91"/>
+<label x="241.3" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U44" gate="A" pin="IN2"/>
+<wire x1="60.96" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
+<label x="58.42" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
