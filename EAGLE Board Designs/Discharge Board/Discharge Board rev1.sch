@@ -4851,7 +4851,6 @@ Layer: 94 Symbol</description>
 <part name="D100" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="60V" value="SCHOTTKY_SOD323_60V"/>
 <part name="P36" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P12" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20-SHORTENED" technology="15K" value="RESISTOR_B20-SHORTENED_15K"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20-SHORTENED" technology="15K" value="RESISTOR_B20-SHORTENED_15K"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20-SHORTENED" technology="15K" value="RESISTOR_B20-SHORTENED_15K"/>
@@ -4865,6 +4864,7 @@ Layer: 94 Symbol</description>
 <attribute name="REVIEWER_BOARD" value="Mikhail Allen"/>
 <attribute name="REVIEWER_SCHEMATIC" value="Liwei Sun"/>
 </part>
+<part name="P1" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4880,9 +4880,6 @@ Layer: 94 Symbol</description>
 </instance>
 <instance part="P2" gate="1" x="22.86" y="7.62" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="22.86" y="6.35" size="1.27" layer="96" rot="MR0" align="top-center"/>
-</instance>
-<instance part="P12" gate="G$1" x="48.26" y="10.16" smashed="yes">
-<attribute name="VALUE" x="48.26" y="7.62" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="R1" gate="G$1" x="40.64" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.37" y="16.51" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -4921,6 +4918,9 @@ Layer: 94 Symbol</description>
 <attribute name="REVIEWER_FURTHER" x="125.73" y="-83.82" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_1" x="95.25" y="-99.06" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="74.93" y="-104.14" size="2.54" layer="95"/>
+</instance>
+<instance part="P1" gate="G$1" x="45.72" y="10.16" smashed="yes">
+<attribute name="VALUE" x="45.72" y="7.62" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -4981,7 +4981,7 @@ Layer: 94 Symbol</description>
 <pinref part="K1" gate="G$1" pin="CONTACT2"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="TS-UNFUSED" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -4989,17 +4989,20 @@ Layer: 94 Symbol</description>
 <junction x="35.56" y="12.7"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="12.7" x2="35.56" y2="12.7" width="0.6096" layer="91"/>
-<pinref part="P12" gate="G$1" pin="TS-UNFUSED"/>
-<wire x1="40.64" y1="12.7" x2="48.26" y2="12.7" width="0.6096" layer="91"/>
 <pinref part="J100" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="33.02" x2="55.88" y2="12.7" width="0.6096" layer="91"/>
-<wire x1="55.88" y1="12.7" x2="48.26" y2="12.7" width="0.6096" layer="91"/>
-<junction x="48.26" y="12.7"/>
+<wire x1="55.88" y1="12.7" x2="45.72" y2="12.7" width="0.6096" layer="91"/>
+<pinref part="P1" gate="G$1" pin="TS-UNFUSED"/>
+<wire x1="45.72" y1="12.7" x2="40.64" y2="12.7" width="0.6096" layer="91"/>
+<junction x="45.72" y="12.7"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="108,1,40.64,12.7,TS-UNFUSED,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
