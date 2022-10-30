@@ -7808,6 +7808,9 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="F" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="P76" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
+<part name="TP4" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP5" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10020,6 +10023,18 @@ trips at 4.802kW. </text>
 <attribute name="NAME" x="130.81" y="105.41" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="133.35" y="105.41" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="TP4" gate="G$1" x="73.66" y="172.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="76.2" y="170.942" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="76.2" y="174.498" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP5" gate="G$1" x="137.16" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="139.7" y="155.702" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="139.7" y="159.258" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP6" gate="G$1" x="256.54" y="182.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="259.08" y="181.102" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="259.08" y="184.658" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10254,8 +10269,9 @@ trips at 4.802kW. </text>
 <net name="CURRENT_HIGH" class="0">
 <segment>
 <pinref part="U37" gate="A" pin="VOUT"/>
-<wire x1="114.3" y1="157.48" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
 <label x="116.84" y="157.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="157.48" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
@@ -10266,8 +10282,9 @@ trips at 4.802kW. </text>
 <net name="CURRENT_MISSING" class="0">
 <segment>
 <pinref part="U39" gate="A" pin="VOUT"/>
-<wire x1="48.26" y1="172.72" x2="50.8" y2="172.72" width="0.1524" layer="91"/>
 <label x="50.8" y="172.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="172.72" x2="48.26" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="101.6" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
@@ -10298,8 +10315,9 @@ trips at 4.802kW. </text>
 <net name="BRAKE_MISSING" class="0">
 <segment>
 <pinref part="U43" gate="A" pin="VOUT"/>
-<wire x1="233.68" y1="182.88" x2="236.22" y2="182.88" width="0.1524" layer="91"/>
 <label x="236.22" y="182.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP6" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="182.88" x2="254" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
