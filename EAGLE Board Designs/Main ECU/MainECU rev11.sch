@@ -7521,13 +7521,13 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <attribute name="ENGINEER" value="Mikhail Allen"/>
 </part>
 <part name="A4" library="HyTechDevices" deviceset="XB3-*" device="" technology="C-A2-UT-001"/>
-<part name="D8" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="WHITE"/>
+<part name="LATCH" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="WHITE"/>
 <part name="P151" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="D9" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="BLUE"/>
-<part name="D10" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
-<part name="D11" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
-<part name="D12" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE"/>
-<part name="D13" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="A" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="BLUE"/>
+<part name="B" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
+<part name="C" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
+<part name="D" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE"/>
+<part name="E" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100"/>
 <part name="P152" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P153" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -7539,9 +7539,9 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="R26" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R28" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
-<part name="D14" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
-<part name="D15" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
-<part name="D16" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE"/>
+<part name="IMD" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
+<part name="BMS" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
+<part name="BSPD" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE"/>
 <part name="P157" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P158" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P159" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -7549,16 +7549,16 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R32" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
-<part name="D17" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="WDOG" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="P160" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R33" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="D18" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="SWOK" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="P161" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R34" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100"/>
 <part name="P163" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P164" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="D19" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
-<part name="D20" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="3V3" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="5V0" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100"/>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240"/>
 <part name="P165" library="HyTechSupplies" deviceset="+3V3" device=""/>
@@ -7594,7 +7594,7 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="FRAME7" library="HyTechFrames" deviceset="FRAME" device="">
 <attribute name="ENGINEER" value="Mikhail Allen"/>
 </part>
-<part name="D26" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
+<part name="BRAKE" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
 <part name="P186" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R40" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180"/>
 <part name="U32" library="HyTechDevices" deviceset="ADC128S022" device=""/>
@@ -7805,7 +7805,7 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="D45" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30V"/>
 <part name="D46" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30V"/>
 <part name="P75" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="D47" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="F" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="P76" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 </parts>
@@ -8999,30 +8999,30 @@ CAN_3 - Sensors and anything else</text>
 <instance part="P41" gate="1" x="124.46" y="66.04" smashed="yes">
 <attribute name="VALUE" x="124.46" y="64.77" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="D8" gate="LED" x="182.88" y="185.42" smashed="yes" rot="R180">
+<instance part="LATCH" gate="LED" x="182.88" y="185.42" smashed="yes" rot="R180">
 <attribute name="COLOR" x="184.15" y="187.198" size="1.27" layer="95" rot="R180" align="top-center"/>
 <attribute name="NAME" x="184.15" y="181.864" size="1.27" layer="96" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="P151" gate="1" x="200.66" y="190.5" smashed="yes">
 <attribute name="VALUE" x="200.66" y="193.04" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D9" gate="LED" x="195.58" y="175.26" smashed="yes">
+<instance part="A" gate="LED" x="195.58" y="175.26" smashed="yes">
 <attribute name="COLOR" x="194.31" y="173.482" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="194.31" y="178.816" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D10" gate="LED" x="195.58" y="165.1" smashed="yes">
+<instance part="B" gate="LED" x="195.58" y="165.1" smashed="yes">
 <attribute name="COLOR" x="194.31" y="163.322" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="194.31" y="168.656" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D11" gate="LED" x="195.58" y="154.94" smashed="yes">
+<instance part="C" gate="LED" x="195.58" y="154.94" smashed="yes">
 <attribute name="COLOR" x="194.31" y="153.162" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="194.31" y="158.496" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D12" gate="LED" x="195.58" y="144.78" smashed="yes">
+<instance part="D" gate="LED" x="195.58" y="144.78" smashed="yes">
 <attribute name="COLOR" x="194.31" y="143.002" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="194.31" y="148.336" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D13" gate="LED" x="195.58" y="134.62" smashed="yes">
+<instance part="E" gate="LED" x="195.58" y="134.62" smashed="yes">
 <attribute name="COLOR" x="194.31" y="132.842" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="194.31" y="138.176" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -9065,15 +9065,15 @@ CAN_3 - Sensors and anything else</text>
 <attribute name="NAME" x="184.15" y="135.89" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="184.15" y="133.35" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="D14" gate="LED" x="248.92" y="165.1" smashed="yes">
+<instance part="IMD" gate="LED" x="248.92" y="165.1" smashed="yes">
 <attribute name="COLOR" x="247.65" y="163.322" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="247.65" y="168.656" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D15" gate="LED" x="248.92" y="154.94" smashed="yes">
+<instance part="BMS" gate="LED" x="248.92" y="154.94" smashed="yes">
 <attribute name="COLOR" x="247.65" y="153.162" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="247.65" y="158.496" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D16" gate="LED" x="248.92" y="144.78" smashed="yes">
+<instance part="BSPD" gate="LED" x="248.92" y="144.78" smashed="yes">
 <attribute name="COLOR" x="247.65" y="143.002" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="247.65" y="148.336" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -9102,14 +9102,14 @@ CAN_3 - Sensors and anything else</text>
 <attribute name="NAME" x="237.49" y="135.89" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="237.49" y="133.35" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="D17" gate="LED" x="248.92" y="134.62" smashed="yes">
+<instance part="WDOG" gate="LED" x="248.92" y="134.62" smashed="yes">
 <attribute name="COLOR" x="247.65" y="132.842" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="247.65" y="138.176" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P160" gate="1" x="254" y="129.54" smashed="yes">
 <attribute name="VALUE" x="254" y="128.27" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="D18" gate="LED" x="248.92" y="124.46" smashed="yes">
+<instance part="SWOK" gate="LED" x="248.92" y="124.46" smashed="yes">
 <attribute name="COLOR" x="247.65" y="122.682" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="247.65" y="128.016" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -9126,11 +9126,11 @@ CAN_3 - Sensors and anything else</text>
 <instance part="P164" gate="1" x="200.66" y="88.9" smashed="yes">
 <attribute name="VALUE" x="200.66" y="87.63" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="D19" gate="LED" x="195.58" y="104.14" smashed="yes">
+<instance part="3V3" gate="LED" x="195.58" y="104.14" smashed="yes">
 <attribute name="COLOR" x="194.31" y="102.362" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="194.31" y="107.696" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D20" gate="LED" x="195.58" y="93.98" smashed="yes">
+<instance part="5V0" gate="LED" x="195.58" y="93.98" smashed="yes">
 <attribute name="COLOR" x="194.31" y="92.202" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="194.31" y="97.536" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -9148,7 +9148,7 @@ CAN_3 - Sensors and anything else</text>
 <instance part="P166" gate="1" x="177.8" y="99.06" smashed="yes">
 <attribute name="VALUE" x="177.8" y="101.6" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D26" gate="LED" x="195.58" y="83.82" smashed="yes">
+<instance part="BRAKE" gate="LED" x="195.58" y="83.82" smashed="yes">
 <attribute name="COLOR" x="194.31" y="82.042" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="194.31" y="87.376" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -9182,7 +9182,7 @@ CAN_3 - Sensors and anything else</text>
 <attribute name="NAME" x="68.58" y="145.542" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="68.58" y="149.098" size="1.27" layer="95" rot="R180" align="top-left"/>
 </instance>
-<instance part="D47" gate="LED" x="195.58" y="124.46" smashed="yes">
+<instance part="F" gate="LED" x="195.58" y="124.46" smashed="yes">
 <attribute name="COLOR" x="194.31" y="122.682" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="194.31" y="128.016" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -9336,61 +9336,61 @@ CAN_3 - Sensors and anything else</text>
 <wire x1="124.46" y1="71.12" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D9" gate="LED" pin="C"/>
+<pinref part="A" gate="LED" pin="C"/>
 <pinref part="P152" gate="1" pin="GND"/>
 <wire x1="198.12" y1="175.26" x2="200.66" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="175.26" x2="200.66" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D10" gate="LED" pin="C"/>
+<pinref part="B" gate="LED" pin="C"/>
 <pinref part="P153" gate="1" pin="GND"/>
 <wire x1="198.12" y1="165.1" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="165.1" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D11" gate="LED" pin="C"/>
+<pinref part="C" gate="LED" pin="C"/>
 <pinref part="P154" gate="1" pin="GND"/>
 <wire x1="198.12" y1="154.94" x2="200.66" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="154.94" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D12" gate="LED" pin="C"/>
+<pinref part="D" gate="LED" pin="C"/>
 <pinref part="P155" gate="1" pin="GND"/>
 <wire x1="198.12" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="144.78" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D13" gate="LED" pin="C"/>
+<pinref part="E" gate="LED" pin="C"/>
 <pinref part="P156" gate="1" pin="GND"/>
 <wire x1="198.12" y1="134.62" x2="200.66" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="134.62" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D14" gate="LED" pin="C"/>
+<pinref part="IMD" gate="LED" pin="C"/>
 <pinref part="P157" gate="1" pin="GND"/>
 <wire x1="251.46" y1="165.1" x2="254" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="254" y1="165.1" x2="254" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D15" gate="LED" pin="C"/>
+<pinref part="BMS" gate="LED" pin="C"/>
 <pinref part="P158" gate="1" pin="GND"/>
 <wire x1="251.46" y1="154.94" x2="254" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="254" y1="154.94" x2="254" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D16" gate="LED" pin="C"/>
+<pinref part="BSPD" gate="LED" pin="C"/>
 <pinref part="P159" gate="1" pin="GND"/>
 <wire x1="251.46" y1="144.78" x2="254" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="254" y1="144.78" x2="254" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P160" gate="1" pin="GND"/>
-<pinref part="D17" gate="LED" pin="C"/>
+<pinref part="WDOG" gate="LED" pin="C"/>
 <wire x1="254" y1="132.08" x2="254" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="254" y1="134.62" x2="251.46" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D18" gate="LED" pin="C"/>
+<pinref part="SWOK" gate="LED" pin="C"/>
 <pinref part="P161" gate="1" pin="GND"/>
 <wire x1="251.46" y1="124.46" x2="254" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="254" y1="124.46" x2="254" y2="121.92" width="0.1524" layer="91"/>
@@ -9399,16 +9399,16 @@ CAN_3 - Sensors and anything else</text>
 <pinref part="P163" gate="1" pin="GND"/>
 <wire x1="198.12" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="104.14" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="D19" gate="LED" pin="C"/>
+<pinref part="3V3" gate="LED" pin="C"/>
 </segment>
 <segment>
 <pinref part="P164" gate="1" pin="GND"/>
 <wire x1="198.12" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="93.98" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="D20" gate="LED" pin="C"/>
+<pinref part="5V0" gate="LED" pin="C"/>
 </segment>
 <segment>
-<pinref part="D26" gate="LED" pin="C"/>
+<pinref part="BRAKE" gate="LED" pin="C"/>
 <pinref part="P186" gate="1" pin="GND"/>
 <wire x1="198.12" y1="83.82" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="83.82" x2="200.66" y2="81.28" width="0.1524" layer="91"/>
@@ -9419,7 +9419,7 @@ CAN_3 - Sensors and anything else</text>
 <wire x1="106.68" y1="170.18" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D47" gate="LED" pin="C"/>
+<pinref part="F" gate="LED" pin="C"/>
 <pinref part="P76" gate="1" pin="GND"/>
 <wire x1="198.12" y1="124.46" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="124.46" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
@@ -9565,49 +9565,49 @@ CAN_3 - Sensors and anything else</text>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="D8" gate="LED" pin="A"/>
+<pinref part="LATCH" gate="LED" pin="A"/>
 <wire x1="190.5" y1="185.42" x2="187.96" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LATCH_BTN" class="0">
 <segment>
-<pinref part="D8" gate="LED" pin="C"/>
+<pinref part="LATCH" gate="LED" pin="C"/>
 <wire x1="180.34" y1="185.42" x2="177.8" y2="185.42" width="0.1524" layer="91"/>
 <label x="177.8" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="D9" gate="LED" pin="A"/>
+<pinref part="A" gate="LED" pin="A"/>
 <wire x1="190.5" y1="175.26" x2="187.96" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="D10" gate="LED" pin="A"/>
+<pinref part="B" gate="LED" pin="A"/>
 <wire x1="190.5" y1="165.1" x2="187.96" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="D11" gate="LED" pin="A"/>
+<pinref part="C" gate="LED" pin="A"/>
 <wire x1="190.5" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="D12" gate="LED" pin="A"/>
+<pinref part="D" gate="LED" pin="A"/>
 <wire x1="190.5" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="D13" gate="LED" pin="A"/>
+<pinref part="E" gate="LED" pin="A"/>
 <wire x1="190.5" y1="134.62" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="2"/>
 </segment>
@@ -9643,21 +9643,21 @@ CAN_3 - Sensors and anything else</text>
 <net name="N$40" class="0">
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
-<pinref part="D14" gate="LED" pin="A"/>
+<pinref part="IMD" gate="LED" pin="A"/>
 <wire x1="241.3" y1="165.1" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
 <pinref part="R30" gate="G$1" pin="2"/>
-<pinref part="D15" gate="LED" pin="A"/>
+<pinref part="BMS" gate="LED" pin="A"/>
 <wire x1="241.3" y1="154.94" x2="243.84" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
-<pinref part="D16" gate="LED" pin="A"/>
+<pinref part="BSPD" gate="LED" pin="A"/>
 <wire x1="241.3" y1="144.78" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9684,7 +9684,7 @@ CAN_3 - Sensors and anything else</text>
 </net>
 <net name="N$43" class="0">
 <segment>
-<pinref part="D17" gate="LED" pin="A"/>
+<pinref part="WDOG" gate="LED" pin="A"/>
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="134.62" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
 </segment>
@@ -9705,7 +9705,7 @@ CAN_3 - Sensors and anything else</text>
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="D18" gate="LED" pin="A"/>
+<pinref part="SWOK" gate="LED" pin="A"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="124.46" x2="241.3" y2="124.46" width="0.1524" layer="91"/>
 </segment>
@@ -9713,27 +9713,27 @@ CAN_3 - Sensors and anything else</text>
 <net name="N$44" class="0">
 <segment>
 <wire x1="190.5" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="D19" gate="LED" pin="A"/>
+<pinref part="3V3" gate="LED" pin="A"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
 <wire x1="190.5" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="D20" gate="LED" pin="A"/>
+<pinref part="5V0" gate="LED" pin="A"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$56" class="0">
 <segment>
-<pinref part="D26" gate="LED" pin="A"/>
+<pinref part="BRAKE" gate="LED" pin="A"/>
 <pinref part="R40" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="83.82" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="D47" gate="LED" pin="A"/>
+<pinref part="F" gate="LED" pin="A"/>
 <wire x1="190.5" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="2"/>
 </segment>
