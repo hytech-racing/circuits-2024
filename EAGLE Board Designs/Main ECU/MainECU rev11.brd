@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -5806,14 +5806,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="J4" pad="34"/>
 <contactref element="J4" pad="36"/>
 <contactref element="J4" pad="38"/>
-<contactref element="J5" pad="2"/>
-<contactref element="J5" pad="4"/>
-<contactref element="J5" pad="6"/>
-<contactref element="J5" pad="8"/>
-<contactref element="J5" pad="10"/>
-<contactref element="J5" pad="12"/>
-<contactref element="J5" pad="14"/>
-<contactref element="J5" pad="16"/>
 <contactref element="J5" pad="18"/>
 <contactref element="J5" pad="20"/>
 <contactref element="J5" pad="22"/>
@@ -6052,6 +6044,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <via x="25.908" y="41.91" extent="1-16" drill="0.35"/>
 <via x="24.384" y="75.692" extent="1-16" drill="0.35"/>
 <via x="56.896" y="109.474" extent="1-16" drill="0.35"/>
+<contactref element="J5" pad="2"/>
+<contactref element="J5" pad="4"/>
+<contactref element="J5" pad="6"/>
+<contactref element="J5" pad="8"/>
+<contactref element="J5" pad="10"/>
+<contactref element="J5" pad="12"/>
+<contactref element="J5" pad="14"/>
+<contactref element="J5" pad="16"/>
 </signal>
 <signal name="LOAD_FL_EXT">
 <contactref element="J4" pad="3"/>

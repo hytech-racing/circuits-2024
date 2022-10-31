@@ -8102,47 +8102,15 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <pinref part="P45" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="254" y1="195.58" x2="215.9" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="254" y1="190.5" x2="215.9" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="254" y1="195.58" x2="254" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="254" y1="185.42" x2="215.9" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="254" y1="190.5" x2="254" y2="185.42" width="0.1524" layer="91"/>
-<junction x="254" y="190.5"/>
-<wire x1="254" y1="180.34" x2="215.9" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="254" y1="185.42" x2="254" y2="180.34" width="0.1524" layer="91"/>
-<junction x="254" y="185.42"/>
-<wire x1="254" y1="175.26" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="254" y1="180.34" x2="254" y2="175.26" width="0.1524" layer="91"/>
-<junction x="254" y="180.34"/>
-<wire x1="254" y1="170.18" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="254" y1="175.26" x2="254" y2="170.18" width="0.1524" layer="91"/>
-<junction x="254" y="175.26"/>
-<wire x1="254" y1="165.1" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="254" y1="170.18" x2="254" y2="165.1" width="0.1524" layer="91"/>
-<junction x="254" y="170.18"/>
-<wire x1="254" y1="160.02" x2="215.9" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="254" y1="165.1" x2="254" y2="160.02" width="0.1524" layer="91"/>
-<junction x="254" y="165.1"/>
 <wire x1="254" y1="154.94" x2="215.9" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="254" y1="160.02" x2="254" y2="154.94" width="0.1524" layer="91"/>
-<junction x="254" y="160.02"/>
 <wire x1="254" y1="149.86" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="254" y1="154.94" x2="254" y2="149.86" width="0.1524" layer="91"/>
-<junction x="254" y="154.94"/>
 <wire x1="254" y1="144.78" x2="215.9" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="254" y1="149.86" x2="254" y2="144.78" width="0.1524" layer="91"/>
 <junction x="254" y="149.86"/>
 <junction x="254" y="144.78"/>
 <wire x1="254" y1="144.78" x2="254" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="P47" gate="1" pin="GND"/>
-<pinref part="J5" gate="G$1" pin="2"/>
-<pinref part="J5" gate="G$1" pin="4"/>
-<pinref part="J5" gate="G$1" pin="6"/>
-<pinref part="J5" gate="G$1" pin="8"/>
-<pinref part="J5" gate="G$1" pin="10"/>
-<pinref part="J5" gate="G$1" pin="12"/>
-<pinref part="J5" gate="G$1" pin="14"/>
-<pinref part="J5" gate="G$1" pin="16"/>
 <pinref part="J5" gate="G$1" pin="18"/>
 <pinref part="J5" gate="G$1" pin="20"/>
 <pinref part="J5" gate="G$1" pin="22"/>
@@ -8170,6 +8138,38 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <pinref part="J5" gate="G$1" pin="37"/>
 <wire x1="215.9" y1="106.68" x2="254" y2="106.68" width="0.1524" layer="91"/>
 <junction x="254" y="106.68"/>
+<pinref part="J5" gate="G$1" pin="14"/>
+<wire x1="254" y1="165.1" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="12"/>
+<wire x1="254" y1="170.18" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="10"/>
+<wire x1="254" y1="175.26" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="8"/>
+<wire x1="254" y1="180.34" x2="215.9" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="6"/>
+<wire x1="254" y1="185.42" x2="215.9" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="4"/>
+<wire x1="254" y1="190.5" x2="215.9" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="254" y1="195.58" x2="215.9" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="254" y1="195.58" x2="254" y2="190.5" width="0.1524" layer="91"/>
+<junction x="254" y="190.5"/>
+<wire x1="254" y1="190.5" x2="254" y2="185.42" width="0.1524" layer="91"/>
+<junction x="254" y="185.42"/>
+<wire x1="254" y1="185.42" x2="254" y2="180.34" width="0.1524" layer="91"/>
+<junction x="254" y="180.34"/>
+<wire x1="254" y1="180.34" x2="254" y2="175.26" width="0.1524" layer="91"/>
+<junction x="254" y="175.26"/>
+<wire x1="254" y1="175.26" x2="254" y2="170.18" width="0.1524" layer="91"/>
+<junction x="254" y="170.18"/>
+<wire x1="254" y1="170.18" x2="254" y2="165.1" width="0.1524" layer="91"/>
+<junction x="254" y="165.1"/>
+<wire x1="254" y1="165.1" x2="254" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="254" y1="160.02" x2="215.9" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="16"/>
+<wire x1="254" y1="160.02" x2="254" y2="154.94" width="0.1524" layer="91"/>
+<junction x="254" y="160.02"/>
+<junction x="254" y="154.94"/>
 </segment>
 </net>
 <net name="LOAD_FL_EXT" class="0">
