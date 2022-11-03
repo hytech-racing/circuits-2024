@@ -222,6 +222,20 @@
 <rectangle x1="-6.35" y1="-7.366" x2="6.35" y2="7.366" layer="39"/>
 <text x="0" y="7.62" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="OMF_125">
+<description>Footprint for Schurter OMF 125 Series Fuse.&lt;br&gt;
+&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_OMF_125-1275954.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-3.25" y="0" dx="3" dy="2.8" layer="1"/>
+<smd name="2" x="3.25" y="0" dx="3" dy="2.8" layer="1"/>
+<wire x1="-3.7" y1="1.6" x2="-3.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-1.6" x2="3.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-1.6" x2="3.7" y2="1.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="1.6" x2="-3.7" y2="1.6" width="0.127" layer="21"/>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-5.08" y1="-1.905" x2="5.08" y2="1.905" layer="39"/>
+<rectangle x1="-1.75" y1="-1.905" x2="1.75" y2="1.905" layer="43"/>
+<rectangle x1="-1.75" y1="-1.905" x2="1.75" y2="1.905" layer="41"/>
+</package>
 </packages>
 </library>
 <library name="HyTechManufacturing">
@@ -432,117 +446,117 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="8.89" y="16.51" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-59.69" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-59.69" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-59.69" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-59.69" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.89" y="13.97" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-59.69" y="69.85" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J1" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="6.9" y="9.735" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-61.68" y="63.075" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-61.68" y="63.075" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-61.68" y="63.075" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-61.68" y="63.075" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="6.9" y="7.195" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-61.68" y="63.075" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J10" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="22.86" y="52.07" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-57.15" y="121.92" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-57.15" y="121.92" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-57.15" y="121.92" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-57.15" y="121.92" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.86" y="49.53" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-57.15" y="121.92" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J10" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="23" y="55.175" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-57.01" y="125.025" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-57.01" y="125.025" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-57.01" y="125.025" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-57.01" y="125.025" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23" y="52.635" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-57.01" y="125.025" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J11" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="22.86" y="43.18" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="5.08" y="120.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="5.08" y="120.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="5.08" y="120.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="5.08" y="120.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.86" y="40.64" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="5.08" y="120.65" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J11" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="23" y="43.815" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="5.22" y="121.285" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="5.22" y="121.285" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="5.22" y="121.285" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="5.22" y="121.285" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23" y="41.275" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="5.22" y="121.285" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J12" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="22.86" y="34.29" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-3.81" y="111.76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-3.81" y="111.76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-3.81" y="111.76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-3.81" y="111.76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.86" y="31.75" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-3.81" y="111.76" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J12" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="23" y="32.455" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-3.67" y="109.925" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-3.67" y="109.925" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-3.67" y="109.925" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-3.67" y="109.925" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23" y="29.915" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-3.67" y="109.925" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J13" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="22.86" y="25.4" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-12.7" y="102.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-12.7" y="102.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-12.7" y="102.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-12.7" y="102.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.86" y="22.86" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-12.7" y="102.87" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J13" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="23" y="21.095" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-12.56" y="98.565" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-12.56" y="98.565" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-12.56" y="98.565" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-12.56" y="98.565" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23" y="18.555" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-12.56" y="98.565" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J14" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="22.86" y="16.51" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-21.59" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-21.59" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-21.59" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-21.59" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.86" y="13.97" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-21.59" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J14" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="23" y="9.735" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-21.45" y="87.205" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-21.45" y="87.205" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-21.45" y="87.205" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-21.45" y="87.205" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23" y="7.195" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-21.45" y="87.205" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J15" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="36.83" y="16.51" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-16.51" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-16.51" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-16.51" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-16.51" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.83" y="13.97" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-16.51" y="93.98" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J15" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="39.1" y="9.735" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-14.24" y="87.205" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-14.24" y="87.205" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-14.24" y="87.205" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-14.24" y="87.205" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.1" y="7.195" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-14.24" y="87.205" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J16" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="36.83" y="25.4" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-25.4" y="102.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-25.4" y="102.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-25.4" y="102.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-25.4" y="102.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.83" y="22.86" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-25.4" y="102.87" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J16" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="39.1" y="21.095" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-23.13" y="98.565" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-23.13" y="98.565" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-23.13" y="98.565" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-23.13" y="98.565" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.1" y="18.555" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-23.13" y="98.565" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J17" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="36.83" y="34.29" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-34.29" y="111.76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-34.29" y="111.76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-34.29" y="111.76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-34.29" y="111.76" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.83" y="31.75" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-34.29" y="111.76" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J17" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="39.1" y="32.455" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-32.02" y="109.925" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-32.02" y="109.925" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-32.02" y="109.925" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-32.02" y="109.925" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.1" y="29.915" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-32.02" y="109.925" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J18" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="36.83" y="43.18" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-43.18" y="120.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-43.18" y="120.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-43.18" y="120.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-43.18" y="120.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.83" y="40.64" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-43.18" y="120.65" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J18" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="39.1" y="43.815" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-40.91" y="121.285" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-40.91" y="121.285" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-40.91" y="121.285" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-40.91" y="121.285" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.1" y="41.275" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-40.91" y="121.285" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J19" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="36.83" y="52.07" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="19.05" y="137.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="19.05" y="137.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="19.05" y="137.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="19.05" y="137.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.83" y="49.53" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="19.05" y="137.16" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J19" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="39.1" y="55.175" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="21.32" y="140.265" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="21.32" y="140.265" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="21.32" y="140.265" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="21.32" y="140.265" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.1" y="52.635" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="21.32" y="140.265" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J2" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="8.89" y="25.4" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-68.58" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-68.58" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-68.58" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-68.58" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.89" y="22.86" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-68.58" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J2" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="6.9" y="21.095" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-70.57" y="74.435" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-70.57" y="74.435" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-70.57" y="74.435" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-70.57" y="74.435" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="6.9" y="18.555" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-70.57" y="74.435" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J20" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="36.83" y="60.96" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="10.16" y="146.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="10.16" y="146.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="10.16" y="146.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="10.16" y="146.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.83" y="58.42" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="10.16" y="146.05" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J20" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="39.1" y="66.535" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="12.43" y="151.625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="12.43" y="151.625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="12.43" y="151.625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="12.43" y="151.625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.1" y="63.995" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="12.43" y="151.625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J21" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="36.83" y="69.85" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="1.27" y="154.94" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="1.27" y="154.94" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="1.27" y="154.94" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="1.27" y="154.94" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.83" y="67.31" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="1.27" y="154.94" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J21" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="39.1" y="77.895" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="3.54" y="162.985" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="3.54" y="162.985" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="3.54" y="162.985" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="3.54" y="162.985" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.1" y="75.355" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="3.54" y="162.985" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J22" library="HyTechDevices" package="5222" value="CONNECTOR-1_5222" x="322.3514" y="64.6684" smashed="yes">
 <attribute name="DKPN" value="36-5222-ND" x="341.4014" y="57.0484" size="1.778" layer="27" display="off"/>
@@ -608,13 +622,13 @@ design rules under a new name.</description>
 <attribute name="MPN" value="5222" x="265.9634" y="40.5384" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="234.2134" y="72.2884" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="J3" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="8.89" y="34.29" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-8.89" y="104.14" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-8.89" y="104.14" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-8.89" y="104.14" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-8.89" y="104.14" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.89" y="31.75" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-8.89" y="104.14" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J3" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="6.9" y="32.455" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-10.88" y="102.305" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-10.88" y="102.305" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-10.88" y="102.305" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-10.88" y="102.305" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="6.9" y="29.915" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-10.88" y="102.305" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J30" library="HyTechDevices" package="5222" value="CONNECTOR-1_5222" x="230.1494" y="24.2824" smashed="yes">
 <attribute name="DKPN" value="36-5222-ND" x="274.5994" y="0.1524" size="1.778" layer="27" display="off"/>
@@ -696,13 +710,13 @@ design rules under a new name.</description>
 <attribute name="MPN" value="5222" x="193.3194" y="24.0284" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="110.7694" y="72.2884" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="J4" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="8.89" y="43.18" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-17.78" y="113.03" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-17.78" y="113.03" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-17.78" y="113.03" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-17.78" y="113.03" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.89" y="40.64" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-17.78" y="113.03" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J4" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="6.9" y="43.815" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-19.77" y="113.665" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-19.77" y="113.665" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-19.77" y="113.665" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-19.77" y="113.665" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="6.9" y="41.275" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-19.77" y="113.665" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J40" library="HyTechDevices" package="5222" value="CONNECTOR-1_5222" x="106.9594" y="24.2824" smashed="yes">
 <attribute name="DKPN" value="36-5222-ND" x="126.0094" y="-32.8676" size="1.778" layer="27" display="off"/>
@@ -736,45 +750,45 @@ design rules under a new name.</description>
 <attribute name="MPN" value="5222" x="116.8654" y="7.5184" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.7154" y="72.2884" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="J5" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="8.89" y="52.07" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-26.67" y="121.92" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-26.67" y="121.92" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-26.67" y="121.92" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-26.67" y="121.92" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.89" y="49.53" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-26.67" y="121.92" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J5" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="6.9" y="55.175" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-28.66" y="125.025" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-28.66" y="125.025" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-28.66" y="125.025" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-28.66" y="125.025" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="6.9" y="52.635" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-28.66" y="125.025" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J6" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="8.89" y="60.96" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-35.56" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-35.56" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-35.56" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-35.56" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.89" y="58.42" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-35.56" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J6" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="6.9" y="66.535" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-37.55" y="136.385" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-37.55" y="136.385" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-37.55" y="136.385" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-37.55" y="136.385" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="6.9" y="63.995" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-37.55" y="136.385" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J7" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="8.89" y="69.85" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-44.45" y="139.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-44.45" y="139.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-44.45" y="139.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-44.45" y="139.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.89" y="67.31" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-44.45" y="139.7" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J7" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="6.9" y="77.895" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-46.44" y="147.745" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-46.44" y="147.745" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-46.44" y="147.745" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-46.44" y="147.745" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="6.9" y="75.355" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-46.44" y="147.745" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J8" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="22.86" y="69.85" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-39.37" y="139.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-39.37" y="139.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-39.37" y="139.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-39.37" y="139.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.86" y="67.31" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-39.37" y="139.7" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J8" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="23" y="77.895" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-39.23" y="147.745" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-39.23" y="147.745" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-39.23" y="147.745" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-39.23" y="147.745" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23" y="75.355" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-39.23" y="147.745" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J9" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="22.86" y="60.96" smashed="yes" rot="R180">
-<attribute name="DKPN" value="455-1704-ND" x="-48.26" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-48.26" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="" x="-48.26" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-48.26" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.86" y="58.42" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="NWRKPN" value="37K9940" x="-48.26" y="130.81" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="J9" library="HyTechDevices" package="B2B-PH-K" value="CONNECTOR-2__B2B-PH-K" x="23" y="66.535" smashed="yes" rot="R180">
+<attribute name="DKPN" value="455-1704-ND" x="-48.12" y="136.385" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc." x="-48.12" y="136.385" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="" x="-48.12" y="136.385" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)" x="-48.12" y="136.385" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="23" y="63.995" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NWRKPN" value="37K9940" x="-48.12" y="136.385" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="74.3712" y="83.5914" smashed="yes"/>
 <element name="U$2" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="146.4564" y="83.5914" smashed="yes"/>
@@ -786,334 +800,878 @@ design rules under a new name.</description>
 <element name="U$30" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="190.7794" y="5.6134" smashed="yes"/>
 <element name="U$31" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="289.0774" y="5.6134" smashed="yes"/>
 <element name="U$29" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="92.8624" y="5.6134" smashed="yes"/>
+<element name="F1" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="322.3514" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="322.3712" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="322.3712" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="322.3712" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="322.3712" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="322.3712" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="322.3712" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="322.3712" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="322.3712" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="322.3712" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F2" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="308.1274" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="308.1274" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="308.1274" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="308.1274" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="308.1274" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="308.1274" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="308.1274" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="308.1274" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="308.1274" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="308.1274" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F3" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="303.0474" y="41.3258" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="303.0474" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="303.0474" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="303.0474" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="303.0474" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="303.0474" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="303.0474" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="303.0474" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="303.0474" y="43.2308" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="303.0474" y="41.3258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F4" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="283.4894" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="283.4894" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="283.4894" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="283.4894" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="283.4894" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="283.4894" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="283.4894" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="283.4894" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="283.4894" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="283.4894" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F5" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="279.4254" y="41.3258" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="279.4254" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="279.4254" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="279.4254" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="279.4254" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="279.4254" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="279.4254" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="279.4254" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="279.4254" y="43.2308" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="279.4254" y="41.3258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F6" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="258.8514" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="258.8514" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="258.8514" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="258.8514" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="258.8514" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="258.8514" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="258.8514" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="258.8514" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="258.8514" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="258.8514" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F7" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="254.7874" y="41.3258" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="254.7874" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="254.7874" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="254.7874" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="254.7874" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="254.7874" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="254.7874" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="254.7874" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="254.7874" y="43.2308" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="254.7874" y="41.3258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F8" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="234.2134" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="234.2134" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="234.2134" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="234.2134" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="234.2134" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="234.2134" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="234.2134" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="234.2134" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="234.2134" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="234.2134" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F9" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="230.1494" y="41.3258" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="230.1494" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="230.1494" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="230.1494" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="230.1494" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="230.1494" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="230.1494" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="230.1494" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="230.1494" y="43.2308" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="230.1494" y="41.3258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F10" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="209.5754" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="209.5754" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="209.5754" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="209.5754" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="209.5754" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="209.5754" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="209.5754" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="209.5754" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="209.5754" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="209.5754" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F11" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="205.5114" y="41.3258" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="205.5114" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="205.5114" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="205.5114" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="205.5114" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="205.5114" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="205.5114" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="205.5114" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="205.5114" y="43.2308" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="205.5114" y="41.3258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F12" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="184.9374" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="184.9374" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="184.9374" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="184.9374" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="184.9374" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="184.9374" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="184.9374" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="184.9374" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="184.9374" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="184.9374" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F13" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="180.8734" y="41.3258" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="180.8734" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="180.8734" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="180.8734" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="180.8734" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="180.8734" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="180.8734" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="180.8734" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="180.8734" y="43.2308" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="180.8734" y="41.3258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F14" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="160.0454" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="160.0454" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="160.0454" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="160.0454" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="160.0454" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="160.0454" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="160.0454" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="160.0454" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="160.0454" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="160.0454" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F15" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="156.2354" y="41.3258" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="156.2354" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="156.2354" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="156.2354" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="156.2354" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="156.2354" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="156.2354" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="156.2354" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="156.2354" y="43.2308" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="156.2354" y="41.3258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F16" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="135.4074" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="135.4074" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="135.4074" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="135.4074" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="135.4074" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="135.4074" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="135.4074" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="135.4074" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="135.4074" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="135.4074" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F17" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="131.5974" y="41.3258" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="131.5974" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="131.5974" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="131.5974" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="131.5974" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="131.5974" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="131.5974" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="131.5974" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="131.5974" y="43.2308" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="131.5974" y="41.3258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F18" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="110.7694" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="110.7694" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="110.7694" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="110.7694" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="110.7694" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="110.7694" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="110.7694" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="110.7694" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="110.7694" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="110.7694" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F19" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="106.9594" y="41.3258" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="106.9594" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="106.9594" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="106.9594" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="106.9594" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="106.9594" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="106.9594" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="106.9594" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="106.9594" y="43.2308" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="106.9594" y="41.3258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F20" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="86.1314" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="86.1314" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="86.1314" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="86.1314" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="86.1314" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="86.1314" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="86.1314" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="86.1314" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="86.1314" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="86.1314" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F21" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="82.3214" y="41.3258" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="82.3214" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="82.3214" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="82.3214" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="82.3214" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="82.3214" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="82.3214" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="82.3214" y="41.3258" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="82.3214" y="43.2308" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="82.3214" y="41.3258" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F22" library="HyTechDevices" package="OMF_125" value="FUSE_OMF_125_.5A" x="59.7154" y="47.625" smashed="yes">
+<attribute name="CURRENT" value="500mA" x="59.7154" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="486-3694-ND" x="59.7154" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="FUSE_TYPE" value="SMD" x="59.7154" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="I2T" value="0.01" x="59.7154" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Schurter Inc." x="59.7154" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="693-3404.0045.11" x="59.7154" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="3404.0045.11" x="59.7154" y="47.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="59.7154" y="49.53" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="125V" x="59.7154" y="47.625" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="21-">
 <contactref element="J20" pad="1"/>
-<contactref element="J42" pad="1"/>
 <contactref element="J21" pad="2"/>
-<wire x1="82.3214" y1="24.2824" x2="82.55" y2="24.0538" width="0.254" layer="1"/>
-<wire x1="82.55" y1="24.0538" x2="82.55" y2="22.86" width="0.254" layer="1"/>
-<wire x1="82.55" y1="17.018" x2="82.55" y2="24.13" width="0.254" layer="1"/>
-<wire x1="82.55" y1="17.018" x2="42.672" y2="17.018" width="0.254" layer="1"/>
-<wire x1="35.83" y1="69.3" x2="35.83" y2="62.728" width="0.254" layer="1"/>
-<wire x1="35.83" y1="62.728" x2="35.814" y2="62.712" width="0.254" layer="1"/>
-<wire x1="35.814" y1="62.712" x2="35.814" y2="62.426" width="0.254" layer="1"/>
-<wire x1="37.83" y1="60.41" x2="35.814" y2="62.426" width="0.254" layer="1"/>
-<wire x1="42.672" y1="55.568" x2="37.83" y2="60.41" width="0.254" layer="1"/>
-<wire x1="42.672" y1="17.018" x2="42.672" y2="55.568" width="0.254" layer="1"/>
-<wire x1="82.55" y1="24.13" x2="82.3214" y2="24.2824" width="0" layer="19" extent="1-1"/>
+<contactref element="F21" pad="2"/>
+<wire x1="40.1" y1="65.985" x2="38.1" y2="67.985" width="0.254" layer="1"/>
+<wire x1="38.1" y1="67.985" x2="38.1" y2="77.345" width="0.254" layer="1"/>
+<wire x1="40.1" y1="65.985" x2="46.736" y2="59.349" width="0.254" layer="1"/>
+<wire x1="46.736" y1="17.526" x2="48.006" y2="16.256" width="0.254" layer="1"/>
+<wire x1="48.006" y1="16.256" x2="87.63" y2="16.256" width="0.254" layer="1"/>
+<wire x1="89.408" y1="37.4892" x2="85.5714" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="46.736" y1="59.349" x2="46.736" y2="17.526" width="0.254" layer="1"/>
+<wire x1="87.63" y1="16.256" x2="89.408" y2="18.034" width="0.254" layer="1"/>
+<wire x1="89.408" y1="18.034" x2="89.408" y2="37.4892" width="0.254" layer="1"/>
 </signal>
 <signal name="20-">
 <contactref element="J20" pad="2"/>
-<contactref element="J41" pad="1"/>
 <contactref element="J19" pad="1"/>
-<wire x1="84.836" y1="73.66" x2="33.02" y2="73.66" width="0.254" layer="1"/>
-<wire x1="84.836" y1="73.66" x2="86.106" y2="72.39" width="0.254" layer="1"/>
-<wire x1="86.106" y1="72.39" x2="86.106" y2="64.6938" width="0.254" layer="1"/>
-<wire x1="86.1314" y1="64.6684" x2="86.106" y2="64.6938" width="0.254" layer="1"/>
-<wire x1="33.02" y1="73.66" x2="31.496" y2="72.136" width="0.254" layer="1"/>
-<wire x1="31.496" y1="72.136" x2="31.496" y2="64.77" width="0.254" layer="1"/>
-<wire x1="35.83" y1="60.41" x2="35.83" y2="60.436" width="0.254" layer="1"/>
-<wire x1="35.83" y1="60.436" x2="31.496" y2="64.77" width="0.254" layer="1"/>
-<wire x1="35.83" y1="60.41" x2="35.83" y2="53.451" width="0.254" layer="1"/>
-<wire x1="36.052" y1="53.229" x2="35.83" y2="53.451" width="0.254" layer="1"/>
-<wire x1="36.121" y1="53.229" x2="36.052" y2="53.229" width="0.254" layer="1"/>
-<wire x1="36.121" y1="53.229" x2="37.83" y2="51.52" width="0.254" layer="1"/>
+<contactref element="F20" pad="2"/>
+<wire x1="40.1" y1="54.625" x2="38.1" y2="56.625" width="0.254" layer="1"/>
+<wire x1="38.1" y1="56.625" x2="38.1" y2="65.985" width="0.254" layer="1"/>
+<wire x1="38.1" y1="65.985" x2="33.401" y2="70.684" width="0.254" layer="1"/>
+<wire x1="33.401" y1="80.137" x2="35.052" y2="81.788" width="0.254" layer="1"/>
+<wire x1="35.052" y1="81.788" x2="48.895" y2="81.788" width="0.254" layer="1"/>
+<wire x1="92.075" y1="73.279" x2="93.218" y2="72.136" width="0.254" layer="1"/>
+<wire x1="93.218" y1="72.136" x2="93.218" y2="49.5566" width="0.254" layer="1"/>
+<wire x1="93.218" y1="49.5566" x2="91.2864" y2="47.625" width="0.254" layer="1"/>
+<wire x1="91.2864" y1="47.625" x2="89.3814" y2="47.625" width="0.254" layer="1"/>
+<wire x1="33.401" y1="70.684" x2="33.401" y2="80.137" width="0.254" layer="1"/>
+<wire x1="48.895" y1="81.788" x2="57.404" y2="73.279" width="0.254" layer="1"/>
+<wire x1="57.404" y1="73.279" x2="92.075" y2="73.279" width="0.254" layer="1"/>
 </signal>
 <signal name="19-">
 <contactref element="J19" pad="2"/>
 <contactref element="J18" pad="1"/>
-<contactref element="J40" pad="1"/>
-<wire x1="106.9594" y1="24.2824" x2="106.807" y2="24.13" width="0.254" layer="1"/>
-<wire x1="106.807" y1="24.13" x2="106.68" y2="24.13" width="0.254" layer="1"/>
-<wire x1="106.68" y1="24.13" x2="106.8324" y2="24.2824" width="0.254" layer="1"/>
-<wire x1="106.8324" y1="24.2824" x2="106.9594" y2="24.2824" width="0.254" layer="1"/>
-<wire x1="106.172" y1="16.256" x2="106.934" y2="17.018" width="0.254" layer="1"/>
-<wire x1="106.172" y1="16.256" x2="41.91" y2="16.256" width="0.254" layer="1"/>
-<wire x1="37.83" y1="42.18" x2="37.83" y2="42.63" width="0.254" layer="1"/>
-<wire x1="41.91" y1="16.256" x2="41.91" y2="38.1" width="0.254" layer="1"/>
-<wire x1="41.91" y1="38.1" x2="37.83" y2="42.18" width="0.254" layer="1"/>
-<wire x1="36.11" y1="51.52" x2="35.83" y2="51.52" width="0.254" layer="1"/>
-<wire x1="37.83" y1="42.63" x2="35.83" y2="44.63" width="0.254" layer="1"/>
-<wire x1="35.83" y1="44.63" x2="35.83" y2="51.52" width="0.254" layer="1"/>
-<wire x1="106.934" y1="17.018" x2="106.934" y2="24.003" width="0.254" layer="1"/>
-<wire x1="106.934" y1="24.003" x2="106.807" y2="24.13" width="0.254" layer="1"/>
+<contactref element="F19" pad="2"/>
+<wire x1="40.1" y1="43.265" x2="38.1" y2="45.265" width="0.254" layer="1"/>
+<wire x1="38.1" y1="45.265" x2="38.1" y2="54.625" width="0.254" layer="1"/>
+<wire x1="40.1" y1="43.265" x2="45.593" y2="37.772" width="0.254" layer="1"/>
+<wire x1="45.593" y1="17.653" x2="47.625" y2="15.621" width="0.254" layer="1"/>
+<wire x1="112.903" y1="15.621" x2="114.046" y2="16.764" width="0.254" layer="1"/>
+<wire x1="114.046" y1="16.764" x2="114.046" y2="39.2672" width="0.254" layer="1"/>
+<wire x1="114.046" y1="39.2672" x2="111.9874" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="111.9874" y1="41.3258" x2="110.2094" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="45.593" y1="37.772" x2="45.593" y2="17.653" width="0.254" layer="1"/>
+<wire x1="47.625" y1="15.621" x2="112.903" y2="15.621" width="0.254" layer="1"/>
 </signal>
 <signal name="18-">
 <contactref element="J18" pad="2"/>
 <contactref element="J17" pad="1"/>
-<contactref element="J39" pad="1"/>
-<wire x1="35.83" y1="42.63" x2="35.83" y2="42.714" width="0.254" layer="1"/>
-<wire x1="35.83" y1="42.714" x2="30.861" y2="47.683" width="0.254" layer="1"/>
-<wire x1="110.744" y1="72.39" x2="108.839" y2="74.295" width="0.254" layer="1"/>
-<wire x1="110.744" y1="64.6938" x2="110.7694" y2="64.6684" width="0.254" layer="1"/>
-<wire x1="110.744" y1="72.39" x2="110.744" y2="64.6938" width="0.254" layer="1"/>
-<wire x1="32.766" y1="74.295" x2="30.861" y2="72.39" width="0.254" layer="1"/>
-<wire x1="108.839" y1="74.295" x2="32.766" y2="74.295" width="0.254" layer="1"/>
-<wire x1="30.861" y1="72.39" x2="30.861" y2="47.683" width="0.254" layer="1"/>
-<wire x1="35.925" y1="35.677" x2="35.83" y2="35.772" width="0.254" layer="1"/>
-<wire x1="35.83" y1="42.63" x2="35.83" y2="35.772" width="0.254" layer="1"/>
-<wire x1="35.925" y1="35.677" x2="35.925" y2="35.645" width="0.254" layer="1"/>
-<wire x1="35.925" y1="35.645" x2="37.83" y2="33.74" width="0.254" layer="1"/>
+<contactref element="F18" pad="2"/>
+<wire x1="40.1" y1="31.905" x2="38.1" y2="33.905" width="0.254" layer="1"/>
+<wire x1="38.1" y1="33.905" x2="38.1" y2="43.265" width="0.254" layer="1"/>
+<wire x1="38.1" y1="43.265" x2="32.512" y2="48.853" width="0.254" layer="1"/>
+<wire x1="116.078" y1="73.914" x2="117.856" y2="72.136" width="0.254" layer="1"/>
+<wire x1="117.856" y1="49.5566" x2="115.9244" y2="47.625" width="0.254" layer="1"/>
+<wire x1="115.9244" y1="47.625" x2="114.0194" y2="47.625" width="0.254" layer="1"/>
+<wire x1="32.512" y1="48.853" x2="32.512" y2="80.772" width="0.254" layer="1"/>
+<wire x1="32.512" y1="80.772" x2="34.036" y2="82.296" width="0.254" layer="1"/>
+<wire x1="34.036" y1="82.296" x2="52.705" y2="82.296" width="0.254" layer="1"/>
+<wire x1="52.705" y1="82.296" x2="61.087" y2="73.914" width="0.254" layer="1"/>
+<wire x1="61.087" y1="73.914" x2="116.078" y2="73.914" width="0.254" layer="1"/>
+<wire x1="117.856" y1="72.136" x2="117.856" y2="49.5566" width="0.254" layer="1"/>
 </signal>
 <signal name="17-">
 <contactref element="J17" pad="2"/>
 <contactref element="J16" pad="1"/>
-<contactref element="J38" pad="1"/>
-<wire x1="132.08" y1="16.51" x2="131.064" y2="15.494" width="0.254" layer="1"/>
-<wire x1="132.08" y1="23.7998" x2="131.5974" y2="24.2824" width="0.254" layer="1"/>
-<wire x1="132.08" y1="16.51" x2="132.08" y2="23.7998" width="0.254" layer="1"/>
-<wire x1="35.957" y1="33.74" x2="35.83" y2="33.74" width="0.254" layer="1"/>
-<wire x1="35.83" y1="33.74" x2="35.83" y2="26.85" width="0.254" layer="1"/>
-<wire x1="37.83" y1="24.85" x2="35.83" y2="26.85" width="0.254" layer="1"/>
-<wire x1="41.148" y1="21.532" x2="37.83" y2="24.85" width="0.254" layer="1"/>
-<wire x1="131.064" y1="15.494" x2="41.148" y2="15.494" width="0.254" layer="1"/>
-<wire x1="41.148" y1="15.494" x2="41.148" y2="21.532" width="0.254" layer="1"/>
+<contactref element="F17" pad="2"/>
+<wire x1="40.1" y1="20.545" x2="38.1" y2="22.545" width="0.254" layer="1"/>
+<wire x1="38.1" y1="22.545" x2="38.1" y2="31.905" width="0.254" layer="1"/>
+<wire x1="40.1" y1="20.545" x2="41.751" y2="20.545" width="0.254" layer="1"/>
+<wire x1="47.31" y1="14.986" x2="41.751" y2="20.545" width="0.254" layer="1"/>
+<wire x1="136.906" y1="14.986" x2="138.684" y2="16.764" width="0.254" layer="1"/>
+<wire x1="138.684" y1="16.764" x2="138.684" y2="39.3942" width="0.254" layer="1"/>
+<wire x1="138.684" y1="39.3942" x2="136.7524" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="136.7524" y1="41.3258" x2="134.8474" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="47.31" y1="14.986" x2="136.906" y2="14.986" width="0.254" layer="1"/>
 </signal>
 <signal name="16-">
 <contactref element="J16" pad="2"/>
 <contactref element="J15" pad="1"/>
-<contactref element="J37" pad="1"/>
-<wire x1="37.8404" y1="15.9816" x2="37.8404" y2="15.9704" width="0.254" layer="1"/>
-<wire x1="37.8404" y1="15.9704" x2="37.83" y2="15.96" width="0.254" layer="1"/>
-<wire x1="35.83" y1="24.85" x2="35.83" y2="17.992" width="0.254" layer="1"/>
-<wire x1="37.8404" y1="15.9816" x2="35.83" y2="17.992" width="0.254" layer="1"/>
-<wire x1="35.83" y1="24.85" x2="35.83" y2="24.977" width="0.254" layer="1"/>
-<wire x1="35.83" y1="24.977" x2="30.226" y2="30.581" width="0.254" layer="1"/>
-<wire x1="30.226" y1="30.581" x2="30.226" y2="72.644" width="0.254" layer="1"/>
-<wire x1="30.226" y1="72.644" x2="32.512" y2="74.93" width="0.254" layer="1"/>
-<wire x1="32.512" y1="74.93" x2="132.715" y2="74.93" width="0.254" layer="1"/>
-<wire x1="132.715" y1="74.93" x2="135.509" y2="72.136" width="0.254" layer="1"/>
-<wire x1="135.509" y1="72.136" x2="135.509" y2="64.77" width="0.254" layer="1"/>
-<wire x1="135.4074" y1="64.6684" x2="135.509" y2="64.77" width="0.254" layer="1"/>
+<contactref element="F16" pad="2"/>
+<wire x1="40.1" y1="9.185" x2="38.1" y2="11.185" width="0.254" layer="1"/>
+<wire x1="38.1" y1="11.185" x2="38.1" y2="20.545" width="0.254" layer="1"/>
+<wire x1="38.1" y1="20.545" x2="31.496" y2="27.149" width="0.254" layer="1"/>
+<wire x1="31.496" y1="81.153" x2="33.147" y2="82.804" width="0.254" layer="1"/>
+<wire x1="33.147" y1="82.804" x2="56.007" y2="82.804" width="0.254" layer="1"/>
+<wire x1="140.081" y1="74.549" x2="142.494" y2="72.136" width="0.254" layer="1"/>
+<wire x1="142.494" y1="72.136" x2="142.494" y2="49.6836" width="0.254" layer="1"/>
+<wire x1="142.494" y1="49.6836" x2="140.4354" y2="47.625" width="0.254" layer="1"/>
+<wire x1="140.4354" y1="47.625" x2="138.6574" y2="47.625" width="0.254" layer="1"/>
+<wire x1="31.496" y1="27.149" x2="31.496" y2="81.153" width="0.254" layer="1"/>
+<wire x1="56.007" y1="82.804" x2="64.262" y2="74.549" width="0.254" layer="1"/>
+<wire x1="64.262" y1="74.549" x2="140.081" y2="74.549" width="0.254" layer="1"/>
 </signal>
 <signal name="15-">
 <contactref element="J15" pad="2"/>
 <contactref element="J14" pad="1"/>
-<contactref element="J36" pad="1"/>
-<wire x1="23.86" y1="15.96" x2="35.83" y2="15.96" width="0.254" layer="1"/>
-<wire x1="37.328" y1="14.716" x2="36.084" y2="15.96" width="0.254" layer="1"/>
-<wire x1="35.83" y1="15.96" x2="36.084" y2="15.96" width="0.254" layer="1"/>
-<wire x1="37.328" y1="14.716" x2="154.416" y2="14.716" width="0.254" layer="1"/>
-<wire x1="154.416" y1="14.716" x2="156.464" y2="16.764" width="0.254" layer="1"/>
-<wire x1="156.464" y1="24.0538" x2="156.2354" y2="24.2824" width="0.254" layer="1"/>
-<wire x1="156.464" y1="16.764" x2="156.464" y2="24.0538" width="0.254" layer="1"/>
+<contactref element="F15" pad="2"/>
+<wire x1="38.1" y1="9.185" x2="24" y2="9.185" width="0.254" layer="1"/>
+<wire x1="38.1" y1="9.185" x2="39.2635" y2="8.0215" width="0.254" layer="1"/>
+<wire x1="47.371" y1="14.351" x2="160.909" y2="14.351" width="0.254" layer="1"/>
+<wire x1="160.909" y1="14.351" x2="163.322" y2="16.764" width="0.254" layer="1"/>
+<wire x1="163.322" y1="16.764" x2="163.322" y2="39.3942" width="0.254" layer="1"/>
+<wire x1="163.322" y1="39.3942" x2="161.3904" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="161.3904" y1="41.3258" x2="159.4854" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="39.2635" y1="8.0215" x2="41.0415" y2="8.0215" width="0.254" layer="1"/>
+<wire x1="41.0415" y1="8.0215" x2="47.371" y2="14.351" width="0.254" layer="1"/>
 </signal>
 <signal name="14-">
 <contactref element="J14" pad="2"/>
 <contactref element="J13" pad="1"/>
-<contactref element="J35" pad="1"/>
-<wire x1="160.0454" y1="64.6684" x2="160.0454" y2="72.3646" width="0.254" layer="1"/>
-<wire x1="160.0454" y1="72.3646" x2="156.845" y2="75.565" width="0.254" layer="1"/>
-<wire x1="156.845" y1="75.565" x2="32.258" y2="75.565" width="0.254" layer="1"/>
-<wire x1="32.258" y1="75.565" x2="29.591" y2="72.898" width="0.254" layer="1"/>
-<wire x1="29.591" y1="72.898" x2="29.591" y2="30.581" width="0.254" layer="1"/>
-<wire x1="21.86" y1="15.96" x2="21.86" y2="16.018" width="0.254" layer="1"/>
-<wire x1="21.86" y1="16.018" x2="23.876" y2="18.034" width="0.254" layer="1"/>
-<wire x1="23.876" y1="18.034" x2="23.876" y2="24.834" width="0.254" layer="1"/>
-<wire x1="23.876" y1="24.834" x2="23.86" y2="24.85" width="0.254" layer="1"/>
-<wire x1="29.591" y1="30.581" x2="23.86" y2="24.85" width="0.254" layer="1"/>
+<contactref element="F14" pad="2"/>
+<wire x1="22" y1="9.185" x2="24" y2="11.185" width="0.254" layer="1"/>
+<wire x1="24" y1="11.185" x2="24" y2="20.545" width="0.254" layer="1"/>
+<wire x1="30.5816" y1="27.1266" x2="24" y2="20.545" width="0.254" layer="1"/>
+<wire x1="30.5816" y1="27.1266" x2="30.5816" y2="81.7023375" width="0.254" layer="1"/>
+<wire x1="30.5816" y1="81.7023375" x2="32.2166625" y2="83.3374" width="0.254" layer="1"/>
+<wire x1="32.2166625" y1="83.3374" x2="58.7153375" y2="83.3374" width="0.254" layer="1"/>
+<wire x1="58.7153375" y1="83.3374" x2="66.8687375" y2="75.184" width="0.254" layer="1"/>
+<wire x1="66.8687375" y1="75.184" x2="164.084" y2="75.184" width="0.254" layer="1"/>
+<wire x1="167.132" y1="49.6836" x2="165.0734" y2="47.625" width="0.254" layer="1"/>
+<wire x1="165.0734" y1="47.625" x2="163.2954" y2="47.625" width="0.254" layer="1"/>
+<wire x1="164.084" y1="75.184" x2="167.132" y2="72.136" width="0.254" layer="1"/>
+<wire x1="167.132" y1="72.136" x2="167.132" y2="49.6836" width="0.254" layer="1"/>
 </signal>
 <signal name="13-">
 <contactref element="J13" pad="2"/>
-<contactref element="J34" pad="1"/>
 <contactref element="J12" pad="1"/>
-<wire x1="21.86" y1="24.85" x2="23.876" y2="26.866" width="0.254" layer="1"/>
-<wire x1="23.876" y1="33.724" x2="23.86" y2="33.74" width="0.254" layer="1"/>
-<wire x1="23.876" y1="26.866" x2="23.876" y2="33.724" width="0.254" layer="1"/>
-<wire x1="180.8734" y1="16.4084" x2="180.8734" y2="24.2824" width="0.254" layer="1"/>
-<wire x1="18.288" y1="13.97" x2="18.288" y2="21.278" width="0.254" layer="1"/>
-<wire x1="18.288" y1="13.97" x2="178.435" y2="13.97" width="0.254" layer="1"/>
-<wire x1="178.435" y1="13.97" x2="180.8734" y2="16.4084" width="0.254" layer="1"/>
-<wire x1="18.288" y1="21.278" x2="21.86" y2="24.85" width="0.254" layer="1"/>
+<contactref element="F13" pad="2"/>
+<wire x1="22" y1="20.545" x2="24" y2="22.545" width="0.254" layer="1"/>
+<wire x1="24" y1="22.545" x2="24" y2="31.905" width="0.254" layer="1"/>
+<wire x1="22" y1="20.545" x2="17.526" y2="16.071" width="0.254" layer="1"/>
+<wire x1="17.526" y1="16.071" x2="17.526" y2="7.493" width="0.254" layer="1"/>
+<wire x1="184.8866" y1="13.6906" x2="187.96" y2="16.764" width="0.254" layer="1"/>
+<wire x1="187.96" y1="16.764" x2="187.96" y2="39.3942" width="0.254" layer="1"/>
+<wire x1="187.96" y1="39.3942" x2="186.0284" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="186.0284" y1="41.3258" x2="184.1234" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="45.593" y1="5.715" x2="53.5686" y2="13.6906" width="0.254" layer="1"/>
+<wire x1="53.5686" y1="13.6906" x2="184.8866" y2="13.6906" width="0.254" layer="1"/>
+<wire x1="17.526" y1="7.493" x2="19.304" y2="5.715" width="0.254" layer="1"/>
+<wire x1="19.304" y1="5.715" x2="45.593" y2="5.715" width="0.254" layer="1"/>
 </signal>
 <signal name="12-">
 <contactref element="J12" pad="2"/>
-<contactref element="J33" pad="1"/>
 <contactref element="J11" pad="1"/>
-<wire x1="21.86" y1="33.74" x2="23.876" y2="35.756" width="0.254" layer="1"/>
-<wire x1="23.876" y1="42.614" x2="23.86" y2="42.63" width="0.254" layer="1"/>
-<wire x1="23.876" y1="35.756" x2="23.876" y2="42.614" width="0.254" layer="1"/>
-<wire x1="28.956" y1="47.726" x2="23.86" y2="42.63" width="0.254" layer="1"/>
-<wire x1="28.956" y1="73.152" x2="32.004" y2="76.2" width="0.254" layer="1"/>
-<wire x1="181.102" y1="76.2" x2="185.039" y2="72.263" width="0.254" layer="1"/>
-<wire x1="185.039" y1="72.263" x2="185.039" y2="65.532" width="0.254" layer="1"/>
-<wire x1="185.039" y1="65.532" x2="184.404" y2="64.897" width="0.254" layer="1"/>
-<wire x1="184.404" y1="64.897" x2="184.6326" y2="64.6684" width="0.254" layer="1"/>
-<wire x1="184.6326" y1="64.6684" x2="184.9374" y2="64.6684" width="0.254" layer="1"/>
-<wire x1="28.956" y1="47.726" x2="28.956" y2="73.152" width="0.254" layer="1"/>
-<wire x1="32.004" y1="76.2" x2="181.102" y2="76.2" width="0.254" layer="1"/>
+<contactref element="F12" pad="2"/>
+<wire x1="22" y1="31.905" x2="24" y2="33.905" width="0.254" layer="1"/>
+<wire x1="24" y1="33.905" x2="24" y2="43.265" width="0.254" layer="1"/>
+<wire x1="24" y1="43.265" x2="29.591" y2="48.856" width="0.254" layer="1"/>
+<wire x1="29.591" y1="48.856" x2="29.591" y2="82.169" width="0.254" layer="1"/>
+<wire x1="29.591" y1="82.169" x2="31.242" y2="83.82" width="0.254" layer="1"/>
+<wire x1="31.242" y1="83.82" x2="60.833" y2="83.82" width="0.254" layer="1"/>
+<wire x1="60.833" y1="83.82" x2="68.834" y2="75.819" width="0.254" layer="1"/>
+<wire x1="188.341" y1="75.819" x2="192.024" y2="72.136" width="0.254" layer="1"/>
+<wire x1="192.024" y1="72.136" x2="192.024" y2="49.5566" width="0.254" layer="1"/>
+<wire x1="192.024" y1="49.5566" x2="190.0924" y2="47.625" width="0.254" layer="1"/>
+<wire x1="190.0924" y1="47.625" x2="188.1874" y2="47.625" width="0.254" layer="1"/>
+<wire x1="68.834" y1="75.819" x2="188.341" y2="75.819" width="0.254" layer="1"/>
 </signal>
 <signal name="11-">
 <contactref element="J11" pad="2"/>
-<contactref element="J32" pad="1"/>
 <contactref element="J10" pad="1"/>
-<wire x1="21.86" y1="42.63" x2="17.399" y2="38.169" width="0.254" layer="1"/>
-<wire x1="202.565" y1="13.208" x2="205.613" y2="16.256" width="0.254" layer="1"/>
-<wire x1="205.613" y1="16.256" x2="205.613" y2="24.1808" width="0.254" layer="1"/>
-<wire x1="205.613" y1="24.1808" x2="205.5114" y2="24.2824" width="0.254" layer="1"/>
-<wire x1="17.399" y1="38.169" x2="17.399" y2="13.208" width="0.254" layer="1"/>
-<wire x1="17.399" y1="13.208" x2="202.565" y2="13.208" width="0.254" layer="1"/>
-<wire x1="21.86" y1="42.63" x2="23.807" y2="44.577" width="0.254" layer="1"/>
-<wire x1="23.807" y1="44.577" x2="23.876" y2="44.577" width="0.254" layer="1"/>
-<wire x1="23.876" y1="44.577" x2="23.876" y2="51.504" width="0.254" layer="1"/>
-<wire x1="23.876" y1="51.504" x2="23.86" y2="51.52" width="0.254" layer="1"/>
+<contactref element="F11" pad="2"/>
+<wire x1="22" y1="43.265" x2="24" y2="45.265" width="0.254" layer="1"/>
+<wire x1="24" y1="45.265" x2="24" y2="54.625" width="0.254" layer="1"/>
+<wire x1="22" y1="43.265" x2="16.383" y2="37.648" width="0.254" layer="1"/>
+<wire x1="18.4404" y1="5.0546" x2="51.0286" y2="5.0546" width="0.254" layer="1"/>
+<wire x1="208.8642" y1="13.0302" x2="212.598" y2="16.764" width="0.254" layer="1"/>
+<wire x1="212.598" y1="16.764" x2="212.598" y2="39.3942" width="0.254" layer="1"/>
+<wire x1="212.598" y1="39.3942" x2="210.6664" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="210.6664" y1="41.3258" x2="208.7614" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="16.383" y1="37.648" x2="16.383" y2="7.112" width="0.254" layer="1"/>
+<wire x1="16.383" y1="7.112" x2="18.4404" y2="5.0546" width="0.254" layer="1"/>
+<wire x1="51.0286" y1="5.0546" x2="59.0042" y2="13.0302" width="0.254" layer="1"/>
+<wire x1="59.0042" y1="13.0302" x2="208.8642" y2="13.0302" width="0.254" layer="1"/>
 </signal>
 <signal name="10-">
 <contactref element="J10" pad="2"/>
-<contactref element="J31" pad="1"/>
 <contactref element="J9" pad="1"/>
-<wire x1="21.86" y1="51.52" x2="23.876" y2="53.536" width="0.254" layer="1"/>
-<wire x1="23.876" y1="60.394" x2="23.86" y2="60.41" width="0.254" layer="1"/>
-<wire x1="23.876" y1="53.536" x2="23.876" y2="60.394" width="0.254" layer="1"/>
-<wire x1="23.86" y1="60.41" x2="28.321" y2="64.871" width="0.254" layer="1"/>
-<wire x1="28.321" y1="73.406" x2="31.75" y2="76.835" width="0.254" layer="1"/>
-<wire x1="209.5754" y1="72.2376" x2="209.5754" y2="64.6684" width="0.254" layer="1"/>
-<wire x1="28.321" y1="64.871" x2="28.321" y2="73.406" width="0.254" layer="1"/>
-<wire x1="31.75" y1="76.835" x2="204.978" y2="76.835" width="0.254" layer="1"/>
-<wire x1="204.978" y1="76.835" x2="209.5754" y2="72.2376" width="0.254" layer="1"/>
+<contactref element="F10" pad="2"/>
+<wire x1="22" y1="54.625" x2="24" y2="56.625" width="0.254" layer="1"/>
+<wire x1="24" y1="56.625" x2="24" y2="65.985" width="0.254" layer="1"/>
+<wire x1="24" y1="65.985" x2="28.702" y2="70.687" width="0.254" layer="1"/>
+<wire x1="212.344" y1="76.454" x2="216.662" y2="72.136" width="0.254" layer="1"/>
+<wire x1="216.662" y1="72.136" x2="216.662" y2="49.5566" width="0.254" layer="1"/>
+<wire x1="216.662" y1="49.5566" x2="214.7304" y2="47.625" width="0.254" layer="1"/>
+<wire x1="214.7304" y1="47.625" x2="212.8254" y2="47.625" width="0.254" layer="1"/>
+<wire x1="28.702" y1="70.687" x2="28.702" y2="82.677" width="0.254" layer="1"/>
+<wire x1="28.702" y1="82.677" x2="30.353" y2="84.328" width="0.254" layer="1"/>
+<wire x1="30.353" y1="84.328" x2="62.357" y2="84.328" width="0.254" layer="1"/>
+<wire x1="62.357" y1="84.328" x2="70.231" y2="76.454" width="0.254" layer="1"/>
+<wire x1="70.231" y1="76.454" x2="212.344" y2="76.454" width="0.254" layer="1"/>
 </signal>
 <signal name="9-">
 <contactref element="J9" pad="2"/>
-<contactref element="J30" pad="1"/>
 <contactref element="J8" pad="1"/>
-<wire x1="21.86" y1="60.41" x2="23.876" y2="62.426" width="0.254" layer="1"/>
-<wire x1="23.876" y1="69.284" x2="23.86" y2="69.3" width="0.254" layer="1"/>
-<wire x1="23.876" y1="62.426" x2="23.876" y2="69.284" width="0.254" layer="1"/>
-<wire x1="226.06" y1="12.446" x2="230.124" y2="16.51" width="0.254" layer="1"/>
-<wire x1="230.124" y1="16.51" x2="230.124" y2="19.431" width="0.254" layer="1"/>
-<wire x1="230.124" y1="19.431" x2="229.997" y2="19.558" width="0.254" layer="1"/>
-<wire x1="229.997" y1="19.558" x2="229.997" y2="24.13" width="0.254" layer="1"/>
-<wire x1="229.997" y1="24.13" x2="230.1494" y2="24.2824" width="0.254" layer="1"/>
-<wire x1="16.51" y1="54.806" x2="16.51" y2="12.446" width="0.254" layer="1"/>
-<wire x1="16.51" y1="12.446" x2="226.06" y2="12.446" width="0.254" layer="1"/>
-<wire x1="21.86" y1="60.41" x2="21.86" y2="60.156" width="0.254" layer="1"/>
-<wire x1="21.86" y1="60.156" x2="16.51" y2="54.806" width="0.254" layer="1"/>
+<contactref element="F9" pad="2"/>
+<wire x1="22" y1="65.985" x2="24" y2="67.985" width="0.254" layer="1"/>
+<wire x1="24" y1="67.985" x2="24" y2="77.345" width="0.254" layer="1"/>
+<wire x1="15.3416" y1="6.5626625" x2="17.3830625" y2="4.5212" width="0.254" layer="1"/>
+<wire x1="232.791" y1="12.319" x2="237.236" y2="16.764" width="0.254" layer="1"/>
+<wire x1="237.236" y1="16.764" x2="237.236" y2="39.3942" width="0.254" layer="1"/>
+<wire x1="237.236" y1="39.3942" x2="235.3044" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="235.3044" y1="41.3258" x2="233.3994" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="22" y1="65.985" x2="15.3416" y2="59.3266" width="0.254" layer="1"/>
+<wire x1="15.3416" y1="59.3266" x2="15.3416" y2="6.5626625" width="0.254" layer="1"/>
+<wire x1="17.3830625" y1="4.5212" x2="55.5752" y2="4.5212" width="0.254" layer="1"/>
+<wire x1="55.5752" y1="4.5212" x2="63.373" y2="12.319" width="0.254" layer="1"/>
+<wire x1="63.373" y1="12.319" x2="232.791" y2="12.319" width="0.254" layer="1"/>
 </signal>
 <signal name="8-">
 <contactref element="J8" pad="2"/>
 <contactref element="J7" pad="1"/>
-<contactref element="J29" pad="1"/>
-<wire x1="9.89" y1="69.3" x2="21.86" y2="69.3" width="0.254" layer="1"/>
-<wire x1="21.86" y1="69.3" x2="22.53996875" y2="69.3" width="0.254" layer="1"/>
-<wire x1="24.2594" y1="70.2334" x2="31.496" y2="77.47" width="0.254" layer="1"/>
-<wire x1="22.53996875" y1="69.3" x2="23.47336875" y2="70.2334" width="0.254" layer="1"/>
-<wire x1="23.47336875" y1="70.2334" x2="24.2594" y2="70.2334" width="0.254" layer="1"/>
-<wire x1="228.981" y1="77.47" x2="234.315" y2="72.136" width="0.254" layer="1"/>
-<wire x1="234.315" y1="72.136" x2="234.315" y2="64.77" width="0.254" layer="1"/>
-<wire x1="234.315" y1="64.77" x2="234.2134" y2="64.6684" width="0.254" layer="1"/>
-<wire x1="31.496" y1="77.47" x2="228.981" y2="77.47" width="0.254" layer="1"/>
+<contactref element="F8" pad="2"/>
+<wire x1="7.9" y1="77.345" x2="22" y2="77.345" width="0.254" layer="1"/>
+<wire x1="236.347" y1="77.089" x2="241.3" y2="72.136" width="0.254" layer="1"/>
+<wire x1="241.3" y1="72.136" x2="241.3" y2="49.5566" width="0.254" layer="1"/>
+<wire x1="241.3" y1="49.5566" x2="239.3684" y2="47.625" width="0.254" layer="1"/>
+<wire x1="239.3684" y1="47.625" x2="237.4634" y2="47.625" width="0.254" layer="1"/>
+<wire x1="22" y1="77.345" x2="29.491" y2="84.836" width="0.254" layer="1"/>
+<wire x1="29.491" y1="84.836" x2="63.627" y2="84.836" width="0.254" layer="1"/>
+<wire x1="63.627" y1="84.836" x2="71.374" y2="77.089" width="0.254" layer="1"/>
+<wire x1="71.374" y1="77.089" x2="236.347" y2="77.089" width="0.254" layer="1"/>
 </signal>
 <signal name="7-">
 <contactref element="J7" pad="2"/>
 <contactref element="J6" pad="1"/>
-<contactref element="J28" pad="1"/>
-<wire x1="9.89" y1="60.41" x2="9.89" y2="67.3" width="0.254" layer="1"/>
-<wire x1="9.89" y1="67.3" x2="7.89" y2="69.3" width="0.254" layer="1"/>
-<wire x1="254.762" y1="24.257" x2="254.7874" y2="24.2824" width="0" layer="19" extent="1-1"/>
-<wire x1="15.621" y1="54.806" x2="10.017" y2="60.41" width="0.254" layer="1"/>
-<wire x1="9.89" y1="60.41" x2="10.017" y2="60.41" width="0.254" layer="1"/>
-<wire x1="15.621" y1="54.806" x2="15.621" y2="12.192" width="0.254" layer="1"/>
-<wire x1="15.621" y1="12.192" x2="16.129" y2="11.684" width="0.254" layer="1"/>
-<wire x1="16.129" y1="11.684" x2="249.809" y2="11.684" width="0.254" layer="1"/>
-<wire x1="249.809" y1="11.684" x2="254.762" y2="16.637" width="0.254" layer="1"/>
-<wire x1="254.762" y1="16.637" x2="254.762" y2="24.257" width="0.254" layer="1"/>
+<contactref element="F7" pad="2"/>
+<wire x1="5.9" y1="77.345" x2="7.9" y2="75.345" width="0.254" layer="1"/>
+<wire x1="7.9" y1="75.345" x2="7.9" y2="65.985" width="0.254" layer="1"/>
+<wire x1="14.351" y1="59.28" x2="7.9" y2="65.731" width="0.254" layer="1"/>
+<wire x1="7.9" y1="65.731" x2="7.9" y2="65.985" width="0.254" layer="1"/>
+<wire x1="14.351" y1="59.28" x2="14.351" y2="5.969" width="0.254" layer="1"/>
+<wire x1="14.351" y1="5.969" x2="16.383" y2="3.937" width="0.254" layer="1"/>
+<wire x1="16.383" y1="3.937" x2="59.182" y2="3.937" width="0.254" layer="1"/>
+<wire x1="256.7686" y1="11.6586" x2="261.874" y2="16.764" width="0.254" layer="1"/>
+<wire x1="261.874" y1="16.764" x2="261.874" y2="39.2672" width="0.254" layer="1"/>
+<wire x1="261.874" y1="39.2672" x2="259.8154" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="259.8154" y1="41.3258" x2="258.0374" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="59.182" y1="3.937" x2="66.9036" y2="11.6586" width="0.254" layer="1"/>
+<wire x1="66.9036" y1="11.6586" x2="256.7686" y2="11.6586" width="0.254" layer="1"/>
 </signal>
 <signal name="6-">
 <contactref element="J6" pad="2"/>
 <contactref element="J5" pad="1"/>
-<contactref element="J27" pad="1"/>
-<wire x1="9.89" y1="58.505" x2="7.985" y2="60.41" width="0.254" layer="1"/>
-<wire x1="7.89" y1="60.41" x2="7.985" y2="60.41" width="0.254" layer="1"/>
-<wire x1="9.89" y1="58.505" x2="9.89" y2="51.52" width="0.254" layer="1"/>
-<wire x1="9.89" y1="51.52" x2="3.81" y2="57.6" width="0.254" layer="1"/>
-<wire x1="258.8514" y1="72.3646" x2="258.8514" y2="64.6684" width="0.254" layer="1"/>
-<wire x1="3.81" y1="57.6" x2="3.81" y2="72.39" width="0.254" layer="1"/>
-<wire x1="31.242" y1="78.105" x2="253.111" y2="78.105" width="0.254" layer="1"/>
-<wire x1="253.111" y1="78.105" x2="258.8514" y2="72.3646" width="0.254" layer="1"/>
-<wire x1="3.81" y1="72.39" x2="5.588" y2="74.168" width="0.254" layer="1"/>
-<wire x1="27.305" y1="74.168" x2="31.242" y2="78.105" width="0.254" layer="1"/>
-<wire x1="5.588" y1="74.168" x2="27.305" y2="74.168" width="0.254" layer="1"/>
+<contactref element="F6" pad="2"/>
+<wire x1="5.9" y1="65.985" x2="2.794" y2="69.091" width="0.254" layer="1"/>
+<wire x1="260.3246" y1="77.7494" x2="265.938" y2="72.136" width="0.254" layer="1"/>
+<wire x1="265.938" y1="72.136" x2="265.938" y2="49.5566" width="0.254" layer="1"/>
+<wire x1="265.938" y1="49.5566" x2="264.0064" y2="47.625" width="0.254" layer="1"/>
+<wire x1="264.0064" y1="47.625" x2="262.1014" y2="47.625" width="0.254" layer="1"/>
+<wire x1="2.794" y1="69.091" x2="2.794" y2="80.772" width="0.254" layer="1"/>
+<wire x1="2.794" y1="80.772" x2="3.556" y2="81.534" width="0.254" layer="1"/>
+<wire x1="3.556" y1="81.534" x2="19.939" y2="81.534" width="0.254" layer="1"/>
+<wire x1="19.939" y1="81.534" x2="23.749" y2="85.344" width="0.254" layer="1"/>
+<wire x1="23.749" y1="85.344" x2="64.389" y2="85.344" width="0.254" layer="1"/>
+<wire x1="64.389" y1="85.344" x2="71.9836" y2="77.7494" width="0.254" layer="1"/>
+<wire x1="71.9836" y1="77.7494" x2="260.3246" y2="77.7494" width="0.254" layer="1"/>
+<wire x1="7.9" y1="54.625" x2="7.9" y2="63.985" width="0.254" layer="1"/>
+<wire x1="7.9" y1="63.985" x2="5.9" y2="65.985" width="0.254" layer="1"/>
 </signal>
 <signal name="5-">
 <contactref element="J5" pad="2"/>
-<contactref element="J26" pad="1"/>
 <contactref element="J4" pad="1"/>
-<wire x1="9.89" y1="49.615" x2="7.985" y2="51.52" width="0.254" layer="1"/>
-<wire x1="7.89" y1="51.52" x2="7.985" y2="51.52" width="0.254" layer="1"/>
-<wire x1="9.89" y1="49.615" x2="9.89" y2="42.63" width="0.254" layer="1"/>
-<wire x1="9.89" y1="42.63" x2="14.732" y2="37.788" width="0.254" layer="1"/>
-<wire x1="14.732" y1="37.788" x2="14.732" y2="11.811" width="0.254" layer="1"/>
-<wire x1="14.732" y1="11.811" x2="15.621" y2="10.922" width="0.254" layer="1"/>
-<wire x1="273.812" y1="10.922" x2="279.4" y2="16.51" width="0.254" layer="1"/>
-<wire x1="279.4254" y1="24.2824" x2="279.4" y2="24.257" width="0.254" layer="1"/>
-<wire x1="279.4" y1="24.257" x2="279.4" y2="16.51" width="0.254" layer="1"/>
-<wire x1="15.621" y1="10.922" x2="273.812" y2="10.922" width="0.254" layer="1"/>
+<contactref element="F5" pad="2"/>
+<wire x1="5.9" y1="54.625" x2="7.9" y2="52.625" width="0.254" layer="1"/>
+<wire x1="7.9" y1="52.625" x2="7.9" y2="43.265" width="0.254" layer="1"/>
+<wire x1="7.9" y1="43.265" x2="13.3096" y2="37.8554" width="0.254" layer="1"/>
+<wire x1="13.3096" y1="37.8554" x2="13.3096" y2="5.2926625" width="0.254" layer="1"/>
+<wire x1="13.3096" y1="5.2926625" x2="15.3256625" y2="3.2766" width="0.254" layer="1"/>
+<wire x1="15.3256625" y1="3.2766" x2="61.3823375" y2="3.2766" width="0.254" layer="1"/>
+<wire x1="61.3823375" y1="3.2766" x2="69.1039375" y2="10.9982" width="0.254" layer="1"/>
+<wire x1="280.7462" y1="10.9982" x2="286.512" y2="16.764" width="0.254" layer="1"/>
+<wire x1="286.512" y1="16.764" x2="286.512" y2="39.3942" width="0.254" layer="1"/>
+<wire x1="286.512" y1="39.3942" x2="284.5804" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="284.5804" y1="41.3258" x2="282.6754" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="69.1039375" y1="10.9982" x2="280.7462" y2="10.9982" width="0.254" layer="1"/>
 </signal>
 <signal name="4-">
 <contactref element="J4" pad="2"/>
-<contactref element="J25" pad="1"/>
 <contactref element="J3" pad="1"/>
-<wire x1="7.89" y1="42.63" x2="9.89" y2="40.63" width="0.254" layer="1"/>
-<wire x1="9.89" y1="40.63" x2="9.89" y2="33.74" width="0.254" layer="1"/>
-<wire x1="9.89" y1="33.74" x2="3.175" y2="40.455" width="0.254" layer="1"/>
-<wire x1="3.175" y1="72.644" x2="5.334" y2="74.803" width="0.254" layer="1"/>
-<wire x1="5.334" y1="74.803" x2="27.051" y2="74.803" width="0.254" layer="1"/>
-<wire x1="27.051" y1="74.803" x2="30.988" y2="78.74" width="0.254" layer="1"/>
-<wire x1="283.4894" y1="71.9836" x2="283.4894" y2="64.6684" width="0.254" layer="1"/>
-<wire x1="3.175" y1="40.455" x2="3.175" y2="72.644" width="0.254" layer="1"/>
-<wire x1="30.988" y1="78.74" x2="276.733" y2="78.74" width="0.254" layer="1"/>
-<wire x1="276.733" y1="78.74" x2="283.4894" y2="71.9836" width="0.254" layer="1"/>
+<contactref element="F4" pad="2"/>
+<wire x1="5.9" y1="43.265" x2="7.9" y2="41.265" width="0.254" layer="1"/>
+<wire x1="7.9" y1="41.265" x2="7.9" y2="31.905" width="0.254" layer="1"/>
+<wire x1="5.9" y1="43.265" x2="2.159" y2="47.006" width="0.254" layer="1"/>
+<wire x1="2.159" y1="81.026" x2="3.302" y2="82.169" width="0.254" layer="1"/>
+<wire x1="14.605" y1="82.169" x2="18.288" y2="85.852" width="0.254" layer="1"/>
+<wire x1="18.288" y1="85.852" x2="64.8367375" y2="85.852" width="0.254" layer="1"/>
+<wire x1="284.353" y1="78.359" x2="290.576" y2="72.136" width="0.254" layer="1"/>
+<wire x1="290.576" y1="72.136" x2="290.576" y2="49.5566" width="0.254" layer="1"/>
+<wire x1="290.576" y1="49.5566" x2="288.6444" y2="47.625" width="0.254" layer="1"/>
+<wire x1="288.6444" y1="47.625" x2="286.7394" y2="47.625" width="0.254" layer="1"/>
+<wire x1="2.159" y1="47.006" x2="2.159" y2="81.026" width="0.254" layer="1"/>
+<wire x1="3.302" y1="82.169" x2="14.605" y2="82.169" width="0.254" layer="1"/>
+<wire x1="64.8367375" y1="85.852" x2="72.3297375" y2="78.359" width="0.254" layer="1"/>
+<wire x1="72.3297375" y1="78.359" x2="284.353" y2="78.359" width="0.254" layer="1"/>
 </signal>
 <signal name="3-">
 <contactref element="J3" pad="2"/>
 <contactref element="J2" pad="1"/>
-<contactref element="J24" pad="1"/>
-<wire x1="7.89" y1="33.74" x2="9.89" y2="31.74" width="0.254" layer="1"/>
-<wire x1="9.89" y1="31.74" x2="9.89" y2="24.85" width="0.254" layer="1"/>
-<wire x1="9.89" y1="24.85" x2="13.843" y2="20.897" width="0.254" layer="1"/>
-<wire x1="296.545" y1="10.16" x2="303.149" y2="16.764" width="0.254" layer="1"/>
-<wire x1="303.149" y1="16.764" x2="303.149" y2="24.1808" width="0.254" layer="1"/>
-<wire x1="303.149" y1="24.1808" x2="303.0474" y2="24.2824" width="0.254" layer="1"/>
-<wire x1="13.843" y1="20.897" x2="13.843" y2="11.43" width="0.254" layer="1"/>
-<wire x1="13.843" y1="11.43" x2="15.113" y2="10.16" width="0.254" layer="1"/>
-<wire x1="15.113" y1="10.16" x2="296.545" y2="10.16" width="0.254" layer="1"/>
+<contactref element="F3" pad="2"/>
+<wire x1="5.9" y1="31.905" x2="7.9" y2="29.905" width="0.254" layer="1"/>
+<wire x1="7.9" y1="29.905" x2="7.9" y2="20.545" width="0.254" layer="1"/>
+<wire x1="7.9" y1="20.545" x2="12.192" y2="16.253" width="0.254" layer="1"/>
+<wire x1="12.192" y1="4.692525" x2="14.344525" y2="2.54" width="0.254" layer="1"/>
+<wire x1="303.657" y1="10.287" x2="310.134" y2="16.764" width="0.254" layer="1"/>
+<wire x1="310.134" y1="16.764" x2="310.134" y2="39.3942" width="0.254" layer="1"/>
+<wire x1="310.134" y1="39.3942" x2="308.2024" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="308.2024" y1="41.3258" x2="306.2974" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="12.192" y1="16.253" x2="12.192" y2="4.692525" width="0.254" layer="1"/>
+<wire x1="14.344525" y1="2.54" x2="63.246" y2="2.54" width="0.254" layer="1"/>
+<wire x1="63.246" y1="2.54" x2="70.993" y2="10.287" width="0.254" layer="1"/>
+<wire x1="70.993" y1="10.287" x2="303.657" y2="10.287" width="0.254" layer="1"/>
 </signal>
 <signal name="2-">
 <contactref element="J2" pad="2"/>
-<contactref element="J23" pad="1"/>
 <contactref element="J1" pad="1"/>
-<wire x1="7.89" y1="24.85" x2="9.89" y2="22.85" width="0.254" layer="1"/>
-<wire x1="9.89" y1="22.85" x2="9.89" y2="15.96" width="0.254" layer="1"/>
-<wire x1="9.89" y1="15.96" x2="2.54" y2="23.31" width="0.254" layer="1"/>
-<wire x1="26.797" y1="75.438" x2="30.734" y2="79.375" width="0.254" layer="1"/>
-<wire x1="308.1274" y1="72.2376" x2="308.1274" y2="64.6684" width="0.254" layer="1"/>
-<wire x1="2.54" y1="23.31" x2="2.54" y2="72.898" width="0.254" layer="1"/>
-<wire x1="2.54" y1="72.898" x2="5.08" y2="75.438" width="0.254" layer="1"/>
-<wire x1="5.08" y1="75.438" x2="26.797" y2="75.438" width="0.254" layer="1"/>
-<wire x1="30.734" y1="79.375" x2="300.99" y2="79.375" width="0.254" layer="1"/>
-<wire x1="300.99" y1="79.375" x2="308.1274" y2="72.2376" width="0.254" layer="1"/>
+<contactref element="F2" pad="2"/>
+<wire x1="5.9" y1="20.545" x2="7.9" y2="18.545" width="0.254" layer="1"/>
+<wire x1="7.9" y1="18.545" x2="7.9" y2="9.185" width="0.254" layer="1"/>
+<wire x1="308.356" y1="78.994" x2="315.214" y2="72.136" width="0.254" layer="1"/>
+<wire x1="315.214" y1="72.136" x2="315.214" y2="49.4296" width="0.254" layer="1"/>
+<wire x1="315.214" y1="49.4296" x2="313.4094" y2="47.625" width="0.254" layer="1"/>
+<wire x1="313.4094" y1="47.625" x2="311.3774" y2="47.625" width="0.254" layer="1"/>
+<wire x1="5.9" y1="20.545" x2="1.4986" y2="24.9464" width="0.254" layer="1"/>
+<wire x1="1.4986" y1="24.9464" x2="1.4986" y2="81.2546" width="0.254" layer="1"/>
+<wire x1="65.1651875" y1="86.3458125" x2="72.517" y2="78.994" width="0.254" layer="1"/>
+<wire x1="72.517" y1="78.994" x2="308.356" y2="78.994" width="0.254" layer="1"/>
+<wire x1="13.208" y1="86.3458125" x2="65.1651875" y2="86.3458125" width="0.254" layer="1"/>
+<wire x1="1.4986" y1="81.2546" x2="3.048" y2="82.804" width="0.254" layer="1"/>
+<wire x1="3.048" y1="82.804" x2="9.6661875" y2="82.804" width="0.254" layer="1"/>
+<wire x1="9.6661875" y1="82.804" x2="13.208" y2="86.3458125" width="0.254" layer="1"/>
 </signal>
 <signal name="1-">
 <contactref element="J1" pad="2"/>
-<contactref element="J22" pad="1"/>
-<wire x1="7.89" y1="15.96" x2="8.017" y2="15.96" width="0.254" layer="1"/>
-<wire x1="14.579" y1="9.398" x2="8.017" y2="15.96" width="0.254" layer="1"/>
-<wire x1="322.3514" y1="16.9164" x2="322.3514" y2="64.6684" width="0.254" layer="1"/>
-<wire x1="14.579" y1="9.398" x2="314.833" y2="9.398" width="0.254" layer="1"/>
-<wire x1="314.833" y1="9.398" x2="322.3514" y2="16.9164" width="0.254" layer="1"/>
+<contactref element="F1" pad="2"/>
+<wire x1="5.9" y1="9.185" x2="13.307" y2="1.778" width="0.254" layer="1"/>
+<wire x1="318.77" y1="9.525" x2="325.628" y2="16.383" width="0.254" layer="1"/>
+<wire x1="325.628" y1="16.383" x2="325.628" y2="47.5984" width="0.254" layer="1"/>
+<wire x1="325.628" y1="47.5984" x2="325.6014" y2="47.625" width="0.254" layer="1"/>
+<wire x1="13.307" y1="1.778" x2="64.389" y2="1.778" width="0.254" layer="1"/>
+<wire x1="64.389" y1="1.778" x2="72.136" y2="9.525" width="0.254" layer="1"/>
+<wire x1="72.136" y1="9.525" x2="318.77" y2="9.525" width="0.254" layer="1"/>
 </signal>
 <signal name="21+">
 <contactref element="J21" pad="1"/>
+<contactref element="F22" pad="2"/>
+<wire x1="40.1" y1="77.345" x2="38.1" y2="79.345" width="0.254" layer="1"/>
+<wire x1="38.1" y1="80.772" x2="38.608" y2="81.28" width="0.254" layer="1"/>
+<wire x1="38.608" y1="81.28" x2="44.704" y2="81.28" width="0.254" layer="1"/>
+<wire x1="66.167" y1="72.644" x2="66.802" y2="72.009" width="0.254" layer="1"/>
+<wire x1="66.802" y1="72.009" x2="66.802" y2="49.5566" width="0.254" layer="1"/>
+<wire x1="66.802" y1="49.5566" x2="64.8704" y2="47.625" width="0.254" layer="1"/>
+<wire x1="64.8704" y1="47.625" x2="62.9654" y2="47.625" width="0.254" layer="1"/>
+<wire x1="38.1" y1="79.345" x2="38.1" y2="80.772" width="0.254" layer="1"/>
+<wire x1="44.704" y1="81.28" x2="53.34" y2="72.644" width="0.254" layer="1"/>
+<wire x1="53.34" y1="72.644" x2="66.167" y2="72.644" width="0.254" layer="1"/>
+</signal>
+<signal name="N$1">
+<contactref element="J22" pad="1"/>
+<contactref element="F1" pad="1"/>
+<wire x1="319.1014" y1="47.625" x2="319.1014" y2="49.0994" width="0.254" layer="1"/>
+<wire x1="319.1014" y1="49.0994" x2="320.421" y2="50.419" width="0.254" layer="1"/>
+<wire x1="320.421" y1="50.419" x2="323.977" y2="50.419" width="0.254" layer="1"/>
+<wire x1="323.977" y1="50.419" x2="325.628" y2="52.07" width="0.254" layer="1"/>
+<wire x1="325.628" y1="52.07" x2="325.628" y2="61.722" width="0.254" layer="1"/>
+<wire x1="322.6816" y1="64.6684" x2="322.3514" y2="64.6684" width="0.254" layer="1"/>
+<wire x1="325.628" y1="61.722" x2="322.6816" y2="64.6684" width="0.254" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="J23" pad="1"/>
+<contactref element="F2" pad="1"/>
+<wire x1="304.8774" y1="47.625" x2="302.9724" y2="47.625" width="0.254" layer="1"/>
+<wire x1="302.9724" y1="47.625" x2="300.99" y2="49.6074" width="0.254" layer="1"/>
+<wire x1="300.99" y1="68.961" x2="303.149" y2="71.12" width="0.254" layer="1"/>
+<wire x1="306.07" y1="71.12" x2="308.61" y2="68.58" width="0.254" layer="1"/>
+<wire x1="308.61" y1="68.58" x2="308.61" y2="67.31" width="0.254" layer="1"/>
+<wire x1="308.61" y1="67.31" x2="307.34" y2="66.04" width="0.254" layer="1"/>
+<wire x1="307.34" y1="66.04" x2="307.34" y2="65.4558" width="0.254" layer="1"/>
+<wire x1="307.34" y1="65.4558" x2="308.1274" y2="64.6684" width="0.254" layer="1"/>
+<wire x1="300.99" y1="49.6074" x2="300.99" y2="68.961" width="0.254" layer="1"/>
+<wire x1="303.149" y1="71.12" x2="306.07" y2="71.12" width="0.254" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="J24" pad="1"/>
+<contactref element="F3" pad="1"/>
+<wire x1="299.7974" y1="41.3258" x2="298.0194" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="298.0194" y1="41.3258" x2="295.91" y2="39.2164" width="0.254" layer="1"/>
+<wire x1="295.91" y1="39.2164" x2="295.91" y2="20.32" width="0.254" layer="1"/>
+<wire x1="295.91" y1="20.32" x2="298.196" y2="18.034" width="0.254" layer="1"/>
+<wire x1="301.244" y1="18.034" x2="303.53" y2="20.32" width="0.254" layer="1"/>
+<wire x1="303.53" y1="23.7998" x2="303.0474" y2="24.2824" width="0.254" layer="1"/>
+<wire x1="298.196" y1="18.034" x2="301.244" y2="18.034" width="0.254" layer="1"/>
+<wire x1="303.53" y1="20.32" x2="303.53" y2="23.7998" width="0.254" layer="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="J25" pad="1"/>
+<contactref element="F4" pad="1"/>
+<wire x1="283.4005" y1="64.5795" x2="283.4894" y2="64.6684" width="0.254" layer="1"/>
+<wire x1="280.2394" y1="47.625" x2="278.3344" y2="47.625" width="0.254" layer="1"/>
+<wire x1="278.3344" y1="47.625" x2="276.352" y2="49.6074" width="0.254" layer="1"/>
+<wire x1="276.352" y1="68.961" x2="278.511" y2="71.12" width="0.254" layer="1"/>
+<wire x1="278.511" y1="71.12" x2="281.94" y2="71.12" width="0.254" layer="1"/>
+<wire x1="281.94" y1="71.12" x2="283.21" y2="69.85" width="0.254" layer="1"/>
+<wire x1="283.21" y1="64.77" x2="283.4005" y2="64.5795" width="0.254" layer="1"/>
+<wire x1="276.352" y1="49.6074" x2="276.352" y2="68.961" width="0.254" layer="1"/>
+<wire x1="283.21" y1="69.85" x2="283.21" y2="64.77" width="0.254" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="J26" pad="1"/>
+<contactref element="F5" pad="1"/>
+<wire x1="276.1754" y1="41.3258" x2="274.3974" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="274.3974" y1="41.3258" x2="272.288" y2="39.2164" width="0.254" layer="1"/>
+<wire x1="272.288" y1="39.2164" x2="272.288" y2="20.193" width="0.254" layer="1"/>
+<wire x1="272.288" y1="20.193" x2="274.193" y2="18.288" width="0.254" layer="1"/>
+<wire x1="277.368" y1="18.288" x2="279.4" y2="20.32" width="0.254" layer="1"/>
+<wire x1="279.4" y1="24.257" x2="279.4254" y2="24.2824" width="0.254" layer="1"/>
+<wire x1="274.193" y1="18.288" x2="277.368" y2="18.288" width="0.254" layer="1"/>
+<wire x1="279.4" y1="20.32" x2="279.4" y2="24.257" width="0.254" layer="1"/>
+</signal>
+<signal name="N$6">
+<contactref element="J27" pad="1"/>
+<contactref element="F6" pad="1"/>
+<wire x1="255.6014" y1="47.625" x2="253.6964" y2="47.625" width="0.254" layer="1"/>
+<wire x1="253.6964" y1="47.625" x2="251.714" y2="49.6074" width="0.254" layer="1"/>
+<wire x1="251.714" y1="49.6074" x2="251.714" y2="68.961" width="0.254" layer="1"/>
+<wire x1="251.714" y1="68.961" x2="253.873" y2="71.12" width="0.254" layer="1"/>
+<wire x1="256.54" y1="71.12" x2="259.08" y2="68.58" width="0.254" layer="1"/>
+<wire x1="259.08" y1="68.58" x2="259.08" y2="64.897" width="0.254" layer="1"/>
+<wire x1="259.08" y1="64.897" x2="258.8514" y2="64.6684" width="0.254" layer="1"/>
+<wire x1="253.873" y1="71.12" x2="256.54" y2="71.12" width="0.254" layer="1"/>
+</signal>
+<signal name="N$7">
+<contactref element="J28" pad="1"/>
+<contactref element="F7" pad="1"/>
+<wire x1="251.5374" y1="41.3258" x2="249.7594" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="249.7594" y1="41.3258" x2="247.65" y2="39.2164" width="0.254" layer="1"/>
+<wire x1="247.65" y1="39.2164" x2="247.65" y2="20.828" width="0.254" layer="1"/>
+<wire x1="247.65" y1="20.828" x2="250.444" y2="18.034" width="0.254" layer="1"/>
+<wire x1="250.444" y1="18.034" x2="251.714" y2="18.034" width="0.254" layer="1"/>
+<wire x1="251.714" y1="18.034" x2="255.27" y2="21.59" width="0.254" layer="1"/>
+<wire x1="255.27" y1="21.59" x2="255.27" y2="23.7998" width="0.254" layer="1"/>
+<wire x1="255.27" y1="23.7998" x2="254.7874" y2="24.2824" width="0.254" layer="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="J29" pad="1"/>
+<contactref element="F8" pad="1"/>
+<wire x1="230.9634" y1="47.625" x2="229.0584" y2="47.625" width="0.254" layer="1"/>
+<wire x1="229.0584" y1="47.625" x2="227.076" y2="49.6074" width="0.254" layer="1"/>
+<wire x1="227.076" y1="68.961" x2="229.235" y2="71.12" width="0.254" layer="1"/>
+<wire x1="229.235" y1="71.12" x2="232.41" y2="71.12" width="0.254" layer="1"/>
+<wire x1="232.41" y1="71.12" x2="233.68" y2="69.85" width="0.254" layer="1"/>
+<wire x1="233.68" y1="65.2018" x2="234.2134" y2="64.6684" width="0.254" layer="1"/>
+<wire x1="227.076" y1="49.6074" x2="227.076" y2="68.961" width="0.254" layer="1"/>
+<wire x1="233.68" y1="69.85" x2="233.68" y2="65.2018" width="0.254" layer="1"/>
+</signal>
+<signal name="N$9">
+<contactref element="J30" pad="1"/>
+<contactref element="F9" pad="1"/>
+<wire x1="226.8994" y1="41.3258" x2="224.9944" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="224.9944" y1="41.3258" x2="223.012" y2="39.3434" width="0.254" layer="1"/>
+<wire x1="223.012" y1="39.3434" x2="223.012" y2="19.939" width="0.254" layer="1"/>
+<wire x1="223.012" y1="19.939" x2="224.917" y2="18.034" width="0.254" layer="1"/>
+<wire x1="228.854" y1="18.034" x2="230.1494" y2="19.3294" width="0.254" layer="1"/>
+<wire x1="230.1494" y1="19.3294" x2="230.1494" y2="24.2824" width="0.254" layer="1"/>
+<wire x1="224.917" y1="18.034" x2="228.854" y2="18.034" width="0.254" layer="1"/>
+</signal>
+<signal name="N$10">
+<contactref element="J31" pad="1"/>
+<contactref element="F10" pad="1"/>
+<wire x1="206.3254" y1="47.625" x2="204.5474" y2="47.625" width="0.254" layer="1"/>
+<wire x1="204.5474" y1="47.625" x2="202.438" y2="49.7344" width="0.254" layer="1"/>
+<wire x1="209.5754" y1="64.6684" x2="207.01" y2="67.2338" width="0.254" layer="1"/>
+<wire x1="207.01" y1="69.85" x2="207.01" y2="67.2338" width="0.254" layer="1"/>
+<wire x1="202.438" y1="69.088" x2="204.47" y2="71.12" width="0.254" layer="1"/>
+<wire x1="204.47" y1="71.12" x2="205.74" y2="71.12" width="0.254" layer="1"/>
+<wire x1="205.74" y1="71.12" x2="207.01" y2="69.85" width="0.254" layer="1"/>
+<wire x1="202.438" y1="49.7344" x2="202.438" y2="69.088" width="0.254" layer="1"/>
+</signal>
+<signal name="N$11">
+<contactref element="J32" pad="1"/>
+<contactref element="F11" pad="1"/>
+<wire x1="202.2614" y1="41.3258" x2="200.3564" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="200.3564" y1="41.3258" x2="198.374" y2="39.3434" width="0.254" layer="1"/>
+<wire x1="198.374" y1="39.3434" x2="198.374" y2="20.066" width="0.254" layer="1"/>
+<wire x1="198.374" y1="20.066" x2="200.279" y2="18.161" width="0.254" layer="1"/>
+<wire x1="203.581" y1="18.161" x2="205.74" y2="20.32" width="0.254" layer="1"/>
+<wire x1="205.74" y1="24.0538" x2="205.5114" y2="24.2824" width="0.254" layer="1"/>
+<wire x1="200.279" y1="18.161" x2="203.581" y2="18.161" width="0.254" layer="1"/>
+<wire x1="205.74" y1="20.32" x2="205.74" y2="24.0538" width="0.254" layer="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="J33" pad="1"/>
+<contactref element="F12" pad="1"/>
+<wire x1="181.6874" y1="47.625" x2="179.7824" y2="47.625" width="0.254" layer="1"/>
+<wire x1="179.7824" y1="47.625" x2="177.8" y2="49.6074" width="0.254" layer="1"/>
+<wire x1="177.8" y1="68.961" x2="179.959" y2="71.12" width="0.254" layer="1"/>
+<wire x1="179.959" y1="71.12" x2="182.88" y2="71.12" width="0.254" layer="1"/>
+<wire x1="182.88" y1="71.12" x2="185.42" y2="68.58" width="0.254" layer="1"/>
+<wire x1="177.8" y1="49.6074" x2="177.8" y2="68.961" width="0.254" layer="1"/>
+<wire x1="185.42" y1="64.77" x2="185.42" y2="68.58" width="0.254" layer="1"/>
+<wire x1="184.9374" y1="64.6684" x2="185.039" y2="64.77" width="0.254" layer="1"/>
+<wire x1="185.039" y1="64.77" x2="185.42" y2="64.77" width="0.254" layer="1"/>
+</signal>
+<signal name="N$13">
+<contactref element="J34" pad="1"/>
+<contactref element="F13" pad="1"/>
+<wire x1="177.6234" y1="41.3258" x2="175.7184" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="175.7184" y1="41.3258" x2="173.736" y2="39.3434" width="0.254" layer="1"/>
+<wire x1="173.736" y1="19.939" x2="175.387" y2="18.288" width="0.254" layer="1"/>
+<wire x1="175.387" y1="18.288" x2="178.308" y2="18.288" width="0.254" layer="1"/>
+<wire x1="180.8734" y1="20.8534" x2="180.8734" y2="24.2824" width="0.254" layer="1"/>
+<wire x1="173.736" y1="39.3434" x2="173.736" y2="19.939" width="0.254" layer="1"/>
+<wire x1="178.308" y1="18.288" x2="180.8734" y2="20.8534" width="0.254" layer="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="J35" pad="1"/>
+<contactref element="F14" pad="1"/>
+<wire x1="160.02" y1="64.643" x2="160.0454" y2="64.6684" width="0.254" layer="1"/>
+<wire x1="156.7954" y1="47.625" x2="154.8904" y2="47.625" width="0.254" layer="1"/>
+<wire x1="154.8904" y1="47.625" x2="152.908" y2="49.6074" width="0.254" layer="1"/>
+<wire x1="152.908" y1="69.088" x2="154.94" y2="71.12" width="0.254" layer="1"/>
+<wire x1="154.94" y1="71.12" x2="157.48" y2="71.12" width="0.254" layer="1"/>
+<wire x1="157.48" y1="71.12" x2="160.02" y2="68.58" width="0.254" layer="1"/>
+<wire x1="160.02" y1="68.58" x2="160.02" y2="64.643" width="0.254" layer="1"/>
+<wire x1="152.908" y1="49.6074" x2="152.908" y2="69.088" width="0.254" layer="1"/>
+</signal>
+<signal name="N$15">
+<contactref element="J36" pad="1"/>
+<wire x1="156.464" y1="24.0538" x2="156.2354" y2="24.2824" width="0.254" layer="1"/>
+<contactref element="F15" pad="1"/>
+<wire x1="152.9854" y1="41.3258" x2="151.0804" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="151.0804" y1="41.3258" x2="149.098" y2="39.3434" width="0.254" layer="1"/>
+<wire x1="149.098" y1="39.3434" x2="149.098" y2="19.939" width="0.254" layer="1"/>
+<wire x1="149.098" y1="19.939" x2="150.749" y2="18.288" width="0.254" layer="1"/>
+<wire x1="154.178" y1="18.288" x2="156.21" y2="20.32" width="0.254" layer="1"/>
+<wire x1="156.21" y1="23.7998" x2="156.464" y2="24.0538" width="0.254" layer="1"/>
+<wire x1="150.749" y1="18.288" x2="154.178" y2="18.288" width="0.254" layer="1"/>
+<wire x1="156.21" y1="20.32" x2="156.21" y2="23.7998" width="0.254" layer="1"/>
+</signal>
+<signal name="N$17">
+<contactref element="J38" pad="1"/>
+<contactref element="F17" pad="1"/>
+<wire x1="128.3474" y1="41.3258" x2="126.5694" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="126.5694" y1="41.3258" x2="124.46" y2="39.2164" width="0.254" layer="1"/>
+<wire x1="124.46" y1="39.2164" x2="124.46" y2="19.939" width="0.254" layer="1"/>
+<wire x1="124.46" y1="19.939" x2="126.238" y2="18.161" width="0.254" layer="1"/>
+<wire x1="126.238" y1="18.161" x2="127.381" y2="18.161" width="0.254" layer="1"/>
+<wire x1="131.5974" y1="22.3774" x2="131.5974" y2="24.2824" width="0.254" layer="1"/>
+<wire x1="127.381" y1="18.161" x2="131.5974" y2="22.3774" width="0.254" layer="1"/>
+</signal>
+<signal name="N$18">
+<contactref element="J39" pad="1"/>
+<contactref element="F18" pad="1"/>
+<wire x1="107.5194" y1="47.625" x2="105.6144" y2="47.625" width="0.254" layer="1"/>
+<wire x1="105.6144" y1="47.625" x2="103.632" y2="49.6074" width="0.254" layer="1"/>
+<wire x1="103.632" y1="49.6074" x2="103.632" y2="68.961" width="0.254" layer="1"/>
+<wire x1="105.791" y1="71.12" x2="107.95" y2="71.12" width="0.254" layer="1"/>
+<wire x1="107.95" y1="71.12" x2="110.49" y2="68.58" width="0.254" layer="1"/>
+<wire x1="110.6805" y1="64.5795" x2="110.49" y2="64.77" width="0.254" layer="1"/>
+<wire x1="103.632" y1="68.961" x2="105.791" y2="71.12" width="0.254" layer="1"/>
+<wire x1="110.49" y1="68.58" x2="110.49" y2="64.77" width="0.254" layer="1"/>
+<wire x1="110.7694" y1="64.6684" x2="110.6805" y2="64.5795" width="0.254" layer="1"/>
+</signal>
+<signal name="N$19">
+<contactref element="J40" pad="1"/>
+<wire x1="106.8324" y1="24.2824" x2="106.9594" y2="24.2824" width="0.254" layer="1"/>
+<contactref element="F19" pad="1"/>
+<wire x1="103.7094" y1="41.3258" x2="101.9314" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="101.9314" y1="41.3258" x2="99.822" y2="39.2164" width="0.254" layer="1"/>
+<wire x1="99.822" y1="39.2164" x2="99.822" y2="20.066" width="0.254" layer="1"/>
+<wire x1="99.822" y1="20.066" x2="101.6" y2="18.288" width="0.254" layer="1"/>
+<wire x1="106.8324" y1="20.4724" x2="106.8324" y2="24.2824" width="0.254" layer="1"/>
+<wire x1="101.6" y1="18.288" x2="104.648" y2="18.288" width="0.254" layer="1"/>
+<wire x1="104.648" y1="18.288" x2="106.8324" y2="20.4724" width="0.254" layer="1"/>
+</signal>
+<signal name="N$20">
+<contactref element="J41" pad="1"/>
+<contactref element="F20" pad="1"/>
+<wire x1="82.8814" y1="47.625" x2="80.9764" y2="47.625" width="0.254" layer="1"/>
+<wire x1="80.9764" y1="47.625" x2="78.994" y2="49.6074" width="0.254" layer="1"/>
+<wire x1="78.994" y1="49.6074" x2="78.994" y2="69.088" width="0.254" layer="1"/>
+<wire x1="78.994" y1="69.088" x2="81.026" y2="71.12" width="0.254" layer="1"/>
+<wire x1="81.026" y1="71.12" x2="83.82" y2="71.12" width="0.254" layer="1"/>
+<wire x1="83.82" y1="71.12" x2="85.09" y2="69.85" width="0.254" layer="1"/>
+<wire x1="85.09" y1="69.85" x2="85.09" y2="66.04" width="0.254" layer="1"/>
+<wire x1="86.1314" y1="64.6684" x2="86.36" y2="64.4398" width="0.254" layer="1"/>
+<wire x1="86.36" y1="64.4398" x2="86.36" y2="63.5" width="0.254" layer="1"/>
+<wire x1="86.36" y1="63.5" x2="86.1314" y2="63.7286" width="0.254" layer="1"/>
+<wire x1="86.1314" y1="63.7286" x2="86.1314" y2="64.6684" width="0.254" layer="1"/>
+<wire x1="86.1314" y1="64.6684" x2="85.09" y2="65.7098" width="0.254" layer="1"/>
+<wire x1="85.09" y1="65.7098" x2="85.09" y2="66.04" width="0.254" layer="1"/>
+</signal>
+<signal name="N$21">
+<contactref element="J42" pad="1"/>
+<contactref element="F21" pad="1"/>
+<wire x1="79.0714" y1="41.3258" x2="77.1664" y2="41.3258" width="0.254" layer="1"/>
+<wire x1="77.1664" y1="41.3258" x2="75.184" y2="39.3434" width="0.254" layer="1"/>
+<wire x1="75.184" y1="39.3434" x2="75.184" y2="20.193" width="0.254" layer="1"/>
+<wire x1="75.184" y1="20.193" x2="77.216" y2="18.161" width="0.254" layer="1"/>
+<wire x1="77.216" y1="18.161" x2="80.391" y2="18.161" width="0.254" layer="1"/>
+<wire x1="80.391" y1="18.161" x2="82.55" y2="20.32" width="0.254" layer="1"/>
+<wire x1="82.55" y1="24.0538" x2="82.3214" y2="24.2824" width="0.254" layer="1"/>
+<wire x1="82.55" y1="20.32" x2="82.55" y2="24.0538" width="0.254" layer="1"/>
+</signal>
+<signal name="N$22">
 <contactref element="J43" pad="1"/>
 <wire x1="59.69" y1="64.6938" x2="59.7154" y2="64.6684" width="0.1524" layer="1"/>
-<wire x1="59.69" y1="72.263" x2="59.69" y2="64.6938" width="0.254" layer="1"/>
-<wire x1="58.928" y1="73.025" x2="59.69" y2="72.263" width="0.254" layer="1"/>
-<wire x1="37.83" y1="69.3" x2="35.687" y2="71.443" width="0.254" layer="1"/>
-<wire x1="35.687" y1="71.443" x2="35.687" y2="72.39" width="0.254" layer="1"/>
-<wire x1="35.687" y1="72.39" x2="36.322" y2="73.025" width="0.254" layer="1"/>
-<wire x1="36.322" y1="73.025" x2="58.928" y2="73.025" width="0.254" layer="1"/>
+<contactref element="F22" pad="1"/>
+<wire x1="56.4654" y1="47.625" x2="54.61" y2="47.625" width="0.254" layer="1"/>
+<wire x1="54.61" y1="47.625" x2="52.578" y2="49.657" width="0.254" layer="1"/>
+<wire x1="52.578" y1="69.088" x2="54.61" y2="71.12" width="0.254" layer="1"/>
+<wire x1="54.61" y1="71.12" x2="57.15" y2="71.12" width="0.254" layer="1"/>
+<wire x1="57.15" y1="71.12" x2="59.69" y2="68.58" width="0.254" layer="1"/>
+<wire x1="59.69" y1="68.58" x2="59.69" y2="64.6938" width="0.254" layer="1"/>
+<wire x1="52.578" y1="49.657" x2="52.578" y2="69.088" width="0.254" layer="1"/>
+</signal>
+<signal name="N$16">
+<contactref element="J37" pad="1"/>
+<contactref element="F16" pad="1"/>
+<wire x1="132.1574" y1="47.625" x2="130.2524" y2="47.625" width="0.254" layer="1"/>
+<wire x1="130.2524" y1="47.625" x2="128.27" y2="49.6074" width="0.254" layer="1"/>
+<wire x1="128.27" y1="68.961" x2="130.429" y2="71.12" width="0.254" layer="1"/>
+<wire x1="133.35" y1="71.12" x2="135.89" y2="68.58" width="0.254" layer="1"/>
+<wire x1="135.89" y1="68.58" x2="135.89" y2="65.151" width="0.254" layer="1"/>
+<wire x1="135.89" y1="65.151" x2="135.4074" y2="64.6684" width="0.254" layer="1"/>
+<wire x1="128.27" y1="49.6074" x2="128.27" y2="68.961" width="0.254" layer="1"/>
+<wire x1="130.429" y1="71.12" x2="133.35" y2="71.12" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

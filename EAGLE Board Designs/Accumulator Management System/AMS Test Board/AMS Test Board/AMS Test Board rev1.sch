@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -2975,6 +2989,72 @@ Dashed line is edge of mated connector.</description>
 <rectangle x1="-6.35" y1="-7.366" x2="6.35" y2="7.366" layer="39"/>
 <text x="0" y="7.62" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="885">
+<description>885 Fuse
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
+<smd name="1" x="-5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
+<smd name="2" x="5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
+<wire x1="-5.43" y1="2.39" x2="-5.43" y2="-2.39" width="0.127" layer="21"/>
+<wire x1="-5.43" y1="-2.39" x2="5.43" y2="-2.39" width="0.127" layer="21"/>
+<wire x1="5.43" y1="-2.39" x2="5.43" y2="2.39" width="0.127" layer="21"/>
+<wire x1="5.43" y1="2.39" x2="-5.43" y2="2.39" width="0.127" layer="21"/>
+<text x="0" y="3.65" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-8.85" y1="-4.415" x2="8.85" y2="4.415" layer="39"/>
+<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="43"/>
+<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="41"/>
+</package>
+<package name="MST_250">
+<description>Footprint for Schurter MST 250 Series fuse.&lt;br&gt;
+&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_MST_250-1772502.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pad name="1" x="-2.54" y="0" drill="1"/>
+<pad name="2" x="2.54" y="0" drill="1"/>
+<text x="0" y="4.445" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="4.2418" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.2418" width="0" layer="39"/>
+<circle x="0" y="0" radius="4.2418" width="0" layer="40"/>
+</package>
+<package name="OMF_125">
+<description>Footprint for Schurter OMF 125 Series Fuse.&lt;br&gt;
+&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_OMF_125-1275954.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-3.25" y="0" dx="3" dy="2.8" layer="1"/>
+<smd name="2" x="3.25" y="0" dx="3" dy="2.8" layer="1"/>
+<wire x1="-3.7" y1="1.6" x2="-3.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-1.6" x2="3.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-1.6" x2="3.7" y2="1.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="1.6" x2="-3.7" y2="1.6" width="0.127" layer="21"/>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-5.08" y1="-1.905" x2="5.08" y2="1.905" layer="39"/>
+<rectangle x1="-1.75" y1="-1.905" x2="1.75" y2="1.905" layer="43"/>
+<rectangle x1="-1.75" y1="-1.905" x2="1.75" y2="1.905" layer="41"/>
+</package>
+<package name="0603-FUSE">
+<description>&lt;ul&gt;&lt;li&gt;&lt;a href = "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"&gt;C2F 0603 Fuse Footprint Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+<smd name="1" x="-0.8382" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="0.8382" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90" thermals="no"/>
+<rectangle x1="-1.524" y1="-1.016" x2="1.524" y2="1.016" layer="39"/>
+<wire x1="-0.8128" y1="0.4064" x2="0.8128" y2="0.4064" width="0.127" layer="21"/>
+<wire x1="0.8128" y1="0.4064" x2="0.8128" y2="-0.4064" width="0.127" layer="21"/>
+<wire x1="0.8128" y1="-0.4064" x2="-0.8128" y2="-0.4064" width="0.127" layer="21"/>
+<wire x1="-0.8128" y1="-0.4064" x2="-0.8128" y2="0.4064" width="0.127" layer="21"/>
+<text x="0" y="1.016" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="485">
+<description>485 Fuse
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_485_Datasheet_pdf-1372450.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
+<smd name="1" x="-6.9" y="0" dx="5.6" dy="3.5" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="6.9" y="0" dx="5.6" dy="3.5" layer="1" rot="R90" thermals="no"/>
+<wire x1="-6.05" y1="2.25" x2="6.05" y2="2.25" width="0.127" layer="21"/>
+<wire x1="6.05" y1="2.25" x2="6.05" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="6.05" y1="-2.25" x2="-6.05" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-6.05" y1="-2.25" x2="-6.05" y2="2.25" width="0.127" layer="21"/>
+<rectangle x1="-9.398" y1="-3.302" x2="9.398" y2="3.302" layer="39"/>
+<text x="0" y="3.302" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_02">
@@ -2998,6 +3078,16 @@ Dashed line is edge of mated connector.</description>
 <text x="0" y="-5.715" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 <text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
 <pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="FUSE">
+<wire x1="-1.27" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="0" x2="0.635" y2="0" width="0.1524" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;CURRENT</text>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3139,6 +3229,138 @@ Dashed line is edge of mated connector.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="FUSE_?_*" prefix="F">
+<description>Fuse
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;885 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_MST_250-1772502.pdf"&gt;MST 250 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_OMF_125-1275954.pdf"&gt;OMF 125 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/643/ds-CP-c2f-series-1291054.pdf"&gt;0686F0750-01&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="885" package="885">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="1.25A">
+<attribute name="CURRENT" value="1.25A"/>
+<attribute name="DKPN" value="F10986CT-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="1.25"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MOPN" value="576-08851.25DR"/>
+<attribute name="MPN" value="08851.25DR"/>
+<attribute name="VOLTAGE" value="500V"/>
+</technology>
+<technology name="1.6A">
+<attribute name="CURRENT" value="1.6A"/>
+<attribute name="DKPN" value="F10987CT-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="2.30"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MOPN" value="576-088501.6DR"/>
+<attribute name="MPN" value="088501.6DR"/>
+<attribute name="VOLTAGE" value="500V"/>
+</technology>
+<technology name="1A">
+<attribute name="CURRENT" value="1A"/>
+<attribute name="DKPN" value="F10985CT-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="0.80"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MOPN" value="576-0885001.DR"/>
+<attribute name="MPN" value="0885001.DR"/>
+<attribute name="VOLTAGE" value="500V"/>
+</technology>
+</technologies>
+</device>
+<device name="MST_250" package="MST_250">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=".8A">
+<attribute name="CURRENT" value="800mA"/>
+<attribute name="DKPN" value="486-1470-ND"/>
+<attribute name="FUSE_TYPE" value="THT"/>
+<attribute name="I2T" value="8"/>
+<attribute name="MANUFACTURER" value="Schurter Inc."/>
+<attribute name="MOPN" value="693-0034.6614"/>
+<attribute name="MPN" value="0034.6614"/>
+<attribute name="VOLTAGE" value="63V"/>
+</technology>
+</technologies>
+</device>
+<device name="OMF_125" package="OMF_125">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=".5A">
+<attribute name="CURRENT" value="500mA"/>
+<attribute name="DKPN" value="486-3694-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="0.01"/>
+<attribute name="MANUFACTURER" value="Schurter Inc."/>
+<attribute name="MOPN" value="693-3404.0045.11"/>
+<attribute name="MPN" value="3404.0045.11"/>
+<attribute name="VOLTAGE" value="125V"/>
+</technology>
+<technology name=".63A">
+<attribute name="CURRENT" value="630mA"/>
+<attribute name="DKPN" value="486-2997-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="0.02"/>
+<attribute name="MANUFACTURER" value="Schurter Inc."/>
+<attribute name="MOPN" value="693-3404.0008.11"/>
+<attribute name="MPN" value="3404.0008.11"/>
+<attribute name="VOLTAGE" value="125V"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="0603-FUSE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=".75A">
+<attribute name="CURRENT" value="0.75A"/>
+<attribute name="DKPN" value="507-2159-2-ND"/>
+<attribute name="I2T" value="0.0013"/>
+<attribute name="MANUFACTURER" value="Bel Fuse"/>
+<attribute name="MOPN" value="530-0686F0750-01"/>
+<attribute name="MPN" value="0686F0750-01"/>
+<attribute name="VOLTAGE" value="63V"/>
+</technology>
+</technologies>
+</device>
+<device name="485" package="485">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="1A">
+<attribute name="CURRENT" value="1A"/>
+<attribute name="DKPN" value="F5921TR-ND"/>
+<attribute name="I2T" value="0.3044"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MOPN" value="576-0485001.DR"/>
+<attribute name="MPN" value="0485001.DR"/>
+<attribute name="VOLTAGE" value="600VDC"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -3200,6 +3422,28 @@ Dashed line is edge of mated connector.</description>
 <part name="J42" library="HyTechDevices" deviceset="CONNECTOR-1_?" device="5222"/>
 <part name="J21" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="" technology="B2B-PH-K"/>
 <part name="J43" library="HyTechDevices" deviceset="CONNECTOR-1_?" device="5222"/>
+<part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F3" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F4" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F5" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F6" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F7" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F8" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F9" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F10" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F11" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F12" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F13" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F14" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F15" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F16" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F17" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F18" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F19" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F20" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F21" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
+<part name="F22" library="HyTechDevices" deviceset="FUSE_?_*" device="OMF_125" technology=".5A"/>
 </parts>
 <sheets>
 <sheet>
@@ -3300,65 +3544,65 @@ Dashed line is edge of mated connector.</description>
 <attribute name="MPN" x="73.66" y="156.845" size="1.27" layer="96" align="top-left"/>
 <attribute name="NAME" x="73.66" y="165.862" size="1.27" layer="95"/>
 </instance>
-<instance part="J22" gate="G$1" x="187.96" y="81.28" smashed="yes">
-<attribute name="MPN" x="187.96" y="75.565" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="187.96" y="82.042" size="1.27" layer="95"/>
+<instance part="J22" gate="G$1" x="208.28" y="81.28" smashed="yes">
+<attribute name="MPN" x="208.28" y="75.565" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="208.28" y="82.042" size="1.27" layer="95"/>
 </instance>
-<instance part="J23" gate="G$1" x="187.96" y="96.52" smashed="yes">
-<attribute name="MPN" x="187.96" y="90.805" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="187.96" y="97.282" size="1.27" layer="95"/>
+<instance part="J23" gate="G$1" x="208.28" y="96.52" smashed="yes">
+<attribute name="MPN" x="208.28" y="90.805" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="208.28" y="97.282" size="1.27" layer="95"/>
 </instance>
-<instance part="J24" gate="G$1" x="187.96" y="111.76" smashed="yes">
-<attribute name="MPN" x="187.96" y="106.045" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="187.96" y="112.522" size="1.27" layer="95"/>
+<instance part="J24" gate="G$1" x="208.28" y="111.76" smashed="yes">
+<attribute name="MPN" x="208.28" y="106.045" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="208.28" y="112.522" size="1.27" layer="95"/>
 </instance>
-<instance part="J25" gate="G$1" x="187.96" y="127" smashed="yes">
-<attribute name="MPN" x="187.96" y="121.285" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="187.96" y="127.762" size="1.27" layer="95"/>
+<instance part="J25" gate="G$1" x="208.28" y="127" smashed="yes">
+<attribute name="MPN" x="208.28" y="121.285" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="208.28" y="127.762" size="1.27" layer="95"/>
 </instance>
-<instance part="J26" gate="G$1" x="187.96" y="142.24" smashed="yes">
-<attribute name="MPN" x="187.96" y="136.525" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="187.96" y="143.002" size="1.27" layer="95"/>
+<instance part="J26" gate="G$1" x="208.28" y="142.24" smashed="yes">
+<attribute name="MPN" x="208.28" y="136.525" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="208.28" y="143.002" size="1.27" layer="95"/>
 </instance>
-<instance part="J27" gate="G$1" x="187.96" y="157.48" smashed="yes">
-<attribute name="MPN" x="187.96" y="151.765" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="187.96" y="158.242" size="1.27" layer="95"/>
+<instance part="J27" gate="G$1" x="208.28" y="157.48" smashed="yes">
+<attribute name="MPN" x="208.28" y="151.765" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="208.28" y="158.242" size="1.27" layer="95"/>
 </instance>
-<instance part="J28" gate="G$1" x="187.96" y="172.72" smashed="yes">
-<attribute name="MPN" x="187.96" y="167.005" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="187.96" y="173.482" size="1.27" layer="95"/>
+<instance part="J28" gate="G$1" x="208.28" y="172.72" smashed="yes">
+<attribute name="MPN" x="208.28" y="167.005" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="208.28" y="173.482" size="1.27" layer="95"/>
 </instance>
-<instance part="J29" gate="G$1" x="187.96" y="187.96" smashed="yes">
-<attribute name="MPN" x="187.96" y="182.245" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="187.96" y="188.722" size="1.27" layer="95"/>
+<instance part="J29" gate="G$1" x="208.28" y="187.96" smashed="yes">
+<attribute name="MPN" x="208.28" y="182.245" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="208.28" y="188.722" size="1.27" layer="95"/>
 </instance>
-<instance part="J30" gate="G$1" x="165.1" y="96.52" smashed="yes">
-<attribute name="MPN" x="165.1" y="90.805" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="165.1" y="97.282" size="1.27" layer="95"/>
+<instance part="J30" gate="G$1" x="175.26" y="96.52" smashed="yes">
+<attribute name="MPN" x="175.26" y="90.805" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="175.26" y="97.282" size="1.27" layer="95"/>
 </instance>
-<instance part="J31" gate="G$1" x="165.1" y="111.76" smashed="yes">
-<attribute name="MPN" x="165.1" y="106.045" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="165.1" y="112.522" size="1.27" layer="95"/>
+<instance part="J31" gate="G$1" x="175.26" y="111.76" smashed="yes">
+<attribute name="MPN" x="175.26" y="106.045" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="175.26" y="112.522" size="1.27" layer="95"/>
 </instance>
-<instance part="J32" gate="G$1" x="165.1" y="127" smashed="yes">
-<attribute name="MPN" x="165.1" y="121.285" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="165.1" y="127.762" size="1.27" layer="95"/>
+<instance part="J32" gate="G$1" x="175.26" y="127" smashed="yes">
+<attribute name="MPN" x="175.26" y="121.285" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="175.26" y="127.762" size="1.27" layer="95"/>
 </instance>
-<instance part="J33" gate="G$1" x="165.1" y="142.24" smashed="yes">
-<attribute name="MPN" x="165.1" y="136.525" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="165.1" y="143.002" size="1.27" layer="95"/>
+<instance part="J33" gate="G$1" x="175.26" y="142.24" smashed="yes">
+<attribute name="MPN" x="175.26" y="136.525" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="175.26" y="143.002" size="1.27" layer="95"/>
 </instance>
-<instance part="J34" gate="G$1" x="165.1" y="157.48" smashed="yes">
-<attribute name="MPN" x="165.1" y="151.765" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="165.1" y="158.242" size="1.27" layer="95"/>
+<instance part="J34" gate="G$1" x="175.26" y="157.48" smashed="yes">
+<attribute name="MPN" x="175.26" y="151.765" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="175.26" y="158.242" size="1.27" layer="95"/>
 </instance>
-<instance part="J35" gate="G$1" x="165.1" y="172.72" smashed="yes">
-<attribute name="MPN" x="165.1" y="167.005" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="165.1" y="173.482" size="1.27" layer="95"/>
+<instance part="J35" gate="G$1" x="175.26" y="172.72" smashed="yes">
+<attribute name="MPN" x="175.26" y="167.005" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="175.26" y="173.482" size="1.27" layer="95"/>
 </instance>
-<instance part="J36" gate="G$1" x="165.1" y="187.96" smashed="yes">
-<attribute name="MPN" x="165.1" y="182.245" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="165.1" y="188.722" size="1.27" layer="95"/>
+<instance part="J36" gate="G$1" x="175.26" y="187.96" smashed="yes">
+<attribute name="MPN" x="175.26" y="182.245" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="175.26" y="188.722" size="1.27" layer="95"/>
 </instance>
 <instance part="J37" gate="G$1" x="142.24" y="96.52" smashed="yes">
 <attribute name="MPN" x="142.24" y="90.805" size="1.27" layer="96" align="top-left"/>
@@ -3392,6 +3636,94 @@ Dashed line is edge of mated connector.</description>
 <attribute name="MPN" x="142.24" y="182.245" size="1.27" layer="96" align="top-left"/>
 <attribute name="NAME" x="142.24" y="188.722" size="1.27" layer="95"/>
 </instance>
+<instance part="F1" gate="G$1" x="226.06" y="78.74" smashed="yes">
+<attribute name="NAME" x="224.79" y="80.01" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="224.79" y="77.47" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F2" gate="G$1" x="226.06" y="93.98" smashed="yes">
+<attribute name="NAME" x="224.79" y="95.25" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="224.79" y="92.71" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F3" gate="G$1" x="226.06" y="109.22" smashed="yes">
+<attribute name="NAME" x="224.79" y="110.49" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="224.79" y="107.95" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F4" gate="G$1" x="226.06" y="124.46" smashed="yes">
+<attribute name="NAME" x="224.79" y="125.73" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="224.79" y="123.19" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F5" gate="G$1" x="226.06" y="139.7" smashed="yes">
+<attribute name="NAME" x="224.79" y="140.97" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="224.79" y="138.43" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F6" gate="G$1" x="226.06" y="154.94" smashed="yes">
+<attribute name="NAME" x="224.79" y="156.21" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="224.79" y="153.67" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F7" gate="G$1" x="226.06" y="170.18" smashed="yes">
+<attribute name="NAME" x="224.79" y="171.45" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="224.79" y="168.91" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F8" gate="G$1" x="226.06" y="185.42" smashed="yes">
+<attribute name="NAME" x="224.79" y="186.69" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="224.79" y="184.15" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F9" gate="G$1" x="193.04" y="93.98" smashed="yes">
+<attribute name="NAME" x="191.77" y="95.25" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="191.77" y="92.71" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F10" gate="G$1" x="193.04" y="109.22" smashed="yes">
+<attribute name="NAME" x="191.77" y="110.49" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="191.77" y="107.95" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F11" gate="G$1" x="193.04" y="124.46" smashed="yes">
+<attribute name="NAME" x="191.77" y="125.73" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="191.77" y="123.19" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F12" gate="G$1" x="193.04" y="139.7" smashed="yes">
+<attribute name="NAME" x="191.77" y="140.97" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="191.77" y="138.43" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F13" gate="G$1" x="193.04" y="154.94" smashed="yes">
+<attribute name="NAME" x="191.77" y="156.21" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="191.77" y="153.67" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F14" gate="G$1" x="193.04" y="170.18" smashed="yes">
+<attribute name="NAME" x="191.77" y="171.45" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="191.77" y="168.91" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F15" gate="G$1" x="193.04" y="185.42" smashed="yes">
+<attribute name="NAME" x="191.77" y="186.69" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="191.77" y="184.15" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F16" gate="G$1" x="160.02" y="93.98" smashed="yes">
+<attribute name="NAME" x="158.75" y="95.25" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="158.75" y="92.71" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F17" gate="G$1" x="160.02" y="109.22" smashed="yes">
+<attribute name="NAME" x="158.75" y="110.49" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="158.75" y="107.95" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F18" gate="G$1" x="160.02" y="124.46" smashed="yes">
+<attribute name="NAME" x="158.75" y="125.73" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="158.75" y="123.19" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F19" gate="G$1" x="160.02" y="139.7" smashed="yes">
+<attribute name="NAME" x="158.75" y="140.97" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="158.75" y="138.43" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F20" gate="G$1" x="160.02" y="154.94" smashed="yes">
+<attribute name="NAME" x="158.75" y="156.21" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="158.75" y="153.67" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F21" gate="G$1" x="160.02" y="170.18" smashed="yes">
+<attribute name="NAME" x="158.75" y="171.45" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="158.75" y="168.91" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F22" gate="G$1" x="160.02" y="185.42" smashed="yes">
+<attribute name="NAME" x="158.75" y="186.69" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="CURRENT" x="158.75" y="184.15" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3403,9 +3735,9 @@ Dashed line is edge of mated connector.</description>
 <label x="86.36" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J42" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="170.18" x2="154.94" y2="170.18" width="0.1524" layer="91"/>
-<label x="154.94" y="170.18" size="1.27" layer="95" xref="yes"/>
+<label x="165.1" y="170.18" size="1.27" layer="95" xref="yes"/>
+<wire x1="162.56" y1="170.18" x2="165.1" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="F21" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J21" gate="G$1" pin="2"/>
@@ -3420,9 +3752,9 @@ Dashed line is edge of mated connector.</description>
 <label x="86.36" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J41" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
-<label x="154.94" y="154.94" size="1.27" layer="95" xref="yes"/>
+<label x="165.1" y="154.94" size="1.27" layer="95" xref="yes"/>
+<wire x1="162.56" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="F20" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J19" gate="G$1" pin="1"/>
@@ -3442,9 +3774,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J18" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="139.7" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
-<label x="154.94" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="J40" gate="G$1" pin="1"/>
+<label x="165.1" y="139.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="162.56" y1="139.7" x2="165.1" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="F19" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="18-" class="0">
@@ -3460,9 +3792,9 @@ Dashed line is edge of mated connector.</description>
 <label x="86.36" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J39" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="124.46" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
-<label x="154.94" y="124.46" size="1.27" layer="95" xref="yes"/>
+<label x="165.1" y="124.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="162.56" y1="124.46" x2="165.1" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="F18" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="17-" class="0">
@@ -3477,9 +3809,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J16" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
-<label x="154.94" y="109.22" size="1.27" layer="95" xref="yes"/>
-<pinref part="J38" gate="G$1" pin="1"/>
+<label x="165.1" y="109.22" size="1.27" layer="95" xref="yes"/>
+<wire x1="162.56" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="F17" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="16-" class="0">
@@ -3490,13 +3822,13 @@ Dashed line is edge of mated connector.</description>
 </segment>
 <segment>
 <wire x1="83.82" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
-<label x="86.36" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="J15" gate="G$1" pin="1"/>
+<label x="86.36" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
-<label x="154.94" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="J37" gate="G$1" pin="1"/>
+<pinref part="F16" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<label x="165.1" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="15-" class="0">
@@ -3511,9 +3843,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J14" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="185.42" x2="177.8" y2="185.42" width="0.1524" layer="91"/>
-<label x="177.8" y="185.42" size="1.27" layer="95" xref="yes"/>
-<pinref part="J36" gate="G$1" pin="1"/>
+<label x="198.12" y="185.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="195.58" y1="185.42" x2="198.12" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="F15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="14-" class="0">
@@ -3528,9 +3860,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J13" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="170.18" x2="177.8" y2="170.18" width="0.1524" layer="91"/>
-<label x="177.8" y="170.18" size="1.27" layer="95" xref="yes"/>
-<pinref part="J35" gate="G$1" pin="1"/>
+<label x="198.12" y="170.18" size="1.27" layer="95" xref="yes"/>
+<wire x1="195.58" y1="170.18" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="F14" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="13-" class="0">
@@ -3540,9 +3872,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J13" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
-<label x="177.8" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="J34" gate="G$1" pin="1"/>
+<label x="198.12" y="154.94" size="1.27" layer="95" xref="yes"/>
+<wire x1="195.58" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="F13" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="147.32" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
@@ -3557,9 +3889,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J12" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
-<label x="177.8" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="J33" gate="G$1" pin="1"/>
+<label x="198.12" y="139.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="195.58" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="F12" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="132.08" x2="109.22" y2="132.08" width="0.1524" layer="91"/>
@@ -3574,9 +3906,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J11" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
-<label x="177.8" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="J32" gate="G$1" pin="1"/>
+<label x="198.12" y="124.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="195.58" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="F11" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="116.84" x2="109.22" y2="116.84" width="0.1524" layer="91"/>
@@ -3591,9 +3923,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J10" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="109.22" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<label x="177.8" y="109.22" size="1.27" layer="95" xref="yes"/>
-<pinref part="J31" gate="G$1" pin="1"/>
+<label x="198.12" y="109.22" size="1.27" layer="95" xref="yes"/>
+<wire x1="195.58" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="F10" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
@@ -3608,9 +3940,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J9" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
-<label x="177.8" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="J30" gate="G$1" pin="1"/>
+<label x="198.12" y="93.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="195.58" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="F9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
@@ -3630,9 +3962,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J7" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="185.42" x2="200.66" y2="185.42" width="0.1524" layer="91"/>
-<label x="200.66" y="185.42" size="1.27" layer="95" xref="yes"/>
-<pinref part="J29" gate="G$1" pin="1"/>
+<label x="231.14" y="185.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="228.6" y1="185.42" x2="231.14" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="F8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="7-" class="0">
@@ -3647,9 +3979,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="170.18" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
-<label x="200.66" y="170.18" size="1.27" layer="95" xref="yes"/>
-<pinref part="J28" gate="G$1" pin="1"/>
+<label x="231.14" y="170.18" size="1.27" layer="95" xref="yes"/>
+<wire x1="228.6" y1="170.18" x2="231.14" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="F7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="6-" class="0">
@@ -3664,9 +3996,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="154.94" x2="200.66" y2="154.94" width="0.1524" layer="91"/>
-<label x="200.66" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="J27" gate="G$1" pin="1"/>
+<label x="231.14" y="154.94" size="1.27" layer="95" xref="yes"/>
+<wire x1="228.6" y1="154.94" x2="231.14" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="F6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="5-" class="0">
@@ -3676,9 +4008,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="139.7" x2="200.66" y2="139.7" width="0.1524" layer="91"/>
-<label x="200.66" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="J26" gate="G$1" pin="1"/>
+<label x="231.14" y="139.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="228.6" y1="139.7" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="F5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="132.08" x2="132.08" y2="132.08" width="0.1524" layer="91"/>
@@ -3693,9 +4025,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="124.46" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
-<label x="200.66" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="J25" gate="G$1" pin="1"/>
+<label x="231.14" y="124.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="228.6" y1="124.46" x2="231.14" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="F4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="116.84" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
@@ -3715,9 +4047,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
-<label x="200.66" y="109.22" size="1.27" layer="95" xref="yes"/>
-<pinref part="J24" gate="G$1" pin="1"/>
+<label x="231.14" y="109.22" size="1.27" layer="95" xref="yes"/>
+<wire x1="228.6" y1="109.22" x2="231.14" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="F3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="2-" class="0">
@@ -3727,9 +4059,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
-<label x="200.66" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="J23" gate="G$1" pin="1"/>
+<label x="231.14" y="93.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="228.6" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="F2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
@@ -3744,9 +4076,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
-<label x="200.66" y="78.74" size="1.27" layer="95" xref="yes"/>
-<pinref part="J22" gate="G$1" pin="1"/>
+<wire x1="228.6" y1="78.74" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
+<label x="231.14" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="F1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="21+" class="0">
@@ -3756,9 +4088,163 @@ Dashed line is edge of mated connector.</description>
 <label x="86.36" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
+<label x="165.1" y="185.42" size="1.27" layer="95" xref="yes"/>
+<wire x1="162.56" y1="185.42" x2="165.1" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="F22" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J22" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="78.74" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J23" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="F2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J24" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="F3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="J25" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="124.46" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="F4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="J26" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="139.7" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="F5" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="J27" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="154.94" x2="220.98" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="F6" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="J28" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="170.18" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="F7" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="J29" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="185.42" x2="220.98" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="F8" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="J30" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="F9" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="J31" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="109.22" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="F10" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="J32" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="F11" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="J33" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="139.7" x2="187.96" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="F12" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="J34" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="F13" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="J35" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="170.18" x2="187.96" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="F14" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="J36" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="185.42" x2="187.96" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="F15" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="J38" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="F17" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="J39" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="124.46" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="F18" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="J40" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="139.7" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="F19" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="J41" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="F20" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="J42" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="170.18" x2="154.94" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="F21" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
 <pinref part="J43" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="185.42" x2="154.94" y2="185.42" width="0.1524" layer="91"/>
-<label x="154.94" y="185.42" size="1.27" layer="95" xref="yes"/>
+<pinref part="F22" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="J37" gate="G$1" pin="1"/>
+<pinref part="F16" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
