@@ -923,6 +923,21 @@ Dashed line is edge of mated connector.</description>
 <wire x1="-5" y1="-9" x2="-10.3" y2="0" width="0.127" layer="21"/>
 <wire x1="-10.3" y1="0" x2="-5" y2="9" width="0.127" layer="21"/>
 </package>
+<package name="B2B-PH-K">
+<description>B2B-PH-K
+&lt;br&gt;
+&lt;a href="https://www.farnell.com/datasheets/2057211.pdf" &gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-2.95" y1="2.25" x2="-2.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="-2.25" x2="2.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="2.95" y1="-2.25" x2="2.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.95" y1="2.25" x2="-2.95" y2="2.25" width="0.127" layer="21"/>
+<pad name="1" x="-1" y="0.55" drill="0.8" first="yes"/>
+<pad name="2" x="1" y="0.55" drill="0.8"/>
+<rectangle x1="-4.064" y1="-3.048" x2="4.064" y2="3.048" layer="39"/>
+<text x="0" y="2.54" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-3" y1="-1" x2="3" y2="2" layer="40"/>
+<circle x="-3.546" y="0.519" radius="0.127" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_04">
@@ -1192,6 +1207,21 @@ Dashed line is edge of mated connector.</description>
 <attribute name="MANUFACTURER" value="Molex"/>
 <attribute name="MOPN" value="538-43650-0217"/>
 <attribute name="MPN" value="436500217"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="B2B-PH-K">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="B2B-PH-K">
+<attribute name="DKPN" value="455-1704-ND"/>
+<attribute name="MANUFACTURER" value="JST Sales America Inc."/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="B2B-PH-K-S(LF)(SN)"/>
+<attribute name="NWRKPN" value="37K9940"/>
 </technology>
 </technologies>
 </device>
@@ -5941,12 +5971,12 @@ Layer: 94 Symbol</description>
 </class>
 </classes>
 <parts>
-<part name="J2" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="MOLEX_NANOFIT_PTH_VERTICAL_02" technology="BLACK"/>
+<part name="J2" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="MICROFIT_SMD_RIGHTANGLE_02_SINGLE" technology="BLACK" value="CONNECTOR-2_MICROFIT_SMD_RIGHTANGLE_02_SINGLE_BLACK"/>
 <part name="P1" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$1" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="J4" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK"/>
-<part name="J5" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK"/>
+<part name="J4" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_S_RA" value="CONNECTOR-4_μF_S_RA_"/>
+<part name="J5" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_S_RA" value="CONNECTOR-4_μF_S_RA_"/>
 <part name="P3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P4" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device=""/>
