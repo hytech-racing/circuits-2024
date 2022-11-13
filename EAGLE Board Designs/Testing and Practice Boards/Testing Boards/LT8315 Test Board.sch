@@ -3086,21 +3086,6 @@ Layer: 94 Symbol</description>
 <text x="-2.54" y="2.032" size="0.8128" layer="21" font="vector">&gt;NAME</text>
 <rectangle x1="-3.556" y1="-2.286" x2="3.556" y2="2.286" layer="39"/>
 </package>
-<package name="SOD-323">
-<description>SOD-323 Diode Package
-&lt;br&gt;
-&lt;a href="https://www.diodes.com/assets/Package-Files/SOD323.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="A" x="-1.15" y="0" dx="0.8" dy="0.9" layer="1"/>
-<smd name="C" x="1.15" y="0" dx="0.8" dy="0.9" layer="1"/>
-<text x="0" y="1" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-0.85" y1="0.625" x2="-0.85" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="0.85" y1="-0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
-<wire x1="0.85" y1="0.625" x2="-0.85" y2="0.625" width="0.127" layer="21"/>
-<rectangle x1="-1.778" y1="-0.762" x2="1.778" y2="0.762" layer="39"/>
-<rectangle x1="1.261" y1="0.5" x2="1.661" y2="0.75" layer="21"/>
-<rectangle x1="1.261" y1="-0.75" x2="1.661" y2="-0.5" layer="21"/>
-</package>
 <package name="MOLEX_NANOFIT_SMD_VERTICAL_02">
 <description>2 Pin Nano-Fit Vertical Header, SMD Mount, Single Row
 &lt;br&gt;
@@ -3421,23 +3406,6 @@ Dashed line is edge of mated connector.</description>
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <text x="-1.27" y="-4.318" size="1.27" layer="96" align="top-center">&gt;CAPACITANCE</text>
-</symbol>
-<symbol name="DIODE_SCHOTTKY">
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94"/>
-<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-1.27" y="1.905" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-1.27" y="-1.905" size="1.27" layer="96" align="top-center">&gt;MPN</text>
-<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.508" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="1.27" x2="-0.508" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0.508" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-1.27" x2="0.508" y2="-1.016" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="CONNECTOR_02">
 <wire x1="7.62" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
@@ -5430,40 +5398,6 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 </device>
 </devices>
 </deviceset>
-<deviceset name="SCHOTTKY_?_*" prefix="D">
-<description>CUS08F30 Shottky Diode
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/408/CUS08F30_datasheet_en_20140414-1916097.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="DIODE_SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOD323" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="30V">
-<attribute name="CURRENT" value="0.8A"/>
-<attribute name="DKPN" value="CUS08F30H3FTR-ND"/>
-<attribute name="MANUFACTURER" value="Toshiba Semiconductor and Storage"/>
-<attribute name="MOPN" value="757-CUS08F30H3F"/>
-<attribute name="MPN" value="CUS08F30"/>
-<attribute name="VOLTAGE" value="30V"/>
-</technology>
-<technology name="60V">
-<attribute name="CURRENT" value="1A"/>
-<attribute name="DKPN" value="3757-MBR1060HEWS_R1_00001TR-ND"/>
-<attribute name="MANUFACTURER" value="Panjit International Inc."/>
-<attribute name="MOPN" value="241-MBR1060HEWSR1000"/>
-<attribute name="MPN" value="MBR1060HEWS_R1_00001"/>
-<attribute name="VOLTAGE" value="60V" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CONNECTOR-2_?_*" prefix="J">
 <description>2 Pin Connector</description>
 <gates>
@@ -5820,7 +5754,7 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="C4" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_470PF"/>
 <part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="0.5"/>
-<part name="D4" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="60V"/>
+<part name="D4" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD123" technology="400V"/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="50V_10UF"/>
 <part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="100V_0.1UF"/>
 <part name="C8" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="" technology="0.1UF"/>

@@ -271,21 +271,6 @@ Designed by Cody Kaminsky</text>
 <rectangle x1="-2.286" y1="-1.27" x2="2.286" y2="1.27" layer="39"/>
 <text x="-2.921" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
-<package name="SOD-323">
-<description>SOD-323 Diode Package
-&lt;br&gt;
-&lt;a href="https://www.diodes.com/assets/Package-Files/SOD323.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="A" x="-1.15" y="0" dx="0.8" dy="0.9" layer="1"/>
-<smd name="C" x="1.15" y="0" dx="0.8" dy="0.9" layer="1"/>
-<text x="0" y="1" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-0.85" y1="0.625" x2="-0.85" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="0.85" y1="-0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
-<wire x1="0.85" y1="0.625" x2="-0.85" y2="0.625" width="0.127" layer="21"/>
-<rectangle x1="-1.778" y1="-0.762" x2="1.778" y2="0.762" layer="39"/>
-<rectangle x1="1.261" y1="0.5" x2="1.661" y2="0.75" layer="21"/>
-<rectangle x1="1.261" y1="-0.75" x2="1.661" y2="-0.5" layer="21"/>
-</package>
 <package name="0603-RES">
 <description>0603 Resistor Footprint
 &lt;br&gt;
@@ -711,14 +696,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="NAME" x="3.048" y="49.784" size="0.8128" layer="25" font="vector"/>
 <attribute name="VOLTAGE" value="400V" x="43.053" y="14.097" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D4" library="HyTechDevices" package="SOD-323" value="SCHOTTKY_SOD323_60V" x="12.954" y="12.827" smashed="yes">
-<attribute name="CURRENT" value="1A" x="61.214" y="-21.463" size="1.778" layer="27" display="off"/>
-<attribute name="DKPN" value="3757-MBR1060HEWS_R1_00001TR-ND" x="61.214" y="-21.463" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Panjit International Inc." x="61.214" y="-21.463" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="241-MBR1060HEWSR1000" x="61.214" y="-21.463" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MBR1060HEWS_R1_00001" x="61.214" y="-21.463" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.954" y="11.16" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-<attribute name="VOLTAGE" value="60V" x="61.214" y="-21.463" size="1.778" layer="27" display="off"/>
+<element name="D4" library="HyTechDevices" package="SOD123F" value="RECTIFIER_400V_SOD123" x="12.192" y="12.319" smashed="yes">
+<attribute name="CURRENT" value="1A" x="60.452" y="-21.971" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="US1GWF-7DITR-ND" x="60.452" y="-21.971" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="60.452" y="-21.971" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="621-US1GWF-7" x="60.452" y="-21.971" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="US1GWF-7" x="60.452" y="-21.971" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="12.192" y="10.652" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="400V" x="60.452" y="-21.971" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="36.703" y="52.578" smashed="yes" rot="R90">
 <attribute name="DKPN" value="311-10.0KHRCT-ND" x="78.613" y="94.488" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1122,8 +1107,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="T1" pad="9"/>
 <contactref element="D4" pad="A"/>
 <wire x1="8.89" y1="17.78" x2="12.7" y2="17.78" width="0.508" layer="1"/>
-<wire x1="11.804" y1="12.827" x2="11.804" y2="16.884" width="0.508" layer="1"/>
-<wire x1="11.804" y1="16.884" x2="12.7" y2="17.78" width="0.508" layer="1"/>
+<wire x1="10.742" y1="15.822" x2="10.742" y2="12.319" width="0.508" layer="1"/>
+<wire x1="12.7" y1="17.78" x2="10.742" y2="15.822" width="0.508" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C6" pad="2"/>
@@ -1175,19 +1160,19 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="19.074" y1="12.446" x2="19.074" y2="9.779" width="0.508" layer="1"/>
 <wire x1="17.387" y1="10.668" x2="18.185" y2="10.668" width="0.508" layer="1"/>
 <wire x1="18.185" y1="10.668" x2="19.074" y2="9.779" width="0.508" layer="1"/>
-<wire x1="14.104" y1="12.827" x2="14.104" y2="13.469" width="0.508" layer="1"/>
-<wire x1="14.104" y1="13.469" x2="14.732" y2="14.097" width="0.508" layer="1"/>
 <wire x1="14.732" y1="14.097" x2="17.145" y2="14.097" width="0.508" layer="1"/>
 <wire x1="17.435" y1="13.807" x2="17.435" y2="12.573" width="0.508" layer="1"/>
 <wire x1="17.145" y1="14.097" x2="17.435" y2="13.807" width="0.508" layer="1"/>
-<wire x1="10.6172" y1="6.35" x2="14.104" y2="9.8368" width="0.508" layer="1"/>
-<wire x1="14.104" y1="9.8368" x2="14.104" y2="12.827" width="0.508" layer="1"/>
 <wire x1="10.6172" y1="6.35" x2="11.8872" y2="5.08" width="0.254" layer="16"/>
 <wire x1="11.8872" y1="5.08" x2="24.13" y2="5.08" width="0.254" layer="16"/>
 <via x="24.13" y="5.08" extent="1-16" drill="0.35"/>
 <wire x1="24.13" y1="5.08" x2="24.13" y2="2.54" width="0.254" layer="1"/>
 <wire x1="8.47" y1="11.43" x2="10.6172" y2="9.2828" width="0.254" layer="1"/>
 <wire x1="10.6172" y1="9.2828" x2="10.6172" y2="6.35" width="0.254" layer="1"/>
+<wire x1="14.732" y1="14.097" x2="13.642" y2="13.007" width="0.508" layer="1"/>
+<wire x1="13.642" y1="13.007" x2="13.642" y2="12.319" width="0.508" layer="1"/>
+<wire x1="10.6172" y1="6.35" x2="13.642" y2="9.3748" width="0.508" layer="1"/>
+<wire x1="13.642" y1="9.3748" x2="13.642" y2="12.319" width="0.508" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="D1" pad="C"/>
