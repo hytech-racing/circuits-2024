@@ -6355,9 +6355,9 @@ Layer: 94 Symbol</description>
 <segment>
 <pinref part="P12" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="U4" gate="P" pin="GND"/>
 <wire x1="17.78" y1="-66.04" x2="22.86" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="22.86" y="-66.04"/>
-<pinref part="U4" gate="P" pin="GND"/>
 </segment>
 </net>
 <net name="SIGNAL+" class="0">
@@ -6448,9 +6448,9 @@ Layer: 94 Symbol</description>
 <segment>
 <pinref part="U$11" gate="G$1" pin="+24V"/>
 <pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="U4" gate="P" pin="VDD"/>
 <wire x1="17.78" y1="-58.42" x2="22.86" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="22.86" y="-58.42"/>
-<pinref part="U4" gate="P" pin="VDD"/>
 </segment>
 </net>
 <net name="LOAD_CELL_AMPLIFIED" class="0">
