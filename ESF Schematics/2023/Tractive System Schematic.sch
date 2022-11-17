@@ -192,20 +192,6 @@
 <packages>
 </packages>
 <symbols>
-<symbol name="CASCADIA_CM200DZ-SIMPLE">
-<description>Block representation of the CM200DZ motor controller used on HT06.</description>
-<wire x1="48.26" y1="-20.32" x2="0" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="48.26" y2="0" width="0.254" layer="94"/>
-<wire x1="48.26" y1="-20.32" x2="48.26" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="-20.32" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="A" x="50.8" y="-5.08" length="short" direction="out" rot="R180"/>
-<pin name="B" x="50.8" y="-10.16" length="short" direction="out" rot="R180"/>
-<pin name="C" x="50.8" y="-15.24" length="short" direction="out" rot="R180"/>
-<pin name="DC+" x="-2.54" y="-12.7" length="short" direction="in"/>
-<pin name="DC-" x="-2.54" y="-5.08" length="short" direction="in"/>
-<text x="40.64" y="-3.81" size="5.08" layer="95" rot="R180">Cascadia
-CM200DZ</text>
-</symbol>
 <symbol name="CONNECTOR_02">
 <description>Two pin connector.</description>
 <wire x1="7.62" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
@@ -232,25 +218,6 @@ CM200DZ</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CASCADIA_CM200DZ_SIMPLE" prefix="A">
-<description>Cascaida Motion CM200DZ Motor Inverter
-&lt;br&gt;
-&lt;a href="https://www.cascadiamotion.com/productlist/8-inverters/pm-inverters/49-cm200"&gt;Product Page&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.cascadiamotion.com/images/catalog/DataSheets/CM200.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CASCADIA_CM200DZ-SIMPLE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CONNECTOR-2_*" prefix="J">
 <description>Two pin connector
 &lt;ul&gt;
@@ -2916,11 +2883,24 @@ Layer: 94 Symbol</description>
 <text x="-12.7" y="-25.4" size="1.778" layer="94">A</text>
 <text x="-2.54" y="-25.4" size="1.778" layer="94">B</text>
 <text x="7.62" y="-25.4" size="1.778" layer="94" align="bottom-right">C</text>
-<pin name="RESOLVER" x="-17.78" y="-12.7" length="point"/>
+<pin name="DATA" x="-17.78" y="-12.7" length="point"/>
 <wire x1="-17.78" y1="-12.7" x2="-15.875" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-22.86" x2="-5.08" y2="-19.812" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-22.86" x2="5.08" y2="-19.812" width="0.1524" layer="94"/>
 <text x="0" y="7.62" size="1.778" layer="95" align="bottom-center">&gt;MPN</text>
+</symbol>
+<symbol name="CONNECTOR_02">
+<description>Two pin connector.</description>
+<wire x1="7.62" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-8.255" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
+<pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2946,6 +2926,38 @@ Layer: 94 Symbol</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CONNECTOR-2_*" prefix="J">
+<description>Two pin connector
+&lt;ul&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/1gQfuywpa-Tm7bohh-tcSjjxbyqcnD_h9/view"&gt;EVH2-N2TK-TDA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/1jTQMZ26zoHotHQHZYMoMT2jUzRt664sO/view"&gt;HPK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/1j-HswfqYHj8usJ9E3bf8NWBzB-X0BKJ4/view"&gt;HVP800&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="CONNECTOR_02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="EVH2-N2TK-TDA">
+<attribute name="MANUFACTURER" value="Jonhon"/>
+<attribute name="MPN" value="EVH2-N2TK-TDA" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="HPK">
+<attribute name="MANUFACTURER" value="Rosenberger"/>
+<attribute name="MPN" value="HPK"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="HVP800">
+<attribute name="MANUFACTURER" value="TE"/>
+<attribute name="MPN" value="HVP800"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -2958,19 +2970,12 @@ Layer: 94 Symbol</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="HyTechSymbolsTemp" deviceset="CASCADIA_CM200DZ_SIMPLE" device=""/>
-<part name="U$2" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="HPK"/>
-<part name="U$3" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="HPK"/>
+<part name="U$2" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800" value="CONNECTOR-2_HVP800"/>
+<part name="U$3" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800" value="CONNECTOR-2_HVP800"/>
 <part name="U$6" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="HVP800"/>
 <part name="U$7" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="HVP800"/>
 <part name="J2" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
 <part name="J4" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
-<part name="J5" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
-<part name="J6" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
-<part name="J7" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
-<part name="J8" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
-<part name="J9" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
-<part name="J10" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
 <part name="U$4" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device="">
 <attribute name="DESCRIPTION_1" value="ESF compliant representation of the HT06 "/>
 <attribute name="DESCRIPTION_2" value="tractive system."/>
@@ -2983,6 +2988,9 @@ Layer: 94 Symbol</description>
 <part name="J1" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="CT2242-2"/>
 <part name="J3" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="CT2242-2"/>
 <part name="U$5" library="HyTechSymbols" deviceset="MOTOR_AC_*" device="" technology="EMRAX_208"/>
+<part name="U$8" library="HyTechSymbols" deviceset="MOTOR_AC_*" device="" technology="EMRAX_208"/>
+<part name="U$9" library="HyTechSymbols" deviceset="MOTOR_AC_*" device="" technology="EMRAX_208"/>
+<part name="U$10" library="HyTechSymbols" deviceset="MOTOR_AC_*" device="" technology="EMRAX_208"/>
 </parts>
 <sheets>
 <sheet>
@@ -2994,7 +3002,7 @@ Layer: 94 Symbol</description>
 <text x="205.74" y="104.14" size="5.334" layer="97" align="top-left">Accumulator</text>
 <text x="101.6" y="91.44" size="3.048" layer="97" align="top-left">Wire Gauge Key</text>
 <text x="101.6" y="83.82" size="1.778" layer="97" align="top-left">35mm^2:</text>
-<text x="58.42" y="109.22" size="1.27" layer="97">35mm^2</text>
+<text x="63.5" y="139.7" size="1.27" layer="97">35mm^2</text>
 <text x="147.32" y="106.68" size="1.27" layer="97">35mm^2</text>
 <text x="175.26" y="101.6" size="1.27" layer="97">35mm^2</text>
 <text x="182.88" y="81.28" size="1.27" layer="97">35mm^2</text>
@@ -3004,16 +3012,17 @@ Layer: 94 Symbol</description>
 <wire x1="137.16" y1="78.74" x2="137.16" y2="93.98" width="0.8128" layer="97" style="shortdash"/>
 <wire x1="137.16" y1="93.98" x2="99.06" y2="93.98" width="0.8128" layer="97" style="shortdash"/>
 <text x="144.78" y="81.28" size="1.27" layer="97">35mm^2</text>
-<text x="91.44" y="99.06" size="1.27" layer="97">35mm^2</text>
 <wire x1="142.24" y1="93.98" x2="180.34" y2="93.98" width="0.8128" layer="97"/>
 <wire x1="180.34" y1="93.98" x2="180.34" y2="73.66" width="0.8128" layer="97"/>
 <wire x1="180.34" y1="73.66" x2="142.24" y2="73.66" width="0.8128" layer="97"/>
 <wire x1="142.24" y1="73.66" x2="142.24" y2="93.98" width="0.8128" layer="97"/>
 <text x="254" y="116.84" size="1.27" layer="97">TSMP+</text>
 <text x="254" y="96.52" size="1.27" layer="97" align="top-left">TSMP-</text>
+<text x="218.44" y="185.42" size="1.27" layer="97" rot="R180">35mm^2</text>
+<text x="218.44" y="142.24" size="1.27" layer="97" rot="R180">35mm^2</text>
+<text x="63.5" y="182.88" size="1.27" layer="97">35mm^2</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="142.24" y="101.6" smashed="yes" rot="R180"/>
 <instance part="U$2" gate="G$1" x="162.56" y="114.3" smashed="yes" rot="MR0">
 <attribute name="MPN" x="162.56" y="106.045" size="1.27" layer="96" rot="MR0" align="top-left"/>
 <attribute name="MANUFACTURER" x="162.56" y="115.062" size="1.27" layer="95" rot="MR0"/>
@@ -3037,30 +3046,6 @@ Layer: 94 Symbol</description>
 <instance part="J4" gate="G$1" x="200.66" y="86.36" smashed="yes" rot="MR0">
 <attribute name="MPN" x="200.66" y="80.645" size="1.27" layer="96" rot="MR0" align="top-left"/>
 <attribute name="MANUFACTURER" x="200.66" y="87.122" size="1.27" layer="95" rot="MR0"/>
-</instance>
-<instance part="J5" gate="G$1" x="78.74" y="114.3" smashed="yes">
-<attribute name="MPN" x="78.74" y="108.585" size="1.27" layer="96" align="top-left"/>
-<attribute name="MANUFACTURER" x="78.74" y="115.062" size="1.27" layer="95"/>
-</instance>
-<instance part="J6" gate="G$1" x="76.2" y="114.3" smashed="yes" rot="MR0">
-<attribute name="MPN" x="76.2" y="108.585" size="1.27" layer="96" rot="MR0" align="top-left"/>
-<attribute name="MANUFACTURER" x="76.2" y="115.062" size="1.27" layer="95" rot="MR0"/>
-</instance>
-<instance part="J7" gate="G$1" x="78.74" y="124.46" smashed="yes">
-<attribute name="MPN" x="78.74" y="118.745" size="1.27" layer="96" align="top-left"/>
-<attribute name="MANUFACTURER" x="78.74" y="125.222" size="1.27" layer="95"/>
-</instance>
-<instance part="J8" gate="G$1" x="76.2" y="124.46" smashed="yes" rot="MR0">
-<attribute name="MPN" x="76.2" y="118.745" size="1.27" layer="96" rot="MR0" align="top-left"/>
-<attribute name="MANUFACTURER" x="76.2" y="125.222" size="1.27" layer="95" rot="MR0"/>
-</instance>
-<instance part="J9" gate="G$1" x="78.74" y="104.14" smashed="yes">
-<attribute name="MPN" x="78.74" y="98.425" size="1.27" layer="96" align="top-left"/>
-<attribute name="MANUFACTURER" x="78.74" y="104.902" size="1.27" layer="95"/>
-</instance>
-<instance part="J10" gate="G$1" x="76.2" y="104.14" smashed="yes" rot="MR0">
-<attribute name="MPN" x="76.2" y="98.425" size="1.27" layer="96" rot="MR0" align="top-left"/>
-<attribute name="MANUFACTURER" x="76.2" y="104.902" size="1.27" layer="95" rot="MR0"/>
 </instance>
 <instance part="U$4" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="186.69" y="2.54" size="2.54" layer="95"/>
@@ -3088,30 +3073,14 @@ Layer: 94 Symbol</description>
 <attribute name="MPN" x="261.62" y="98.425" size="1.27" layer="96" rot="MR0" align="top-left"/>
 <attribute name="MANUFACTURER" x="269.24" y="104.902" size="1.27" layer="96" rot="MR0"/>
 </instance>
-<instance part="U$5" gate="G$1" x="30.48" y="111.76" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER" x="17.78" y="111.76" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="MPN" x="22.86" y="111.76" size="1.778" layer="95" rot="R90" align="bottom-center"/>
-</instance>
+<instance part="U$5" gate="G$1" x="35.56" y="142.24" smashed="yes" rot="R90"/>
+<instance part="U$8" gate="G$1" x="246.38" y="182.88" smashed="yes" rot="R270"/>
+<instance part="U$9" gate="G$1" x="246.38" y="139.7" smashed="yes" rot="R270"/>
+<instance part="U$10" gate="G$1" x="35.56" y="185.42" smashed="yes" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="DC+"/>
-<wire x1="144.78" y1="114.3" x2="144.78" y2="111.76" width="0.889" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="111.76" x2="152.4" y2="111.76" width="0.889" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="109.22" x2="144.78" y2="109.22" width="0.889" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="DC-"/>
-<wire x1="144.78" y1="109.22" x2="144.78" y2="106.68" width="0.889" layer="91"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
 <wire x1="114.3" y1="83.82" x2="124.46" y2="83.82" width="0.889" layer="91"/>
@@ -3142,53 +3111,24 @@ Layer: 94 Symbol</description>
 </net>
 <net name="TO_CONTROLLER" class="0">
 <segment>
-<wire x1="43.18" y1="93.98" x2="43.18" y2="91.44" width="0.889" layer="91"/>
-<label x="43.18" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="RESOLVER"/>
+<wire x1="48.26" y1="124.46" x2="48.26" y2="121.92" width="0.889" layer="91"/>
+<label x="48.26" y="121.92" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="DATA"/>
 </segment>
-</net>
-<net name="N$9" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="A"/>
-<wire x1="91.44" y1="106.68" x2="91.44" y2="101.6" width="0.889" layer="91"/>
-<pinref part="J9" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="101.6" x2="88.9" y2="101.6" width="0.889" layer="91"/>
+<wire x1="233.68" y1="200.66" x2="233.68" y2="203.2" width="0.889" layer="91"/>
+<label x="233.68" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$8" gate="G$1" pin="DATA"/>
 </segment>
-</net>
-<net name="N$10" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="B"/>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="111.76" x2="88.9" y2="111.76" width="0.889" layer="91"/>
+<wire x1="233.68" y1="157.48" x2="233.68" y2="160.02" width="0.889" layer="91"/>
+<label x="233.68" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$9" gate="G$1" pin="DATA"/>
 </segment>
-</net>
-<net name="N$11" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="C"/>
-<wire x1="91.44" y1="116.84" x2="91.44" y2="121.92" width="0.889" layer="91"/>
-<pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="121.92" x2="88.9" y2="121.92" width="0.889" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="J10" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="101.6" x2="66.04" y2="101.6" width="0.889" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="J6" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="111.76" x2="58.42" y2="111.76" width="0.889" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="B"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="J8" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="121.92" x2="66.04" y2="121.92" width="0.889" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="C"/>
+<wire x1="48.26" y1="167.64" x2="48.26" y2="165.1" width="0.889" layer="91"/>
+<label x="48.26" y="165.1" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$10" gate="G$1" pin="DATA"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -3213,10 +3153,4 @@ Layer: 94 Symbol</description>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
