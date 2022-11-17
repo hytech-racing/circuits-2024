@@ -3432,9 +3432,9 @@ Filter</text>
 <part name="U$5" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device="">
 <attribute name="DESCRIPTION_1" value="ESF compliant representation of the BSPD"/>
 <attribute name="DESCRIPTION_2" value="circuit."/>
-<attribute name="DESIGNER_SCHEMATIC" value="Zekun Li"/>
-<attribute name="ENGINEER" value="Zekun Li"/>
-<attribute name="REVIEWER_SCHEMATIC" value="Arvind Srinivasan"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Mikhail Allen"/>
+<attribute name="ENGINEER" value="Mikhail Allen"/>
+<attribute name="REVIEWER_SCHEMATIC" value="Liwei Sun"/>
 </part>
 <part name="P13" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P15" library="HyTechSupplies" deviceset="GND" device=""/>
