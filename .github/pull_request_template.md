@@ -1,4 +1,4 @@
-# Pull Request (PR) into Circuits-2022
+# Pull Request (PR) into Circuits-2023
 
 ***Before making a pull request, you must:
 Follow HyTech's [Github Software Guidelines](https://gtvault.sharepoint.com/:w:/r/sites/HyTechRacing2/Shared%20Documents/Electrical%20-%20All/HT06/Guidelines%20Rules%20and%20Procedures/Github%20Software%20Guidelines.docx?d=w7e0d7e36afeb47b5a935bd7a4851bceb&csf=1&web=1&e=sudzjV) to understand our development flow and pull request procedure.
@@ -20,7 +20,7 @@ Follow HyTech's [Electrical Designs Rules Review Process](https://gtvault.sharep
 
 ## Checklist
 - [ ] Did you create any new parts in our library?
-- - [ ] Did you *make a PR* for them in `circuits-support-2022`
+- - [ ] Did you *make a PR* for them in `circuits-support-2023`
 - - [ ] Did that PR get *approved* yet?
 - [ ] Did you pull `main` into your branch?
 - - [ ] Did you *check for merge conflicts*?
