@@ -10320,7 +10320,7 @@ trips at 4.802kW. </text>
 <net name="CURRENT_HIGH" class="0">
 <segment>
 <pinref part="U37" gate="A" pin="VOUT"/>
-<label x="116.84" y="157.48" size="1.27" layer="95" xref="yes"/>
+<label x="116.84" y="157.48" size="1.27" layer="95"/>
 <pinref part="TP5" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="157.48" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
 </segment>
@@ -10333,7 +10333,7 @@ trips at 4.802kW. </text>
 <net name="CURRENT_MISSING" class="0">
 <segment>
 <pinref part="U39" gate="A" pin="VOUT"/>
-<label x="50.8" y="172.72" size="1.27" layer="95" xref="yes"/>
+<label x="50.8" y="172.72" size="1.27" layer="95"/>
 <pinref part="TP4" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="172.72" x2="48.26" y2="172.72" width="0.1524" layer="91"/>
 </segment>
