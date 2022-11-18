@@ -4453,10 +4453,8 @@ Layer: 94 Symbol</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="195.58" y1="132.08" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="S3" gate="SPST" pin="O"/>
 <wire x1="195.58" y1="132.08" x2="195.58" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="S4" gate="SPST" pin="P"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -4469,18 +4467,14 @@ Layer: 94 Symbol</description>
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="177.8" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="S4" gate="SPST" pin="O"/>
 <wire x1="177.8" y1="134.62" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S5" gate="SPST" pin="P"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<wire x1="152.4" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="S5" gate="SPST" pin="O"/>
 <wire x1="160.02" y1="134.62" x2="160.02" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S6" gate="SPST" pin="P"/>
 </segment>
 </net>
 <net name="GLV_SYSTEMS" class="0">
@@ -4851,10 +4845,8 @@ Layer: 94 Symbol</description>
 </net>
 <net name="N$51" class="0">
 <segment>
-<wire x1="124.46" y1="132.08" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="S7" gate="SPST" pin="S"/>
 <wire x1="124.46" y1="132.08" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="S8" gate="SPST" pin="P"/>
 </segment>
 </net>
 <net name="N$14" class="0">
