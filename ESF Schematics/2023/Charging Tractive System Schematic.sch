@@ -275,23 +275,6 @@ Controller</text>
 <text x="0" y="0.762" size="1.27" layer="95">Remote Power Control</text>
 <text x="0" y="-28.702" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
-<symbol name="BATTERY_CHARGER">
-<description>Block representation of a high voltage charger for the accumulator.</description>
-<wire x1="0" y1="0" x2="0" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="0" y1="-20.32" x2="25.4" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-20.32" x2="25.4" y2="0" width="0.254" layer="94"/>
-<wire x1="25.4" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="TS+" x="27.94" y="-12.7" length="short" direction="out" rot="R180"/>
-<pin name="TS-" x="27.94" y="-17.78" length="short" direction="out" rot="R180"/>
-<pin name="HOT" x="-2.54" y="-2.54" length="short" direction="in"/>
-<pin name="NEUTRAL" x="-2.54" y="-7.62" length="short" direction="in"/>
-<pin name="GND" x="-2.54" y="-12.7" length="short" direction="in"/>
-<text x="2.54" y="-17.78" size="2.54" layer="95">Charger</text>
-<text x="0" y="-21.082" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
-<pin name="CANH" x="27.94" y="-2.54" length="short" rot="R180"/>
-<pin name="CANL" x="27.94" y="-5.08" length="short" rot="R180"/>
-</symbol>
 <symbol name="INLINE_GFCI">
 <description>Block representation of an AC ground fault current interrupter.</description>
 <wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94"/>
@@ -497,27 +480,6 @@ Controller</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CHARGER_*" prefix="A">
-<gates>
-<gate name="G$1" symbol="BATTERY_CHARGER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-<technology name="G4-0017-01">
-<attribute name="MANUFACTURER" value="Cascadia Motion"/>
-<attribute name="MPN" value="G4-0017-01"/>
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="INLINE_GFCI_*" prefix="A">
 <description>Inline GFCI
 &lt;ul&gt;
@@ -595,6 +557,51 @@ Controller</text>
 <pin name="O" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <text x="0" y="-3.302" size="1.27" layer="96" align="top-center">&gt;MPN</text>
 </symbol>
+<symbol name="CONNECTOR_02">
+<description>Two pin connector.</description>
+<wire x1="7.62" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-8.255" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
+<pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="CONNECTOR_03">
+<description>Three pin connector.</description>
+<wire x1="7.62" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-10.795" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
+<pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="10.16" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="BATTERY_CHARGER">
+<description>Block representation of a high voltage charger for the accumulator.</description>
+<wire x1="0" y1="0" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="-20.32" x2="25.4" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-20.32" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="25.4" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="TS+" x="27.94" y="-12.7" length="short" direction="out" rot="R180"/>
+<pin name="TS-" x="27.94" y="-17.78" length="short" direction="out" rot="R180"/>
+<pin name="HOT" x="-2.54" y="-2.54" length="short" direction="in"/>
+<pin name="NEUTRAL" x="-2.54" y="-7.62" length="short" direction="in"/>
+<pin name="GND" x="-2.54" y="-12.7" length="short" direction="in"/>
+<text x="2.54" y="-17.78" size="2.54" layer="95">Charger</text>
+<text x="0" y="-21.082" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
+<pin name="CANH" x="27.94" y="-2.54" length="short" rot="R180"/>
+<pin name="CANL" x="27.94" y="-5.08" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -641,6 +648,133 @@ Controller</text>
 <technology name="40MM_STOP">
 <attribute name="MANUFACTURER" value="EAO"/>
 <attribute name="MPN" value="Series 45"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONNECTOR-2_*" prefix="J">
+<description>Two pin connector
+&lt;ul&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/1gQfuywpa-Tm7bohh-tcSjjxbyqcnD_h9/view"&gt;EVH2-N2TK-TDA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/1jTQMZ26zoHotHQHZYMoMT2jUzRt664sO/view"&gt;HPK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/1j-HswfqYHj8usJ9E3bf8NWBzB-X0BKJ4/view"&gt;HVP800&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="CONNECTOR_02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="0436500214">
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MPN" value="0436500214"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="ANDERSON">
+<attribute name="MANUFACTURER" value="Anderson Power Products"/>
+<attribute name="MPN" value="ASMFP30-1X2-RK"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="DY6-1ZP">
+<attribute name="MANUFACTURER" value="XINXI"/>
+<attribute name="MPN" value="DY6-1ZP"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="EVH2-N2TK-TDA">
+<attribute name="MANUFACTURER" value="Jonhon"/>
+<attribute name="MPN" value="EVH2-N2TK-TDA" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="HPK">
+<attribute name="MANUFACTURER" value="Rosenberger"/>
+<attribute name="MPN" value="HPK"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="HVP800">
+<attribute name="MANUFACTURER" value="TE"/>
+<attribute name="MPN" value="HVP800"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONNECTOR-3_*" prefix="J">
+<description>Three pin connector
+&lt;ul&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/1qR1Rhcju7C1tSf9gvk0xHmD0lfie2p2O/view?usp=sharing"&gt;XXC106-EV-P3Z&lt;/a&gt;&lt;li&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/14-0BdluqhzWVuxobIuHQclYd8S9S8AFy/view"&gt;HV02-M3S(40A)-M00A-1&lt;/a&gt;&lt;li&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/1QyRJhkZq4Jge6F64jD-5aG-LjfEdAoZD/view"&gt;NEMA-5-20&lt;/a&gt;&lt;li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="CONNECTOR_03" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="1-2371113-2">
+<attribute name="MANUFACTURER" value="TE"/>
+<attribute name="MPN" value="1-2371113-2"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="2371035-2">
+<attribute name="MANUFACTURER" value="TE"/>
+<attribute name="MPN" value="2371035-2"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="HV02-M3S(40A)">
+<attribute name="MANUFACTURER" value="Jonhon"/>
+<attribute name="MPN" value="HV02-M3S(40A)-M00A-1"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="NEMA-5-20">
+<attribute name="MANUFACTURER" value="NEMA"/>
+<attribute name="MPN" value="NEMA 5-20"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="XXC106-EV-P3Z">
+<attribute name="MANUFACTURER" value="Xinxi"/>
+<attribute name="MPN" value="XXC106-EV-P3Z"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CHARGER_*" prefix="A">
+<description>&lt;a href = "http://www.ovartech.com/wp-content/uploads/2017/12/Ovartech-Liquid-cooled-6.6KW-OBC1.5KW-DCDC-CAD662DF400-12152-Data-Sheet.pdf"&gt;OVARTECH Charger&lt;/a&gt;&lt;br&gt;
+&lt;a href = "https://app.box.com/s/mekevo8krrefqodui59qanzvkyfg6lnt"&gt;Cascadia Motion Charger&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BATTERY_CHARGER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="CAD662DF400-14152">
+<attribute name="MANUFACTURER" value="OVAR"/>
+<attribute name="MPN" value="CAD662DF400-14152"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="G4-0017-01">
+<attribute name="MANUFACTURER" value="Cascadia Motion"/>
+<attribute name="MPN" value="G4-0017-01"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="HK-J-H650-12">
+<attribute name="MANUFACTURER" value="Elcon"/>
+<attribute name="MPN" value="HK-J-H650-12"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -3360,7 +3494,7 @@ Layer: 94 Symbol</description>
 </classes>
 <parts>
 <part name="U$1" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="HPK"/>
-<part name="U$3" library="HyTechSymbolsTemp" deviceset="CONNECTOR-3_*" device="" technology="HV02-M3S(40A)"/>
+<part name="U$3" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="XXC106-EV-P3Z" value="CONNECTOR-3_XXC106-EV-P3Z"/>
 <part name="U$4" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="HPK"/>
 <part name="U$5" library="HyTechSymbols" deviceset="BENDER_IR155-3204" device=""/>
 <part name="F3" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="175A"/>
@@ -3379,11 +3513,10 @@ Layer: 94 Symbol</description>
 <part name="U$14" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device="">
 <attribute name="DESCRIPTION_1" value="ESF compliant representation of the charging"/>
 <attribute name="DESCRIPTION_2" value="tractive system."/>
-<attribute name="DESIGNER_SCHEMATIC" value="Zekun Li"/>
-<attribute name="ENGINEER" value="Zekun Li"/>
-<attribute name="REVIEWER_SCHEMATIC" value="Arvind Srinivasan"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
+<attribute name="ENGINEER" value="Liwei Sun"/>
 </part>
-<part name="J5" library="HyTechSymbolsTemp" deviceset="CONNECTOR-3_*" device="" technology="HV02-M3S(40A)"/>
+<part name="J5" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="XXC106-EV-P3Z" value="CONNECTOR-3_XXC106-EV-P3Z"/>
 <part name="J6" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="CT2242-2" value="CONNECTOR-1_CT2242-2"/>
 <part name="J7" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="CT2242-2" value="CONNECTOR-1_CT2242-2"/>
 <part name="J8" library="HyTechSymbolsTemp" deviceset="CONNECTOR-3_*" device="" technology="NEMA-5-20" value="CONNECTOR-3_NEMA-5-20"/>
@@ -3398,8 +3531,8 @@ Layer: 94 Symbol</description>
 <part name="J15" library="HyTechSymbolsTemp" deviceset="CONNECTOR-3_*" device="" technology="NEMA-5-20" value="CONNECTOR-3_NEMA-5-20"/>
 <part name="J16" library="HyTechSymbolsTemp" deviceset="CONNECTOR-3_*" device="" technology="NEMA-5-20" value="CONNECTOR-3_NEMA-5-20"/>
 <part name="U$15" library="HyTechSymbolsTemp" deviceset="CHARGER_CONTROLLER" device=""/>
-<part name="J17" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="EVH2-N2TK-TDA"/>
-<part name="J18" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="EVH2-N2TK-TDA"/>
+<part name="J17" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="DY6-1ZP" value="CONNECTOR-2_DY6-1ZP"/>
+<part name="J18" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="DY6-1ZP" value="CONNECTOR-2_DY6-1ZP"/>
 <part name="S1" library="HyTechSymbols" deviceset="SWITCH_SPST_*" device="">
 <attribute name="MPN" value="AIR+"/>
 </part>
@@ -3407,14 +3540,14 @@ Layer: 94 Symbol</description>
 <attribute name="MPN" value="AIR-"/>
 </part>
 <part name="A1" library="HyTechSymbolsTemp" deviceset="REMOTE_POWER_CONTROL_*" device="" technology="RPC-20-SCD"/>
-<part name="A2" library="HyTechSymbolsTemp" deviceset="CHARGER_*" device="" technology="G4-0017-01"/>
+<part name="A2" library="HyTechSymbols" deviceset="CHARGER_*" device="" technology="HK-J-H650-12" value="CHARGER_HK-J-H650-12"/>
 <part name="A3" library="HyTechSymbolsTemp" deviceset="INLINE_GFCI_*" device="" technology="GFM20-3WC"/>
-<part name="TSMP+RES" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="10k"/>
-<part name="TSMP-RES" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="10k"/>
+<part name="TSMP+RES" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
+<part name="TSMP-RES" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
 <part name="J19" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="HVP800"/>
 <part name="J20" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="HVP800"/>
-<part name="R1" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="10k"/>
-<part name="R2" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="10k"/>
+<part name="R1" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
+<part name="R2" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
 </parts>
 <sheets>
 <sheet>

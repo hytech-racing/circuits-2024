@@ -3982,7 +3982,7 @@ Layer: 94 Symbol</description>
 <wire x1="66.04" y1="127" x2="66.04" y2="72.39" width="0.8128" layer="97"/>
 <wire x1="66.04" y1="72.39" x2="6.35" y2="72.39" width="0.8128" layer="97"/>
 <wire x1="6.35" y1="72.39" x2="6.35" y2="127" width="0.8128" layer="97"/>
-<text x="10.16" y="119.38" size="3.81" layer="97">Inverter Enclosure</text>
+<text x="7.62" y="119.38" size="4.572" layer="97">Inverter Enclosure</text>
 <text x="218.44" y="104.14" size="1.27" layer="97" align="top-left">17.5mm^2</text>
 <text x="231.14" y="104.14" size="1.27" layer="97" align="top-left">17.5mm^2</text>
 <text x="236.22" y="68.58" size="1.27" layer="97" align="top-left">17.5mm^2</text>
@@ -4156,9 +4156,9 @@ Layer: 94 Symbol</description>
 <attribute name="MANUFACTURER" x="234.188" y="76.2" size="1.27" layer="96" rot="MR270"/>
 <attribute name="MPN" x="238.252" y="76.2" size="1.27" layer="95" rot="MR270" align="top-left"/>
 </instance>
-<instance part="J3" gate="G$1" x="147.32" y="50.8" smashed="yes" rot="R180">
-<attribute name="MPN" x="147.32" y="56.515" size="1.27" layer="96" rot="R180" align="top-left"/>
-<attribute name="MANUFACTURER" x="147.32" y="50.038" size="1.27" layer="96" rot="R180"/>
+<instance part="J3" gate="G$1" x="172.72" y="50.8" smashed="yes" rot="R180">
+<attribute name="MPN" x="172.72" y="56.515" size="1.27" layer="96" rot="R180" align="top-left"/>
+<attribute name="MANUFACTURER" x="172.72" y="50.038" size="1.27" layer="96" rot="R180"/>
 </instance>
 <instance part="J4" gate="G$1" x="180.34" y="55.88" smashed="yes">
 <attribute name="MPN" x="180.34" y="50.165" size="1.27" layer="96" align="top-left"/>
@@ -4723,7 +4723,7 @@ Layer: 94 Symbol</description>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="53.34" x2="137.16" y2="53.34" width="0.4445" layer="91"/>
+<wire x1="111.76" y1="53.34" x2="162.56" y2="53.34" width="0.4445" layer="91"/>
 <junction x="111.76" y="53.34"/>
 <wire x1="111.76" y1="58.42" x2="111.76" y2="53.34" width="0.4445" layer="91"/>
 <wire x1="86.36" y1="58.42" x2="111.76" y2="58.42" width="0.4445" layer="91"/>
