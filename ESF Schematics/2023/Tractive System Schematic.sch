@@ -3175,14 +3175,14 @@ KW26-S5-FSE-4Q </text>
 <text x="121.92" y="73.66" size="5.334" layer="97" align="top-left">Accumulator</text>
 <text x="12.7" y="25.4" size="3.048" layer="97" align="top-left">Wire Gauge Key</text>
 <text x="12.7" y="17.78" size="1.778" layer="97" align="top-left">35mm^2:</text>
-<text x="63.5" y="139.7" size="1.27" layer="97">35mm^2</text>
+<text x="63.5" y="139.7" size="1.27" layer="97">10mm^2</text>
 <text x="124.46" y="104.14" size="1.27" layer="97">35mm^2</text>
 <text x="142.24" y="104.14" size="1.27" layer="97">35mm^2</text>
 <text x="96.52" y="66.04" size="1.27" layer="97">35mm^2</text>
 <text x="58.42" y="60.96" size="1.778" layer="95">HVD</text>
-<wire x1="10.16" y1="27.94" x2="10.16" y2="5.08" width="0.8128" layer="97" style="shortdash"/>
-<wire x1="10.16" y1="5.08" x2="48.26" y2="5.08" width="0.8128" layer="97" style="shortdash"/>
-<wire x1="48.26" y1="5.08" x2="48.26" y2="27.94" width="0.8128" layer="97" style="shortdash"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="2.54" width="0.8128" layer="97" style="shortdash"/>
+<wire x1="10.16" y1="2.54" x2="48.26" y2="2.54" width="0.8128" layer="97" style="shortdash"/>
+<wire x1="48.26" y1="2.54" x2="48.26" y2="27.94" width="0.8128" layer="97" style="shortdash"/>
 <wire x1="48.26" y1="27.94" x2="10.16" y2="27.94" width="0.8128" layer="97" style="shortdash"/>
 <text x="58.42" y="66.04" size="1.27" layer="97">35mm^2</text>
 <wire x1="55.88" y1="78.74" x2="93.98" y2="78.74" width="0.8128" layer="97"/>
@@ -3191,9 +3191,9 @@ KW26-S5-FSE-4Q </text>
 <wire x1="55.88" y1="58.42" x2="55.88" y2="78.74" width="0.8128" layer="97"/>
 <text x="170.18" y="78.74" size="1.27" layer="97">TSMP+</text>
 <text x="170.18" y="58.42" size="1.27" layer="97" align="top-left">TSMP-</text>
-<text x="218.44" y="187.96" size="1.27" layer="97" rot="R180">35mm^2</text>
-<text x="218.44" y="144.78" size="1.27" layer="97" rot="R180">35mm^2</text>
-<text x="63.5" y="182.88" size="1.27" layer="97">35mm^2</text>
+<text x="218.44" y="187.96" size="1.27" layer="97" rot="R180">10mm^2</text>
+<text x="218.44" y="144.78" size="1.27" layer="97" rot="R180">10mm^2</text>
+<text x="63.5" y="182.88" size="1.27" layer="97">10mm^2</text>
 <wire x1="86.36" y1="200.66" x2="198.12" y2="200.66" width="0.8128" layer="97"/>
 <wire x1="198.12" y1="200.66" x2="198.12" y2="124.46" width="0.8128" layer="97"/>
 <wire x1="198.12" y1="124.46" x2="86.36" y2="124.46" width="0.8128" layer="97"/>
@@ -3207,6 +3207,12 @@ KW26-S5-FSE-4Q </text>
 Circuitry</text>
 <text x="12.7" y="12.7" size="1.778" layer="97" align="top-left">10mm^2:</text>
 <text x="114.3" y="149.86" size="1.27" layer="97">35mm^2</text>
+<text x="12.7" y="7.62" size="1.778" layer="97" align="top-left">16AWG</text>
+<text x="135.128" y="138.176" size="1.27" layer="97">16AWG</text>
+<text x="182.88" y="190.5" size="1.27" layer="97" rot="R180">10mm^2</text>
+<text x="182.88" y="170.18" size="1.27" layer="97" rot="R180">10mm^2</text>
+<text x="109.22" y="190.5" size="1.27" layer="97" rot="R180">10mm^2</text>
+<text x="111.76" y="170.18" size="1.27" layer="97" rot="R180">10mm^2</text>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="127" y="127" smashed="yes" rot="MR90">
@@ -3627,6 +3633,11 @@ Circuitry</text>
 <net name="N$35" class="0">
 <segment>
 <wire x1="25.4" y1="12.7" x2="35.56" y2="12.7" width="0.254" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<wire x1="25.4" y1="7.62" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
