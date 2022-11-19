@@ -6089,6 +6089,27 @@ Dashed line is edge of mated connector.</description>
 <rectangle x1="-4.064" y1="-5.842" x2="4.064" y2="2.286" layer="40"/>
 <text x="0" y="-6.477" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="B20-SHORTENED">
+<description>Ohmite B20 Resistor without mounting holes</description>
+<wire x1="-25.4" y1="5.555" x2="-25.4" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-5.555" x2="25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-5.555" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="25.4" y2="5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="5.555" x2="-25.4" y2="5.555" width="0.127" layer="21"/>
+<rectangle x1="-27.94" y1="-6.35" x2="27.94" y2="6.35" layer="39"/>
+<text x="0" y="6.985" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<pad name="2" x="-25.4" y="0" drill="1.35"/>
+<pad name="1" x="25.4" y="0" drill="1.35" first="yes"/>
+<wire x1="-25.4" y1="3.81" x2="-27.051" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-27.051" y1="3.81" x2="-27.051" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-27.051" y1="-3.81" x2="-25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="27.051" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="27.051" y1="3.81" x2="27.051" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="27.051" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-3.81" x2="25.4" y2="3.81" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -7876,17 +7897,6 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
 <attribute name="VOLTAGE_MAX" value="200V"/>
 </technology>
-<technology name="42.2K">
-<attribute name="DKPN" value="P20156TR-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-PB3B4222V"/>
-<attribute name="MPN" value="ERJ-PB3B4222V"/>
-<attribute name="POWER" value="0.2W"/>
-<attribute name="RESISTANCE" value="42.2k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="91.86V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
 <technology name="43K">
 <attribute name="DKPN" value="311-43.0KHRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -8052,17 +8062,6 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
-<technology name="93.1K">
-<attribute name="DKPN" value="P20197TR-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-PB3B9312V"/>
-<attribute name="MPN" value="ERJ-PB3B9312V"/>
-<attribute name="POWER" value="0.2W"/>
-<attribute name="RESISTANCE" value="93.1k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
-<attribute name="VOLTAGE_MAX" value="136.46V"/>
-</technology>
 <technology name="DNP">
 <attribute name="DKPN" value=""/>
 <attribute name="MANUFACTURER" value=""/>
@@ -8134,17 +8133,6 @@ Dashed line is edge of mated connector.</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="0.3">
-<attribute name="DKPN" value="P.3BITR-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-U6QJR30V"/>
-<attribute name="MPN" value="ERJ-U6QJR30V"/>
-<attribute name="POWER" value="0.25W"/>
-<attribute name="RESISTANCE" value="0.3"/>
-<attribute name="TOLERANCE" value="5%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="0.27V"/>
-<attribute name="VOLTAGE_MAX" value="200V"/>
-</technology>
 <technology name="0.62">
 <attribute name="DKPN" value="311-.62SCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -8490,6 +8478,36 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="122V"/>
 <attribute name="VOLTAGE_MAX" value="750V"/>
+</technology>
+</technologies>
+</device>
+<device name="B20-SHORTENED" package="B20-SHORTENED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="1.5K">
+<attribute name="DKPN" value="B20J1K5E-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J1K5E"/>
+<attribute name="MPN" value="B20J1K5E"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="1.5K"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="173V"/>
+<attribute name="VOLTAGE_MAX" value="750V"/>
+</technology>
+<technology name="15K">
+<attribute name="DKPN" value="B20J15KE-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J15KE"/>
+<attribute name="MPN" value="B20J15KE"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="15K"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="548V"/>
+<attribute name="VOLTAGE_MAX" value="750V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10038,7 +10056,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <attribute name="REVIEWER_BOARD" value="Zekun Li"/>
 <attribute name="REVIEWER_SCHEMATIC" value="Joshua Kirshenbaum"/>
 </part>
-<part name="R59" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R59" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K" value="RESISTOR_0603_100K"/>
 <part name="P39" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R57" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.74K" value="RESISTOR_0603_2.74K"/>
 <part name="R58" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K" value="RESISTOR_0603_10.5K"/>
@@ -10334,7 +10352,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="U28" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="P38" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C41" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF" value="CAPACITOR_0603_50V_0.1UF"/>
-<part name="R86" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R86" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K" value="RESISTOR_0603_100K"/>
 <part name="P70" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R87" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.74K" value="RESISTOR_0603_2.74K"/>
 <part name="R88" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K" value="RESISTOR_0603_10.5K"/>
