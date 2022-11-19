@@ -3588,15 +3588,15 @@ Filter</text>
 <attribute name="MPN" x="218.44" y="78.232" size="1.27" layer="97" align="top-center"/>
 </instance>
 <instance part="U1" gate="G$1" x="165.1" y="101.6" smashed="yes"/>
-<instance part="U2" gate="G$1" x="165.1" y="66.04" smashed="yes"/>
-<instance part="VR1" gate="G$1" x="142.24" y="66.04" smashed="yes">
-<attribute name="NAME" x="139.7" y="65.024" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<instance part="U2" gate="G$1" x="165.1" y="81.28" smashed="yes"/>
+<instance part="VR1" gate="G$1" x="144.78" y="81.28" smashed="yes">
+<attribute name="NAME" x="142.24" y="80.264" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="P5" gate="1" x="142.24" y="55.88" smashed="yes">
-<attribute name="VALUE" x="142.24" y="54.61" size="1.27" layer="96" align="top-center"/>
+<instance part="P5" gate="1" x="144.78" y="71.12" smashed="yes">
+<attribute name="VALUE" x="144.78" y="69.85" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P6" gate="1" x="142.24" y="81.28" smashed="yes">
-<attribute name="VALUE" x="142.24" y="83.82" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P6" gate="1" x="144.78" y="96.52" smashed="yes">
+<attribute name="VALUE" x="144.78" y="99.06" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U3" gate="G$1" x="48.26" y="182.88" smashed="yes"/>
 <instance part="A1" gate="G$1" x="20.32" y="109.22" smashed="yes">
@@ -3784,7 +3784,7 @@ Filter</text>
 <segment>
 <pinref part="VR1" gate="G$1" pin="1"/>
 <pinref part="P5" gate="1" pin="GND"/>
-<wire x1="142.24" y1="60.96" x2="142.24" y2="58.42" width="0.0762" layer="91"/>
+<wire x1="144.78" y1="76.2" x2="144.78" y2="73.66" width="0.0762" layer="91"/>
 </segment>
 <segment>
 <pinref part="P7" gate="1" pin="GND"/>
@@ -3878,7 +3878,7 @@ Filter</text>
 <segment>
 <pinref part="P6" gate="1" pin="+5V"/>
 <pinref part="VR1" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="78.74" x2="142.24" y2="68.58" width="0.0762" layer="91"/>
+<wire x1="144.78" y1="93.98" x2="144.78" y2="83.82" width="0.0762" layer="91"/>
 </segment>
 <segment>
 <pinref part="A1" gate="G$1" pin="VDD"/>
@@ -3926,8 +3926,8 @@ Filter</text>
 <pinref part="U1" gate="G$1" pin="VIN+"/>
 <wire x1="162.56" y1="104.14" x2="152.4" y2="104.14" width="0.0762" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VIN+"/>
-<wire x1="162.56" y1="68.58" x2="152.4" y2="68.58" width="0.0762" layer="91"/>
-<wire x1="152.4" y1="68.58" x2="152.4" y2="104.14" width="0.0762" layer="91"/>
+<wire x1="162.56" y1="83.82" x2="152.4" y2="83.82" width="0.0762" layer="91"/>
+<wire x1="152.4" y1="83.82" x2="152.4" y2="104.14" width="0.0762" layer="91"/>
 <junction x="152.4" y="104.14"/>
 <pinref part="U$6" gate="G$1" pin="OUT"/>
 <wire x1="124.46" y1="104.14" x2="152.4" y2="104.14" width="0.0762" layer="91"/>
@@ -4013,7 +4013,7 @@ Filter</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="VR1" gate="G$1" pin="P$1"/>
-<wire x1="147.32" y1="63.5" x2="162.56" y2="63.5" width="0.0762" layer="91"/>
+<wire x1="149.86" y1="78.74" x2="162.56" y2="78.74" width="0.0762" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VIN-"/>
 </segment>
 </net>
@@ -4030,10 +4030,10 @@ Filter</text>
 <net name="BRAKE_HIGH" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
-<wire x1="172.72" y1="66.04" x2="200.66" y2="66.04" width="0.0762" layer="91"/>
-<label x="172.72" y="66.04" size="1.27" layer="95"/>
+<wire x1="172.72" y1="81.28" x2="200.66" y2="81.28" width="0.0762" layer="91"/>
+<label x="172.72" y="81.28" size="1.27" layer="95"/>
 <pinref part="U9" gate="G$1" pin="IN2"/>
-<wire x1="200.66" y1="142.24" x2="200.66" y2="66.04" width="0.0762" layer="91"/>
+<wire x1="200.66" y1="142.24" x2="200.66" y2="81.28" width="0.0762" layer="91"/>
 </segment>
 </net>
 <net name="SIGNAL_CURRENT" class="0">
