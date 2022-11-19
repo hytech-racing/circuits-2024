@@ -3493,9 +3493,9 @@ Layer: 94 Symbol</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="HPK"/>
+<part name="U$1" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800" value="CONNECTOR-2_HVP800"/>
 <part name="U$3" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="XXC106-EV-P3Z" value="CONNECTOR-3_XXC106-EV-P3Z"/>
-<part name="U$4" library="HyTechSymbolsTemp" deviceset="CONNECTOR-2_*" device="" technology="HPK"/>
+<part name="U$4" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800" value="CONNECTOR-2_HVP800"/>
 <part name="U$5" library="HyTechSymbols" deviceset="BENDER_IR155-3204" device=""/>
 <part name="F3" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="175A"/>
 <part name="F4" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1.25A"/>

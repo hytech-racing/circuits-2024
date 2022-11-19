@@ -3729,8 +3729,8 @@ Layer: 94 Symbol</description>
 </part>
 <part name="P7" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P8" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="J1" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HPK" value="CONNECTOR-2_HPK"/>
-<part name="J2" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HPK" value="CONNECTOR-2_HPK"/>
+<part name="J1" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800" value="CONNECTOR-2_HVP800"/>
+<part name="J2" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800" value="CONNECTOR-2_HVP800"/>
 <part name="U$7" library="HyTechSymbolsTemp" deviceset="PRECHARGER" device=""/>
 <part name="J3" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
 <part name="J4" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
