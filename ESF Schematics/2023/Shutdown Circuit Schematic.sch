@@ -3814,9 +3814,8 @@ Layer: 94 Symbol</description>
 <part name="U$16" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device="">
 <attribute name="DESCRIPTION_1" value="ESF compliant representation of the HT06"/>
 <attribute name="DESCRIPTION_2" value="shutdown circuit."/>
-<attribute name="DESIGNER_SCHEMATIC" value="Zekun Li"/>
-<attribute name="ENGINEER" value="Zekun Li"/>
-<attribute name="REVIEWER_SCHEMATIC" value="Arvind Srinivasan"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
+<attribute name="ENGINEER" value="Liwei Sun"/>
 </part>
 <part name="U$20" library="HyTechSymbolsTemp" deviceset="MAINTENANCE_PLUG_*" device="" technology="104742-2"/>
 <part name="U$21" library="HyTechSymbolsTemp" deviceset="MAINTENANCE_PLUG_*" device="" technology="104742-2"/>
@@ -3850,7 +3849,7 @@ Layer: 94 Symbol</description>
 <part name="PACK+OPTOISOLATOR" library="HyTechSymbolsTemp" deviceset="RELAY_SOLIDSTATE_NO_*" device=""/>
 <part name="P18" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R2" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="39"/>
-<part name="R3" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="2.2k"/>
+<part name="R3" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="3.3k"/>
 <part name="S1" library="HyTechSymbols" deviceset="SWITCH_SPST_*" device="" technology="INERTIA_SWITCH"/>
 <part name="S2" library="HyTechSymbols" deviceset="SWITCH_SPST_*" device="">
 <attribute name="MPN" value="BOTS"/>

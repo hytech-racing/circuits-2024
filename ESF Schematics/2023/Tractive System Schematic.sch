@@ -3141,9 +3141,8 @@ KW26-S5-FSE-4Q </text>
 <part name="U$4" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device="">
 <attribute name="DESCRIPTION_1" value="ESF compliant representation of the HT06 "/>
 <attribute name="DESCRIPTION_2" value="tractive system."/>
-<attribute name="DESIGNER_SCHEMATIC" value="Zekun Li"/>
-<attribute name="ENGINEER" value="Zekun Li"/>
-<attribute name="REVIEWER_SCHEMATIC" value="Arvind Srinivasan"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
+<attribute name="ENGINEER" value="Liwei Sun"/>
 </part>
 <part name="J12" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
 <part name="J14" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
@@ -3174,17 +3173,17 @@ KW26-S5-FSE-4Q </text>
 <wire x1="167.64" y1="88.9" x2="167.64" y2="48.26" width="0.8128" layer="97"/>
 <wire x1="167.64" y1="48.26" x2="119.38" y2="48.26" width="0.8128" layer="97"/>
 <text x="121.92" y="73.66" size="5.334" layer="97" align="top-left">Accumulator</text>
-<text x="12.7" y="17.78" size="3.048" layer="97" align="top-left">Wire Gauge Key</text>
-<text x="12.7" y="10.16" size="1.778" layer="97" align="top-left">35mm^2:</text>
+<text x="12.7" y="25.4" size="3.048" layer="97" align="top-left">Wire Gauge Key</text>
+<text x="12.7" y="17.78" size="1.778" layer="97" align="top-left">35mm^2:</text>
 <text x="63.5" y="139.7" size="1.27" layer="97">35mm^2</text>
 <text x="124.46" y="104.14" size="1.27" layer="97">35mm^2</text>
 <text x="142.24" y="104.14" size="1.27" layer="97">35mm^2</text>
 <text x="96.52" y="66.04" size="1.27" layer="97">35mm^2</text>
 <text x="58.42" y="60.96" size="1.778" layer="95">HVD</text>
-<wire x1="10.16" y1="20.32" x2="10.16" y2="5.08" width="0.8128" layer="97" style="shortdash"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="5.08" width="0.8128" layer="97" style="shortdash"/>
 <wire x1="10.16" y1="5.08" x2="48.26" y2="5.08" width="0.8128" layer="97" style="shortdash"/>
-<wire x1="48.26" y1="5.08" x2="48.26" y2="20.32" width="0.8128" layer="97" style="shortdash"/>
-<wire x1="48.26" y1="20.32" x2="10.16" y2="20.32" width="0.8128" layer="97" style="shortdash"/>
+<wire x1="48.26" y1="5.08" x2="48.26" y2="27.94" width="0.8128" layer="97" style="shortdash"/>
+<wire x1="48.26" y1="27.94" x2="10.16" y2="27.94" width="0.8128" layer="97" style="shortdash"/>
 <text x="58.42" y="66.04" size="1.27" layer="97">35mm^2</text>
 <wire x1="55.88" y1="78.74" x2="93.98" y2="78.74" width="0.8128" layer="97"/>
 <wire x1="93.98" y1="78.74" x2="93.98" y2="58.42" width="0.8128" layer="97"/>
@@ -3206,6 +3205,8 @@ KW26-S5-FSE-4Q </text>
 <wire x1="154.94" y1="132.08" x2="154.94" y2="147.32" width="0.4064" layer="97" style="shortdash"/>
 <text x="157.48" y="139.7" size="2.54" layer="97" align="center-left">Discharge
 Circuitry</text>
+<text x="12.7" y="12.7" size="1.778" layer="97" align="top-left">10mm^2:</text>
+<text x="114.3" y="149.86" size="1.27" layer="97">35mm^2</text>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="127" y="127" smashed="yes" rot="MR90">
@@ -3325,7 +3326,7 @@ Circuitry</text>
 <nets>
 <net name="N$13" class="0">
 <segment>
-<wire x1="25.4" y1="10.16" x2="35.56" y2="10.16" width="0.889" layer="91"/>
+<wire x1="25.4" y1="17.78" x2="35.56" y2="17.78" width="0.889" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -3484,10 +3485,10 @@ Circuitry</text>
 <net name="N$19" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="137.16" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="137.16" x2="121.92" y2="144.78" width="0.889" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="DC+"/>
-<wire x1="121.92" y1="144.78" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="152.4" x2="142.24" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="144.78" x2="121.92" y2="152.4" width="0.889" layer="91"/>
+<wire x1="121.92" y1="152.4" x2="142.24" y2="152.4" width="0.889" layer="91"/>
 <pinref part="U$38" gate="G$1" pin="P$1"/>
 <wire x1="129.54" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 <junction x="121.92" y="144.78"/>
@@ -3496,10 +3497,10 @@ Circuitry</text>
 <net name="N$20" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="137.16" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="149.86" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="137.16" x2="124.46" y2="149.86" width="0.889" layer="91"/>
+<wire x1="124.46" y1="149.86" x2="144.78" y2="149.86" width="0.889" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="DC-"/>
-<wire x1="144.78" y1="149.86" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="149.86" x2="144.78" y2="152.4" width="0.889" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="P$1"/>
 <wire x1="129.54" y1="137.16" x2="124.46" y2="137.16" width="0.1524" layer="91"/>
 <junction x="124.46" y="137.16"/>
@@ -3621,6 +3622,11 @@ Circuitry</text>
 <pinref part="J15" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="137.16" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<wire x1="25.4" y1="12.7" x2="35.56" y2="12.7" width="0.254" layer="91"/>
 </segment>
 </net>
 </nets>
