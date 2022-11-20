@@ -10100,9 +10100,9 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="U5" library="HyTechDevices" deviceset="LT8315" device=""/>
 <part name="D1" library="HyTechDevices" deviceset="TVS_*" device="SOD323F"/>
 <part name="T1" library="HyTechDevices" deviceset="TRANSFORMER(3W)" device=""/>
-<part name="P1" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
-<part name="P18" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
-<part name="P20" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
+<part name="P1" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
+<part name="P18" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
+<part name="P20" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R32" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="75K"/>
 <part name="R33" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="20K"/>
@@ -10128,16 +10128,16 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <part name="D7" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SMA"/>
 <part name="U$1" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="U$2" library="HyTechSupplies" deviceset="TS+12V" device=""/>
-<part name="P21" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
-<part name="P22" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
-<part name="P23" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
+<part name="P21" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
+<part name="P22" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
+<part name="P23" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="TS+10V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U6" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-89" technology="12V"/>
 <part name="U$8" library="HyTechSupplies" deviceset="TS+12V" device=""/>
-<part name="P11" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
-<part name="P12" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
+<part name="P11" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
+<part name="P12" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="P15" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
-<part name="P2" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
+<part name="P2" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10754,7 +10754,7 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="167.64" y1="218.44" x2="172.72" y2="218.44" width="0.4064" layer="91"/>
 <wire x1="172.72" y1="218.44" x2="172.72" y2="213.36" width="0.4064" layer="91"/>
-<pinref part="P18" gate="G$1" pin="TS+UNFUSED"/>
+<pinref part="P18" gate="G$1" pin="TS+FUSED"/>
 <junction x="167.64" y="218.44"/>
 <wire x1="172.72" y1="213.36" x2="179.07" y2="213.36" width="0.4064" layer="91"/>
 <pinref part="T1" gate="G$1" pin="3"/>
@@ -10762,7 +10762,7 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <segment>
 <wire x1="50.8" y1="154.94" x2="50.8" y2="157.48" width="0.6096" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<pinref part="P12" gate="G$1" pin="TS+UNFUSED"/>
+<pinref part="P12" gate="G$1" pin="TS+FUSED"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -10805,13 +10805,13 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <pinref part="D2" gate="LED" pin="C"/>
 <wire x1="234.95" y1="180.34" x2="234.95" y2="175.26" width="0.4064" layer="91"/>
 <wire x1="234.95" y1="175.26" x2="231.14" y2="175.26" width="0.4064" layer="91"/>
-<pinref part="P21" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="P21" gate="G$1" pin="TS-FUSED"/>
 <junction x="231.14" y="175.26"/>
 <wire x1="231.14" y1="175.26" x2="224.79" y2="175.26" width="0.4064" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="GND"/>
-<pinref part="P1" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="P1" gate="G$1" pin="TS-FUSED"/>
 <wire x1="146.05" y1="172.72" x2="146.05" y2="173.99" width="0.4064" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="146.05" y1="173.99" x2="146.05" y2="193.04" width="0.4064" layer="91"/>
@@ -10845,7 +10845,7 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="P20" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="P20" gate="G$1" pin="TS-FUSED"/>
 <wire x1="154.94" y1="212.09" x2="154.94" y2="210.82" width="0.4064" layer="91"/>
 <wire x1="154.94" y1="210.82" x2="161.29" y2="210.82" width="0.4064" layer="91"/>
 <wire x1="161.29" y1="210.82" x2="161.29" y2="228.6" width="0.4064" layer="91"/>
@@ -10862,7 +10862,7 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <junction x="50.8" y="119.38"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="P11" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="P11" gate="G$1" pin="TS-FUSED"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="58.42" x2="50.8" y2="58.42" width="0.6096" layer="91"/>
@@ -10881,7 +10881,7 @@ https://www.mouser.com/datasheet/2/390/LT8316_PQ2620_Datasheet_ver_3_20190825-21
 <wire x1="175.26" y1="180.34" x2="190.5" y2="180.34" width="0.4064" layer="91"/>
 <wire x1="190.5" y1="180.34" x2="203.2" y2="180.34" width="0.4064" layer="91"/>
 <wire x1="203.2" y1="180.34" x2="203.2" y2="185.42" width="0.4064" layer="91"/>
-<pinref part="P2" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="P2" gate="G$1" pin="TS-FUSED"/>
 </segment>
 </net>
 <net name="N$12" class="0">
