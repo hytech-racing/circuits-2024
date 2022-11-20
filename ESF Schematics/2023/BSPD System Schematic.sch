@@ -4301,7 +4301,7 @@ Filter</text>
 <junction x="266.7" y="139.7"/>
 </segment>
 </net>
-<net name="4.44V" class="0">
+<net name="4.45V" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="VIN-"/>
 <wire x1="162.56" y1="177.8" x2="160.02" y2="177.8" width="0.0762" layer="91"/>
