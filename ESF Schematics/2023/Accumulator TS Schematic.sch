@@ -337,6 +337,28 @@
 <vertex x="7.112" y="-20.066"/>
 </polygon>
 </symbol>
+<symbol name="DIODE_LED">
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="1.778" x2="-0.127" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.651" x2="1.016" y2="3.048" width="0.1524" layer="94"/>
+<text x="-1.27" y="-1.778" size="1.27" layer="95" align="top-center">&gt;COLOR</text>
+<text x="-1.27" y="3.556" size="1.27" layer="96" align="bottom-center">&gt;NAME</text>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.127" y="3.175"/>
+<vertex x="-1.016" y="2.794"/>
+<vertex x="-0.508" y="2.286"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="3.048"/>
+<vertex x="0.127" y="2.667"/>
+<vertex x="0.635" y="2.159"/>
+</polygon>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -426,6 +448,21 @@
 <technology name="GX23BA">
 <attribute name="MANUFACTURER" value="Gigavac"/>
 <attribute name="MPN" value="GX23BA"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE_LED" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE_LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="COLOR" value="" constant="no"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -580,28 +617,6 @@ LOGIC</text>
 <wire x1="-2.8575" y1="1.016" x2="-3.175" y2="0" width="0.1524" layer="94"/>
 <wire x1="0.635" y1="0" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="DIODE_LED">
-<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="1.778" x2="-0.127" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.651" x2="1.016" y2="3.048" width="0.1524" layer="94"/>
-<text x="-1.27" y="-1.778" size="1.27" layer="95" align="top-center">&gt;COLOR</text>
-<text x="-1.27" y="3.556" size="1.27" layer="96" align="bottom-center">&gt;NAME</text>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-0.127" y="3.175"/>
-<vertex x="-1.016" y="2.794"/>
-<vertex x="-0.508" y="2.286"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="1.016" y="3.048"/>
-<vertex x="0.127" y="2.667"/>
-<vertex x="0.635" y="2.159"/>
-</polygon>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -798,21 +813,6 @@ LOGIC</text>
 <device name="">
 <technologies>
 <technology name="">
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DIODE_LED" prefix="D">
-<gates>
-<gate name="G$1" symbol="DIODE_LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="COLOR" value="" constant="no"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -3654,8 +3654,6 @@ Layer: 94 Symbol</description>
 <attribute name="REVIEWER_SCHEMATIC" value="Arvind Srinivasan"/>
 </part>
 <part name="P12" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P13" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
-<part name="P14" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="P15" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="J3" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
 <part name="J4" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
@@ -3678,8 +3676,6 @@ Layer: 94 Symbol</description>
 <part name="J8" library="HyTechSymbolsTemp" deviceset="CONNECTOR-5_*" device="" technology="MICROFIT"/>
 <part name="P19" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="U$40" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
-<part name="J5" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="CT2242-2" value="CONNECTOR-1_CT2242-2"/>
-<part name="J7" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="CT2242-2" value="CONNECTOR-1_CT2242-2"/>
 <part name="U1" library="HyTechSymbolsTemp" deviceset="ISO_224*" device="" technology="BDWVR"/>
 <part name="U2" library="HyTechSymbolsTemp" deviceset="ISO_224*" device="" technology="BDWVR"/>
 <part name="R12" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="75k"/>
@@ -3688,12 +3684,10 @@ Layer: 94 Symbol</description>
 <part name="R19" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="365k"/>
 <part name="R23" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="180"/>
 <part name="PRECHARGE_RES" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="1.5k"/>
-<part name="TSMP+RES" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
-<part name="TSMP-RES" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
 <part name="R24" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="39"/>
 <part name="R25" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="3.3k"/>
-<part name="ACCUMULATOR_INDICATOR" library="HyTechSymbolsTemp" deviceset="DIODE_LED" device="">
-<attribute name="COLOR" value="Green"/>
+<part name="ACCUMULATOR_INDICATOR" library="HyTechSymbols" deviceset="DIODE_LED" device="">
+<attribute name="COLOR" value="RED"/>
 </part>
 <part name="PACK+OPTOISOLATOR" library="HyTechSymbols" deviceset="RELAY_SOLIDSTATE_NO_*" device="" value="RELAY_SOLIDSTATE_NO_">
 <attribute name="MPN" value="AB38S-Q"/>
@@ -3770,8 +3764,6 @@ Layer: 94 Symbol</description>
 <wire x1="78.74" y1="58.42" x2="78.74" y2="22.86" width="0.8128" layer="97" style="shortdash"/>
 <text x="167.64" y="50.8" size="1.778" layer="97" align="top-left">PCB Trace:</text>
 <text x="182.88" y="48.26" size="1.778" layer="97">(&gt;= 20 mil)</text>
-<text x="27.94" y="81.28" size="1.27" layer="97">22AWG</text>
-<text x="30.48" y="76.2" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="96.52" y="76.2" size="1.27" layer="97">PCB Trace</text>
 <text x="193.04" y="147.32" size="1.27" layer="97" rot="R90" align="top-left">PCB Trace</text>
 <text x="7.62" y="137.16" size="1.27" layer="97" align="top-left">22AWG</text>
@@ -3779,6 +3771,9 @@ Layer: 94 Symbol</description>
 <text x="144.78" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="157.48" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="167.64" y="134.62" size="1.27" layer="97">17.5mm^2</text>
+<text x="22.86" y="114.3" size="2.54" layer="97">to HVD</text>
+<text x="17.78" y="30.48" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="55.88" y="40.64" size="1.27" layer="97" align="top-left">22AWG</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="152.4" y="88.9" smashed="yes" rot="MR0"/>
@@ -3879,12 +3874,6 @@ Layer: 94 Symbol</description>
 <instance part="P12" gate="1" x="71.12" y="182.88" smashed="yes">
 <attribute name="VALUE" x="71.12" y="181.61" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P13" gate="G$1" x="30.48" y="86.36" smashed="yes">
-<attribute name="VALUE" x="30.48" y="91.44" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P14" gate="G$1" x="30.48" y="71.12" smashed="yes">
-<attribute name="VALUE" x="30.48" y="68.58" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="P15" gate="1" x="71.12" y="190.5" smashed="yes">
 <attribute name="VALUE" x="71.12" y="193.04" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -3968,14 +3957,6 @@ Layer: 94 Symbol</description>
 <instance part="U$40" gate="G$1" x="68.58" y="40.64" smashed="yes">
 <attribute name="VALUE" x="68.58" y="38.1" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="J5" gate="G$1" x="7.62" y="86.36" smashed="yes">
-<attribute name="MPN" x="7.62" y="80.645" size="1.27" layer="96" align="top-left"/>
-<attribute name="MANUFACTURER" x="7.62" y="87.122" size="1.27" layer="96"/>
-</instance>
-<instance part="J7" gate="G$1" x="7.62" y="76.2" smashed="yes">
-<attribute name="MPN" x="7.62" y="70.485" size="1.27" layer="96" align="top-left"/>
-<attribute name="MANUFACTURER" x="7.62" y="76.962" size="1.27" layer="96"/>
-</instance>
 <instance part="U1" gate="G$1" x="208.28" y="160.02" smashed="yes">
 <attribute name="MANUFACTURER" x="208.28" y="160.782" size="1.27" layer="96"/>
 <attribute name="MPN" x="208.28" y="149.098" size="1.27" layer="96" align="top-left"/>
@@ -4007,14 +3988,6 @@ Layer: 94 Symbol</description>
 <instance part="PRECHARGE_RES" gate="G$1" x="86.36" y="81.28" smashed="yes">
 <attribute name="NAME" x="85.09" y="82.55" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="85.09" y="80.01" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="TSMP+RES" gate="G$1" x="25.4" y="83.82" smashed="yes">
-<attribute name="NAME" x="24.13" y="85.09" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="24.13" y="82.55" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="TSMP-RES" gate="G$1" x="25.4" y="73.66" smashed="yes">
-<attribute name="NAME" x="24.13" y="74.93" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="24.13" y="72.39" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="R24" gate="G$1" x="101.6" y="195.58" smashed="yes">
 <attribute name="NAME" x="100.33" y="196.85" size="1.27" layer="95" align="bottom-center"/>
@@ -4186,11 +4159,6 @@ Layer: 94 Symbol</description>
 <pinref part="MAIN_FUSE" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="83.82" x2="30.48" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="P13" gate="G$1" pin="TS+UNFUSED"/>
-<pinref part="TSMP+RES" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="MAIN_FUSE" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="152.4" x2="38.1" y2="152.4" width="0.4445" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="HV+IN"/>
@@ -4250,11 +4218,6 @@ Layer: 94 Symbol</description>
 <pinref part="U$1" gate="G$1" pin="XLA-(HV-)"/>
 <wire x1="121.92" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$24" gate="G$1" pin="TS-UNFUSED"/>
-</segment>
-<segment>
-<wire x1="27.94" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="P14" gate="G$1" pin="TS-UNFUSED"/>
-<pinref part="TSMP-RES" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="5"/>
@@ -4600,30 +4563,6 @@ Layer: 94 Symbol</description>
 <pinref part="F2" gate="G$1" pin="2"/>
 <pinref part="U$37" gate="G$1" pin="P$1"/>
 <wire x1="22.86" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TSMP+" class="0">
-<segment>
-<wire x1="20.32" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="1"/>
-<pinref part="TSMP+RES" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="3"/>
-<wire x1="17.78" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
-<label x="20.32" y="38.1" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="TSMP-" class="0">
-<segment>
-<wire x1="20.32" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="J7" gate="G$1" pin="1"/>
-<pinref part="TSMP-RES" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="J8" gate="G$1" pin="4"/>
-<wire x1="50.8" y1="35.56" x2="53.34" y2="35.56" width="0.1524" layer="91"/>
-<label x="53.34" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
