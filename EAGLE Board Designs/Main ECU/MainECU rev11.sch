@@ -3717,6 +3717,27 @@ Toshiba
 <circle x="0" y="18.06" radius="0.889" width="1.778" layer="40"/>
 <rectangle x1="-3.81" y1="-1.524" x2="3.81" y2="1.524" layer="40"/>
 </package>
+<package name="B20-SHORTENED">
+<description>Ohmite B20 Resistor without mounting holes</description>
+<wire x1="-25.4" y1="5.555" x2="-25.4" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-5.555" x2="25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-5.555" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="25.4" y2="5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="5.555" x2="-25.4" y2="5.555" width="0.127" layer="21"/>
+<rectangle x1="-27.94" y1="-6.35" x2="27.94" y2="6.35" layer="39"/>
+<text x="0" y="6.985" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<pad name="2" x="-25.4" y="0" drill="1.35"/>
+<pad name="1" x="25.4" y="0" drill="1.35" first="yes"/>
+<wire x1="-25.4" y1="3.81" x2="-27.051" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-27.051" y1="3.81" x2="-27.051" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-27.051" y1="-3.81" x2="-25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="27.051" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="27.051" y1="3.81" x2="27.051" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="27.051" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-3.81" x2="25.4" y2="3.81" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="VOLTAGE_REGULATOR">
@@ -6337,6 +6358,36 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 </technology>
 </technologies>
 </device>
+<device name="B20-SHORTENED" package="B20-SHORTENED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="1.5K">
+<attribute name="DKPN" value="B20J1K5E-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J1K5E"/>
+<attribute name="MPN" value="B20J1K5E"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="1.5K"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="173V"/>
+<attribute name="VOLTAGE_MAX" value="750V"/>
+</technology>
+<technology name="15K">
+<attribute name="DKPN" value="B20J15KE-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J15KE"/>
+<attribute name="MPN" value="B20J15KE"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="15K"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="548V"/>
+<attribute name="VOLTAGE_MAX" value="750V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TEENSY_4.1" prefix="A">
@@ -7663,8 +7714,8 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="P230" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P231" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P232" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R62" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.2K"/>
-<part name="R63" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K"/>
+<part name="R62" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K" value="RESISTOR_0603_1.13K"/>
+<part name="R63" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.2K" value="RESISTOR_0603_10.2K"/>
 <part name="U38" library="HyTechDevices" deviceset="LOGICGATE_OR" device=""/>
 <part name="P228" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P233" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -7678,8 +7729,8 @@ PN for the holder; if 1/3N batteries needed, order separately.
 <part name="P247" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P248" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P249" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R68" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.2K"/>
-<part name="R69" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K"/>
+<part name="R68" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K" value="RESISTOR_0603_1.13K"/>
+<part name="R69" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.2K" value="RESISTOR_0603_10.2K"/>
 <part name="VR1" library="HyTechDevices" deviceset="RESISTOR_TRIMPOT_*_?" device="3362P" technology="10K"/>
 <part name="P242" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P243" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -10269,7 +10320,7 @@ trips at 4.802kW. </text>
 <net name="CURRENT_HIGH" class="0">
 <segment>
 <pinref part="U37" gate="A" pin="VOUT"/>
-<label x="116.84" y="157.48" size="1.27" layer="95" xref="yes"/>
+<label x="116.84" y="157.48" size="1.27" layer="95"/>
 <pinref part="TP5" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="157.48" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
 </segment>
@@ -10282,7 +10333,7 @@ trips at 4.802kW. </text>
 <net name="CURRENT_MISSING" class="0">
 <segment>
 <pinref part="U39" gate="A" pin="VOUT"/>
-<label x="50.8" y="172.72" size="1.27" layer="95" xref="yes"/>
+<label x="50.8" y="172.72" size="1.27" layer="95"/>
 <pinref part="TP4" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="172.72" x2="48.26" y2="172.72" width="0.1524" layer="91"/>
 </segment>
