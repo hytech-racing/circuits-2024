@@ -212,6 +212,7 @@
 <text x="0" y="-13.462" size="1.27" layer="96" align="top-left">IR155-3204</text>
 </symbol>
 <symbol name="SEGMENT">
+<description>A 20 cell segment.</description>
 <wire x1="1.5875" y1="0.635" x2="1.5875" y2="0" width="0.254" layer="94"/>
 <wire x1="1.5875" y1="0" x2="1.5875" y2="-0.635" width="0.254" layer="94"/>
 <wire x1="2.2225" y1="2.54" x2="2.2225" y2="-2.54" width="0.254" layer="94"/>
@@ -359,6 +360,16 @@
 <wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="FUSE">
+<wire x1="-1.27" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="0" x2="0.635" y2="0" width="0.1524" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -445,6 +456,11 @@
 <attribute name="MPN" value="3350-1275-126"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
+<technology name="DAR72410">
+<attribute name="MANUFACTURER" value="Sensata"/>
+<attribute name="MPN" value="DAR72410" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
 <technology name="GX23BA">
 <attribute name="MANUFACTURER" value="Gigavac"/>
 <attribute name="MPN" value="GX23BA"/>
@@ -463,6 +479,21 @@
 <technologies>
 <technology name="">
 <attribute name="COLOR" value="" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FUSE" prefix="F">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="" constant="no"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -875,7 +906,7 @@ LOGIC</text>
 </symbol>
 <symbol name="TS+FUSED">
 <text x="0" y="5.08" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="TS+" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="TS+FUSED" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <wire x1="2.54" y1="3.556" x2="2.032" y2="2.794" width="0.254" layer="94"/>
 <wire x1="2.032" y1="2.794" x2="2.667" y2="2.286" width="0.254" layer="94"/>
 <wire x1="2.667" y1="2.286" x2="2.286" y2="1.524" width="0.254" layer="94"/>
@@ -905,7 +936,7 @@ LOGIC</text>
 <wire x1="3.048" y1="-1.016" x2="3.81" y2="-0.254" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-0.254" x2="2.794" y2="-0.254" width="0.254" layer="94"/>
 <text x="0" y="-2.54" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
-<pin name="TS-UNFUSED" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="TS-FUSED" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.905" y1="-1.778" x2="1.905" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="-1.905" y1="-0.889" x2="1.905" y2="-0.889" width="0.254" layer="94"/>
@@ -3630,8 +3661,10 @@ Layer: 94 Symbol</description>
 <part name="U$14" library="HyTechSymbolsTemp" deviceset="ENERGY_METER" device=""/>
 <part name="P8" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P9" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="F2" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1.25A"/>
-<part name="F3" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1.25A"/>
+<part name="F2" library="HyTechSymbols" deviceset="FUSE" device="" value="1A">
+<attribute name="_EXTERNAL_" value="1A"/>
+</part>
+<part name="F3" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1A"/>
 <part name="U$17" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="U$18" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$19" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
@@ -3655,8 +3688,6 @@ Layer: 94 Symbol</description>
 </part>
 <part name="P12" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P15" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="J3" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
-<part name="J4" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
 <part name="U$7" library="HyTechSymbolsTemp" deviceset="MAINTENANCE_PLUG_*" device="" technology="104742-2"/>
 <part name="U$8" library="HyTechSymbolsTemp" deviceset="MAINTENANCE_PLUG_*" device="" technology="104742-2"/>
 <part name="U$9" library="HyTechSymbolsTemp" deviceset="MAINTENANCE_PLUG_*" device="" technology="104742-2"/>
@@ -3754,8 +3785,6 @@ Layer: 94 Symbol</description>
 <text x="251.46" y="93.98" size="1.27" layer="97" align="top-right">PCB Trace</text>
 <text x="129.54" y="198.12" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="96.52" y="205.74" size="1.27" layer="97" align="top-left">22AWG</text>
-<text x="30.48" y="119.38" size="1.27" layer="97">17.5mm^2</text>
-<text x="30.48" y="127" size="1.27" layer="97" align="top-left">17.5mm^2</text>
 <text x="96.52" y="48.26" size="1.778" layer="97">(Busbar)</text>
 <wire x1="5.08" y1="58.42" x2="5.08" y2="22.86" width="0.8128" layer="97" style="shortdash"/>
 <wire x1="5.08" y1="22.86" x2="78.74" y2="22.86" width="0.8128" layer="97" style="shortdash"/>
@@ -3771,9 +3800,9 @@ Layer: 94 Symbol</description>
 <text x="144.78" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="157.48" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="167.64" y="134.62" size="1.27" layer="97">17.5mm^2</text>
-<text x="22.86" y="114.3" size="2.54" layer="97">to HVD</text>
 <text x="17.78" y="30.48" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="55.88" y="40.64" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="96.52" y="124.46" size="1.27" layer="97">17.5mm^2</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="152.4" y="88.9" smashed="yes" rot="MR0"/>
@@ -3876,14 +3905,6 @@ Layer: 94 Symbol</description>
 </instance>
 <instance part="P15" gate="1" x="71.12" y="190.5" smashed="yes">
 <attribute name="VALUE" x="71.12" y="193.04" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="J3" gate="G$1" x="7.62" y="124.46" smashed="yes">
-<attribute name="MPN" x="7.62" y="118.745" size="1.27" layer="96" align="top-left"/>
-<attribute name="MANUFACTURER" x="7.62" y="125.222" size="1.27" layer="95"/>
-</instance>
-<instance part="J4" gate="G$1" x="7.62" y="114.3" smashed="yes">
-<attribute name="MPN" x="7.62" y="108.585" size="1.27" layer="96" align="top-left"/>
-<attribute name="MANUFACTURER" x="7.62" y="115.062" size="1.27" layer="95"/>
 </instance>
 <instance part="U$7" gate="G$1" x="93.98" y="180.34" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" x="91.948" y="180.34" size="1.27" layer="96" rot="MR270"/>
@@ -4207,17 +4228,17 @@ Layer: 94 Symbol</description>
 <segment>
 <pinref part="U$11" gate="G$1" pin="TS-"/>
 <wire x1="25.4" y1="177.8" x2="20.32" y2="177.8" width="0.0762" layer="91"/>
-<pinref part="U$18" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="U$18" gate="G$1" pin="TS-FUSED"/>
 </segment>
 <segment>
 <pinref part="F3" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="134.62" x2="10.16" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U$20" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="U$20" gate="G$1" pin="TS-FUSED"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="XLA-(HV-)"/>
 <wire x1="121.92" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$24" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="U$24" gate="G$1" pin="TS-FUSED"/>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="5"/>
@@ -4231,7 +4252,7 @@ Layer: 94 Symbol</description>
 <wire x1="50.8" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="43.18" x2="53.34" y2="40.64" width="0.1524" layer="91"/>
 <junction x="53.34" y="43.18"/>
-<pinref part="U$40" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="U$40" gate="G$1" pin="TS-FUSED"/>
 <wire x1="53.34" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4249,7 +4270,7 @@ Layer: 94 Symbol</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="93.98" x2="198.12" y2="93.98" width="0.0762" layer="91"/>
 <junction x="200.66" y="93.98"/>
-<pinref part="U$28" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="U$28" gate="G$1" pin="TS-FUSED"/>
 <wire x1="200.66" y1="93.98" x2="200.66" y2="91.44" width="0.0762" layer="91"/>
 </segment>
 </net>
@@ -4326,23 +4347,23 @@ Layer: 94 Symbol</description>
 <segment>
 <pinref part="U$11" gate="G$1" pin="TS+"/>
 <wire x1="25.4" y1="187.96" x2="20.32" y2="187.96" width="0.0762" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="TS+"/>
+<pinref part="U$17" gate="G$1" pin="TS+FUSED"/>
 </segment>
 <segment>
 <pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="160.02" x2="10.16" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U$19" gate="G$1" pin="TS+"/>
+<pinref part="U$19" gate="G$1" pin="TS+FUSED"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="XLA+(HV+)"/>
 <wire x1="121.92" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$23" gate="G$1" pin="TS+"/>
+<pinref part="U$23" gate="G$1" pin="TS+FUSED"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="17.78" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U$39" gate="G$1" pin="TS+"/>
+<pinref part="U$39" gate="G$1" pin="TS+FUSED"/>
 </segment>
 <segment>
 <pinref part="U$25" gate="G$1" pin="TS+UNFUSED"/>
@@ -4447,23 +4468,13 @@ Layer: 94 Symbol</description>
 <pinref part="P15" gate="1" pin="+5V"/>
 </segment>
 </net>
-<net name="N$47" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="111.76" x2="20.32" y2="111.76" width="0.4445" layer="91"/>
-<wire x1="20.32" y1="111.76" x2="20.32" y2="121.92" width="0.4445" layer="91"/>
-<wire x1="20.32" y1="121.92" x2="86.36" y2="121.92" width="0.4445" layer="91"/>
-<pinref part="AIR-" gate="G$1" pin="CONTACT2"/>
-<wire x1="142.24" y1="121.92" x2="86.36" y2="121.92" width="0.4445" layer="91"/>
-</segment>
-</net>
 <net name="N$45" class="0">
 <segment>
 <pinref part="U$14" gate="G$1" pin="HV-IN"/>
 <wire x1="83.82" y1="132.08" x2="83.82" y2="124.46" width="0.4445" layer="91"/>
-<wire x1="83.82" y1="124.46" x2="17.78" y2="124.46" width="0.4445" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="124.46" x2="17.78" y2="121.92" width="0.4445" layer="91"/>
+<pinref part="AIR-" gate="G$1" pin="CONTACT2"/>
+<wire x1="142.24" y1="121.92" x2="83.82" y2="121.92" width="0.4445" layer="91"/>
+<wire x1="83.82" y1="121.92" x2="83.82" y2="124.46" width="0.4445" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
