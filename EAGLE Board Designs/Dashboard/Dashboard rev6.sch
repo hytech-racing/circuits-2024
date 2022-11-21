@@ -8690,28 +8690,28 @@ Layer: 94 Symbol</description>
 <pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SHUTDOWN_F" class="0">
+<net name="SSOK" class="0">
 <segment>
 <wire x1="27.94" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="7"/>
 <label x="35.56" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SHUTDOWN_H" class="0">
+<net name="BOTS" class="0">
 <segment>
 <wire x1="27.94" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="5"/>
 <label x="35.56" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SHUTDOWN_G" class="0">
+<net name="INERTIA" class="0">
 <segment>
 <wire x1="27.94" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="6"/>
 <label x="35.56" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SHUTDOWN_I" class="0">
+<net name="BRB" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
@@ -9110,14 +9110,14 @@ Layer: 94 Symbol</description>
 <pinref part="A2" gate="G$1" pin="A8"/>
 </segment>
 </net>
-<net name="SHUTDOWN_F_READ" class="0">
+<net name="SSOK_READ" class="0">
 <segment>
 <label x="81.28" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="81.28" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="A2" gate="G$1" pin="A0"/>
 </segment>
 </net>
-<net name="SHUTDOWN_H_READ" class="0">
+<net name="BOTS_READ" class="0">
 <segment>
 <label x="81.28" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="81.28" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
@@ -9238,7 +9238,7 @@ Layer: 94 Symbol</description>
 <pinref part="RN2" gate="D" pin="2"/>
 </segment>
 </net>
-<net name="SHUTDOWN_G_READ" class="0">
+<net name="INERTIA_READ" class="0">
 <segment>
 <label x="81.28" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="81.28" y1="127" x2="83.82" y2="127" width="0.1524" layer="91"/>
@@ -9281,7 +9281,7 @@ Layer: 94 Symbol</description>
 <wire x1="160.02" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SHUTDOWN_I_READ" class="0">
+<net name="BRB_READ" class="0">
 <segment>
 <label x="81.28" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="81.28" y1="121.92" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
@@ -9444,14 +9444,10 @@ Layer: 94 Symbol</description>
 <sheet>
 <description>Shutdown Read, Buzzer Control</description>
 <plain>
-<text x="63.5" y="149.86" size="1.778" layer="97">SSOK</text>
-<text x="63.5" y="124.46" size="1.778" layer="97">INERTIA</text>
-<text x="63.5" y="73.66" size="1.778" layer="97">COCKPIT_BRB</text>
-<text x="63.5" y="99.06" size="1.778" layer="97">BOTS</text>
-<text x="60.96" y="142.24" size="1.778" layer="97">24V to 3.3V</text>
-<text x="60.96" y="116.84" size="1.778" layer="97">24V to 3.3V</text>
-<text x="60.96" y="91.44" size="1.778" layer="97">24V to 3.3V</text>
-<text x="60.96" y="66.04" size="1.778" layer="97">24V to 3.3V</text>
+<text x="66.04" y="142.24" size="1.778" layer="97">24V to 3.3V</text>
+<text x="66.04" y="116.84" size="1.778" layer="97">24V to 3.3V</text>
+<text x="66.04" y="91.44" size="1.778" layer="97">24V to 3.3V</text>
+<text x="68.58" y="66.04" size="1.778" layer="97">24V to 3.3V</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
@@ -9662,7 +9658,7 @@ Layer: 94 Symbol</description>
 <pinref part="D5" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="SHUTDOWN_F" class="0">
+<net name="SSOK" class="0">
 <segment>
 <label x="78.74" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP_SSOK" gate="G$1" pin="1"/>
@@ -9677,7 +9673,7 @@ Layer: 94 Symbol</description>
 <junction x="96.52" y="147.32"/>
 </segment>
 </net>
-<net name="SHUTDOWN_F_READ" class="0">
+<net name="SSOK_READ" class="0">
 <segment>
 <wire x1="109.22" y1="147.32" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="147.32" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
@@ -9689,7 +9685,7 @@ Layer: 94 Symbol</description>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SHUTDOWN_H" class="0">
+<net name="BOTS" class="0">
 <segment>
 <label x="78.74" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP_BOTS" gate="G$1" pin="1"/>
@@ -9704,7 +9700,7 @@ Layer: 94 Symbol</description>
 <junction x="96.52" y="96.52"/>
 </segment>
 </net>
-<net name="SHUTDOWN_H_READ" class="0">
+<net name="BOTS_READ" class="0">
 <segment>
 <wire x1="109.22" y1="96.52" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="96.52" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
@@ -9716,7 +9712,7 @@ Layer: 94 Symbol</description>
 <pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SHUTDOWN_G" class="0">
+<net name="INERTIA" class="0">
 <segment>
 <label x="78.74" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP_INERTIA" gate="G$1" pin="1"/>
@@ -9731,7 +9727,7 @@ Layer: 94 Symbol</description>
 <junction x="96.52" y="121.92"/>
 </segment>
 </net>
-<net name="SHUTDOWN_G_READ" class="0">
+<net name="INERTIA_READ" class="0">
 <segment>
 <wire x1="109.22" y1="127" x2="111.76" y2="127" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="127" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
@@ -9812,7 +9808,7 @@ Layer: 94 Symbol</description>
 <wire x1="190.5" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SHUTDOWN_I" class="0">
+<net name="BRB" class="0">
 <segment>
 <label x="78.74" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="78.74" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
@@ -9827,7 +9823,7 @@ Layer: 94 Symbol</description>
 <junction x="96.52" y="71.12"/>
 </segment>
 </net>
-<net name="SHUTDOWN_I_READ" class="0">
+<net name="BRB_READ" class="0">
 <segment>
 <wire x1="109.22" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
