@@ -1044,6 +1044,7 @@ Neopixel RGB LED
 <rectangle x1="-5.588" y1="-4.064" x2="5.588" y2="5.842" layer="39"/>
 <rectangle x1="-3.81" y1="-1.27" x2="3.81" y2="1.27" layer="40"/>
 </package>
+<<<<<<< Updated upstream
 <package name="SOT-223">
 <description>SOT-223
 &lt;br&gt;
@@ -1124,6 +1125,8 @@ Based on page 10.</description>
 <rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
 <circle x="-1.8" y="-1.31" radius="0.15875" width="0" layer="21"/>
 </package>
+=======
+>>>>>>> Stashed changes
 <package name="MOLEX_NANOFIT_SMD_RIGHTANGLE_06">
 <description>6 Pin Nano-Fit Vertical Header, PCB Mount, Dual Row
 &lt;br&gt;
@@ -4289,6 +4292,7 @@ Neopixel RGB LED
 </device>
 </devices>
 </deviceset>
+<<<<<<< Updated upstream
 <deviceset name="VOLTAGE_REGULATOR_?_*" prefix="U">
 <description>Voltage Regulators
 &lt;ul&gt;
@@ -4388,6 +4392,8 @@ Neopixel RGB LED
 </device>
 </devices>
 </deviceset>
+=======
+>>>>>>> Stashed changes
 <deviceset name="CONNECTOR-6_?_*" prefix="J">
 <description>6 Pin Connector</description>
 <gates>
@@ -7489,6 +7495,7 @@ Layer: 94 Symbol</description>
 <rectangle x1="-1.025" y1="0.5" x2="-0.625" y2="0.75" layer="21"/>
 <rectangle x1="-1.025" y1="-0.75" x2="-0.625" y2="-0.5" layer="21"/>
 </package>
+<<<<<<< Updated upstream
 <package name="0603-CAP">
 <description>0603 Cap
 &lt;br&gt;
@@ -7549,6 +7556,8 @@ Layer: 94 Symbol</description>
 <wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
 <rectangle x1="-2.2" y1="-1.25" x2="2.2" y2="1.25" layer="39"/>
 </package>
+=======
+>>>>>>> Stashed changes
 </packages>
 <symbols>
 <symbol name="DIODE_LED">
@@ -7573,6 +7582,7 @@ Layer: 94 Symbol</description>
 <wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
 </symbol>
+<<<<<<< Updated upstream
 <symbol name="CAPACITOR">
 <wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
@@ -7584,6 +7594,8 @@ Layer: 94 Symbol</description>
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <text x="-1.27" y="-4.318" size="1.27" layer="96" align="top-center">&gt;CAPACITANCE</text>
 </symbol>
+=======
+>>>>>>> Stashed changes
 </symbols>
 <devicesets>
 <deviceset name="LED_?_*" prefix="D">
@@ -7653,6 +7665,7 @@ Layer: 94 Symbol</description>
 </device>
 </devices>
 </deviceset>
+<<<<<<< Updated upstream
 <deviceset name="CAPACITOR_?_*" prefix="C">
 <description>Capacitor, Non-Polarized
 
@@ -7968,6 +7981,8 @@ Layer: 94 Symbol</description>
 </device>
 </devices>
 </deviceset>
+=======
+>>>>>>> Stashed changes
 </devicesets>
 </library>
 </libraries>
@@ -8099,6 +8114,7 @@ Layer: 94 Symbol</description>
 <part name="P56" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P57" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="A3" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V"/>
+<<<<<<< Updated upstream
 <part name="P71" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P72" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P75" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8108,6 +8124,11 @@ Layer: 94 Symbol</description>
 <part name="P77" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="C37" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
 <part name="C36" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
+=======
+<part name="P75" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P76" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="3.3V" library="HyTechDevices - Copy" deviceset="LED_?_*" device="0603" technology="GREEN"/>
+>>>>>>> Stashed changes
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="XF2" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="PTH" technology="MINIBLADE"/>
@@ -8131,7 +8152,10 @@ Layer: 94 Symbol</description>
 <part name="J3" library="HyTechDevices" deviceset="CONNECTOR-CAN_?_*" device="μF_S_RA" value="CONNECTOR-CAN_μF_S_RA_"/>
 <part name="J6" library="HyTechDevices" deviceset="CONNECTOR-6_?_*" device="μF_S_RA" value="CONNECTOR-6_μF_S_RA_"/>
 <part name="J4" library="HyTechDevices" deviceset="CONNECTOR-6_?_*" device="μF_S_RA" value="CONNECTOR-6_μF_S_RA_"/>
+<<<<<<< Updated upstream
 <part name="P36" library="HyTechSupplies" deviceset="+24V" device=""/>
+=======
+>>>>>>> Stashed changes
 <part name="D1" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
 <part name="U27" library="HyTechDevices" deviceset="TCAN1051*V-Q1" device="" technology="HQ"/>
 <part name="C38" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
@@ -8148,10 +8172,13 @@ Layer: 94 Symbol</description>
 <part name="P11" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P12" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P20" library="HyTechSupplies" deviceset="GND" device=""/>
+<<<<<<< Updated upstream
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K"/>
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K"/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K"/>
+=======
+>>>>>>> Stashed changes
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
@@ -8164,13 +8191,23 @@ Layer: 94 Symbol</description>
 <part name="D4" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V"/>
 <part name="P25" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="D5" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V"/>
+<<<<<<< Updated upstream
 <part name="P26" library="HyTechSupplies" deviceset="+24V" device=""/>
+=======
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="41.2K"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="41.2K"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="41.2K"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="41.2K"/>
+>>>>>>> Stashed changes
 </parts>
 <sheets>
 <sheet>
 <description>Connectors, Power Fusing</description>
 <plain>
+<<<<<<< Updated upstream
 <text x="129.54" y="22.86" size="2.54" layer="95">Josh Kirshenbaum</text>
+=======
+>>>>>>> Stashed changes
 <text x="129.54" y="172.72" size="2.54" layer="97">Power Fusing and Regulation</text>
 <text x="17.78" y="200.66" size="2.54" layer="95">Connectors</text>
 <text x="17.78" y="167.64" size="1.778" layer="97">Shutdown Signals</text>
@@ -8277,12 +8314,15 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="147.32" y="163.322" size="1.27" layer="95"/>
 <attribute name="MPN" x="156.21" y="151.638" size="1.27" layer="96" align="top-left"/>
 </instance>
+<<<<<<< Updated upstream
 <instance part="P71" gate="1" x="154.94" y="111.76" smashed="yes">
 <attribute name="VALUE" x="154.94" y="110.49" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P72" gate="G$1" x="172.72" y="134.62" smashed="yes">
 <attribute name="VALUE" x="172.72" y="135.89" size="1.27" layer="96" align="bottom-center"/>
 </instance>
+=======
+>>>>>>> Stashed changes
 <instance part="P75" gate="1" x="241.3" y="137.16" smashed="yes">
 <attribute name="VALUE" x="241.3" y="135.89" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -8293,6 +8333,7 @@ Layer: 94 Symbol</description>
 <attribute name="COLOR" x="239.522" y="158.75" size="1.27" layer="95" rot="R270" align="top-center"/>
 <attribute name="NAME" x="244.856" y="158.75" size="1.27" layer="96" rot="R270" align="bottom-center"/>
 </instance>
+<<<<<<< Updated upstream
 <instance part="U26" gate="G$1" x="147.32" y="132.08" smashed="yes">
 <attribute name="NAME" x="147.32" y="132.842" size="1.27" layer="95"/>
 <attribute name="MPN" x="146.05" y="121.158" size="1.27" layer="96" align="top-left"/>
@@ -8310,6 +8351,8 @@ Layer: 94 Symbol</description>
 <attribute name="VOLTAGE" x="172.72" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="174.498" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
+=======
+>>>>>>> Stashed changes
 <instance part="R1" gate="G$1" x="241.3" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="240.03" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="242.57" y="146.05" size="1.27" layer="96" rot="R90" align="top-center"/>
@@ -8395,12 +8438,15 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="17.78" y="100.838" size="1.27" layer="95" rot="MR180"/>
 <attribute name="MPN" x="17.78" y="120.015" size="1.27" layer="96" rot="MR180" align="top-left"/>
 </instance>
+<<<<<<< Updated upstream
 <instance part="P36" gate="G$1" x="40.64" y="162.56" smashed="yes">
 <attribute name="VALUE" x="40.64" y="166.37" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P26" gate="G$1" x="43.18" y="195.58" smashed="yes">
 <attribute name="VALUE" x="43.18" y="199.39" size="1.27" layer="96" align="bottom-center"/>
 </instance>
+=======
+>>>>>>> Stashed changes
 </instances>
 <busses>
 </busses>
@@ -8450,6 +8496,7 @@ Layer: 94 Symbol</description>
 <pinref part="5V" gate="LED" pin="A"/>
 <wire x1="231.14" y1="167.64" x2="231.14" y2="162.56" width="0.1524" layer="91"/>
 </segment>
+<<<<<<< Updated upstream
 <segment>
 <wire x1="144.78" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
@@ -8460,6 +8507,8 @@ Layer: 94 Symbol</description>
 <pinref part="P77" gate="1" pin="+5V"/>
 <pinref part="C37" gate="G$1" pin="1"/>
 </segment>
+=======
+>>>>>>> Stashed changes
 </net>
 <net name="GND" class="0">
 <segment>
@@ -8486,6 +8535,7 @@ Layer: 94 Symbol</description>
 <pinref part="P51" gate="1" pin="GND"/>
 </segment>
 <segment>
+<<<<<<< Updated upstream
 <wire x1="154.94" y1="121.92" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="114.3" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
 <junction x="154.94" y="116.84"/>
@@ -8499,6 +8549,8 @@ Layer: 94 Symbol</description>
 <pinref part="C36" gate="G$1" pin="2"/>
 </segment>
 <segment>
+=======
+>>>>>>> Stashed changes
 <pinref part="P56" gate="1" pin="GND"/>
 <wire x1="220.98" y1="142.24" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -8571,6 +8623,7 @@ Layer: 94 Symbol</description>
 <wire x1="111.76" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="XF2" gate="G$1" pin="1"/>
 <pinref part="D6" gate="G$1" pin="C"/>
+<<<<<<< Updated upstream
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -8585,6 +8638,25 @@ Layer: 94 Symbol</description>
 <junction x="170.18" y="129.54"/>
 </segment>
 <segment>
+=======
+<wire x1="111.76" y1="160.02" x2="106.68" y2="160.02" width="0.1524" layer="91"/>
+<junction x="111.76" y="160.02"/>
+<label x="106.68" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="+24V"/>
+<wire x1="30.48" y1="193.04" x2="43.18" y2="193.04" width="0.1524" layer="91"/>
+<label x="43.18" y="193.04" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="160.02" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
+<label x="40.64" y="160.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+>>>>>>> Stashed changes
 <pinref part="3.3V" gate="LED" pin="A"/>
 <pinref part="P76" gate="G$1" pin="+3V3"/>
 <wire x1="241.3" y1="162.56" x2="241.3" y2="167.64" width="0.1524" layer="91"/>
@@ -8651,6 +8723,7 @@ Layer: 94 Symbol</description>
 <pinref part="24V" gate="LED" pin="A"/>
 <wire x1="210.82" y1="167.64" x2="210.82" y2="162.56" width="0.1524" layer="91"/>
 </segment>
+<<<<<<< Updated upstream
 <segment>
 <pinref part="J3" gate="G$1" pin="+24V"/>
 <pinref part="P26" gate="G$1" pin="+24V"/>
@@ -8661,6 +8734,8 @@ Layer: 94 Symbol</description>
 <pinref part="P36" gate="G$1" pin="+24V"/>
 <wire x1="27.94" y1="160.02" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
 </segment>
+=======
+>>>>>>> Stashed changes
 </net>
 <net name="N$38" class="0">
 <segment>
@@ -9537,6 +9612,7 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="91.44" y="67.818" size="1.27" layer="95" rot="MR0"/>
 <attribute name="MPN" x="86.36" y="64.262" size="1.27" layer="95" rot="MR0" align="top-left"/>
 </instance>
+<<<<<<< Updated upstream
 <instance part="R3" gate="G$1" x="106.68" y="147.32" smashed="yes">
 <attribute name="NAME" x="105.41" y="148.59" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="105.41" y="146.05" size="1.27" layer="96" align="top-center"/>
@@ -9553,6 +9629,8 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="105.41" y="72.39" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="105.41" y="69.85" size="1.27" layer="96" align="top-center"/>
 </instance>
+=======
+>>>>>>> Stashed changes
 <instance part="R7" gate="G$1" x="119.38" y="147.32" smashed="yes">
 <attribute name="NAME" x="118.11" y="148.59" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="118.11" y="146.05" size="1.27" layer="96" align="top-center"/>
@@ -9597,6 +9675,25 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="94.615" y="64.77" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="98.425" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
+<<<<<<< Updated upstream
+=======
+<instance part="R15" gate="G$1" x="106.68" y="147.32" smashed="yes">
+<attribute name="NAME" x="105.41" y="148.59" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="105.41" y="146.05" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R3" gate="G$1" x="106.68" y="121.92" smashed="yes">
+<attribute name="NAME" x="105.41" y="123.19" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="105.41" y="120.65" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R4" gate="G$1" x="106.68" y="96.52" smashed="yes">
+<attribute name="NAME" x="105.41" y="97.79" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="105.41" y="95.25" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R5" gate="G$1" x="106.68" y="71.12" smashed="yes">
+<attribute name="NAME" x="105.41" y="72.39" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="105.41" y="69.85" size="1.27" layer="96" align="top-center"/>
+</instance>
+>>>>>>> Stashed changes
 </instances>
 <busses>
 </busses>
@@ -9666,11 +9763,18 @@ Layer: 94 Symbol</description>
 <wire x1="81.28" y1="142.24" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
 <junction x="81.28" y="147.32"/>
 <wire x1="81.28" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
+<<<<<<< Updated upstream
 <pinref part="R3" gate="G$1" pin="1"/>
+=======
+>>>>>>> Stashed changes
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="144.78" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
 <junction x="96.52" y="147.32"/>
+<<<<<<< Updated upstream
+=======
+<pinref part="R15" gate="G$1" pin="1"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="SSOK_READ" class="0">
@@ -9681,8 +9785,13 @@ Layer: 94 Symbol</description>
 <junction x="111.76" y="147.32"/>
 <wire x1="111.76" y1="152.4" x2="109.22" y2="152.4" width="0.1524" layer="91"/>
 <label x="109.22" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<<<<<<< Updated upstream
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+=======
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="BOTS" class="0">
@@ -9693,11 +9802,18 @@ Layer: 94 Symbol</description>
 <wire x1="81.28" y1="91.44" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
 <junction x="81.28" y="96.52"/>
 <wire x1="81.28" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
+<<<<<<< Updated upstream
 <pinref part="R5" gate="G$1" pin="1"/>
+=======
+>>>>>>> Stashed changes
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="93.98" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 <junction x="96.52" y="96.52"/>
+<<<<<<< Updated upstream
+=======
+<pinref part="R4" gate="G$1" pin="1"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="BOTS_READ" class="0">
@@ -9708,8 +9824,13 @@ Layer: 94 Symbol</description>
 <junction x="111.76" y="96.52"/>
 <wire x1="111.76" y1="101.6" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 <label x="109.22" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<<<<<<< Updated upstream
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="R12" gate="G$1" pin="1"/>
+=======
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="INERTIA" class="0">
@@ -9720,11 +9841,18 @@ Layer: 94 Symbol</description>
 <wire x1="81.28" y1="116.84" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
 <junction x="81.28" y="121.92"/>
 <wire x1="81.28" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
+<<<<<<< Updated upstream
 <pinref part="R4" gate="G$1" pin="1"/>
+=======
+>>>>>>> Stashed changes
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="119.38" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <junction x="96.52" y="121.92"/>
+<<<<<<< Updated upstream
+=======
+<pinref part="R3" gate="G$1" pin="1"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="INERTIA_READ" class="0">
@@ -9735,8 +9863,13 @@ Layer: 94 Symbol</description>
 <wire x1="114.3" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
 <junction x="111.76" y="121.92"/>
 <label x="109.22" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<<<<<<< Updated upstream
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
+=======
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -9817,10 +9950,17 @@ Layer: 94 Symbol</description>
 <wire x1="96.52" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="66.04" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 <junction x="81.28" y="71.12"/>
+<<<<<<< Updated upstream
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="68.58" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <junction x="96.52" y="71.12"/>
+=======
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="96.52" y1="68.58" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
+<junction x="96.52" y="71.12"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="BRB_READ" class="0">
@@ -9831,8 +9971,13 @@ Layer: 94 Symbol</description>
 <junction x="111.76" y="71.12"/>
 <wire x1="111.76" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <label x="109.22" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<<<<<<< Updated upstream
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R14" gate="G$1" pin="1"/>
+=======
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 </nets>
@@ -9840,7 +9985,10 @@ Layer: 94 Symbol</description>
 <sheet>
 <description>Neopixels</description>
 <plain>
+<<<<<<< Updated upstream
 <text x="43.18" y="205.74" size="1.778" layer="97">GND to Neopixel MUST connect first (shorter trace)</text>
+=======
+>>>>>>> Stashed changes
 <text x="134.62" y="185.42" size="1.778" layer="97">SSOK</text>
 <text x="165.1" y="185.42" size="1.778" layer="97">INERTIA</text>
 <text x="43.18" y="144.78" size="1.778" layer="97">BOTS</text>
@@ -10282,6 +10430,17 @@ Layer: 94 Symbol</description>
 </nets>
 </sheet>
 </sheets>
+<<<<<<< Updated upstream
+=======
+<errors>
+<approved hash="201,1,119.38,124.46,OUT,+5V\, +3V3\, +12V,,,,"/>
+<approved hash="201,1,165.1,129.54,OUT,+5V\, +3V3\, +12V,,,,"/>
+<approved hash="201,1,165.1,160.02,OUT,+5V\, +3V3\, +12V,,,,"/>
+<approved hash="104,2,109.22,134.62,A2,3.3V,+3V3,,,"/>
+<approved hash="104,2,109.22,137.16,A2,VIN,+5V,,,"/>
+<approved hash="204,4,124.46,86.36,U15,DOUT,,,,"/>
+</errors>
+>>>>>>> Stashed changes
 </schematic>
 </drawing>
 <compatibility>

@@ -528,6 +528,7 @@ Neopixel RGB LED
 <rectangle x1="-5.588" y1="-4.064" x2="5.588" y2="5.842" layer="39"/>
 <rectangle x1="-3.81" y1="-1.27" x2="3.81" y2="1.27" layer="40"/>
 </package>
+<<<<<<< Updated upstream
 <package name="SOT-223">
 <description>SOT-223
 &lt;br&gt;
@@ -544,6 +545,8 @@ Neopixel RGB LED
 <rectangle x1="-3.81" y1="-4.445" x2="3.81" y2="4.445" layer="39"/>
 <circle x="-3.556" y="-3.2" radius="0.15875" width="0" layer="21"/>
 </package>
+=======
+>>>>>>> Stashed changes
 <package name="3568">
 <description>Mini-Blade Fuse Holder
 &lt;br&gt;
@@ -718,6 +721,7 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <rectangle x1="-1.025" y1="0.5" x2="-0.625" y2="0.75" layer="21"/>
 <rectangle x1="-1.025" y1="-0.75" x2="-0.625" y2="-0.5" layer="21"/>
 </package>
+<<<<<<< Updated upstream
 <package name="0603-CAP">
 <description>0603 Cap
 &lt;br&gt;
@@ -733,6 +737,8 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
 <rectangle x1="-1.35" y1="-0.75" x2="1.35" y2="0.75" layer="39"/>
 </package>
+=======
+>>>>>>> Stashed changes
 </packages>
 </library>
 </libraries>
@@ -1309,6 +1315,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="APT1608ZGCK" x="-119.38" y="-201.93" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-45.72" y="-151.65" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
+<<<<<<< Updated upstream
 <element name="U26" library="HyTechDevices" package="SOT-223" value="VOLTAGE_REGULATOR_SOT-223_3.3V" x="-73.66" y="-130.81" smashed="yes">
 <attribute name="DKPN" value="LMS8117AMP-3.3/NOPBCT-ND" x="-132.08" y="-224.79" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="-132.08" y="-224.79" size="1.778" layer="27" display="off"/>
@@ -1336,6 +1343,8 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="10%" x="-133.35" y="-236.22" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="-133.35" y="-236.22" size="1.778" layer="27" display="off"/>
 </element>
+=======
+>>>>>>> Stashed changes
 <element name="R1" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="-49.53" y="-157.48" smashed="yes">
 <attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND" x="-133.35" y="-240.03" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="-133.35" y="-240.03" size="1.778" layer="27" display="off"/>
@@ -1544,6 +1553,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="PRPC002SAAN-RC" x="-97.79" y="-276.86" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-97.79" y="-252.476" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
+<<<<<<< Updated upstream
 <element name="R3" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_33K" x="-97.79" y="-265.43" smashed="yes">
 <attribute name="DKPN" value="RHM33KAYTR-ND " x="-97.79" y="-265.43" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor" x="-97.79" y="-265.43" size="1.778" layer="27" display="off"/>
@@ -1592,6 +1602,8 @@ design rules under a new name.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="57.44V" x="-97.79" y="-276.86" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="350V" x="-97.79" y="-276.86" size="1.778" layer="27" display="off"/>
 </element>
+=======
+>>>>>>> Stashed changes
 <element name="R7" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_5.1K" x="-97.79" y="-280.67" smashed="yes">
 <attribute name="DKPN" value="311-5.10KHRTR-ND" x="-97.79" y="-280.67" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-97.79" y="-280.67" size="1.778" layer="27" display="off"/>
@@ -1671,6 +1683,57 @@ design rules under a new name.</description>
 <attribute name="MPN" value=" 1.5SMBJ30A" x="-96.52" y="-316.23" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-96.52" y="-313.944" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VOLTAGE" value="30V" x="-96.52" y="-316.23" size="1.778" layer="27" display="off"/>
+<<<<<<< Updated upstream
+=======
+</element>
+<element name="R15" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_41.2K" x="-97.79" y="-321.31" smashed="yes">
+<attribute name="DKPN" value="P20155CT-ND" x="-97.79" y="-321.31" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-97.79" y="-321.31" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERJ-PB3B4122V" x="-97.79" y="-321.31" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value=" ERJ-PB3B4122V" x="-97.79" y="-321.31" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-97.79" y="-320.675" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.2W" x="-97.79" y="-321.31" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="41.2k" x="-97.79" y="-321.31" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="-97.79" y="-321.31" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V" x="-97.79" y="-321.31" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="200V" x="-97.79" y="-321.31" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R3" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_41.2K" x="-99.06" y="-325.12" smashed="yes">
+<attribute name="DKPN" value="P20155CT-ND" x="-97.79" y="-325.12" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-97.79" y="-325.12" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERJ-PB3B4122V" x="-97.79" y="-325.12" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value=" ERJ-PB3B4122V" x="-97.79" y="-325.12" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-99.06" y="-324.485" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.2W" x="-97.79" y="-325.12" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="41.2k" x="-97.79" y="-325.12" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="-97.79" y="-325.12" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V" x="-97.79" y="-325.12" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="200V" x="-97.79" y="-325.12" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R4" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_41.2K" x="-99.06" y="-328.93" smashed="yes">
+<attribute name="DKPN" value="P20155CT-ND" x="-97.79" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-97.79" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERJ-PB3B4122V" x="-97.79" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value=" ERJ-PB3B4122V" x="-97.79" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-99.06" y="-328.295" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.2W" x="-97.79" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="41.2k" x="-97.79" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="-97.79" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V" x="-97.79" y="-328.93" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="200V" x="-97.79" y="-328.93" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R5" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_41.2K" x="-99.06" y="-332.74" smashed="yes">
+<attribute name="DKPN" value="P20155CT-ND" x="-97.79" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-97.79" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERJ-PB3B4122V" x="-97.79" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value=" ERJ-PB3B4122V" x="-97.79" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-99.06" y="-332.105" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.2W" x="-97.79" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="41.2k" x="-97.79" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="-97.79" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V" x="-97.79" y="-332.74" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="200V" x="-97.79" y="-332.74" size="1.778" layer="27" display="off"/>
+>>>>>>> Stashed changes
 </element>
 </elements>
 <signals>
@@ -1702,14 +1765,20 @@ design rules under a new name.</description>
 <contactref element="U14" pad="3"/>
 <contactref element="U15" pad="3"/>
 <contactref element="A3" pad="2"/>
+<<<<<<< Updated upstream
 <contactref element="U26" pad="1"/>
+=======
+>>>>>>> Stashed changes
 <contactref element="A4" pad="2"/>
 <contactref element="C24" pad="2"/>
 <contactref element="C33" pad="2"/>
 <contactref element="D6" pad="1"/>
 <contactref element="TP_GND" pad="1"/>
+<<<<<<< Updated upstream
 <contactref element="C37" pad="2"/>
 <contactref element="C36" pad="2"/>
+=======
+>>>>>>> Stashed changes
 <contactref element="R2" pad="1"/>
 <contactref element="R10" pad="1"/>
 <contactref element="R1" pad="1"/>
@@ -1736,6 +1805,7 @@ design rules under a new name.</description>
 <wire x1="-94.325" y1="-153.67" x2="-98.135" y2="-153.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-90.515" y1="-153.67" x2="-94.325" y2="-153.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-86.88" y1="-157.48" x2="-90.515" y2="-153.67" width="0" layer="19" extent="1-1"/>
+<<<<<<< Updated upstream
 <wire x1="-83.07" y1="-157.48" x2="-86.88" y2="-157.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-79.26" y1="-157.48" x2="-83.07" y2="-157.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-84.67" y1="-161.29" x2="-83.07" y2="-157.48" width="0" layer="19" extent="1-1"/>
@@ -1749,6 +1819,18 @@ design rules under a new name.</description>
 <wire x1="-57.15" y1="-139.7" x2="-75.96" y2="-134.01" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.38" y1="-157.48" x2="-57.15" y2="-139.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.57" y1="-157.48" x2="-50.38" y2="-157.48" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="-84.67" y1="-161.29" x2="-86.88" y2="-157.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-99.91" y1="-161.29" x2="-98.135" y2="-153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.4" y1="-165.1635" x2="-99.91" y2="-161.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.31" y1="-165.1635" x2="-84.67" y2="-161.29" width="0" layer="19" extent="1-1"/>
+<wire x1="-84.53" y1="-139.7" x2="-90.515" y2="-153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-83.82" y1="-132.08" x2="-84.53" y2="-139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.25" y1="-132.08" x2="-83.82" y2="-132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.38" y1="-157.48" x2="-70.31" y2="-165.1635" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.57" y1="-157.48" x2="-50.38" y2="-157.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.15" y1="-139.7" x2="-50.38" y2="-157.48" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 <wire x1="-75.16" y1="-209.1563" x2="-70.31" y2="-165.1635" width="0" layer="19" extent="1-1"/>
 <wire x1="-98.425" y1="-245.0465" x2="-75.16" y2="-209.1563" width="0" layer="19" extent="1-1"/>
 <wire x1="-97.155" y1="-250.2535" x2="-98.425" y2="-245.0465" width="0" layer="19" extent="1-1"/>
@@ -1818,6 +1900,7 @@ design rules under a new name.</description>
 <contactref element="A3" pad="3"/>
 <contactref element="TP_5V" pad="1"/>
 <contactref element="5V" pad="2"/>
+<<<<<<< Updated upstream
 <contactref element="U26" pad="3"/>
 <contactref element="C37" pad="1"/>
 <contactref element="U27" pad="3"/>
@@ -1828,6 +1911,14 @@ design rules under a new name.</description>
 <wire x1="-85.09" y1="-147.32" x2="-88.38" y2="-157.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-92.71" y1="-132.08" x2="-85.09" y2="-147.32" width="0" layer="19" extent="1-1"/>
 <wire x1="-71.36" y1="-134.01" x2="-85.09" y2="-147.32" width="0" layer="19" extent="1-1"/>
+=======
+<contactref element="U27" pad="3"/>
+<contactref element="C38" pad="2"/>
+<contactref element="C39" pad="2"/>
+<wire x1="-98.235" y1="-157.48" x2="-88.38" y2="-157.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.09" y1="-147.32" x2="-88.38" y2="-157.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-92.71" y1="-132.08" x2="-85.09" y2="-147.32" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 <wire x1="-98.77" y1="-65.66" x2="-92.71" y2="-132.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-98.77" y1="-59.31" x2="-98.77" y2="-65.66" width="0" layer="19" extent="1-1"/>
 <wire x1="-98.77" y1="-52.96" x2="-98.77" y2="-59.31" width="0" layer="19" extent="1-1"/>
@@ -1910,6 +2001,7 @@ design rules under a new name.</description>
 <signal name="SSOK">
 <contactref element="TP_SSOK" pad="1"/>
 <contactref element="J2" pad="7"/>
+<<<<<<< Updated upstream
 <contactref element="R3" pad="1"/>
 <contactref element="D2" pad="2"/>
 <wire x1="-98.64" y1="-265.43" x2="-94.54" y2="-297.18" width="0" layer="19" extent="1-1"/>
@@ -1922,10 +2014,25 @@ design rules under a new name.</description>
 <contactref element="A2" pad="D14"/>
 <wire x1="-96.94" y1="-265.43" x2="-98.64" y2="-280.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.532" y1="72.39" x2="-96.94" y2="-265.43" width="0" layer="19" extent="1-1"/>
+=======
+<contactref element="D2" pad="2"/>
+<contactref element="R15" pad="1"/>
+<wire x1="-94.54" y1="-297.18" x2="-98.64" y2="-321.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.4" y1="-165.1635" x2="-94.54" y2="-297.18" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.45" y1="110.49" x2="-90.4" y2="-165.1635" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SSOK_READ">
+<contactref element="R7" pad="1"/>
+<contactref element="A2" pad="D14"/>
+<contactref element="R15" pad="2"/>
+<wire x1="-98.64" y1="-280.67" x2="-96.94" y2="-321.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.532" y1="72.39" x2="-98.64" y2="-280.67" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="BOTS">
 <contactref element="TP_BOTS" pad="1"/>
 <contactref element="J2" pad="5"/>
+<<<<<<< Updated upstream
 <contactref element="R5" pad="1"/>
 <contactref element="D4" pad="2"/>
 <wire x1="-98.64" y1="-273.05" x2="-84.4" y2="-165.1635" width="0" layer="19" extent="1-1"/>
@@ -1938,6 +2045,20 @@ design rules under a new name.</description>
 <contactref element="A2" pad="D16"/>
 <wire x1="-96.94" y1="-273.05" x2="-98.64" y2="-288.29" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.532" y1="67.31" x2="-96.94" y2="-273.05" width="0" layer="19" extent="1-1"/>
+=======
+<contactref element="D4" pad="2"/>
+<contactref element="R4" pad="1"/>
+<wire x1="-94.54" y1="-309.88" x2="-84.4" y2="-165.1635" width="0" layer="19" extent="1-1"/>
+<wire x1="-99.91" y1="-328.93" x2="-94.54" y2="-309.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.85" y1="110.49" x2="-84.4" y2="-165.1635" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BOTS_READ">
+<contactref element="R12" pad="1"/>
+<contactref element="A2" pad="D16"/>
+<contactref element="R4" pad="2"/>
+<wire x1="-98.64" y1="-288.29" x2="-98.21" y2="-328.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.532" y1="67.31" x2="-98.64" y2="-288.29" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="A2">
 <contactref element="RN2" pad="1"/>
@@ -1977,10 +2098,17 @@ design rules under a new name.</description>
 <signal name="INERTIA">
 <contactref element="TP_INERTIA" pad="1"/>
 <contactref element="J2" pad="6"/>
+<<<<<<< Updated upstream
 <contactref element="R4" pad="1"/>
 <contactref element="D3" pad="2"/>
 <wire x1="-98.64" y1="-269.24" x2="-87.4" y2="-165.1635" width="0" layer="19" extent="1-1"/>
 <wire x1="-94.54" y1="-303.53" x2="-98.64" y2="-269.24" width="0" layer="19" extent="1-1"/>
+=======
+<contactref element="D3" pad="2"/>
+<contactref element="R3" pad="1"/>
+<wire x1="-94.54" y1="-303.53" x2="-87.4" y2="-165.1635" width="0" layer="19" extent="1-1"/>
+<wire x1="-99.91" y1="-325.12" x2="-94.54" y2="-303.53" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 <wire x1="-57.15" y1="110.49" x2="-87.4" y2="-165.1635" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
@@ -2019,11 +2147,19 @@ design rules under a new name.</description>
 <wire x1="-80.01" y1="41.3" x2="-19.12" y2="103.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INERTIA_READ">
+<<<<<<< Updated upstream
 <contactref element="R4" pad="2"/>
 <contactref element="R8" pad="1"/>
 <contactref element="A2" pad="D15"/>
 <wire x1="-96.94" y1="-269.24" x2="-98.64" y2="-284.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-69.088" y1="69.85" x2="-96.94" y2="-269.24" width="0" layer="19" extent="1-1"/>
+=======
+<contactref element="R8" pad="1"/>
+<contactref element="A2" pad="D15"/>
+<contactref element="R3" pad="2"/>
+<wire x1="-98.64" y1="-284.48" x2="-98.21" y2="-325.12" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.088" y1="69.85" x2="-98.64" y2="-284.48" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="CLK">
 <contactref element="U3" pad="1"/>
@@ -2048,6 +2184,7 @@ design rules under a new name.</description>
 <signal name="BRB">
 <contactref element="TP_BRB" pad="1"/>
 <contactref element="J2" pad="2"/>
+<<<<<<< Updated upstream
 <contactref element="R6" pad="1"/>
 <contactref element="D5" pad="2"/>
 <wire x1="-98.64" y1="-276.86" x2="-94.54" y2="-316.23" width="0" layer="19" extent="1-1"/>
@@ -2060,6 +2197,20 @@ design rules under a new name.</description>
 <contactref element="A2" pad="D17"/>
 <wire x1="-96.94" y1="-276.86" x2="-98.64" y2="-292.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-69.088" y1="64.77" x2="-96.94" y2="-276.86" width="0" layer="19" extent="1-1"/>
+=======
+<contactref element="D5" pad="2"/>
+<contactref element="R5" pad="1"/>
+<wire x1="-94.54" y1="-316.23" x2="-99.91" y2="-332.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.4" y1="-169.7863" x2="-94.54" y2="-316.23" width="0" layer="19" extent="1-1"/>
+<wire x1="-97.79" y1="95.25" x2="-87.4" y2="-169.7863" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BRB_READ">
+<contactref element="R14" pad="1"/>
+<contactref element="A2" pad="D17"/>
+<contactref element="R5" pad="2"/>
+<wire x1="-98.64" y1="-292.1" x2="-98.21" y2="-332.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.088" y1="64.77" x2="-98.64" y2="-292.1" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="+3V3">
 <contactref element="A2" pad="3.3V"/>
@@ -2067,6 +2218,7 @@ design rules under a new name.</description>
 <contactref element="TP_3.3V" pad="1"/>
 <contactref element="U27" pad="5"/>
 <contactref element="C34" pad="2"/>
+<<<<<<< Updated upstream
 <contactref element="C36" pad="1"/>
 <contactref element="U26" pad="2"/>
 <contactref element="U26" pad="4"/>
@@ -2077,6 +2229,12 @@ design rules under a new name.</description>
 <wire x1="-94.615" y1="-245.0465" x2="-84.57" y2="-157.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-98.31" y1="-257.81" x2="-94.615" y2="-245.0465" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.532" y1="46.99" x2="-73.66" y2="-127.61" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="-44.895" y1="-152.4" x2="-63.5" y2="-139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-94.615" y1="-245.0465" x2="-44.895" y2="-152.4" width="0" layer="19" extent="1-1"/>
+<wire x1="-98.31" y1="-257.81" x2="-94.615" y2="-245.0465" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.532" y1="46.99" x2="-63.5" y2="-139.7" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="NEOPIXEL_CTRL">
 <contactref element="U7" pad="4"/>
@@ -2198,12 +2356,21 @@ design rules under a new name.</description>
 <contactref element="U17" pad="2"/>
 <contactref element="U18" pad="4"/>
 <wire x1="-94.27" y1="-65.66" x2="-98.77" y2="-62.61" width="0" layer="19" extent="1-1"/>
+<<<<<<< Updated upstream
 </signal>
 <signal name="N$11">
 <contactref element="U4" pad="4"/>
 <contactref element="U18" pad="2"/>
 <wire x1="-94.27" y1="-40.26" x2="-98.77" y2="-68.96" width="0" layer="19" extent="1-1"/>
 </signal>
+=======
+</signal>
+<signal name="N$11">
+<contactref element="U4" pad="4"/>
+<contactref element="U18" pad="2"/>
+<wire x1="-94.27" y1="-40.26" x2="-98.77" y2="-68.96" width="0" layer="19" extent="1-1"/>
+</signal>
+>>>>>>> Stashed changes
 <signal name="N$12">
 <contactref element="U14" pad="2"/>
 <contactref element="U15" pad="4"/>
@@ -2233,24 +2400,41 @@ design rules under a new name.</description>
 <contactref element="A4" pad="1"/>
 <contactref element="C8" pad="1"/>
 <contactref element="24V" pad="2"/>
+<<<<<<< Updated upstream
 <contactref element="J3" pad="1"/>
 <contactref element="J2" pad="1"/>
 <wire x1="-96.175" y1="-153.67" x2="-99.985" y2="-153.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-90.615" y1="-157.48" x2="-96.175" y2="-153.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-84.4" y1="-169.7863" x2="-90.615" y2="-157.48" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="-96.175" y1="-153.67" x2="-99.985" y2="-153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.615" y1="-157.48" x2="-96.175" y2="-153.67" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 <wire x1="-97.79" y1="-132.08" x2="-96.175" y2="-153.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-86.36" y1="-132.08" x2="-97.79" y2="-132.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-69.85" y1="-139.7" x2="-86.36" y2="-132.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.007" y1="-131.2418" x2="-69.85" y2="-139.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.007" y1="-127.8382" x2="-56.007" y2="-131.2418" width="0" layer="19" extent="1-1"/>
+<<<<<<< Updated upstream
 <wire x1="-72.16" y1="-209.1563" x2="-84.4" y2="-169.7863" width="0" layer="19" extent="1-1"/>
+=======
+>>>>>>> Stashed changes
 </signal>
 <signal name="24VIN">
 <contactref element="XF2" pad="1"/>
 <contactref element="XF2" pad="2"/>
 <contactref element="D6" pad="2"/>
+<<<<<<< Updated upstream
 <wire x1="-65.913" y1="-131.2418" x2="-80.57" y2="-139.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.913" y1="-127.8382" x2="-65.913" y2="-131.2418" width="0" layer="19" extent="1-1"/>
+=======
+<contactref element="J3" pad="1"/>
+<contactref element="J2" pad="1"/>
+<wire x1="-80.57" y1="-139.7" x2="-84.4" y2="-169.7863" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.913" y1="-131.2418" x2="-80.57" y2="-139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.913" y1="-127.8382" x2="-65.913" y2="-131.2418" width="0" layer="19" extent="1-1"/>
+<wire x1="-72.16" y1="-209.1563" x2="-84.4" y2="-169.7863" width="0" layer="19" extent="1-1"/>
+>>>>>>> Stashed changes
 </signal>
 <signal name="N$31">
 <contactref element="3.3V" pad="1"/>
