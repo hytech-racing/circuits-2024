@@ -8780,9 +8780,6 @@ Layer: 94 Symbol</description>
 <description>Teensy, CAN, IO-Expander, 7-Segment</description>
 <plain>
 <text x="129.54" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
-<text x="195.58" y="9.398" size="2.54" layer="97">Schematic of Dashboard PCB for HT05 :
-Microcontroller, CAN, 7-Segment Display
-Connectors</text>
 <text x="228.6" y="177.8" size="1.778" layer="97">Error Codes</text>
 </plain>
 <instances>
@@ -9449,8 +9446,6 @@ Connectors</text>
 <plain>
 <text x="63.5" y="149.86" size="1.778" layer="97">SSOK</text>
 <text x="63.5" y="124.46" size="1.778" layer="97">INERTIA</text>
-<text x="195.58" y="12.7" size="2.54" layer="97">Schematic of Dashboard PCB for HT05 :
-Shutdown and Buzzer Control Circuitry</text>
 <text x="63.5" y="73.66" size="1.778" layer="97">COCKPIT_BRB</text>
 <text x="63.5" y="99.06" size="1.778" layer="97">BOTS</text>
 <text x="60.96" y="142.24" size="1.778" layer="97">24V to 3.3V</text>
@@ -9849,22 +9844,20 @@ Shutdown and Buzzer Control Circuitry</text>
 <sheet>
 <description>Neopixels</description>
 <plain>
-<text x="195.58" y="12.7" size="2.54" layer="97">Schematic of Dashboard PCB for HT05 :
-Error and State LEDs</text>
 <text x="43.18" y="205.74" size="1.778" layer="97">GND to Neopixel MUST connect first (shorter trace)</text>
-<text x="134.62" y="185.42" size="1.778" layer="91">SSOK</text>
-<text x="165.1" y="185.42" size="1.778" layer="91">INERTIA</text>
-<text x="43.18" y="144.78" size="1.778" layer="91">BOTS</text>
-<text x="73.66" y="144.78" size="1.778" layer="91">COCKPIT_BRB</text>
-<text x="43.18" y="185.42" size="1.778" layer="91">AMS</text>
-<text x="73.66" y="185.42" size="1.778" layer="91">IMD</text>
-<text x="104.14" y="185.42" size="1.778" layer="91">MC_ERR</text>
-<text x="104.14" y="144.78" size="1.778" layer="91">CRIT_CHARGE</text>
-<text x="73.66" y="104.14" size="1.778" layer="91">TORQUE_MODE</text>
-<text x="104.14" y="104.14" size="1.778" layer="91">RDY_DRIVE</text>
-<text x="134.62" y="144.78" size="1.778" layer="91">GLV</text>
-<text x="165.1" y="144.78" size="1.778" layer="91">BRAKE_ENGAGE</text>
-<text x="43.18" y="104.14" size="1.778" layer="91">LAUNCH_CTRL</text>
+<text x="134.62" y="185.42" size="1.778" layer="97">SSOK</text>
+<text x="165.1" y="185.42" size="1.778" layer="97">INERTIA</text>
+<text x="43.18" y="144.78" size="1.778" layer="97">BOTS</text>
+<text x="73.66" y="144.78" size="1.778" layer="97">COCKPIT_BRB</text>
+<text x="43.18" y="185.42" size="1.778" layer="97">AMS</text>
+<text x="73.66" y="185.42" size="1.778" layer="97">IMD</text>
+<text x="104.14" y="185.42" size="1.778" layer="97">MC_ERR</text>
+<text x="104.14" y="144.78" size="1.778" layer="97">CRIT_CHARGE</text>
+<text x="73.66" y="104.14" size="1.778" layer="97">TORQUE_MODE</text>
+<text x="104.14" y="104.14" size="1.778" layer="97">RDY_DRIVE</text>
+<text x="134.62" y="144.78" size="1.778" layer="97">GLV</text>
+<text x="165.1" y="144.78" size="1.778" layer="97">BRAKE_ENGAGE</text>
+<text x="43.18" y="104.14" size="1.778" layer="97">LAUNCH_CTRL</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
