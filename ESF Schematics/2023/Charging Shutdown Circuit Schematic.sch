@@ -518,7 +518,7 @@ Controller</text>
 <wire x1="3.048" y1="-1.016" x2="3.81" y2="-0.254" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-0.254" x2="2.794" y2="-0.254" width="0.254" layer="94"/>
 <text x="0" y="-2.54" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
-<pin name="TS-UNFUSED" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<pin name="TS-FUSED" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.905" y1="-1.778" x2="1.905" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="-1.905" y1="-0.889" x2="1.905" y2="-0.889" width="0.254" layer="94"/>
@@ -529,7 +529,7 @@ Controller</text>
 </symbol>
 <symbol name="TS+FUSED">
 <text x="0" y="5.08" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="TS+" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="TS+FUSED" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <wire x1="2.54" y1="3.556" x2="2.032" y2="2.794" width="0.254" layer="94"/>
 <wire x1="2.032" y1="2.794" x2="2.667" y2="2.286" width="0.254" layer="94"/>
 <wire x1="2.667" y1="2.286" x2="2.286" y2="1.524" width="0.254" layer="94"/>
@@ -817,9 +817,10 @@ Controller</text>
 <deviceset name="SWITCH_SPST_*" prefix="S">
 <description>Single Pull Single Throw Switch
 &lt;ul&gt;
-
+&lt;li&gt;&lt;a href  = "https://eao.com/fileadmin/documents/PDFs/en/03_brochures/EAO_PB_61_E-Stop_Compact_EN.pdf"&gt;EAO Series 61 27mm Illuminated Emergency Stop Swtich&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href  = "https://hmi.eao.com/p/965f6719"&gt;EAO Series 45 40mm Illuminated Emergency Stop Swtich&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href  = "https://hmi.eao.com/p/5909b34f"&gt;EAO Series 45 34mm Illuminated Emergency Stop Switch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href  = "https://www.mouser.com/datasheet/2/418/8/ENG_CD_35_210_100_R_900_5-2533843.pdf"&gt;TE Battery Disconnector Switch&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="SPST" symbol="SWITCH_SPST" x="0" y="0"/>
@@ -832,14 +833,29 @@ Controller</text>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
+<technology name="27MM_STOP">
+<attribute name="MANUFACTURER" value="EAO"/>
+<attribute name="MPN" value="Series 61 E-Stop"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
 <technology name="34MM_STOP">
 <attribute name="MANUFACTURER" value="EAO"/>
-<attribute name="MPN" value="Series 45"/>
+<attribute name="MPN" value="Series 45 E-Stop"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="35-210-100-R-900">
+<attribute name="MANUFACTURER" value="TE-Kissling"/>
+<attribute name="MPN" value="35-210-100-R-900"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 <technology name="40MM_STOP">
 <attribute name="MANUFACTURER" value="EAO"/>
-<attribute name="MPN" value="Series 45"/>
+<attribute name="MPN" value="Series 45 E-Stop"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="INERTIA_SWITCH">
+<attribute name="MANUFACTURER" value="Sensata"/>
+<attribute name="MPN" value="Crash Sensor"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -905,11 +921,6 @@ Controller</text>
 <attribute name="MPN" value="ASMFP30-1X2-RK"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
-<technology name="DY6-1ZP">
-<attribute name="MANUFACTURER" value="XINXI"/>
-<attribute name="MPN" value="DY6-1ZP"/>
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
 <technology name="EVH2-N2TK-TDA">
 <attribute name="MANUFACTURER" value="Jonhon"/>
 <attribute name="MPN" value="EVH2-N2TK-TDA" constant="no"/>
@@ -928,6 +939,11 @@ Controller</text>
 <technology name="HVP800">
 <attribute name="MANUFACTURER" value="TE"/>
 <attribute name="MPN" value="HVP800"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="XXC104-EV-P1ZA">
+<attribute name="MANUFACTURER" value="XINXI"/>
+<attribute name="MPN" value="XXC104-EV-P1ZA"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -3729,8 +3745,8 @@ Layer: 94 Symbol</description>
 <part name="P10" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="J14" library="HyTechSymbolsTemp" deviceset="CONNECTOR-3_*" device="" technology="NEMA-5-20"/>
 <part name="J15" library="HyTechSymbolsTemp" deviceset="CONNECTOR-3_*" device="" technology="NEMA-5-20"/>
-<part name="J16" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="DY6-1ZP" value="CONNECTOR-2_DY6-1ZP"/>
-<part name="J17" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="DY6-1ZP" value="CONNECTOR-2_DY6-1ZP"/>
+<part name="J16" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="XXC104-EV-P1ZA" value="CONNECTOR-2_"/>
+<part name="J17" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="XXC104-EV-P1ZA" value="CONNECTOR-2_"/>
 <part name="LATCHING_BUTTON" library="HyTechSymbolsTemp" deviceset="BUTTON_NO_*" device="" technology="LP9"/>
 <part name="S1" library="HyTechSymbols" deviceset="SWITCH_SPST_*" device="">
 <attribute name="MPN" value="CHARGER_ESTOP"/>
@@ -4313,14 +4329,14 @@ AC Power</text>
 <segment>
 <pinref part="U$12" gate="G$1" pin="XLA+(HV+)"/>
 <wire x1="20.32" y1="81.28" x2="17.78" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$14" gate="G$1" pin="TS+"/>
+<pinref part="U$14" gate="G$1" pin="TS+FUSED"/>
 </segment>
 </net>
 <net name="TS-UNFUSED" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="XLA-(HV-)"/>
 <wire x1="20.32" y1="78.74" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="U$13" gate="G$1" pin="TS-FUSED"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -4421,8 +4437,8 @@ AC Power</text>
 <net name="N$40" class="0">
 <segment>
 <pinref part="J16" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="96.52" x2="193.04" y2="93.98" width="0.3048" layer="91"/>
-<wire x1="193.04" y1="93.98" x2="198.12" y2="93.98" width="0.3048" layer="91"/>
+<wire x1="193.04" y1="96.52" x2="198.12" y2="96.52" width="0.3048" layer="91"/>
+<wire x1="198.12" y1="96.52" x2="198.12" y2="93.98" width="0.3048" layer="91"/>
 <pinref part="A3" gate="G$1" pin="TS-"/>
 </segment>
 </net>

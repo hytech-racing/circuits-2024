@@ -3431,7 +3431,6 @@ KW26-S5-FSE-4Q </text>
 <text x="12.7" y="38.1" size="3.048" layer="97" align="top-left">Wire Gauge Key</text>
 <text x="12.7" y="30.48" size="1.778" layer="97" align="top-left">35mm^2:</text>
 <text x="63.5" y="139.7" size="1.27" layer="97">6mm^2</text>
-<text x="91.44" y="93.98" size="1.27" layer="97" rot="R90">35mm^2</text>
 <text x="63.5" y="73.66" size="1.27" layer="97">35mm^2</text>
 <text x="63.5" y="66.04" size="1.778" layer="95">HVD</text>
 <wire x1="10.16" y1="40.64" x2="10.16" y2="2.54" width="0.8128" layer="97" style="shortdash"/>
