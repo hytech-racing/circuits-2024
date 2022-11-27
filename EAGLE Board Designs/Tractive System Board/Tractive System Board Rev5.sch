@@ -6276,15 +6276,15 @@ Based on page 10.</description>
 <text x="-2.921" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="SMA">
-<smd name="C" x="-2" y="0" dx="2.5" dy="1.7" layer="1"/>
-<smd name="A" x="2" y="0" dx="2.5" dy="1.7" layer="1"/>
-<wire x1="-2.3" y1="1.45" x2="-2.3" y2="-1.45" width="0.1524" layer="21"/>
-<wire x1="-2.3" y1="-1.45" x2="2.3" y2="-1.45" width="0.1524" layer="21"/>
+<smd name="C" x="2" y="0" dx="2.5" dy="1.7" layer="1" rot="R180"/>
+<smd name="A" x="-2" y="0" dx="2.5" dy="1.7" layer="1" rot="R180"/>
 <wire x1="2.3" y1="-1.45" x2="2.3" y2="1.45" width="0.1524" layer="21"/>
 <wire x1="2.3" y1="1.45" x2="-2.3" y2="1.45" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.3716" x2="-1.27" y2="-1.3716" width="0.3048" layer="21"/>
-<text x="0" y="1.651" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-3.556" y1="-1.778" x2="3.556" y2="1.778" layer="39"/>
+<wire x1="-2.3" y1="1.45" x2="-2.3" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="-2.3" y1="-1.45" x2="2.3" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.3716" x2="1.27" y2="1.3716" width="0.3048" layer="21"/>
+<text x="0" y="1.778" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-3.556" y1="-1.778" x2="3.556" y2="1.778" layer="39" rot="R180"/>
 </package>
 <package name="PQ2620">
 <pad name="1" x="-12.7" y="11.43" drill="1.1"/>
@@ -6783,6 +6783,7 @@ Isolated Flyback Controller
 <text x="0" y="-36.322" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 <pin name="VIN" x="-2.54" y="-2.54" length="short" direction="in"/>
 <pin name="BIAS" x="27.94" y="-2.54" length="short" rot="R180"/>
+<pin name="P$1" x="17.78" y="-38.1" visible="off" length="short" direction="out" rot="R90"/>
 </symbol>
 <symbol name="DIODE_ZENER">
 <wire x1="0" y1="0.762" x2="0" y2="-0.762" width="0.1524" layer="94"/>
@@ -9590,7 +9591,11 @@ AB38S-Q
 <deviceset name="RECTIFIER_*_?" prefix="D">
 <description>Diodes Incorporated US1GWF
 &lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/115/DIOD_S_A0003383552_1-2542294.pdf"&gt;Datasheet&lt;/a&gt;</description>
+&lt;a href="https://www.mouser.com/datasheet/2/115/DIOD_S_A0003383552_1-2542294.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+Diodes Incorporated US1M
+&lt;br&gt;
+&lt;a href="https://www.diodes.com/assets/Datasheets/ds16008.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODE-1" x="0" y="0"/>
 </gates>
@@ -9617,13 +9622,13 @@ AB38S-Q
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="1000V">
 <attribute name="CURRENT" value="1A"/>
 <attribute name="DKPN" value="US1M-FDITR-ND"/>
 <attribute name="MANUFACTURER" value="Diodes Incorporated"/>
-<attribute name="MOPN" value=""/>
+<attribute name="MOPN" value="621-US1M-F"/>
 <attribute name="MPN" value="US1M-13-F"/>
-<attribute name="VOLTAGE" value="1000"/>
+<attribute name="VOLTAGE" value="1000V"/>
 </technology>
 </technologies>
 </device>
@@ -9676,6 +9681,7 @@ Isolated Flyback Controller
 <connect gate="G$1" pin="GND" pad="15 20"/>
 <connect gate="G$1" pin="INTVCC" pad="8"/>
 <connect gate="G$1" pin="IREG" pad="14"/>
+<connect gate="G$1" pin="P$1" pad="THERMAL"/>
 <connect gate="G$1" pin="SENSE" pad="18"/>
 <connect gate="G$1" pin="SMODE" pad="16"/>
 <connect gate="G$1" pin="TC" pad="11"/>
@@ -10131,6 +10137,134 @@ Isolated Flyback Controller
 </deviceset>
 </devicesets>
 </library>
+<library name="HyTechTemp">
+<packages>
+<package name="A759">
+<description>A759 Series Aluminium Hybrid Electrolytic Capacitor &lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;a/&gt;</description>
+<pad name="PLUS" x="-1" y="0" drill="0.65"/>
+<pad name="MINUS" x="1" y="0" drill="0.65"/>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
+<text x="3.11" y="0" size="1.778" layer="21" align="center">-</text>
+<text x="-3.6" y="0" size="1.778" layer="21" align="center">+</text>
+<text x="0" y="3" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="1.5" width="3.1" layer="39"/>
+<circle x="-1" y="0" radius="0.5" width="1" layer="40"/>
+<circle x="1" y="0" radius="0.5" width="1" layer="40"/>
+</package>
+<package name="EEH-AZS">
+<description>EEH-AZS Aluminum Polymer-Hybrid Electrolytic Capacitor
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pad name="PLUS" x="-2.5" y="0" drill="1"/>
+<pad name="MINUS" x="2.5" y="0" drill="1"/>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
+<text x="6" y="0" size="1.778" layer="21" align="center">-</text>
+<text x="-6" y="0" size="1.778" layer="21" align="center">+</text>
+<text x="0" y="6" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3" width="6" layer="39"/>
+<circle x="-2.54" y="0" radius="0.508" width="1.016" layer="40"/>
+<circle x="2.54" y="0" radius="0.508" width="1.016" layer="40"/>
+</package>
+<package name="EEU-FP1E*">
+<description>EEUFP1E Aluminum Electrolytic Capacitor &lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/RDF0000C1260-1391675.pdf"&gt;Datasheet&lt;a/&gt;</description>
+<pad name="PLUS" x="-2.49999375" y="0" drill="0.650240625" first="yes"/>
+<pad name="MINUS" x="2.49999375" y="0" drill="0.650240625"/>
+<circle x="0" y="0" radius="4.99871875" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="5.6796125" width="0" layer="39"/>
+<circle x="0" y="0" radius="5.6796125" width="0" layer="40"/>
+<text x="0" y="5.715" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-6.223" y="0" size="0.8128" layer="21" align="center">+</text>
+<text x="6.223" y="0" size="0.8128" layer="21" align="center">-</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPACITOR_POLARIZED">
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
+<text x="-1.27" y="2.54" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-3.81" y1="-0.254" x2="0.254" y2="0.254" layer="94" rot="R270"/>
+<pin name="MINUS" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="PLUS" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<text x="-3.175" y="1.27" size="1.778" layer="94" rot="R90" align="center">+</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="96" align="top-center">&gt;VOLTAGE</text>
+<text x="-1.27" y="-4.318" size="1.27" layer="96" align="top-center">&gt;CAPACITANCE</text>
+<wire x1="1.0414" y1="1.778" x2="1.016" y2="-1.778" width="0.508" layer="94" curve="180" cap="flat"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CAPACITOR_ELECTROLYTIC_?_*" prefix="C">
+<description>A759 Series Aluminium Hybrid Electrolytic Capacitor &lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+EEH_AZS Hybrid Electrolytic Capacitor &lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/RDF0000C1260-1391675.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A759" package="A759">
+<connects>
+<connect gate="G$1" pin="MINUS" pad="MINUS"/>
+<connect gate="G$1" pin="PLUS" pad="PLUS"/>
+</connects>
+<technologies>
+<technology name="180UF">
+<attribute name="CAPACITANCE" value="180uF"/>
+<attribute name="DKPN" value="399-A759KR187M1VAAE024-ND"/>
+<attribute name="ESR" value="24mOhms"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOPN" value="80-A759KR187M1VAAE24"/>
+<attribute name="MPN" value="A759KR187M1VAAE024"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+</technologies>
+</device>
+<device name="EEH_AZS" package="EEH-AZS">
+<connects>
+<connect gate="G$1" pin="MINUS" pad="MINUS"/>
+<connect gate="G$1" pin="PLUS" pad="PLUS"/>
+</connects>
+<technologies>
+<technology name="470UF">
+<attribute name="CAPACITANCE" value="470uF"/>
+<attribute name="DKPN" value="10-EEH-AZS1V471BCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-EEH-AZS1V471B"/>
+<attribute name="MPN" value="EEH-AZS1V471B"/>
+<attribute name="TOLERANCE" value="20&amp;"/>
+<attribute name="VOLTAGE" value="35V"/>
+</technology>
+</technologies>
+</device>
+<device name="EEU-FP1E" package="EEU-FP1E*">
+<connects>
+<connect gate="G$1" pin="MINUS" pad="MINUS"/>
+<connect gate="G$1" pin="PLUS" pad="PLUS"/>
+</connects>
+<technologies>
+<technology name="680UF">
+<attribute name="CAPACITANCE" value="680uF"/>
+<attribute name="DPKN" value="P123947-ND"/>
+<attribute name="ESR" value="0.068 Ohms"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-EEU-FP1E681"/>
+<attribute name="MPN" value="EEU-FP1E681"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10189,7 +10323,7 @@ Isolated Flyback Controller
 <part name="P4" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P5" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P6" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="TP19" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="+24V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="+5V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="GND" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP18" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
@@ -10226,7 +10360,6 @@ Isolated Flyback Controller
 <part name="J2" library="HyTechDevices" deviceset="CONNECTOR-5_?_*" device="MICRO_V6S"/>
 <part name="J3" library="HyTechDevices" deviceset="CONNECTOR-5_?_*" device="MICRO_V7S"/>
 <part name="TP7" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="U$42" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$49" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device="">
 <attribute name="DESCRIPTION_1" value="Externals Sheet"/>
 <attribute name="ENGINEER" value="Cody Kaminsky"/>
@@ -10295,13 +10428,11 @@ Isolated Flyback Controller
 <part name="D4" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="DO-214AA" technology="150V" value="SCHOTTKY_DO-214AA_150V"/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="50V_10UF"/>
 <part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="100V_0.1UF"/>
-<part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="25V_33UF"/>
-<part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="25V_33UF"/>
 <part name="TS+12V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TS-FUSED" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="D2" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
-<part name="D7" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SMA"/>
+<part name="D7" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SMA" technology="1000V"/>
 <part name="U$1" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="U$2" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="P21" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
@@ -10312,7 +10443,7 @@ Isolated Flyback Controller
 <part name="U$8" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="P11" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="P12" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
-<part name="P15" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
+<part name="P15" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="P2" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180"/>
 <part name="C8" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
@@ -10323,13 +10454,12 @@ Isolated Flyback Controller
 <part name="Q2" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="POWERFLAT5X6" technology="STL2N80K5"/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="0.02"/>
 <part name="U$5" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
-<part name="C2" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="35V_22UF"/>
-<part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="35V_22UF"/>
-<part name="C13" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="35V_22UF"/>
 <part name="D3" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="DO-214AA" technology="150V"/>
 <part name="U$6" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="C14" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_4.7UF"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10"/>
+<part name="C2" library="HyTechTemp" deviceset="CAPACITOR_ELECTROLYTIC_?_*" device="A759" technology="180UF"/>
+<part name="P24" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10570,23 +10700,13 @@ Isolated Flyback Controller
 <attribute name="VOLTAGE" x="237.49" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="239.268" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="C9" gate="G$1" x="245.11" y="214.63" smashed="yes" rot="R90">
-<attribute name="NAME" x="242.57" y="213.36" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="247.65" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="249.428" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="TS+12V" gate="G$1" x="259.08" y="218.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="261.62" y="216.662" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="261.62" y="220.218" size="1.27" layer="95" rot="R180" align="top-left"/>
 </instance>
-<instance part="C10" gate="G$1" x="255.27" y="214.63" smashed="yes" rot="R90">
-<attribute name="NAME" x="252.73" y="213.36" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="257.81" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="259.588" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="TS+12V" gate="G$1" x="292.1" y="218.44" smashed="yes" rot="R180">
-<attribute name="NAME" x="294.64" y="216.662" size="1.27" layer="95" rot="R180"/>
-<attribute name="MPN" x="294.64" y="220.218" size="1.27" layer="95" rot="R180" align="top-left"/>
-</instance>
-<instance part="TS-FUSED" gate="G$1" x="292.1" y="208.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="294.64" y="206.502" size="1.27" layer="95" rot="R180"/>
-<attribute name="MPN" x="294.64" y="210.058" size="1.27" layer="95" rot="R180" align="top-left"/>
+<instance part="TS-FUSED" gate="G$1" x="259.08" y="208.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="261.62" y="206.502" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="261.62" y="210.058" size="1.27" layer="95" rot="R180" align="top-left"/>
 </instance>
 <instance part="R38" gate="G$1" x="234.95" y="191.77" smashed="yes" rot="R90">
 <attribute name="NAME" x="233.68" y="190.5" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -10674,21 +10794,6 @@ Isolated Flyback Controller
 <instance part="U$5" gate="G$1" x="106.68" y="226.06" smashed="yes">
 <attribute name="VALUE" x="106.68" y="231.14" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C2" gate="G$1" x="264.922" y="214.63" smashed="yes" rot="R90">
-<attribute name="NAME" x="262.382" y="213.36" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="267.462" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="269.24" y="213.36" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="C3" gate="G$1" x="274.828" y="214.376" smashed="yes" rot="R90">
-<attribute name="NAME" x="272.288" y="213.106" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="277.368" y="213.106" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="279.146" y="213.106" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="C13" gate="G$1" x="284.734" y="214.376" smashed="yes" rot="R90">
-<attribute name="NAME" x="282.194" y="213.106" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="287.274" y="213.106" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="289.052" y="213.106" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="D3" gate="G$1" x="145.034" y="232.156" smashed="yes" rot="R270">
 <attribute name="NAME" x="146.939" y="233.426" size="1.27" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="MPN" x="143.129" y="233.426" size="1.27" layer="96" rot="R270" align="top-center"/>
@@ -10704,6 +10809,11 @@ Isolated Flyback Controller
 <instance part="R8" gate="G$1" x="152.4" y="203.2" smashed="yes">
 <attribute name="NAME" x="151.13" y="204.47" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="151.13" y="201.93" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="C2" gate="G$1" x="246.634" y="212.09" smashed="yes" rot="R270">
+<attribute name="NAME" x="249.174" y="213.36" size="1.27" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VOLTAGE" x="244.094" y="213.36" size="1.27" layer="96" rot="R270" align="top-center"/>
+<attribute name="CAPACITANCE" x="242.316" y="213.36" size="1.27" layer="96" rot="R270" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -10870,31 +10980,16 @@ Isolated Flyback Controller
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="224.79" y1="218.44" x2="234.95" y2="218.44" width="0.4064" layer="91"/>
 <junction x="224.79" y="218.44"/>
-<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="234.95" y1="218.44" x2="234.95" y2="217.17" width="0.4064" layer="91"/>
-<wire x1="234.95" y1="218.44" x2="245.11" y2="218.44" width="0.4064" layer="91"/>
-<wire x1="245.11" y1="218.44" x2="245.11" y2="217.17" width="0.4064" layer="91"/>
 <junction x="234.95" y="218.44"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="245.11" y1="218.44" x2="255.27" y2="218.44" width="0.4064" layer="91"/>
-<wire x1="255.27" y1="218.44" x2="255.27" y2="217.17" width="0.4064" layer="91"/>
-<junction x="245.11" y="218.44"/>
-<wire x1="289.56" y1="218.44" x2="284.734" y2="218.44" width="0.4064" layer="91"/>
 <pinref part="TS+12V" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="TS+12V"/>
-<wire x1="284.734" y1="218.44" x2="274.828" y2="218.44" width="0.4064" layer="91"/>
-<wire x1="274.828" y1="218.44" x2="264.922" y2="218.44" width="0.4064" layer="91"/>
-<wire x1="264.922" y1="218.44" x2="255.27" y2="218.44" width="0.4064" layer="91"/>
+<wire x1="256.54" y1="218.44" x2="246.634" y2="218.44" width="0.4064" layer="91"/>
+<wire x1="246.634" y1="218.44" x2="234.95" y2="218.44" width="0.4064" layer="91"/>
 <wire x1="224.79" y1="218.44" x2="224.79" y2="226.314" width="0.4064" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="274.828" y1="216.916" x2="274.828" y2="218.44" width="0.4064" layer="91"/>
-<junction x="274.828" y="218.44"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="284.734" y1="216.916" x2="284.734" y2="218.44" width="0.4064" layer="91"/>
-<junction x="284.734" y="218.44"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="264.922" y1="217.17" x2="264.922" y2="218.44" width="0.1524" layer="91"/>
-<junction x="264.922" y="218.44"/>
+<pinref part="C2" gate="G$1" pin="PLUS"/>
+<wire x1="246.634" y1="217.17" x2="246.634" y2="218.44" width="0.1524" layer="91"/>
+<junction x="246.634" y="218.44"/>
 </segment>
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
@@ -11038,32 +11133,26 @@ Isolated Flyback Controller
 <wire x1="224.79" y1="209.55" x2="224.79" y2="208.28" width="0.4064" layer="91"/>
 <wire x1="224.79" y1="208.28" x2="204.47" y2="208.28" width="0.4064" layer="91"/>
 <pinref part="TS-FUSED" gate="G$1" pin="1"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="255.27" y1="208.28" x2="255.27" y2="209.55" width="0.4064" layer="91"/>
-<wire x1="255.27" y1="208.28" x2="264.922" y2="208.28" width="0.4064" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="264.922" y1="208.28" x2="274.828" y2="208.28" width="0.4064" layer="91"/>
-<wire x1="274.828" y1="208.28" x2="284.734" y2="208.28" width="0.4064" layer="91"/>
-<wire x1="284.734" y1="208.28" x2="289.56" y2="208.28" width="0.4064" layer="91"/>
-<wire x1="245.11" y1="208.28" x2="245.11" y2="209.55" width="0.4064" layer="91"/>
-<wire x1="245.11" y1="208.28" x2="255.27" y2="208.28" width="0.4064" layer="91"/>
-<junction x="245.11" y="208.28"/>
+<wire x1="234.95" y1="208.28" x2="246.634" y2="208.28" width="0.4064" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="246.634" y1="208.28" x2="256.54" y2="208.28" width="0.4064" layer="91"/>
 <wire x1="234.95" y1="209.55" x2="234.95" y2="208.28" width="0.4064" layer="91"/>
-<wire x1="234.95" y1="208.28" x2="245.11" y2="208.28" width="0.4064" layer="91"/>
 <junction x="234.95" y="208.28"/>
 <wire x1="234.95" y1="208.28" x2="224.79" y2="208.28" width="0.4064" layer="91"/>
 <junction x="224.79" y="208.28"/>
 <junction x="224.79" y="208.28"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="264.922" y1="209.55" x2="264.922" y2="208.28" width="0.4064" layer="91"/>
-<junction x="264.922" y="208.28"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="274.828" y1="209.296" x2="274.828" y2="208.28" width="0.4064" layer="91"/>
-<junction x="274.828" y="208.28"/>
-<pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="284.734" y1="209.296" x2="284.734" y2="208.28" width="0.4064" layer="91"/>
-<junction x="284.734" y="208.28"/>
+<pinref part="C2" gate="G$1" pin="MINUS"/>
+<wire x1="246.634" y1="209.55" x2="246.634" y2="208.28" width="0.1524" layer="91"/>
+<junction x="246.634" y="208.28"/>
+</segment>
+<segment>
+<wire x1="48.26" y1="58.42" x2="50.8" y2="58.42" width="0.6096" layer="91"/>
+<wire x1="50.8" y1="58.42" x2="53.34" y2="58.42" width="0.6096" layer="91"/>
+<wire x1="50.8" y1="58.42" x2="50.8" y2="53.34" width="0.6096" layer="91"/>
+<junction x="50.8" y="58.42"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="P15" gate="G$1" pin="TS-FUSED"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -11118,17 +11207,6 @@ Isolated Flyback Controller
 <wire x1="129.54" y1="247.65" x2="129.54" y2="246.38" width="0.4064" layer="91"/>
 <junction x="145.034" y="247.65"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="TS-UNFUSED" class="0">
-<segment>
-<wire x1="48.26" y1="58.42" x2="50.8" y2="58.42" width="0.6096" layer="91"/>
-<wire x1="50.8" y1="58.42" x2="53.34" y2="58.42" width="0.6096" layer="91"/>
-<wire x1="50.8" y1="58.42" x2="50.8" y2="53.34" width="0.6096" layer="91"/>
-<junction x="50.8" y="58.42"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="R22" gate="G$1" pin="1"/>
-<pinref part="P15" gate="G$1" pin="TS-UNFUSED"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -11319,6 +11397,12 @@ Isolated Flyback Controller
 <wire x1="147.32" y1="203.2" x2="142.24" y2="203.2" width="0.4064" layer="91"/>
 </segment>
 </net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="P$1"/>
+<wire x1="132.08" y1="187.96" x2="132.08" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -11420,7 +11504,7 @@ Isolated Flyback Controller
 <instance part="P6" gate="1" x="45.72" y="119.38" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="45.72" y="118.11" size="1.27" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="TP19" gate="G$1" x="81.28" y="193.04" smashed="yes">
+<instance part="+24V" gate="G$1" x="81.28" y="193.04" smashed="yes">
 <attribute name="NAME" x="78.74" y="194.818" size="1.27" layer="95"/>
 <attribute name="MPN" x="78.74" y="191.262" size="1.27" layer="95" align="top-left"/>
 </instance>
@@ -11542,9 +11626,6 @@ Isolated Flyback Controller
 <attribute name="NAME" x="200.66" y="138.938" size="1.27" layer="95"/>
 <attribute name="MPN" x="200.66" y="135.382" size="1.27" layer="95" align="top-left"/>
 </instance>
-<instance part="U$42" gate="G$1" x="208.28" y="134.62" smashed="yes">
-<attribute name="VALUE" x="208.28" y="132.08" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="U100" gate="G$1" x="111.76" y="134.62" smashed="yes">
 <attribute name="NAME" x="111.76" y="134.62" size="1.27" layer="95"/>
 <attribute name="MPN" x="111.76" y="116.84" size="1.27" layer="95" align="top-left"/>
@@ -11619,6 +11700,9 @@ Isolated Flyback Controller
 <instance part="R6" gate="G$1" x="243.84" y="198.12" smashed="yes">
 <attribute name="NAME" x="242.57" y="199.39" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="242.57" y="196.85" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P24" gate="G$1" x="210.82" y="134.62" smashed="yes">
+<attribute name="VALUE" x="210.82" y="132.08" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11983,7 +12067,7 @@ Isolated Flyback Controller
 <pinref part="P3" gate="G$1" pin="+24V"/>
 </segment>
 <segment>
-<pinref part="TP19" gate="G$1" pin="1"/>
+<pinref part="+24V" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="193.04" x2="86.36" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="P9" gate="G$1" pin="+24V"/>
 </segment>
@@ -12052,6 +12136,11 @@ Isolated Flyback Controller
 <pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="68.58" x2="236.22" y2="68.58" width="0.6096" layer="91"/>
 </segment>
+<segment>
+<pinref part="TP7" gate="G$1" pin="1"/>
+<pinref part="P24" gate="G$1" pin="TS-UNFUSED"/>
+<wire x1="205.74" y1="137.16" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="TS-FUSED" class="0">
 <segment>
@@ -12068,11 +12157,6 @@ Isolated Flyback Controller
 <wire x1="241.3" y1="149.86" x2="243.84" y2="149.86" width="0.6096" layer="91"/>
 <wire x1="243.84" y1="149.86" x2="243.84" y2="152.4" width="0.6096" layer="91"/>
 <junction x="243.84" y="152.4"/>
-</segment>
-<segment>
-<pinref part="TP7" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="137.16" x2="208.28" y2="137.16" width="0.6096" layer="91"/>
-<pinref part="U$42" gate="G$1" pin="TS-FUSED"/>
 </segment>
 </net>
 <net name="N$22" class="0">
