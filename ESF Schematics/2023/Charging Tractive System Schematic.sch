@@ -843,8 +843,8 @@ Controller</text>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 <technology name="10MM2">
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="10mm^2" constant="no"/>
+<attribute name="MANUFACTURER" value="Panduit Corp"/>
+<attribute name="MPN" value="S2/0-14R-C"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 <technology name="19054-0042">
@@ -853,8 +853,8 @@ Controller</text>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 <technology name="6MM2">
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="6mm^2"/>
+<attribute name="MANUFACTURER" value="Panduit Corp"/>
+<attribute name="MPN" value="LCMA10-6-C"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>

@@ -360,16 +360,6 @@
 <wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="FUSE">
-<wire x1="-1.27" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-1.27" y1="0" x2="0.635" y2="0" width="0.1524" layer="94" curve="-180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
-<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
-</symbol>
 <symbol name="CONNECTOR_02">
 <description>Two pin connector.</description>
 <wire x1="7.62" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
@@ -492,21 +482,6 @@
 <technologies>
 <technology name="">
 <attribute name="COLOR" value="" constant="no"/>
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FUSE" prefix="F">
-<gates>
-<gate name="G$1" symbol="FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="" constant="no"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -3683,9 +3658,6 @@ Layer: 94 Symbol</description>
 <part name="U$14" library="HyTechSymbolsTemp" deviceset="ENERGY_METER" device=""/>
 <part name="P8" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P9" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="F2" library="HyTechSymbols" deviceset="FUSE" device="" value="1A">
-<attribute name="_EXTERNAL_" value="1A"/>
-</part>
 <part name="F3" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1A"/>
 <part name="U$17" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="U$18" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
@@ -3759,6 +3731,7 @@ Layer: 94 Symbol</description>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="J1" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800"/>
 <part name="MAIN_FUSE" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="175A"/>
+<part name="F1" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1A"/>
 </parts>
 <sheets>
 <sheet>
@@ -3866,10 +3839,6 @@ Connection</text>
 </instance>
 <instance part="P9" gate="1" x="157.48" y="86.36" smashed="yes">
 <attribute name="VALUE" x="157.48" y="85.09" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="F2" gate="G$1" x="33.02" y="160.02" smashed="yes">
-<attribute name="NAME" x="31.75" y="161.29" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="31.75" y="158.75" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="F3" gate="G$1" x="30.48" y="127" smashed="yes">
 <attribute name="NAME" x="29.21" y="128.27" size="1.27" layer="95" align="bottom-center"/>
@@ -4101,6 +4070,10 @@ Connection</text>
 <instance part="MAIN_FUSE" gate="G$1" x="45.72" y="132.08" smashed="yes">
 <attribute name="NAME" x="44.45" y="133.35" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="44.45" y="130.81" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="F1" gate="G$1" x="33.02" y="160.02" smashed="yes">
+<attribute name="NAME" x="31.75" y="161.29" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="31.75" y="158.75" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -4367,9 +4340,9 @@ Connection</text>
 <pinref part="U$17" gate="G$1" pin="TS+FUSED"/>
 </segment>
 <segment>
-<pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="160.02" x2="22.86" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U$19" gate="G$1" pin="TS+FUSED"/>
+<pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="XLA+(HV+)"/>
@@ -4588,9 +4561,9 @@ Connection</text>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="F2" gate="G$1" pin="2"/>
 <pinref part="U$37" gate="G$1" pin="P$1"/>
 <wire x1="35.56" y1="160.02" x2="38.1" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="F1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
