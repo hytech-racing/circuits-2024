@@ -4060,13 +4060,6 @@ Filter</text>
 <junction x="213.36" y="116.84"/>
 </segment>
 </net>
-<net name="SHUTDOWN_C" class="0">
-<segment>
-<pinref part="BSPD_RELAY" gate="G$1" pin="6"/>
-<wire x1="236.22" y1="58.42" x2="233.68" y2="58.42" width="0.0762" layer="91"/>
-<label x="233.68" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$5" class="0">
 <segment>
 <wire x1="33.02" y1="15.24" x2="43.18" y2="15.24" width="0.0762" layer="91"/>
@@ -4074,9 +4067,9 @@ Filter</text>
 </net>
 <net name="SHUTDOWN_D" class="0">
 <segment>
-<pinref part="BSPD_RELAY" gate="G$1" pin="5"/>
-<wire x1="251.46" y1="60.96" x2="254" y2="60.96" width="0.0762" layer="91"/>
-<label x="254" y="60.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="BSPD_RELAY" gate="G$1" pin="6"/>
+<wire x1="236.22" y1="58.42" x2="233.68" y2="58.42" width="0.0762" layer="91"/>
+<label x="233.68" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -4394,6 +4387,13 @@ Filter</text>
 <junction x="144.78" y="162.56"/>
 <pinref part="U5" gate="G$1" pin="VIN+"/>
 <wire x1="144.78" y1="152.4" x2="147.32" y2="152.4" width="0.0762" layer="91"/>
+</segment>
+</net>
+<net name="SHUTDOWN_E" class="0">
+<segment>
+<pinref part="BSPD_RELAY" gate="G$1" pin="5"/>
+<wire x1="251.46" y1="60.96" x2="254" y2="60.96" width="0.0762" layer="91"/>
+<label x="254" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

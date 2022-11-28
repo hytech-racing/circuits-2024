@@ -5437,6 +5437,7 @@ LOGIC</text>
 <attribute name="DESCRIPTION_2" value="circuitry."/>
 <attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
 <attribute name="ENGINEER" value="Liwei Sun"/>
+<attribute name="REVIEWER_SCHEMATIC" value="Zekun Li"/>
 </part>
 <part name="U$1" library="HyTechSymbolsTemp" deviceset="60V_THRESHOLD" device=""/>
 <part name="U$2" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>

@@ -3732,6 +3732,7 @@ Layer: 94 Symbol</description>
 <attribute name="DESCRIPTION_2" value="shutdown circuit"/>
 <attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
 <attribute name="ENGINEER" value="Liwei Sun"/>
+<attribute name="REVIEWER_SCHEMATIC" value="Zekun Li"/>
 </part>
 <part name="J8" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="XXC106-EV-P3Z" value="CONNECTOR-3_XXC106-EV-P3Z"/>
 <part name="J9" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="XXC106-EV-P3Z" value="CONNECTOR-3_XXC106-EV-P3Z"/>
@@ -3749,7 +3750,7 @@ Layer: 94 Symbol</description>
 <part name="J17" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="XXC104-EV-P1ZA" value="CONNECTOR-2_"/>
 <part name="LATCHING_BUTTON" library="HyTechSymbolsTemp" deviceset="BUTTON_NO_*" device="" technology="LP9"/>
 <part name="S1" library="HyTechSymbols" deviceset="SWITCH_SPST_*" device="">
-<attribute name="MPN" value="CHARGER_ESTOP"/>
+<attribute name="MPN" value="CHARGER_SHUTDOWN_BTN"/>
 </part>
 <part name="S3" library="HyTechSymbols" deviceset="SWITCH_SPST_*" device="">
 <attribute name="MPN" value="HVP800_INTERLOCK"/>
@@ -3814,6 +3815,9 @@ Layer: 94 Symbol</description>
 <text x="132.08" y="50.8" size="1.778" layer="97">To external
 AC Power</text>
 <text x="193.04" y="101.6" size="1.27" layer="97" align="top-left">6mm^2</text>
+<text x="134.62" y="106.68" size="1.27" layer="97">35mm^2</text>
+<text x="254" y="142.24" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="45.72" y="139.7" size="1.27" layer="97" align="top-left">22AWG</text>
 </plain>
 <instances>
 <instance part="IMD_RELAY" gate="G$1" x="152.4" y="177.8" smashed="yes">
@@ -3921,9 +3925,9 @@ AC Power</text>
 <attribute name="NAME" x="187.96" y="206.502" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="MPN" x="187.96" y="200.152" size="1.27" layer="97" align="top-center"/>
 </instance>
-<instance part="S1" gate="SPST" x="259.08" y="147.32" smashed="yes">
-<attribute name="MANUFACTURER" x="259.08" y="150.622" size="1.27" layer="96" align="bottom-center"/>
-<attribute name="MPN" x="259.08" y="144.018" size="1.27" layer="96" align="top-center"/>
+<instance part="S1" gate="SPST" x="226.06" y="139.7" smashed="yes" rot="MR0">
+<attribute name="MANUFACTURER" x="226.06" y="143.002" size="1.27" layer="96" rot="MR0" align="bottom-center"/>
+<attribute name="MPN" x="226.06" y="136.398" size="1.27" layer="96" rot="MR0" align="top-center"/>
 </instance>
 <instance part="S3" gate="SPST" x="170.18" y="139.7" smashed="yes" rot="MR0">
 <attribute name="MANUFACTURER" x="170.18" y="143.002" size="1.27" layer="96" rot="MR0" align="bottom-center"/>
@@ -4142,7 +4146,8 @@ AC Power</text>
 <net name="N$7" class="0">
 <segment>
 <pinref part="SOFTWARE_SHDN_RELAY" gate="G$1" pin="7"/>
-<wire x1="251.46" y1="147.32" x2="254" y2="147.32" width="0.0762" layer="91"/>
+<wire x1="251.46" y1="147.32" x2="251.46" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="139.7" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="S1" gate="SPST" pin="P"/>
 </segment>
 </net>
@@ -4450,15 +4455,6 @@ AC Power</text>
 <wire x1="228.6" y1="101.6" x2="236.22" y2="101.6" width="0.3048" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="264.16" y1="149.86" x2="271.78" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="149.86" x2="271.78" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="S1" gate="SPST" pin="O"/>
-<pinref part="S3" gate="SPST" pin="P"/>
-</segment>
-</net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
@@ -4473,6 +4469,14 @@ AC Power</text>
 <pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="96.52" x2="137.16" y2="91.44" width="0.4445" layer="91"/>
 <wire x1="137.16" y1="91.44" x2="142.24" y2="91.44" width="0.4445" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="S1" gate="SPST" pin="O"/>
+<wire x1="220.98" y1="142.24" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="S3" gate="SPST" pin="P"/>
+<wire x1="220.98" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
