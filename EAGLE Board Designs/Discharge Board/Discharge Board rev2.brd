@@ -224,37 +224,51 @@ Designed by Zheng-Yin Lee</text>
 <rectangle x1="1.261" y1="0.5" x2="1.661" y2="0.75" layer="21"/>
 <rectangle x1="1.261" y1="-0.75" x2="1.661" y2="-0.5" layer="21"/>
 </package>
-<package name="MOLEX_MICROFIT_PTH_VERTICAL_05_SINGLE">
-<description>5 Pin Micro-Fit Vertical Header, Through-Hole, Single Row
+<package name="MOLEX_MICROFIT_SMD_RIGHTANGLE_05_SINGLE">
+<description>5 Pin Micro-Fit Right Angle Header, SMD, Single Row
 &lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0436500517"&gt;Part&lt;/a&gt;
+&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0436500513"&gt;Part&lt;/a&gt;
 &lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430451014_sd.pdf"&gt;Footprint&lt;/a&gt;
+&lt;a href="https://www.molex.com/pdm_docs/sd/436500513_sd.pdf"&gt;Footprint&lt;/a&gt;
 &lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430251000_sd.pdf"&gt;Plug Size&lt;/a&gt;</description>
-<hole x="8.9916" y="0.9398" drill="1.0668"/>
-<hole x="-8.9916" y="0.9398" drill="1.0668"/>
-<wire x1="-9.3218" y1="-1.905" x2="9.3218" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="9.3218" y1="-1.905" x2="9.3218" y2="1.905" width="0.127" layer="21"/>
-<wire x1="9.3218" y1="1.905" x2="1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="1.905" x2="-1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-9.3218" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-9.3218" y1="1.905" x2="-9.3218" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="1.9304" y2="3.302" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="3.302" x2="1.9304" y2="1.905" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="-1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="5.969" x2="1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="1.9304" y1="5.969" x2="1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<rectangle x1="-10.0584" y1="-2.286" x2="10.0584" y2="2.286" layer="39"/>
-<rectangle x1="-2.54" y1="2.286" x2="2.54" y2="6.35" layer="39"/>
-<rectangle x1="-10.0584" y1="-2.286" x2="10.0584" y2="2.286" layer="40"/>
-<text x="0" y="-2.413" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-<pad name="5" x="5.9944" y="0" drill="1.0668"/>
-<pad name="4" x="2.9972" y="0" drill="1.0668"/>
-<pad name="3" x="0" y="0" drill="1.0668"/>
-<pad name="2" x="-2.9972" y="0" drill="1.0668"/>
-<pad name="1" x="-5.9944" y="0" drill="1.0668"/>
+&lt;a href="https://www.molex.com/pdm_docs/sd/436450510_sd.pdf"&gt;Plug Size&lt;/a&gt;
+&lt;br&gt;
+Solid line must not be visible on PCB if no cutout is desired.
+&lt;br&gt;
+Dashed line is edge of mated connector.</description>
+<smd name="PAD1" x="9.8794" y="0" dx="3.429" dy="1.651" layer="1"/>
+<smd name="PAD2" x="-9.8794" y="0" dx="3.429" dy="1.651" layer="1"/>
+<smd name="1" x="5.9944" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
+<smd name="2" x="2.9972" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
+<rectangle x1="7.6" y1="1.8" x2="10.05" y2="3.4" layer="43"/>
+<rectangle x1="-10.05" y1="1.8" x2="-7.6" y2="3.4" layer="43"/>
+<wire x1="7.9" y1="-4.4263" x2="-7.9" y2="-4.4263" width="0.127" layer="21"/>
+<wire x1="-9.3" y1="-2.7263" x2="-9.3" y2="5.4737" width="0.127" layer="21"/>
+<wire x1="-7.9" y1="-4.4263" x2="-9.3" y2="-2.7263" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-4.4263" x2="9.3" y2="-2.7263" width="0.127" layer="21"/>
+<wire x1="9.3" y1="-2.7263" x2="9.3" y2="5.4737" width="0.127" layer="21"/>
+<rectangle x1="-12.319" y1="-5.08" x2="12.319" y2="7.62" layer="39"/>
+<wire x1="-9.144" y1="-10.033" x2="9.144" y2="-10.033" width="0.127" layer="51"/>
+<wire x1="-9.144" y1="-12.3698" x2="9.144" y2="-12.3698" width="0.127" layer="51" style="shortdash"/>
+<text x="0.2286" y="-5.207" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-10.05" y1="1.8" x2="-7.6" y2="3.4" layer="41"/>
+<rectangle x1="7.6" y1="1.8" x2="10.05" y2="3.4" layer="41"/>
+<wire x1="-4.4704" y1="-10.033" x2="4.4704" y2="-10.033" width="0" layer="46"/>
+<wire x1="4.4704" y1="-10.033" x2="4.4704" y2="-25.527" width="0" layer="46"/>
+<wire x1="4.4704" y1="-25.527" x2="-4.4704" y2="-25.527" width="0" layer="46"/>
+<wire x1="-4.4704" y1="-25.527" x2="-4.4704" y2="-10.033" width="0" layer="46"/>
+<polygon width="0" layer="20">
+<vertex x="8.128" y="-24.384"/>
+<vertex x="-8.128" y="-24.384"/>
+<vertex x="-8.128" y="-10.033"/>
+<vertex x="8.128" y="-10.033"/>
+</polygon>
+<rectangle x1="-8.636" y1="-24.892" x2="8.636" y2="-5.08" layer="39"/>
+<rectangle x1="-8.636" y1="-24.892" x2="8.636" y2="-9.525" layer="40"/>
+<smd name="3" x="0" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
+<wire x1="-9.3" y1="5.4737" x2="9.3" y2="5.4737" width="0.127" layer="21"/>
+<smd name="4" x="-2.9972" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
+<smd name="5" x="-5.9944" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
 </package>
 <package name="MOLEX_MICROFIT_SMD_RIGHTANGLE_02_SINGLE">
 <description>2 Pin Micro-Fit Right Angle Header, SMD, Single Row
@@ -1445,7 +1459,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="0436500214" x="-19.977" y="60.5544" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="8.2296" y="29.5354" size="0.8128" layer="26" rot="MR0" align="bottom-center"/>
 </element>
-<element name="J100" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_05_SINGLE" value="CONNECTOR-5_MICRO_VS_" x="52.413" y="38.9644" smashed="yes" rot="MR270">
+<element name="J100" library="HyTechDevices" package="MOLEX_MICROFIT_SMD_RIGHTANGLE_05_SINGLE" value="CONNECTOR-5_MICRO_R5S_" x="52.413" y="38.9644" smashed="yes" rot="MR270">
 <attribute name="NAME" x="43.396" y="38.9898" size="0.8128" layer="26" rot="MR90" align="bottom-center"/>
 </element>
 <element name="K1" library="HyTechDevices" package="D" value="RELAY_SPST_NC_POLARIZED_D_24" x="23.203" y="38.9644" smashed="yes" rot="R90">
@@ -1565,8 +1579,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="46.867" y1="51.439" x2="46.9393" y2="51.3667" width="0.762" layer="16"/>
 <contactref element="J100" pad="5"/>
 <contactref element="R4" pad="2"/>
-<wire x1="52.413" y1="32.97" x2="46.9393" y2="51.3667" width="0" layer="19" extent="16-16"/>
-<wire x1="-16.256" y1="-9.144" x2="52.413" y2="32.97" width="0" layer="19" extent="1-1"/>
+<wire x1="46.9393" y1="51.3667" x2="46.9393" y2="44.9588" width="0" layer="19" extent="16-16"/>
+<wire x1="-16.256" y1="-9.144" x2="46.9393" y2="44.9588" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$51">
 <contactref element="R2" pad="2"/>
@@ -1596,18 +1610,18 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="46.5202" y1="27.9154" x2="46.5202" y2="37.0467" width="0.762" layer="16"/>
 <contactref element="R5" pad="1"/>
 <contactref element="J100" pad="1"/>
-<wire x1="46.5202" y1="37.0467" x2="52.413" y2="44.9588" width="0" layer="19" extent="16-16"/>
+<wire x1="46.5202" y1="37.0467" x2="46.9393" y2="32.97" width="0" layer="19" extent="16-16"/>
 <wire x1="34.544" y1="-24.384" x2="46.5202" y2="27.9154" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="J100" pad="2"/>
 <contactref element="R5" pad="2"/>
-<wire x1="-16.256" y1="-24.384" x2="52.413" y2="41.9616" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.256" y1="-24.384" x2="46.9393" y2="35.9672" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="J100" pad="4"/>
 <contactref element="R4" pad="1"/>
-<wire x1="34.544" y1="-9.144" x2="52.413" y2="35.9672" width="0" layer="19" extent="1-1"/>
+<wire x1="34.544" y1="-9.144" x2="46.9393" y2="41.9616" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
