@@ -188,9 +188,9 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="88.194" y2="0" width="0" layer="20"/>
-<wire x1="88.194" y1="0" x2="88.194" y2="76.7" width="0" layer="20"/>
-<wire x1="88.194" y1="76.7" x2="0" y2="76.7" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="84.582" y2="0" width="0" layer="20"/>
+<wire x1="84.582" y1="0" x2="84.582" y2="76.7" width="0" layer="20"/>
+<wire x1="84.582" y1="76.7" x2="0" y2="76.7" width="0" layer="20"/>
 <wire x1="0" y1="76.7" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="15.777" y1="49.7884" x2="22.127" y2="43.4384" width="1.016" layer="21"/>
 <wire x1="22.127" y1="43.4384" x2="32.033" y2="43.4384" width="1.016" layer="21"/>
@@ -1520,9 +1520,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <element name="U$13" library="HyTechManufacturing" package="HV_MEDIUM" value="" x="68.067" y="3.254" smashed="yes" rot="MR0"/>
 <element name="U$14" library="HyTechManufacturing" package="HV_MEDIUM" value="" x="14.873" y="3.254" smashed="yes" rot="MR0"/>
 <element name="U$15" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="4.5" y="3.4" smashed="yes"/>
-<element name="U$16" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="82.694" y="3.4" smashed="yes"/>
+<element name="U$16" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="81.0176" y="3.4" smashed="yes"/>
 <element name="U$17" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="4.5" y="73.4" smashed="yes"/>
-<element name="U$18" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="82.694" y="73.4" smashed="yes"/>
+<element name="U$18" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="81.0176" y="73.4" smashed="yes"/>
 <element name="R4" library="HyTechDevices" package="B20-SHORTENED" value="RESISTOR_B20-SHORTENED_15K" x="63.843" y="38.9644" smashed="yes" rot="R270">
 <attribute name="DKPN" value="B20J15KE-ND" x="63.843" y="38.9644" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Ohmite" x="63.843" y="38.9644" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1632,10 +1632,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <signal name="N$2">
 <contactref element="J100" pad="4"/>
 <contactref element="R4" pad="1"/>
-<wire x1="63.843" y1="13.5644" x2="63.843" y2="41.7704" width="0.762" layer="16"/>
-<wire x1="63.843" y1="41.7704" x2="64.0588" y2="41.9862" width="0.762" layer="16"/>
-<wire x1="64.0588" y1="41.9862" x2="72.3147" y2="41.9862" width="0.762" layer="16"/>
-<wire x1="72.3147" y1="41.9862" x2="72.3393" y2="41.9616" width="0.762" layer="16"/>
+<wire x1="63.843" y1="13.5644" x2="63.843" y2="41.9608" width="0.762" layer="16"/>
+<wire x1="72.3393" y1="41.9616" x2="72.3385" y2="41.9608" width="0.762" layer="16"/>
+<wire x1="72.3385" y1="41.9608" x2="63.843" y2="41.9608" width="0.762" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
