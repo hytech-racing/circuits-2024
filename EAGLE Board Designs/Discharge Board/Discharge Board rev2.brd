@@ -1575,14 +1575,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="K1" pad="2"/>
 <contactref element="J100" pad="5"/>
 <contactref element="R4" pad="2"/>
-<wire x1="72.2884" y1="45.0097" x2="72.3393" y2="44.9588" width="0.762" layer="16"/>
 <wire x1="23.203" y1="64.3644" x2="29.1712" y2="70.3326" width="0.762" layer="16"/>
 <wire x1="70.5748" y1="70.3326" x2="76.543" y2="64.3644" width="0.762" layer="16"/>
 <wire x1="29.1712" y1="70.3326" x2="70.5748" y2="70.3326" width="0.762" layer="16"/>
-<wire x1="76.543" y1="64.3644" x2="76.543" y2="53.5306" width="0.762" layer="16"/>
-<wire x1="71.8312" y1="48.8188" x2="71.8312" y2="45.7454" width="0.762" layer="16"/>
-<wire x1="76.543" y1="53.5306" x2="71.8312" y2="48.8188" width="0.762" layer="16"/>
-<wire x1="72.3393" y1="44.9588" x2="71.8312" y2="45.7454" width="0" layer="19" extent="16-16"/>
+<wire x1="76.543" y1="64.3644" x2="76.543" y2="53.3528" width="0.762" layer="16"/>
+<wire x1="76.543" y1="53.3528" x2="71.9582" y2="48.768" width="0.762" layer="16"/>
+<wire x1="71.9582" y1="48.768" x2="71.9582" y2="45.3399" width="0.762" layer="16"/>
+<wire x1="71.9582" y1="45.3399" x2="72.3393" y2="44.9588" width="0.762" layer="16"/>
 </signal>
 <signal name="N$51">
 <contactref element="R2" pad="2"/>
