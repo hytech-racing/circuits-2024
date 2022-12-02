@@ -1631,9 +1631,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="J100" pad="4"/>
 <contactref element="R4" pad="1"/>
 <wire x1="76.543" y1="13.5644" x2="82.4738" y2="19.4952" width="0.762" layer="1"/>
-<wire x1="77.597" y1="54.7878" x2="69.9516" y2="54.7878" width="0.762" layer="1"/>
-<wire x1="69.9516" y1="54.7878" x2="69.723" y2="54.5592" width="0.762" layer="1"/>
-<wire x1="69.723" y1="54.5592" x2="69.723" y2="41.91" width="0.762" layer="1"/>
+<wire x1="77.597" y1="54.7878" x2="71.501" y2="54.7878" width="0.762" layer="1"/>
+<wire x1="71.501" y1="54.7878" x2="69.723" y2="53.0098" width="0.762" layer="1"/>
+<wire x1="69.723" y1="41.91" x2="69.723" y2="53.0098" width="0.762" layer="1"/>
 <via x="69.723" y="41.91" extent="1-16" drill="0.3556"/>
 <wire x1="69.723" y1="41.91" x2="72.2877" y2="41.91" width="0.762" layer="16"/>
 <wire x1="82.4738" y1="19.4952" x2="82.4738" y2="49.911" width="0.762" layer="1"/>
