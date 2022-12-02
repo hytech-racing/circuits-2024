@@ -3645,7 +3645,7 @@ Layer: 94 Symbol</description>
 <text x="73.66" y="144.78" size="1.27" layer="97" align="top-left">6mm^2</text>
 <text x="116.84" y="124.46" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="109.22" y="119.38" size="1.27" layer="97" align="top-right">22AWG</text>
-<text x="220.98" y="116.84" size="1.27" layer="97">22AWG</text>
+<text x="210.82" y="114.3" size="1.27" layer="97">22AWG</text>
 <text x="205.74" y="96.52" size="1.27" layer="97" align="bottom-right">22AWG</text>
 <text x="243.84" y="96.52" size="1.27" layer="97">22AWG</text>
 <text x="111.76" y="147.32" size="1.27" layer="97" align="top-left">22AWG</text>
@@ -3664,14 +3664,14 @@ AC Power</text>
 <wire x1="111.76" y1="129.54" x2="111.76" y2="109.22" width="0.1524" layer="94"/>
 <wire x1="114.3" y1="119.38" x2="114.3" y2="134.62" width="0.1524" layer="94"/>
 <wire x1="114.3" y1="134.62" x2="111.76" y2="134.62" width="0.1524" layer="94"/>
-<wire x1="238.76" y1="119.38" x2="241.3" y2="119.38" width="0.1524" layer="94"/>
-<wire x1="241.3" y1="119.38" x2="241.3" y2="129.54" width="0.1524" layer="94"/>
+<wire x1="223.52" y1="119.38" x2="226.06" y2="119.38" width="0.1524" layer="94"/>
 <wire x1="241.3" y1="137.16" x2="241.3" y2="144.78" width="0.1524" layer="94"/>
 <wire x1="241.3" y1="144.78" x2="238.76" y2="144.78" width="0.1524" layer="94"/>
 <wire x1="127" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="94"/>
 <text x="114.3" y="68.58" size="1.778" layer="97" align="top-left">Direct
 Connection</text>
 <text x="223.52" y="147.32" size="1.27" layer="97">22AWG</text>
+<wire x1="226.06" y1="119.38" x2="226.06" y2="129.54" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="200.66" y="137.16" smashed="yes">
@@ -3695,15 +3695,15 @@ Connection</text>
 <attribute name="NAME" x="217.17" y="146.05" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="217.17" y="143.51" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="F5" gate="G$1" x="218.44" y="119.38" smashed="yes">
-<attribute name="NAME" x="217.17" y="120.65" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="217.17" y="118.11" size="1.27" layer="96" align="top-center"/>
+<instance part="F5" gate="G$1" x="210.82" y="119.38" smashed="yes">
+<attribute name="NAME" x="209.55" y="120.65" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="209.55" y="118.11" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U$10" gate="G$1" x="210.82" y="147.32" smashed="yes">
 <attribute name="VALUE" x="210.82" y="152.4" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$11" gate="G$1" x="210.82" y="116.84" smashed="yes">
-<attribute name="VALUE" x="210.82" y="114.3" size="1.27" layer="96" align="top-center"/>
+<instance part="U$11" gate="G$1" x="203.2" y="116.84" smashed="yes">
+<attribute name="VALUE" x="203.2" y="114.3" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U$12" gate="G$1" x="205.74" y="93.98" smashed="yes">
 <attribute name="VALUE" x="205.74" y="91.44" size="1.27" layer="96" align="top-center"/>
@@ -3814,9 +3814,9 @@ Connection</text>
 <attribute name="MANUFACTURER" x="238.76" y="143.002" size="1.27" layer="96" rot="R180"/>
 <attribute name="MPN" x="238.76" y="146.558" size="1.27" layer="96" rot="R180" align="top-left"/>
 </instance>
-<instance part="J7" gate="G$1" x="236.22" y="119.38" smashed="yes" rot="R180">
-<attribute name="MANUFACTURER" x="238.76" y="117.602" size="1.27" layer="96" rot="R180"/>
-<attribute name="MPN" x="238.76" y="121.158" size="1.27" layer="96" rot="R180" align="top-left"/>
+<instance part="J7" gate="G$1" x="220.98" y="119.38" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" x="223.52" y="117.602" size="1.27" layer="96" rot="R180"/>
+<attribute name="MPN" x="223.52" y="121.158" size="1.27" layer="96" rot="R180" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -3899,7 +3899,7 @@ Connection</text>
 <net name="TS-UNFUSED" class="0">
 <segment>
 <pinref part="F5" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="119.38" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="TS-FUSED"/>
 </segment>
 <segment>
@@ -4125,7 +4125,7 @@ Connection</text>
 <net name="N$26" class="0">
 <segment>
 <pinref part="F5" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="119.38" x2="213.36" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="J7" gate="G$1" pin="P$2"/>
 </segment>
 </net>
