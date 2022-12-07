@@ -10326,7 +10326,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="+24V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="+5V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="GND" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="TP18" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="PRECHARGE_OK" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="IP+" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="IP-" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="IT+" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
@@ -11516,7 +11516,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <attribute name="NAME" x="78.74" y="179.578" size="1.27" layer="95"/>
 <attribute name="MPN" x="78.74" y="176.022" size="1.27" layer="95" align="top-left"/>
 </instance>
-<instance part="TP18" gate="G$1" x="81.28" y="170.18" smashed="yes">
+<instance part="PRECHARGE_OK" gate="G$1" x="81.28" y="170.18" smashed="yes">
 <attribute name="NAME" x="78.74" y="171.958" size="1.27" layer="95"/>
 <attribute name="MPN" x="78.74" y="168.402" size="1.27" layer="95" align="top-left"/>
 </instance>
@@ -11841,7 +11841,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <label x="48.26" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="TP18" gate="G$1" pin="1"/>
+<pinref part="PRECHARGE_OK" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
 <label x="86.36" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
