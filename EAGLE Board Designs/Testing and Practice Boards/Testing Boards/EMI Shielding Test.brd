@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -208,12 +208,6 @@
 <vertex x="5.08" y="30.48"/>
 </polygon>
 <polygon width="0.254" layer="29">
-<vertex x="5.08" y="5.08"/>
-<vertex x="30.48" y="5.08"/>
-<vertex x="30.48" y="0"/>
-<vertex x="5.08" y="0"/>
-</polygon>
-<polygon width="0.254" layer="29">
 <vertex x="5.08" y="30.48"/>
 <vertex x="5.08" y="25.4"/>
 <vertex x="10.16" y="30.48"/>
@@ -222,18 +216,6 @@
 <vertex x="5.08" y="10.16"/>
 <vertex x="5.08" y="5.08"/>
 <vertex x="10.16" y="5.08"/>
-</polygon>
-<polygon width="0.254" layer="29">
-<vertex x="30.48" y="30.48"/>
-<vertex x="30.48" y="27.94"/>
-<vertex x="25.4" y="27.94"/>
-<vertex x="25.4" y="30.48"/>
-</polygon>
-<polygon width="0.254" layer="29">
-<vertex x="35.56" y="30.48"/>
-<vertex x="40.64" y="30.48"/>
-<vertex x="40.64" y="27.94"/>
-<vertex x="35.56" y="27.94"/>
 </polygon>
 <polygon width="0.254" layer="29">
 <vertex x="35.56" y="35.56"/>
@@ -253,19 +235,29 @@
 <vertex x="60.96" y="30.48"/>
 </polygon>
 <polygon width="0.254" layer="29">
-<vertex x="35.56" y="5.08"/>
-<vertex x="35.56" y="0"/>
-<vertex x="60.96" y="0"/>
-<vertex x="60.96" y="5.08"/>
-</polygon>
-<polygon width="0.254" layer="29">
 <vertex x="55.88" y="5.08"/>
 <vertex x="60.96" y="10.16"/>
 <vertex x="60.96" y="5.08"/>
 </polygon>
 <text x="60.96" y="16.51" size="0.8128" layer="22" font="vector" rot="MR0">HyTech Racing 2023
-TSAL HV Sense Board
+TSAL HV Sense Test Board rev1
 Designed by Mikhail Allen</text>
+<polygon width="0.254" layer="29">
+<vertex x="5.08" y="5.08"/>
+<vertex x="24.13" y="5.08"/>
+<vertex x="25.4" y="3.81"/>
+<vertex x="30.48" y="3.81"/>
+<vertex x="30.48" y="0"/>
+<vertex x="5.08" y="0"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="60.96" y="5.08"/>
+<vertex x="41.91" y="5.08"/>
+<vertex x="40.64" y="3.81"/>
+<vertex x="35.56" y="3.81"/>
+<vertex x="35.56" y="0"/>
+<vertex x="60.96" y="0"/>
+</polygon>
 </plain>
 <libraries>
 <library name="HyTechDevices">
@@ -4210,40 +4202,31 @@ Dashed line is edge of mated connector.</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="HyTech Default (2 Layer)">
+<description language="en">
+&lt;b&gt;HyTech Default Design Rules (2 Layer)&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
+These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, OshPark, Sunstone Circuits) the team uses.
+</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtIsolate" value="1.53mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
+<param name="mdWireVia" value="8mil"/>
 <param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
+<param name="mdPadVia" value="10mil"/>
+<param name="mdViaVia" value="20mil"/>
 <param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdVia" value="10mil"/>
 <param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="20mil"/>
+<param name="mdDrill" value="21mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
+<param name="msDrill" value="14mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -4253,32 +4236,32 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMinPadTop" value="7mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMinPadInner" value="7mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMinPadBottom" value="8mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
 <param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
 <param name="rlMinViaInner" value="8mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMinMicroViaOuter" value="8mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMinMicroViaInner" value="8mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="-1"/>
+<param name="psFirst" value="0"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="6mil"/>
+<param name="mlMaxStopFrame" value="6mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="30mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -4286,16 +4269,16 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkAngle" value="0"/>
+<param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
+<param name="checkValues" value="1"/>
 <param name="checkNames" value="1"/>
 <param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
+<param name="checkPolygonWidth" value="1"/>
 <param name="useDiameter" value="13"/>
-<param name="maxErrors" value="50"/>
+<param name="maxErrors" value="500"/>
 </designrules>
 <autorouter>
 <pass name="Default">
@@ -4539,7 +4522,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Yageo" x="76.962" y="52.578" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="603-RT0603BRD073K32L" x="76.962" y="52.578" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RT0603BRD073K32L" x="76.962" y="52.578" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="40.767" y="18.288" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="41.402" y="16.637" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="76.962" y="52.578" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RESISTANCE" value="3.32k" x="76.962" y="52.578" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="0.1%" x="76.962" y="52.578" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4551,7 +4534,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Yageo" x="82.804" y="33.528" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="603-RC0603FR-0710KL" x="82.804" y="33.528" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0603FR-0710KL" x="82.804" y="33.528" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="44.069" y="18.288" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="43.434" y="16.637" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="82.804" y="33.528" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="82.804" y="33.528" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="82.804" y="33.528" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4570,7 +4553,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="25.4" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="595-ISO224ADWVR" x="25.4" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ISO224ADWVR" x="25.4" y="6.35" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="33.02" y="26.416" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="NAME" x="33.02" y="26.924" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="U3" library="HyTechDevices" package="SOT-23-5" value="VOLTAGE_REGULATOR_SOT-23-5_5V" x="47.498" y="27.432" smashed="yes" rot="R270">
 <attribute name="DKPN" value="497-ST732M50RTR-ND" x="19.558" y="12.192" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4595,14 +4578,14 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Molex" x="7.62" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="538-43650-0214" x="7.62" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="0436500214" x="7.62" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="2.413" y="17.5514" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="12.4714" y="22.987" size="0.8128" layer="25" align="bottom-center"/>
 </element>
 <element name="J2" library="HyTechDevices" package="MOLEX_MICROFIT_SMD_RIGHTANGLE_04_DUAL" value="CONNECTOR-4_μF_S_RA_" x="58.42" y="17.78" smashed="yes" rot="R90">
 <attribute name="DKPN" value="WM1832CT-ND" x="58.42" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="58.42" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="538-0430450411" x="58.42" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="0430450411" x="58.42" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="63.627" y="17.78" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="53.34" y="22.987" size="0.8128" layer="25" align="bottom-center"/>
 </element>
 <element name="U$10" library="HyTechManufacturing" package="LOGO_GT_MEDIUM" value="" x="15.24" y="12.7" smashed="yes" rot="MR0"/>
 <element name="U$11" library="HyTechManufacturing" package="LOGO_HYTECH_SMALL" value="" x="21.59" y="20.32" smashed="yes" rot="MR0"/>
@@ -4616,7 +4599,8 @@ design rules under a new name.</description>
 <wire x1="25.515" y1="22.225" x2="25.388" y2="22.098" width="0.254" layer="1"/>
 <wire x1="25.388" y1="22.098" x2="25.388" y2="20.32" width="0.254" layer="1"/>
 <wire x1="27.57" y1="22.225" x2="25.515" y2="22.225" width="0.254" layer="1"/>
-<wire x1="25.388" y1="20.32" x2="29.21" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="25.388" y1="20.32" x2="25.388" y2="19.062" width="0.254" layer="1"/>
+<wire x1="25.388" y1="19.062" x2="29.21" y2="15.24" width="0.254" layer="1"/>
 </signal>
 <signal name="TS-UNFUSED">
 <contactref element="U1" pad="7"/>
@@ -4626,41 +4610,40 @@ design rules under a new name.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="R4" pad="1"/>
 <contactref element="R5" pad="1"/>
-<via x="10.16" y="2.54" extent="1-16" drill="0.35"/>
-<via x="12.7" y="2.54" extent="1-16" drill="0.35"/>
-<via x="15.24" y="2.54" extent="1-16" drill="0.35"/>
-<via x="17.78" y="2.54" extent="1-16" drill="0.35"/>
-<via x="20.32" y="2.54" extent="1-16" drill="0.35"/>
-<via x="22.86" y="2.54" extent="1-16" drill="0.35"/>
-<via x="25.4" y="2.54" extent="1-16" drill="0.35"/>
-<via x="27.94" y="2.54" extent="1-16" drill="0.35"/>
-<via x="10.16" y="5.08" extent="1-16" drill="0.35"/>
-<via x="27.94" y="5.08" extent="1-16" drill="0.35"/>
-<via x="27.94" y="33.02" extent="1-16" drill="0.35"/>
-<via x="27.94" y="30.48" extent="1-16" drill="0.35"/>
-<via x="27.94" y="27.94" extent="1-16" drill="0.35"/>
-<via x="25.4" y="33.02" extent="1-16" drill="0.35"/>
-<via x="22.86" y="33.02" extent="1-16" drill="0.35"/>
-<via x="20.32" y="33.02" extent="1-16" drill="0.35"/>
-<via x="17.78" y="33.02" extent="1-16" drill="0.35"/>
-<via x="15.24" y="33.02" extent="1-16" drill="0.35"/>
-<via x="12.7" y="33.02" extent="1-16" drill="0.35"/>
-<via x="10.16" y="33.02" extent="1-16" drill="0.35"/>
-<via x="10.16" y="30.48" extent="1-16" drill="0.35"/>
-<via x="7.62" y="26.67" extent="1-16" drill="0.35"/>
-<via x="5.08" y="25.4" extent="1-16" drill="0.35"/>
-<via x="2.54" y="25.4" extent="1-16" drill="0.35"/>
-<via x="2.54" y="22.86" extent="1-16" drill="0.35"/>
-<via x="2.54" y="20.32" extent="1-16" drill="0.35"/>
-<via x="2.54" y="17.78" extent="1-16" drill="0.35"/>
-<via x="2.54" y="15.24" extent="1-16" drill="0.35"/>
-<via x="2.54" y="12.7" extent="1-16" drill="0.35"/>
-<via x="2.54" y="10.16" extent="1-16" drill="0.35"/>
-<via x="5.08" y="10.16" extent="1-16" drill="0.35"/>
-<via x="7.62" y="8.89" extent="1-16" drill="0.35"/>
+<via x="10.16" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="12.7" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="15.24" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="17.78" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="20.32" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="22.86" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="25.4" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="27.94" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="10.16" y="5.08" extent="1-16" drill="0.3556"/>
+<via x="27.94" y="5.08" extent="1-16" drill="0.3556"/>
+<via x="27.94" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="27.94" y="30.48" extent="1-16" drill="0.3556"/>
+<via x="25.4" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="22.86" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="20.32" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="17.78" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="15.24" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="12.7" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="10.16" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="10.16" y="30.48" extent="1-16" drill="0.3556"/>
+<via x="7.62" y="26.67" extent="1-16" drill="0.3556"/>
+<via x="5.08" y="25.4" extent="1-16" drill="0.3556"/>
+<via x="2.54" y="25.4" extent="1-16" drill="0.3556"/>
+<via x="2.54" y="22.86" extent="1-16" drill="0.3556"/>
+<via x="2.54" y="20.32" extent="1-16" drill="0.3556"/>
+<via x="2.54" y="17.78" extent="1-16" drill="0.3556"/>
+<via x="2.54" y="15.24" extent="1-16" drill="0.3556"/>
+<via x="2.54" y="12.7" extent="1-16" drill="0.3556"/>
+<via x="2.54" y="10.16" extent="1-16" drill="0.3556"/>
+<via x="5.08" y="10.16" extent="1-16" drill="0.3556"/>
+<via x="7.62" y="8.89" extent="1-16" drill="0.3556"/>
 <contactref element="J1" pad="2"/>
-<via x="10.16" y="7.62" extent="1-16" drill="0.35"/>
-<via x="10.16" y="27.94" extent="1-16" drill="0.35"/>
+<via x="8.89" y="7.62" extent="1-16" drill="0.3556"/>
+<via x="8.89" y="27.94" extent="1-16" drill="0.3556"/>
 <polygon width="0.254" layer="1">
 <vertex x="-1.27" y="36.83"/>
 <vertex x="-1.27" y="17.78"/>
@@ -4705,7 +4688,6 @@ design rules under a new name.</description>
 <vertex x="8.89" y="8.89"/>
 <vertex x="8.89" y="17.78"/>
 </polygon>
-<via x="27.94" y="7.62" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$1">
 <contactref element="C1" pad="1"/>
@@ -4725,41 +4707,39 @@ design rules under a new name.</description>
 <contactref element="U2" pad="6"/>
 <contactref element="U4" pad="2"/>
 <contactref element="R6" pad="1"/>
-<via x="38.1" y="33.02" extent="1-16" drill="0.35"/>
-<via x="38.1" y="30.48" extent="1-16" drill="0.35"/>
-<via x="38.1" y="27.94" extent="1-16" drill="0.35"/>
-<via x="38.1" y="2.54" extent="1-16" drill="0.35"/>
-<via x="38.1" y="5.08" extent="1-16" drill="0.35"/>
-<via x="38.1" y="10.16" extent="1-16" drill="0.35"/>
-<via x="40.64" y="2.54" extent="1-16" drill="0.35"/>
-<via x="43.18" y="2.54" extent="1-16" drill="0.35"/>
-<via x="45.72" y="2.54" extent="1-16" drill="0.35"/>
-<via x="48.26" y="2.54" extent="1-16" drill="0.35"/>
-<via x="50.8" y="2.54" extent="1-16" drill="0.35"/>
-<via x="53.34" y="2.54" extent="1-16" drill="0.35"/>
-<via x="55.88" y="2.54" extent="1-16" drill="0.35"/>
-<via x="55.88" y="5.08" extent="1-16" drill="0.35"/>
-<via x="55.88" y="7.62" extent="1-16" drill="0.35"/>
-<via x="40.64" y="33.02" extent="1-16" drill="0.35"/>
-<via x="43.18" y="33.02" extent="1-16" drill="0.35"/>
-<via x="45.72" y="33.02" extent="1-16" drill="0.35"/>
-<via x="48.26" y="33.02" extent="1-16" drill="0.35"/>
-<via x="50.8" y="33.02" extent="1-16" drill="0.35"/>
-<via x="53.34" y="33.02" extent="1-16" drill="0.35"/>
-<via x="55.88" y="33.02" extent="1-16" drill="0.35"/>
-<via x="55.88" y="30.48" extent="1-16" drill="0.35"/>
-<via x="55.88" y="27.94" extent="1-16" drill="0.35"/>
-<via x="60.96" y="25.4" extent="1-16" drill="0.35"/>
-<via x="63.5" y="25.4" extent="1-16" drill="0.35"/>
-<via x="63.5" y="22.86" extent="1-16" drill="0.35"/>
-<via x="63.5" y="20.32" extent="1-16" drill="0.35"/>
-<via x="63.5" y="17.78" extent="1-16" drill="0.35"/>
-<via x="63.5" y="15.24" extent="1-16" drill="0.35"/>
-<via x="63.5" y="12.7" extent="1-16" drill="0.35"/>
-<via x="63.5" y="10.16" extent="1-16" drill="0.35"/>
-<via x="60.96" y="10.16" extent="1-16" drill="0.35"/>
-<via x="58.42" y="8.89" extent="1-16" drill="0.35"/>
-<via x="58.42" y="26.67" extent="1-16" drill="0.35"/>
+<via x="38.1" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="38.1" y="30.48" extent="1-16" drill="0.3556"/>
+<via x="38.1" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="38.1" y="5.08" extent="1-16" drill="0.3556"/>
+<via x="40.64" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="43.18" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="45.72" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="48.26" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="50.8" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="53.34" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="55.88" y="2.54" extent="1-16" drill="0.3556"/>
+<via x="55.88" y="5.08" extent="1-16" drill="0.3556"/>
+<via x="57.15" y="7.62" extent="1-16" drill="0.3556"/>
+<via x="40.64" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="43.18" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="45.72" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="48.26" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="50.8" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="53.34" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="55.88" y="33.02" extent="1-16" drill="0.3556"/>
+<via x="55.88" y="30.48" extent="1-16" drill="0.3556"/>
+<via x="57.15" y="27.94" extent="1-16" drill="0.3556"/>
+<via x="60.96" y="25.4" extent="1-16" drill="0.3556"/>
+<via x="63.5" y="25.4" extent="1-16" drill="0.3556"/>
+<via x="63.5" y="22.86" extent="1-16" drill="0.3556"/>
+<via x="63.5" y="20.32" extent="1-16" drill="0.3556"/>
+<via x="63.5" y="17.78" extent="1-16" drill="0.3556"/>
+<via x="63.5" y="15.24" extent="1-16" drill="0.3556"/>
+<via x="63.5" y="12.7" extent="1-16" drill="0.3556"/>
+<via x="63.5" y="10.16" extent="1-16" drill="0.3556"/>
+<via x="60.96" y="10.16" extent="1-16" drill="0.3556"/>
+<via x="58.42" y="8.89" extent="1-16" drill="0.3556"/>
+<via x="58.42" y="26.67" extent="1-16" drill="0.3556"/>
 <contactref element="J2" pad="3"/>
 <polygon width="0.254" layer="1">
 <vertex x="35.56" y="36.83"/>
@@ -4773,7 +4753,6 @@ design rules under a new name.</description>
 <vertex x="68.58" y="-2.54"/>
 <vertex x="68.58" y="38.1"/>
 </polygon>
-<via x="38.1" y="12.7" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+5V">
 <contactref element="U1" pad="4"/>
@@ -4801,15 +4780,14 @@ design rules under a new name.</description>
 <wire x1="42.914" y1="23.888" x2="42.926" y2="23.876" width="0.254" layer="1"/>
 <wire x1="43.942" y1="23.888" x2="43.93" y2="23.876" width="0.254" layer="1"/>
 <wire x1="43.93" y1="23.876" x2="42.926" y2="23.876" width="0.254" layer="1"/>
-<wire x1="41.771" y1="23.749" x2="41.91" y2="23.888" width="0.254" layer="1"/>
 <wire x1="36.83" y1="15.24" x2="43.942" y2="15.24" width="0.254" layer="1"/>
 <wire x1="43.942" y1="15.24" x2="44.958" y2="16.256" width="0.254" layer="1"/>
 <wire x1="44.958" y1="17.614" x2="43.434" y2="19.138" width="0.254" layer="1"/>
 <wire x1="44.958" y1="16.256" x2="44.958" y2="17.614" width="0.254" layer="1"/>
 <wire x1="38.47" y1="24.765" x2="40.259" y2="24.765" width="0.254" layer="1"/>
 <wire x1="40.259" y1="24.765" x2="41.148" y2="23.876" width="0.254" layer="1"/>
-<wire x1="41.148" y1="23.876" x2="41.898" y2="23.876" width="0.254" layer="1"/>
 <wire x1="41.898" y1="23.876" x2="41.91" y2="23.888" width="0.254" layer="1"/>
+<wire x1="41.148" y1="23.876" x2="41.898" y2="23.876" width="0.254" layer="1"/>
 </signal>
 <signal name="+24V">
 <contactref element="U3" pad="2"/>
@@ -4826,13 +4804,11 @@ design rules under a new name.</description>
 <contactref element="R5" pad="2"/>
 <contactref element="R3" pad="1"/>
 <contactref element="U2" pad="2"/>
-<wire x1="18.161" y1="20.862" x2="18.127" y2="20.896" width="0.254" layer="1"/>
 <wire x1="20.1" y1="24.892" x2="20.1" y2="23.622" width="0.254" layer="1"/>
 <wire x1="20.1" y1="23.622" x2="20.1" y2="22.86" width="0.254" layer="1"/>
 <wire x1="18.161" y1="20.862" x2="18.864" y2="20.862" width="0.254" layer="1"/>
 <wire x1="20.1" y1="22.098" x2="18.864" y2="20.862" width="0.254" layer="1"/>
 <wire x1="20.1" y1="22.098" x2="20.1" y2="22.86" width="0.254" layer="1"/>
-<wire x1="20.227" y1="22.987" x2="20.1" y2="22.86" width="0.254" layer="1"/>
 <wire x1="27.57" y1="23.495" x2="20.227" y2="23.495" width="0.254" layer="1"/>
 <wire x1="20.227" y1="23.495" x2="20.1" y2="23.622" width="0.254" layer="1"/>
 </signal>
@@ -4856,7 +4832,9 @@ design rules under a new name.</description>
 <signal name="TS_GLV">
 <contactref element="U2" pad="7"/>
 <contactref element="U4" pad="1"/>
-<wire x1="41.318" y1="22.24" x2="38.47" y2="23.495" width="0" layer="19" extent="1-1"/>
+<wire x1="38.47" y1="23.495" x2="39.497" y2="23.495" width="0.254" layer="1"/>
+<wire x1="40.752" y1="22.24" x2="41.318" y2="22.24" width="0.254" layer="1"/>
+<wire x1="39.497" y1="23.495" x2="40.752" y2="22.24" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R7" pad="1"/>
@@ -4879,12 +4857,22 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8AA00FF"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,c1bf3eb9b4c9ca0b"/>
+<approved hash="4,1,1623ea3951362f69"/>
+<approved hash="4,1,8f0f71cdca42b544"/>
+<approved hash="4,1,08e2f6d044d13a60"/>
+<approved hash="4,1,dcf623d0ae72d11c"/>
+<approved hash="4,1,5b92a5cd2f3d5327"/>
+<approved hash="4,1,4e9bb02a33d44de6"/>
+<approved hash="4,1,94186b76d72ba80d"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
