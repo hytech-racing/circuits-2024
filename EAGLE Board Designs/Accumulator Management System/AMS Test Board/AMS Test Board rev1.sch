@@ -6574,14 +6574,6 @@ Dashed line is edge of mated connector.</description>
 <text x="0" y="1.27" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+5V">
-<text x="0" y="2.54" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="P">
@@ -6601,19 +6593,6 @@ Dashed line is edge of mated connector.</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+3V3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+5V" prefix="P">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+5V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -6723,7 +6702,6 @@ Dashed line is edge of mated connector.</description>
 <part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P46" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P73" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P51" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P52" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R32" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="P40" library="HyTechSupplies" deviceset="+3V3" device=""/>
@@ -7618,9 +7596,6 @@ Dashed line is edge of mated connector.</description>
 <instance part="P73" gate="1" x="99.06" y="127" smashed="yes">
 <attribute name="VALUE" x="99.06" y="125.73" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P51" gate="1" x="68.58" y="152.4" smashed="yes">
-<attribute name="VALUE" x="68.58" y="154.94" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="P52" gate="G$1" x="76.2" y="152.4" smashed="yes">
 <attribute name="VALUE" x="76.2" y="153.67" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -7653,14 +7628,6 @@ Dashed line is edge of mated connector.</description>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="T1" gate="A" pin="TCT"/>
-</segment>
-</net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="A1" gate="G$1" pin="VIN"/>
-<wire x1="66.04" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="P51" gate="1" pin="+5V"/>
-<wire x1="68.58" y1="147.32" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -7765,7 +7732,12 @@ Dashed line is edge of mated connector.</description>
 <pinref part="P74" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="TD+" class="0">
+<segment>
+<pinref part="TD+" gate="G$1" pin="P$1"/>
+<wire x1="231.14" y1="143.51" x2="233.68" y2="143.51" width="0.1524" layer="91"/>
+<label x="233.68" y="143.51" size="1.778" layer="95" xref="yes"/>
+</segment>
 <segment>
 <pinref part="T1" gate="A" pin="MX+"/>
 <wire x1="213.36" y1="143.51" x2="218.44" y2="143.51" width="0.1524" layer="91"/>
@@ -7776,9 +7748,15 @@ Dashed line is edge of mated connector.</description>
 <wire x1="223.52" y1="143.51" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="J44" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="134.62" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
+<label x="226.06" y="134.62" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="TD-" class="0">
+<segment>
+<pinref part="TD-" gate="G$1" pin="P$1"/>
+<wire x1="233.68" y1="123.19" x2="231.14" y2="123.19" width="0.1524" layer="91"/>
+<label x="233.68" y="123.19" size="1.778" layer="95" xref="yes"/>
+</segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="T1" gate="A" pin="MX-"/>
@@ -7789,26 +7767,7 @@ Dashed line is edge of mated connector.</description>
 <wire x1="223.52" y1="123.19" x2="223.52" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="J44" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="132.08" x2="231.14" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TD+" class="0">
-<segment>
-<label x="226.314" y="134.874" size="1.27" layer="95"/>
-</segment>
-<segment>
-<pinref part="TD+" gate="G$1" pin="P$1"/>
-<wire x1="231.14" y1="143.51" x2="233.68" y2="143.51" width="0.1524" layer="91"/>
-<label x="233.68" y="143.51" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="TD-" class="0">
-<segment>
-<label x="226.314" y="131.826" size="1.27" layer="95" align="top-left"/>
-</segment>
-<segment>
-<pinref part="TD-" gate="G$1" pin="P$1"/>
-<wire x1="233.68" y1="123.19" x2="231.14" y2="123.19" width="0.1524" layer="91"/>
-<label x="233.68" y="123.19" size="1.778" layer="95" xref="yes"/>
+<label x="226.06" y="132.08" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -7830,30 +7789,22 @@ Dashed line is edge of mated connector.</description>
 <junction x="142.24" y="139.7"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="IP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IP"/>
 <wire x1="127" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="T1" gate="A" pin="TD+"/>
 <wire x1="167.64" y1="134.62" x2="167.64" y2="140.97" width="0.1524" layer="91"/>
+<label x="165.1" y="134.62" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="IM" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IM"/>
 <wire x1="127" y1="132.08" x2="167.64" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="T1" gate="A" pin="TD-"/>
 <wire x1="167.64" y1="132.08" x2="167.64" y2="125.73" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="IP" class="0">
-<segment>
-<label x="165.608" y="135.128" size="1.27" layer="95"/>
-</segment>
-</net>
-<net name="IM" class="0">
-<segment>
-<label x="165.608" y="132.588" size="1.27" layer="95"/>
+<label x="165.1" y="132.08" size="1.27" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -7861,11 +7812,4 @@ Dashed line is edge of mated connector.</description>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="9.0" severity="warning">
-Since Version 9.0, EAGLE supports the align property for labels. 
-Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
-for full support of labels. 
-</note>
-</compatibility>
 </eagle>
