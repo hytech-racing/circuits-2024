@@ -10096,7 +10096,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="P50" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="A3" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="12V"/>
 <part name="P109" library="HyTechSupplies" deviceset="+24V" device=""/>
-<part name="TP1_24V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP_24V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$21" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P110" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P111" library="HyTechSupplies" deviceset="+12V" device=""/>
@@ -10563,7 +10563,7 @@ Accumulator GND, both AIR+ and -</text>
 <instance part="P109" gate="G$1" x="203.2" y="200.66" smashed="yes">
 <attribute name="VALUE" x="203.2" y="204.47" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="TP1_24V" gate="G$1" x="195.58" y="198.12" smashed="yes">
+<instance part="TP_24V" gate="G$1" x="195.58" y="198.12" smashed="yes">
 <attribute name="NAME" x="193.04" y="199.898" size="1.27" layer="95"/>
 <attribute name="MPN" x="193.04" y="196.342" size="1.27" layer="95" align="top-left"/>
 </instance>
@@ -11348,7 +11348,7 @@ Accumulator GND, both AIR+ and -</text>
 </segment>
 <segment>
 <pinref part="P109" gate="G$1" pin="+24V"/>
-<pinref part="TP1_24V" gate="G$1" pin="1"/>
+<pinref part="TP_24V" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="198.12" x2="198.12" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
