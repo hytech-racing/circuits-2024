@@ -10666,6 +10666,11 @@ Accumulator GND, both AIR+ and -</text>
 <label x="22.86" y="106.68" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="8"/>
 </segment>
+<segment>
+<wire x1="20.32" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
+<label x="22.86" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="10"/>
+</segment>
 </net>
 <net name="ISO_PACK+" class="0">
 <segment>
@@ -11438,13 +11443,6 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="K1" gate="G$1" pin="CONTROL+"/>
 <wire x1="81.28" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R92" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$40" class="0">
-<segment>
-<wire x1="20.32" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
-<label x="22.86" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="10"/>
 </segment>
 </net>
 </nets>
