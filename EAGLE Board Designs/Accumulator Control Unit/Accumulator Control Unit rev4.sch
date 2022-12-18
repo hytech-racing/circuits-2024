@@ -10096,7 +10096,6 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="P50" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="A3" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="12V"/>
 <part name="P109" library="HyTechSupplies" deviceset="+24V" device=""/>
-<part name="TP_24V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$21" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P110" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P111" library="HyTechSupplies" deviceset="+12V" device=""/>
@@ -10174,6 +10173,9 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="R92" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="J6" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK"/>
 <part name="J3" library="HyTechDevices" deviceset="CONNECTOR-12_?_*" device="MF_T_V"/>
+<part name="TP_24V" library="HyTechDevices" deviceset="TEST_POINT" device="">
+<attribute name="SIGNAL" value="+24V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -10563,10 +10565,6 @@ Accumulator GND, both AIR+ and -</text>
 <instance part="P109" gate="G$1" x="203.2" y="200.66" smashed="yes">
 <attribute name="VALUE" x="203.2" y="204.47" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="TP_24V" gate="G$1" x="195.58" y="198.12" smashed="yes">
-<attribute name="NAME" x="193.04" y="199.898" size="1.27" layer="95"/>
-<attribute name="MPN" x="193.04" y="196.342" size="1.27" layer="95" align="top-left"/>
-</instance>
 <instance part="U$21" gate="G$1" x="101.6" y="160.02" smashed="yes">
 <attribute name="VALUE" x="101.6" y="165.1" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -10631,6 +10629,11 @@ Accumulator GND, both AIR+ and -</text>
 <instance part="J3" gate="G$1" x="10.16" y="127" smashed="yes">
 <attribute name="NAME" x="10.16" y="127.762" size="1.778" layer="95"/>
 <attribute name="MPN" x="10.16" y="93.345" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="TP_24V" gate="G$1" x="195.58" y="198.12" smashed="yes">
+<attribute name="NAME" x="193.04" y="199.898" size="1.27" layer="95"/>
+<attribute name="MPN" x="193.04" y="196.342" size="1.27" layer="95" align="top-left"/>
+<attribute name="SIGNAL" x="195.58" y="198.12" size="1.27" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -11353,8 +11356,8 @@ Accumulator GND, both AIR+ and -</text>
 </segment>
 <segment>
 <pinref part="P109" gate="G$1" pin="+24V"/>
-<pinref part="TP_24V" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="198.12" x2="198.12" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="TP_24V" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="P3" gate="G$1" pin="+24V"/>
