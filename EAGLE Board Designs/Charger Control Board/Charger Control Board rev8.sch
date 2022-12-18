@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -227,21 +227,24 @@
 <rectangle x1="-1.778" y1="-1.778" x2="1.778" y2="1.778" layer="39"/>
 <circle x="-1.778" y="-1.0033" radius="0.15875" width="0" layer="21"/>
 </package>
-<package name="SOT-223">
-<description>SOT-223
+<package name="OKI-78SR">
+<description>OKI-78SR Regulator
 &lt;br&gt;
-&lt;a href="https://www.diodes.com/assets/Package-Files/SOT223.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="2" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="3" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
-<smd name="4" x="0" y="3.2" dx="3.3" dy="1.6" layer="1"/>
-<text x="0" y="4.445" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-3.275" y1="1.775" x2="3.275" y2="1.775" width="0.127" layer="21"/>
-<wire x1="3.275" y1="1.775" x2="3.275" y2="-1.775" width="0.127" layer="21"/>
-<wire x1="3.275" y1="-1.775" x2="-3.275" y2="-1.775" width="0.127" layer="21"/>
-<wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.127" layer="21"/>
-<rectangle x1="-3.81" y1="-4.445" x2="3.81" y2="4.445" layer="39"/>
-<circle x="-3.556" y="-3.2" radius="0.15875" width="0" layer="21"/>
+&lt;a href="https://www.mouser.com/datasheet/2/281/oki-78sr-56393.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pad name="1" x="-2.54" y="0" drill="0.9906" first="yes"/>
+<pad name="2" x="0" y="0" drill="0.9906"/>
+<pad name="3" x="2.54" y="0" drill="0.9906"/>
+<wire x1="-5.461" y1="5.715" x2="5.461" y2="5.715" width="0.127" layer="21" style="shortdash"/>
+<wire x1="5.461" y1="5.715" x2="5.461" y2="-3.937" width="0.127" layer="21" style="shortdash"/>
+<wire x1="5.461" y1="-3.937" x2="-5.461" y2="-3.937" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-5.461" y1="-3.937" x2="-5.461" y2="5.715" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-5.207" y1="1.27" x2="5.207" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="2.794" x2="5.207" y2="2.794" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="1.27" x2="-5.207" y2="2.794" width="0.127" layer="21"/>
+<wire x1="5.207" y1="2.794" x2="5.207" y2="1.27" width="0.127" layer="21"/>
+<text x="0" y="5.842" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-5.588" y1="-4.064" x2="5.588" y2="5.842" layer="39"/>
+<rectangle x1="-3.81" y1="-1.27" x2="3.81" y2="1.27" layer="40"/>
 </package>
 <package name="0603-CAP">
 <description>0603 Cap
@@ -835,53 +838,6 @@ Dashed line is edge of mated connector.</description>
 </polygon>
 <rectangle x1="-5.08" y1="-26.162" x2="5.08" y2="-5.08" layer="39"/>
 <rectangle x1="-5.08" y1="-26.162" x2="5.08" y2="-9.525" layer="40"/>
-</package>
-<package name="SOT-89">
-<description>SOT-89
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/308/1/NCP785A_D-2317346.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-Based on page 10.</description>
-<smd name="2" x="0" y="-0.355" dx="0.58" dy="0.86" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
-<smd name="3" x="1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
-<wire x1="-2.3" y1="2.7" x2="2.3" y2="2.7" width="0.127" layer="21"/>
-<wire x1="2.3" y1="2.7" x2="2.3" y2="0.1" width="0.127" layer="21"/>
-<wire x1="2.3" y1="0.1" x2="-2.3" y2="0.1" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="0.1" x2="-2.3" y2="2.7" width="0.127" layer="21"/>
-<rectangle x1="-2.54" y1="-1.14" x2="2.54" y2="3.94" layer="39"/>
-<text x="0" y="3.94" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<polygon width="0" layer="1">
-<vertex x="-1" y="3.665"/>
-<vertex x="-1" y="0.785"/>
-<vertex x="-0.29" y="0.075"/>
-<vertex x="-0.29" y="0"/>
-<vertex x="0.29" y="0"/>
-<vertex x="0.29" y="0.075"/>
-<vertex x="1" y="0.785"/>
-<vertex x="1" y="3.665"/>
-</polygon>
-<polygon width="0" layer="31" spacing="0.05" pour="hatch">
-<vertex x="-1" y="3.665"/>
-<vertex x="-1" y="0.785"/>
-<vertex x="-0.29" y="0.075"/>
-<vertex x="-0.29" y="0"/>
-<vertex x="0.29" y="0"/>
-<vertex x="0.29" y="0.075"/>
-<vertex x="1" y="0.785"/>
-<vertex x="1" y="3.665"/>
-</polygon>
-<polygon width="0" layer="29" spacing="0.1" pour="hatch">
-<vertex x="-1.1" y="3.765"/>
-<vertex x="-1.1" y="0.714"/>
-<vertex x="-0.361" y="0.004"/>
-<vertex x="-0.29" y="0"/>
-<vertex x="0.29" y="0"/>
-<vertex x="0.361" y="0.004"/>
-<vertex x="1.1" y="0.714"/>
-<vertex x="1.1" y="3.765"/>
-</polygon>
-<circle x="-2.3" y="-0.508" radius="0.15875" width="0" layer="21"/>
 </package>
 <package name="2835-LED">
 <description>LUXEON 2835 LED&lt;br&gt;
@@ -1561,39 +1517,15 @@ Based on page 10.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VOLTAGE_REGULATOR_?_*" prefix="U">
-<description>Voltage Regulators
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/389/dm00366442-1799212.pdf"&gt;LDL1117S50R Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/308/NCP785A_D-1812704.pdf"&gt;NCP785AH120T1G&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.ti.com/lit/ds/symlink/lms8117a.pdf?HQS"&gt;LMS8117A Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+<deviceset name="VOLTAGE_REGULATOR_MODULE_?_*" prefix="A">
+<description>Voltage Regulator Modules
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/281/oki-78sr-56393.pdf"&gt;OKI-78SR Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOT-223" package="SOT-223">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="IN" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2 4"/>
-</connects>
-<technologies>
-<technology name="3.3V">
-<attribute name="DKPN" value="LMS8117AMP-3.3/NOPBCT-ND"/>
-<attribute name="MANUFACTURER" value="Texas Instruments"/>
-<attribute name="MOPN" value="926-LMS8117AMP33NOPB"/>
-<attribute name="MPN" value="LMS8117AMP-3.3/NOPB"/>
-</technology>
-<technology name="5V">
-<attribute name="DKPN" value="497-17240-1-ND"/>
-<attribute name="MANUFACTURER" value="STMicroelectronics"/>
-<attribute name="MOPN" value="511-LDL1117S50R"/>
-<attribute name="MPN" value="LDL1117S50R"/>
-</technology>
-</technologies>
-</device>
-<device name="SOT-89" package="SOT-89">
+<device name="OKI-78SR" package="OKI-78SR">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
@@ -1601,16 +1533,16 @@ Based on page 10.</description>
 </connects>
 <technologies>
 <technology name="12V">
-<attribute name="DKPN" value="NCP785AH120T1GOSCT-ND"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor"/>
-<attribute name="MOPN" value="863-NCP785AH120T1G"/>
-<attribute name="MPN" value="NCP785AH120T1G"/>
+<attribute name="DKPN" value="811-3293-ND"/>
+<attribute name="MANUFACTURER" value="Murata Power Solutions Inc."/>
+<attribute name="MOPN" value="580-OKI78SR12/1W36C"/>
+<attribute name="MPN" value="OKI-78SR-12/1.0-W36-C"/>
 </technology>
-<technology name="15V">
-<attribute name="DKPN" value="NCP785AH150T1GOSTR-ND"/>
-<attribute name="MANUFACTURER" value="ON Semiconductor"/>
-<attribute name="MOPN" value="863-NCP785AH150T1G"/>
-<attribute name="MPN" value="NCP785AH150T1G"/>
+<technology name="5V">
+<attribute name="DKPN" value="811-2196-5-ND"/>
+<attribute name="MANUFACTURER" value="Murata Power Solutions Inc."/>
+<attribute name="MOPN" value="580-OKI78SR5/1.5W36C"/>
+<attribute name="MPN" value="OKI-78SR-5/1.5-W36-C"/>
 </technology>
 </technologies>
 </device>
@@ -10553,7 +10485,7 @@ visible on the PCB.</text>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P1" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="D5" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
-<part name="U3" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-223" technology="5V"/>
+<part name="U3" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V"/>
 <part name="P3" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P4" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
