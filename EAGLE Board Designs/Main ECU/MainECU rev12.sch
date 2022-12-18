@@ -8025,6 +8025,10 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P283" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P284" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P285" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="JP4" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="JP5" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="JP6" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="JP7" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
 </parts>
 <sheets>
 <sheet>
@@ -14564,6 +14568,22 @@ trips at 4.802kW. </text>
 <instance part="P239" gate="1" x="172.72" y="60.96" smashed="yes">
 <attribute name="VALUE" x="172.72" y="59.69" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="JP4" gate="G$1" x="165.1" y="198.12" smashed="yes">
+<attribute name="NAME" x="165.1" y="200.66" size="1.27" layer="95"/>
+<attribute name="MPN" x="165.1" y="194.818" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="JP5" gate="G$1" x="165.1" y="170.18" smashed="yes">
+<attribute name="NAME" x="165.1" y="172.72" size="1.27" layer="95"/>
+<attribute name="MPN" x="165.1" y="166.878" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="JP6" gate="G$1" x="165.1" y="142.24" smashed="yes">
+<attribute name="NAME" x="165.1" y="144.78" size="1.27" layer="95"/>
+<attribute name="MPN" x="165.1" y="138.938" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="JP7" gate="G$1" x="165.1" y="114.3" smashed="yes">
+<attribute name="NAME" x="165.1" y="116.84" size="1.27" layer="95"/>
+<attribute name="MPN" x="165.1" y="110.998" size="1.27" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14594,50 +14614,6 @@ trips at 4.802kW. </text>
 <pinref part="R90" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="45.72" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
 <label x="30.48" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ACCEL_1_EXT" class="0">
-<segment>
-<pinref part="R93" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="195.58" x2="172.72" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="195.58" x2="172.72" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U20" gate="G$1" pin="IN"/>
-<wire x1="172.72" y1="195.58" x2="198.12" y2="195.58" width="0.1524" layer="91"/>
-<junction x="172.72" y="195.58"/>
-<label x="170.18" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ACCEL_2_EXT" class="0">
-<segment>
-<pinref part="R95" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="167.64" x2="172.72" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="167.64" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="U21" gate="G$1" pin="IN"/>
-<wire x1="172.72" y1="167.64" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
-<junction x="172.72" y="167.64"/>
-<label x="170.18" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="BRAKE_1_EXT" class="0">
-<segment>
-<pinref part="R97" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="139.7" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U22" gate="G$1" pin="IN"/>
-<wire x1="172.72" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
-<junction x="172.72" y="139.7"/>
-<label x="170.18" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="BRAKE_2_EXT" class="0">
-<segment>
-<pinref part="R99" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="111.76" x2="172.72" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U24" gate="G$1" pin="IN"/>
-<wire x1="172.72" y1="111.76" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
-<junction x="172.72" y="111.76"/>
-<label x="170.18" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CURRENT_EXT" class="0">
@@ -15523,6 +15499,78 @@ trips at 4.802kW. </text>
 <pinref part="U25" gate="G$1" pin="OUT"/>
 <wire x1="218.44" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
 <label x="220.98" y="83.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ACCEL_1_EXT" class="0">
+<segment>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="195.58" x2="162.56" y2="195.58" width="0.1524" layer="91"/>
+<label x="162.56" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ACCEL_2_EXT" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="167.64" x2="162.56" y2="167.64" width="0.1524" layer="91"/>
+<label x="162.56" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ACCEL_1_PRE" class="0">
+<segment>
+<pinref part="R93" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="195.58" x2="172.72" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="U20" gate="G$1" pin="IN"/>
+<wire x1="172.72" y1="195.58" x2="198.12" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="195.58" x2="172.72" y2="195.58" width="0.1524" layer="91"/>
+<junction x="172.72" y="195.58"/>
+</segment>
+</net>
+<net name="ACCEL_2_PRE" class="0">
+<segment>
+<pinref part="R95" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="167.64" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="U21" gate="G$1" pin="IN"/>
+<wire x1="172.72" y1="167.64" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="JP5" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="167.64" x2="172.72" y2="167.64" width="0.1524" layer="91"/>
+<junction x="172.72" y="167.64"/>
+</segment>
+</net>
+<net name="BRAKE_1_PRE" class="0">
+<segment>
+<pinref part="R97" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="139.7" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U22" gate="G$1" pin="IN"/>
+<wire x1="172.72" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
+<junction x="172.72" y="139.7"/>
+</segment>
+</net>
+<net name="BRAKE_2_PRE" class="0">
+<segment>
+<pinref part="R99" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="111.76" x2="172.72" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U24" gate="G$1" pin="IN"/>
+<wire x1="172.72" y1="111.76" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="JP7" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
+<junction x="172.72" y="111.76"/>
+</segment>
+</net>
+<net name="BRAKE_2_EXT" class="0">
+<segment>
+<pinref part="JP7" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
+<label x="162.56" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BRAKE_1_EXT" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="139.7" x2="162.56" y2="139.7" width="0.1524" layer="91"/>
+<label x="162.56" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

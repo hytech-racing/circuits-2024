@@ -7152,6 +7152,34 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="-54.864" y="-323.596" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="-54.864" y="-323.596" size="1.778" layer="27" display="off"/>
 </element>
+<element name="JP4" library="HyTechDevices" package="1X02" value="JUMPER__1X02" x="-92.456" y="-303.022" smashed="yes">
+<attribute name="DKPN" value="S1011EC-02-ND" x="-92.456" y="-303.022" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="-92.456" y="-303.022" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="" x="-92.456" y="-303.022" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="PRPC002SAAN-RC" x="-92.456" y="-303.022" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-92.456" y="-301.498" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
+<element name="JP5" library="HyTechDevices" package="1X02" value="JUMPER__1X02" x="-92.456" y="-307.34" smashed="yes">
+<attribute name="DKPN" value="S1011EC-02-ND" x="-92.456" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="-92.456" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="" x="-92.456" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="PRPC002SAAN-RC" x="-92.456" y="-307.34" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-92.456" y="-305.816" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
+<element name="JP6" library="HyTechDevices" package="1X02" value="JUMPER__1X02" x="-92.456" y="-311.658" smashed="yes">
+<attribute name="DKPN" value="S1011EC-02-ND" x="-92.456" y="-311.658" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="-92.456" y="-311.658" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="" x="-92.456" y="-311.658" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="PRPC002SAAN-RC" x="-92.456" y="-311.658" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-92.456" y="-310.134" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
+<element name="JP7" library="HyTechDevices" package="1X02" value="JUMPER__1X02" x="-92.456" y="-315.976" smashed="yes">
+<attribute name="DKPN" value="S1011EC-02-ND" x="-92.456" y="-315.976" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="-92.456" y="-315.976" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="" x="-92.456" y="-315.976" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="PRPC002SAAN-RC" x="-92.456" y="-315.976" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-92.456" y="-314.452" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -7768,31 +7796,23 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="ACCEL_1_EXT">
 <contactref element="J1" pad="29"/>
-<contactref element="R93" pad="2"/>
-<contactref element="U20" pad="2"/>
-<wire x1="-51.474" y1="-212.852" x2="-53.213" y2="-196.6595" width="0" layer="19" extent="1-1"/>
-<wire x1="27.83" y1="147.05" x2="-53.213" y2="-196.6595" width="0" layer="19" extent="1-1"/>
+<contactref element="JP4" pad="1"/>
+<wire x1="-93.726" y1="-303.022" x2="27.83" y2="147.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ACCEL_2_EXT">
 <contactref element="J1" pad="30"/>
-<contactref element="R95" pad="2"/>
-<contactref element="U21" pad="2"/>
-<wire x1="-45.378" y1="-212.852" x2="-45.847" y2="-196.6595" width="0" layer="19" extent="1-1"/>
-<wire x1="27.83" y1="145.05" x2="-45.847" y2="-196.6595" width="0" layer="19" extent="1-1"/>
+<contactref element="JP5" pad="1"/>
+<wire x1="-93.726" y1="-307.34" x2="27.83" y2="145.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BRAKE_1_EXT">
 <contactref element="J1" pad="27"/>
-<contactref element="R97" pad="2"/>
-<contactref element="U22" pad="2"/>
-<wire x1="-53.213" y1="-203.7715" x2="-39.282" y2="-212.852" width="0" layer="19" extent="1-1"/>
-<wire x1="29.83" y1="147.05" x2="-53.213" y2="-203.7715" width="0" layer="19" extent="1-1"/>
+<contactref element="JP6" pad="1"/>
+<wire x1="-93.726" y1="-311.658" x2="29.83" y2="147.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BRAKE_2_EXT">
 <contactref element="J1" pad="28"/>
-<contactref element="R99" pad="2"/>
-<contactref element="U24" pad="2"/>
-<wire x1="-51.474" y1="-215.9" x2="-45.847" y2="-203.7715" width="0" layer="19" extent="1-1"/>
-<wire x1="29.83" y1="145.05" x2="-45.847" y2="-203.7715" width="0" layer="19" extent="1-1"/>
+<contactref element="JP7" pad="1"/>
+<wire x1="-93.726" y1="-315.976" x2="29.83" y2="145.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BRAKE_PRESSURE_F_EXT">
 <contactref element="J1" pad="23"/>
@@ -10411,6 +10431,34 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="C114" pad="1"/>
 <wire x1="-47.918" y1="-299.212" x2="-52.92" y2="-299.212" width="0" layer="19" extent="1-1"/>
 <wire x1="-49.518" y1="-290.068" x2="-47.918" y2="-299.212" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ACCEL_1_PRE">
+<contactref element="R93" pad="2"/>
+<contactref element="U20" pad="2"/>
+<contactref element="JP4" pad="2"/>
+<wire x1="-51.474" y1="-212.852" x2="-53.213" y2="-196.6595" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.186" y1="-303.022" x2="-51.474" y2="-212.852" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ACCEL_2_PRE">
+<contactref element="R95" pad="2"/>
+<contactref element="U21" pad="2"/>
+<contactref element="JP5" pad="2"/>
+<wire x1="-45.378" y1="-212.852" x2="-45.847" y2="-196.6595" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.186" y1="-307.34" x2="-45.378" y2="-212.852" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BRAKE_1_PRE">
+<contactref element="R97" pad="2"/>
+<contactref element="U22" pad="2"/>
+<contactref element="JP6" pad="2"/>
+<wire x1="-53.213" y1="-203.7715" x2="-39.282" y2="-212.852" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.186" y1="-311.658" x2="-39.282" y2="-212.852" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BRAKE_2_PRE">
+<contactref element="R99" pad="2"/>
+<contactref element="U24" pad="2"/>
+<contactref element="JP7" pad="2"/>
+<wire x1="-51.474" y1="-215.9" x2="-45.847" y2="-203.7715" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.186" y1="-315.976" x2="-51.474" y2="-215.9" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
