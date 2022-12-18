@@ -14837,12 +14837,7 @@ current across precharge relay</text>
 <wire x1="124.46" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="127" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="A3" gate="G$1" pin="(CRX1)D0"/>
-<wire x1="104.14" y1="139.7" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="A3" gate="G$1" pin="D4"/>
-<wire x1="78.74" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="149.86" x2="78.74" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="149.86" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
-<junction x="78.74" y="139.7"/>
+<wire x1="104.14" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CURRENT_FILTERED" class="0">
@@ -14861,16 +14856,11 @@ current across precharge relay</text>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="A3" gate="G$1" pin="D3"/>
-<wire x1="73.66" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="A3" gate="G$1" pin="(CTX1)D1"/>
-<wire x1="73.66" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="142.24" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="142.24" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="142.24" x2="106.68" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="TXD"/>
 <wire x1="106.68" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="147.32" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
-<junction x="76.2" y="142.24"/>
 </segment>
 </net>
 <net name="TS+_OUT_FILTERED" class="0">
