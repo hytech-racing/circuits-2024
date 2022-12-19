@@ -6402,6 +6402,32 @@ Based on page 10.</description>
 <rectangle x1="-2.286" y1="-4.064" x2="2.286" y2="4.064" layer="39"/>
 <rectangle x1="-2.286" y1="-2.286" x2="2.286" y2="2.286" layer="20"/>
 </package>
+<package name="M12A-08PMMP">
+<description>M12A-08PMMP Amphenol Connector
+&lt;p&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/M12A-08PMMP-SF8001.pdf"&gt;Datasheet 1&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/MSeries_M12%20A.B.D_Code_Product_Spec.pdf"&gt;Datasheet 2&lt;/a&gt;</description>
+<pad name="1" x="2.68990625" y="0.57175625" drill="1" first="yes"/>
+<pad name="8" x="0" y="0" drill="1"/>
+<pad name="2" x="0.57175625" y="2.68990625" drill="1"/>
+<pad name="3" x="-1.654990625" y="2.196246875" drill="1"/>
+<pad name="4" x="-2.7433" y="0.19183125" drill="1"/>
+<pad name="5" x="-1.94454375" y="-1.94454375" drill="1"/>
+<pad name="6" x="0.19183125" y="-2.7433" drill="1"/>
+<pad name="7" x="2.196246875" y="-1.654990625" drill="1"/>
+<circle x="0" y="0" radius="9" width="0.127" layer="21"/>
+<text x="0" y="10.652" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="5.25" width="10.5" layer="39"/>
+<circle x="0" y="0" radius="2.1" width="4.2" layer="40"/>
+<circle x="0" y="0" radius="10.3" width="0.127" layer="21"/>
+<wire x1="-5" y1="9" x2="5" y2="9" width="0.127" layer="21"/>
+<wire x1="5" y1="9" x2="10.3" y2="0" width="0.127" layer="21"/>
+<wire x1="10.3" y1="0" x2="5" y2="-9" width="0.127" layer="21"/>
+<wire x1="5" y1="-9" x2="-5" y2="-9" width="0.127" layer="21"/>
+<wire x1="-5" y1="-9" x2="-10.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-10.3" y1="0" x2="-5" y2="9" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE">
@@ -9185,6 +9211,26 @@ ISO224B: High-Grade
 </technology>
 </technologies>
 </device>
+<device name="AMPHENOL_M12A_08PMMP" package="M12A-08PMMP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="1754-1026-ND"/>
+<attribute name="MANUFACTURER" value="Amphenol LTW"/>
+<attribute name="MOPN" value="523-M12A08PMMPSF8001"/>
+<attribute name="MPN" value="M12A-08PMMP-SF8001"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TVS_*" prefix="D">
@@ -10302,13 +10348,12 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <attribute name="ENGINEER" value="Liwei Sun"/>
 </part>
 <part name="D100" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="60V" value="SCHOTTKY_SOD323_60V"/>
-<part name="Q100" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="PMV15ENEA"/>
 <part name="R33" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10"/>
 <part name="R28" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="P31" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="P33" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P37" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="NF_T_V" technology="BLACK" value="CONNECTOR-8_NF_T_V_BLACK"/>
+<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
 <part name="P39" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$32" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="485" technology="1A" value="FUSE_485_1A"/>
@@ -10453,7 +10498,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="TS+12V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TS-FUSED" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
-<part name="D2" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
+<part name="LED_+12V" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
 <part name="D103" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SMA" technology="1000V"/>
 <part name="U$1" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="U$2" library="HyTechSupplies" deviceset="TS+12V" device=""/>
@@ -10483,6 +10528,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="C3" library="HyTechTemp" deviceset="CAPACITOR_ELECTROLYTIC_?_*" device="A759" technology="180UF"/>
 <part name="P24" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_4.7UF"/>
+<part name="Q2" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="PMV15ENEA"/>
 </parts>
 <sheets>
 <sheet>
@@ -10730,7 +10776,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <attribute name="NAME" x="210.82" y="152.4" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="213.36" y="152.4" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="D2" gate="LED" x="212.09" y="142.24" smashed="yes" rot="R270">
+<instance part="LED_+12V" gate="LED" x="212.09" y="142.24" smashed="yes" rot="R270">
 <attribute name="COLOR" x="210.312" y="143.51" size="1.27" layer="95" rot="R270" align="top-center"/>
 <attribute name="NAME" x="215.646" y="143.51" size="1.27" layer="96" rot="R270" align="bottom-center"/>
 </instance>
@@ -11145,7 +11191,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="D2" gate="LED" pin="C"/>
+<pinref part="LED_+12V" gate="LED" pin="C"/>
 <wire x1="212.09" y1="139.7" x2="212.09" y2="137.16" width="0.4064" layer="91"/>
 <pinref part="P21" gate="G$1" pin="TS-FUSED"/>
 </segment>
@@ -11265,7 +11311,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <net name="N$23" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="D2" gate="LED" pin="A"/>
+<pinref part="LED_+12V" gate="LED" pin="A"/>
 <wire x1="212.09" y1="147.32" x2="212.09" y2="148.59" width="0.4064" layer="91"/>
 </segment>
 </net>
@@ -11464,10 +11510,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <instance part="D100" gate="G$1" x="165.1" y="129.54" smashed="yes" rot="MR90">
 <attribute name="NAME" x="167.005" y="128.27" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
 <attribute name="MPN" x="163.195" y="128.27" size="1.27" layer="96" rot="MR90" align="top-center"/>
-</instance>
-<instance part="Q100" gate="G$1" x="172.72" y="104.14" smashed="yes">
-<attribute name="NAME" x="172.72" y="109.22" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="MPN" x="170.942" y="99.568" size="1.27" layer="95" align="top-center"/>
 </instance>
 <instance part="R33" gate="G$1" x="162.56" y="101.6" smashed="yes">
 <attribute name="NAME" x="161.29" y="102.87" size="1.27" layer="95" align="bottom-center"/>
@@ -11731,6 +11773,10 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <instance part="P24" gate="G$1" x="210.82" y="104.14" smashed="yes">
 <attribute name="VALUE" x="210.82" y="101.6" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="Q2" gate="G$1" x="172.72" y="104.14" smashed="yes">
+<attribute name="NAME" x="172.72" y="109.22" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="172.72" y="99.06" size="1.27" layer="95" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11743,8 +11789,8 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <wire x1="165.1" y1="124.46" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="116.84" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
 <junction x="177.8" y="116.84"/>
-<pinref part="Q100" gate="G$1" pin="D"/>
 <pinref part="K1" gate="G$1" pin="COIL-"/>
+<pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11752,7 +11798,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <wire x1="177.8" y1="99.06" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="86.36" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="P33" gate="1" pin="GND"/>
-<pinref part="Q100" gate="G$1" pin="S"/>
 <pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="88.9" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="86.36" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
@@ -11764,6 +11809,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <pinref part="D8" gate="LED" pin="C"/>
 <wire x1="142.24" y1="86.36" x2="149.86" y2="86.36" width="0.1524" layer="91"/>
 <junction x="149.86" y="86.36"/>
+<pinref part="Q2" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="154.94" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
@@ -12082,9 +12128,9 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="Q100" gate="G$1" pin="G"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="+24V" class="0">
