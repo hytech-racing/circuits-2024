@@ -1148,16 +1148,6 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <text x="0" y="2.54" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="-3.302" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
-<symbol name="CAPACITOR_VALUE">
-<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
-<text x="-1.27" y="2.54" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
-<rectangle x1="-3.81" y1="-0.254" x2="0.254" y2="0.254" layer="94" rot="R270"/>
-<rectangle x1="-2.794" y1="-0.254" x2="1.27" y2="0.254" layer="94" rot="R270"/>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CONNECTOR-4_?_*" prefix="J">
@@ -3442,23 +3432,6 @@ Note: OPA991 is also a comparator</description>
 <attribute name="MOPN" value=""/>
 <attribute name="MPN" value="PRPC002SAAN-RC"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CAPACITOR_VALUE" prefix="CV" uservalue="yes">
-<description>Capacitor for prototyping circuits</description>
-<gates>
-<gate name="G$1" symbol="CAPACITOR_VALUE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603-CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6190,7 +6163,8 @@ Layer: 94 Symbol</description>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="20K"/>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="25V_22UF"/>
-<part name="CV1" library="HyTechDevices" deviceset="CAPACITOR_VALUE" device="" value="2.2uF"/>
+<part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_1UF"/>
+<part name="C8" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF"/>
 </parts>
 <sheets>
 <sheet>
@@ -6246,11 +6220,11 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="71.12" y="74.422" size="1.27" layer="95"/>
 <attribute name="MPN" x="77.47" y="75.438" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U$2" gate="G$1" x="63.5" y="73.66" smashed="yes">
-<attribute name="VALUE" x="63.5" y="78.74" size="1.778" layer="96" align="bottom-center"/>
+<instance part="U$2" gate="G$1" x="55.88" y="76.2" smashed="yes">
+<attribute name="VALUE" x="55.88" y="81.28" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P5" gate="1" x="78.74" y="58.42" smashed="yes">
-<attribute name="VALUE" x="78.74" y="57.15" size="1.27" layer="96" align="top-center"/>
+<instance part="P5" gate="1" x="78.74" y="53.34" smashed="yes">
+<attribute name="VALUE" x="78.74" y="52.07" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U2" gate="A" x="132.08" y="10.16" smashed="yes">
 <attribute name="NAME" x="134.493" y="13.208" size="1.27" layer="95"/>
@@ -6442,9 +6416,15 @@ Layer: 94 Symbol</description>
 <attribute name="VOLTAGE" x="93.98" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="95.758" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="CV1" gate="G$1" x="66.04" y="66.04" smashed="yes" rot="R90">
+<instance part="C7" gate="G$1" x="55.88" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="53.34" y="64.77" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="58.42" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="60.198" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C8" gate="G$1" x="66.04" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.5" y="64.77" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="68.58" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="VOLTAGE" x="68.58" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="70.358" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -6479,13 +6459,20 @@ Layer: 94 Symbol</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="78.74" y1="63.5" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="63.5" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="P5" gate="1" pin="GND"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="58.42" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="60.96" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
+<junction x="78.74" y="58.42"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
-<junction x="78.74" y="60.96"/>
-<pinref part="CV1" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="60.96" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="60.96" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
+<junction x="66.04" y="58.42"/>
 </segment>
 <segment>
 <pinref part="P9" gate="1" pin="GND"/>
@@ -6634,12 +6621,16 @@ Layer: 94 Symbol</description>
 </net>
 <net name="+24V" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="68.58" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="+24V"/>
-<pinref part="CV1" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="68.58" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
+<wire x1="55.88" y1="71.12" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="68.58" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="71.12" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
+<junction x="55.88" y="71.12"/>
 <junction x="66.04" y="71.12"/>
 </segment>
 <segment>
