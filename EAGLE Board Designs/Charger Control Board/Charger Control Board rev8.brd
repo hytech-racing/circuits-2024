@@ -7008,6 +7008,52 @@ Notes: See page 47</description>
 </package>
 </packages>
 </library>
+<library name="relay" urn="urn:adsk.eagle:library:339">
+<description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eichhoff
+&lt;li&gt;Finder
+&lt;li&gt;Fujitsu
+&lt;li&gt;HAMLIN
+&lt;li&gt;OMRON
+&lt;li&gt;Matsushita
+&lt;li&gt;NAiS
+&lt;li&gt;Siemens
+&lt;li&gt;Schrack
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="RT2C/O" urn="urn:adsk.eagle:footprint:24220/1" library_version="5">
+<description>&lt;b&gt;Power PCB Relay DC and AC-coil&lt;/b&gt; SCHRACK&lt;p&gt;
+2 pole 8 A&lt;br&gt;
+Source: http://www.schrack.com/.. 5842.pdf</description>
+<wire x1="-14.8" y1="6.35" x2="14" y2="6.35" width="0.2032" layer="21"/>
+<wire x1="14" y1="6.35" x2="14" y2="-6.15" width="0.2032" layer="21"/>
+<wire x1="14" y1="-6.15" x2="-14.8" y2="-6.15" width="0.2032" layer="21"/>
+<wire x1="-14.8" y1="-6.15" x2="-14.8" y2="6.35" width="0.2032" layer="21"/>
+<pad name="21" x="7.56" y="3.88" drill="1.3" diameter="2.5" rot="R90"/>
+<pad name="14" x="12.6" y="-3.68" drill="1.3" diameter="2.5" rot="R90"/>
+<pad name="12" x="2.52" y="-3.68" drill="1.3" diameter="2.5" rot="R90"/>
+<pad name="A1" x="-12.6" y="-3.68" drill="1.3"/>
+<pad name="A2" x="-12.6" y="3.88" drill="1.3"/>
+<pad name="22" x="2.52" y="3.88" drill="1.3" diameter="2.5" rot="R90"/>
+<pad name="24" x="12.6" y="3.88" drill="1.3" diameter="2.5" rot="R90"/>
+<pad name="11" x="7.56" y="-3.68" drill="1.3" diameter="2.5" rot="R90"/>
+<text x="-10.16" y="1.37" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.16" y="-1.17" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="RT2C/O" urn="urn:adsk.eagle:package:24517/1" type="box" library_version="5">
+<description>Power PCB Relay DC and AC-coil SCHRACK
+2 pole 8 A
+Source: http://www.schrack.com/.. 5842.pdf</description>
+<packageinstances>
+<packageinstance name="RT2C/O"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7745,13 +7791,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="APT1608VBC/D" x="18.161" y="36.0934" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.161" y="35.3434" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="K1" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT" x="74.93" y="43.942" smashed="yes">
-<attribute name="DKPN" value="PB2021-ND" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="TE Connectivity" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="655-6-1393243-2" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RT424009" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="81.9658" y="49.1236" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-</element>
 <element name="K2" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT" x="74.93" y="30.48" smashed="yes">
 <attribute name="DKPN" value="PB2021-ND" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
@@ -8258,6 +8297,15 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="498" x="77.216" y="67.564" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="84.836" y="67.564" size="0.8128" layer="21" font="vector" rot="R270" align="bottom-center"/>
 </element>
+<element name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" package="RT2C/O" package3d_urn="urn:adsk.eagle:package:24517/1" value="RT424024" x="12.7" y="-8.89" smashed="yes">
+<attribute name="MF" value="TYCO ELECTRONICS" x="12.7" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RT424024" x="12.7" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="2.54" y="-7.52" size="1.27" layer="25"/>
+<attribute name="OC_FARNELL" value="1629054" x="12.7" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="16F393" x="12.7" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="POPULARITY" value="0" x="12.7" y="-8.89" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="2.54" y="-10.06" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">
@@ -8293,7 +8341,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="R26" pad="2"/>
 <contactref element="R12" pad="2"/>
 <contactref element="R32" pad="2"/>
-<contactref element="K1" pad="14"/>
 <contactref element="K2" pad="14"/>
 <contactref element="K3" pad="14"/>
 <contactref element="C4" pad="1"/>
@@ -8465,6 +8512,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="77.216" y1="56.896" x2="76.708" y2="56.388" width="0.254" layer="1"/>
 <via x="76.708" y="56.388" extent="1-16" drill="0.3556"/>
 <wire x1="14.6692" y1="38.1" x2="14.6692" y2="35.306" width="0.254" layer="1"/>
+<contactref element="K1" pad="14"/>
 <wire x1="78.6774" y1="53.4416" x2="81.5594" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="76.708" y1="56.388" x2="76.835" y2="53.4416" width="0" layer="19" extent="1-1"/>
 <wire x1="72.9624" y1="53.4416" x2="76.835" y2="53.4416" width="0" layer="19" extent="1-1"/>
@@ -8473,7 +8521,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="63.3984" y1="57.2516" x2="66.357" y2="57.277" width="0" layer="19" extent="1-1"/>
 <wire x1="58.42" y1="57.2516" x2="62.039" y2="57.277" width="0" layer="19" extent="1-1"/>
 <wire x1="53.975" y1="57.15" x2="57.213" y2="57.277" width="0" layer="19" extent="1-1"/>
-<wire x1="79.97" y1="47.692" x2="81.5594" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="44.9208" y1="59.817" x2="52.8442" y2="57.277" width="0" layer="19" extent="1-1"/>
 <wire x1="39.7764" y1="58.42" x2="42.252" y2="57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="36.4236" y1="58.4708" x2="39.077" y2="57.15" width="0" layer="19" extent="1-1"/>
@@ -8514,7 +8561,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="41.0464" y1="13.3252" x2="48.0441" y2="18.39068125" width="0" layer="19" extent="16-16"/>
 <wire x1="46.0502" y1="4.826" x2="41.0464" y2="13.3252" width="0" layer="19" extent="16-16"/>
 <wire x1="54.9784" y1="3.1094" x2="46.0502" y2="4.826" width="0" layer="19" extent="1-1"/>
-<wire x1="79.97" y1="34.23" x2="79.97" y2="47.692" width="0" layer="19" extent="1-1"/>
+<wire x1="25.3" y1="-12.57" x2="29.7434" y2="2.1082" width="0" layer="19" extent="1-1"/>
+<wire x1="79.97" y1="34.23" x2="81.5594" y2="53.34" width="0" layer="19" extent="1-1"/>
 <wire x1="79.97" y1="20.768" x2="79.97" y2="34.23" width="0" layer="19" extent="1-1"/>
 <wire x1="44.45" y1="81.28" x2="44.9208" y2="59.817" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -8968,17 +9016,17 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="83.69316875" y1="55.09243125" x2="83.69316875" y2="52.56496875" width="0.254" layer="1"/>
 </signal>
 <signal name="N$11">
-<contactref element="K1" pad="11"/>
-<contactref element="K1" pad="A2"/>
 <contactref element="D105" pad="A"/>
 <contactref element="D1" pad="A"/>
-<wire x1="54.63" y1="40.192" x2="51.1648" y2="40.192" width="0.508" layer="16"/>
 <wire x1="51.1648" y1="40.192" x2="50.038" y2="41.3188" width="0.508" layer="16"/>
 <wire x1="50.038" y1="41.3188" x2="50.038" y2="42.792" width="0.508" layer="16"/>
 <wire x1="50.038" y1="42.792" x2="70.03" y2="42.792" width="0.508" layer="16"/>
-<wire x1="70.03" y1="42.792" x2="74.93" y2="47.692" width="0.508" layer="16"/>
 <wire x1="47.9368" y1="39.5986" x2="54.0366" y2="39.5986" width="0.381" layer="1"/>
-<wire x1="54.0366" y1="39.5986" x2="54.63" y2="40.192" width="0.381" layer="1"/>
+<contactref element="K1" pad="A1"/>
+<contactref element="K1" pad="11"/>
+<wire x1="54.0366" y1="39.5986" x2="51.1648" y2="40.192" width="0" layer="19" extent="1-16"/>
+<wire x1="20.26" y1="-12.57" x2="47.9368" y2="39.5986" width="0" layer="19" extent="1-1"/>
+<wire x1="0.1" y1="-12.57" x2="20.26" y2="-12.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="K2" pad="11"/>
@@ -8997,13 +9045,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="N$12">
 <contactref element="R25" pad="1"/>
-<contactref element="K1" pad="A1"/>
 <contactref element="D105" pad="C"/>
 <wire x1="50.038" y1="45.092" x2="50.038" y2="46.7068" width="0.508" layer="16"/>
 <wire x1="51.0232" y1="47.692" x2="50.038" y2="46.7068" width="0.508" layer="16"/>
-<wire x1="51.0232" y1="47.692" x2="54.63" y2="47.692" width="0.508" layer="16"/>
 <wire x1="50.8" y1="47.459" x2="54.397" y2="47.459" width="0.381" layer="1"/>
-<wire x1="54.397" y1="47.459" x2="54.63" y2="47.692" width="0.254" layer="1"/>
+<contactref element="K1" pad="A2"/>
+<wire x1="51.0232" y1="47.692" x2="50.8" y2="47.459" width="0" layer="19" extent="1-16"/>
+<wire x1="0.1" y1="-5.01" x2="50.038" y2="45.092" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$13">
 <contactref element="R34" pad="1"/>
@@ -9099,12 +9147,10 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="41.973" y1="21.463" x2="43.624" y2="19.812" width="0.254" layer="1"/>
 </signal>
 <signal name="SHDN_A">
-<contactref element="K1" pad="21"/>
 <contactref element="XF2" pad="4"/>
 <contactref element="XF2" pad="3"/>
 <contactref element="R23" pad="1"/>
 <wire x1="33.6042" y1="25.781" x2="37.0078" y2="25.781" width="0.889" layer="1"/>
-<wire x1="74.93" y1="40.192" x2="73.914" y2="40.192" width="0.889" layer="1"/>
 <wire x1="73.914" y1="40.192" x2="71.822" y2="38.1" width="0.889" layer="1"/>
 <wire x1="71.822" y1="38.1" x2="66.802" y2="38.1" width="0.889" layer="1"/>
 <wire x1="66.802" y1="38.1" x2="65.278" y2="36.576" width="0.889" layer="1"/>
@@ -9120,13 +9166,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="46.355" y1="55.245" x2="42.252" y2="55.245" width="0.254" layer="1"/>
 <wire x1="63.246" y1="46.9138" x2="54.9148" y2="55.245" width="0.254" layer="1"/>
 <wire x1="46.355" y1="57.15" x2="46.355" y2="55.245" width="0.254" layer="1"/>
+<contactref element="K1" pad="21"/>
+<wire x1="20.26" y1="-5.01" x2="33.6042" y2="25.781" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SHDN_B">
 <contactref element="R3" pad="1"/>
-<contactref element="K1" pad="24"/>
 <contactref element="K2" pad="21"/>
 <contactref element="R22" pad="1"/>
-<wire x1="79.97" y1="40.192" x2="77.47" y2="37.692" width="0.889" layer="1"/>
 <wire x1="77.47" y1="29.27" x2="74.93" y2="26.73" width="0.889" layer="1"/>
 <wire x1="77.47" y1="37.692" x2="77.47" y2="29.27" width="0.889" layer="1"/>
 <wire x1="74.93" y1="26.73" x2="72.196" y2="29.464" width="0.254" layer="1"/>
@@ -9153,6 +9199,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="60.53599375" y1="50.927" x2="55.58299375" y2="55.88" width="0.254" layer="1"/>
 <wire x1="52.793" y1="59.055" x2="52.07" y2="58.332" width="0.254" layer="1"/>
 <wire x1="52.705" y1="55.88" x2="55.58299375" y2="55.88" width="0.254" layer="1"/>
+<contactref element="K1" pad="24"/>
+<wire x1="25.3" y1="-5.01" x2="74.93" y2="26.73" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SHDN_C">
 <contactref element="R4" pad="1"/>
@@ -9571,6 +9619,21 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
