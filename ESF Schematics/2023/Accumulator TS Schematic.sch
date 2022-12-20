@@ -3730,7 +3730,7 @@ Layer: 94 Symbol</description>
 <part name="U$27" library="HyTechSymbolsTemp" deviceset="MAINTENANCE_PLUG_*" device="" technology="104742-2"/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="J1" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800"/>
-<part name="MAIN_FUSE" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="175A"/>
+<part name="MAIN_FUSE" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="125A"/>
 <part name="F1" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1A"/>
 </parts>
 <sheets>
