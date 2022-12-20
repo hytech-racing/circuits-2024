@@ -2798,100 +2798,6 @@ Layer: 94 Symbol</description>
 </library>
 <library name="HyTechDevices - Copy">
 <packages>
-<package name="MOLEX_NANOFIT_SMD_RIGHTANGLE_08">
-<description>8 Pin Nano-Fit Vertical Header, PCB Mount, Dual Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/1054051208"&gt;Part&lt;\a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/1054051208_sd.pdf"&gt;Footprint&lt;\a&gt;</description>
-<smd name="2" x="1.25" y="1.65" dx="1.24" dy="2.5" layer="1"/>
-<smd name="1" x="3.75" y="1.65" dx="1.24" dy="2.5" layer="1"/>
-<smd name="5" x="3.75" y="-1.65" dx="1.24" dy="2.5" layer="1"/>
-<smd name="6" x="1.25" y="-1.65" dx="1.24" dy="2.5" layer="1"/>
-<smd name="7" x="-1.25" y="-1.65" dx="1.24" dy="2.5" layer="1"/>
-<smd name="8" x="-3.75" y="-1.65" dx="1.24" dy="2.5" layer="1"/>
-<smd name="3" x="-1.25" y="1.65" dx="1.24" dy="2.5" layer="1"/>
-<smd name="4" x="-3.75" y="1.65" dx="1.24" dy="2.5" layer="1"/>
-<smd name="PAD" x="-6.02" y="-6.58" dx="1.1" dy="8.2" layer="1"/>
-<smd name="PAD@1" x="6.02" y="-6.58" dx="1.1" dy="8.2" layer="1"/>
-<wire x1="-3.77" y1="2.6" x2="3.77" y2="2.6" width="0.127" layer="21"/>
-<wire x1="3.77" y1="2.6" x2="3.77" y2="-1.99" width="0.127" layer="21"/>
-<wire x1="3.77" y1="-1.99" x2="6.87" y2="-1.99" width="0.127" layer="21"/>
-<wire x1="6.87" y1="-1.99" x2="6.87" y2="-10.68" width="0.127" layer="21"/>
-<wire x1="6.87" y1="-10.68" x2="-6.87" y2="-10.68" width="0.127" layer="21"/>
-<wire x1="-6.87" y1="-10.68" x2="-6.87" y2="-1.99" width="0.127" layer="21"/>
-<wire x1="-6.87" y1="-1.99" x2="-3.77" y2="-1.99" width="0.127" layer="21"/>
-<wire x1="-3.77" y1="-1.99" x2="-3.77" y2="2.6" width="0.127" layer="21"/>
-<wire x1="-6.87" y1="-19.48" x2="6.87" y2="-19.48" width="0.1524" layer="21"/>
-<text x="0" y="-20.065" size="0.6096" layer="51" font="vector" align="top-center">Line must not be
-visible on the PCB.</text>
-<rectangle x1="-7.62" y1="-19.43" x2="7.62" y2="3.81" layer="39"/>
-<text x="0" y="3.81" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="MOLEX_NANOFIT_PTH_08">
-<description>8 Pin Nano-Fit™ Vertical Header, Through Hole, Dual Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/1053101208"&gt;Part&lt;\a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/1053101208_sd.pdf"&gt;Footprint&lt;\a&gt;</description>
-<pad name="3" x="-1.25" y="0" drill="1.2" rot="R180"/>
-<pad name="2" x="1.25" y="0" drill="1.2" rot="R180"/>
-<pad name="6" x="1.25" y="-2.5" drill="1.2" rot="R180"/>
-<pad name="7" x="-1.25" y="-2.5" drill="1.2" rot="R180"/>
-<pad name="8" x="-3.75" y="-2.5" drill="1.2" rot="R180"/>
-<pad name="4" x="-3.75" y="0" drill="1.2" rot="R180"/>
-<pad name="1" x="3.75" y="0" drill="1.2" rot="R180"/>
-<pad name="5" x="3.75" y="-2.5" drill="1.2" rot="R180"/>
-<wire x1="5.5" y1="-4.25" x2="-5.5" y2="-4.25" width="0.127" layer="21"/>
-<wire x1="5.5" y1="-4.25" x2="5.5" y2="1.75" width="0.127" layer="21"/>
-<wire x1="5.5" y1="1.75" x2="2.6" y2="1.75" width="0.127" layer="21"/>
-<wire x1="2.6" y1="1.75" x2="-2.6" y2="1.75" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="1.75" x2="-5.5" y2="1.75" width="0.127" layer="21"/>
-<wire x1="-5.5" y1="1.75" x2="-5.5" y2="-4.25" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="4.6" x2="2.6" y2="4.6" width="0.127" layer="21"/>
-<wire x1="2.6" y1="4.6" x2="2.6" y2="1.75" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="4.6" x2="-2.6" y2="1.75" width="0.127" layer="21"/>
-<hole x="0" y="1.34" drill="1.3"/>
-<rectangle x1="-3.175" y1="1.905" x2="3.175" y2="5.08" layer="39" rot="R180"/>
-<rectangle x1="-5.715" y1="-4.445" x2="5.715" y2="1.905" layer="40" rot="R180"/>
-<rectangle x1="-5.715" y1="-4.445" x2="5.715" y2="1.905" layer="39" rot="R180"/>
-<text x="0" y="-5.08" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="MOLEX_MICROFIT_PTH_VERTICAL_08_DUAL">
-<description>8 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0430450814"&gt;Part&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430450814_sd.pdf"&gt;Footprint&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430250800_sd.pdf"&gt;Plug Size&lt;/a&gt;</description>
-<pad name="2" x="1.4986" y="-2.9972" drill="1.0668"/>
-<pad name="1" x="4.4958" y="-2.9972" drill="1.0668"/>
-<hole x="7.493" y="0.9398" drill="1.0668"/>
-<hole x="-7.493" y="0.9398" drill="1.0668"/>
-<wire x1="-7.8232" y1="-5.461" x2="7.8232" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="7.8232" y1="-5.461" x2="7.8232" y2="1.905" width="0.127" layer="21"/>
-<wire x1="7.8232" y1="1.905" x2="1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="1.905" x2="-1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-7.8232" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-7.8232" y1="1.905" x2="-7.8232" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="1.9304" y2="3.302" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="3.302" x2="1.9304" y2="1.905" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="-1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="5.969" x2="1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="1.9304" y1="5.969" x2="1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<rectangle x1="-8.5598" y1="-5.842" x2="8.5598" y2="2.286" layer="39"/>
-<rectangle x1="-2.54" y1="2.286" x2="2.54" y2="6.35" layer="39"/>
-<rectangle x1="-8.5598" y1="-5.842" x2="8.5598" y2="2.286" layer="40"/>
-<text x="0" y="-6.477" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-<pad name="3" x="-1.4986" y="-2.9972" drill="1.0668"/>
-<pad name="4" x="-4.4958" y="-2.9972" drill="1.0668"/>
-<pad name="5" x="4.4958" y="0" drill="1.0668"/>
-<pad name="6" x="1.4986" y="0" drill="1.0668"/>
-<pad name="7" x="-1.4986" y="0" drill="1.0668"/>
-<pad name="8" x="-4.4958" y="0" drill="1.0668"/>
-</package>
 <package name="MICRO_MINIATURE">
 <description>Keystone Micro-Miniature SMD Test Point
 &lt;br&gt;
@@ -3231,30 +3137,6 @@ Dashed line is edge of mated connector.</description>
 </package>
 </packages>
 <symbols>
-<symbol name="CONNECTOR_08">
-<wire x1="7.62" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-12.7" x2="5.08" y2="-12.7" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-15.24" x2="5.08" y2="-15.24" width="0.6096" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-22.86" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
-<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
-<pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="10.16" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="10.16" y="-10.16" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="10.16" y="-12.7" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="6" x="10.16" y="-15.24" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="7" x="10.16" y="-17.78" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="8" x="10.16" y="-20.32" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="3.81" y1="-17.78" x2="5.08" y2="-17.78" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-20.32" x2="5.08" y2="-20.32" width="0.6096" layer="94"/>
-<text x="0" y="-23.495" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-</symbol>
 <symbol name="TEST_POINT">
 <circle x="-1.27" y="0" radius="1.27" width="0.254" layer="94"/>
 <pin name="P$1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
@@ -3370,72 +3252,6 @@ Pins tied to GND: SLOW
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONNECTOR-8_?_*" prefix="J">
-<description>8 Pin Connector</description>
-<gates>
-<gate name="G$1" symbol="CONNECTOR_08" x="0" y="0"/>
-</gates>
-<devices>
-<device name="NF_S_RA" package="MOLEX_NANOFIT_SMD_RIGHTANGLE_08">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name="BLACK">
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MPN" value="105405-1308"/>
-</technology>
-</technologies>
-</device>
-<device name="NF_T_V" package="MOLEX_NANOFIT_PTH_08">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name="BLACK">
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MPN" value="105310-1308"/>
-</technology>
-<technology name="NATURAL">
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MPN" value="105310-2308"/>
-</technology>
-</technologies>
-</device>
-<device name="MF_T_V" package="MOLEX_MICROFIT_PTH_VERTICAL_08_DUAL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="MOLEX"/>
-<attribute name="MPN" value="430450814"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TEST_POINT" prefix="TP">
 <description>Test Point
 &lt;br&gt;</description>
@@ -5920,6 +5736,196 @@ Dashed line is edge of mated connector.</description>
 <pad name="11" x="-4.4958" y="0" drill="1.0668"/>
 <pad name="12" x="-7.493" y="0" drill="1.0668"/>
 </package>
+<package name="M12A-08PMMP">
+<description>M12A-08PMMP Amphenol Connector
+&lt;p&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/M12A-08PMMP-SF8001.pdf"&gt;Datasheet 1&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/MSeries_M12%20A.B.D_Code_Product_Spec.pdf"&gt;Datasheet 2&lt;/a&gt;</description>
+<pad name="1" x="2.68990625" y="0.57175625" drill="1" first="yes"/>
+<pad name="8" x="0" y="0" drill="1"/>
+<pad name="2" x="0.57175625" y="2.68990625" drill="1"/>
+<pad name="3" x="-1.654990625" y="2.196246875" drill="1"/>
+<pad name="4" x="-2.7433" y="0.19183125" drill="1"/>
+<pad name="5" x="-1.94454375" y="-1.94454375" drill="1"/>
+<pad name="6" x="0.19183125" y="-2.7433" drill="1"/>
+<pad name="7" x="2.196246875" y="-1.654990625" drill="1"/>
+<circle x="0" y="0" radius="9" width="0.127" layer="21"/>
+<text x="0" y="10.652" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="5.25" width="10.5" layer="39"/>
+<circle x="0" y="0" radius="2.1" width="4.2" layer="40"/>
+<circle x="0" y="0" radius="10.3" width="0.127" layer="21"/>
+<wire x1="-5" y1="9" x2="5" y2="9" width="0.127" layer="21"/>
+<wire x1="5" y1="9" x2="10.3" y2="0" width="0.127" layer="21"/>
+<wire x1="10.3" y1="0" x2="5" y2="-9" width="0.127" layer="21"/>
+<wire x1="5" y1="-9" x2="-5" y2="-9" width="0.127" layer="21"/>
+<wire x1="-5" y1="-9" x2="-10.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-10.3" y1="0" x2="-5" y2="9" width="0.127" layer="21"/>
+</package>
+<package name="MOLEX_NANOFIT_SMD_RIGHTANGLE_06">
+<description>6 Pin Nano-Fit Vertical Header, PCB Mount, Dual Row
+&lt;br&gt;
+&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/1054051206"&gt;Part&lt;\a&gt;
+&lt;br&gt;
+&lt;a href="https://www.molex.com/pdm_docs/sd/1054051206_sd.pdf"&gt;Footprint&lt;\a&gt;</description>
+<smd name="2" x="0" y="1.65" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="5" x="0" y="-1.65" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="4" x="2.5" y="-1.65" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="1" x="2.5" y="1.65" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="3" x="-2.5" y="1.65" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="6" x="-2.5" y="-1.65" dx="2.5" dy="1.24" layer="1" rot="R90"/>
+<smd name="PAD1" x="-4.7" y="-6.58" dx="1.1" dy="8.2" layer="1"/>
+<smd name="PAD2" x="4.7" y="-6.58" dx="1.1" dy="8.2" layer="1"/>
+<wire x1="-2.52" y1="2.6" x2="2.52" y2="2.6" width="0.127" layer="21"/>
+<wire x1="2.52" y1="2.6" x2="2.52" y2="-1.99" width="0.127" layer="21"/>
+<wire x1="2.52" y1="-1.99" x2="5.62" y2="-1.99" width="0.127" layer="21"/>
+<wire x1="5.62" y1="-1.99" x2="5.62" y2="-10.68" width="0.127" layer="21"/>
+<wire x1="5.62" y1="-10.68" x2="-5.62" y2="-10.68" width="0.127" layer="21"/>
+<wire x1="-5.62" y1="-10.68" x2="-5.62" y2="-1.99" width="0.127" layer="21"/>
+<wire x1="-5.62" y1="-1.99" x2="-2.52" y2="-1.99" width="0.127" layer="21"/>
+<wire x1="-2.52" y1="-1.99" x2="-2.52" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-5.62" y1="-19.48" x2="5.62" y2="-19.48" width="0.1524" layer="51"/>
+<text x="0" y="-20.065" size="0.6096" layer="51" font="vector" align="top-center">Line must not be
+visible on the PCB.</text>
+<rectangle x1="-6.35" y1="-19.43" x2="6.35" y2="3.81" layer="39"/>
+<text x="0" y="3.81" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="MOLEX_NANOFIT_PTH_06">
+<description>6 Pin Nano-Fit™ Vertical Header, Through Hole, Dual Row
+&lt;br&gt;
+&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/1053101206"&gt;Part&lt;\a&gt;
+&lt;br&gt;
+&lt;a href="https://www.molex.com/pdm_docs/sd/1053101206_sd.pdf"&gt;Footprint&lt;\a&gt;</description>
+<pad name="2" x="0" y="0" drill="1.2" rot="R180"/>
+<pad name="5" x="0" y="-2.5" drill="1.2" rot="R180"/>
+<pad name="6" x="-2.5" y="-2.5" drill="1.2" rot="R180"/>
+<pad name="3" x="-2.5" y="0" drill="1.2" rot="R180"/>
+<pad name="1" x="2.5" y="0" drill="1.2" rot="R180"/>
+<pad name="4" x="2.5" y="-2.5" drill="1.2" rot="R180"/>
+<wire x1="4.25" y1="-4.25" x2="-4.25" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="4.25" y1="-4.25" x2="4.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="4.25" y1="1.75" x2="2.6" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2.6" y1="1.75" x2="-2.6" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="1.75" x2="-4.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-4.25" y1="1.75" x2="-4.25" y2="-4.25" width="0.127" layer="21"/>
+<hole x="1.25" y="1.34" drill="1.3"/>
+<wire x1="-2.6" y1="4.6" x2="2.6" y2="4.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="4.6" x2="2.6" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="4.6" x2="-2.6" y2="1.75" width="0.127" layer="21"/>
+<rectangle x1="-3.175" y1="1.905" x2="3.175" y2="5.08" layer="39" rot="R180"/>
+<rectangle x1="-4.445" y1="-4.445" x2="4.445" y2="1.905" layer="40" rot="R180"/>
+<rectangle x1="-4.445" y1="-4.445" x2="4.445" y2="1.905" layer="39" rot="R180"/>
+<text x="0" y="-5.08" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="MOLEX_MICROFIT_SMD_RIGHTANGLE_06_DUAL">
+<description>6 Pin Micro-Fit Right Angle Header, SMD, Dual Row
+&lt;br&gt;
+&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0430450611"&gt;Part&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.molex.com/pdm_docs/sd/430450611_sd.pdf"&gt;Footprint&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.molex.com/pdm_docs/sd/430250600_sd.pdf"&gt;Plug Size&lt;/a&gt;
+&lt;br&gt;
+Solid line must not be visible on PCB if no cutout is desired.
+&lt;br&gt;
+Dashed line is edge of mated connector.</description>
+<smd name="PAD1" x="6.8862" y="0" dx="3.429" dy="1.651" layer="1"/>
+<smd name="PAD2" x="-6.8862" y="0" dx="3.429" dy="1.651" layer="1"/>
+<smd name="2" x="0" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
+<smd name="5" x="0" y="10.0965" dx="1.27" dy="2.921" layer="1"/>
+<rectangle x1="5.1717" y1="1.8034" x2="7.6101" y2="3.4036" layer="43"/>
+<rectangle x1="-7.6101" y1="1.8034" x2="-5.1717" y2="3.4036" layer="43"/>
+<wire x1="-6.3274" y1="5.4737" x2="6.3274" y2="5.4737" width="0.127" layer="21"/>
+<wire x1="4.4986" y1="-4.4323" x2="-4.4986" y2="-4.4323" width="0.127" layer="21"/>
+<wire x1="-6.3274" y1="-2.6035" x2="-6.3274" y2="5.4737" width="0.127" layer="21"/>
+<wire x1="-4.4986" y1="-4.4323" x2="-6.3274" y2="-2.6035" width="0.127" layer="21"/>
+<wire x1="4.4986" y1="-4.4323" x2="6.3274" y2="-2.6035" width="0.127" layer="21"/>
+<wire x1="6.3274" y1="-2.6035" x2="6.3274" y2="5.4737" width="0.127" layer="21"/>
+<rectangle x1="-9.35" y1="-5.08" x2="9.35" y2="12.7" layer="39"/>
+<text x="0" y="-5.207" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-7.6101" y1="1.8034" x2="-5.1717" y2="3.4036" layer="41"/>
+<rectangle x1="5.1717" y1="1.8034" x2="7.6101" y2="3.4036" layer="41"/>
+<wire x1="-9.35" y1="-10.033" x2="9.35" y2="-10.033" width="0.127" layer="51"/>
+<wire x1="-9.35" y1="-12.3698" x2="9.35" y2="-12.3698" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-5.54" y1="-10.033" x2="5.54" y2="-10.033" width="0" layer="46"/>
+<wire x1="5.54" y1="-10.033" x2="5.54" y2="-25.527" width="0" layer="46"/>
+<wire x1="5.54" y1="-25.527" x2="-5.54" y2="-25.527" width="0" layer="46"/>
+<wire x1="-5.54" y1="-25.527" x2="-5.54" y2="-10.033" width="0" layer="46"/>
+<rectangle x1="-5.54" y1="-25.527" x2="5.54" y2="-10.033" layer="42"/>
+<polygon width="0" layer="20">
+<vertex x="5.54" y="-25.527"/>
+<vertex x="-5.54" y="-25.527"/>
+<vertex x="-5.54" y="-10.033"/>
+<vertex x="5.54" y="-10.033"/>
+</polygon>
+<smd name="1" x="3" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
+<smd name="4" x="3" y="10.0965" dx="1.27" dy="2.921" layer="1"/>
+<smd name="3" x="-3" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
+<smd name="6" x="-3" y="10.0965" dx="1.27" dy="2.921" layer="1"/>
+</package>
+<package name="MOLEX_MICROFIT_PTH_VERTICAL_06_DUAL">
+<description>6 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
+&lt;br&gt;
+&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0430450614"&gt;Part&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.molex.com/pdm_docs/sd/430450614_sd.pdf"&gt;Footprint&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.molex.com/pdm_docs/sd/430250600_sd.pdf"&gt;Plug Size&lt;/a&gt;</description>
+<pad name="2" x="0" y="-2.9972" drill="1.0668"/>
+<pad name="1" x="2.9972" y="-2.9972" drill="1.0668"/>
+<hole x="5.9944" y="0.9398" drill="1.0668"/>
+<hole x="-5.9944" y="0.9398" drill="1.0668"/>
+<wire x1="-6.3246" y1="-5.461" x2="6.3246" y2="-5.461" width="0.127" layer="21"/>
+<wire x1="6.3246" y1="-5.461" x2="6.3246" y2="1.905" width="0.127" layer="21"/>
+<wire x1="6.3246" y1="1.905" x2="1.9304" y2="1.905" width="0.127" layer="21"/>
+<wire x1="1.9304" y1="1.905" x2="-1.9304" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-1.9304" y1="1.905" x2="-6.3246" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-6.3246" y1="1.905" x2="-6.3246" y2="-5.461" width="0.127" layer="21"/>
+<wire x1="-1.9304" y1="1.905" x2="-1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1.9304" y1="3.302" x2="1.9304" y2="3.302" width="0.127" layer="21"/>
+<wire x1="1.9304" y1="3.302" x2="1.9304" y2="1.905" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1.9304" y1="3.302" x2="-1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1.9304" y1="5.969" x2="1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
+<wire x1="1.9304" y1="5.969" x2="1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
+<rectangle x1="-7.0612" y1="-5.842" x2="7.0612" y2="2.286" layer="39"/>
+<rectangle x1="-2.54" y1="2.286" x2="2.54" y2="6.35" layer="39"/>
+<rectangle x1="-7.0612" y1="-5.842" x2="7.0612" y2="2.286" layer="40"/>
+<text x="0" y="-6.477" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
+<pad name="3" x="-2.9972" y="-2.9972" drill="1.0668"/>
+<pad name="4" x="2.9972" y="0" drill="1.0668"/>
+<pad name="5" x="0" y="0" drill="1.0668"/>
+<pad name="6" x="-2.9972" y="0" drill="1.0668"/>
+</package>
+<package name="SOURIAU_08-35">
+<description>Souriau 6 pin connector
+&lt;br&gt;
+8STA20835PN
+&lt;br&gt;
+&lt;a href="https://www.souriau.com/en-en/system/files/application/downloads/8sta_series_pc_tail_contacts_datasheet_0.pdf" &gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
+<circle x="0" y="0" radius="3" width="6" layer="40"/>
+<pad name="1" x="1.14" y="1.98" drill="1" first="yes"/>
+<pad name="2" x="1.98" y="-1.14" drill="1"/>
+<pad name="3" x="0" y="-2.29" drill="1"/>
+<pad name="4" x="-1.98" y="-1.14" drill="1"/>
+<pad name="5" x="-1.14" y="1.98" drill="1"/>
+<pad name="6" x="0" y="0" drill="1"/>
+<circle x="0" y="0" radius="9" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="6" width="0.127" layer="22"/>
+<circle x="0" y="0" radius="4.5" width="9" layer="39"/>
+<text x="0" y="7.16" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center">&gt;NAME</text>
+<text x="0" y="9.605" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<hole x="7.56604375" y="7.56604375" drill="2.9"/>
+<circle x="7.56604375" y="7.56604375" radius="3" width="0" layer="39"/>
+<circle x="7.56604375" y="7.56604375" radius="3" width="0" layer="40"/>
+<circle x="7.56604375" y="7.56604375" radius="3" width="0" layer="41"/>
+<circle x="7.56604375" y="7.56604375" radius="3" width="0" layer="42"/>
+<hole x="-7.56604375" y="-7.56604375" drill="2.9"/>
+<circle x="-7.56604375" y="-7.56604375" radius="3" width="0" layer="39"/>
+<circle x="-7.56604375" y="-7.56604375" radius="3" width="0" layer="40"/>
+<circle x="-7.56604375" y="-7.56604375" radius="3" width="0" layer="41"/>
+<circle x="-7.56604375" y="-7.56604375" radius="3" width="0" layer="42"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -6536,6 +6542,26 @@ Dashed line is edge of mated connector.</description>
 <wire x1="3.81" y1="-30.48" x2="5.08" y2="-30.48" width="0.6096" layer="94"/>
 <text x="0" y="-33.655" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
+<symbol name="CONNECTOR_06">
+<wire x1="7.62" y1="-17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-12.7" x2="5.08" y2="-12.7" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-15.24" x2="5.08" y2="-15.24" width="0.6096" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
+<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
+<pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="10.16" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="10.16" y="-10.16" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="10.16" y="-12.7" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="6" x="10.16" y="-15.24" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<text x="0" y="-18.415" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CAPACITOR_?_*" prefix="C">
@@ -6977,6 +7003,13 @@ Dashed line is edge of mated connector.</description>
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
+<technology name="28V">
+<attribute name="DKPN" value="118-1.5SMBJ28ATR-ND"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="MOPN" value="652-1.5SMBJ28A"/>
+<attribute name="MPN" value="1.5SMBJ28A"/>
+<attribute name="VOLTAGE" value="28V"/>
+</technology>
 <technology name="30V">
 <attribute name="DKPN" value="118-1.5SMBJ30ATR-ND"/>
 <attribute name="MANUFACTURER" value="Bourns Inc."/>
@@ -9153,6 +9186,26 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 </technology>
 </technologies>
 </device>
+<device name="AMPHENOL_M12A_08PMMP" package="M12A-08PMMP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="1754-1026-ND"/>
+<attribute name="MANUFACTURER" value="Amphenol LTW"/>
+<attribute name="MOPN" value="523-M12A08PMMPSF8001"/>
+<attribute name="MPN" value="M12A-08PMMP-SF8001"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="JUMPER_?_*" prefix="JP">
@@ -9608,6 +9661,104 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 </device>
 </devices>
 </deviceset>
+<deviceset name="CONNECTOR-6_?_*" prefix="J">
+<description>6 Pin Connector</description>
+<gates>
+<gate name="G$1" symbol="CONNECTOR_06" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NF_S_RA" package="MOLEX_NANOFIT_SMD_RIGHTANGLE_06">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="BLACK">
+<attribute name="DKPN" value="1054051306-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-105405-1306"/>
+<attribute name="MPN" value="105405-1306"/>
+</technology>
+</technologies>
+</device>
+<device name="NF_T_V" package="MOLEX_NANOFIT_PTH_06">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="BLACK">
+<attribute name="DKPN" value="WM15062-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-105310-1306"/>
+<attribute name="MPN" value="105310-1306"/>
+</technology>
+</technologies>
+</device>
+<device name="μF_S_RA" package="MOLEX_MICROFIT_SMD_RIGHTANGLE_06_DUAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="WM1833CT-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-43045-0611"/>
+<attribute name="MPN" value="0430450611"/>
+</technology>
+</technologies>
+</device>
+<device name="μF_T_V" package="MOLEX_MICROFIT_PTH_VERTICAL_06_DUAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="BLACK">
+<attribute name="DKPN" value="WM1797-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-43045-0614"/>
+<attribute name="MPN" value="430450614"/>
+</technology>
+</technologies>
+</device>
+<device name="AS_PCT" package="SOURIAU_08-35">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value=""/>
+<attribute name="MANUFACTURER" value="Souriau"/>
+<attribute name="MOPN" value="649-8STA20835PN"/>
+<attribute name="MPN" value="8STA20835PN"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
@@ -9705,7 +9856,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device=""/>
 <part name="FRAME2" library="HyTechFrames" deviceset="FRAME" device=""/>
 <part name="FRAME4" library="HyTechFrames" deviceset="FRAME" device=""/>
-<part name="J5" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="NF_T_V" technology="NATURAL" value="CONNECTOR-8_NF_T_V_NATURAL"/>
+<part name="J5" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
 <part name="P1" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P6" library="HyTechSupplies" deviceset="+24V" device=""/>
@@ -9961,7 +10112,6 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="P86" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R19" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="2.2K"/>
 <part name="P4" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="J2" library="HyTechDevices - Copy" deviceset="CONNECTOR-8_?_*" device="MF_T_V"/>
 <part name="A2" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V"/>
 <part name="P41" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P43" library="HyTechSupplies" deviceset="+3V3" device=""/>
@@ -10077,7 +10227,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="O26" library="HyTechExternal" deviceset="CRIMP_*" device="" technology="MICROFIT_20-24"/>
 <part name="O27" library="HyTechExternal" deviceset="CRIMP_*" device="" technology="MICROFIT_20-24"/>
 <part name="XF1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="PTH" technology="MINIBLADE"/>
-<part name="D7" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="D7" library="HyTechDevices" deviceset="TVS_*" device="" technology="8V" value="TVS_8V"/>
 <part name="P103" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P104" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P105" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -10114,18 +10264,18 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="R93" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="8.66K"/>
 <part name="R90" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="73.2K"/>
 <part name="R92" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1M"/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K"/>
-<part name="D6" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V"/>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K"/>
-<part name="D4" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
+<part name="D6" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
+<part name="D4" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
 <part name="U$26" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="R16" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
-<part name="D8" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V"/>
-<part name="D5" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V"/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K"/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
+<part name="D8" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D5" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
 <part name="U$27" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="U4" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="P38" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -10176,6 +10326,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="TP_24V" library="HyTechDevices" deviceset="TEST_POINT" device="">
 <attribute name="SIGNAL" value="+24V"/>
 </part>
+<part name="J2" library="HyTechDevices" deviceset="CONNECTOR-6_?_*" device="μF_T_V" technology="BLACK"/>
 </parts>
 <sheets>
 <sheet>
@@ -10408,10 +10559,6 @@ Accumulator GND, both AIR+ and -</text>
 <instance part="P4" gate="1" x="35.56" y="121.92" smashed="yes" rot="R90">
 <attribute name="VALUE" x="36.83" y="121.92" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="J2" gate="G$1" x="7.62" y="66.04" smashed="yes">
-<attribute name="NAME" x="7.62" y="66.802" size="1.27" layer="95"/>
-<attribute name="MPN" x="7.62" y="42.545" size="1.27" layer="96" align="top-left"/>
-</instance>
 <instance part="A2" gate="G$1" x="154.94" y="195.58" smashed="yes">
 <attribute name="NAME" x="154.94" y="196.342" size="1.27" layer="95"/>
 <attribute name="MPN" x="163.83" y="184.658" size="1.27" layer="96" align="top-left"/>
@@ -10634,6 +10781,10 @@ Accumulator GND, both AIR+ and -</text>
 <attribute name="NAME" x="193.04" y="199.898" size="1.27" layer="95"/>
 <attribute name="MPN" x="193.04" y="196.342" size="1.27" layer="95" align="top-left"/>
 <attribute name="SIGNAL" x="195.58" y="198.12" size="1.27" layer="96" display="off"/>
+</instance>
+<instance part="J2" gate="G$1" x="7.62" y="66.04" smashed="yes">
+<attribute name="NAME" x="7.62" y="66.802" size="1.27" layer="95"/>
+<attribute name="MPN" x="7.62" y="47.625" size="1.27" layer="96" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -11152,9 +11303,9 @@ Accumulator GND, both AIR+ and -</text>
 </net>
 <net name="ACCUMULATOR_GND" class="0">
 <segment>
-<wire x1="17.78" y1="48.26" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
-<label x="20.32" y="48.26" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="7"/>
+<wire x1="17.78" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<label x="20.32" y="53.34" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="96.52" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
@@ -11365,10 +11516,10 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="J1" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
 <pinref part="P8" gate="G$1" pin="+24V"/>
 <wire x1="17.78" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="63.5" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$21" gate="G$1" pin="+24V"/>
