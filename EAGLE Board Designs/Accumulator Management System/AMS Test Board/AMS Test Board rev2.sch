@@ -2963,12 +2963,12 @@ Dashed line is edge of mated connector.</description>
 <wire x1="-2.95" y1="-2.25" x2="2.95" y2="-2.25" width="0.127" layer="21"/>
 <wire x1="2.95" y1="-2.25" x2="2.95" y2="2.25" width="0.127" layer="21"/>
 <wire x1="2.95" y1="2.25" x2="-2.95" y2="2.25" width="0.127" layer="21"/>
-<pad name="1" x="-1" y="0.55" drill="0.8" first="yes"/>
-<pad name="2" x="1" y="0.55" drill="0.8"/>
+<pad name="1" x="-1" y="-0.55" drill="0.8" first="yes"/>
+<pad name="2" x="1" y="-0.55" drill="0.8"/>
 <rectangle x1="-4.064" y1="-3.048" x2="4.064" y2="3.048" layer="39"/>
 <text x="0" y="2.54" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-3" y1="-1" x2="3" y2="2" layer="40"/>
-<circle x="-3.546" y="0.519" radius="0.127" width="0" layer="21"/>
+<circle x="-3.546" y="-0.497" radius="0.127" width="0" layer="21"/>
 </package>
 <package name="807-22-001-10-02X101">
 <description>807-22-001-10-02X101 Pogo-Pin
@@ -3371,6 +3371,50 @@ Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
 <wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
 <rectangle x1="-2.2" y1="-1.25" x2="2.2" y2="1.25" layer="39"/>
+</package>
+<package name="B20">
+<description>Ohmite B20 Resistor</description>
+<wire x1="-25.4" y1="5.555" x2="-25.4" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-5.555" x2="25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-5.555" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="25.4" y2="5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="5.555" x2="-25.4" y2="5.555" width="0.127" layer="21"/>
+<rectangle x1="-38.1" y1="-6.35" x2="38.1" y2="6.35" layer="39"/>
+<text x="0" y="6.985" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<pad name="2" x="-25.4" y="0" drill="1.35"/>
+<pad name="1" x="25.4" y="0" drill="1.35" first="yes"/>
+<hole x="-32.51" y="0" drill="3.74"/>
+<hole x="32.51" y="0" drill="3.74"/>
+<wire x1="-25.4" y1="3.81" x2="-37.211" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-37.211" y1="3.81" x2="-37.211" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-37.211" y1="-3.81" x2="-25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="37.211" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="37.211" y1="3.81" x2="37.211" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="37.211" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-3.81" x2="25.4" y2="3.81" width="0.1524" layer="21"/>
+</package>
+<package name="B20-SHORTENED">
+<description>Ohmite B20 Resistor without mounting holes</description>
+<wire x1="-25.4" y1="5.555" x2="-25.4" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-5.555" x2="25.4" y2="-5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-5.555" x2="25.4" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="25.4" y2="5.555" width="0.127" layer="21"/>
+<wire x1="25.4" y1="5.555" x2="-25.4" y2="5.555" width="0.127" layer="21"/>
+<rectangle x1="-27.94" y1="-6.35" x2="27.94" y2="6.35" layer="39"/>
+<text x="0" y="6.985" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<pad name="2" x="-25.4" y="0" drill="1.35"/>
+<pad name="1" x="25.4" y="0" drill="1.35" first="yes"/>
+<wire x1="-25.4" y1="3.81" x2="-27.051" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-27.051" y1="3.81" x2="-27.051" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-27.051" y1="-3.81" x2="-25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-25.4" y1="-3.81" x2="-25.4" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="3.81" x2="27.051" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="27.051" y1="3.81" x2="27.051" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="27.051" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="25.4" y1="-3.81" x2="25.4" y2="3.81" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4030,9 +4074,17 @@ Leakage Inductance: 0.50 uH max
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/PYu-PU_51_RoHS_L_6-1504619.pdf"&gt;PU Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"&gt;ERA Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/54/pwr263s_35-778069.pdf"&gt;PWR263 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/348/ROHM_S_A0011075115_1-2563276.pdf"&gt;KTR Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf"&gt;RC Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C328-1530132.pdf"&gt;ERJ PB3, PB6 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf"&gt;ERJ  PA2, P03, PA3, P06, P08, P14 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ohmite.com/assets/docs/res_200.pdf?r=false"&gt;B20 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/418/4/NG_DS_1773270_M-604713.pdf"&gt;TE Connectivity/Holsworthy RN73 Series&lt;a/&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf"&gt;Vishay Dale D/CRCW e3&lt;a/&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ohmite.com/assets/docs/res_200.pdf?r=false"&gt;Ohmite B20&lt;a/&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
@@ -4074,6 +4126,39 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="0.5">
+<attribute name="DKPN" value="311-.5QTR-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RL0603FR070R5L "/>
+<attribute name="MPN" value="RL0603FR-070R5L"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="0.5"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.22V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="1.13K">
+<attribute name="DKPN" value="P1.13KHCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-3EKF1131V"/>
+<attribute name="MPN" value="ERJ-3EKF1131V"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="1.13k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="1.13M">
+<attribute name="DKPN" value="541-1.13MHCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="MOPN" value="71-CRCW06031M13FKEA"/>
+<attribute name="MPN" value="CRCW06031M13FKEA"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="1.13M"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
+<attribute name="VOLTAGE_MAX" value="100V"/>
+</technology>
 <technology name="1.24K">
 <attribute name="DKPN" value="311-1.24KHRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -4107,6 +4192,17 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="1.62">
+<attribute name="DKPN" value="1712-CPF0603B1R62E1TR-ND"/>
+<attribute name="MANUFACTURER" value="TE Conductivity Passive Product"/>
+<attribute name="MOPN" value="279-CPF0603B1R62E1"/>
+<attribute name="MPN" value="CPF0603B1R62E1"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="1.62"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.51V"/>
+<attribute name="VOLTAGE_MAX" value="50V"/>
+</technology>
 <technology name="1.65K">
 <attribute name="DKPN" value="311-1.65KHRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -4126,7 +4222,7 @@ Leakage Inductance: 0.50 uH max
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="10"/>
 <attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="1V"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="1.00V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="10.2K">
@@ -4214,7 +4310,7 @@ Leakage Inductance: 0.50 uH max
 <attribute name="POWER" value="0.2W"/>
 <attribute name="RESISTANCE" value="12.4k"/>
 <attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="49.8V"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="49.79V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
 <technology name="120">
@@ -4237,6 +4333,50 @@ Leakage Inductance: 0.50 uH max
 <attribute name="RESISTANCE" value="12k"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="34.64V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="13">
+<attribute name="DKPN" value="P122724CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-1GNF13R0C"/>
+<attribute name="MPN" value="ERJ-1GNF13R0C"/>
+<attribute name="POWER" value="0.05W"/>
+<attribute name="RESISTANCE" value="13"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="25V"/>
+<attribute name="VOLTAGE_MAX" value="50V"/>
+</technology>
+<technology name="13.3K">
+<attribute name="DKPN" value="P20099TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B1332V"/>
+<attribute name="MPN" value="ERJ-PB3B1332V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="13.3k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="51.58V"/>
+<attribute name="VOLTAGE_MAX" value="75k"/>
+</technology>
+<technology name="13K">
+<attribute name="DKPN" value="P13KBECT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERA-3ARW133V"/>
+<attribute name="MPN" value="ERA-3ARW133V"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="13k"/>
+<attribute name="TOLERANCE" value="0.05%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="14K">
+<attribute name="DKPN" value="RT0603BRB0714KL-ND"/>
+<attribute name="MANUFACTURER" value="YAGEO"/>
+<attribute name="MOPN" value="603-RT0603BRB0714KL"/>
+<attribute name="MPN" value="RT0603BRB0714KL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="14k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="37.4V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="15">
@@ -4317,15 +4457,15 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="1K">
-<attribute name="DKPN" value="311-1.00KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL"/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="POWER" value="0.1W"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E"/>
+<attribute name="POWER" value="0.0625W"/>
 <attribute name="RESISTANCE" value="1k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V"/>
+<attribute name="VOLTAGE_MAX" value="50V"/>
 </technology>
 <technology name="1M">
 <attribute name="DKPN" value="311-1.00MHRCT-ND"/>
@@ -4380,7 +4520,7 @@ Leakage Inductance: 0.50 uH max
 <attribute name="RESISTANCE" value="20k"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="44.72V"/>
-<attribute name="VOLTAGE_MAX" value="75V" constant="no"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="210">
 <attribute name="DKPN" value="P19892CT-ND"/>
@@ -4449,14 +4589,25 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="2K">
-<attribute name="DKPN" value="P2.0KBDCT-ND"/>
+<attribute name="DKPN" value="10-ERJ-UP3F2001VTR-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3ARB202V"/>
-<attribute name="MPN" value="ERA-3ARB202V"/>
-<attribute name="POWER" value="0.1W"/>
+<attribute name="MOPN" value="667-ERJ-UP3F2001V"/>
+<attribute name="MPN" value="ERJ-UP3F2001V"/>
+<attribute name="POWER" value="0.25W"/>
 <attribute name="RESISTANCE" value="2k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="14.14V"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.36V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="3.3">
+<attribute name="DKPN" value="P3.3AJTR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-3RQF3R3V"/>
+<attribute name="MPN" value="ERJ-3RQF3R3V"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="3.3"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.57V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="3.32K">
@@ -4471,15 +4622,15 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="3.3K">
-<attribute name="DKPN" value="311-3.30KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-073K3L"/>
-<attribute name="MPN" value="RC0603FR-073K3L"/>
-<attribute name="POWER" value="0.1W"/>
+<attribute name="DKPN" value="P20340TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3D3301V"/>
+<attribute name="MPN" value="ERJ-PB3D3301V"/>
+<attribute name="POWER" value="0.2W"/>
 <attribute name="RESISTANCE" value="3.3k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="18.17V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
+<attribute name="TOLERANCE" value="0.5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="25.69V"/>
+<attribute name="VOLTAGE_MAX" value="150"/>
 </technology>
 <technology name="3.9K">
 <attribute name="DKPN" value="311-3.90KHRCT-ND"/>
@@ -4492,6 +4643,17 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_CONTINUOUS" value="19.75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="30.9K">
+<attribute name="DKPN" value="P20140CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B3092V"/>
+<attribute name="MPN" value="ERJ-PB3B3092V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="30.9k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
 <technology name="30K">
 <attribute name="DKPN" value="P30KBDCT-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -4501,6 +4663,17 @@ Leakage Inductance: 0.50 uH max
 <attribute name="RESISTANCE" value="30k"/>
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="54.77V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="33.2K">
+<attribute name="DKPN" value="P20144TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B3322V"/>
+<attribute name="MPN" value="ERJ-PB3B3322V"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="33.2k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="57.61V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="330K">
@@ -4513,6 +4686,17 @@ Leakage Inductance: 0.50 uH max
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="33K">
+<attribute name="DKPN" value="RHM33KAYTR-ND "/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR03EZPF3302"/>
+<attribute name="MPN" value="KTR03EZPF3302"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="33k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="57.44V"/>
+<attribute name="VOLTAGE_MAX" value="350V"/>
 </technology>
 <technology name="36.5K">
 <attribute name="DKPN" value="311-36.5KHRCT-ND"/>
@@ -4533,8 +4717,19 @@ Leakage Inductance: 0.50 uH max
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="360"/>
 <attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="6V"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="6.00V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="360K">
+<attribute name="DKPN" value="RHM360KAYTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR03EZPF3603"/>
+<attribute name="MPN" value="KTR03EZPF3603"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="360k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="189.74V"/>
+<attribute name="VOLTAGE_MAX" value="350V"/>
 </technology>
 <technology name="374K">
 <attribute name="DKPN" value="311-374KHRCT-ND"/>
@@ -4545,6 +4740,17 @@ Leakage Inductance: 0.50 uH max
 <attribute name="RESISTANCE" value="374k"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="39">
+<attribute name="DKPN" value="13-RT0603BRD0739RLTR-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RT0603BRD0739RL"/>
+<attribute name="MPN" value="RT0603BRD0739RL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="39"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="1.97V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="4.12K">
@@ -4579,6 +4785,28 @@ Leakage Inductance: 0.50 uH max
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="6.34V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="41.2">
+<attribute name="DKPN" value="P123000CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-1GNF41R2C"/>
+<attribute name="MPN" value="ERJ-1GNF41R2C"/>
+<attribute name="POWER" value="0.05W"/>
+<attribute name="RESISTANCE" value="41.2"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="25V"/>
+<attribute name="VOLTAGE_MAX" value="50V"/>
+</technology>
+<technology name="41.2K">
+<attribute name="DKPN" value="P20155CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B4122V"/>
+<attribute name="MPN" value=" ERJ-PB3B4122V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="41.2k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
 </technology>
 <technology name="43K">
 <attribute name="DKPN" value="311-43.0KHRCT-ND"/>
@@ -4624,6 +4852,28 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_CONTINUOUS" value="22.58V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="5.49">
+<attribute name="DKPN" value="A124665CT-ND"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product"/>
+<attribute name="MOPN" value="279-RN73C1J5R49BTD"/>
+<attribute name="MPN" value="RN73C1J5R49BTD"/>
+<attribute name="POWER" value="0.0625W"/>
+<attribute name="RESISTANCE" value="5.49"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="50V"/>
+<attribute name="VOLTAGE_MAX" value="100V"/>
+</technology>
+<technology name="5.49K">
+<attribute name="DKPN" value="P20367CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3D5491V"/>
+<attribute name="MPN" value="ERJ-PB3D5491V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="5.49k"/>
+<attribute name="TOLERANCE" value="0.5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
 <technology name="5.9K">
 <attribute name="DKPN" value="P5.9KDBCT-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -4634,6 +4884,17 @@ Leakage Inductance: 0.50 uH max
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="24.29V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="510K">
+<attribute name="DKPN" value="RHM510KAYTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR03EZPF5103"/>
+<attribute name="MPN" value="KTR03EZPF5103"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="510k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="225.83V"/>
+<attribute name="VOLTAGE_MAX" value="350V"/>
 </technology>
 <technology name="60.4">
 <attribute name="DKPN" value="311-60.4HRCT-ND"/>
@@ -4723,6 +4984,39 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_CONTINUOUS" value=""/>
 <attribute name="VOLTAGE_MAX" value=""/>
 </technology>
+<technology name="HV3.3K">
+<attribute name="DKPN" value="RHM3.3KAYTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm"/>
+<attribute name="MOPN" value="755-KTR03EZPF3301"/>
+<attribute name="MPN" value="KTR03EZPF3301"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="3.3k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="18.17V"/>
+<attribute name="VOLTAGE_MAX" value="350V"/>
+</technology>
+<technology name="HV750K">
+<attribute name="DKPN" value="RHM75KAYTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm"/>
+<attribute name="MOPN" value="755-KTR03EZPF7502"/>
+<attribute name="MPN" value="KTR03EZPF7502"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="750k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="273.86V"/>
+<attribute name="VOLTAGE_MAX" value="350V"/>
+</technology>
+<technology name="HV75K">
+<attribute name="DKPN" value="RHM750KAYTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm"/>
+<attribute name="MOPN" value="755-KTR03EZPF7503"/>
+<attribute name="MPN" value="KTR03EZPF7503"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="75k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="86.60V"/>
+<attribute name="VOLTAGE_MAX" value="350V"/>
+</technology>
 </technologies>
 </device>
 <device name="3921" package="3921">
@@ -4750,6 +5044,39 @@ Leakage Inductance: 0.50 uH max
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="0.62">
+<attribute name="DKPN" value="311-.62SCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RL0805FR-070R62L"/>
+<attribute name="MPN" value="RL0805FR-070R62L"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="0.62"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.28V"/>
+<attribute name="VOLTAGE_MAX" value="0.70V"/>
+</technology>
+<technology name="1">
+<attribute name="DKPN" value="P1.0DTR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-6RQF1R0V"/>
+<attribute name="MPN" value="ERJ-6RQF1R0V"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="1"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.35V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="12.4">
+<attribute name="DKPN" value="P12.4CTR-ND"/>
+<attribute name="MANUFACTURER" value="  Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-6ENF12R4V"/>
+<attribute name="MPN" value="ERJ-6ENF12R4V"/>
+<attribute name="POWER" value=".125W"/>
+<attribute name="RESISTANCE" value="12.4"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="1.24V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
 <technology name="12.4K">
 <attribute name="DKPN" value="P20718CT-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -4759,6 +5086,50 @@ Leakage Inductance: 0.50 uH max
 <attribute name="RESISTANCE" value="12.4k"/>
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="55.68V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="14.3K">
+<attribute name="DKPN" value="P14.3KCCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-6ENF1432V"/>
+<attribute name="MPN" value="ERJ-6ENF1432V"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="14.3k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
+<technology name="19.1K">
+<attribute name="DKPN" value="P19.1KCCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-6ENF1912V"/>
+<attribute name="MPN" value="ERJ-6ENF1912V"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="19.1k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
+<technology name="1K">
+<attribute name="DKPN" value="P1.0KADTR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-P06J102V"/>
+<attribute name="MPN" value="ERJ-P06J102V"/>
+<attribute name="POWER" value="0.5W"/>
+<attribute name="RESISTANCE" value="1k"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.36V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
+<technology name="1M">
+<attribute name="DKPN" value="P20936TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB6B1004V"/>
+<attribute name="MPN" value="ERJ-PB6B1004V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="1M"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
 <technology name="200">
@@ -4783,6 +5154,28 @@ Leakage Inductance: 0.50 uH max
 <attribute name="VOLTAGE_CONTINUOUS" value="3.32V"/>
 <attribute name="VOLTAGE_MAX" value="400V"/>
 </technology>
+<technology name="31.6K">
+<attribute name="DKPN" value="541-31.6KSCT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale"/>
+<attribute name="MOPN" value="71-CRCW060331K6FKEAH"/>
+<attribute name="MPN" value="CRCW060331K6FKEAHP"/>
+<attribute name="POWER" value="0.33W"/>
+<attribute name="RESISTANCE" value="31.6k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
+<technology name="36">
+<attribute name="DKPN" value="P36ADTR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-P06J360V"/>
+<attribute name="MPN" value="ERJ-P06J360V"/>
+<attribute name="POWER" value="0.5W"/>
+<attribute name="RESISTANCE" value="36"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="4.243V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
 <technology name="365K">
 <attribute name="DKPN" value="P20885CT-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -4790,6 +5183,39 @@ Leakage Inductance: 0.50 uH max
 <attribute name="MPN" value="ERJ-PB6B3653V"/>
 <attribute name="POWER" value="0.25W"/>
 <attribute name="RESISTANCE" value="365k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="5.1">
+<attribute name="DKPN" value="P19237TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-6DQJ5R1V"/>
+<attribute name="MPN" value="ERJ-6DQJ5R1V"/>
+<attribute name="POWER" value="0.5W"/>
+<attribute name="RESISTANCE" value="5.1"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="1.597V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
+<technology name="5.9K">
+<attribute name="DKPN" value="P20174TR-ND "/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B5902V"/>
+<attribute name="MPN" value="ERJ-PB3B5902V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="5.9k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="34.3V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="523K">
+<attribute name="DKPN" value="P20904TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB6B5233V"/>
+<attribute name="MPN" value="ERJ-PB6B5233V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="523k"/>
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
@@ -4803,6 +5229,83 @@ Leakage Inductance: 0.50 uH max
 <attribute name="RESISTANCE" value="56"/>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="5.29V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
+<technology name="931K">
+<attribute name="DKPN" value="P20933CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB6B9313V"/>
+<attribute name="MPN" value="ERJ-PB6B9313V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="931k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
+<technology name="953K">
+<attribute name="DKPN" value="P953KCCT-ND "/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-6ENF9533V"/>
+<attribute name="MPN" value="ERJ-6ENF9533V"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="953k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
+<technology name="976K">
+<attribute name="DKPN" value="P20935TR-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB6B9763V"/>
+<attribute name="MPN" value="  ERJ-PB6B9763V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="976k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="HV1M">
+<attribute name="DKPN" value="RHM1.00MAHTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR10EZPF1004"/>
+<attribute name="MPN" value="KTR10EZPF1004"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="1M"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="353.5V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
+<technology name="HV330K">
+<attribute name="DKPN" value="RHM330KAHTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR10EZPF3303"/>
+<attribute name="MPN" value="KTR10EZPF3303"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="330k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="203.1V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
+<technology name="HV365K">
+<attribute name="DKPN" value="RHM365KAHTR-ND "/>
+<attribute name="MANUFACTURER" value="Rohm"/>
+<attribute name="MOPN" value="755-KTR10EZPF3653"/>
+<attribute name="MPN" value="KTR10EZPF3653"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="365k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="213V"/>
+<attribute name="VOLTAGE_MAX" value="350V"/>
+</technology>
+<technology name="HV75K">
+<attribute name="DKPN" value="RHM75KAHTR-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR10EZPF7502"/>
+<attribute name="MPN" value="KTR10EZPF7502 "/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="RESISTANCE" value="75k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="96.8V"/>
 <attribute name="VOLTAGE_MAX" value="400V"/>
 </technology>
 </technologies>
@@ -4837,6 +5340,88 @@ Leakage Inductance: 0.50 uH max
 </technology>
 </technologies>
 </device>
+<device name="B20" package="B20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="1.5K">
+<attribute name="DKPN" value="B20J1K5E-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J1K5E"/>
+<attribute name="MPN" value="B20J1K5E"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="1.5K"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="173V"/>
+<attribute name="VOLTAGE_MAX" value="750V"/>
+</technology>
+<technology name="10K">
+<attribute name="DKPN" value="B20J10KE-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J10KE"/>
+<attribute name="MPN" value="B20J10KE"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="10k"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="447V"/>
+<attribute name="VOLTAGE_MAX" value="750V"/>
+</technology>
+<technology name="15K">
+<attribute name="DKPN" value="B20J15KE-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J15KE"/>
+<attribute name="MPN" value="B20J15KE"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="15K"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="548V"/>
+<attribute name="VOLTAGE_MAX" value="750V"/>
+</technology>
+<technology name="750">
+<attribute name="DKPN" value="B20J750E-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J750E"/>
+<attribute name="MPN" value="B20J750E"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="750"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="122V"/>
+<attribute name="VOLTAGE_MAX" value="750V"/>
+</technology>
+</technologies>
+</device>
+<device name="B20-SHORTENED" package="B20-SHORTENED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="1.5K">
+<attribute name="DKPN" value="B20J1K5E-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J1K5E"/>
+<attribute name="MPN" value="B20J1K5E"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="1.5K"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="173V"/>
+<attribute name="VOLTAGE_MAX" value="750V"/>
+</technology>
+<technology name="15K">
+<attribute name="DKPN" value="B20J15KE-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-B20J15KE"/>
+<attribute name="MPN" value="B20J15KE"/>
+<attribute name="POWER" value="20W"/>
+<attribute name="RESISTANCE" value="15K"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="548V"/>
+<attribute name="VOLTAGE_MAX" value="750V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CAPACITOR_?_*" prefix="C">
@@ -4855,6 +5440,7 @@ Leakage Inductance: 0.50 uH max
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/40/AutoMLCC-777028.pdf"&gt;AVX Automotive MLCC&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"&gt; KEMET X7R Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/40/C0GNP0_Dielectric-951274.pdf"&gt;Kyocera AVX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/281/1/GRM21BR61H106KE43_01A-1986884.pdf"&gt;GRM21BR61H&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
@@ -4983,6 +5569,15 @@ Leakage Inductance: 0.50 uH max
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </technology>
+<technology name="10V_68NF">
+<attribute name="CAPACITANCE" value="68nF"/>
+<attribute name="DKPN" value="399-C0603C683K8RAC7867CT-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOPN" value="80-C0603C683K8R"/>
+<attribute name="MPN" value="C0603C683K8RACTU"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</technology>
 <technology name="10V_82PF">
 <attribute name="CAPACITANCE" value="82pF"/>
 <attribute name="DKPN" value="478-1025-1-ND"/>
@@ -5037,6 +5632,15 @@ Leakage Inductance: 0.50 uH max
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </technology>
+<technology name="25V_47NF">
+<attribute name="CAPACITANCE" value="47nF"/>
+<attribute name="DKPN" value="478-6340-1-ND"/>
+<attribute name="MANUFACTURER" value="Kyocera AVX"/>
+<attribute name="MOPN" value="581-06033C473K42ZA"/>
+<attribute name="MPN" value="06033C473K4Z2A"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
 <technology name="35V_0.1UF">
 <attribute name="CAPACITANCE" value="0.1µF"/>
 <attribute name="DKPN" value="587-3354-1-ND"/>
@@ -5082,6 +5686,24 @@ Leakage Inductance: 0.50 uH max
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
+<technology name="50V_1UF">
+<attribute name="CAPACITANCE" value="1uF"/>
+<attribute name="DKPN" value="587-2400-2-ND"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden"/>
+<attribute name="MOPN" value="963-UMK107BJ105KA-T"/>
+<attribute name="MPN" value="UMK107BJ105KA-T"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="50V_470PF">
+<attribute name="CAPACITANCE" value="470pF"/>
+<attribute name="DKPN" value="1276-2058-1-ND"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MOPN" value="187-CL10B471JB8NNNC"/>
+<attribute name="MPN" value="CL10B471JB8NNNC"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
 </technologies>
 </device>
 <device name="2220" package="2220-CAP">
@@ -5098,6 +5720,15 @@ Leakage Inductance: 0.50 uH max
 <attribute name="MPN" value="C5750X7R2E105K230KA"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="250V"/>
+</technology>
+<technology name="630V_0.1UF">
+<attribute name="CAPACITANCE" value="0.1μF"/>
+<attribute name="DKPN" value="445-11980-2-ND"/>
+<attribute name="MANUFACTURER" value="TDK Coporation"/>
+<attribute name="MOPN" value="810-C5750CH2J104K2KC"/>
+<attribute name="MPN" value="C5750CH2J104K280KC"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="630V"/>
 </technology>
 <technology name="630V_1UF">
 <attribute name="CAPACITANCE" value="1µF"/>
@@ -5134,6 +5765,15 @@ Leakage Inductance: 0.50 uH max
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </technology>
+<technology name="50V_10UF">
+<attribute name="CAPACITANCE" value="10uF"/>
+<attribute name="DKPN" value="490-18663-2-ND"/>
+<attribute name="MANUFACTURER" value="Murata"/>
+<attribute name="MOPN" value="81-GRM21BR61H106KE3L"/>
+<attribute name="MPN" value=" GRM21BR61H106KE43L"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
 </technologies>
 </device>
 <device name="1206" package="1206-CAP">
@@ -5150,6 +5790,24 @@ Leakage Inductance: 0.50 uH max
 <attribute name="MPN" value="12061C225K4T2A"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="250V_0.1UF">
+<attribute name="CAPACITANCE" value="0.1μF"/>
+<attribute name="DKPN" value="445-6079-2-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-C3216X7R2E104KT5"/>
+<attribute name="MPN" value="C3216X7R2E104K160AM"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="250V"/>
+</technology>
+<technology name="25V_33UF">
+<attribute name="CAPACITANCE" value="33µF"/>
+<attribute name="DKPN" value="445-8046-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-C3216X5R1E336M"/>
+<attribute name="MPN" value="C3216X5R1E336M160AC"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="25V"/>
 </technology>
 <technology name="35V_22UF">
 <attribute name="CAPACITANCE" value="22µF"/>
