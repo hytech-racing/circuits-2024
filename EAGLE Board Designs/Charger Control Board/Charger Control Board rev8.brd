@@ -64,6 +64,7 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
@@ -136,6 +137,8 @@
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="156" name="HVSpacing" color="12" fill="1" visible="no" active="yes"/>
 <layer number="157" name="HIGH_VOLTAGE_WIRES" color="2" fill="1" visible="no" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
@@ -7745,25 +7748,25 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="APT1608VBC/D" x="18.161" y="36.0934" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.161" y="35.3434" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="K1" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT" x="74.93" y="43.942" smashed="yes">
-<attribute name="DKPN" value="PB2021-ND" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
+<element name="K1" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT_RT424024" x="74.93" y="43.942" smashed="yes">
+<attribute name="DKPN" value="PB969-ND" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="655-6-1393243-2" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RT424009" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="655-RT424024" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RT424024" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="81.9658" y="49.1236" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="K2" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT" x="74.93" y="30.48" smashed="yes">
-<attribute name="DKPN" value="PB2021-ND" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
+<element name="K2" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT_RT424024" x="74.93" y="30.48" smashed="yes">
+<attribute name="DKPN" value="PB969-ND" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="655-6-1393243-2" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RT424009" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="655-RT424024" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RT424024" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="81.788" y="35.306" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="K3" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT" x="74.93" y="17.018" smashed="yes">
-<attribute name="DKPN" value="PB2021-ND" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
+<element name="K3" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT_RT424024" x="74.93" y="17.018" smashed="yes">
+<attribute name="DKPN" value="PB969-ND" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="655-6-1393243-2" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RT424009" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="655-RT424024" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RT424024" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="82.042" y="11.43" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
 <element name="C5" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_1UF" x="13.9192" y="35.306" smashed="yes">
