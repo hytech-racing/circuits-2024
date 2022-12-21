@@ -935,6 +935,20 @@ Dashed line is edge of mated connector.</description>
 <text x="0" y="7.62" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-10.16" y1="-7.366" x2="10.16" y2="7.366" layer="39"/>
 </package>
+<package name="DO-214AA">
+<description>DO-214AA Doide Footprint
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/54/BOURNS_1_5SMBJ_datasheet-2530221.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-1.98" y="0" dx="2.1" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="1.98" y="0" dx="2.1" dy="1.27" layer="1" rot="R90"/>
+<text x="0" y="2.286" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.285" y1="1.97" x2="2.285" y2="1.97" width="0.127" layer="21"/>
+<wire x1="2.285" y1="1.97" x2="2.285" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="2.285" y1="-1.97" x2="-2.285" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="-2.285" y1="-1.97" x2="-2.285" y2="1.97" width="0.127" layer="21"/>
+<rectangle x1="-3.302" y1="-2.286" x2="3.302" y2="2.286" layer="39"/>
+<wire x1="3.302" y1="1.524" x2="3.302" y2="-1.524" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_02">
@@ -1503,18 +1517,40 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE" value="4V"/>
 </technology>
 <technology name="5V">
-<attribute name="DKPN" value="GSOT05-E3-08TR-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" constant="no"/>
-<attribute name="MOPN" value="78-GSOT05-E3-08" constant="no"/>
-<attribute name="MPN" value="GSOT05-E3-08" constant="no"/>
-<attribute name="VOLTAGE" value="5V" constant="no"/>
+<attribute name="DKPN" value="GSOT05-E3-08TR-ND"/>
+<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division"/>
+<attribute name="MOPN" value="78-GSOT05-E3-08"/>
+<attribute name="MPN" value="GSOT05-E3-08"/>
+<attribute name="VOLTAGE" value="5V"/>
 </technology>
 <technology name="8V">
-<attribute name="DKPN" value="GSOT08-E3-08TR-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" constant="no"/>
-<attribute name="MOPN" value="78-GSOT08-E3-08" constant="no"/>
-<attribute name="MPN" value="GSOT08-E3-08" constant="no"/>
-<attribute name="VOLTAGE" value="8V" constant="no"/>
+<attribute name="DKPN" value="GSOT08-E3-08TR-ND"/>
+<attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division"/>
+<attribute name="MOPN" value="78-GSOT08-E3-08"/>
+<attribute name="MPN" value="GSOT08-E3-08"/>
+<attribute name="VOLTAGE" value="8V"/>
+</technology>
+</technologies>
+</device>
+<device name="DO-214AA" package="DO-214AA">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="28V">
+<attribute name="DKPN" value="118-1.5SMBJ28ATR-ND"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="MOPN" value="652-1.5SMBJ28A"/>
+<attribute name="MPN" value="1.5SMBJ28A"/>
+<attribute name="VOLTAGE" value="28V"/>
+</technology>
+<technology name="30V">
+<attribute name="DKPN" value="118-1.5SMBJ30ATR-ND"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="MOPN" value="652-1.5SMBJ30A"/>
+<attribute name="MPN" value=" 1.5SMBJ30A"/>
+<attribute name="VOLTAGE" value="30V"/>
 </technology>
 </technologies>
 </device>
@@ -8649,6 +8685,18 @@ Layer: 94 Symbol</description>
 <text x="0" y="-1.27" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="+24V">
+<pin name="+24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.905" x2="0" y2="3.81" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 <symbol name="+12V">
 <text x="0" y="3.81" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
@@ -8679,6 +8727,19 @@ Layer: 94 Symbol</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+24V">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+24V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -10492,8 +10553,8 @@ visible on the PCB.</text>
 <attribute name="REVIEWER_SCHEMATIC" value="Cody Kaminsky"/>
 </part>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P1" library="HyTechSupplies" deviceset="+12V" device=""/>
-<part name="D5" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="P1" library="HyTechSupplies" deviceset="+24V" device=""/>
+<part name="D5" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V" value="TVS_30VDO-214AA"/>
 <part name="U3" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V"/>
 <part name="P3" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P4" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -10776,7 +10837,7 @@ to gnd on wiring harness</text>
 <instance part="P2" gate="1" x="33.02" y="177.8" smashed="yes">
 <attribute name="VALUE" x="33.02" y="176.53" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P1" gate="1" x="71.12" y="203.2" smashed="yes">
+<instance part="P1" gate="G$1" x="71.12" y="203.2" smashed="yes">
 <attribute name="VALUE" x="71.12" y="207.01" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="D5" gate="G$1" x="38.1" y="187.96" smashed="yes" rot="R90">
@@ -11244,7 +11305,7 @@ to gnd on wiring harness</text>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="P1" gate="1" pin="+12V"/>
+<pinref part="P1" gate="G$1" pin="+24V"/>
 <wire x1="58.42" y1="198.12" x2="71.12" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="198.12" x2="71.12" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="XF1" gate="G$1" pin="2"/>
@@ -13084,8 +13145,6 @@ to gnd on wiring harness</text>
 <approved hash="104,1,208.28,182.88,A1,VIN,+5V,,,"/>
 <approved hash="104,1,208.28,180.34,A1,3.3V,N$36,,,"/>
 <approved hash="104,1,208.28,177.8,A1,VBAT,N$8,,,"/>
-<approved hash="104,1,218.44,175.26,BT100,PLUS,N$8,,,"/>
-<approved hash="104,1,218.44,167.64,BT100,MINUS,GND,,,"/>
 <approved hash="104,1,116.84,106.68,U2,VDD,+3V3,,,"/>
 <approved hash="104,1,144.78,157.48,U100,VDD,+5V,,,"/>
 <approved hash="104,1,144.78,154.94,U100,VIO,+3V3,,,"/>
