@@ -1603,7 +1603,6 @@ Dashed line is edge of mated connector.</description>
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/40/AutoMLCC-777028.pdf"&gt;AVX Automotive MLCC&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"&gt; KEMET X7R Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/40/C0GNP0_Dielectric-951274.pdf"&gt;Kyocera AVX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/281/1/GRM21BR61H106KE43_01A-1986884.pdf"&gt;GRM21BR61H&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
@@ -1732,15 +1731,6 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </technology>
-<technology name="10V_68NF">
-<attribute name="CAPACITANCE" value="68nF"/>
-<attribute name="DKPN" value="399-C0603C683K8RAC7867CT-ND"/>
-<attribute name="MANUFACTURER" value="KEMET"/>
-<attribute name="MOPN" value="80-C0603C683K8R"/>
-<attribute name="MPN" value="C0603C683K8RACTU"/>
-<attribute name="TOLERANCE" value="10%"/>
-<attribute name="VOLTAGE" value="10V"/>
-</technology>
 <technology name="10V_82PF">
 <attribute name="CAPACITANCE" value="82pF"/>
 <attribute name="DKPN" value="478-1025-1-ND"/>
@@ -1795,15 +1785,6 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </technology>
-<technology name="25V_47NF">
-<attribute name="CAPACITANCE" value="47nF"/>
-<attribute name="DKPN" value="478-6340-1-ND"/>
-<attribute name="MANUFACTURER" value="Kyocera AVX"/>
-<attribute name="MOPN" value="581-06033C473K42ZA"/>
-<attribute name="MPN" value="06033C473K4Z2A"/>
-<attribute name="TOLERANCE" value="10%"/>
-<attribute name="VOLTAGE" value="25V"/>
-</technology>
 <technology name="35V_0.1UF">
 <attribute name="CAPACITANCE" value="0.1µF"/>
 <attribute name="DKPN" value="587-3354-1-ND"/>
@@ -1849,24 +1830,6 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
-<technology name="50V_1UF">
-<attribute name="CAPACITANCE" value="1uF"/>
-<attribute name="DKPN" value="587-2400-2-ND"/>
-<attribute name="MANUFACTURER" value="Taiyo Yuden"/>
-<attribute name="MOPN" value="963-UMK107BJ105KA-T"/>
-<attribute name="MPN" value="UMK107BJ105KA-T"/>
-<attribute name="TOLERANCE" value="10%"/>
-<attribute name="VOLTAGE" value="50V"/>
-</technology>
-<technology name="50V_470PF">
-<attribute name="CAPACITANCE" value="470pF"/>
-<attribute name="DKPN" value="1276-2058-1-ND"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
-<attribute name="MOPN" value="187-CL10B471JB8NNNC"/>
-<attribute name="MPN" value="CL10B471JB8NNNC"/>
-<attribute name="TOLERANCE" value="5%"/>
-<attribute name="VOLTAGE" value="50V"/>
-</technology>
 </technologies>
 </device>
 <device name="2220" package="2220-CAP">
@@ -1885,7 +1848,7 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE" value="250V"/>
 </technology>
 <technology name="630V_0.1UF">
-<attribute name="CAPACITANCE" value="0.1μF"/>
+<attribute name="CAPACITANCE" value="0.1uF"/>
 <attribute name="DKPN" value="445-11980-2-ND"/>
 <attribute name="MANUFACTURER" value="TDK Coporation"/>
 <attribute name="MOPN" value="810-C5750CH2J104K2KC"/>
@@ -1928,15 +1891,6 @@ Dashed line is edge of mated connector.</description>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </technology>
-<technology name="50V_10UF">
-<attribute name="CAPACITANCE" value="10uF"/>
-<attribute name="DKPN" value="490-18663-2-ND"/>
-<attribute name="MANUFACTURER" value="Murata"/>
-<attribute name="MOPN" value="81-GRM21BR61H106KE3L"/>
-<attribute name="MPN" value=" GRM21BR61H106KE43L"/>
-<attribute name="TOLERANCE" value="10%"/>
-<attribute name="VOLTAGE" value="50V"/>
-</technology>
 </technologies>
 </device>
 <device name="1206" package="1206-CAP">
@@ -1955,22 +1909,13 @@ Dashed line is edge of mated connector.</description>
 <attribute name="VOLTAGE" value="100V"/>
 </technology>
 <technology name="250V_0.1UF">
-<attribute name="CAPACITANCE" value="0.1μF"/>
+<attribute name="CAPACITANCE" value="0.1uF"/>
 <attribute name="DKPN" value="445-6079-2-ND"/>
 <attribute name="MANUFACTURER" value="TDK Corporation"/>
 <attribute name="MOPN" value="810-C3216X7R2E104KT5"/>
 <attribute name="MPN" value="C3216X7R2E104K160AM"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="250V"/>
-</technology>
-<technology name="25V_33UF">
-<attribute name="CAPACITANCE" value="33µF"/>
-<attribute name="DKPN" value="445-8046-1-ND"/>
-<attribute name="MANUFACTURER" value="TDK Corporation"/>
-<attribute name="MOPN" value="810-C3216X5R1E336M"/>
-<attribute name="MPN" value="C3216X5R1E336M160AC"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="VOLTAGE" value="25V"/>
 </technology>
 <technology name="35V_22UF">
 <attribute name="CAPACITANCE" value="22µF"/>
@@ -10611,9 +10556,9 @@ visible on the PCB.</text>
 <part name="P1" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="D5" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V" value="TVS_30VDO-214AA"/>
 <part name="U3" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V"/>
-<part name="P3" library="HyTechSupplies" deviceset="+24V" device=""/>
+<part name="P3" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P4" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="50V_10UF" value="CAPACITOR_0805_50V_10UF"/>
+<part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="P5" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="MAIN_CONNECTOR" library="HyTechDevices - Copy" deviceset="CONNECTOR-8_?_*" device="MF_T_V"/>
@@ -10903,7 +10848,7 @@ to gnd on wiring harness</text>
 <attribute name="NAME" x="25.4" y="148.082" size="1.27" layer="95"/>
 <attribute name="MPN" x="34.29" y="136.398" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="P3" gate="G$1" x="17.78" y="149.86" smashed="yes">
+<instance part="P3" gate="1" x="17.78" y="149.86" smashed="yes">
 <attribute name="VALUE" x="17.78" y="153.67" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P4" gate="1" x="48.26" y="149.86" smashed="yes">
@@ -11366,7 +11311,7 @@ to gnd on wiring harness</text>
 <pinref part="XF1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="P3" gate="G$1" pin="+24V"/>
+<pinref part="P3" gate="1" pin="+12V"/>
 <wire x1="17.78" y1="147.32" x2="17.78" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="IN"/>
 <wire x1="17.78" y1="144.78" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
