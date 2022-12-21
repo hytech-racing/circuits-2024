@@ -990,6 +990,28 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <rectangle x1="-2.794" y1="-1.524" x2="2.794" y2="1.524" layer="40"/>
 <rectangle x1="-2.794" y1="-1.524" x2="2.794" y2="1.524" layer="39"/>
 </package>
+<package name="M12A-04PMMP">
+<description>M12A-04PMMP Amphenol Connector
+&lt;p&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/M12A-08PMMP-SF8001.pdf"&gt;Datasheet 1&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/MSeries_M12%20A.B.D_Code_Product_Spec.pdf"&gt;Datasheet 2&lt;/a&gt;</description>
+<pad name="1" x="2.5" y="0" drill="1" first="yes"/>
+<pad name="2" x="0" y="2.5" drill="1"/>
+<pad name="3" x="-2.5" y="0" drill="1"/>
+<pad name="4" x="0" y="-2.5" drill="1"/>
+<circle x="0" y="0" radius="9" width="0.127" layer="21"/>
+<text x="0" y="10.652" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="5.25" width="10.5" layer="39"/>
+<circle x="0" y="0" radius="2.1" width="4.2" layer="40"/>
+<circle x="0" y="0" radius="10.3" width="0.127" layer="21"/>
+<wire x1="-5" y1="9" x2="5" y2="9" width="0.127" layer="21"/>
+<wire x1="5" y1="9" x2="10.3" y2="0" width="0.127" layer="21"/>
+<wire x1="10.3" y1="0" x2="5" y2="-9" width="0.127" layer="21"/>
+<wire x1="5" y1="-9" x2="-5" y2="-9" width="0.127" layer="21"/>
+<wire x1="-5" y1="-9" x2="-10.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-10.3" y1="0" x2="-5" y2="9" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_04">
@@ -1199,6 +1221,26 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <attribute name="MANUFACTURER" value="Molex"/>
 <attribute name="MOPN" value="538-43045-0414"/>
 <attribute name="MPN" value="430450414"/>
+</technology>
+</technologies>
+</device>
+<device name="AMPHENOL_M12A_04PMMP" package="M12A-04PMMP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="1754-1007-ND " constant="no"/>
+<attribute name="MANUFACTURER" value="Amphenol" constant="no"/>
+<attribute name="MPN" value="M12A-04PMMP-SF8001" constant="no"/>
+</technology>
+<technology name="M12-4P">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6131,7 +6173,6 @@ Layer: 94 Symbol</description>
 <part name="U6" library="HyTechDevices" deviceset="VOLTAGE_REFERENCE_?_*" device="SOIC-8" technology="10V"/>
 <part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF"/>
 <part name="J1" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="AMPHENOL_M12A_08PMMP"/>
-<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="AMPHENOL_M12A_08PMMP"/>
 <part name="U4" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.74K"/>
@@ -6165,6 +6206,7 @@ Layer: 94 Symbol</description>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="25V_22UF"/>
 <part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_1UF"/>
 <part name="C8" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF"/>
+<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="AMPHENOL_M12A_04PMMP"/>
 </parts>
 <sheets>
 <sheet>
@@ -6182,8 +6224,8 @@ Layer: 94 Symbol</description>
 <attribute name="MPN" x="5.08" y="40.005" size="1.27" layer="96" align="top-left"/>
 <attribute name="NAME" x="5.08" y="49.022" size="1.27" layer="95"/>
 </instance>
-<instance part="P1" gate="1" x="25.4" y="53.34" smashed="yes">
-<attribute name="VALUE" x="25.4" y="52.07" size="1.27" layer="96" align="top-center"/>
+<instance part="P1" gate="1" x="35.56" y="63.5" smashed="yes">
+<attribute name="VALUE" x="35.56" y="62.23" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P2" gate="1" x="25.4" y="10.16" smashed="yes">
 <attribute name="VALUE" x="25.4" y="8.89" size="1.27" layer="96" align="top-center"/>
@@ -6287,10 +6329,6 @@ Layer: 94 Symbol</description>
 <instance part="J1" gate="G$1" x="5.08" y="35.56" smashed="yes">
 <attribute name="NAME" x="5.08" y="36.322" size="1.27" layer="95"/>
 <attribute name="MPN" x="5.08" y="12.065" size="1.27" layer="96" align="top-left"/>
-</instance>
-<instance part="J3" gate="G$1" x="5.08" y="78.74" smashed="yes">
-<attribute name="NAME" x="5.08" y="79.502" size="1.27" layer="95"/>
-<attribute name="MPN" x="5.08" y="55.245" size="1.27" layer="96" align="top-left"/>
 </instance>
 <instance part="U4" gate="A" x="66.04" y="-58.42" smashed="yes">
 <attribute name="NAME" x="68.453" y="-55.372" size="1.27" layer="95"/>
@@ -6426,6 +6464,10 @@ Layer: 94 Symbol</description>
 <attribute name="VOLTAGE" x="68.58" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="70.358" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="J3" gate="G$1" x="5.08" y="73.66" smashed="yes">
+<attribute name="MPN" x="5.08" y="60.325" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="5.08" y="74.422" size="1.27" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6441,9 +6483,9 @@ Layer: 94 Symbol</description>
 <junction x="88.9" y="-30.48"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="15.24" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-<label x="25.4" y="60.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="15.24" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
+<label x="27.94" y="71.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6486,10 +6528,10 @@ Layer: 94 Symbol</description>
 <wire x1="25.4" y1="15.24" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="8"/>
 <pinref part="P1" gate="1" pin="GND"/>
-<wire x1="15.24" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="58.42" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="68.58" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="P13" gate="1" pin="GND"/>
@@ -6573,9 +6615,9 @@ Layer: 94 Symbol</description>
 <label x="76.2" y="-5.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
+<wire x1="15.24" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
+<label x="20.32" y="66.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="15.24" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
-<label x="27.94" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SIGNAL-" class="0">
@@ -6590,9 +6632,9 @@ Layer: 94 Symbol</description>
 <label x="76.2" y="10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
+<wire x1="15.24" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+<label x="20.32" y="63.5" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="15.24" y1="68.58" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
-<label x="27.94" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PREINTERLOCK" class="0">

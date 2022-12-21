@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -485,6 +485,28 @@ Notes: See page 47</description>
 <wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="21"/>
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
 <rectangle x1="-1.6" y1="-1.05" x2="1.6" y2="1.05" layer="39"/>
+</package>
+<package name="M12A-04PMMP">
+<description>M12A-04PMMP Amphenol Connector
+&lt;p&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/M12A-08PMMP-SF8001.pdf"&gt;Datasheet 1&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/MSeries_M12%20A.B.D_Code_Product_Spec.pdf"&gt;Datasheet 2&lt;/a&gt;</description>
+<pad name="1" x="2.5" y="0" drill="1" first="yes"/>
+<pad name="2" x="0" y="2.5" drill="1"/>
+<pad name="3" x="-2.5" y="0" drill="1"/>
+<pad name="4" x="0" y="-2.5" drill="1"/>
+<circle x="0" y="0" radius="9" width="0.127" layer="21"/>
+<text x="0" y="10.652" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="5.25" width="10.5" layer="39"/>
+<circle x="0" y="0" radius="2.1" width="4.2" layer="40"/>
+<circle x="0" y="0" radius="10.3" width="0.127" layer="21"/>
+<wire x1="-5" y1="9" x2="5" y2="9" width="0.127" layer="21"/>
+<wire x1="5" y1="9" x2="10.3" y2="0" width="0.127" layer="21"/>
+<wire x1="10.3" y1="0" x2="5" y2="-9" width="0.127" layer="21"/>
+<wire x1="5" y1="-9" x2="-5" y2="-9" width="0.127" layer="21"/>
+<wire x1="-5" y1="-9" x2="-10.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-10.3" y1="0" x2="-5" y2="9" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -8201,13 +8223,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="M12A-08PMMP-SF8001" x="86.357" y="23.095" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="86.357" y="33.747" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="J3" library="HyTechDevices" package="M12A-08PMMP" value="CONNECTOR-8_AMPHENOL_M12A_08PMMP_" x="63.857" y="23.095" smashed="yes">
-<attribute name="DKPN" value="1754-1026-ND" x="63.857" y="23.095" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Amphenol LTW" x="63.857" y="23.095" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="523-M12A08PMMPSF8001" x="63.857" y="23.095" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="M12A-08PMMP-SF8001" x="63.857" y="23.095" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="63.857" y="33.747" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-</element>
 <element name="U4" library="HyTechDevices" package="SC-70-5" value="OPAMP_1_CHANNEL_OPA991" x="26.162" y="27.686" smashed="yes" rot="R180">
 <attribute name="DKPN" value="296-OPA991IDCKRCT-ND" x="26.162" y="27.686" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="26.162" y="27.686" size="1.778" layer="27" rot="R180" display="off"/>
@@ -8436,6 +8451,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="10%" x="20.066" y="29.21" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="20.066" y="29.21" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="J3" library="HyTechDevices" package="M12A-04PMMP" value="CONNECTOR-4_AMPHENOL_M12A_04PMMP_" x="64.262" y="23.114" smashed="yes">
+<attribute name="DKPN" value="1754-1007-ND " x="64.262" y="23.114" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Amphenol" x="64.262" y="23.114" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="M12A-04PMMP-SF8001" x="64.262" y="23.114" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="64.262" y="33.766" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="10V">
@@ -8444,9 +8465,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="50.1015" y1="11.303" x2="51.955" y2="11.303" width="0.254" layer="1"/>
 <wire x1="51.955" y1="11.303" x2="52.07" y2="11.188" width="0.254" layer="1"/>
 <wire x1="52.07" y1="11.188" x2="59.956" y2="11.188" width="0.254" layer="1"/>
-<contactref element="J3" pad="7"/>
-<wire x1="59.956" y1="11.188" x2="66.053246875" y2="17.285246875" width="0.254" layer="1"/>
-<wire x1="66.053246875" y1="17.285246875" x2="66.053246875" y2="21.440009375" width="0.254" layer="1"/>
+<contactref element="J3" pad="1"/>
+<wire x1="66.762" y1="17.994" x2="66.762" y2="23.114" width="0.254" layer="1"/>
+<wire x1="59.956" y1="11.188" x2="66.762" y2="17.994" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="J4" pad="4"/>
@@ -8454,7 +8475,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="U1" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="J1" pad="8"/>
-<contactref element="J3" pad="8"/>
 <contactref element="U5" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="2"/>
@@ -8521,24 +8541,24 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="C8" pad="2"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
+<contactref element="J3" pad="2"/>
 </signal>
 <signal name="SIGNAL+">
 <contactref element="JP1" pad="1"/>
 <contactref element="JP3" pad="1"/>
 <wire x1="50.546" y1="22.44" x2="52.324" y2="22.44" width="0.254" layer="1"/>
 <contactref element="J3" pad="3"/>
-<wire x1="52.324" y1="22.44" x2="55.206" y2="22.44" width="0.254" layer="1"/>
-<wire x1="62.202009375" y1="25.291246875" x2="58.057246875" y2="25.291246875" width="0.254" layer="1"/>
-<wire x1="58.057246875" y1="25.291246875" x2="55.206" y2="22.44" width="0.254" layer="1"/>
+<wire x1="61.088" y1="22.44" x2="61.762" y2="23.114" width="0.254" layer="1"/>
+<wire x1="52.324" y1="22.44" x2="61.088" y2="22.44" width="0.254" layer="1"/>
 </signal>
 <signal name="SIGNAL-">
 <contactref element="JP2" pad="2"/>
 <contactref element="JP4" pad="2"/>
 <wire x1="50.546" y1="16.676" x2="52.324" y2="16.676" width="0.254" layer="1"/>
-<wire x1="52.324" y1="16.676" x2="54.522" y2="16.676" width="0.254" layer="1"/>
+<wire x1="52.324" y1="16.676" x2="60.364" y2="16.676" width="0.254" layer="1"/>
 <contactref element="J3" pad="4"/>
-<wire x1="54.522" y1="16.676" x2="61.1137" y2="23.2677" width="0.254" layer="1"/>
-<wire x1="61.1137" y1="23.28683125" x2="61.1137" y2="23.2677" width="0.254" layer="1"/>
+<wire x1="60.364" y1="16.676" x2="64.262" y2="20.574" width="0.254" layer="1"/>
+<wire x1="64.262" y1="20.574" x2="64.262" y2="20.614" width="0.254" layer="1"/>
 </signal>
 <signal name="PREINTERLOCK">
 <contactref element="J2" pad="1"/>
