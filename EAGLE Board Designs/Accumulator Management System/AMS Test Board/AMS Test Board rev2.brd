@@ -194,7 +194,7 @@
 <wire x1="386.6134" y1="-0.1016" x2="0" y2="0" width="0.001" layer="20"/>
 <wire x1="49.0982" y1="87.5284" x2="49.0982" y2="-0.1016" width="0.508" layer="21"/>
 <wire x1="331.8256" y1="87.5284" x2="331.8256" y2="-0.1016" width="0.508" layer="21"/>
-<text x="340.741" y="68.453" size="1.778" layer="21">AMS Test Board Rev 1
+<text x="340.741" y="68.453" size="1.778" layer="21">AMS Test Board Rev 2
 HyTech Racing 2023
 Designed by Ethan Su</text>
 </plain>
