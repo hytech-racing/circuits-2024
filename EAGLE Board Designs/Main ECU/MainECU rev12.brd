@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -195,7 +195,7 @@
 <wire x1="109.22" y1="0" x2="109.22" y2="115.57" width="0" layer="20"/>
 <wire x1="109.22" y1="115.57" x2="0" y2="115.57" width="0" layer="20"/>
 <wire x1="0" y1="115.57" x2="0" y2="0" width="0" layer="20"/>
-<text x="105.664" y="3.302" size="1.397" layer="22" font="vector" rot="MR0">HyTech Racing 2023
+<text x="99.314" y="2.54" size="1.397" layer="22" font="vector" rot="MR0">HyTech Racing 2023
 Main ECU rev12
 Designed by Mikhail Allen</text>
 <text x="13.716" y="65.405" size="0.8128" layer="25" font="vector" align="bottom-center">U23</text>
@@ -6237,7 +6237,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <element name="U$9" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="5.08" y="102.87" smashed="yes"/>
 <element name="U$10" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="5.08" y="30.48" smashed="yes"/>
 <element name="U$11" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="104.14" y="102.87" smashed="yes"/>
-<element name="U$12" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="104.14" y="30.48" smashed="yes"/>
+<element name="U$12" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="104.14" y="5.08" smashed="yes"/>
 <element name="G" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="55.372" y="86.614" smashed="yes" rot="R180">
 <attribute name="COLOR" value="Red" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DKPN" value="754-1786-1-ND" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
@@ -8267,8 +8267,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="31.94V" x="22.86" y="41.402" size="0.8128" layer="27" font="vector" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="22.86" y="41.402" size="0.8128" layer="27" font="vector" display="off"/>
 </element>
-<element name="U$3" library="HyTechManufacturing" package="LOGO_HYTECH_MEDIUM" value="" x="82.55" y="1.905" smashed="yes"/>
-<element name="U$5" library="HyTechManufacturing" package="LOGO_GT_SMALL" value="" x="77.978" y="5.334" smashed="yes"/>
+<element name="U$3" library="HyTechManufacturing" package="LOGO_HYTECH_MEDIUM" value="" x="74.422" y="1.905" smashed="yes"/>
+<element name="U$5" library="HyTechManufacturing" package="LOGO_GT_SMALL" value="" x="52.07" y="5.08" smashed="yes"/>
 </elements>
 <signals>
 <signal name="3.3V">
