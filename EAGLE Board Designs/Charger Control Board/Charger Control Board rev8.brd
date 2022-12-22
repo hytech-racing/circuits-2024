@@ -7341,16 +7341,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_MAX" value="75V" x="-59.69" y="12.319" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R38" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="50.8" y="16.7132" smashed="yes" rot="R270">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="51.308" y="16.8656" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.0625W" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RESISTANCE" value="1k" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_MAX" value="50V" x="-59.69" y="-21.3868" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R36" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="49.0474" y="20.1676" smashed="yes" rot="R270">
 <attribute name="DKPN" value="311-10.0KHRCT-ND" x="-61.4426" y="-21.7424" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7452,28 +7452,28 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="42.799" y="19.062" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="R35" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="42.799" y="21.463" smashed="yes">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="42.799" y="22.098" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="0.0625W" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
 <attribute name="RESISTANCE" value="1k" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="50V" x="42.799" y="21.463" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R6" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="65.405" y="59.055" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R6" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="65.405" y="59.055" smashed="yes" rot="R180">
+<attribute name="DKPN" value="10-ERJ-UP3F2001VTR-ND" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="667-ERJ-UP3F2001V" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ-UP3F2001V" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="63.9318" y="59.0804" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCE" value="1k" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.25W" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RESISTANCE" value="2k" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.36V" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="64.135" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SHDN_E" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="65.532" y="57.277" smashed="yes" rot="R180">
 <attribute name="COLOR" value="Orange" x="65.532" y="57.277" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7483,17 +7483,17 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="APT1608SECK" x="65.532" y="57.277" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="65.4946" y="56.388" size="0.8128" layer="25" font="vector" rot="R270" align="center-left"/>
 </element>
-<element name="R5" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="61.341" y="59.055" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R5" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="61.341" y="59.055" smashed="yes" rot="R180">
+<attribute name="DKPN" value="10-ERJ-UP3F2001VTR-ND" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="667-ERJ-UP3F2001V" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ-UP3F2001V" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.817" y="59.055" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCE" value="1k" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.25W" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RESISTANCE" value="2k" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.36V" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="60.071" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SHDN_D" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="61.214" y="57.277" smashed="yes" rot="R180">
 <attribute name="COLOR" value="Orange" x="59.944" y="61.087" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7503,17 +7503,17 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="APT1608SECK" x="59.944" y="61.087" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="61.202" y="56.388" size="0.8128" layer="25" font="vector" rot="R270" align="center-left"/>
 </element>
-<element name="R4" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="56.515" y="59.055" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R4" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="56.515" y="59.055" smashed="yes" rot="R180">
+<attribute name="DKPN" value="10-ERJ-UP3F2001VTR-ND" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="667-ERJ-UP3F2001V" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ-UP3F2001V" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="54.991" y="59.0296" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCE" value="1k" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.25W" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RESISTANCE" value="2k" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.36V" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="55.245" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SHDN_C" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="56.388" y="57.277" smashed="yes" rot="R180">
 <attribute name="COLOR" value="Orange" x="55.118" y="61.087" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7523,17 +7523,17 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="APT1608SECK" x="55.118" y="61.087" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="56.2744" y="56.388" size="0.8128" layer="25" font="vector" rot="R270" align="center-left"/>
 </element>
-<element name="R3" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="51.943" y="59.055" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R3" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="51.943" y="59.055" smashed="yes" rot="R180">
+<attribute name="DKPN" value="10-ERJ-UP3F2001VTR-ND" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="667-ERJ-UP3F2001V" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ-UP3F2001V" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="50.419" y="59.055" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCE" value="1k" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.25W" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RESISTANCE" value="2k" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.36V" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="50.673" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SHDN_B" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="52.0192" y="57.277" smashed="yes" rot="R180">
 <attribute name="COLOR" value="Orange" x="50.7492" y="61.087" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7552,7 +7552,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="POWER" value="0.1W" x="41.402" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="33k" x="41.402" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="41.402" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="57.4V" x="41.402" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="57.44V" x="41.402" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="350V" x="41.402" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R16" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_12K" x="41.402" y="57.15" smashed="yes">
@@ -7576,7 +7576,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="POWER" value="0.1W" x="36.957" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="33k" x="36.957" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="36.957" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="57.4V" x="36.957" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="57.44V" x="36.957" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="350V" x="36.957" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R15" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_12K" x="38.227" y="57.15" smashed="yes">
@@ -7600,7 +7600,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="POWER" value="0.1W" x="33.782" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="33k" x="33.782" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="33.782" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="57.4V" x="33.782" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="57.44V" x="33.782" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="350V" x="33.782" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R14" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_12K" x="35.052" y="57.15" smashed="yes">
@@ -7624,7 +7624,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="POWER" value="0.1W" x="30.607" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="33k" x="30.607" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="30.607" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="57.4V" x="30.607" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="57.44V" x="30.607" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="350V" x="30.607" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_12K" x="31.877" y="57.15" smashed="yes">
@@ -7648,7 +7648,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="POWER" value="0.1W" x="21.082" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="33k" x="21.082" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="21.082" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="57.4V" x="21.082" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="57.44V" x="21.082" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="350V" x="21.082" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R10" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_12K" x="22.352" y="57.15" smashed="yes">
@@ -7664,52 +7664,52 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_MAX" value="75V" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R7" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="79.5274" y="53.4416" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="78.0542" y="53.4162" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.0625W" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="1k" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="50V" x="78.2574" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="73.8124" y="53.4416" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="72.3392" y="53.4924" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.0625W" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="1k" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="50V" x="72.5424" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R9" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="83.6676" y="53.4416" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="85.1916" y="53.4416" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.0625W" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="1k" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="50V" x="82.3976" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R26" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="14.478" y="40.132" smashed="yes" rot="R270">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="15.113" y="40.132" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.0625W" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RESISTANCE" value="1k" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_MAX" value="50V" x="14.478" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R19" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_33K" x="28.702" y="55.245" smashed="yes" rot="R180">
 <attribute name="DKPN" value="RHM33KAYTR-ND " x="27.432" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7720,7 +7720,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="POWER" value="0.1W" x="27.432" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="33k" x="27.432" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="27.432" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="57.4V" x="27.432" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="57.44V" x="27.432" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="350V" x="27.432" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R12" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_12K" x="28.702" y="57.15" smashed="yes">
@@ -7736,16 +7736,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_MAX" value="75V" x="29.972" y="53.34" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R32" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="18.161" y="37.9984" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.1356" y="38.8366" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.0625W" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="1k" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="50V" x="16.891" y="37.9984" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="OKHS" library="HyTechDevices" package="0603-LED" value="LED_0603_YELLOW" x="79.5274" y="51.7398" smashed="yes" rot="R180">
 <attribute name="COLOR" value="Yellow" x="79.5274" y="51.7398" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7904,16 +7904,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="46.6344" y="62.599" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="R1" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="45.7708" y="59.817" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="47.3964" y="59.817" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.0625W" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="1k" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="50V" x="45.7708" y="59.817" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="XF1" library="HyTechDevices" package="3568" value="FUSE_HOLDER_MINIBLADEPTH" x="26.416" y="20.828" smashed="yes" rot="R90">
 <attribute name="DKPN" value="36-3568-ND" x="26.416" y="20.828" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8045,7 +8045,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="POWER" value="0.1W" x="24.257" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="33k" x="24.257" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="24.257" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="57.4V" x="24.257" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="57.44V" x="24.257" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="350V" x="24.257" y="55.245" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R11" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_12K" x="25.527" y="57.15" smashed="yes">
@@ -8065,16 +8065,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <element name="U$7" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="83.36000625" y="2.99999375" smashed="yes"/>
 <element name="U$1" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="2.99999375" y="80.82000625" smashed="yes"/>
 <element name="R8" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1K" x="69.215" y="53.4416" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.00KHRCT-ND" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071KL" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="1712-CPF-A-0603B1K0ETR-ND" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="279-CPF-A-0603B1K0E" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" CPF-A-0603B1K0E" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="67.7418" y="53.4924" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="POWER" value="0.0625W" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="1k" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="7.9V" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="50V" x="70.485" y="53.4416" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP4" library="HyTechDevices" package="5015" value="TEST_POINT" x="60.96" y="61.595" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="60.96" y="71.755" size="1.778" layer="27" display="off"/>
