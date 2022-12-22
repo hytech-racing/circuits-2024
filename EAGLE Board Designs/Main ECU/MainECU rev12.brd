@@ -6363,7 +6363,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MANUFACTURER" value="SparkFun Electronics" x="106.68" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="474-WRL-17354" x="106.68" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="WRL-17354" x="106.68" y="20.32" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="109.22" y="20.828" size="0.8128" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="105.664" y="20.32" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
 <element name="ESP" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="71.628" y="5.08" smashed="yes" rot="R180">
 <attribute name="COLOR" value="Red" x="70.866" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
@@ -8482,22 +8482,22 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="C82" pad="2"/>
 <contactref element="K1" pad="4"/>
 <polygon width="0.254" layer="15">
-<vertex x="0" y="152.4"/>
+<vertex x="0" y="115.57"/>
 <vertex x="0" y="0"/>
-<vertex x="127" y="0"/>
-<vertex x="127" y="152.4"/>
+<vertex x="109.22" y="0"/>
+<vertex x="109.22" y="115.57"/>
 </polygon>
 <polygon width="0.254" layer="16">
-<vertex x="-0.508" y="152.908"/>
+<vertex x="-0.508" y="116.078"/>
 <vertex x="-0.508" y="-0.508"/>
-<vertex x="127.508" y="-0.508"/>
-<vertex x="127.508" y="152.908"/>
+<vertex x="109.728" y="-0.508"/>
+<vertex x="109.728" y="116.078"/>
 </polygon>
 <polygon width="0.254" layer="1">
-<vertex x="-0.508" y="152.908"/>
+<vertex x="-0.508" y="116.078"/>
 <vertex x="-0.508" y="-0.508"/>
-<vertex x="127.508" y="-0.508"/>
-<vertex x="127.508" y="152.908"/>
+<vertex x="109.728" y="-0.508"/>
+<vertex x="109.728" y="116.078"/>
 </polygon>
 <contactref element="G" pad="1"/>
 <contactref element="R41" pad="2"/>
@@ -9301,10 +9301,10 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="31.23" y1="34.29" x2="31.834" y2="33.686" width="0.254" layer="1"/>
 <wire x1="31.834" y1="33.686" x2="31.834" y2="32.908" width="0.254" layer="1"/>
 <polygon width="0.254" layer="2">
-<vertex x="-0.508" y="152.908"/>
+<vertex x="-0.508" y="116.078"/>
 <vertex x="-0.508" y="-0.508"/>
-<vertex x="127.508" y="-0.508"/>
-<vertex x="127.508" y="152.908"/>
+<vertex x="109.728" y="-0.508"/>
+<vertex x="109.728" y="116.078"/>
 </polygon>
 <wire x1="31.584" y1="30.226" x2="30.988" y2="30.822" width="0.254" layer="1"/>
 <wire x1="31.834" y1="32.908" x2="30.988" y2="32.062" width="0.254" layer="1"/>
