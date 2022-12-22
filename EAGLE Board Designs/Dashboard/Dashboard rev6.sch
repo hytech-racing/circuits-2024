@@ -7602,12 +7602,9 @@ Layer: 94 Symbol</description>
 <text x="17.78" y="167.64" size="1.778" layer="97">Shutdown Signals</text>
 <text x="17.78" y="124.46" size="1.778" layer="97">Dashboard Buttons</text>
 <text x="17.78" y="86.36" size="1.778" layer="97">Dashboard Dial</text>
-<<<<<<< Updated upstream
-=======
 <text x="129.54" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
 <text x="228.6" y="45.72" size="2.54" layer="97">Liwei Sun</text>
 <text x="177.8" y="45.72" size="2.54" layer="97">Youssef Jaafar</text>
->>>>>>> Stashed changes
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
@@ -8154,11 +8151,8 @@ Layer: 94 Symbol</description>
 <plain>
 <text x="129.54" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
 <text x="228.6" y="177.8" size="1.778" layer="97">Error Codes</text>
-<<<<<<< Updated upstream
-=======
 <text x="228.6" y="45.72" size="2.54" layer="97">Liwei Sun</text>
 <text x="177.8" y="45.72" size="2.54" layer="97">Youssef Jaafar</text>
->>>>>>> Stashed changes
 </plain>
 <instances>
 <instance part="D101" gate="G$1" x="228.6" y="175.26" smashed="yes">
@@ -8826,12 +8820,9 @@ Layer: 94 Symbol</description>
 <text x="66.04" y="116.84" size="1.778" layer="97">24V to 3.3V</text>
 <text x="66.04" y="91.44" size="1.778" layer="97">24V to 3.3V</text>
 <text x="68.58" y="66.04" size="1.778" layer="97">24V to 3.3V</text>
-<<<<<<< Updated upstream
-=======
 <text x="228.6" y="45.72" size="2.54" layer="97">Liwei Sun</text>
 <text x="177.8" y="45.72" size="2.54" layer="97">Youssef Jaafar</text>
 <text x="132.08" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
->>>>>>> Stashed changes
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
@@ -9237,12 +9228,9 @@ Layer: 94 Symbol</description>
 <text x="134.62" y="144.78" size="1.778" layer="97">GLV</text>
 <text x="165.1" y="144.78" size="1.778" layer="97">BRAKE_ENGAGE</text>
 <text x="43.18" y="104.14" size="1.778" layer="97">LAUNCH_CTRL</text>
-<<<<<<< Updated upstream
-=======
 <text x="228.6" y="45.72" size="2.54" layer="97">Liwei Sun</text>
 <text x="177.8" y="45.72" size="2.54" layer="97">Youssef Jaafar</text>
 <text x="132.08" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
->>>>>>> Stashed changes
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
@@ -9560,12 +9548,9 @@ Layer: 94 Symbol</description>
 <description>Ordering Components</description>
 <plain>
 <text x="33.02" y="200.66" size="1.778" layer="97">Crimps, nanofit receptacles, and blade fuses to order</text>
-<<<<<<< Updated upstream
-=======
 <text x="231.14" y="45.72" size="2.54" layer="97">Liwei Sun</text>
 <text x="180.34" y="45.72" size="2.54" layer="97">Youssef Jaafar</text>
 <text x="132.08" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
->>>>>>> Stashed changes
 </plain>
 <instances>
 <instance part="FRAME2" gate="O" x="0" y="0" smashed="yes">
