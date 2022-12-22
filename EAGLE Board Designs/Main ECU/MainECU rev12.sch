@@ -7747,7 +7747,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P159" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R29" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
-<part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
+<part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240" value="RESISTOR_0603_240"/>
 <part name="R32" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="WDOG" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="P160" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8700,12 +8700,14 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 </net>
 <net name="LATCH_BTN" class="0">
 <segment>
-<wire x1="139.7" y1="114.3" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="114.3" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="111.76" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
-<junction x="142.24" y="114.3"/>
-<label x="147.32" y="114.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="96.52" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="137.16" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="134.62" x2="99.06" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="134.62" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
+<junction x="99.06" y="137.16"/>
+<label x="104.14" y="137.16" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="25"/>
+<pinref part="J3" gate="G$1" pin="26"/>
 </segment>
 </net>
 <net name="FL_INTERLOCK_SENSE_EXT" class="0">
@@ -9635,13 +9637,6 @@ CAN_3 - Sensors and anything else</text>
 <label x="231.14" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="BSPD_OK" class="0">
-<segment>
-<pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
-<label x="231.14" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$43" class="0">
 <segment>
 <pinref part="WDOG" gate="LED" pin="A"/>
@@ -9759,6 +9754,13 @@ CAN_3 - Sensors and anything else</text>
 <pinref part="R55" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="73.66" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
 <label x="226.06" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BSPD_OK_LV" class="0">
+<segment>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
+<label x="231.14" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
