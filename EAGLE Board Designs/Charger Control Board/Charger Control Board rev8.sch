@@ -11042,7 +11042,7 @@ visible on the PCB.</text>
 <attribute name="REVIEWER_SCHEMATIC" value="Cody Kaminsky"/>
 </part>
 <part name="P30" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P31" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="P31" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="R34" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="22"/>
 <part name="R37" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="22"/>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="22"/>
@@ -11072,16 +11072,16 @@ visible on the PCB.</text>
 <part name="SHDN_B" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE"/>
 <part name="P41" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
-<part name="R16" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
+<part name="R16" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K" value="RESISTOR_0603_5.1K"/>
 <part name="P42" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R22" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K" value="RESISTOR_0603_5.1K"/>
 <part name="P43" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R21" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
-<part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
+<part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K" value="RESISTOR_0603_5.1K"/>
 <part name="P44" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K" value="RESISTOR_0603_5.1K"/>
 <part name="P45" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R17" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
@@ -11096,7 +11096,7 @@ visible on the PCB.</text>
 <part name="R26" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K" value="RESISTOR_0603_2.18K"/>
 <part name="P52" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K" value="RESISTOR_0603_5.1K"/>
 <part name="P53" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R32" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="P54" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -11150,7 +11150,7 @@ visible on the PCB.</text>
 <part name="CHG_CAN" library="HyTechDevices - Copy" deviceset="CONNECTOR-6_?_*" device="MF_T_V"/>
 <part name="P56" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K" value="RESISTOR_0603_5.1K"/>
 <part name="P63" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K" value="RESISTOR_0603_2.18K"/>
 <part name="P64" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -12324,7 +12324,7 @@ to gnd on wiring harness</text>
 <instance part="P30" gate="1" x="210.82" y="198.12" smashed="yes">
 <attribute name="VALUE" x="210.82" y="196.85" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P31" gate="1" x="241.3" y="187.96" smashed="yes">
+<instance part="P31" gate="G$1" x="241.3" y="187.96" smashed="yes">
 <attribute name="VALUE" x="241.3" y="191.77" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R34" gate="G$1" x="134.62" y="180.34" smashed="yes">
@@ -12908,7 +12908,7 @@ to gnd on wiring harness</text>
 <segment>
 <wire x1="228.6" y1="180.34" x2="228.6" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="177.8" x2="241.3" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="P31" gate="1" pin="+12V"/>
+<pinref part="P31" gate="G$1" pin="+24V"/>
 <wire x1="241.3" y1="177.8" x2="241.3" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="CONTACT2"/>
 </segment>
