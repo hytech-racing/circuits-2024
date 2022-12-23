@@ -9447,75 +9447,6 @@ Layer: 94 Symbol</description>
 <rectangle x1="-2.794" y1="-1.524" x2="2.794" y2="1.524" layer="40"/>
 <rectangle x1="-2.794" y1="-1.524" x2="2.794" y2="1.524" layer="39"/>
 </package>
-<package name="PWR163">
-<description>PWR163 Resistor
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/54/pwr163-777985.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="PAD" x="0" y="0" dx="7.874" dy="8.509" layer="1"/>
-<smd name="1" x="-2.54" y="-7.366" dx="1.651" dy="3.81" layer="1"/>
-<smd name="2" x="2.54" y="-7.366" dx="3.81" dy="1.651" layer="1" rot="R90"/>
-<wire x1="-4.064" y1="3.556" x2="4.064" y2="3.556" width="0.127" layer="21"/>
-<wire x1="4.064" y1="3.556" x2="4.064" y2="-5.2324" width="0.127" layer="21"/>
-<wire x1="4.064" y1="-5.2324" x2="-4.064" y2="-5.2324" width="0.127" layer="21"/>
-<wire x1="-4.064" y1="-5.2324" x2="-4.064" y2="3.556" width="0.127" layer="21"/>
-<text x="0" y="5.08" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-5.08" y1="-10.16" x2="5.08" y2="5.08" layer="39"/>
-</package>
-<package name="3921">
-<description>3921 Yageo Resistor
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/447/PYu-PU_51_RoHS_L_6-1504619.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="-4.175" y="0" dx="2.75" dy="6.2" layer="1"/>
-<smd name="2" x="4.175" y="0" dx="2.75" dy="6.2" layer="1"/>
-<wire x1="-5" y1="2.6" x2="5" y2="2.6" width="0.127" layer="21"/>
-<wire x1="5" y1="2.6" x2="5" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="5" y1="-2.6" x2="-5" y2="-2.6" width="0.127" layer="21"/>
-<wire x1="-5" y1="-2.6" x2="-5" y2="2.6" width="0.127" layer="21"/>
-<rectangle x1="-6.096" y1="-3.556" x2="6.096" y2="3.556" layer="39"/>
-<text x="0" y="3.81" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-</package>
-<package name="0805-RES">
-<description>0805 Resistor Footprint
-&lt;br&gt;
-&lt;a href="https://www.yageo.com/upload/website/yageo_PYu-R_Mount_10_19050818_343.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"&gt;Size&lt;/a&gt;</description>
-<smd name="1" x="-1.05" y="0" dx="0.9" dy="1.2" layer="1"/>
-<smd name="2" x="1.05" y="0" dx="0.9" dy="1.2" layer="1"/>
-<text x="0" y="0.85" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
-<rectangle x1="-1.7" y1="-0.85" x2="1.7" y2="0.85" layer="39"/>
-</package>
-<package name="PWR263">
-<description>PWR263 Resistor
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/54/pwr263s_35-778069.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="-2.54" y="0" dx="2.4" dy="4.23" layer="1"/>
-<smd name="2" x="2.54" y="0" dx="2.4" dy="4.23" layer="1"/>
-<wire x1="-5.05" y1="13.765" x2="5.05" y2="13.765" width="0.127" layer="21"/>
-<wire x1="5.05" y1="13.765" x2="5.05" y2="3.365" width="0.127" layer="21"/>
-<wire x1="5.05" y1="3.365" x2="-5.05" y2="3.365" width="0.127" layer="21"/>
-<wire x1="-5.05" y1="3.365" x2="-5.05" y2="13.765" width="0.127" layer="21"/>
-<text x="0" y="15.494" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-6.35" y1="-2.794" x2="6.35" y2="15.494" layer="39"/>
-<polygon width="0" layer="1">
-<vertex x="-5.5" y="14.885"/>
-<vertex x="-5.5" y="10.865"/>
-<vertex x="-4" y="10.865"/>
-<vertex x="-4" y="4.365"/>
-<vertex x="4" y="4.365"/>
-<vertex x="4" y="10.865"/>
-<vertex x="5.5" y="10.865"/>
-<vertex x="5.5" y="14.885"/>
-</polygon>
-<rectangle x1="-5.5" y1="10.865" x2="5.5" y2="14.885" layer="31"/>
-<rectangle x1="-4" y1="4.365" x2="4" y2="10.865" layer="31"/>
-<rectangle x1="-5.6025" y1="10.7625" x2="5.6025" y2="14.9875" layer="29"/>
-<rectangle x1="-4.1025" y1="4.2625" x2="4.1025" y2="10.865" layer="29"/>
-</package>
 </packages>
 <symbols>
 <symbol name="JUMPER">
@@ -9525,21 +9456,6 @@ Layer: 94 Symbol</description>
 <text x="0" y="0.508" size="1.27" layer="94">JUMP</text>
 <text x="0" y="2.54" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="-3.302" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-</symbol>
-<symbol name="RESISTOR">
-<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;RESISTANCE</text>
-<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.5875" y1="1.016" x2="-0.9525" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-2.8575" y1="1.016" x2="-2.2225" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-0.3175" y1="1.016" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-1.5875" y1="1.016" x2="-2.2225" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-0.3175" y1="1.016" x2="-0.9525" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-2.8575" y1="1.016" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9594,823 +9510,6 @@ Layer: 94 Symbol</description>
 <attribute name="MANUFACTURER" value="Molex"/>
 <attribute name="MOPN" value="538-90120-1082"/>
 <attribute name="MPN" value="90120-1082 "/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RESISTOR_?_*" prefix="R">
-<description>Resistor
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/54/pwr163-777985.pdf"&gt;PWR163 Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/Yageo_PYu_AC_51_RoHS_L_7_1714230-1874691.pdf"&gt;AC Series&lt;/a&gt;&lt;li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/PYu-PU_51_RoHS_L_6-1504619.pdf"&gt;PU Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"&gt;ERA Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/54/pwr263s_35-778069.pdf"&gt;PWR263 Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf"&gt;RC Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C328-1530132.pdf"&gt;ERJ PB3, PB6 Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf"&gt;ERJ  PA2, P03, PA3, P06, P08, P14 Series&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PWR163" package="PWR163">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="5">
-<attribute name="DKPN" value="PWR163S-25-5R00FECT-ND"/>
-<attribute name="MANUFACTURER" value="Bourns Inc."/>
-<attribute name="MOPN" value="652-PWR163S255R00FE"/>
-<attribute name="MPN" value="PWR163S-25-5R00FE"/>
-<attribute name="POWER" value="2.8W"/>
-<attribute name="RESISTANCE" value="5"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="3.741V"/>
-<attribute name="VOLTAGE_MAX" value="3.741V"/>
-</technology>
-</technologies>
-</device>
-<device name="0603" package="0603-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="0">
-<attribute name="DKPN" value="311-0.0HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-070RL"/>
-<attribute name="MPN" value="RC0603FR-070RL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="0"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="1.24K">
-<attribute name="DKPN" value="311-1.24KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-071K24L"/>
-<attribute name="MPN" value="RC0603FR-071K24L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="1.24k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="11.14V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="1.33K">
-<attribute name="DKPN" value="P1.33KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB1331V"/>
-<attribute name="MPN" value="ERA-3AEB1331V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="1.33k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="11.53V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="1.5M">
-<attribute name="DKPN" value="311-1.50MHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-071M5L"/>
-<attribute name="MPN" value="RC0603FR-071M5L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="1.5M"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="1.65K">
-<attribute name="DKPN" value="311-1.65KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-071K65L"/>
-<attribute name="MPN" value="RC0603FR-071K65L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="1.65k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="12.85V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="10">
-<attribute name="DKPN" value="311-10.0HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0710RL"/>
-<attribute name="MPN" value="RC0603FR-0710RL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="10"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="1V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="10.2K">
-<attribute name="DKPN" value="P10.2KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB1022V"/>
-<attribute name="MPN" value="ERA-3AEB1022V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="10.2k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="31.94V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="10.5K">
-<attribute name="DKPN" value="P10.5KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="677-ERA-3AEB1052V"/>
-<attribute name="MPN" value="ERA-3AEB1052V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="10.5k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="32.40V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="100">
-<attribute name="DKPN" value="311-100HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-07100RL"/>
-<attribute name="MPN" value="RC0603FR-07100RL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="100"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="3.16V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="100K">
-<attribute name="DKPN" value="311-100KHRTR-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-07100KL "/>
-<attribute name="MPN" value="RC0603FR-07100KL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="100k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="10K">
-<attribute name="DKPN" value="311-10.0KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="10k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="31.62V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="11.3K">
-<attribute name="DKPN" value="P11.3KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB1132V"/>
-<attribute name="MPN" value="ERA-3AEB1132V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="11.3k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="33.62V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="11.5K">
-<attribute name="DKPN" value="P11.5KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB1152V"/>
-<attribute name="MPN" value="ERA-3AEB1152V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="11.5k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="33.91V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="12.4K">
-<attribute name="DKPN" value="P20096CT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-PB3B1242V"/>
-<attribute name="MPN" value="ERJ-PB3B1242V"/>
-<attribute name="POWER" value="0.2W"/>
-<attribute name="RESISTANCE" value="12.4k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="49.8V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
-<technology name="120">
-<attribute name="DKPN" value="P120DBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB121V"/>
-<attribute name="MPN" value="ERA-3AEB121V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="120"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="3.46V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="12K">
-<attribute name="DKPN" value="311-12.0KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0712KL"/>
-<attribute name="MPN" value="RC0603FR-0712KL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="12k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="34.64V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="15">
-<attribute name="DKPN" value="541-15.0STR-ND"/>
-<attribute name="MANUFACTURER" value="Vishay Dale"/>
-<attribute name="MOPN" value="71-CRCW060315R0FKEAH"/>
-<attribute name="MPN" value="CRCW060315R0FKEAHP"/>
-<attribute name="POWER" value="0.33W"/>
-<attribute name="RESISTANCE" value="15"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="2.22V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="150K">
-<attribute name="DKPN" value="P150KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB154V"/>
-<attribute name="MPN" value="ERA-3AEB154V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="150k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="154K">
-<attribute name="DKPN" value="P154KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB1543V"/>
-<attribute name="MPN" value="ERA-3AEB1543V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="154k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="15K">
-<attribute name="DKPN" value="P15KBDCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3ARB153V"/>
-<attribute name="MPN" value="ERA-3ARB153V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="15k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="38.73V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="17.8K">
-<attribute name="DKPN" value="311-17.8KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0717K8L"/>
-<attribute name="MPN" value="RC0603FR-0717K8L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="17.8k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="42.19V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="18.7K">
-<attribute name="DKPN" value="311-18.7KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0718K7L"/>
-<attribute name="MPN" value="RC0603FR-0718K7L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="18.7k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="43.24V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="180">
-<attribute name="DKPN" value="311-180HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-07180RL"/>
-<attribute name="MPN" value="RC0603FR-07180RL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="180"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="4.24V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="1K">
-<attribute name="DKPN" value="311-1.00KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-071KL"/>
-<attribute name="MPN" value="RC0603FR-071KL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="1k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.00V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="1M">
-<attribute name="DKPN" value="311-1.00MHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-071ML"/>
-<attribute name="MPN" value="RC0603FR-071ML"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="1M"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="2.18K">
-<attribute name="DKPN" value="13-RT0805BRD072K18LTR-ND"/>
-<attribute name="MANUFACTURER" value="YAGEO"/>
-<attribute name="MOPN" value="603-RT0805BRD072K18L"/>
-<attribute name="MPN" value="RT0805BRD072K18L"/>
-<attribute name="POWER" value="0.125W"/>
-<attribute name="RESISTANCE" value="2.18k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="16.51V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
-<technology name="2.55K">
-<attribute name="DKPN" value="311-2.55KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-072K55L"/>
-<attribute name="MPN" value="RC0603FR-072K55L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="2.55k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="15.97V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="2.74K">
-<attribute name="DKPN" value="P20020CT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-PB3B2741V"/>
-<attribute name="MPN" value="ERJ-PB3B2741V"/>
-<attribute name="POWER" value="0.2W"/>
-<attribute name="RESISTANCE" value="2.74k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="23.41V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
-<technology name="20K">
-<attribute name="DKPN" value="311-20.0KHRTR-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0720KL "/>
-<attribute name="MPN" value="RC0603FR-0720KL"/>
-<attribute name="POWER" value="0.1 W"/>
-<attribute name="RESISTANCE" value="20k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="44.72V"/>
-<attribute name="VOLTAGE_MAX" value="75V" constant="no"/>
-</technology>
-<technology name="210">
-<attribute name="DKPN" value="P19892CT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-PB3B2100V"/>
-<attribute name="MPN" value="ERJ-PB3B2100V"/>
-<attribute name="POWER" value="0.2W"/>
-<attribute name="RESISTANCE" value="210"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="6.48V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
-<technology name="215K">
-<attribute name="DKPN" value="P215KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB2153V"/>
-<attribute name="MPN" value="ERA-3AEB2153V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="215k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="22">
-<attribute name="DKPN" value="311-22.0HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0722RL"/>
-<attribute name="MPN" value="RC0603FR-0722RL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="22"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="1.48V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="22.1K">
-<attribute name="DKPN" value="P22.1KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB2212V"/>
-<attribute name="MPN" value="ERA-3AEB2212V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="22.1k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="47.01V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="240">
-<attribute name="DKPN" value="311-240HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-07240RL"/>
-<attribute name="MPN" value="RC0603FR-07240RL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="240"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="4.90V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="255K">
-<attribute name="DKPN" value="P255KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Company"/>
-<attribute name="MOPN" value="667-ERA-3AEB2553V"/>
-<attribute name="MPN" value="ERA-3AEB2553V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="255k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="2K">
-<attribute name="DKPN" value="P2.0KBDCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3ARB202V"/>
-<attribute name="MPN" value="ERA-3ARB202V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="2k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="14.14V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="3.32K">
-<attribute name="DKPN" value="YAG1651TR-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RT0603BRD073K32L"/>
-<attribute name="MPN" value="RT0603BRD073K32L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="3.32k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="18.22V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="3.3K">
-<attribute name="DKPN" value="311-3.30KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-073K3L"/>
-<attribute name="MPN" value="RC0603FR-073K3L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="3.3k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="18.17V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="3.9K">
-<attribute name="DKPN" value="311-3.90KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-073K9L"/>
-<attribute name="MPN" value="RC0603FR-073K9L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="3.9k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="19.75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="30K">
-<attribute name="DKPN" value="P30KBDCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3ARB303V"/>
-<attribute name="MPN" value="ERA-3ARB303V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="30k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="54.77V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="330K">
-<attribute name="DKPN" value="P330KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB334V"/>
-<attribute name="MPN" value="ERA-3AEB334V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="330k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="36.5K">
-<attribute name="DKPN" value="311-36.5KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0736K5L"/>
-<attribute name="MPN" value="RC0603FR-0736K5L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="36.5k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="60.42V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="360">
-<attribute name="DKPN" value="311-360HRTR-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-07360RL"/>
-<attribute name="MPN" value="RC0603FR-07360RL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="360"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="6V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="374K">
-<attribute name="DKPN" value="311-374KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-07374KL"/>
-<attribute name="MPN" value="RC0603FR-07374KL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="374k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="4.12K">
-<attribute name="DKPN" value="P4.12KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB4121V"/>
-<attribute name="MPN" value="ERA-3AEB4121V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="4.12k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="20.30V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="4.64K">
-<attribute name="DKPN" value="311-4.64KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-074K64L"/>
-<attribute name="MPN" value="RC0603FR-074K64L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="4.64k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="21.54V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="402">
-<attribute name="DKPN" value="311-402HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-07402RL"/>
-<attribute name="MPN" value="RC0603FR-07402RL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="402"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="6.34V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="43K">
-<attribute name="DKPN" value="311-43.0KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0743KL"/>
-<attribute name="MPN" value="RC0603FR-0743KL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="43k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="65.57V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="470">
-<attribute name="DKPN" value="P470BYCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-PA3F4700V"/>
-<attribute name="MPN" value="ERJ-PA3F4700V"/>
-<attribute name="POWER" value="0.25W"/>
-<attribute name="RESISTANCE" value="470"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.84V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
-<technology name="5.1">
-<attribute name="DKPN" value="P16039TR-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-P03J5R1V"/>
-<attribute name="MPN" value="ERJ-P03J5R1V"/>
-<attribute name="POWER" value="0.25W"/>
-<attribute name="RESISTANCE" value="5.1"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="1.13V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
-<technology name="5.1K">
-<attribute name="DKPN" value="311-5.10KHRTR-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-075K1L "/>
-<attribute name="MPN" value="RC0603FR-075K1L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="5.1k"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="22.58V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="5.9K">
-<attribute name="DKPN" value="P5.9KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB5901V"/>
-<attribute name="MPN" value="ERA-3AEB5901V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="5.9k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="24.29V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="60.4">
-<attribute name="DKPN" value="311-60.4HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0760R4L"/>
-<attribute name="MPN" value="RC0603FR-0760R4L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="60.4"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="2.48V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="620">
-<attribute name="DKPN" value="311-620HRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-07620RL"/>
-<attribute name="MPN" value="RC0603FR-07620RL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="620"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="7.87V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="73.2K">
-<attribute name="DKPN" value="P73.2KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB7322V"/>
-<attribute name="MPN" value="ERA-3AEB7322V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="73.2k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="75K">
-<attribute name="DKPN" value="RT0603BRE0775KL-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RT0603BRE0775KL"/>
-<attribute name="MPN" value="RT0603BRE0775KL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="75k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="8.35K">
-<attribute name="DKPN" value="764-1461-2-ND"/>
-<attribute name="MANUFACTURER" value="Vishay Dale Thin Film"/>
-<attribute name="MOPN" value="71-PTN0603E8351BST1"/>
-<attribute name="MPN" value="PTN0603E8351BST1"/>
-<attribute name="POWER" value="0.15W"/>
-<attribute name="RESISTANCE" value="8.35k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="28.90V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="8.66K">
-<attribute name="DKPN" value="YAG4603TR-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RT0603BRD078K66L"/>
-<attribute name="MPN" value="RT0603BRD078K66L"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="8.66k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="29.43V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="84.5K">
-<attribute name="DKPN" value="P84.5KDBCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3AEB8452V"/>
-<attribute name="MPN" value="ERA-3AEB8452V"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="84.5k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="DNP">
-<attribute name="DKPN" value=""/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MOPN" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="POWER" value=""/>
-<attribute name="RESISTANCE" value="DNP"/>
-<attribute name="TOLERANCE" value=""/>
-<attribute name="VOLTAGE_CONTINUOUS" value=""/>
-<attribute name="VOLTAGE_MAX" value=""/>
-</technology>
-</technologies>
-</device>
-<device name="3921" package="3921">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="0.001">
-<attribute name="DKPN" value="YAG6126CT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-U3921FKMP50R001L"/>
-<attribute name="MPN" value="PU3921FKMP50R001L"/>
-<attribute name="POWER" value="5W"/>
-<attribute name="RESISTANCE" value="1mΩ"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="0.07V"/>
-<attribute name="VOLTAGE_MAX" value="0.07V"/>
-</technology>
-</technologies>
-</device>
-<device name="0805" package="0805-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="12.4K">
-<attribute name="DKPN" value="P20718CT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-PB6B1242V"/>
-<attribute name="MPN" value="ERJ-PB6B1242V"/>
-<attribute name="POWER" value="0.25W"/>
-<attribute name="RESISTANCE" value="12.4k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="55.68V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
-<technology name="200">
-<attribute name="DKPN" value="311-200CRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0805FR-07200RL"/>
-<attribute name="MPN" value="RC0805FR-07200RL"/>
-<attribute name="POWER" value="0.125W"/>
-<attribute name="RESISTANCE" value="200"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="5V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
-<technology name="22">
-<attribute name="DKPN" value="P16066TR-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-P06F22R0V"/>
-<attribute name="MPN" value="ERJ-P06F22R0V"/>
-<attribute name="POWER" value="0.5W"/>
-<attribute name="RESISTANCE" value="22"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="3.32V"/>
-<attribute name="VOLTAGE_MAX" value="400V"/>
-</technology>
-<technology name="365K">
-<attribute name="DKPN" value="P20885CT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-PB6B3653V"/>
-<attribute name="MPN" value="ERJ-PB6B3653V"/>
-<attribute name="POWER" value="0.25W"/>
-<attribute name="RESISTANCE" value="365k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
-<technology name="56">
-<attribute name="DKPN" value="P16053TR-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-P06D56R0V"/>
-<attribute name="MPN" value="ERJ-P06D56R0V"/>
-<attribute name="POWER" value="0.5W"/>
-<attribute name="RESISTANCE" value="56"/>
-<attribute name="TOLERANCE" value="5%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="5.29V"/>
-<attribute name="VOLTAGE_MAX" value="400V"/>
-</technology>
-</technologies>
-</device>
-<device name="PWR263" package="PWR263">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="5">
-<attribute name="DKPN" value="PWR263S-35-5R00F-ND"/>
-<attribute name="MANUFACTURER" value="Bourns Inc."/>
-<attribute name="MOPN" value="652-PWR263S355R00F"/>
-<attribute name="MPN" value="PWR263S-35-5R00F"/>
-<attribute name="POWER" value="3.5W"/>
-<attribute name="RESISTANCE" value="5"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="4.183V"/>
-<attribute name="VOLTAGE_MAX" value="4.183V"/>
-</technology>
-<technology name="7.5">
-<attribute name="DKPN" value="PWR263S-35-7R50J-ND"/>
-<attribute name="MANUFACTURER" value="Bourns Inc."/>
-<attribute name="MOPN" value="652-PWR263S357R50J"/>
-<attribute name="MPN" value="PWR263S-35-7R50J"/>
-<attribute name="POWER" value="3.5W"/>
-<attribute name="RESISTANCE" value="7.5"/>
-<attribute name="TOLERANCE" value="5%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="5.123V"/>
-<attribute name="VOLTAGE_MAX" value="5.123V"/>
 </technology>
 </technologies>
 </device>
@@ -11007,7 +10106,7 @@ visible on the PCB.</text>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="P5" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="MAIN_CONNECTOR" library="HyTechDevices - Copy" deviceset="CONNECTOR-8_?_*" device="MF_T_V"/>
-<part name="P6" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="P6" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P7" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="D100" library="HyTechDevices" deviceset="TVS_BIDIRECTIONAL_DUAL" device=""/>
 <part name="P8" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -11046,7 +10145,7 @@ visible on the PCB.</text>
 <part name="R34" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="22"/>
 <part name="R37" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="22"/>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="22"/>
-<part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="D3" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="P32" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R36" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
@@ -11087,13 +10186,13 @@ visible on the PCB.</text>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
 <part name="P46" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P47" library="HyTechSupplies" deviceset="+12V" device=""/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K" value="RESISTOR_0603_2.18K"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="P48" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="P49" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="P50" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R26" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K" value="RESISTOR_0603_2.18K"/>
+<part name="R26" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="P52" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K" value="RESISTOR_0603_5.1K"/>
@@ -11125,7 +10224,7 @@ visible on the PCB.</text>
 <part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K"/>
 <part name="P25" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="STATUS_4.1" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K" value="RESISTOR_0603_2.18K"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="P26" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P27" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P28" library="HyTechSupplies" deviceset="+12V" device=""/>
@@ -11145,14 +10244,14 @@ visible on the PCB.</text>
 <part name="U1" library="HyTechDevices" deviceset="LOGICGATE_BUFFER" device=""/>
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="C2" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240"/>
+<part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="470" value="RESISTOR_0603_470"/>
 <part name="P15" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="CHG_CAN" library="HyTechDevices - Copy" deviceset="CONNECTOR-6_?_*" device="MF_T_V"/>
 <part name="P56" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K" value="RESISTOR_0603_5.1K"/>
 <part name="P63" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K" value="RESISTOR_0603_2.18K"/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="P64" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="TP4" library="HyTechDevices" deviceset="TEST_POINT" device="">
 <attribute name="SIGNAL" value="SHDN_D"/>
@@ -11196,14 +10295,14 @@ visible on the PCB.</text>
 <part name="U$4" library="HyTechDevices" deviceset="RELAY_SOLIDSTATE_NO" device=""/>
 <part name="4.1_ONLY" library="HyTechDevices_Jumper" deviceset="JUMPER_?_*" device="" technology="1X02"/>
 <part name="CAN_TERM" library="HyTechDevices_Jumper" deviceset="JUMPER_?_*" device="" technology="1X02"/>
-<part name="D101" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
-<part name="D102" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="D101" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V" value="TVS_30VDO-214AA"/>
+<part name="D102" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V" value="TVS_30VDO-214AA"/>
 <part name="SHDN_F" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE"/>
 <part name="CCU_OK" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
 <part name="U$100" library="HyTechDevices" deviceset="RELAY_SOLIDSTATE_NO" device=""/>
 <part name="E_SELECT" library="HyTechDevices_Jumper" deviceset="JUMPER_?_*" device="0603" value="JUMPER_0603_"/>
 <part name="F_SELECT" library="HyTechDevices_Jumper" deviceset="JUMPER_?_*" device="0603" value="JUMPER_0603_"/>
-<part name="R100" library="HyTechDevices_Jumper" deviceset="RESISTOR_?_*" device="0603" technology="240"/>
+<part name="R100" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.9K" value="RESISTOR_0603_5.9K"/>
 <part name="P67" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P68" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="O23" library="HyTechExternal" deviceset="FUSE_*" device="" technology="MINI_BLADE_2"/>
@@ -11316,7 +10415,7 @@ to gnd on wiring harness</text>
 <attribute name="NAME" x="5.08" y="83.058" size="1.27" layer="95" rot="MR180"/>
 <attribute name="MPN" x="5.08" y="107.315" size="1.27" layer="96" rot="MR180" align="top-left"/>
 </instance>
-<instance part="P6" gate="1" x="48.26" y="99.06" smashed="yes">
+<instance part="P6" gate="G$1" x="48.26" y="99.06" smashed="yes">
 <attribute name="VALUE" x="48.26" y="102.87" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P7" gate="1" x="50.8" y="86.36" smashed="yes">
@@ -11766,7 +10865,7 @@ to gnd on wiring harness</text>
 <pinref part="MAIN_CONNECTOR" gate="G$1" pin="4"/>
 <wire x1="15.24" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="93.98" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="P6" gate="1" pin="+12V"/>
+<pinref part="P6" gate="G$1" pin="+24V"/>
 </segment>
 <segment>
 <pinref part="P57" gate="G$1" pin="+24V"/>
