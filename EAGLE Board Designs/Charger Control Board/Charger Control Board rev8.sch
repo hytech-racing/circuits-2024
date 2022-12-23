@@ -9287,16 +9287,6 @@ Layer: 94 Symbol</description>
 <wire x1="1.27" y1="1.905" x2="0" y2="3.81" width="0.254" layer="94"/>
 <text x="0" y="5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
-<symbol name="+12V">
-<text x="0" y="3.81" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
-<pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="+5V">
 <text x="0" y="2.54" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
@@ -9330,19 +9320,6 @@ Layer: 94 Symbol</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+24V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+12V" prefix="P">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+12V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -10227,7 +10204,7 @@ visible on the PCB.</text>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="P26" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P27" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="P28" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="P28" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P29" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P51" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="XF1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="PTH" technology="MINIBLADE"/>
@@ -11681,7 +11658,7 @@ to gnd on wiring harness</text>
 <instance part="P27" gate="1" x="208.28" y="114.3" smashed="yes">
 <attribute name="VALUE" x="208.28" y="116.84" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P28" gate="1" x="213.36" y="106.68" smashed="yes">
+<instance part="P28" gate="G$1" x="213.36" y="106.68" smashed="yes">
 <attribute name="VALUE" x="213.36" y="110.49" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P29" gate="1" x="231.14" y="66.04" smashed="yes">
@@ -12018,7 +11995,7 @@ to gnd on wiring harness</text>
 <pinref part="R17" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="P28" gate="1" pin="+12V"/>
+<pinref part="P28" gate="G$1" pin="+24V"/>
 <wire x1="200.66" y1="101.6" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="101.6" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="TP13" gate="G$1" pin="1"/>
