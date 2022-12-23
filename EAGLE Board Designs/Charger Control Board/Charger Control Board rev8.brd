@@ -7636,16 +7636,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="57.44V" x="21.082" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="350V" x="21.082" y="59.055" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R10" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_12K" x="22.352" y="57.15" smashed="yes">
-<attribute name="DKPN" value="311-12.0KHRCT-ND" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
+<element name="R10" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_5.1K" x="22.352" y="57.15" smashed="yes">
+<attribute name="DKPN" value="311-5.10KHRTR-ND" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0712KL" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0603FR-0712KL" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-RC0603FR-075K1L " x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-075K1L" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="22.352" y="57.785" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="12k" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="5.1k" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="34.64V" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="22.58V" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="23.622" y="53.34" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R7" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="79.5274" y="53.4416" smashed="yes" rot="R180">
@@ -8545,7 +8545,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="6.9584" y1="8.001" x2="4.9784" y2="13.9192" width="0.254" layer="1"/>
 <wire x1="4.9784" y1="13.9192" x2="6.9342" y2="15.875" width="0.254" layer="1"/>
 </signal>
-<signal name="+12V">
+<signal name="+24V">
 <contactref element="U3" pad="1"/>
 <contactref element="C7" pad="1"/>
 <contactref element="MAIN_CONNECTOR" pad="4"/>
@@ -9328,7 +9328,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="32.9946" y1="80.0354" x2="31.75" y2="81.28" width="0.254" layer="1"/>
 <wire x1="32.9946" y1="62.2046" x2="32.9946" y2="80.0354" width="0.254" layer="1"/>
 </signal>
-<signal name="12V_READ">
+<signal name="24V_READ">
 <contactref element="R17" pad="2"/>
 <contactref element="R10" pad="1"/>
 <contactref element="A2" pad="D20"/>

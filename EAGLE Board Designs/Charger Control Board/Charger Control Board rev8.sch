@@ -10183,9 +10183,9 @@ visible on the PCB.</text>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K" value="RESISTOR_0603_5.1K"/>
 <part name="P45" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R17" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
+<part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K" value="RESISTOR_0603_5.1K"/>
 <part name="P46" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P47" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="P47" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="P48" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
@@ -10846,7 +10846,7 @@ to gnd on wiring harness</text>
 <pinref part="XF2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+24V" class="0">
 <segment>
 <pinref part="P1" gate="G$1" pin="+24V"/>
 <wire x1="58.42" y1="198.12" x2="71.12" y2="198.12" width="0.1524" layer="91"/>
@@ -11207,7 +11207,7 @@ to gnd on wiring harness</text>
 <pinref part="A1" gate="G$1" pin="A4"/>
 </segment>
 </net>
-<net name="12V_READ" class="0">
+<net name="24V_READ" class="0">
 <segment>
 <wire x1="83.82" y1="165.1" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
 <label x="81.28" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -11583,7 +11583,7 @@ to gnd on wiring harness</text>
 <instance part="P46" gate="1" x="124.46" y="38.1" smashed="yes">
 <attribute name="VALUE" x="124.46" y="36.83" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P47" gate="1" x="86.36" y="48.26" smashed="yes">
+<instance part="P47" gate="G$1" x="86.36" y="48.26" smashed="yes">
 <attribute name="VALUE" x="86.36" y="52.07" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R7" gate="G$1" x="127" y="124.46" smashed="yes">
@@ -12003,7 +12003,7 @@ to gnd on wiring harness</text>
 <wire x1="134.62" y1="60.96" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+12V" class="0">
+<net name="+24V" class="0">
 <segment>
 <wire x1="228.6" y1="180.34" x2="228.6" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="177.8" x2="241.3" y2="177.8" width="0.1524" layer="91"/>
@@ -12012,7 +12012,7 @@ to gnd on wiring harness</text>
 <pinref part="U$4" gate="G$1" pin="CONTACT2"/>
 </segment>
 <segment>
-<pinref part="P47" gate="1" pin="+12V"/>
+<pinref part="P47" gate="G$1" pin="+24V"/>
 <wire x1="86.36" y1="45.72" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
@@ -12408,7 +12408,7 @@ to gnd on wiring harness</text>
 <label x="55.88" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="12V_READ" class="0">
+<net name="24V_READ" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="1"/>
