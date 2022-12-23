@@ -3751,19 +3751,25 @@ Toshiba
 <pad name="32" x="14" y="1" drill="0.9"/>
 <pad name="33" x="16" y="-1" drill="0.9"/>
 <pad name="34" x="16" y="1" drill="0.9"/>
-<wire x1="-23.895" y1="3.27" x2="23.895" y2="3.27" width="0.127" layer="21"/>
-<wire x1="-23.895" y1="-3.27" x2="-1" y2="-3.27" width="0.127" layer="21"/>
+<wire x1="-23.895" y1="3.27" x2="-22.895" y2="3.27" width="0.127" layer="21"/>
+<wire x1="-22.895" y1="3.27" x2="22.895" y2="3.27" width="0.127" layer="21"/>
+<wire x1="22.895" y1="3.27" x2="23.895" y2="3.27" width="0.127" layer="21"/>
+<wire x1="-23.895" y1="-3.27" x2="-22.895" y2="-3.27" width="0.127" layer="21"/>
+<wire x1="-22.895" y1="-3.27" x2="-1" y2="-3.27" width="0.127" layer="21"/>
 <wire x1="-1" y1="-3.27" x2="1" y2="-3.27" width="0.127" layer="21"/>
-<wire x1="1" y1="-3.27" x2="23.895" y2="-3.27" width="0.127" layer="21"/>
-<wire x1="-23.895" y1="-3.27" x2="-23.895" y2="3.27" width="0.127" layer="21"/>
-<wire x1="23.895" y1="-3.27" x2="23.895" y2="3.27" width="0.127" layer="21"/>
+<wire x1="1" y1="-3.27" x2="22.895" y2="-3.27" width="0.127" layer="21"/>
+<wire x1="22.895" y1="-3.27" x2="23.895" y2="-3.27" width="0.127" layer="21"/>
+<wire x1="-23.895" y1="-3.27" x2="-23.895" y2="3.27" width="0.127" layer="21" style="shortdash"/>
+<wire x1="23.895" y1="-3.27" x2="23.895" y2="3.27" width="0.127" layer="21" style="shortdash"/>
 <text x="-24.5" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-23.895" y1="-3.27" x2="23.895" y2="3.27" layer="39"/>
-<rectangle x1="-23.895" y1="-3.27" x2="23.895" y2="3.27" layer="40"/>
+<rectangle x1="-22.895" y1="-3.27" x2="22.895" y2="3.27" layer="39"/>
+<rectangle x1="-22.895" y1="-3.27" x2="22.895" y2="3.27" layer="40"/>
 <wire x1="-1" y1="-3.27" x2="-1" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-1" y1="-2.5" x2="1" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1" y1="-2.5" x2="1" y2="-3.27" width="0.127" layer="21"/>
 <circle x="-16" y="-1" radius="1" width="0.127" layer="21"/>
+<wire x1="22.895" y1="3.27" x2="22.895" y2="-3.27" width="0.127" layer="21"/>
+<wire x1="-22.895" y1="3.27" x2="-22.895" y2="-3.27" width="0.127" layer="21"/>
 </package>
 <package name="B3S-100X">
 <description>B3S-100x Button
