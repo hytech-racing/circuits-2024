@@ -11087,13 +11087,13 @@ visible on the PCB.</text>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
 <part name="P46" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P47" library="HyTechSupplies" deviceset="+12V" device=""/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K" value="RESISTOR_0603_2.18K"/>
 <part name="P48" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="P49" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="P50" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R26" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R26" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K" value="RESISTOR_0603_2.18K"/>
 <part name="P52" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
@@ -11125,7 +11125,7 @@ visible on the PCB.</text>
 <part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K"/>
 <part name="P25" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="STATUS_4.1" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K" value="RESISTOR_0603_2.18K"/>
 <part name="P26" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P27" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P28" library="HyTechSupplies" deviceset="+12V" device=""/>
@@ -11152,7 +11152,7 @@ visible on the PCB.</text>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="33K" value="RESISTOR_0603_33K"/>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
 <part name="P63" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K" value="RESISTOR_0603_2.18K"/>
 <part name="P64" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="TP4" library="HyTechDevices" deviceset="TEST_POINT" device="">
 <attribute name="SIGNAL" value="SHDN_D"/>
