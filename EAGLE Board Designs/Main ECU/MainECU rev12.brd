@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -6433,7 +6433,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MANUFACTURER" value="Kingbright" x="62.484" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="62.484" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="APT1608SECK/J3-PRV" x="62.484" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="61.722" y="3.29" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="NAME" x="61.722" y="4.33" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="R70" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="61.722" y="6.604" smashed="yes">
 <attribute name="DKPN" value="10-ERJ-UP3F2001VTR-ND" x="62.484" y="6.604" size="1.778" layer="27" display="off"/>
