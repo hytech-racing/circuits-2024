@@ -7785,12 +7785,12 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 </part>
 <part name="LATCH" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="WHITE"/>
 <part name="P151" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="B" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="BLUE"/>
+<part name="B" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN" value="LED_0603_GREEN"/>
 <part name="C" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
-<part name="D" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
-<part name="E" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE"/>
-<part name="F" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
-<part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100"/>
+<part name="D" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN" value="LED_0603_GREEN"/>
+<part name="E" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN" value="LED_0603_GREEN"/>
+<part name="F" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN" value="LED_0603_GREEN"/>
+<part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180" value="RESISTOR_0603_180"/>
 <part name="P152" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P153" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P154" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -7801,27 +7801,27 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R26" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R28" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
-<part name="IMD" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
-<part name="BMS" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
-<part name="BSPD" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE"/>
+<part name="IMD" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE" value="LED_0603_ORANGE"/>
+<part name="BMS" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE" value="LED_0603_ORANGE"/>
+<part name="BSPD" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN" value="LED_0603_GREEN"/>
 <part name="P157" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P158" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P159" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R29" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
-<part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240" value="RESISTOR_0603_240"/>
+<part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180" value="RESISTOR_0603_180"/>
 <part name="R32" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
-<part name="WDOG" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="WDOG" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE" value="LED_0603_ORANGE"/>
 <part name="P160" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R33" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="SWOK" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="SWOK" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="ORANGE" value="LED_0603_ORANGE"/>
 <part name="P161" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R34" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100"/>
+<part name="R34" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="120" value="RESISTOR_0603_120"/>
 <part name="P163" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P164" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="3V3" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
-<part name="5V0" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100"/>
+<part name="3V3" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW" value="LED_0603_YELLOW"/>
+<part name="5V0" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW" value="LED_0603_YELLOW"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="120" value="RESISTOR_0603_120"/>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240"/>
 <part name="P165" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P166" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -7832,9 +7832,9 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="FRAME7" library="HyTechFrames" deviceset="FRAME" device="">
 <attribute name="ENGINEER" value="Mikhail Allen"/>
 </part>
-<part name="B_HI" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
+<part name="B_HI" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED" value="LED_0603_RED"/>
 <part name="P186" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R40" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180"/>
+<part name="R40" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240" value="RESISTOR_0603_240"/>
 <part name="U32" library="HyTechDevices" deviceset="ADC128S022" device=""/>
 <part name="P188" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P189" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -7966,7 +7966,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="D45" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30V"/>
 <part name="D46" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30V"/>
 <part name="P75" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="G" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="G" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN" value="LED_0603_GREEN"/>
 <part name="P76" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="TP4" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
@@ -7974,15 +7974,15 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R39" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="R41" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="43K" value="RESISTOR_0603_43K"/>
 <part name="P77" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="B_MIS" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
+<part name="B_MIS" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED" value="LED_0603_RED"/>
 <part name="P79" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R37" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180"/>
-<part name="C_HI" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
+<part name="R37" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240" value="RESISTOR_0603_240"/>
+<part name="C_HI" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED" value="LED_0603_RED"/>
 <part name="P80" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R54" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180"/>
-<part name="C_MIS" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
+<part name="R54" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240" value="RESISTOR_0603_240"/>
+<part name="C_MIS" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED" value="LED_0603_RED"/>
 <part name="P81" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R55" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180"/>
+<part name="R55" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240" value="RESISTOR_0603_240"/>
 <part name="A4" library="HyTechDevices" deviceset="NRF9160LTE" device=""/>
 <part name="ESP" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="R57" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>

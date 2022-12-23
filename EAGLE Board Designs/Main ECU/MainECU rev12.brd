@@ -5310,76 +5310,76 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="APT1608ZGCK" x="34.798" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="91.948" y="85.864" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="D" library="HyTechDevices" package="0603-LED" value="LED_0603_YELLOW" x="82.804" y="86.36" smashed="yes" rot="R180">
-<attribute name="COLOR" value="Yellow" x="21.844" y="229.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="754-1788-1-ND" x="21.844" y="229.87" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="D" library="HyTechDevices" package="0603-LED" value="LED_0603_GREEN" x="82.804" y="86.36" smashed="yes" rot="R180">
+<attribute name="COLOR" value="Green" x="21.844" y="229.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="754-1790-1-ND" x="21.844" y="229.87" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="21.844" y="229.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="604-APT1608SYCK/J3-PRV" x="21.844" y="229.87" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608SYCK/J3-PRV" x="21.844" y="229.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="604-APT1608ZGCK" x="21.844" y="229.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608ZGCK" x="21.844" y="229.87" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="82.804" y="85.61" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="E" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="73.66" y="86.614" smashed="yes" rot="R180">
-<attribute name="COLOR" value="Orange" x="8.89" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="754-1120-1-ND" x="8.89" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="E" library="HyTechDevices" package="0603-LED" value="LED_0603_GREEN" x="73.66" y="86.614" smashed="yes" rot="R180">
+<attribute name="COLOR" value="Green" x="8.89" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="754-1790-1-ND" x="8.89" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="8.89" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="604-APT1608SECK" x="8.89" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608SECK" x="8.89" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="604-APT1608ZGCK" x="8.89" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608ZGCK" x="8.89" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="73.66" y="85.864" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="F" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="64.516" y="86.614" smashed="yes" rot="R180">
-<attribute name="COLOR" value="Red" x="-4.064" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="754-1786-1-ND" x="-4.064" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="F" library="HyTechDevices" package="0603-LED" value="LED_0603_GREEN" x="64.516" y="86.614" smashed="yes" rot="R180">
+<attribute name="COLOR" value="Green" x="-4.064" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="754-1790-1-ND" x="-4.064" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="-4.064" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="-4.064" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608SECK/J3-PRV" x="-4.064" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="604-APT1608ZGCK" x="-4.064" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608ZGCK" x="-4.064" y="230.124" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="64.516" y="85.864" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="IMD" library="HyTechDevices" package="0603-LED" value="LED_0603_GREEN" x="96.52" y="81.788" smashed="yes" rot="R180">
-<attribute name="COLOR" value="Green" x="24.13" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="754-1790-1-ND" x="24.13" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="IMD" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="96.52" y="81.788" smashed="yes" rot="R180">
+<attribute name="COLOR" value="Orange" x="24.13" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="754-1120-1-ND" x="24.13" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="24.13" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="604-APT1608ZGCK" x="24.13" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608ZGCK" x="24.13" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="604-APT1608SECK" x="24.13" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608SECK" x="24.13" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="96.52" y="81.038" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="BMS" library="HyTechDevices" package="0603-LED" value="LED_0603_YELLOW" x="87.376" y="81.788" smashed="yes" rot="R180">
-<attribute name="COLOR" value="Yellow" x="11.176" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="754-1788-1-ND" x="11.176" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="BMS" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="87.376" y="81.788" smashed="yes" rot="R180">
+<attribute name="COLOR" value="Orange" x="11.176" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="754-1120-1-ND" x="11.176" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="11.176" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="604-APT1608SYCK/J3-PRV" x="11.176" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608SYCK/J3-PRV" x="11.176" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="604-APT1608SECK" x="11.176" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608SECK" x="11.176" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="87.376" y="81.038" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="BSPD" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="39.624" y="43.434" smashed="yes" rot="R270">
-<attribute name="COLOR" value="Orange" x="-103.886" y="-36.576" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DKPN" value="754-1120-1-ND" x="-103.886" y="-36.576" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="BSPD" library="HyTechDevices" package="0603-LED" value="LED_0603_GREEN" x="39.624" y="43.434" smashed="yes" rot="R270">
+<attribute name="COLOR" value="Green" x="-103.886" y="-36.576" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="754-1790-1-ND" x="-103.886" y="-36.576" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="-103.886" y="-36.576" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="604-APT1608SECK" x="-103.886" y="-36.576" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="APT1608SECK" x="-103.886" y="-36.576" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="604-APT1608ZGCK" x="-103.886" y="-36.576" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="APT1608ZGCK" x="-103.886" y="-36.576" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="40.374" y="43.434" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="WDOG" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="69.088" y="81.788" smashed="yes" rot="R180">
-<attribute name="COLOR" value="Red" x="-14.732" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="754-1786-1-ND" x="-14.732" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="WDOG" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="69.088" y="81.788" smashed="yes" rot="R180">
+<attribute name="COLOR" value="Orange" x="-14.732" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="754-1120-1-ND" x="-14.732" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="-14.732" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="-14.732" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608SECK/J3-PRV" x="-14.732" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="604-APT1608SECK" x="-14.732" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608SECK" x="-14.732" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="69.088" y="81.038" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="SWOK" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="59.944" y="81.788" smashed="yes" rot="R180">
-<attribute name="COLOR" value="Red" x="-27.686" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="754-1786-1-ND" x="-27.686" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="SWOK" library="HyTechDevices" package="0603-LED" value="LED_0603_ORANGE" x="59.944" y="81.788" smashed="yes" rot="R180">
+<attribute name="COLOR" value="Orange" x="-27.686" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="754-1120-1-ND" x="-27.686" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="-27.686" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="-27.686" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608SECK/J3-PRV" x="-27.686" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="604-APT1608SECK" x="-27.686" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608SECK" x="-27.686" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.944" y="81.038" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="3V3" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="50.8" y="77.47" smashed="yes" rot="R180">
-<attribute name="COLOR" value="Red" x="-40.64" y="220.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="754-1786-1-ND" x="-40.64" y="220.98" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="3V3" library="HyTechDevices" package="0603-LED" value="LED_0603_YELLOW" x="50.8" y="77.47" smashed="yes" rot="R180">
+<attribute name="COLOR" value="Yellow" x="-40.64" y="220.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="754-1788-1-ND" x="-40.64" y="220.98" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="-40.64" y="220.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="-40.64" y="220.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608SECK/J3-PRV" x="-40.64" y="220.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="604-APT1608SYCK/J3-PRV" x="-40.64" y="220.98" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608SYCK/J3-PRV" x="-40.64" y="220.98" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="50.8" y="76.72" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="D2" library="HyTechDevices" package="SC-70-3" value="TVS_BIDIRECTIONAL_DUAL" x="40.894" y="103.378" smashed="yes" rot="R90">
@@ -5389,12 +5389,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="TPD2E007DCKR" x="170.434" y="213.868" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="39.624" y="103.378" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="5V0" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="50.8" y="82.296" smashed="yes" rot="R180">
-<attribute name="COLOR" value="Red" x="-44.45" y="225.806" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="754-1786-1-ND" x="-44.45" y="225.806" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="5V0" library="HyTechDevices" package="0603-LED" value="LED_0603_YELLOW" x="50.8" y="82.296" smashed="yes" rot="R180">
+<attribute name="COLOR" value="Yellow" x="-44.45" y="225.806" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="754-1788-1-ND" x="-44.45" y="225.806" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="-44.45" y="225.806" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="-44.45" y="225.806" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608SECK/J3-PRV" x="-44.45" y="225.806" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="604-APT1608SYCK/J3-PRV" x="-44.45" y="225.806" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608SYCK/J3-PRV" x="-44.45" y="225.806" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="50.8" y="81.546" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="D24" library="HyTechDevices" package="SOD-323" value="SCHOTTKY_SOD323_30V" x="75.184" y="104.394" smashed="yes" rot="R180">
@@ -5415,12 +5415,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="79.248" y="105.394" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VOLTAGE" value="30V" x="117.348" y="-31.496" size="1.778" layer="27" display="off"/>
 </element>
-<element name="B_HI" library="HyTechDevices" package="0603-LED" value="LED_0603_YELLOW" x="39.624" y="40.386" smashed="yes" rot="R270">
-<attribute name="COLOR" value="Yellow" x="-103.886" y="-70.104" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DKPN" value="754-1788-1-ND" x="-103.886" y="-70.104" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="B_HI" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="39.624" y="40.386" smashed="yes" rot="R270">
+<attribute name="COLOR" value="Red" x="-103.886" y="-70.104" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="754-1786-1-ND" x="-103.886" y="-70.104" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="-103.886" y="-70.104" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="604-APT1608SYCK/J3-PRV" x="-103.886" y="-70.104" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="APT1608SYCK/J3-PRV" x="-103.886" y="-70.104" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="-103.886" y="-70.104" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="APT1608SECK/J3-PRV" x="-103.886" y="-70.104" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="40.374" y="40.64" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
 <element name="D28" library="HyTechDevices" package="SOT-23" value="TVS_5V" x="67.056" y="42.672" smashed="yes" rot="R270">
@@ -5540,12 +5540,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="SM0603UWC" x="28.702" y="225.298" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="78.232" y="81.038" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="B" library="HyTechDevices" package="0603-LED" value="LED_0603_BLUE" x="101.092" y="86.614" smashed="yes">
-<attribute name="COLOR" value="Blue" x="154.432" y="-56.896" size="1.778" layer="27" display="off"/>
-<attribute name="DKPN" value="754-1789-1-ND" x="154.432" y="-56.896" size="1.778" layer="27" display="off"/>
+<element name="B" library="HyTechDevices" package="0603-LED" value="LED_0603_GREEN" x="101.092" y="86.614" smashed="yes">
+<attribute name="COLOR" value="Green" x="154.432" y="-56.896" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="754-1790-1-ND" x="154.432" y="-56.896" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="154.432" y="-56.896" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="604-APT1608VBC/D" x="154.432" y="-56.896" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="APT1608VBC/D" x="154.432" y="-56.896" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="604-APT1608ZGCK" x="154.432" y="-56.896" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="APT1608ZGCK" x="154.432" y="-56.896" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="101.092" y="85.864" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="J2" library="HyTechDevices" package="ADIS16460" value="ADIS16460" x="24.638" y="14.478" smashed="yes" rot="R90">
@@ -5644,16 +5644,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="2.48V" x="-42.672" y="197.358" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="-42.672" y="197.358" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R12" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_100" x="50.8" y="78.994" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-100HRCT-ND" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-07100RL" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-07100RL" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R12" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_120" x="50.8" y="78.994" smashed="yes" rot="R180">
+<attribute name="DKPN" value="P120DBCT-ND" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="667-ERA-3AEB121V" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERA-3AEB121V" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="50.8" y="79.629" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCE" value="100" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="3.16V" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RESISTANCE" value="120" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="3.46V" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="5.08" y="226.314" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_240" x="50.8" y="83.82" smashed="yes" rot="R180">
@@ -5704,16 +5704,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="2.48V" x="241.3" y="-42.672" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="241.3" y="-42.672" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R23" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_100" x="78.232" y="83.82" smashed="yes">
-<attribute name="DKPN" value="311-100HRCT-ND" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
+<element name="R23" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_180" x="78.232" y="83.82" smashed="yes">
+<attribute name="DKPN" value="311-180HRCT-ND" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-07100RL" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0603FR-07100RL" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-RC0603FR-07180RL" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-07180RL" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="80.772" y="83.439" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="100" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="180" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="3.16V" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="4.24V" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="165.862" y="-63.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R24" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="104.14" y="86.614" smashed="yes" rot="R180">
@@ -5812,16 +5812,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="22.36V" x="-26.924" y="231.14" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="150V" x="-26.924" y="231.14" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R31" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_240" x="38.1" y="43.434" smashed="yes" rot="R270">
-<attribute name="DKPN" value="311-240HRCT-ND" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R31" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_180" x="38.1" y="43.434" smashed="yes" rot="R270">
+<attribute name="DKPN" value="311-180HRCT-ND" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-07240RL" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-07240RL" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="603-RC0603FR-07180RL" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07180RL" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="43.434" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RESISTANCE" value="240" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RESISTANCE" value="180" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="4.90V" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="4.24V" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="-109.22" y="-74.676" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R32" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="69.088" y="83.82" smashed="yes" rot="R180">
@@ -5848,16 +5848,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="181.102" y="243.586" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="181.102" y="243.586" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R34" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_100" x="59.944" y="83.82" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-100HRCT-ND" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-07100RL" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-07100RL" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R34" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_120" x="59.944" y="83.82" smashed="yes" rot="R180">
+<attribute name="DKPN" value="P120DBCT-ND" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="667-ERA-3AEB121V" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERA-3AEB121V" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="62.484" y="83.439" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCE" value="100" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="3.16V" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RESISTANCE" value="120" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="3.46V" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="44.704" y="234.95" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R4" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_60.4" x="42.926" y="27.432" smashed="yes" rot="R180">
@@ -5872,16 +5872,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="2.48V" x="27.686" y="174.752" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="27.686" y="174.752" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R40" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_180" x="38.1" y="40.386" smashed="yes" rot="R270">
-<attribute name="DKPN" value="311-180HRCT-ND" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R40" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_240" x="38.1" y="40.386" smashed="yes" rot="R270">
+<attribute name="DKPN" value="311-240HRCT-ND" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-07180RL" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-07180RL" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="603-RC0603FR-07240RL" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07240RL" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="40.386" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RESISTANCE" value="180" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RESISTANCE" value="240" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="4.24V" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="4.90V" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="-113.03" y="9.906" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R42" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="67.056" y="46.736" smashed="yes" rot="R180">
@@ -6260,12 +6260,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <element name="U$10" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="5.08" y="30.48" smashed="yes"/>
 <element name="U$11" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="104.14" y="102.87" smashed="yes"/>
 <element name="U$12" library="HyTechManufacturing" package="MOUNTING_M3" value="" x="104.14" y="5.08" smashed="yes"/>
-<element name="G" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="55.372" y="86.614" smashed="yes" rot="R180">
-<attribute name="COLOR" value="Red" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="754-1786-1-ND" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="G" library="HyTechDevices" package="0603-LED" value="LED_0603_GREEN" x="55.372" y="86.614" smashed="yes" rot="R180">
+<attribute name="COLOR" value="Green" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="754-1790-1-ND" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608SECK/J3-PRV" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="604-APT1608ZGCK" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608ZGCK" x="54.61" y="86.614" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="55.372" y="85.864" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="R38" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="53.848" y="89.662" smashed="yes" rot="R270">
@@ -6320,64 +6320,64 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="65.57V" x="23.622" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="23.622" y="34.29" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="B_MIS" library="HyTechDevices" package="0603-LED" value="LED_0603_YELLOW" x="39.624" y="46.482" smashed="yes" rot="R270">
-<attribute name="COLOR" value="Yellow" x="39.624" y="46.736" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DKPN" value="754-1788-1-ND" x="39.624" y="46.736" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="B_MIS" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="39.624" y="46.482" smashed="yes" rot="R270">
+<attribute name="COLOR" value="Red" x="39.624" y="46.736" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="754-1786-1-ND" x="39.624" y="46.736" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="39.624" y="46.736" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="604-APT1608SYCK/J3-PRV" x="39.624" y="46.736" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="APT1608SYCK/J3-PRV" x="39.624" y="46.736" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="39.624" y="46.736" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="APT1608SECK/J3-PRV" x="39.624" y="46.736" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="40.374" y="46.482" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="R37" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_180" x="38.1" y="46.482" smashed="yes" rot="R270">
-<attribute name="DKPN" value="311-180HRCT-ND" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R37" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_240" x="38.1" y="46.482" smashed="yes" rot="R270">
+<attribute name="DKPN" value="311-240HRCT-ND" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-07180RL" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-07180RL" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="603-RC0603FR-07240RL" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07240RL" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="46.482" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RESISTANCE" value="180" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RESISTANCE" value="240" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="4.24V" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="4.90V" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="38.1" y="45.72" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C_HI" library="HyTechDevices" package="0603-LED" value="LED_0603_YELLOW" x="39.624" y="37.338" smashed="yes" rot="R270">
-<attribute name="COLOR" value="Yellow" x="39.624" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DKPN" value="754-1788-1-ND" x="39.624" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C_HI" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="39.624" y="37.338" smashed="yes" rot="R270">
+<attribute name="COLOR" value="Red" x="39.624" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="754-1786-1-ND" x="39.624" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="39.624" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="604-APT1608SYCK/J3-PRV" x="39.624" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="APT1608SYCK/J3-PRV" x="39.624" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="39.624" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="APT1608SECK/J3-PRV" x="39.624" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="40.374" y="37.338" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="R54" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_180" x="38.1" y="37.338" smashed="yes" rot="R270">
-<attribute name="DKPN" value="311-180HRCT-ND" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R54" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_240" x="38.1" y="37.338" smashed="yes" rot="R270">
+<attribute name="DKPN" value="311-240HRCT-ND" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-07180RL" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-07180RL" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="603-RC0603FR-07240RL" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07240RL" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="37.338" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RESISTANCE" value="180" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RESISTANCE" value="240" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="4.24V" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="4.90V" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="38.1" y="36.576" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C_MIS" library="HyTechDevices" package="0603-LED" value="LED_0603_YELLOW" x="39.624" y="49.53" smashed="yes" rot="R270">
-<attribute name="COLOR" value="Yellow" x="39.624" y="49.784" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DKPN" value="754-1788-1-ND" x="39.624" y="49.784" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C_MIS" library="HyTechDevices" package="0603-LED" value="LED_0603_RED" x="39.624" y="49.53" smashed="yes" rot="R270">
+<attribute name="COLOR" value="Red" x="39.624" y="49.784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="754-1786-1-ND" x="39.624" y="49.784" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Kingbright" x="39.624" y="49.784" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="604-APT1608SYCK/J3-PRV" x="39.624" y="49.784" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="APT1608SYCK/J3-PRV" x="39.624" y="49.784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="604-APT1608SECKJ3PRV" x="39.624" y="49.784" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="APT1608SECK/J3-PRV" x="39.624" y="49.784" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="40.374" y="49.53" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="R55" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_180" x="38.1" y="49.53" smashed="yes" rot="R270">
-<attribute name="DKPN" value="311-180HRCT-ND" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R55" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_240" x="38.1" y="49.53" smashed="yes" rot="R270">
+<attribute name="DKPN" value="311-240HRCT-ND" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-07180RL" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-07180RL" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="603-RC0603FR-07240RL" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07240RL" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="49.53" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RESISTANCE" value="180" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RESISTANCE" value="240" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="4.24V" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="4.90V" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="38.1" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="A4" library="HyTechDevices" package="NRF9160LTE" value="NRF9160LTE" x="106.68" y="20.32" smashed="yes" rot="R90">
