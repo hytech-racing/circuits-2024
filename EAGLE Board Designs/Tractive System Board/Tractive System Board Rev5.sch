@@ -6360,7 +6360,12 @@ Based on page 10.</description>
 <wire x1="-2.15" y1="-2.2" x2="-2.15" y2="2.2" width="0.127" layer="21"/>
 <circle x="-2.54" y="-3.175" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-2.286" y1="-4.064" x2="2.286" y2="4.064" layer="39"/>
-<rectangle x1="-2.286" y1="-2.286" x2="2.286" y2="2.286" layer="20"/>
+<polygon width="0.0254" layer="20">
+<vertex x="-2.286" y="2.286"/>
+<vertex x="2.286" y="2.286"/>
+<vertex x="2.286" y="-2.286"/>
+<vertex x="-2.286" y="-2.286"/>
+</polygon>
 </package>
 <package name="M12A-08PMMP">
 <description>M12A-08PMMP Amphenol Connector
@@ -11535,7 +11540,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <attribute name="VALUE" x="256.54" y="147.32" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="F1" gate="G$1" x="241.3" y="83.82" smashed="yes">
-<attribute name="NAME" x="240.03" y="85.09" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="NAME" x="241.3" y="85.344" size="1.27" layer="95" align="bottom-center"/>
 </instance>
 <instance part="P44" gate="G$1" x="233.68" y="86.36" smashed="yes">
 <attribute name="VALUE" x="233.68" y="91.44" size="1.27" layer="96" align="bottom-center"/>
@@ -11666,7 +11671,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <attribute name="VALUE" x="246.38" y="154.94" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="F2" gate="G$1" x="241.3" y="73.66" smashed="yes">
-<attribute name="NAME" x="240.03" y="74.93" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="NAME" x="241.3" y="75.184" size="1.27" layer="95" align="bottom-center"/>
 </instance>
 <instance part="P16" gate="G$1" x="233.68" y="66.04" smashed="yes">
 <attribute name="VALUE" x="233.68" y="63.5" size="1.27" layer="96" align="top-center"/>
