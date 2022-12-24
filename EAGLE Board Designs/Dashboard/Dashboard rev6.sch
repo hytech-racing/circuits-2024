@@ -7527,7 +7527,6 @@ Layer: 94 Symbol</description>
 <part name="3.3V" library="HyTechDevices - Copy" deviceset="LED_?_*" device="0603" technology="GREEN"/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
-<part name="XF2" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="PTH" technology="MINIBLADE"/>
 <part name="A4" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="12V"/>
 <part name="TP1_24V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="P110" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -7595,6 +7594,7 @@ Layer: 94 Symbol</description>
 <part name="U13" library="HyTechDevices" deviceset="NEOPIXEL" device=""/>
 <part name="U14" library="HyTechDevices" deviceset="NEOPIXEL" device=""/>
 <part name="U15" library="HyTechDevices" deviceset="NEOPIXEL" device=""/>
+<part name="XF1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="SMD" technology="MINIBLADE"/>
 </parts>
 <sheets>
 <sheet>
@@ -7721,10 +7721,6 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="219.71" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="222.25" y="146.05" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="XF2" gate="G$1" x="121.92" y="162.56" smashed="yes">
-<attribute name="NAME" x="121.92" y="163.322" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="MPN" x="121.92" y="156.718" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="A4" gate="G$1" x="101.6" y="127" smashed="yes">
 <attribute name="NAME" x="101.6" y="127.762" size="1.27" layer="95"/>
 <attribute name="MPN" x="100.33" y="116.078" size="1.27" layer="96" align="top-left"/>
@@ -7803,6 +7799,10 @@ Layer: 94 Symbol</description>
 </instance>
 <instance part="U$4" gate="G$1" x="93.98" y="127" smashed="yes">
 <attribute name="VALUE" x="93.98" y="132.08" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="XF1" gate="G$1" x="121.92" y="162.56" smashed="yes">
+<attribute name="NAME" x="121.92" y="163.322" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="121.92" y="156.718" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -7949,11 +7949,11 @@ Layer: 94 Symbol</description>
 <segment>
 <wire x1="111.76" y1="154.94" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="160.02" x2="114.3" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="XF2" gate="G$1" pin="1"/>
 <pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="111.76" y1="160.02" x2="106.68" y2="160.02" width="0.1524" layer="91"/>
 <junction x="111.76" y="160.02"/>
 <label x="106.68" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="XF1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="+24V"/>
@@ -8006,10 +8006,10 @@ Layer: 94 Symbol</description>
 <wire x1="210.82" y1="167.64" x2="210.82" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="XF2" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="162.56" x2="132.08" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="+24V"/>
+<pinref part="XF1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="A3" gate="G$1" pin="IN"/>
