@@ -5376,23 +5376,6 @@ Layer: 94 Symbol</description>
 </library>
 <library name="HyTechDevices">
 <packages>
-<package name="885">
-<description>885 Fuse
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
-<smd name="1" x="-5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
-<smd name="2" x="5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
-<wire x1="-5.43" y1="2.39" x2="-5.43" y2="-2.39" width="0.127" layer="21"/>
-<wire x1="-5.43" y1="-2.39" x2="5.43" y2="-2.39" width="0.127" layer="21"/>
-<wire x1="5.43" y1="-2.39" x2="5.43" y2="2.39" width="0.127" layer="21"/>
-<wire x1="5.43" y1="2.39" x2="-5.43" y2="2.39" width="0.127" layer="21"/>
-<text x="0" y="3.65" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-8.85" y1="-4.415" x2="8.85" y2="4.415" layer="39"/>
-<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="43"/>
-<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="41"/>
-</package>
 <package name="PWR163">
 <description>PWR163 Resistor
 &lt;br&gt;
@@ -5872,41 +5855,6 @@ Dashed line is edge of mated connector.</description>
 <text x="0" y="1.524" size="0.8128" layer="21" font="vector" align="bottom-center">+ -</text>
 <circle x="-2.032" y="1.778" radius="0.127" width="0" layer="21"/>
 </package>
-<package name="MST_250">
-<description>Footprint for Schurter MST 250 Series fuse.&lt;br&gt;
-&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_MST_250-1772502.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="2" x="2.54" y="0" drill="1"/>
-<text x="0" y="4.445" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<circle x="0" y="0" radius="4.2418" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="4.2418" width="0" layer="39"/>
-<circle x="0" y="0" radius="4.2418" width="0" layer="40"/>
-</package>
-<package name="OMF_125">
-<description>Footprint for Schurter OMF 125 Series Fuse.&lt;br&gt;
-&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_OMF_125-1275954.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="-3.25" y="0" dx="3" dy="2.8" layer="1"/>
-<smd name="2" x="3.25" y="0" dx="3" dy="2.8" layer="1"/>
-<wire x1="-3.7" y1="1.6" x2="-3.7" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="-3.7" y1="-1.6" x2="3.7" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="3.7" y1="-1.6" x2="3.7" y2="1.6" width="0.127" layer="21"/>
-<wire x1="3.7" y1="1.6" x2="-3.7" y2="1.6" width="0.127" layer="21"/>
-<text x="0" y="1.905" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-5.08" y1="-1.905" x2="5.08" y2="1.905" layer="39"/>
-<rectangle x1="-1.75" y1="-1.905" x2="1.75" y2="1.905" layer="43"/>
-<rectangle x1="-1.75" y1="-1.905" x2="1.75" y2="1.905" layer="41"/>
-</package>
-<package name="0603-FUSE">
-<description>&lt;ul&gt;&lt;li&gt;&lt;a href = "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"&gt;C2F 0603 Fuse Footprint Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
-<smd name="1" x="-0.8382" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90" thermals="no"/>
-<smd name="2" x="0.8382" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90" thermals="no"/>
-<rectangle x1="-1.524" y1="-1.016" x2="1.524" y2="1.016" layer="39"/>
-<wire x1="-0.8128" y1="0.4064" x2="0.8128" y2="0.4064" width="0.127" layer="21"/>
-<wire x1="0.8128" y1="0.4064" x2="0.8128" y2="-0.4064" width="0.127" layer="21"/>
-<wire x1="0.8128" y1="-0.4064" x2="-0.8128" y2="-0.4064" width="0.127" layer="21"/>
-<wire x1="-0.8128" y1="-0.4064" x2="-0.8128" y2="0.4064" width="0.127" layer="21"/>
-<text x="0" y="1.016" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-</package>
 <package name="2220-CAP">
 <description>2220 Cap
 &lt;br&gt;
@@ -5969,19 +5917,31 @@ Dashed line is edge of mated connector.</description>
 <circle x="-2.54" y="-3.175" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-2.286" y1="-4.064" x2="2.286" y2="4.064" layer="39"/>
 </package>
-<package name="485">
-<description>485 Fuse
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_485_Datasheet_pdf-1372450.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;</description>
-<smd name="1" x="-6.9" y="0" dx="5.6" dy="3.5" layer="1" rot="R90" thermals="no"/>
-<smd name="2" x="6.9" y="0" dx="5.6" dy="3.5" layer="1" rot="R90" thermals="no"/>
-<wire x1="-6.05" y1="2.25" x2="6.05" y2="2.25" width="0.127" layer="21"/>
-<wire x1="6.05" y1="2.25" x2="6.05" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="6.05" y1="-2.25" x2="-6.05" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-6.05" y1="-2.25" x2="-6.05" y2="2.25" width="0.127" layer="21"/>
-<rectangle x1="-9.398" y1="-3.302" x2="9.398" y2="3.302" layer="39"/>
-<text x="0" y="3.302" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<package name="122">
+<description>Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_508_datasheet.pdf.pdf&gt;Fuse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_102_122_datasheet.pdf.pdf"&gt;Fuse Holder&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;</description>
+<pad name="1" x="-17.1069" y="0" drill="1.9812" first="yes"/>
+<pad name="2" x="-9.4742" y="0" drill="1.9812"/>
+<wire x1="-17.0942" y1="3.937" x2="-17.0942" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-17.0942" y1="3.937" x2="-9.4742" y2="3.937" width="0.127" layer="21"/>
+<wire x1="-9.4742" y1="3.937" x2="-9.4742" y2="3.175" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-9.4742" y1="3.175" x2="-9.4742" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-17.0942" y1="-3.937" x2="-9.4742" y2="-3.937" width="0.127" layer="21"/>
+<pad name="3" x="9.4996" y="0" drill="1.9812" first="yes"/>
+<pad name="4" x="17.1069" y="0" drill="1.9812"/>
+<wire x1="9.4996" y1="3.937" x2="9.4996" y2="3.175" width="0.127" layer="21" style="shortdash"/>
+<wire x1="9.4996" y1="3.175" x2="9.4996" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="9.4996" y1="3.937" x2="17.1196" y2="3.937" width="0.127" layer="21"/>
+<wire x1="17.1196" y1="3.937" x2="17.1196" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="9.4996" y1="-3.937" x2="17.1196" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-9.4742" y1="3.175" x2="9.4996" y2="3.175" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-9.398" y1="-3.175" x2="9.398" y2="-3.175" width="0.127" layer="21" style="shortdash"/>
+<rectangle x1="-19.304" y1="-4.826" x2="19.304" y2="4.318" layer="39"/>
+<text x="0" y="4.572" size="1.016" layer="21" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="B20">
 <description>Ohmite B20 Resistor</description>
@@ -6428,17 +6388,58 @@ Based on page 10.</description>
 <wire x1="-5" y1="-9" x2="-10.3" y2="0" width="0.127" layer="21"/>
 <wire x1="-10.3" y1="0" x2="-5" y2="9" width="0.127" layer="21"/>
 </package>
+<package name="3588">
+<description>Keystone Electronics 3588 Mini Fuse Holder SMD
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/215/588-744913.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-4.953" y="3.0353" dx="1.5748" dy="2.8194" layer="1" rot="R180"/>
+<smd name="4" x="4.953" y="3.0353" dx="1.5748" dy="2.8194" layer="1" rot="R180"/>
+<smd name="2" x="-4.953" y="-3.0353" dx="1.5748" dy="2.8194" layer="1" rot="R180"/>
+<smd name="3" x="4.953" y="-3.0353" dx="1.5748" dy="2.8194" layer="1" rot="R180"/>
+<wire x1="-8.001" y1="3.3655" x2="8.001" y2="3.3655" width="0.127" layer="21"/>
+<wire x1="-8.001" y1="-3.3655" x2="8.001" y2="-3.3655" width="0.127" layer="21"/>
+<wire x1="-8.001" y1="3.3655" x2="-8.001" y2="-3.3655" width="0.127" layer="21"/>
+<wire x1="8.001" y1="3.3655" x2="8.001" y2="-3.3655" width="0.127" layer="21"/>
+<rectangle x1="-8.636" y1="-4.826" x2="8.636" y2="4.826" layer="39"/>
+<text x="0" y="4.826" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="3568">
+<description>Mini-Blade Fuse Holder
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/215/3568-742601.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
+<wire x1="-8.001" y1="-3.3655" x2="-8.001" y2="3.3655" width="0.127" layer="21"/>
+<wire x1="-8.001" y1="3.3655" x2="8.001" y2="3.3655" width="0.127" layer="21"/>
+<wire x1="8.001" y1="-3.3655" x2="8.001" y2="3.3655" width="0.127" layer="21"/>
+<wire x1="-8.001" y1="-3.3655" x2="8.001" y2="-3.3655" width="0.127" layer="21"/>
+<pad name="1" x="-4.953" y="1.7018" drill="1.6002"/>
+<pad name="2" x="-4.953" y="-1.7018" drill="1.6002"/>
+<pad name="4" x="4.953" y="1.7018" drill="1.6002"/>
+<pad name="3" x="4.953" y="-1.7018" drill="1.6002"/>
+<rectangle x1="-8.382" y1="-3.81" x2="8.382" y2="3.81" layer="39"/>
+<text x="0" y="3.81" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-6.35" y1="-3.3655" x2="-3.556" y2="3.3655" layer="40"/>
+<rectangle x1="3.556" y1="-3.3655" x2="6.35" y2="3.3655" layer="40"/>
+</package>
 </packages>
 <symbols>
-<symbol name="FUSE">
-<wire x1="-1.27" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94" curve="-180"/>
-<wire x1="-1.27" y1="0" x2="0.635" y2="0" width="0.1524" layer="94" curve="-180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;CURRENT</text>
-<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<symbol name="FUSE_HOLDER">
+<wire x1="0" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="0" y="0.762" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.842" size="1.27" layer="96" align="top-center">&gt;MPN</text>
+<wire x1="3.81" y1="-2.54" x2="1.905" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="RESISTOR">
 <pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
@@ -6858,123 +6859,67 @@ Isolated Flyback Controller
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FUSE_?_*" prefix="F">
-<description>Fuse
+<deviceset name="FUSE_HOLDER_*" prefix="XF">
+<description>Fuse Holder
+&lt;br&gt;
+All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=0f5f58cb-559e-494b-8d53-723f30445ae5&amp;filename=littelfuse-mini-datasheet"&gt;Miniblade Fuses&lt;/a&gt; needed, order separately.
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;885 Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_MST_250-1772502.pdf"&gt;MST 250 Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_OMF_125-1275954.pdf"&gt;OMF 125 Series&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/643/ds-CP-c2f-series-1291054.pdf"&gt;0686F0750-01&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/215/3568-742601.pdf"&gt;Mini-Blade PTH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/215/588-744913.pdf"&gt;Mini-Blade SMD&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_508_datasheet.pdf.pdf&gt;Fuse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_102_122_datasheet.pdf.pdf"&gt;Fuse Holder&lt;/a&gt;&lt;/li&gt;
+
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+<gate name="G$1" symbol="FUSE_HOLDER" x="-17.78" y="0"/>
 </gates>
 <devices>
-<device name="885" package="885">
+<device name="SMD" package="3588">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
 </connects>
 <technologies>
-<technology name="1.25A">
-<attribute name="CURRENT" value="1.25A"/>
-<attribute name="DKPN" value="F10986CT-ND"/>
-<attribute name="FUSE_TYPE" value="SMD"/>
-<attribute name="I2T" value="1.25"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
-<attribute name="MOPN" value="576-08851.25DR"/>
-<attribute name="MPN" value="08851.25DR"/>
-<attribute name="VOLTAGE" value="500V"/>
-</technology>
-<technology name="1.6A">
-<attribute name="CURRENT" value="1.6A"/>
-<attribute name="DKPN" value="F10987CT-ND"/>
-<attribute name="FUSE_TYPE" value="SMD"/>
-<attribute name="I2T" value="2.30"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
-<attribute name="MOPN" value="576-088501.6DR"/>
-<attribute name="MPN" value="088501.6DR"/>
-<attribute name="VOLTAGE" value="500V"/>
-</technology>
-<technology name="1A">
-<attribute name="CURRENT" value="1A"/>
-<attribute name="DKPN" value="F10985CT-ND"/>
-<attribute name="FUSE_TYPE" value="SMD"/>
-<attribute name="I2T" value="0.80"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
-<attribute name="MOPN" value="576-0885001.DR"/>
-<attribute name="MPN" value="0885001.DR"/>
-<attribute name="VOLTAGE" value="500V"/>
+<technology name="MINIBLADE">
+<attribute name="DKPN" value="36-3588-ND"/>
+<attribute name="FUSE_TYPE" value="MINI 297"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics"/>
+<attribute name="MOPN" value="534-3588"/>
+<attribute name="MPN" value="3588"/>
 </technology>
 </technologies>
 </device>
-<device name="MST_250" package="MST_250">
+<device name="PTH" package="3568">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
 </connects>
 <technologies>
-<technology name=".8A">
-<attribute name="CURRENT" value="800mA"/>
-<attribute name="DKPN" value="486-1470-ND"/>
-<attribute name="FUSE_TYPE" value="THT"/>
-<attribute name="I2T" value="8"/>
-<attribute name="MANUFACTURER" value="Schurter Inc."/>
-<attribute name="MOPN" value="693-0034.6614"/>
-<attribute name="MPN" value="0034.6614"/>
-<attribute name="VOLTAGE" value="63V"/>
+<technology name="MINIBLADE">
+<attribute name="DKPN" value="36-3568-ND"/>
+<attribute name="FUSE_TYPE" value="MINI 297"/>
+<attribute name="MANUFACTURER" value="Keystone"/>
+<attribute name="MOPN" value="534-3568"/>
+<attribute name="MPN" value="3568"/>
 </technology>
 </technologies>
 </device>
-<device name="OMF_125" package="OMF_125">
+<device name="122" package="122">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
 </connects>
 <technologies>
-<technology name=".63A">
-<attribute name="CURRENT" value="630mA"/>
-<attribute name="DKPN" value="486-2997-ND"/>
-<attribute name="FUSE_TYPE" value="SMD"/>
-<attribute name="I2T" value="0.02"/>
-<attribute name="MANUFACTURER" value="Schurter Inc."/>
-<attribute name="MOPN" value="693-3404.0008.11"/>
-<attribute name="MPN" value="3404.0008.11"/>
-<attribute name="VOLTAGE" value="125V"/>
-</technology>
-</technologies>
-</device>
-<device name="0603" package="0603-FUSE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=".75A">
-<attribute name="CURRENT" value="0.75A"/>
-<attribute name="DKPN" value="507-2159-2-ND"/>
-<attribute name="I2T" value="0.0013"/>
-<attribute name="MANUFACTURER" value="Bel Fuse"/>
-<attribute name="MOPN" value="530-0686F0750-01"/>
-<attribute name="MPN" value="0686F0750-01"/>
-<attribute name="VOLTAGE" value="63V"/>
-</technology>
-</technologies>
-</device>
-<device name="485" package="485">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="1A">
-<attribute name="CURRENT" value="1A"/>
-<attribute name="DKPN" value="F5921TR-ND"/>
-<attribute name="I2T" value="0.3044"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
-<attribute name="MOPN" value="576-0485001.DR"/>
-<attribute name="MPN" value="0485001.DR"/>
-<attribute name="VOLTAGE" value="600VDC"/>
+<technology name="">
+<attribute name="DKPN" value="F3783-ND"/>
+<attribute name="FUSE_TYPE" value="1 1/4&quot; Cartridge"/>
+<attribute name="MANUFACTURER" value="Littelfuse"/>
+<attribute name="MOPN" value="576-01220088Z"/>
+<attribute name="MPN" value="01220088Z"/>
 </technology>
 </technologies>
 </device>
@@ -10383,7 +10328,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="J3" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
 <part name="P39" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$32" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
-<part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="485" technology="1A" value="FUSE_485_1A"/>
+<part name="F1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="122" value="FUSE_HOLDER_122"/>
 <part name="P44" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="U$36" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="FRAME5" library="HyTechFrames" deviceset="FRAME" device="">
@@ -10444,7 +10389,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="C26" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF" value="CAPACITOR_0603_50V_0.1UF"/>
 <part name="C25" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P14" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
-<part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="485" technology="1A" value="FUSE_485_1A"/>
+<part name="F2" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="122" value="FUSE_HOLDER_122"/>
 <part name="P16" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="P17" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="U$4" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
@@ -11535,7 +11480,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <text x="144.78" y="170.18" size="2.54" layer="97">PACK+ Optoisolator</text>
 <text x="147.32" y="142.24" size="2.54" layer="97">Precharge Relay</text>
 <text x="109.22" y="60.96" size="2.54" layer="97">Discharge Relay Moved to Separate Board</text>
-<text x="228.6" y="88.9" size="2.54" layer="97">TS Fusing</text>
+<text x="228.6" y="96.52" size="2.54" layer="97">TS Fusing</text>
 <text x="30.48" y="114.3" size="2.54" layer="97">Power Regulation</text>
 <wire x1="182.88" y1="177.8" x2="182.88" y2="60.96" width="0.254" layer="97" style="longdash"/>
 <wire x1="182.88" y1="60.96" x2="269.24" y2="60.96" width="0.254" layer="97" style="longdash"/>
@@ -11589,15 +11534,14 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <instance part="U$32" gate="G$1" x="256.54" y="142.24" smashed="yes">
 <attribute name="VALUE" x="256.54" y="147.32" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="F1" gate="G$1" x="241.3" y="76.2" smashed="yes">
-<attribute name="NAME" x="240.03" y="77.47" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="CURRENT" x="240.03" y="74.93" size="1.27" layer="96" align="top-center"/>
+<instance part="F1" gate="G$1" x="241.3" y="83.82" smashed="yes">
+<attribute name="NAME" x="240.03" y="85.09" size="1.27" layer="95" align="bottom-center"/>
 </instance>
-<instance part="P44" gate="G$1" x="233.68" y="78.74" smashed="yes">
-<attribute name="VALUE" x="233.68" y="83.82" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P44" gate="G$1" x="233.68" y="86.36" smashed="yes">
+<attribute name="VALUE" x="233.68" y="91.44" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$36" gate="G$1" x="246.38" y="78.74" smashed="yes">
-<attribute name="VALUE" x="246.38" y="83.82" size="1.27" layer="96" align="bottom-center"/>
+<instance part="U$36" gate="G$1" x="248.92" y="86.36" smashed="yes">
+<attribute name="VALUE" x="248.92" y="91.44" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="D7" gate="G$1" x="149.86" y="93.98" smashed="yes" rot="MR90">
 <attribute name="NAME" x="151.765" y="92.71" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
@@ -11721,9 +11665,8 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <instance part="P14" gate="G$1" x="246.38" y="149.86" smashed="yes">
 <attribute name="VALUE" x="246.38" y="154.94" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="F2" gate="G$1" x="241.3" y="68.58" smashed="yes">
-<attribute name="NAME" x="240.03" y="69.85" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="CURRENT" x="240.03" y="67.31" size="1.27" layer="96" align="top-center"/>
+<instance part="F2" gate="G$1" x="241.3" y="73.66" smashed="yes">
+<attribute name="NAME" x="240.03" y="74.93" size="1.27" layer="95" align="bottom-center"/>
 </instance>
 <instance part="P16" gate="G$1" x="233.68" y="66.04" smashed="yes">
 <attribute name="VALUE" x="233.68" y="63.5" size="1.27" layer="96" align="top-center"/>
@@ -11731,8 +11674,8 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <instance part="P17" gate="G$1" x="243.84" y="109.22" smashed="yes">
 <attribute name="VALUE" x="243.84" y="106.68" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="U$3" gate="G$1" x="246.38" y="66.04" smashed="yes">
-<attribute name="VALUE" x="246.38" y="63.5" size="1.27" layer="96" align="top-center"/>
+<instance part="U$3" gate="G$1" x="248.92" y="66.04" smashed="yes">
+<attribute name="VALUE" x="248.92" y="63.5" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U$30" gate="G$1" x="256.54" y="119.38" smashed="yes">
 <attribute name="VALUE" x="256.54" y="116.84" size="1.27" layer="96" align="top-center"/>
@@ -12057,7 +12000,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="76.2" x2="233.68" y2="76.2" width="0.6096" layer="91"/>
+<wire x1="233.68" y1="81.28" x2="233.68" y2="83.82" width="0.6096" layer="91"/>
 <pinref part="P44" gate="G$1" pin="TS+UNFUSED"/>
 </segment>
 <segment>
@@ -12241,7 +12184,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <net name="TS+FUSED" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="76.2" x2="246.38" y2="76.2" width="0.6096" layer="91"/>
+<wire x1="248.92" y1="81.28" x2="248.92" y2="83.82" width="0.6096" layer="91"/>
 <pinref part="U$36" gate="G$1" pin="TS+FUSED"/>
 </segment>
 <segment>
@@ -12259,7 +12202,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <segment>
 <pinref part="P16" gate="G$1" pin="TS-UNFUSED"/>
 <pinref part="F2" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="68.58" x2="236.22" y2="68.58" width="0.6096" layer="91"/>
+<wire x1="233.68" y1="68.58" x2="233.68" y2="71.12" width="0.6096" layer="91"/>
 </segment>
 <segment>
 <pinref part="TS-UNFUSED" gate="G$1" pin="1"/>
@@ -12270,7 +12213,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <net name="TS-FUSED" class="0">
 <segment>
 <pinref part="F2" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="68.58" x2="246.38" y2="68.58" width="0.6096" layer="91"/>
+<wire x1="248.92" y1="71.12" x2="248.92" y2="68.58" width="0.6096" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="TS-FUSED"/>
 </segment>
 <segment>
