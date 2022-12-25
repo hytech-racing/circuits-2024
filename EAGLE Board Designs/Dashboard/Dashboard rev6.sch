@@ -8216,21 +8216,21 @@ Layer: 94 Symbol</description>
 <instance part="P1" gate="1" x="190.5" y="180.34" smashed="yes">
 <attribute name="VALUE" x="190.5" y="179.07" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="RN2" gate="A" x="210.82" y="172.72" smashed="yes">
-<attribute name="NAME" x="209.55" y="173.99" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="209.55" y="171.45" size="1.27" layer="96" align="top-center"/>
+<instance part="RN2" gate="A" x="205.74" y="165.1" smashed="yes">
+<attribute name="NAME" x="204.47" y="166.37" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="204.47" y="163.83" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="RN2" gate="B" x="205.74" y="170.18" smashed="yes">
-<attribute name="NAME" x="204.47" y="171.45" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="204.47" y="168.91" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="RN2" gate="C" x="210.82" y="167.64" smashed="yes">
+<instance part="RN2" gate="B" x="210.82" y="167.64" smashed="yes">
 <attribute name="NAME" x="209.55" y="168.91" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="209.55" y="166.37" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="RN2" gate="D" x="205.74" y="165.1" smashed="yes">
-<attribute name="NAME" x="204.47" y="166.37" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="204.47" y="163.83" size="1.27" layer="96" align="top-center"/>
+<instance part="RN2" gate="C" x="205.74" y="170.18" smashed="yes">
+<attribute name="NAME" x="204.47" y="171.45" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="204.47" y="168.91" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="RN2" gate="D" x="210.82" y="172.72" smashed="yes">
+<attribute name="NAME" x="209.55" y="173.99" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="209.55" y="171.45" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="RN4" gate="A" x="210.82" y="157.48" smashed="yes">
 <attribute name="NAME" x="209.55" y="158.75" size="1.27" layer="95" align="bottom-center"/>
@@ -8504,61 +8504,26 @@ Layer: 94 Symbol</description>
 <pinref part="A2" gate="G$1" pin="A2"/>
 </segment>
 </net>
-<net name="A2" class="0">
-<segment>
-<wire x1="198.12" y1="172.72" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="A" pin="1"/>
-<pinref part="U3" gate="G$1" pin="GPA0"/>
-</segment>
-</net>
-<net name="B2" class="0">
-<segment>
-<wire x1="198.12" y1="170.18" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="B" pin="1"/>
-<pinref part="U3" gate="G$1" pin="GPA1"/>
-</segment>
-</net>
-<net name="C2" class="0">
-<segment>
-<wire x1="198.12" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="C" pin="1"/>
-<pinref part="U3" gate="G$1" pin="GPA2"/>
-</segment>
-</net>
-<net name="D2" class="0">
-<segment>
-<wire x1="198.12" y1="165.1" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="D" pin="1"/>
-<pinref part="U3" gate="G$1" pin="GPA3"/>
-</segment>
-</net>
-<net name="A" class="0">
-<segment>
-<pinref part="D101" gate="G$1" pin="A"/>
-<wire x1="213.36" y1="172.72" x2="226.06" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="A" pin="2"/>
-</segment>
-</net>
 <net name="B" class="0">
 <segment>
-<wire x1="208.28" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="170.18" x2="218.44" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="180.34" x2="259.08" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="180.34" x2="259.08" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="D101" gate="G$1" pin="B"/>
 <wire x1="259.08" y1="167.64" x2="256.54" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="B" pin="2"/>
+<pinref part="RN2" gate="C" pin="2"/>
+<wire x1="208.28" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C" class="0">
 <segment>
-<wire x1="213.36" y1="167.64" x2="215.9" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="167.64" x2="215.9" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="182.88" x2="261.62" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="D101" gate="G$1" pin="C"/>
 <wire x1="261.62" y1="182.88" x2="261.62" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="152.4" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="C" pin="2"/>
+<pinref part="RN2" gate="B" pin="2"/>
+<wire x1="213.36" y1="167.64" x2="215.9" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="G" class="0">
@@ -8590,11 +8555,11 @@ Layer: 94 Symbol</description>
 </net>
 <net name="D" class="0">
 <segment>
-<wire x1="208.28" y1="165.1" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="D101" gate="G$1" pin="D"/>
 <wire x1="215.9" y1="165.1" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="147.32" x2="226.06" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="RN2" gate="D" pin="2"/>
+<pinref part="RN2" gate="A" pin="2"/>
+<wire x1="208.28" y1="165.1" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INERTIA_READ" class="0">
@@ -8817,6 +8782,41 @@ Layer: 94 Symbol</description>
 <segment>
 <pinref part="R36" gate="G$1" pin="2"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="A2" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="GPA0"/>
+<pinref part="RN2" gate="D" pin="1"/>
+<wire x1="198.12" y1="172.72" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="A" class="0">
+<segment>
+<pinref part="RN2" gate="D" pin="2"/>
+<pinref part="D101" gate="G$1" pin="A"/>
+<wire x1="213.36" y1="172.72" x2="226.06" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="B2" class="0">
+<segment>
+<pinref part="RN2" gate="C" pin="1"/>
+<pinref part="U3" gate="G$1" pin="GPA1"/>
+<wire x1="200.66" y1="170.18" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="C2" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="GPA2"/>
+<pinref part="RN2" gate="B" pin="1"/>
+<wire x1="198.12" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D2" class="0">
+<segment>
+<pinref part="RN2" gate="A" pin="1"/>
+<pinref part="U3" gate="G$1" pin="GPA3"/>
+<wire x1="200.66" y1="165.1" x2="198.12" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
