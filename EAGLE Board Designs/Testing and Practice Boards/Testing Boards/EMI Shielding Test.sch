@@ -3461,34 +3461,6 @@ Notes: See page 47</description>
 <rectangle x1="-3" y1="-1" x2="3" y2="2" layer="40"/>
 <circle x="-3.546" y="0.519" radius="0.127" width="0" layer="21"/>
 </package>
-<package name="1X02">
-<description>2 pin .1" header
-&lt;br&gt;
-&lt;a href="https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</description>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.127" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.127" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.127" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="1.016" first="yes"/>
-<pad name="2" x="1.27" y="0" drill="1.016"/>
-<text x="0" y="1.524" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<circle x="-2.54" y="1.27" radius="0.127" width="0" layer="21"/>
-<rectangle x1="-2.794" y1="-1.524" x2="2.794" y2="1.524" layer="40"/>
-<rectangle x1="-2.794" y1="-1.524" x2="2.794" y2="1.524" layer="39"/>
-</package>
 </packages>
 <symbols>
 <symbol name="VOLTAGE_REGULATOR_ISO">
@@ -3627,14 +3599,6 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <wire x1="7.62" y1="0" x2="6.35" y2="0" width="0.1524" layer="94"/>
 <text x="0.889" y="2.286" size="1.778" layer="94" rot="R90" align="center">+</text>
 <rectangle x1="0.3302" y1="-2.3749" x2="1.55448125" y2="-2.1971" layer="94"/>
-</symbol>
-<symbol name="JUMPER">
-<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="2" x="5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<text x="0" y="0.508" size="1.27" layer="94">JUMP</text>
-<text x="0" y="2.54" size="1.27" layer="95">&gt;NAME</text>
-<text x="0" y="-3.302" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5786,62 +5750,6 @@ Note: OPA991 is also a comparator</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER_?_*" prefix="JP">
-<description>2 Pin Connector</description>
-<gates>
-<gate name="G$1" symbol="JUMPER" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="NANOFIT_SMD_VERTICAL" package="MOLEX_NANOFIT_SMD_VERTICAL_02">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="BLACK">
-<attribute name="DKPN" value="900-1054291304TR-ND"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MOPN" value="538-105429-1304"/>
-<attribute name="MPN" value="105429-1304"/>
-</technology>
-<technology name="NATURAL">
-<attribute name="DKPN" value="900-1054312302TR-ND"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MOPN" value="538-105431-2302"/>
-<attribute name="MPN" value="105431-2302"/>
-</technology>
-</technologies>
-</device>
-<device name="0603" package="0603-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="13-RC0603FR-130RLTR-ND"/>
-<attribute name="MANUFACTURER" value="YAGEO"/>
-<attribute name="MOPN" value="603-RC0603FR-130RL"/>
-<attribute name="MPN" value="RC0603FR-130RL"/>
-</technology>
-</technologies>
-</device>
-<device name="" package="1X02">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="1X02">
-<attribute name="DKPN" value="S1011EC-02-ND"/>
-<attribute name="MANUFACTURER" value="Sullins Connector Solutions"/>
-<attribute name="MOPN" value=""/>
-<attribute name="MPN" value="PRPC002SAAN-RC"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -6085,9 +5993,13 @@ Note: OPA991 is also a comparator</description>
 <part name="C11" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF" value="CAPACITOR_0603_25V_0.1UF"/>
 <part name="P30" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P31" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="JP1" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
-<part name="P32" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="P33" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="C12" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="35V_22UF"/>
+<part name="C13" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="35V_22UF"/>
+<part name="C14" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="35V_22UF"/>
+<part name="P32" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
+<part name="U$9" library="HyTechSupplies" deviceset="TS+12V" device=""/>
+<part name="P33" library="HyTechSupplies" deviceset="+24V" device=""/>
+<part name="P34" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6148,8 +6060,8 @@ Note: OPA991 is also a comparator</description>
 <instance part="P4" gate="G$1" x="91.44" y="165.1" smashed="yes">
 <attribute name="VALUE" x="91.44" y="167.64" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P5" gate="1" x="182.88" y="165.1" smashed="yes">
-<attribute name="VALUE" x="182.88" y="167.64" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P5" gate="1" x="172.72" y="165.1" smashed="yes">
+<attribute name="VALUE" x="172.72" y="167.64" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C2" gate="G$1" x="129.54" y="185.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="127" y="184.15" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -6376,42 +6288,37 @@ Note: OPA991 is also a comparator</description>
 <instance part="P31" gate="1" x="246.38" y="160.02" smashed="yes">
 <attribute name="VALUE" x="246.38" y="158.75" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="185.42" y="101.6" smashed="yes">
-<attribute name="NAME" x="185.42" y="104.14" size="1.27" layer="95"/>
-<attribute name="MPN" x="185.42" y="98.298" size="1.27" layer="96" align="top-left"/>
+<instance part="C12" gate="G$1" x="88.9" y="185.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="86.36" y="184.15" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="91.44" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="93.218" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P32" gate="1" x="182.88" y="104.14" smashed="yes">
-<attribute name="VALUE" x="182.88" y="106.68" size="1.27" layer="96" align="bottom-center"/>
+<instance part="C13" gate="G$1" x="78.74" y="185.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="76.2" y="184.15" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="81.28" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="83.058" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P33" gate="1" x="193.04" y="104.14" smashed="yes">
-<attribute name="VALUE" x="193.04" y="106.68" size="1.27" layer="96" align="bottom-center"/>
+<instance part="C14" gate="G$1" x="116.84" y="185.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="114.3" y="184.15" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="119.38" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="121.158" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="P32" gate="G$1" x="116.84" y="175.26" smashed="yes">
+<attribute name="VALUE" x="116.84" y="172.72" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="U$9" gate="G$1" x="116.84" y="193.04" smashed="yes">
+<attribute name="VALUE" x="116.84" y="195.58" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P33" gate="G$1" x="78.74" y="195.58" smashed="yes">
+<attribute name="VALUE" x="78.74" y="198.12" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P34" gate="1" x="88.9" y="172.72" smashed="yes">
+<attribute name="VALUE" x="88.9" y="171.45" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="TS+5V" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="OUT+"/>
-<wire x1="121.92" y1="160.02" x2="124.46" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="160.02" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VDD1"/>
-<wire x1="124.46" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="TS+12V"/>
-<wire x1="124.46" y1="162.56" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
-<junction x="124.46" y="162.56"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="TS+12V"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="193.04" x2="129.54" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="190.5" x2="129.54" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="190.5" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="190.5" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
-<junction x="129.54" y="190.5"/>
-</segment>
-</net>
 <net name="TS-UNFUSED" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUT-"/>
@@ -6459,6 +6366,11 @@ Note: OPA991 is also a comparator</description>
 <wire x1="139.7" y1="109.22" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="109.22" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="P32" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="177.8" x2="116.84" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6567,19 +6479,23 @@ Note: OPA991 is also a comparator</description>
 <pinref part="P31" gate="1" pin="GND"/>
 <wire x1="246.38" y1="165.1" x2="246.38" y2="162.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="180.34" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="177.8" x2="88.9" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="177.8" x2="88.9" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="P34" gate="1" pin="GND"/>
+<wire x1="88.9" y1="177.8" x2="88.9" y2="175.26" width="0.1524" layer="91"/>
+<junction x="88.9" y="177.8"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="P4" gate="G$1" pin="+24V"/>
-<pinref part="U1" gate="G$1" pin="IN+"/>
-<wire x1="91.44" y1="162.56" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="160.02" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U2" gate="G$1" pin="VDD2"/>
 <pinref part="P5" gate="1" pin="+5V"/>
-<wire x1="170.18" y1="160.02" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="160.02" x2="182.88" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="160.02" x2="172.72" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="160.02" x2="172.72" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P6" gate="1" pin="+5V"/>
@@ -6631,18 +6547,6 @@ Note: OPA991 is also a comparator</description>
 <pinref part="P30" gate="1" pin="+5V"/>
 <wire x1="246.38" y1="172.72" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="99.06" x2="182.88" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="P32" gate="1" pin="+5V"/>
-<wire x1="182.88" y1="101.6" x2="182.88" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="99.06" x2="193.04" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="P33" gate="1" pin="+5V"/>
-<wire x1="193.04" y1="99.06" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="+24V" class="0">
 <segment>
@@ -6659,6 +6563,22 @@ Note: OPA991 is also a comparator</description>
 <wire x1="43.18" y1="124.46" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="124.46" x2="45.72" y2="127" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IN+"/>
+<wire x1="91.44" y1="160.02" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="P4" gate="G$1" pin="+24V"/>
+<wire x1="91.44" y1="162.56" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P33" gate="G$1" pin="+24V"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="193.04" x2="78.74" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="190.5" x2="78.74" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="190.5" x2="88.9" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="190.5" x2="88.9" y2="187.96" width="0.1524" layer="91"/>
+<junction x="78.74" y="190.5"/>
 </segment>
 </net>
 <net name="TS_DIVIDED" class="0">
@@ -6812,6 +6732,33 @@ Note: OPA991 is also a comparator</description>
 <wire x1="231.14" y1="139.7" x2="241.3" y2="139.7" width="0.1524" layer="91"/>
 <junction x="231.14" y="139.7"/>
 <label x="231.14" y="139.7" size="1.27" layer="95"/>
+</segment>
+</net>
+<net name="TS+12V" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="OUT+"/>
+<wire x1="121.92" y1="160.02" x2="124.46" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="160.02" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VDD1"/>
+<wire x1="124.46" y1="162.56" x2="142.24" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="TS+12V"/>
+<wire x1="124.46" y1="162.56" x2="124.46" y2="165.1" width="0.1524" layer="91"/>
+<junction x="124.46" y="162.56"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="190.5" x2="129.54" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="190.5" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="190.5" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="TS+12V"/>
+<wire x1="129.54" y1="193.04" x2="129.54" y2="190.5" width="0.1524" layer="91"/>
+<junction x="129.54" y="190.5"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="TS+12V"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="190.5" x2="116.84" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
