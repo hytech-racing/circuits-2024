@@ -8697,11 +8697,10 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <via x="56.515" y="38.1" extent="1-16" drill="0.381"/>
 <wire x1="56.515" y1="38.1" x2="46.482" y2="38.1" width="0.254" layer="1"/>
 <contactref element="D102" pad="2"/>
-<wire x1="22.8092" y1="5.334" x2="22.8092" y2="4.826" width="0.254" layer="16"/>
-<wire x1="22.8092" y1="6.29655625" x2="22.8092" y2="4.826" width="0.254" layer="16"/>
 <wire x1="23.8887" y1="7.37605625" x2="22.8092" y2="6.29655625" width="0.254" layer="16"/>
 <wire x1="27.38" y1="13.208" x2="23.8887" y2="9.7167" width="0.254" layer="16"/>
 <wire x1="23.8887" y1="9.7167" x2="23.8887" y2="7.37605625" width="0.254" layer="16"/>
+<wire x1="22.8092" y1="6.29655625" x2="22.8092" y2="4.826" width="0.254" layer="16"/>
 </signal>
 <signal name="CANL">
 <contactref element="MAIN_CONNECTOR" pad="2"/>
@@ -8738,7 +8737,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="U4" pad="6"/>
 <contactref element="U5" pad="6"/>
 <contactref element="J1" pad="3"/>
-<wire x1="6.4158" y1="8.6438" x2="6.5962" y2="8.6438" width="0.254" layer="16"/>
 <wire x1="16.9545" y1="73.152" x2="8.3058" y2="73.152" width="0.254" layer="16"/>
 <wire x1="8.3058" y1="73.152" x2="6.35" y2="71.1962" width="0.254" layer="16"/>
 <via x="6.35" y="71.1962" extent="1-16" drill="0.3556"/>
@@ -8810,7 +8808,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="C3" pad="2"/>
 <contactref element="U1" pad="5"/>
 <contactref element="C2" pad="2"/>
-<wire x1="16.51" y1="69.989" x2="16.522" y2="69.977" width="0.254" layer="16"/>
 <wire x1="14.605" y1="70.485" x2="15.24" y2="69.85" width="0.254" layer="16"/>
 <wire x1="15.24" y1="69.85" x2="16.395" y2="69.85" width="0.254" layer="16"/>
 <wire x1="16.395" y1="69.85" x2="16.522" y2="69.977" width="0.254" layer="16"/>
