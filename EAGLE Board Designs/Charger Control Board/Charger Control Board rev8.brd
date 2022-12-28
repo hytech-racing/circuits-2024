@@ -195,9 +195,9 @@
 <wire x1="86.36" y1="0" x2="86.36" y2="83.82" width="0" layer="20"/>
 <wire x1="86.36" y1="83.82" x2="0" y2="83.82" width="0" layer="20"/>
 <wire x1="0" y1="83.82" x2="0" y2="0" width="0" layer="20"/>
-<text x="85.8774" y="15.6718" size="1.016" layer="25" font="vector" rot="R90">HyTech Racing 2022
-Charger Control Unit rev7
-Designed by Daniel Vail</text>
+<text x="85.8774" y="15.6718" size="1.016" layer="25" font="vector" rot="R90">HyTech Racing 2023
+Charger Control Unit rev8
+Designed by Zheng-Yin Lee</text>
 <text x="56.515" y="62.865" size="0.8128" layer="25" font="vector" align="bottom-center">SHDN_C</text>
 </plain>
 <libraries>

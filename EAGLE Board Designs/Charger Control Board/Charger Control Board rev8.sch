@@ -10068,10 +10068,8 @@ visible on the PCB.</text>
 <parts>
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device="">
 <attribute name="DESCRIPTION_1" value="Facilitates and monitors battery charging"/>
-<attribute name="DESIGNER_BOARD" value="Daniel Vail"/>
-<attribute name="DESIGNER_SCHEMATIC" value="Daniel Vail"/>
-<attribute name="REVIEWER_BOARD" value="Cody Kaminsky"/>
-<attribute name="REVIEWER_SCHEMATIC" value="Cody Kaminsky"/>
+<attribute name="DESIGNER_BOARD" value="Zheng-Yin Lee"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Zheng-Yin Lee"/>
 </part>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P1" library="HyTechSupplies" deviceset="+24V" device=""/>
