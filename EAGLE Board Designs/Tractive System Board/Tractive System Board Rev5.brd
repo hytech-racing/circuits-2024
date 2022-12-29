@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -566,12 +566,11 @@ Designed by Liwei Sun</text>
 <wire x1="-2.15" y1="-2.2" x2="-2.15" y2="2.2" width="0.127" layer="21"/>
 <circle x="-2.54" y="-3.175" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-2.286" y1="-4.064" x2="2.286" y2="4.064" layer="39"/>
-<polygon width="0.0254" layer="20">
-<vertex x="-2.286" y="2.286"/>
-<vertex x="2.286" y="2.286"/>
-<vertex x="2.286" y="-2.286"/>
-<vertex x="-2.286" y="-2.286"/>
-</polygon>
+<rectangle x1="-2.286" y1="-2.286" x2="2.286" y2="2.286" layer="20"/>
+<wire x1="-2.286" y1="2.286" x2="2.286" y2="2.286" width="0" layer="20"/>
+<wire x1="2.286" y1="2.286" x2="2.286" y2="-2.286" width="0" layer="20"/>
+<wire x1="2.286" y1="-2.286" x2="-2.286" y2="-2.286" width="0" layer="20"/>
+<wire x1="-2.286" y1="-2.286" x2="-2.286" y2="2.286" width="0" layer="20"/>
 </package>
 <package name="SOT-23-6">
 <description>6-Lead Plastic ThinSOT-23
@@ -7715,10 +7714,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <approved hash="4,1,8a22d68302559b77"/>
 <approved hash="4,1,6da3ea02cfd488f5"/>
 <approved hash="4,1,6611a2b0a666ff47"/>
-<approved hash="4,1,47ba5580c85fb8a4"/>
-<approved hash="4,1,4fde5055d3e4bf64"/>
-<approved hash="4,1,b8c856393265af9f"/>
-<approved hash="4,1,bfda53ec26a8a85f"/>
+<approved hash="4,1,da2629bf695a4a88"/>
+<approved hash="4,1,ddc832446c95428c"/>
+<approved hash="4,1,da2629bf695a4a88"/>
+<approved hash="4,1,32daa8ce611c84d1"/>
+<approved hash="4,1,32daa8ce611c84d1"/>
+<approved hash="4,1,ddc832446c95428c"/>
+<approved hash="4,1,3bd2b3676ac58ca7"/>
+<approved hash="4,1,3bd2b3676ac58ca7"/>
 </errors>
 </board>
 </drawing>

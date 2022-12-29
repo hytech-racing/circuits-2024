@@ -6360,12 +6360,11 @@ Based on page 10.</description>
 <wire x1="-2.15" y1="-2.2" x2="-2.15" y2="2.2" width="0.127" layer="21"/>
 <circle x="-2.54" y="-3.175" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-2.286" y1="-4.064" x2="2.286" y2="4.064" layer="39"/>
-<polygon width="0.0254" layer="20">
-<vertex x="-2.286" y="2.286"/>
-<vertex x="2.286" y="2.286"/>
-<vertex x="2.286" y="-2.286"/>
-<vertex x="-2.286" y="-2.286"/>
-</polygon>
+<rectangle x1="-2.286" y1="-2.286" x2="2.286" y2="2.286" layer="20"/>
+<wire x1="-2.286" y1="2.286" x2="2.286" y2="2.286" width="0" layer="20"/>
+<wire x1="2.286" y1="2.286" x2="2.286" y2="-2.286" width="0" layer="20"/>
+<wire x1="2.286" y1="-2.286" x2="-2.286" y2="-2.286" width="0" layer="20"/>
+<wire x1="-2.286" y1="-2.286" x2="-2.286" y2="2.286" width="0" layer="20"/>
 </package>
 <package name="M12A-08PMMP">
 <description>M12A-08PMMP Amphenol Connector
