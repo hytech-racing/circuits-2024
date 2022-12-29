@@ -195,8 +195,7 @@
 <wire x1="86.36" y1="0" x2="86.36" y2="83.82" width="0" layer="20"/>
 <wire x1="86.36" y1="83.82" x2="0" y2="83.82" width="0" layer="20"/>
 <wire x1="0" y1="83.82" x2="0" y2="0" width="0" layer="20"/>
-<text x="85.8774" y="15.6718" size="1.016" layer="25" font="vector" rot="R90">HyTech Racing 2023
-Charger Control Unit rev8
+<text x="84.9376" y="12.9032" size="1.016" layer="25" font="vector" rot="R90">HyTech Racing 2023 Charger Control Unit rev8
 Designed by Zheng-Yin Lee</text>
 <text x="56.515" y="62.865" size="0.8128" layer="25" font="vector" align="bottom-center">SHDN_C</text>
 </plain>
@@ -7738,7 +7737,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MANUFACTURER" value="TE Connectivity" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="655-RT424024" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RT424024" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="81.788" y="35.306" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="81.6102" y="32.3342" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
 <element name="K3" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT_RT424024" x="74.93" y="17.018" smashed="yes">
 <attribute name="DKPN" value="PB969-ND" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
