@@ -8404,7 +8404,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="U5" pad="8"/>
 <contactref element="U4" pad="8"/>
 <contactref element="J1" pad="4"/>
-<wire x1="2.7686" y1="7.0104" x2="2.7813" y2="6.9977" width="0.1524" layer="1"/>
 <wire x1="2.7686" y1="7.0104" x2="1.7284" y2="8.0506" width="0.254" layer="1"/>
 <wire x1="1.7284" y1="8.0506" x2="1.7284" y2="9.271" width="0.254" layer="1"/>
 <wire x1="9.664" y1="36.576" x2="9.664" y2="34.29" width="0.254" layer="1"/>
