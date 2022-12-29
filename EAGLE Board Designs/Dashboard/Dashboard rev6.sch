@@ -7422,7 +7422,6 @@ Layer: 94 Symbol</description>
 <part name="C12" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C16" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P4" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P5" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P7" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -7450,15 +7449,6 @@ Layer: 94 Symbol</description>
 <part name="P29" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P39" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="LS100" library="HyTechDevices" deviceset="BUZZER_3_PIN_" device="" technology="CPT-3011C-120"/>
-<part name="TP_SSOK" library="HyTechDevices" deviceset="TEST_POINT" device="">
-<attribute name="SIGNAL" value="SHUTDOWN_F"/>
-</part>
-<part name="TP_INERTIA" library="HyTechDevices" deviceset="TEST_POINT" device="">
-<attribute name="SIGNAL" value="SHUTDOWN_G"/>
-</part>
-<part name="TP_BOTS" library="HyTechDevices" deviceset="TEST_POINT" device="">
-<attribute name="SIGNAL" value="SHUTDOWN_H"/>
-</part>
 <part name="FRAME2" library="HyTechFrames" deviceset="FRAME" device=""/>
 <part name="O4" library="HyTechExternal" deviceset="FUSE_*" device="" technology="MINI_BLADE_2"/>
 <part name="O6" library="HyTechExternal" deviceset="CRIMP_*" device="" technology="MICROFIT_20-24"/>
@@ -7557,19 +7547,15 @@ Layer: 94 Symbol</description>
 <part name="P11" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P12" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P20" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
-<part name="P104" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="D2" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V"/>
 <part name="P21" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="D3" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V"/>
 <part name="P22" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="D4" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V"/>
 <part name="P25" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="D5" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="30V"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="41.2K"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="41.2K"/>
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="41.2K"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="41.2K"/>
@@ -7594,11 +7580,11 @@ Layer: 94 Symbol</description>
 <part name="TP_24V" library="HyTechDevices" deviceset="TEST_POINT" device="">
 <attribute name="SIGNAL" value="+12V"/>
 </part>
-<part name="TP_BRB" library="HyTechDevices" deviceset="TEST_POINT" device="">
-<attribute name="SIGNAL" value="SHUTDOWN_H"/>
-</part>
 <part name="JP1" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP3" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP4" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8068,13 +8054,6 @@ Layer: 94 Symbol</description>
 <pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="SSOK" class="0">
-<segment>
-<wire x1="27.94" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="7"/>
-<label x="35.56" y="144.78" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="BOTS" class="0">
 <segment>
 <wire x1="27.94" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
@@ -8490,13 +8469,6 @@ Layer: 94 Symbol</description>
 <pinref part="A2" gate="G$1" pin="A8"/>
 </segment>
 </net>
-<net name="SSOK_READ" class="0">
-<segment>
-<label x="81.28" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="81.28" y1="129.54" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="A2" gate="G$1" pin="A0"/>
-</segment>
-</net>
 <net name="BOTS_READ" class="0">
 <segment>
 <label x="81.28" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -8824,7 +8796,6 @@ Layer: 94 Symbol</description>
 <sheet>
 <description>Shutdown Read, Buzzer Control</description>
 <plain>
-<text x="66.04" y="142.24" size="1.778" layer="97">24V to 3.3V</text>
 <text x="66.04" y="116.84" size="1.778" layer="97">24V to 3.3V</text>
 <text x="66.04" y="91.44" size="1.778" layer="97">24V to 3.3V</text>
 <text x="68.58" y="66.04" size="1.778" layer="97">24V to 3.3V</text>
@@ -8847,29 +8818,11 @@ Layer: 94 Symbol</description>
 <attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
 </instance>
-<instance part="P3" gate="1" x="127" y="144.78" smashed="yes">
-<attribute name="VALUE" x="127" y="143.51" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="P4" gate="1" x="129.54" y="93.98" smashed="yes">
 <attribute name="VALUE" x="129.54" y="92.71" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P19" gate="1" x="127" y="119.38" smashed="yes">
 <attribute name="VALUE" x="127" y="118.11" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="TP_SSOK" gate="G$1" x="83.82" y="142.24" smashed="yes" rot="MR0">
-<attribute name="NAME" x="91.44" y="144.018" size="1.27" layer="95" rot="MR0"/>
-<attribute name="MPN" x="86.36" y="140.462" size="1.27" layer="95" rot="MR0" align="top-left"/>
-<attribute name="SIGNAL" x="83.82" y="142.24" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="TP_INERTIA" gate="G$1" x="83.82" y="116.84" smashed="yes" rot="MR0">
-<attribute name="NAME" x="93.98" y="118.618" size="1.27" layer="95" rot="MR0"/>
-<attribute name="MPN" x="86.36" y="115.062" size="1.27" layer="95" rot="MR0" align="top-left"/>
-<attribute name="SIGNAL" x="83.82" y="116.84" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="TP_BOTS" gate="G$1" x="83.82" y="91.44" smashed="yes" rot="MR0">
-<attribute name="NAME" x="91.44" y="93.218" size="1.27" layer="95" rot="MR0"/>
-<attribute name="MPN" x="86.36" y="89.662" size="1.27" layer="95" rot="MR0" align="top-left"/>
-<attribute name="SIGNAL" x="83.82" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="185.42" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="184.15" y="100.33" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -8916,10 +8869,6 @@ Layer: 94 Symbol</description>
 <instance part="P44" gate="1" x="127" y="68.58" smashed="yes">
 <attribute name="VALUE" x="127" y="67.31" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="119.38" y="147.32" smashed="yes">
-<attribute name="NAME" x="118.11" y="148.59" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="118.11" y="146.05" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="R8" gate="G$1" x="119.38" y="121.92" smashed="yes">
 <attribute name="NAME" x="118.11" y="123.19" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="118.11" y="120.65" size="1.27" layer="96" align="top-center"/>
@@ -8931,13 +8880,6 @@ Layer: 94 Symbol</description>
 <instance part="R14" gate="G$1" x="119.38" y="71.12" smashed="yes">
 <attribute name="NAME" x="118.11" y="72.39" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="118.11" y="69.85" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P104" gate="1" x="96.52" y="132.08" smashed="yes">
-<attribute name="VALUE" x="96.52" y="130.81" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="D2" gate="G$1" x="96.52" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="94.615" y="140.97" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="98.425" y="140.97" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="P21" gate="1" x="96.52" y="106.68" smashed="yes">
 <attribute name="VALUE" x="96.52" y="105.41" size="1.27" layer="96" align="top-center"/>
@@ -8960,10 +8902,6 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="94.615" y="64.77" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="98.425" y="64.77" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R15" gate="G$1" x="106.68" y="147.32" smashed="yes">
-<attribute name="NAME" x="105.41" y="148.59" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="105.41" y="146.05" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="R3" gate="G$1" x="106.68" y="121.92" smashed="yes">
 <attribute name="NAME" x="105.41" y="123.19" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="105.41" y="120.65" size="1.27" layer="96" align="top-center"/>
@@ -8976,21 +8914,23 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="105.41" y="72.39" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="105.41" y="69.85" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="TP_BRB" gate="G$1" x="83.82" y="66.04" smashed="yes" rot="MR0">
-<attribute name="NAME" x="91.44" y="67.818" size="1.27" layer="95" rot="MR0"/>
-<attribute name="MPN" x="86.36" y="64.262" size="1.27" layer="95" rot="MR0" align="top-left"/>
-<attribute name="SIGNAL" x="83.82" y="66.04" size="1.778" layer="96" display="off"/>
+<instance part="TP2" gate="G$1" x="78.74" y="111.76" smashed="yes">
+<attribute name="NAME" x="76.2" y="113.538" size="1.27" layer="95"/>
+<attribute name="MPN" x="76.2" y="109.982" size="1.27" layer="95" align="top-left"/>
+</instance>
+<instance part="TP3" gate="G$1" x="78.74" y="86.36" smashed="yes">
+<attribute name="NAME" x="76.2" y="88.138" size="1.27" layer="95"/>
+<attribute name="MPN" x="76.2" y="84.582" size="1.27" layer="95" align="top-left"/>
+</instance>
+<instance part="TP4" gate="G$1" x="78.74" y="60.96" smashed="yes">
+<attribute name="NAME" x="76.2" y="62.738" size="1.27" layer="95"/>
+<attribute name="MPN" x="76.2" y="59.182" size="1.27" layer="95" align="top-left"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<wire x1="121.92" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="P3" gate="1" pin="GND"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-</segment>
 <segment>
 <wire x1="121.92" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P4" gate="1" pin="GND"/>
@@ -9022,11 +8962,6 @@ Layer: 94 Symbol</description>
 <pinref part="R14" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="P104" gate="1" pin="GND"/>
-<wire x1="96.52" y1="134.62" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-</segment>
-<segment>
 <pinref part="P21" gate="1" pin="GND"/>
 <wire x1="96.52" y1="109.22" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="A"/>
@@ -9042,39 +8977,11 @@ Layer: 94 Symbol</description>
 <pinref part="D5" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="SSOK" class="0">
-<segment>
-<label x="78.74" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP_SSOK" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="142.24" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
-<junction x="81.28" y="147.32"/>
-<wire x1="81.28" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="144.78" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
-<junction x="96.52" y="147.32"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="SSOK_READ" class="0">
-<segment>
-<wire x1="109.22" y1="147.32" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="147.32" x2="114.3" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="147.32" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
-<junction x="111.76" y="147.32"/>
-<wire x1="111.76" y1="152.4" x2="109.22" y2="152.4" width="0.1524" layer="91"/>
-<label x="109.22" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="BOTS" class="0">
 <segment>
 <label x="78.74" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP_BOTS" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="91.44" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="86.36" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
 <junction x="81.28" y="96.52"/>
 <wire x1="81.28" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="C"/>
@@ -9082,6 +8989,7 @@ Layer: 94 Symbol</description>
 <wire x1="96.52" y1="93.98" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 <junction x="96.52" y="96.52"/>
 <pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="BOTS_READ" class="0">
@@ -9099,9 +9007,8 @@ Layer: 94 Symbol</description>
 <net name="INERTIA" class="0">
 <segment>
 <label x="78.74" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP_INERTIA" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="121.92" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="116.84" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="111.76" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
 <junction x="81.28" y="121.92"/>
 <wire x1="81.28" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
@@ -9109,6 +9016,7 @@ Layer: 94 Symbol</description>
 <wire x1="96.52" y1="119.38" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <junction x="96.52" y="121.92"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="INERTIA_READ" class="0">
@@ -9198,13 +9106,13 @@ Layer: 94 Symbol</description>
 <wire x1="78.74" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="71.12" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="66.04" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="60.96" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 <junction x="81.28" y="71.12"/>
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="68.58" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <junction x="96.52" y="71.12"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="TP_BRB" gate="G$1" pin="1"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="BRB_READ" class="0">
@@ -9224,7 +9132,7 @@ Layer: 94 Symbol</description>
 <sheet>
 <description>Neopixels</description>
 <plain>
-<text x="134.62" y="185.42" size="1.778" layer="97">SSOK</text>
+<text x="134.62" y="185.42" size="1.778" layer="97">GEN_PURP</text>
 <text x="165.1" y="185.42" size="1.778" layer="97">INERTIA</text>
 <text x="43.18" y="144.78" size="1.778" layer="97">BOTS</text>
 <text x="73.66" y="144.78" size="1.778" layer="97">COCKPIT_BRB</text>
