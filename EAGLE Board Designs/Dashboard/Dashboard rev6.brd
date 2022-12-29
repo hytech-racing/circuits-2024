@@ -192,7 +192,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z2F0ZWNoMTAwNg" projecturn="a.YnVzaW5lc3M6Z2F0ZWNoMTAwNiNEMjAyMDA5MTYzMzM1MzE0MDY" f3durn="urn:adsk.wipprod:dm.lineage:k9KlUZB2QcqxYkmvrH5lPQ" pcbguid="" lastpulledtime="2022-12-24T20:26:28Z" lastsyncedchangeguid="" latestrevisionid="21a09c10-8200-435c-9bfa-1e3b5e8442f7" lastsyncedrevisionid="21a09c10-8200-435c-9bfa-1e3b5e8442f7" lastboardhashguid="" lastpushedtime="" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z2F0ZWNoMTAwNg" projecturn="a.YnVzaW5lc3M6Z2F0ZWNoMTAwNiNEMjAyMDA5MTYzMzM1MzE0MDY" f3durn="urn:adsk.wipprod:dm.lineage:k9KlUZB2QcqxYkmvrH5lPQ" pcbguid="" lastpulledtime="2022-12-24T20:26:28Z" lastsyncedchangeguid="" latestrevisionid="21a09c10-8200-435c-9bfa-1e3b5e8442f7" lastsyncedrevisionid="21a09c10-8200-435c-9bfa-1e3b5e8442f7" lastboardhashguid="" lastpushedtime="" linktopcb3d="false"/>
 <plain>
 <wire x1="564.42101875" y1="374.916440625" x2="514.86688125" y2="458.44906875" width="0.001" layer="22"/>
 <wire x1="582.88506875" y1="374.916440625" x2="556.34808125" y2="419.64938125" width="0.001" layer="22"/>
@@ -5984,7 +5984,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <via x="576.199" y="454.025" extent="1-16" drill="0.35"/>
 <via x="621.03" y="431.038" extent="1-16" drill="0.35"/>
 <via x="621.03" y="424.688" extent="1-16" drill="0.35"/>
-<wire x1="621.577" y1="426.212" x2="621.362" y2="425.997" width="0.254" layer="1"/>
 <wire x1="627.38" y1="424.18" x2="626.11" y2="422.91" width="0.254" layer="1"/>
 <wire x1="626.11" y1="422.91" x2="624.84" y2="422.91" width="0.254" layer="1"/>
 <via x="624.84" y="422.91" extent="1-16" drill="0.35"/>
@@ -6036,8 +6035,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <via x="564.261" y="457.327" extent="1-16" drill="0.35"/>
 <wire x1="621.45" y1="432.562" x2="621.45" y2="431.458" width="0.254" layer="1"/>
 <wire x1="621.45" y1="431.458" x2="621.03" y2="431.038" width="0.254" layer="1"/>
-<wire x1="621.577" y1="426.212" x2="621.577" y2="425.235" width="0.254" layer="1"/>
-<wire x1="621.577" y1="425.235" x2="621.03" y2="424.688" width="0.254" layer="1"/>
+<wire x1="621.411" y1="425.069" x2="621.03" y2="424.688" width="0.254" layer="1"/>
 <wire x1="660.833" y1="438.785" x2="658.622" y2="436.574" width="0.508" layer="1"/>
 <wire x1="658.622" y1="436.574" x2="658.622" y2="436.118" width="0.508" layer="1"/>
 <via x="658.622" y="436.118" extent="1-16" drill="0.762"/>
@@ -6100,6 +6098,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="568.706" y1="448.056" x2="568.96" y2="448.31" width="0.508" layer="1"/>
 <via x="568.96" y="448.31" extent="1-16" drill="0.762"/>
 <wire x1="568.706" y1="446.52" x2="568.706" y2="448.056" width="0.508" layer="1"/>
+<wire x1="621.411" y1="425.069" x2="621.577" y2="425.235" width="0.254" layer="1"/>
+<wire x1="621.577" y1="425.235" x2="621.577" y2="426.212" width="0.254" layer="1"/>
 </signal>
 <signal name="+12V">
 <contactref element="12V" pad="2"/>
