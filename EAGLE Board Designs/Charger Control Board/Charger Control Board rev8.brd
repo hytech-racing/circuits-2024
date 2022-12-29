@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -8685,15 +8685,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="24.2824" y1="5.2832" x2="25.8064" y2="6.8072" width="0.254" layer="16"/>
 <wire x1="43.053" y1="4.826" x2="43.053" y2="4.76700625" width="0.254" layer="16"/>
 <wire x1="43.053" y1="4.76700625" x2="41.00379375" y2="2.7178" width="0.254" layer="16"/>
-<wire x1="3.81" y1="68.58" x2="2.7686" y2="68.58" width="0.254" layer="16"/>
-<wire x1="2.7686" y1="68.58" x2="1.7526" y2="67.564" width="0.254" layer="16"/>
-<wire x1="1.7526" y1="67.564" x2="1.7526" y2="54.3814" width="0.254" layer="16"/>
-<via x="1.7526" y="54.3814" extent="1-16" drill="0.381"/>
-<wire x1="1.7526" y1="54.3814" x2="1.7526" y2="52.6034" width="0.254" layer="1"/>
-<wire x1="1.7526" y1="52.6034" x2="1.778" y2="52.578" width="0.254" layer="1"/>
-<via x="1.778" y="52.578" extent="1-16" drill="0.381"/>
-<wire x1="1.778" y1="52.578" x2="1.778" y2="11.43" width="0.254" layer="16"/>
-<wire x1="1.778" y1="11.43" x2="2.54" y2="10.668" width="0.254" layer="16"/>
+<wire x1="6.35" y1="68.58" x2="5.5626" y2="67.7926" width="0.254" layer="16"/>
+<wire x1="5.5626" y1="67.7926" x2="5.5626" y2="54.3814" width="0.254" layer="16"/>
+<via x="5.5626" y="54.3814" extent="1-16" drill="0.381"/>
+<wire x1="5.5626" y1="54.3814" x2="5.5626" y2="52.6034" width="0.254" layer="1"/>
+<wire x1="5.588" y1="52.578" x2="5.5626" y2="52.6034" width="0.254" layer="1"/>
+<via x="5.588" y="52.578" extent="1-16" drill="0.381"/>
+<wire x1="5.588" y1="52.578" x2="5.588" y2="15.24" width="0.254" layer="16"/>
+<wire x1="5.588" y1="15.24" x2="10.16" y2="10.668" width="0.254" layer="16"/>
 <via x="16.51" y="10.668" extent="1-16" drill="0.381"/>
 <wire x1="33.42503125" y1="3.556" x2="34.26323125" y2="2.7178" width="0.254" layer="16"/>
 <wire x1="34.26323125" y1="2.7178" x2="41.00379375" y2="2.7178" width="0.254" layer="16"/>
@@ -8703,7 +8702,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="14.3646" y1="11.684" x2="15.748" y2="11.684" width="0.254" layer="1"/>
 <wire x1="15.748" y1="11.684" x2="16.51" y2="10.922" width="0.254" layer="1"/>
 <wire x1="16.51" y1="10.922" x2="16.51" y2="10.668" width="0.254" layer="1"/>
-<wire x1="2.54" y1="10.668" x2="16.51" y2="10.668" width="0.254" layer="16"/>
+<wire x1="10.16" y1="10.668" x2="16.51" y2="10.668" width="0.254" layer="16"/>
 <wire x1="13.97" y1="2.2456" x2="24.2824" y2="2.2456" width="0.254" layer="16"/>
 <wire x1="24.2824" y1="2.2456" x2="26.9036" y2="2.2456" width="0.254" layer="16"/>
 <wire x1="24.2824" y1="2.2456" x2="24.2824" y2="5.2832" width="0.254" layer="16"/>
@@ -8713,15 +8712,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="16.9545" y1="73.152" x2="8.3058" y2="73.152" width="0.254" layer="16"/>
 <wire x1="8.3058" y1="73.152" x2="6.35" y2="71.1962" width="0.254" layer="16"/>
 <via x="6.35" y="71.1962" extent="1-16" drill="0.3556"/>
-<wire x1="6.35" y1="71.1962" x2="6.35" y2="69.85" width="0.254" layer="1"/>
-<wire x1="6.35" y1="69.85" x2="5.08" y2="68.58" width="0.254" layer="1"/>
-<wire x1="5.08" y1="68.58" x2="3.81" y2="68.58" width="0.254" layer="1"/>
-<via x="3.81" y="68.58" extent="1-16" drill="0.3556"/>
+<wire x1="6.35" y1="71.1962" x2="6.35" y2="68.58" width="0.254" layer="1"/>
+<via x="6.35" y="68.58" extent="1-16" drill="0.3556"/>
 <wire x1="10.668" y1="52.578" x2="12.7" y2="54.61" width="0.254" layer="16"/>
 <wire x1="12.7" y1="54.61" x2="14.0335" y2="54.61" width="0.254" layer="16"/>
 <wire x1="15.6845" y1="52.959" x2="16.9545" y2="52.959" width="0.254" layer="16"/>
 <wire x1="15.6845" y1="52.959" x2="14.0335" y2="54.61" width="0.254" layer="16"/>
-<wire x1="1.778" y1="52.578" x2="10.668" y2="52.578" width="0.254" layer="16"/>
+<wire x1="5.588" y1="52.578" x2="10.668" y2="52.578" width="0.254" layer="16"/>
 <wire x1="13.97" y1="2.2456" x2="11.3896" y2="4.826" width="0.254" layer="16"/>
 <wire x1="11.3896" y1="4.826" x2="11.2014" y2="4.826" width="0.254" layer="16"/>
 <wire x1="6.4158" y1="8.6438" x2="7.3836" y2="8.6438" width="0.254" layer="16"/>
@@ -8735,13 +8732,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="MAIN_CONNECTOR" pad="1"/>
 <contactref element="D100" pad="1"/>
 <contactref element="CHG_CAN" pad="4"/>
-<wire x1="2.54" y1="9.398" x2="1.016" y2="10.922" width="0.254" layer="16"/>
-<wire x1="1.016" y1="10.922" x2="1.016" y2="53.594" width="0.254" layer="16"/>
-<wire x1="1.016" y1="53.594" x2="1.016" y2="70.104" width="0.254" layer="16"/>
-<wire x1="1.016" y1="70.104" x2="2.794" y2="71.882" width="0.254" layer="16"/>
+<wire x1="8.4072" y1="9.3982" x2="1.7272" y2="16.0782" width="0.254" layer="16"/>
+<wire x1="1.7272" y1="16.0782" x2="1.7272" y2="53.594" width="0.254" layer="16"/>
+<wire x1="1.7272" y1="53.594" x2="1.7272" y2="70.8152" width="0.254" layer="16"/>
+<wire x1="1.7272" y1="70.8152" x2="2.794" y2="71.882" width="0.254" layer="16"/>
 <wire x1="2.794" y1="71.882" x2="5.842" y2="71.882" width="0.254" layer="16"/>
-<wire x1="2.54" y1="9.398" x2="5.08" y2="9.398" width="0.254" layer="16"/>
-<wire x1="1.016" y1="53.594" x2="9.144" y2="53.594" width="0.254" layer="16"/>
+<wire x1="1.7272" y1="53.594" x2="9.144" y2="53.594" width="0.254" layer="16"/>
 <contactref element="CAN_TERM" pad="2"/>
 <contactref element="U4" pad="7"/>
 <contactref element="U5" pad="7"/>
@@ -8757,7 +8753,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="5.08" y1="8.9258" x2="5.08" y2="9.398" width="0.254" layer="16"/>
 <wire x1="5.08" y1="9.398" x2="6.09986875" y2="9.398" width="0.254" layer="16"/>
 <wire x1="6.09986875" y1="9.398" x2="6.10006875" y2="9.3982" width="0.254" layer="16"/>
-<wire x1="6.10006875" y1="9.3982" x2="12.6236" y2="9.3982" width="0.254" layer="16"/>
+<wire x1="6.10006875" y1="9.3982" x2="8.4072" y2="9.3982" width="0.254" layer="16"/>
+<wire x1="8.4072" y1="9.3982" x2="12.6236" y2="9.3982" width="0.254" layer="16"/>
 <wire x1="12.6236" y1="9.3982" x2="14.1986" y2="7.8232" width="0.254" layer="16"/>
 <wire x1="22.8092" y1="7.8232" x2="14.1986" y2="7.8232" width="0.254" layer="16"/>
 <wire x1="22.8092" y1="7.8232" x2="19.05" y2="11.5824" width="0.254" layer="16"/>
