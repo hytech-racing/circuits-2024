@@ -3523,6 +3523,15 @@ Toshiba
 <wire x1="22.895" y1="3.27" x2="22.895" y2="-3.27" width="0.127" layer="21"/>
 <wire x1="-22.895" y1="3.27" x2="-22.895" y2="-3.27" width="0.127" layer="21"/>
 </package>
+<package name="5015">
+<description>Keystone Micro-Miniature SMD Test Point
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
+<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
+<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_10">
@@ -3879,6 +3888,12 @@ Toshiba
 <wire x1="3.81" y1="-60.96" x2="5.08" y2="-60.96" width="0.6096" layer="94"/>
 <wire x1="3.81" y1="-58.42" x2="5.08" y2="-58.42" width="0.6096" layer="94"/>
 <text x="0" y="-89.535" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+</symbol>
+<symbol name="TEST_POINT">
+<circle x="-1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-2.54" y="1.778" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-1.778" size="1.27" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5837,6 +5852,28 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 </device>
 </devices>
 </deviceset>
+<deviceset name="TEST_POINT" prefix="TP">
+<description>Test Point for Probing
+&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5015">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="36-5015CT-ND"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics"/>
+<attribute name="MOPN" value="534-5015"/>
+<attribute name="MPN" value="5015"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -6018,6 +6055,12 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100"/>
 <part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100"/>
+<part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP3" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP4" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP5" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6165,6 +6208,30 @@ Potentiometers:
 <attribute name="NAME" x="102.87" y="186.69" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="102.87" y="184.15" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="TP1" gate="G$1" x="254" y="198.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="256.54" y="196.342" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="256.54" y="199.898" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP2" gate="G$1" x="261.62" y="195.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="264.16" y="193.802" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="264.16" y="197.358" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP3" gate="G$1" x="269.24" y="193.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="271.78" y="191.262" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="271.78" y="194.818" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP4" gate="G$1" x="254" y="190.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="256.54" y="188.722" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="256.54" y="192.278" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP5" gate="G$1" x="261.62" y="187.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="264.16" y="186.182" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="264.16" y="189.738" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP6" gate="G$1" x="269.24" y="185.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="271.78" y="183.642" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="271.78" y="187.198" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6181,9 +6248,10 @@ Potentiometers:
 <label x="104.14" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="187.96" x2="238.76" y2="187.96" width="0.1524" layer="91"/>
 <label x="238.76" y="187.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="J10" gate="G$1" pin="5"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="187.96" x2="259.08" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH_3" class="0">
@@ -6198,9 +6266,10 @@ Potentiometers:
 <label x="104.14" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="185.42" x2="238.76" y2="185.42" width="0.1524" layer="91"/>
 <label x="238.76" y="185.42" size="1.27" layer="95" xref="yes"/>
 <pinref part="J10" gate="G$1" pin="6"/>
+<pinref part="TP6" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="185.42" x2="266.7" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANL_2" class="0">
@@ -6210,9 +6279,10 @@ Potentiometers:
 <pinref part="J6" gate="G$1" pin="29"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="195.58" x2="238.76" y2="195.58" width="0.1524" layer="91"/>
 <label x="238.76" y="195.58" size="1.27" layer="95" xref="yes"/>
 <pinref part="J10" gate="G$1" pin="2"/>
+<pinref part="TP2" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="195.58" x2="259.08" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH_2" class="0">
@@ -6222,9 +6292,10 @@ Potentiometers:
 <pinref part="J6" gate="G$1" pin="31"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="198.12" x2="238.76" y2="198.12" width="0.1524" layer="91"/>
 <label x="238.76" y="198.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="J10" gate="G$1" pin="1"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="198.12" x2="251.46" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANL_1" class="0">
@@ -6234,9 +6305,10 @@ Potentiometers:
 <pinref part="J6" gate="G$1" pin="25"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="190.5" x2="238.76" y2="190.5" width="0.1524" layer="91"/>
 <label x="238.76" y="190.5" size="1.27" layer="95" xref="yes"/>
 <pinref part="J10" gate="G$1" pin="4"/>
+<pinref part="TP4" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="190.5" x2="251.46" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH_1" class="0">
@@ -6246,9 +6318,10 @@ Potentiometers:
 <pinref part="J6" gate="G$1" pin="27"/>
 </segment>
 <segment>
-<wire x1="231.14" y1="193.04" x2="238.76" y2="193.04" width="0.1524" layer="91"/>
 <label x="238.76" y="193.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="J10" gate="G$1" pin="3"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="193.04" x2="266.7" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHDN_B" class="0">

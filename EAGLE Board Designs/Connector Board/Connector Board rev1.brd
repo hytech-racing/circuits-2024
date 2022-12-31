@@ -517,6 +517,15 @@
 <wire x1="22.895" y1="3.27" x2="22.895" y2="-3.27" width="0.127" layer="21"/>
 <wire x1="-22.895" y1="3.27" x2="-22.895" y2="-3.27" width="0.127" layer="21"/>
 </package>
+<package name="5015">
+<description>Keystone Micro-Miniature SMD Test Point
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
+<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
+<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
+</package>
 </packages>
 </library>
 <library name="HyTechManufacturing">
@@ -1066,6 +1075,54 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="1%" x="10.16" y="24.384" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="3.16V" x="10.16" y="24.384" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="10.16" y="24.384" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="TP1" library="HyTechDevices" package="5015" value="TEST_POINT" x="29.21" y="32.512" smashed="yes" rot="MR270">
+<attribute name="DKPN" value="36-5015CT-ND" x="29.21" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="29.21" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="534-5015" x="29.21" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="5015" x="29.21" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="29.21" y="34.544" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="SIGNAL" value="CANH_2" x="27.94" y="32.512" size="0.8128" layer="22" font="vector" rot="MR270" align="bottom-center"/>
+</element>
+<element name="TP2" library="HyTechDevices" package="5015" value="TEST_POINT" x="33.02" y="32.512" smashed="yes" rot="MR270">
+<attribute name="DKPN" value="36-5015CT-ND" x="33.02" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="33.02" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="534-5015" x="33.02" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="5015" x="33.02" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="33.02" y="34.544" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="SIGNAL" value="CANL_2" x="31.75" y="32.512" size="0.8128" layer="22" font="vector" rot="MR270" align="bottom-center"/>
+</element>
+<element name="TP3" library="HyTechDevices" package="5015" value="TEST_POINT" x="36.83" y="32.512" smashed="yes" rot="MR270">
+<attribute name="DKPN" value="36-5015CT-ND" x="36.83" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="36.83" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="534-5015" x="36.83" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="5015" x="36.83" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="36.83" y="34.544" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="SIGNAL" value="CANH_1" x="35.56" y="32.512" size="0.8128" layer="22" font="vector" rot="MR270" align="bottom-center"/>
+</element>
+<element name="TP4" library="HyTechDevices" package="5015" value="TEST_POINT" x="40.64" y="32.512" smashed="yes" rot="MR270">
+<attribute name="DKPN" value="36-5015CT-ND" x="40.64" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="40.64" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="534-5015" x="40.64" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="5015" x="40.64" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="40.64" y="34.544" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="SIGNAL" value="CANL_1" x="39.37" y="32.512" size="0.8128" layer="22" font="vector" rot="MR270" align="bottom-center"/>
+</element>
+<element name="TP5" library="HyTechDevices" package="5015" value="TEST_POINT" x="44.45" y="32.512" smashed="yes" rot="MR270">
+<attribute name="DKPN" value="36-5015CT-ND" x="44.45" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="44.45" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="534-5015" x="44.45" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="5015" x="44.45" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="44.45" y="34.544" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="SIGNAL" value="CANL_3" x="43.18" y="32.512" size="0.8128" layer="22" font="vector" rot="MR270" align="bottom-center"/>
+</element>
+<element name="TP6" library="HyTechDevices" package="5015" value="TEST_POINT" x="48.26" y="32.512" smashed="yes" rot="MR270">
+<attribute name="DKPN" value="36-5015CT-ND" x="48.26" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="48.26" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="534-5015" x="48.26" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="5015" x="48.26" y="32.512" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="48.26" y="34.544" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="SIGNAL" value="CANH_3" x="46.99" y="32.512" size="0.8128" layer="22" font="vector" rot="MR270" align="bottom-center"/>
 </element>
 </elements>
 <signals>
@@ -1711,13 +1768,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="J6" pad="21"/>
 <contactref element="J12" pad="4"/>
 <contactref element="J10" pad="6"/>
-<wire x1="46.41" y1="27.13" x2="45.212" y2="28.328" width="0.254" layer="16"/>
-<wire x1="76.454" y1="40.084" x2="77.28" y2="40.91" width="0.254" layer="16"/>
-<wire x1="45.212" y1="28.328" x2="45.212" y2="29.718" width="0.254" layer="16"/>
-<wire x1="45.212" y1="29.718" x2="46.228" y2="30.734" width="0.254" layer="16"/>
-<wire x1="46.228" y1="30.734" x2="68.834" y2="30.734" width="0.254" layer="16"/>
-<wire x1="68.834" y1="30.734" x2="76.454" y2="38.354" width="0.254" layer="16"/>
-<wire x1="76.454" y1="38.354" x2="76.454" y2="40.084" width="0.254" layer="16"/>
+<wire x1="46.41" y1="27.13" x2="45.212" y2="28.328" width="0.254" layer="15"/>
+<wire x1="76.454" y1="40.084" x2="77.28" y2="40.91" width="0.254" layer="15"/>
+<wire x1="45.212" y1="28.328" x2="45.212" y2="29.718" width="0.254" layer="15"/>
+<wire x1="45.212" y1="29.718" x2="46.228" y2="30.734" width="0.254" layer="15"/>
+<wire x1="46.228" y1="30.734" x2="66.548" y2="30.734" width="0.254" layer="15"/>
+<wire x1="72.898" y1="35.306" x2="76.454" y2="38.862" width="0.254" layer="15"/>
+<wire x1="76.454" y1="38.862" x2="76.454" y2="40.084" width="0.254" layer="15"/>
 <wire x1="77.28" y1="40.91" x2="76.454" y2="40.084" width="0.254" layer="1"/>
 <wire x1="76.454" y1="39.116" x2="77.47" y2="38.1" width="0.254" layer="1"/>
 <wire x1="76.454" y1="40.084" x2="76.454" y2="39.116" width="0.254" layer="1"/>
@@ -1733,18 +1790,22 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="94.488" y1="6.858" x2="91.948" y2="6.858" width="0.254" layer="1"/>
 <wire x1="91.948" y1="6.858" x2="90.17" y2="8.636" width="0.254" layer="1"/>
 <wire x1="90.17" y1="8.636" x2="90.17" y2="15.494" width="0.254" layer="1"/>
+<wire x1="66.548" y1="30.734" x2="71.12" y2="35.306" width="0.254" layer="15"/>
+<wire x1="71.12" y1="35.306" x2="72.898" y2="35.306" width="0.254" layer="15"/>
+<contactref element="TP6" pad="1"/>
+<wire x1="48.26" y1="32.512" x2="46.41" y2="30.662" width="0.254" layer="16"/>
+<wire x1="46.41" y1="30.662" x2="46.41" y2="27.13" width="0.254" layer="16"/>
 </signal>
 <signal name="CANL_3">
 <contactref element="J6" pad="23"/>
 <contactref element="J12" pad="3"/>
 <contactref element="J10" pad="5"/>
-<wire x1="75.28" y1="40.91" x2="75.946" y2="40.244" width="0.254" layer="16"/>
-<wire x1="44.704" y1="28.424" x2="43.41" y2="27.13" width="0.254" layer="16"/>
-<wire x1="75.946" y1="40.244" x2="75.946" y2="38.608" width="0.254" layer="16"/>
-<wire x1="75.946" y1="38.608" x2="68.58" y2="31.242" width="0.254" layer="16"/>
-<wire x1="68.58" y1="31.242" x2="45.974" y2="31.242" width="0.254" layer="16"/>
-<wire x1="45.974" y1="31.242" x2="44.704" y2="29.972" width="0.254" layer="16"/>
-<wire x1="44.704" y1="29.972" x2="44.704" y2="28.424" width="0.254" layer="16"/>
+<wire x1="75.28" y1="40.91" x2="75.946" y2="40.244" width="0.254" layer="15"/>
+<wire x1="44.704" y1="28.424" x2="43.41" y2="27.13" width="0.254" layer="15"/>
+<wire x1="75.946" y1="39.116" x2="75.946" y2="40.244" width="0.254" layer="15"/>
+<wire x1="45.974" y1="31.242" x2="66.294" y2="31.242" width="0.254" layer="15"/>
+<wire x1="45.974" y1="31.242" x2="44.704" y2="29.972" width="0.254" layer="15"/>
+<wire x1="44.704" y1="29.972" x2="44.704" y2="28.424" width="0.254" layer="15"/>
 <wire x1="75.28" y1="40.91" x2="75.946" y2="40.244" width="0.254" layer="1"/>
 <wire x1="99.568" y1="19.558" x2="93.472" y2="19.558" width="0.254" layer="1"/>
 <wire x1="75.946" y1="40.244" x2="75.946" y2="38.862" width="0.254" layer="1"/>
@@ -1760,6 +1821,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="91.694" y1="6.35" x2="94.742" y2="6.35" width="0.254" layer="1"/>
 <wire x1="94.742" y1="6.35" x2="96.266" y2="7.874" width="0.254" layer="1"/>
 <wire x1="96.266" y1="7.874" x2="96.266" y2="9.6774" width="0.254" layer="1"/>
+<wire x1="66.294" y1="31.242" x2="70.866" y2="35.814" width="0.254" layer="15"/>
+<wire x1="70.866" y1="35.814" x2="72.644" y2="35.814" width="0.254" layer="15"/>
+<wire x1="72.644" y1="35.814" x2="75.946" y2="39.116" width="0.254" layer="15"/>
+<contactref element="TP5" pad="1"/>
+<wire x1="43.41" y1="27.13" x2="44.45" y2="28.17" width="0.254" layer="16"/>
+<wire x1="44.45" y1="28.17" x2="44.45" y2="32.512" width="0.254" layer="16"/>
 </signal>
 <signal name="CURRENT_EXT">
 <contactref element="J6" pad="6"/>
@@ -1825,46 +1892,58 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <signal name="CANL_1">
 <contactref element="J6" pad="25"/>
 <contactref element="J10" pad="4"/>
-<wire x1="40.41" y1="27.13" x2="39.116" y2="28.424" width="0.254" layer="16"/>
-<wire x1="72.39" y1="40.02" x2="73.28" y2="40.91" width="0.254" layer="16"/>
-<wire x1="39.116" y1="28.424" x2="39.116" y2="29.718" width="0.254" layer="16"/>
-<wire x1="39.116" y1="29.718" x2="41.656" y2="32.258" width="0.254" layer="16"/>
-<wire x1="41.656" y1="32.258" x2="67.564" y2="32.258" width="0.254" layer="16"/>
-<wire x1="67.564" y1="32.258" x2="72.39" y2="37.084" width="0.254" layer="16"/>
-<wire x1="72.39" y1="37.084" x2="72.39" y2="40.02" width="0.254" layer="16"/>
+<wire x1="40.41" y1="27.13" x2="39.116" y2="28.424" width="0.254" layer="15"/>
+<wire x1="72.39" y1="40.02" x2="73.28" y2="40.91" width="0.254" layer="15"/>
+<wire x1="39.116" y1="28.424" x2="39.116" y2="29.718" width="0.254" layer="15"/>
+<wire x1="39.116" y1="29.718" x2="41.656" y2="32.258" width="0.254" layer="15"/>
+<wire x1="41.656" y1="32.258" x2="65.786" y2="32.258" width="0.254" layer="15"/>
+<wire x1="65.786" y1="32.258" x2="72.39" y2="38.862" width="0.254" layer="15"/>
+<wire x1="72.39" y1="38.862" x2="72.39" y2="40.02" width="0.254" layer="15"/>
+<contactref element="TP4" pad="1"/>
+<wire x1="40.41" y1="27.13" x2="40.41" y2="32.282" width="0.254" layer="16"/>
+<wire x1="40.41" y1="32.282" x2="40.64" y2="32.512" width="0.254" layer="16"/>
 </signal>
 <signal name="CANH_1">
 <contactref element="J6" pad="27"/>
 <contactref element="J10" pad="3"/>
-<wire x1="71.28" y1="40.91" x2="71.882" y2="40.308" width="0.254" layer="16"/>
-<wire x1="38.608" y1="28.328" x2="37.41" y2="27.13" width="0.254" layer="16"/>
-<wire x1="71.882" y1="40.308" x2="71.882" y2="37.338" width="0.254" layer="16"/>
-<wire x1="71.882" y1="37.338" x2="67.31" y2="32.766" width="0.254" layer="16"/>
-<wire x1="67.31" y1="32.766" x2="41.402" y2="32.766" width="0.254" layer="16"/>
-<wire x1="41.402" y1="32.766" x2="38.608" y2="29.972" width="0.254" layer="16"/>
-<wire x1="38.608" y1="29.972" x2="38.608" y2="28.328" width="0.254" layer="16"/>
+<wire x1="71.28" y1="40.91" x2="71.882" y2="40.308" width="0.254" layer="15"/>
+<wire x1="38.608" y1="28.328" x2="37.41" y2="27.13" width="0.254" layer="15"/>
+<wire x1="71.882" y1="40.308" x2="71.882" y2="39.116" width="0.254" layer="15"/>
+<wire x1="71.882" y1="39.116" x2="65.532" y2="32.766" width="0.254" layer="15"/>
+<wire x1="65.532" y1="32.766" x2="41.402" y2="32.766" width="0.254" layer="15"/>
+<wire x1="41.402" y1="32.766" x2="38.608" y2="29.972" width="0.254" layer="15"/>
+<wire x1="38.608" y1="29.972" x2="38.608" y2="28.328" width="0.254" layer="15"/>
+<contactref element="TP3" pad="1"/>
+<wire x1="36.83" y1="32.512" x2="37.41" y2="31.932" width="0.254" layer="16"/>
+<wire x1="37.41" y1="31.932" x2="37.41" y2="27.13" width="0.254" layer="16"/>
 </signal>
 <signal name="CANL_2">
 <contactref element="J6" pad="29"/>
 <contactref element="J10" pad="2"/>
-<wire x1="34.41" y1="27.13" x2="33.274" y2="28.266" width="0.254" layer="16"/>
-<wire x1="33.274" y1="28.266" x2="33.274" y2="29.718" width="0.254" layer="16"/>
-<wire x1="33.274" y1="29.718" x2="37.338" y2="33.782" width="0.254" layer="16"/>
-<wire x1="68.58" y1="40.21" x2="69.28" y2="40.91" width="0.254" layer="16"/>
-<wire x1="37.338" y1="33.782" x2="66.294" y2="33.782" width="0.254" layer="16"/>
-<wire x1="66.294" y1="33.782" x2="68.58" y2="36.068" width="0.254" layer="16"/>
-<wire x1="68.58" y1="36.068" x2="68.58" y2="40.21" width="0.254" layer="16"/>
+<wire x1="34.41" y1="27.13" x2="33.274" y2="28.266" width="0.254" layer="15"/>
+<wire x1="33.274" y1="28.266" x2="33.274" y2="29.718" width="0.254" layer="15"/>
+<wire x1="33.274" y1="29.718" x2="37.338" y2="33.782" width="0.254" layer="15"/>
+<wire x1="68.58" y1="40.21" x2="69.28" y2="40.91" width="0.254" layer="15"/>
+<wire x1="37.338" y1="33.782" x2="63.5" y2="33.782" width="0.254" layer="15"/>
+<wire x1="63.5" y1="33.782" x2="68.58" y2="38.862" width="0.254" layer="15"/>
+<wire x1="68.58" y1="38.862" x2="68.58" y2="40.21" width="0.254" layer="15"/>
+<contactref element="TP2" pad="1"/>
+<wire x1="34.41" y1="27.13" x2="33.02" y2="28.52" width="0.254" layer="16"/>
+<wire x1="33.02" y1="28.52" x2="33.02" y2="32.512" width="0.254" layer="16"/>
 </signal>
 <signal name="CANH_2">
 <contactref element="J6" pad="31"/>
 <contactref element="J10" pad="1"/>
-<wire x1="67.28" y1="40.91" x2="68.072" y2="40.118" width="0.254" layer="16"/>
-<wire x1="32.766" y1="28.486" x2="31.41" y2="27.13" width="0.254" layer="16"/>
-<wire x1="68.072" y1="40.118" x2="68.072" y2="36.322" width="0.254" layer="16"/>
-<wire x1="68.072" y1="36.322" x2="66.04" y2="34.29" width="0.254" layer="16"/>
-<wire x1="66.04" y1="34.29" x2="37.084" y2="34.29" width="0.254" layer="16"/>
-<wire x1="37.084" y1="34.29" x2="32.766" y2="29.972" width="0.254" layer="16"/>
-<wire x1="32.766" y1="29.972" x2="32.766" y2="28.486" width="0.254" layer="16"/>
+<wire x1="67.28" y1="40.91" x2="68.072" y2="40.118" width="0.254" layer="15"/>
+<wire x1="32.766" y1="28.486" x2="31.41" y2="27.13" width="0.254" layer="15"/>
+<wire x1="68.072" y1="40.118" x2="68.072" y2="39.116" width="0.254" layer="15"/>
+<wire x1="68.072" y1="39.116" x2="63.246" y2="34.29" width="0.254" layer="15"/>
+<wire x1="63.246" y1="34.29" x2="37.084" y2="34.29" width="0.254" layer="15"/>
+<wire x1="37.084" y1="34.29" x2="32.766" y2="29.972" width="0.254" layer="15"/>
+<wire x1="32.766" y1="29.972" x2="32.766" y2="28.486" width="0.254" layer="15"/>
+<contactref element="TP1" pad="1"/>
+<wire x1="29.21" y1="32.512" x2="31.41" y2="30.312" width="0.254" layer="16"/>
+<wire x1="31.41" y1="30.312" x2="31.41" y2="27.13" width="0.254" layer="16"/>
 </signal>
 <signal name="ECU_SDI">
 <contactref element="J7" pad="9"/>
