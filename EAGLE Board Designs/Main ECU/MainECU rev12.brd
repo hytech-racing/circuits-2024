@@ -5423,7 +5423,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="APT1608SECK/J3-PRV" x="-103.886" y="-70.104" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="40.374" y="40.64" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="D28" library="HyTechDevices" package="SOT-23" value="TVS_5V" x="67.056" y="42.672" smashed="yes" rot="R270">
+<element name="D28" library="HyTechDevices" package="SOT-23" value="TVS__5V" x="67.056" y="42.672" smashed="yes" rot="R270">
 <attribute name="DKPN" value="GSOT05-E3-08TR-ND" x="-63.754" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="-63.754" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="78-GSOT05-E3-08" x="-63.754" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5456,7 +5456,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="70.104" y="105.394" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VOLTAGE" value="30V" x="134.874" y="-31.496" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D36" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="64.008" y="96.774" smashed="yes" rot="MR180">
+<element name="D36" library="HyTechDevices" package="SOT-23" value="TVS__15V" x="64.008" y="96.774" smashed="yes" rot="MR180">
 <attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="95.758" y="227.584" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="95.758" y="227.584" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="95.758" y="227.584" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -5464,7 +5464,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="65.786" y="96.774" size="0.635" layer="26" font="vector" rot="MR270" align="top-center"/>
 <attribute name="VOLTAGE" value="15V" x="95.758" y="227.584" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="D37" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="60.452" y="91.694" smashed="yes" rot="MR90">
+<element name="D37" library="HyTechDevices" package="SOT-23" value="TVS__15V" x="60.452" y="91.694" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="-70.358" y="127.254" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="-70.358" y="127.254" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="-70.358" y="127.254" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5472,7 +5472,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="60.452" y="93.472" size="0.635" layer="26" font="vector" rot="MR180" align="top-center"/>
 <attribute name="VOLTAGE" value="15V" x="-70.358" y="127.254" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D38" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="56.896" y="91.694" smashed="yes" rot="MR180">
+<element name="D38" library="HyTechDevices" package="SOT-23" value="TVS__15V" x="56.896" y="91.694" smashed="yes" rot="MR180">
 <attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="96.266" y="222.504" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="96.266" y="222.504" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="96.266" y="222.504" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -5480,7 +5480,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="56.896" y="93.472" size="0.635" layer="26" font="vector" rot="MR180" align="top-center"/>
 <attribute name="VOLTAGE" value="15V" x="96.266" y="222.504" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="D39" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="58.928" y="96.774" smashed="yes" rot="MR0">
+<element name="D39" library="HyTechDevices" package="SOT-23" value="TVS__15V" x="58.928" y="96.774" smashed="yes" rot="MR0">
 <attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="15.748" y="-34.036" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="15.748" y="-34.036" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="15.748" y="-34.036" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -5497,7 +5497,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="93.472" y="105.394" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VOLTAGE" value="30V" x="74.422" y="240.284" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D41" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="73.406" y="64.262" smashed="yes" rot="R90">
+<element name="D41" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="73.406" y="64.262" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="209.296" y="136.652" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="209.296" y="136.652" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="209.296" y="136.652" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7910,7 +7910,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="21.54V" x="80.772" y="62.738" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="80.772" y="62.738" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D16" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="80.264" y="64.262" smashed="yes" rot="R90">
+<element name="D16" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="80.264" y="64.262" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="87.884" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="87.884" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="87.884" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7942,7 +7942,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="21.54V" x="60.198" y="58.928" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="60.198" y="58.928" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D17" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="59.69" y="64.262" smashed="yes" rot="R90">
+<element name="D17" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="59.69" y="64.262" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="67.31" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="67.31" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="67.31" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7974,7 +7974,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="21.54V" x="67.056" y="58.928" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="67.056" y="58.928" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D18" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="66.548" y="64.262" smashed="yes" rot="R90">
+<element name="D18" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="66.548" y="64.262" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="74.168" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="74.168" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="74.168" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8006,7 +8006,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="21.54V" x="107.95" y="80.264" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="107.95" y="80.264" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D19" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="102.362" y="79.502" smashed="yes">
+<element name="D19" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="102.362" y="79.502" smashed="yes">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="102.362" y="71.882" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="102.362" y="71.882" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="102.362" y="71.882" size="1.778" layer="27" display="off"/>
@@ -8038,7 +8038,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="21.54V" x="96.52" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="96.52" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D20" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="96.52" y="88.9" smashed="yes" rot="R90">
+<element name="D20" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="96.52" y="88.9" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="104.14" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="104.14" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="104.14" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8070,7 +8070,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="21.54V" x="87.376" y="86.106" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="87.376" y="86.106" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D21" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="87.376" y="88.9" smashed="yes" rot="R90">
+<element name="D21" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="87.376" y="88.9" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="94.996" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="94.996" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="94.996" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8102,7 +8102,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="21.54V" x="78.232" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="78.232" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D22" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="78.232" y="88.9" smashed="yes" rot="R90">
+<element name="D22" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="78.232" y="88.9" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="85.852" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="85.852" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="85.852" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8134,7 +8134,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="21.54V" x="69.088" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="69.088" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D23" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="69.088" y="88.9" smashed="yes" rot="R90">
+<element name="D23" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="69.088" y="88.9" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="76.708" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="76.708" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="76.708" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8166,7 +8166,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="21.54V" x="59.944" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="59.944" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D26" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="59.944" y="88.9" smashed="yes" rot="R90">
+<element name="D26" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="59.944" y="88.9" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="67.564" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="67.564" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="67.564" y="88.9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -8198,7 +8198,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="21.54V" x="87.63" y="58.928" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="87.63" y="58.928" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D27" library="HyTechDevices" package="DO-214AA" value="TVS_28VDO-214AA" x="87.122" y="64.262" smashed="yes" rot="R90">
+<element name="D27" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_28V" x="87.122" y="64.262" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ28ATR-ND" x="94.742" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="94.742" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ28A" x="94.742" y="64.262" size="1.778" layer="27" rot="R90" display="off"/>

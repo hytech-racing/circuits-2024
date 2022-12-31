@@ -6763,7 +6763,7 @@ Note: OPA991 is also a comparator</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TVS_*" prefix="D">
+<deviceset name="TVS_?_*" prefix="D">
 <description>TVS Diode
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/427/gsot03-1767593.pdf"&gt;GSOT Datasheet&lt;/a&gt;</description>
@@ -7844,7 +7844,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R42" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R43" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.55K"/>
 <part name="P192" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="D28" library="HyTechDevices" deviceset="TVS_*" device="" technology="5V"/>
+<part name="D28" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="5V"/>
 <part name="C80" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C81" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C82" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
@@ -7896,9 +7896,9 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P251" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="Q3" library="HyTechDevices" deviceset="TRANSISTOR_P_MOS_?_*" device="SOT-23" technology="DMP3056L-7" value="TRANSISTOR_P_MOS_SOT-23_DMP3056L-7"/>
 <part name="Q4" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="DMG3406L-7" value="TRANSISTOR_N_MOS__DMG3406L-7"/>
-<part name="D37" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="D37" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
 <part name="P253" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="D38" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="D38" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
 <part name="R65" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="U$7" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="R66" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
@@ -7941,9 +7941,9 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P72" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="Q5" library="HyTechDevices" deviceset="TRANSISTOR_P_MOS_?_*" device="SOT-23" technology="DMP3056L-7" value="TRANSISTOR_P_MOS_SOT-23_DMP3056L-7"/>
 <part name="Q6" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="DMG3406L-7" value="TRANSISTOR_N_MOS__DMG3406L-7"/>
-<part name="D36" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="D36" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
 <part name="P10" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="D39" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="D39" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="U$4" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
@@ -7961,7 +7961,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P63" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R16" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D41" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D41" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="K1" library="HyTechDevices" deviceset="RELAY_DPDT_*" device="SMT" technology="07D"/>
 <part name="D45" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30V"/>
 <part name="D46" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30V"/>
@@ -8251,52 +8251,52 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P174" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R129" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D16" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D16" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P178" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R130" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P179" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R131" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D17" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D17" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P180" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R132" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P181" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R133" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D18" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D18" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P286" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R134" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P287" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R135" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D19" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D19" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P288" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R136" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P289" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R137" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D20" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D20" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P290" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R138" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P291" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R139" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D21" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D21" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P292" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R140" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P293" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R141" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D22" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D22" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P294" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R142" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P295" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R143" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D23" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D23" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P296" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R144" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P297" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R145" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D26" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D26" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P298" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R146" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
 <part name="P299" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R147" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
-<part name="D27" library="HyTechDevices" deviceset="TVS_*" device="DO-214AA" technology="28V" value="TVS_28VDO-214AA"/>
+<part name="D27" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P300" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P42" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P65" library="HyTechSupplies" deviceset="GND" device=""/>
