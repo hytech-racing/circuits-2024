@@ -5577,28 +5577,28 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="42.926" y="34.036" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="K10" library="HyTechDevices" package="IM*G" value="RELAY_DPDT_07DSMT" x="86.36" y="98.044" smashed="yes" rot="R270">
-<attribute name="DKPN" value="PB2077TR-ND" x="16.51" y="23.114" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="PB2077CT-ND" x="16.51" y="23.114" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="16.51" y="23.114" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="655-3-1462039-7" x="16.51" y="23.114" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="3-1462039-7" x="16.51" y="23.114" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="84.328" y="92.456" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="K11" library="HyTechDevices" package="IM*G" value="RELAY_DPDT_07DSMT" x="77.216" y="98.044" smashed="yes" rot="R270">
-<attribute name="DKPN" value="PB2077TR-ND" x="7.366" y="-7.366" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="PB2077CT-ND" x="7.366" y="-7.366" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="7.366" y="-7.366" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="655-3-1462039-7" x="7.366" y="-7.366" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="3-1462039-7" x="7.366" y="-7.366" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="75.184" y="92.71" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="K12" library="HyTechDevices" package="IM*G" value="RELAY_DPDT_07DSMT" x="68.072" y="98.044" smashed="yes" rot="R270">
-<attribute name="DKPN" value="PB2077TR-ND" x="-19.558" y="77.724" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="PB2077CT-ND" x="-19.558" y="77.724" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="-19.558" y="77.724" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="655-3-1462039-7" x="-19.558" y="77.724" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="3-1462039-7" x="-19.558" y="77.724" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="66.04" y="92.71" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="K9" library="HyTechDevices" package="IM*G" value="RELAY_DPDT_07DSMT" x="95.504" y="98.044" smashed="yes" rot="R270">
-<attribute name="DKPN" value="PB2077TR-ND" x="25.654" y="53.594" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="PB2077CT-ND" x="25.654" y="53.594" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="25.654" y="53.594" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="655-3-1462039-7" x="25.654" y="53.594" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="3-1462039-7" x="25.654" y="53.594" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6232,7 +6232,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="45.974" y="15.24" size="0.8128" layer="21" font="vector" rot="R270" align="bottom-center"/>
 </element>
 <element name="K1" library="HyTechDevices" package="IM*G" value="RELAY_DPDT_07DSMT" x="58.928" y="98.044" smashed="yes" rot="R270">
-<attribute name="DKPN" value="PB2077TR-ND" x="58.928" y="98.044" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="PB2077CT-ND" x="58.928" y="98.044" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="58.928" y="98.044" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="655-3-1462039-7" x="58.928" y="98.044" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="3-1462039-7" x="58.928" y="98.044" size="1.778" layer="27" rot="R270" display="off"/>

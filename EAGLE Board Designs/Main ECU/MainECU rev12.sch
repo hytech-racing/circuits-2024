@@ -7300,7 +7300,7 @@ PN for the holder; if 1/3N batteries needed, order separately.
 </connects>
 <technologies>
 <technology name="07D">
-<attribute name="DKPN" value="PB2077TR-ND"/>
+<attribute name="DKPN" value="PB2077CT-ND"/>
 <attribute name="MANUFACTURER" value="TE Connectivity"/>
 <attribute name="MOPN" value="655-3-1462039-7"/>
 <attribute name="MPN" value="3-1462039-7"/>
