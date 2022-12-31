@@ -6173,10 +6173,10 @@ Layer: 94 Symbol</description>
 <part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF"/>
 <part name="J1" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="AMPHENOL_M12A_08PMMP"/>
 <part name="U4" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.5M" value="RESISTOR_0603_1.5M"/>
 <part name="P10" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U5" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
-<part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.5M" value="RESISTOR_0603_1.5M"/>
 <part name="P11" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P13" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$12" library="HyTechSupplies" deviceset="+24V" device=""/>
