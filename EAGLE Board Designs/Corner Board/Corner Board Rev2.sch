@@ -6760,11 +6760,6 @@ Layer: 94 Symbol</description>
 </net>
 <net name="SUS_POT_2" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="-78.74" x2="25.4" y2="-78.74" width="0.1524" layer="91"/>
-<label x="25.4" y="-78.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U4" gate="A" pin="VIN+"/>
 <wire x1="81.28" y1="5.08" x2="73.66" y2="5.08" width="0.1524" layer="91"/>
 <label x="71.12" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -6772,6 +6767,11 @@ Layer: 94 Symbol</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="2.54" x2="73.66" y2="5.08" width="0.1524" layer="91"/>
 <junction x="73.66" y="5.08"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="20.32" y1="-81.28" x2="25.4" y2="-81.28" width="0.1524" layer="91"/>
+<label x="25.4" y="-81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="15V" class="0">
