@@ -4651,7 +4651,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="40.894" y="8.636" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="40.894" y="8.636" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="GSOT15-E3-08" x="40.894" y="8.636" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="47.244" y="20.066" size="0.635" layer="26" font="vector" rot="MR270" align="top-center"/>
+<attribute name="NAME" x="45.339" y="21.844" size="0.635" layer="26" font="vector" rot="MR180" align="top-center"/>
 <attribute name="VOLTAGE" value="15V" x="40.894" y="8.636" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="D4" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="40.386" y="16.51" smashed="yes" rot="MR270">
