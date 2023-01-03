@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -4737,26 +4737,26 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_MAX" value="75V" x="40.894" y="21.336" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R11" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="42.672" y="23.876" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="P10KBDCT-ND" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="42.672" y="24.511" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="42.672" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R12" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="42.672" y="14.986" smashed="yes">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="P10KBDCT-ND" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="45.212" y="14.605" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="42.672" y="14.986" size="1.778" layer="27" display="off"/>
 </element>
