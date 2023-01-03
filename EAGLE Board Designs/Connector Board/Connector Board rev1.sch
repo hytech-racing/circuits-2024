@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -3528,9 +3528,73 @@ Toshiba
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
-<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
+</package>
+<package name="M12A-04PMMP">
+<description>M12A-04PMMP Amphenol Connector
+&lt;p&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/M12A-08PMMP-SF8001.pdf"&gt;Datasheet 1&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Amphenol%20PDFs/MSeries_M12%20A.B.D_Code_Product_Spec.pdf"&gt;Datasheet 2&lt;/a&gt;</description>
+<pad name="1" x="2.5" y="0" drill="1" first="yes"/>
+<pad name="2" x="0" y="2.5" drill="1"/>
+<pad name="3" x="-2.5" y="0" drill="1"/>
+<pad name="4" x="0" y="-2.5" drill="1"/>
+<circle x="0" y="0" radius="9" width="0.127" layer="21"/>
+<text x="0" y="10.652" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="5.25" width="10.5" layer="39"/>
+<circle x="0" y="0" radius="2.1" width="4.2" layer="40"/>
+<circle x="0" y="0" radius="10.3" width="0.127" layer="21"/>
+<wire x1="-5" y1="9" x2="5" y2="9" width="0.127" layer="21"/>
+<wire x1="5" y1="9" x2="10.3" y2="0" width="0.127" layer="21"/>
+<wire x1="10.3" y1="0" x2="5" y2="-9" width="0.127" layer="21"/>
+<wire x1="5" y1="-9" x2="-5" y2="-9" width="0.127" layer="21"/>
+<wire x1="-5" y1="-9" x2="-10.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-10.3" y1="0" x2="-5" y2="9" width="0.127" layer="21"/>
+</package>
+<package name="122">
+<description>Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_508_datasheet.pdf.pdf&gt;Fuse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_102_122_datasheet.pdf.pdf"&gt;Fuse Holder&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;</description>
+<pad name="1" x="-17.1069" y="0" drill="1.9812" first="yes"/>
+<pad name="2" x="-9.4742" y="0" drill="1.9812"/>
+<wire x1="-17.0942" y1="3.937" x2="-17.0942" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-17.0942" y1="3.937" x2="-9.4742" y2="3.937" width="0.127" layer="21"/>
+<wire x1="-9.4742" y1="3.937" x2="-9.4742" y2="3.175" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-9.4742" y1="3.175" x2="-9.4742" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-17.0942" y1="-3.937" x2="-9.4742" y2="-3.937" width="0.127" layer="21"/>
+<pad name="3" x="9.4996" y="0" drill="1.9812" first="yes"/>
+<pad name="4" x="17.1069" y="0" drill="1.9812"/>
+<wire x1="9.4996" y1="3.937" x2="9.4996" y2="3.175" width="0.127" layer="21" style="shortdash"/>
+<wire x1="9.4996" y1="3.175" x2="9.4996" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="9.4996" y1="3.937" x2="17.1196" y2="3.937" width="0.127" layer="21"/>
+<wire x1="17.1196" y1="3.937" x2="17.1196" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="9.4996" y1="-3.937" x2="17.1196" y2="-3.937" width="0.127" layer="21"/>
+<wire x1="-9.4742" y1="3.175" x2="9.4996" y2="3.175" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-9.398" y1="-3.175" x2="9.398" y2="-3.175" width="0.127" layer="21" style="shortdash"/>
+<rectangle x1="-19.304" y1="-4.826" x2="19.304" y2="4.318" layer="39"/>
+<text x="0" y="4.572" size="1.016" layer="21" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="POWERFLAT5X6">
+<description>PowerFLAT 5x6 Footprint for STL2N80K5
+
+
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/389/dm00092662-1798082.pdf"&gt; Datasheet&lt;/a&gt;</description>
+<smd name="D" x="0" y="1.69" dx="3.07" dy="5.4" layer="1" rot="R270"/>
+<smd name="S" x="-0.635" y="-2.835" dx="3.04" dy="0.73" layer="1"/>
+<smd name="G" x="1.905" y="-2.835" dx="0.5" dy="0.72" layer="1"/>
+<wire x1="-2.7" y1="3.175" x2="2.7" y2="3.175" width="0.127" layer="21"/>
+<wire x1="2.7" y1="3.175" x2="2.7" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="2.7" y1="-3.175" x2="-2.7" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="-3.175" x2="-2.7" y2="3.175" width="0.127" layer="21"/>
+<text x="0" y="3.556" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-3.048" y1="-3.556" x2="3.048" y2="3.556" layer="39"/>
+<circle x="0" y="3.4036" radius="0.0254" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4147,6 +4211,21 @@ Toshiba
 </technology>
 </technologies>
 </device>
+<device name="AMPHENOL_M12A_04PMMP" package="M12A-04PMMP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="1754-1007-ND " constant="no"/>
+<attribute name="MANUFACTURER" value="Amphenol" constant="no"/>
+<attribute name="MPN" value="M12A-04PMMP-SF8001" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CONNECTOR-16_?_*" prefix="J">
@@ -4234,9 +4313,16 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/215/3568-742601.pdf"&gt;Mini-Blade PTH&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/215/588-744913.pdf"&gt;Mini-Blade SMD&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_508_datasheet.pdf.pdf&gt;Fuse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_102_122_datasheet.pdf.pdf"&gt;Fuse Holder&lt;/a&gt;&lt;/li&gt;
+
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="FUSE_HOLDER" x="0" y="0"/>
+<gate name="G$1" symbol="FUSE_HOLDER" x="-17.78" y="0"/>
 </gates>
 <devices>
 <device name="SMD" package="3588">
@@ -4266,6 +4352,21 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <attribute name="MANUFACTURER" value="Keystone"/>
 <attribute name="MOPN" value="534-3568"/>
 <attribute name="MPN" value="3568"/>
+</technology>
+</technologies>
+</device>
+<device name="122" package="122">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="F3783-ND"/>
+<attribute name="FUSE_TYPE" value="1 1/4&quot; Cartridge"/>
+<attribute name="MANUFACTURER" value="Littelfuse"/>
+<attribute name="MOPN" value="576-01220088Z"/>
+<attribute name="MPN" value="01220088Z"/>
 </technology>
 </technologies>
 </device>
@@ -4330,6 +4431,17 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="0.02">
+<attribute name="DKPN" value="P17461CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-3BWFR020V"/>
+<attribute name="MPN" value="ERJ-3BWFR020V"/>
+<attribute name="POWER" value="0.33W"/>
+<attribute name="RESISTANCE" value="0.02"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.081V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
 <technology name="0.5">
 <attribute name="DKPN" value="311-.5QTR-ND"/>
@@ -4475,13 +4587,13 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="10K">
-<attribute name="DKPN" value="311-10.0KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="DKPN" value="P10KBDCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V"/>
+<attribute name="MPN" value="ERA-3ARB103V"/>
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="10k"/>
-<attribute name="TOLERANCE" value="1%"/>
+<attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
@@ -5090,6 +5202,17 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <attribute name="VOLTAGE_CONTINUOUS" value="24.29V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="50">
+<attribute name="DKPN" value="13-RT0603BRE0750RLCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RT0603BRE0750RL"/>
+<attribute name="MPN" value="RT0603BRE0750RL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="50"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="2.24V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
 <technology name="510K">
 <attribute name="DKPN" value="RHM510KAYTR-ND"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
@@ -5177,6 +5300,17 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="93.1K">
+<attribute name="DKPN" value="P20197CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B9312V"/>
+<attribute name="MPN" value="ERJ-PB3B9312V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="93.1k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="136V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
 <technology name="DNP">
 <attribute name="DKPN" value=""/>
@@ -5635,7 +5769,9 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/916/PMV15ENEA-1604828.pdf"&gt;PMV15ENEA Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/408/TK6P65W_datasheet_en_20151225-1916290.pdf"&gt;TK6P65W Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/427/sir638adp-1766131.pdf"&gt;SIR638ADP Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.diodes.com/assets/Datasheets/DMG3406L.pdf"&gt;DMG3406L Datasheet&lt;/a&gt;&lt;/li&gt;</description>
+&lt;li&gt;&lt;a href="https://www.diodes.com/assets/Datasheets/DMG3406L.pdf"&gt;DMG3406L Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/389/dm00092662-1798082.pdf"&gt; STL2N80K5&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="MOSFET_N-CHANNEL" x="0" y="0"/>
 </gates>
@@ -5694,6 +5830,21 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <attribute name="MANUFACTURER" value="Vishay Siliconix"/>
 <attribute name="MOPN" value="Vishay Siliconix"/>
 <attribute name="MPN" value="SIR638ADP-T1-RE3"/>
+</technology>
+</technologies>
+</device>
+<device name="POWERFLAT5X6" package="POWERFLAT5X6">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="STL2N80K5">
+<attribute name="DKPN" value="497-14539-1-ND"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MOPN" value="511-STL2N80K5"/>
+<attribute name="MPN" value="STL2N80K5"/>
 </technology>
 </technologies>
 </device>
@@ -5930,7 +6081,7 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 </device>
 </devices>
 </deviceset>
-<deviceset name="+24V">
+<deviceset name="+24V" prefix="P">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+24V" x="0" y="0"/>
@@ -5971,6 +6122,125 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 </deviceset>
 </devicesets>
 </library>
+<library name="HyTechExternal">
+<packages>
+</packages>
+<symbols>
+<symbol name="ORDERING">
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="0" y="-3.302" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RECEPTACLE-8_*" prefix="O">
+<description>Receptacle, 8 Pin
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/276/3/0430250808_CRIMP_HOUSINGS-2845567.pdf"&gt;Microfit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/276/4/1053081208_CRIMP_HOUSINGS-2883437.pdf"&gt;Nanofit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ORDERING" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="FLEXSTACK">
+<attribute name="DKPN" value="ZW-04-11-G-D-522-158-ND"/>
+<attribute name="MANUFACTURER" value="Samtec Inc"/>
+<attribute name="MOPN" value="200-ZW0411GD522158"/>
+<attribute name="MPN" value="ZW-04-11-G-D-522-158"/>
+</technology>
+<technology name="MICROFIT">
+<attribute name="DKPN" value="WM13210-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-43025-0808"/>
+<attribute name="MPN" value="0430250808"/>
+</technology>
+<technology name="NANOFIT">
+<attribute name="DKPN" value="WM14964-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-105308-1208"/>
+<attribute name="MPN" value="105308-1208"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RECEPTACLE-10_*" prefix="O">
+<description>Receptacle, 10 Pin
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/276/3/0430250808_CRIMP_HOUSINGS-2845567.pdf"&gt;Microfit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ORDERING" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="MICROFIT">
+<attribute name="DKPN" value="WM16255-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-43025-1008"/>
+<attribute name="MPN" value="0430251008"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RECEPTACLE-16_*" prefix="O">
+<description>Receptacle, 16 Pin
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/276/0430251600_CRIMP_HOUSINGS-142756.pdf"&gt;Microfit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ORDERING" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="MICROFIT">
+<attribute name="DKPN" value="WM2490-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-43025-1600"/>
+<attribute name="MPN" value="0430251600"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RECEPTACLE-18_*" prefix="O">
+<description>Receptacle, 18 Pin
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/276/0430251800_CRIMP_HOUSINGS-228591.pdf"&gt;Microfit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ORDERING" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="MICROFIT">
+<attribute name="DKPN" value="WM2491-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-43025-1800"/>
+<attribute name="MPN" value="0430251800"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5982,7 +6252,11 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 </classes>
 <parts>
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device="">
+<attribute name="DESIGNER_BOARD" value="Mikhail Allen"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Mikhail Allen"/>
 <attribute name="ENGINEER" value="Mikhail Allen"/>
+<attribute name="REVIEWER_BOARD" value="Liwei Sun"/>
+<attribute name="REVIEWER_SCHEMATIC" value="Liwei Sun"/>
 </part>
 <part name="J2" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
 <part name="J3" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
@@ -6049,7 +6323,9 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="J12" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK"/>
 <part name="P1" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="FRAME3" library="HyTechFrames" deviceset="FRAME" device=""/>
+<part name="FRAME3" library="HyTechFrames" deviceset="FRAME" device="">
+<attribute name="ENGINEER" value="Mikhail Allen"/>
+</part>
 <part name="U$1" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100"/>
@@ -6061,6 +6337,13 @@ All PNs for the holder; if &lt;a href="https://www.littelfuse.com/media?resource
 <part name="TP4" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP5" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="O1" library="HyTechExternal" deviceset="RECEPTACLE-8_*" device="" technology="MICROFIT"/>
+<part name="O2" library="HyTechExternal" deviceset="RECEPTACLE-8_*" device="" technology="MICROFIT"/>
+<part name="O3" library="HyTechExternal" deviceset="RECEPTACLE-8_*" device="" technology="MICROFIT"/>
+<part name="O4" library="HyTechExternal" deviceset="RECEPTACLE-8_*" device="" technology="MICROFIT"/>
+<part name="O5" library="HyTechExternal" deviceset="RECEPTACLE-10_*" device="" technology="MICROFIT"/>
+<part name="O6" library="HyTechExternal" deviceset="RECEPTACLE-16_*" device="" technology="MICROFIT"/>
+<part name="O7" library="HyTechExternal" deviceset="RECEPTACLE-18_*" device="" technology="MICROFIT"/>
 </parts>
 <sheets>
 <sheet>
@@ -7490,6 +7773,34 @@ Potentiometers:
 <attribute name="REVIEWER_FURTHER" x="227.33" y="30.48" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
+</instance>
+<instance part="O1" gate="G$1" x="27.94" y="185.42" smashed="yes">
+<attribute name="MPN" x="27.94" y="182.118" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="27.94" y="186.182" size="1.27" layer="95"/>
+</instance>
+<instance part="O2" gate="G$1" x="40.64" y="185.42" smashed="yes">
+<attribute name="MPN" x="40.64" y="182.118" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="40.64" y="186.182" size="1.27" layer="95"/>
+</instance>
+<instance part="O3" gate="G$1" x="53.34" y="185.42" smashed="yes">
+<attribute name="MPN" x="53.34" y="182.118" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="53.34" y="186.182" size="1.27" layer="95"/>
+</instance>
+<instance part="O4" gate="G$1" x="66.04" y="185.42" smashed="yes">
+<attribute name="MPN" x="66.04" y="182.118" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="66.04" y="186.182" size="1.27" layer="95"/>
+</instance>
+<instance part="O5" gate="G$1" x="27.94" y="172.72" smashed="yes">
+<attribute name="MPN" x="27.94" y="169.418" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="27.94" y="173.482" size="1.27" layer="95"/>
+</instance>
+<instance part="O6" gate="G$1" x="27.94" y="160.02" smashed="yes">
+<attribute name="MPN" x="27.94" y="156.718" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="27.94" y="160.782" size="1.27" layer="95"/>
+</instance>
+<instance part="O7" gate="G$1" x="27.94" y="147.32" smashed="yes">
+<attribute name="MPN" x="27.94" y="144.018" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="27.94" y="148.082" size="1.27" layer="95"/>
 </instance>
 </instances>
 <busses>

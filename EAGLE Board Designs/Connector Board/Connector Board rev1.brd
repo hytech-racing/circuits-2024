@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -543,9 +543,8 @@ Designed by Mikhail Allen</text>
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
-<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
 </package>
 </packages>
 </library>
@@ -4545,14 +4544,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="29.972" y="21.59" size="0.635" layer="26" font="vector" rot="MR180" align="top-center"/>
 </element>
 <element name="R5" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="37.592" y="16.51" smashed="yes" rot="MR90">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DKPN" value="P10KBDCT-ND" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="37.592" y="14.859" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="37.592" y="16.51" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
@@ -4611,14 +4610,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="40.386" y="21.844" size="0.635" layer="26" font="vector" rot="MR180" align="top-center"/>
 </element>
 <element name="R8" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="48.006" y="16.51" smashed="yes" rot="MR90">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DKPN" value="P10KBDCT-ND" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="48.006" y="14.859" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="57.15" y="9.398" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
@@ -4677,14 +4676,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="48.26" y="21.082" size="0.635" layer="26" font="vector" rot="MR180" align="top-center"/>
 </element>
 <element name="R11" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="52.07" y="19.812" smashed="yes" rot="MR90">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DKPN" value="P10KBDCT-ND" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="52.07" y="21.209" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
@@ -4697,14 +4696,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE" value="15V" x="51.054" y="16.51" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R12" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="57.15" y="16.51" smashed="yes" rot="MR90">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DKPN" value="P10KBDCT-ND" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="57.785" y="16.51" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
