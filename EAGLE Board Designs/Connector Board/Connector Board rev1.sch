@@ -5882,7 +5882,7 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="TVS_*" prefix="D">
+<deviceset name="TVS_?_*" prefix="D">
 <description>TVS Diode
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/427/gsot03-1767593.pdf"&gt;GSOT Datasheet&lt;/a&gt;</description>
@@ -5932,6 +5932,13 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
+<technology name="28V">
+<attribute name="DKPN" value="118-1.5SMBJ28ATR-ND"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="MOPN" value="652-1.5SMBJ28A"/>
+<attribute name="MPN" value="1.5SMBJ28A"/>
+<attribute name="VOLTAGE" value="28V"/>
+</technology>
 <technology name="30V">
 <attribute name="DKPN" value="118-1.5SMBJ30ATR-ND"/>
 <attribute name="MANUFACTURER" value="Bourns Inc."/>
@@ -6289,8 +6296,8 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
-<part name="D1" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
-<part name="D2" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="D1" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
+<part name="D2" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
 <part name="U$12" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P16" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="FRAME2" library="HyTechFrames" deviceset="FRAME" device="">
@@ -6301,16 +6308,16 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
-<part name="D3" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
-<part name="D4" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="D3" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
+<part name="D4" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
 <part name="U$13" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P17" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="Q5" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="DMG3406L-7"/>
 <part name="Q6" library="HyTechDevices" deviceset="TRANSISTOR_P_MOS_?_*" device="SOT-23" technology="DMP3056L-7"/>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="D5" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="D5" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="D6" library="HyTechDevices" deviceset="TVS_*" device="" technology="15V"/>
+<part name="D6" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
 <part name="P18" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P19" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K"/>

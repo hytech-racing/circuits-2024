@@ -4579,7 +4579,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="22.58V" x="32.512" y="19.558" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="32.512" y="19.558" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D1" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="35.052" y="20.066" smashed="yes" rot="MR90">
+<element name="D1" library="HyTechDevices" package="SOT-23" value="TVS__15V" x="35.052" y="20.066" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="35.052" y="20.066" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="35.052" y="20.066" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="35.052" y="20.066" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4587,7 +4587,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="36.83" y="20.066" size="0.635" layer="26" font="vector" rot="MR270" align="top-center"/>
 <attribute name="VOLTAGE" value="15V" x="35.052" y="20.066" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D2" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="29.972" y="16.256" smashed="yes" rot="MR270">
+<element name="D2" library="HyTechDevices" package="SOT-23" value="TVS__15V" x="29.972" y="16.256" smashed="yes" rot="MR270">
 <attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="29.972" y="16.256" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="29.972" y="16.256" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="29.972" y="16.256" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -4645,7 +4645,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="22.58V" x="45.974" y="6.604" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="45.974" y="6.604" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D3" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="45.466" y="20.066" smashed="yes" rot="MR90">
+<element name="D3" library="HyTechDevices" package="SOT-23" value="TVS__15V" x="45.466" y="20.066" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="40.894" y="8.636" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="40.894" y="8.636" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="40.894" y="8.636" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4653,7 +4653,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="45.339" y="21.844" size="0.635" layer="26" font="vector" rot="MR180" align="top-center"/>
 <attribute name="VOLTAGE" value="15V" x="40.894" y="8.636" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D4" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="40.386" y="16.51" smashed="yes" rot="MR270">
+<element name="D4" library="HyTechDevices" package="SOT-23" value="TVS__15V" x="40.386" y="16.51" smashed="yes" rot="MR270">
 <attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="44.958" y="35.56" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="44.958" y="35.56" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="44.958" y="35.56" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -4687,7 +4687,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="52.07" y="19.812" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D5" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="51.054" y="16.51" smashed="yes" rot="MR270">
+<element name="D5" library="HyTechDevices" package="SOT-23" value="TVS__15V" x="51.054" y="16.51" smashed="yes" rot="MR270">
 <attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="51.054" y="16.51" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="51.054" y="16.51" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="51.054" y="16.51" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -4707,7 +4707,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="61.722" y="17.018" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="D6" library="HyTechDevices" package="SOT-23" value="TVS_15V" x="54.61" y="20.066" smashed="yes" rot="MR90">
+<element name="D6" library="HyTechDevices" package="SOT-23" value="TVS__15V" x="54.61" y="20.066" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="GSOT15-E3-08CT-ND" x="56.134" y="16.256" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Vishay General Semiconductor - Diodes Division" x="56.134" y="16.256" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="78-GSOT15-E3-08" x="56.134" y="16.256" size="1.778" layer="28" rot="MR90" display="off"/>
