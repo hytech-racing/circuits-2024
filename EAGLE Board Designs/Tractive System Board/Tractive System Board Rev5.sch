@@ -6210,17 +6210,6 @@ Based on page 10.</description>
 <rectangle x1="-3.302" y1="-2.286" x2="3.302" y2="2.286" layer="39"/>
 <wire x1="3.302" y1="1.524" x2="3.302" y2="-1.524" width="0.254" layer="21"/>
 </package>
-<package name="SOD323F">
-<smd name="C" x="-0.995" y="0" dx="0.71" dy="0.403" layer="1"/>
-<smd name="A" x="0.995" y="0" dx="0.71" dy="0.403" layer="1"/>
-<wire x1="-0.85" y1="0.625" x2="-0.85" y2="-0.625" width="0.1524" layer="21"/>
-<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.1524" layer="21"/>
-<wire x1="0.85" y1="-0.625" x2="0.85" y2="0.625" width="0.1524" layer="21"/>
-<wire x1="0.85" y1="0.625" x2="-0.85" y2="0.625" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="0.55" x2="-0.508" y2="-0.55" width="0.1524" layer="21"/>
-<text x="0" y="0.762" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-1.524" y1="-1.016" x2="1.524" y2="1.016" layer="39"/>
-</package>
 <package name="SOD123F">
 <description>SOD123F Footprint
 &lt;br&gt;
@@ -6424,6 +6413,36 @@ Based on page 10.</description>
 <text x="0" y="3.81" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-6.35" y1="-3.3655" x2="-3.556" y2="3.3655" layer="40"/>
 <rectangle x1="3.556" y1="-3.3655" x2="6.35" y2="3.3655" layer="40"/>
+</package>
+<package name="SOURIAU_02-05">
+<description>Souriau 5 pin connector
+&lt;br&gt;
+8STA20205SE
+&lt;br&gt;
+&lt;a href="http://www.souriau.co.jp/material/8sta.pdf" &gt;Catalog&lt;/a&gt;
+&lt;br&gt;
+&lt;a href ="https://usa.souriau.com/en-en/system/files/application/downloads/8sta_high_density_datasheet.pdf" &gt;Datasheet&lt;/a&gt;</description>
+<pad name="1" x="0" y="1.45" drill="0.8" diameter="1.2" first="yes"/>
+<pad name="2" x="1.38" y="0.45" drill="0.8" diameter="1.2"/>
+<pad name="3" x="0.85" y="-1.18" drill="0.8" diameter="1.2"/>
+<pad name="4" x="-0.85" y="-1.18" drill="0.8" diameter="1.2"/>
+<pad name="5" x="-1.38" y="0.45" drill="0.8" diameter="1.2"/>
+<circle x="0" y="0" radius="2" width="4" layer="40"/>
+<circle x="0" y="0" radius="3" width="6" layer="39"/>
+<text x="0" y="6.1" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="4.493259375" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="4" width="0.127" layer="22"/>
+<circle x="0" y="0" radius="6" width="0.127" layer="21"/>
+<hole x="5.409365625" y="5.409365625" drill="2.9"/>
+<circle x="5.409365625" y="5.409365625" radius="3" width="0" layer="39"/>
+<circle x="5.409365625" y="5.409365625" radius="3" width="0" layer="40"/>
+<circle x="5.409365625" y="5.409365625" radius="3" width="0" layer="41"/>
+<circle x="5.409365625" y="5.409365625" radius="3" width="0" layer="42"/>
+<hole x="-5.409365625" y="-5.409365625" drill="2.9"/>
+<circle x="-5.409365625" y="-5.409365625" radius="3" width="0" layer="39"/>
+<circle x="-5.409365625" y="-5.409365625" radius="3" width="0" layer="40"/>
+<circle x="-5.409365625" y="-5.409365625" radius="3" width="0" layer="41"/>
+<circle x="-5.409365625" y="-5.409365625" radius="3" width="0" layer="42"/>
 </package>
 </packages>
 <symbols>
@@ -7144,13 +7163,13 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="10K">
-<attribute name="DKPN" value="311-10.0KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="DKPN" value="P10KBDCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V"/>
+<attribute name="MPN" value="ERA-3ARB103V"/>
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="10k"/>
-<attribute name="TOLERANCE" value="1%"/>
+<attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
@@ -7757,6 +7776,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="RESISTANCE" value="5.9k"/>
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="24.29V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="50">
+<attribute name="DKPN" value="13-RT0603BRE0750RLCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RT0603BRE0750RL"/>
+<attribute name="MPN" value="RT0603BRE0750RL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="50"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="2.24V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="510K">
@@ -9192,7 +9222,7 @@ ISO224B: High-Grade
 </device>
 </devices>
 </deviceset>
-<deviceset name="TVS_*" prefix="D">
+<deviceset name="TVS_?_*" prefix="D">
 <description>TVS Diode
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/427/gsot03-1767593.pdf"&gt;GSOT Datasheet&lt;/a&gt;</description>
@@ -9242,27 +9272,19 @@ ISO224B: High-Grade
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
+<technology name="28V">
+<attribute name="DKPN" value="118-1.5SMBJ28ATR-ND"/>
+<attribute name="MANUFACTURER" value="Bourns Inc."/>
+<attribute name="MOPN" value="652-1.5SMBJ28A"/>
+<attribute name="MPN" value="1.5SMBJ28A"/>
+<attribute name="VOLTAGE" value="28V"/>
+</technology>
 <technology name="30V">
 <attribute name="DKPN" value="118-1.5SMBJ30ATR-ND"/>
 <attribute name="MANUFACTURER" value="Bourns Inc."/>
 <attribute name="MOPN" value="652-1.5SMBJ30A"/>
 <attribute name="MPN" value=" 1.5SMBJ30A"/>
 <attribute name="VOLTAGE" value="30V"/>
-</technology>
-</technologies>
-</device>
-<device name="SOD323F" package="SOD323F">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="MM3Z75VBTR-ND"/>
-<attribute name="MANUFACTURER" value="ONSEMI"/>
-<attribute name="MOPN" value=""/>
-<attribute name="MPN" value="MM3Z75VB"/>
-<attribute name="VOLTAGE" value="75V"/>
 </technology>
 </technologies>
 </device>
@@ -9334,6 +9356,21 @@ ISO224B: High-Grade
 <technology name="">
 <attribute name="MANUFACTURER" value="Molex"/>
 <attribute name="MPN" value="2165713007"/>
+</technology>
+</technologies>
+</device>
+<device name="AS_PCT" package="SOURIAU_02-05">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Souriau"/>
+<attribute name="MPN" value="8STA20205PE"/>
 </technology>
 </technologies>
 </device>
@@ -9992,7 +10029,7 @@ Isolated Flyback Controller
 </device>
 </devices>
 </deviceset>
-<deviceset name="+24V">
+<deviceset name="+24V" prefix="P">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+24V" x="0" y="0"/>
@@ -10361,7 +10398,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_"/>
 <part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF" value="CAPACITOR_0603_50V_10NF"/>
 <part name="C12" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF" value="CAPACITOR_0603_50V_10NF"/>
-<part name="D7" library="HyTechDevices" deviceset="TVS_*" device="" technology="8V" value="TVS_8V"/>
+<part name="D7" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="8V" value="TVS__8V"/>
 <part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_1UF" value="CAPACITOR_0603_50V_1UF"/>
 <part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
 <part name="P3" library="HyTechSupplies" deviceset="+24V" device=""/>
