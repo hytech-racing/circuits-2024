@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -631,16 +631,15 @@ Note: Also works for CAT/CAY16 Series.
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
-<text x="0" y="1.27" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
 </package>
 <package name="NEOPIXEL">
 <description>IN-PI55QATPRPGPBPW-40
 &lt;br&gt;
 Neopixel RGBW LED
 &lt;br&gt;
-&lt;a href="https://www.digikey.com/en/products/detail/inolux/IN-PI55QATPRPGPBPW-40/9681240"&gt;Datasheet&lt;/a&gt;</description>
+&lt;a href="https://www.mouser.com/datasheet/2/180/IN-PI55QATPRPGPBPW-XX_v1.3-1667471.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="3" x="2.35" y="-1.6" dx="1.2" dy="1.5" layer="1" rot="R270" thermals="no"/>
 <smd name="2" x="-2.35" y="-1.6" dx="1.2" dy="1.5" layer="1" rot="R270" thermals="no"/>
 <smd name="1" x="-2.35" y="1.6" dx="1.2" dy="1.5" layer="1" rot="R270" thermals="no"/>
@@ -652,6 +651,7 @@ Neopixel RGBW LED
 <text x="-3.492" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
 <circle x="0" y="0" radius="1" width="0.127" layer="21"/>
 <rectangle x1="-2.794" y1="-2.794" x2="2.794" y2="2.794" layer="39"/>
+<circle x="2.921" y="-3.175" radius="0.0762" width="0.2032" layer="21"/>
 </package>
 <package name="SOIC-08(NARROW,0.15&quot;)">
 <description>SOIC-8
@@ -5233,7 +5233,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="DSM7TA56106T" x="415.29" y="384.81" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="499.618" y="435.61" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
-<element name="D3" library="HyTechDevices" package="DO-214AA" value="TVS_30VDO-214AA" x="681.99" y="426.72" smashed="yes" rot="R90">
+<element name="D3" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_30V" x="681.99" y="426.72" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ30ATR-ND" x="763.27" y="511.81" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="763.27" y="511.81" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ30A" x="763.27" y="511.81" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5241,7 +5241,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="679.704" y="426.72" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" value="30V" x="763.27" y="511.81" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D4" library="HyTechDevices" package="DO-214AA" value="TVS_30VDO-214AA" x="669.29" y="426.72" smashed="yes" rot="R90">
+<element name="D4" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_30V" x="669.29" y="426.72" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ30ATR-ND" x="750.57" y="519.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="750.57" y="519.43" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ30A" x="750.57" y="519.43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5249,7 +5249,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="667.004" y="426.72" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" value="30V" x="750.57" y="519.43" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D5" library="HyTechDevices" package="DO-214AA" value="TVS_30VDO-214AA" x="675.64" y="426.72" smashed="yes" rot="R90">
+<element name="D5" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_30V" x="675.64" y="426.72" smashed="yes" rot="R90">
 <attribute name="DKPN" value="118-1.5SMBJ30ATR-ND" x="769.62" y="443.23" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="769.62" y="443.23" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ30A" x="769.62" y="443.23" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5257,7 +5257,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="673.354" y="426.72" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" value="30V" x="769.62" y="443.23" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="D6" library="HyTechDevices" package="DO-214AA" value="TVS_30VDO-214AA" x="662.813" y="438.785" smashed="yes">
+<element name="D6" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_30V" x="662.813" y="438.785" smashed="yes">
 <attribute name="DKPN" value="118-1.5SMBJ30ATR-ND" x="686.943" y="344.805" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="686.943" y="344.805" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ30A" x="686.943" y="344.805" size="1.778" layer="27" display="off"/>
@@ -5328,14 +5328,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_MAX" value="50V" x="679.45" y="323.342" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R11" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="580.39" y="447.04" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="P10KBDCT-ND" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="580.39" y="446.405" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="519.43" y="556.26" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -5537,56 +5537,56 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="627.38" y="421.132" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="SIGNAL" value="GND" x="627.38" y="425.45" size="0.8128" layer="21" font="vector" align="bottom-center"/>
 </element>
-<element name="U1" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="509.27" y="447.04" smashed="yes" rot="MR90">
+<element name="U1" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="509.27" y="447.04" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="415.29" y="478.79" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="415.29" y="478.79" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="415.29" y="478.79" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="415.29" y="478.79" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="512.762" y="447.04" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
-<element name="U10" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="626.11" y="452.12" smashed="yes" rot="MR90">
+<element name="U10" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="626.11" y="452.12" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="532.13" y="546.1" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="532.13" y="546.1" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="532.13" y="546.1" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="532.13" y="546.1" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="626.11" y="448.628" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U11" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="626.11" y="439.42" smashed="yes" rot="MR90">
+<element name="U11" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="626.11" y="439.42" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="525.78" y="455.93" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="525.78" y="455.93" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="525.78" y="455.93" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="525.78" y="455.93" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="626.11" y="435.928" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U12" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="626.11" y="426.72" smashed="yes" rot="MR90">
+<element name="U12" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="626.11" y="426.72" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="525.78" y="452.12" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="525.78" y="452.12" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="525.78" y="452.12" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="525.78" y="452.12" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="626.11" y="423.228" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U13" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="562.61" y="452.12" smashed="yes" rot="MR90">
+<element name="U13" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="562.61" y="452.12" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="462.28" y="486.41" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="462.28" y="486.41" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="462.28" y="486.41" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="462.28" y="486.41" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="562.61" y="448.628" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U14" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="562.61" y="439.42" smashed="yes" rot="MR90">
+<element name="U14" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="562.61" y="439.42" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="462.28" y="482.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="462.28" y="482.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="462.28" y="482.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="462.28" y="482.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="562.61" y="435.928" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U15" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="562.61" y="426.72" smashed="yes" rot="MR90">
+<element name="U15" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="562.61" y="426.72" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="462.28" y="478.79" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="462.28" y="478.79" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="462.28" y="478.79" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="462.28" y="478.79" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="562.61" y="423.228" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U2" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="509.27" y="436.88" smashed="yes" rot="MR90">
+<element name="U2" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="509.27" y="436.88" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="415.29" y="477.52" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="415.29" y="477.52" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="415.29" y="477.52" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5607,7 +5607,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="MCP23S08-E/SS" x="657.86" y="466.09" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="574.04" y="432.816" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="U4" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="509.27" y="426.72" smashed="yes" rot="MR90">
+<element name="U4" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="509.27" y="426.72" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="415.29" y="476.25" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="415.29" y="476.25" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="415.29" y="476.25" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5621,28 +5621,28 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value=" RE46C100S8TF" x="491.49" y="389.89" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="574.04" y="447.675" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="U6" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="693.42" y="444.5" smashed="yes" rot="MR90">
+<element name="U6" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="693.42" y="444.5" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="599.44" y="502.92" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="599.44" y="502.92" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="599.44" y="502.92" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="599.44" y="502.92" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="693.42" y="441.008" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U7" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="683.26" y="438.15" smashed="yes" rot="MR90">
+<element name="U7" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="683.26" y="438.15" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="589.28" y="505.46" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="589.28" y="505.46" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="589.28" y="505.46" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="589.28" y="505.46" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="683.26" y="434.658" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U8" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="673.1" y="431.8" smashed="yes" rot="MR90">
+<element name="U8" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="673.1" y="431.8" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="579.12" y="508" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="579.12" y="508" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="579.12" y="508" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="579.12" y="508" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="673.1" y="428.308" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
-<element name="U9" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL" x="662.94" y="425.45" smashed="yes" rot="MR90">
+<element name="U9" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="662.94" y="425.45" smashed="yes" rot="MR90">
 <attribute name="DKPN" value="1830-1210-2-ND" x="568.96" y="510.54" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER" value="Inolux" x="568.96" y="510.54" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="568.96" y="510.54" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -6894,6 +6894,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="2,20,14f21e95710e4235"/>
+<approved hash="2,20,5f7b6a09cefdfb8f"/>
+<approved hash="2,20,4518329eb8201433"/>
+<approved hash="2,20,5e5ee87ae9ceb241"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
