@@ -597,9 +597,8 @@ Notes: See page 47</description>
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="-2.032" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
-<text x="0" y="1.27" size="1.016" layer="21" font="vector" align="bottom-center">&gt;SIGNAL</text>
 </package>
 <package name="3568">
 <description>Mini-Blade Fuse Holder
@@ -635,6 +634,23 @@ Notes: See page 47</description>
 <rectangle x1="1.261" y1="-0.75" x2="1.661" y2="-0.5" layer="21"/>
 </package>
 <package name="DIP-4">
+<description>DIP-4 Footprint
+&lt;br&gt;
+&lt;a href="https://toshiba.semicon-storage.com/us/semiconductor/design-development/package/detail.DIP4(LF1).html"&gt;Footprint Documentation
+&lt;/a&gt;</description>
+<smd name="3" x="-1.27" y="4.15" dx="1.5" dy="1.9" layer="1"/>
+<smd name="4" x="1.27" y="4.15" dx="1.5" dy="1.9" layer="1"/>
+<smd name="1" x="-1.27" y="-4.15" dx="1.5" dy="1.9" layer="1"/>
+<smd name="2" x="1.27" y="-4.15" dx="1.5" dy="1.9" layer="1"/>
+<wire x1="-2.39" y1="3.2" x2="-2.39" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="-2.39" y1="-3.2" x2="2.39" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="2.39" y1="-3.2" x2="2.39" y2="3.2" width="0.1524" layer="21"/>
+<wire x1="2.39" y1="3.2" x2="-2.39" y2="3.2" width="0.1524" layer="21"/>
+<text x="-3.81" y="0" size="1.27" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<circle x="-3.175" y="-3.81" radius="0.381" width="0" layer="21"/>
+<rectangle x1="-3.556" y1="-6.096" x2="3.556" y2="6.096" layer="39"/>
+</package>
+<package name="DIP-4@1">
 <smd name="3" x="-1.27" y="4.15" dx="1.5" dy="1.9" layer="1"/>
 <smd name="4" x="1.27" y="4.15" dx="1.5" dy="1.9" layer="1"/>
 <smd name="1" x="-1.27" y="-4.15" dx="1.5" dy="1.9" layer="1"/>
@@ -7208,7 +7224,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </pass>
 </autorouter>
 <elements>
-<element name="A2" library="HyTechDevices" package="TEENSY_SHORT" value="TEENSY_4.0" x="8.89" y="60.96" smashed="yes" rot="R270">
+<element name="A2" library="HyTechDevices" package="TEENSY_SHORT" value="TEENSY_4.0TH" x="8.89" y="60.96" smashed="yes" rot="R270">
 <attribute name="TEENSY" value="4.0" x="9.779" y="53.34" size="2.032" layer="21" font="vector" rot="R90" align="center"/>
 </element>
 <element name="A1" library="HyTechDevices" package="TEENSY_LONG_EXT" value="TEENSY_4.1" x="8.89" y="81.28" smashed="yes" rot="R270">
@@ -7284,7 +7300,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="10%" x="-95.3516" y="-47.2948" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="-95.3516" y="-47.2948" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D5" library="HyTechDevices" package="DO-214AA" value="TVS_30VDO-214AA" x="3.7084" y="9.271" smashed="yes">
+<element name="D5" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_30V" x="3.7084" y="9.271" smashed="yes">
 <attribute name="DKPN" value="118-1.5SMBJ30ATR-ND" x="84.9884" y="-88.519" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="84.9884" y="-88.519" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ30A" x="84.9884" y="-88.519" size="1.778" layer="27" display="off"/>
@@ -7725,21 +7741,21 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="APT1608VBC/D" x="18.161" y="36.0934" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.5928" y="35.3434" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="K1" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT_RT424024" x="74.93" y="43.942" smashed="yes">
+<element name="K1" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT_RT424024TH" x="74.93" y="43.942" smashed="yes">
 <attribute name="DKPN" value="PB969-ND" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="655-RT424024" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RT424024" x="74.93" y="43.942" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="81.788" y="49.1236" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="K2" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT_RT424024" x="74.93" y="30.48" smashed="yes">
+<element name="K2" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT_RT424024TH" x="74.93" y="30.48" smashed="yes">
 <attribute name="DKPN" value="PB969-ND" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="655-RT424024" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RT424024" x="74.93" y="30.48" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="81.6102" y="32.3342" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="K3" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT_RT424024" x="74.93" y="17.018" smashed="yes">
+<element name="K3" library="HyTechDevices" package="RT*2*" value="RELAY_DPDT_RT424024TH" x="74.93" y="17.018" smashed="yes">
 <attribute name="DKPN" value="PB969-ND" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="655-RT424024" x="74.93" y="17.018" size="1.778" layer="27" display="off"/>
@@ -7767,17 +7783,17 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE" value="10V" x="11.684" y="36.576" size="1.778" layer="27" display="off"/>
 </element>
 <element name="POWER" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_02_DUAL" value="CONNECTOR-2_μF_T_V_" x="3.937" y="15.875" smashed="yes" rot="R90">
-<attribute name="DKPN" value="WM10657-ND" x="3.937" y="15.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DKPN" value="WM12762-ND" x="3.937" y="15.875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="3.937" y="15.875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOPN" value="538-43045-0227" x="3.937" y="15.875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="0430450227" x="3.937" y="15.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOPN" value="538-43650-0217" x="3.937" y="15.875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="436500217" x="3.937" y="15.875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.9182" y="19.4056" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="SHDN_BTN" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_02_DUAL" value="CONNECTOR-2_μF_T_V_" x="74.676" y="4.572" smashed="yes" rot="R180">
-<attribute name="DKPN" value="WM10657-ND" x="74.676" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="WM12762-ND" x="74.676" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="74.676" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="538-43045-0227" x="74.676" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="0430450227" x="74.676" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="538-43650-0217" x="74.676" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="436500217" x="74.676" y="4.572" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="70.9422" y="6.858" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
 <element name="U2" library="HyTechDevices" package="SOT-23-5" value="ADM8316WBX30" x="29.21" y="41.021" smashed="yes">
@@ -7786,28 +7802,30 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MOPN" value="584-M8316WBX30ARJZR7" x="29.21" y="41.021" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ADM8316WBX30ARJZR7" x="29.21" y="41.021" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="29.21" y="38.6842" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="RESET_VOLTAGE" value="3V" x="29.21" y="41.021" size="1.778" layer="27" display="off"/>
+<attribute name="TIMEOUT" value="102ms" x="29.21" y="41.021" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R28" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="21.717" y="41.275" smashed="yes" rot="R270">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="P10KBDCT-ND" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="21.4884" y="42.799" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="21.717" y="41.275" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R29" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="34.417" y="40.767" smashed="yes" rot="R270">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="P10KBDCT-ND" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="35.0266" y="42.2656" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="34.417" y="40.767" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -7865,6 +7883,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </element>
 <element name="XF1" library="HyTechDevices" package="3568" value="FUSE_HOLDER_MINIBLADEPTH" x="26.416" y="22.098" smashed="yes" rot="R90">
 <attribute name="DKPN" value="36-3568-ND" x="26.416" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FUSE_TYPE" value="MINI 297" x="26.416" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone" x="26.416" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="534-3568" x="26.416" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="3568" x="26.416" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7872,6 +7891,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </element>
 <element name="XF2" library="HyTechDevices" package="3568" value="FUSE_HOLDER_MINIBLADEPTH" x="35.306" y="22.098" smashed="yes" rot="R90">
 <attribute name="DKPN" value="36-3568-ND" x="35.306" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FUSE_TYPE" value="MINI 297" x="35.306" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone" x="35.306" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOPN" value="534-3568" x="35.306" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="3568" x="35.306" y="22.098" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7946,14 +7966,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="26.0096" y="42.8244" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
 <element name="R30" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="21.7932" y="38.0746" smashed="yes" rot="R90">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DKPN" value="P10KBDCT-ND" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="21.4884" y="36.4998" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RESISTANCE" value="10k" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="21.7932" y="38.0746" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -8116,7 +8136,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="5015" x="69.342" y="55.499" size="1.778" layer="27" display="off"/>
 <attribute name="SIGNAL" value="SHDN_F" x="69.342" y="56.769" size="0.8128" layer="21" font="vector" align="bottom-center"/>
 </element>
-<element name="U$4" library="HyTechDevices" package="DIP-4" value="RELAY_SOLIDSTATE_NO" x="35.8902" y="34.1376" smashed="yes" rot="R270">
+<element name="U$4" library="HyTechDevices" package="DIP-4@1" value="RELAY_SOLIDSTATE_NO" x="35.8902" y="34.1376" smashed="yes" rot="R270">
 <attribute name="DKPN" value="255-1436-5-ND" x="35.8902" y="34.1376" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="AQY214EHA" x="35.8902" y="34.1376" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="769-AQY214EHA" x="35.8902" y="34.1376" size="1.778" layer="27" rot="R270" display="off"/>
@@ -8137,7 +8157,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="90120-1082 " x="17.78" y="13.8176" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="17.8308" y="15.494" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="D101" library="HyTechDevices" package="DO-214AA" value="TVS_30VDO-214AA" x="34.29" y="13.208" smashed="yes" rot="MR180">
+<element name="D101" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_30V" x="34.29" y="13.208" smashed="yes" rot="MR180">
 <attribute name="DKPN" value="118-1.5SMBJ30ATR-ND" x="34.29" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="34.29" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ30A" x="34.29" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -8145,7 +8165,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="34.29" y="11.176" size="0.635" layer="26" font="vector" rot="MR0" align="top-center"/>
 <attribute name="VOLTAGE" value="30V" x="34.29" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="D102" library="HyTechDevices" package="DO-214AA" value="TVS_30VDO-214AA" x="25.4" y="13.208" smashed="yes" rot="MR180">
+<element name="D102" library="HyTechDevices" package="DO-214AA" value="TVS_DO-214AA_30V" x="25.4" y="13.208" smashed="yes" rot="MR180">
 <attribute name="DKPN" value="118-1.5SMBJ30ATR-ND" x="25.4" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns Inc." x="25.4" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MOPN" value="652-1.5SMBJ30A" x="25.4" y="13.208" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -8167,9 +8187,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MOPN" value="604-APT1608ZGCK" x="84.328" y="51.7398" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="APT1608ZGCK" x="84.328" y="51.7398" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$100" library="HyTechDevices" package="DIP-4" value="RELAY_SOLIDSTATE_NO" x="42.3164" y="17.4752" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="255-1436-5-ND" x="42.3164" y="17.4752" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="AQY214EHA" x="42.3164" y="17.4752" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="U$100" library="HyTechDevices" package="DIP-4" value="RELAY_SOLIDSTATE_NO_DIP-4" x="42.3164" y="17.4752" smashed="yes" rot="MR0">
+<attribute name="DKPN" value="255-1436-5-ND " x="42.3164" y="17.4752" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="42.3164" y="17.4752" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOPN" value="769-AQY214EHA" x="42.3164" y="17.4752" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="AQY214EHA" x="42.3164" y="17.4752" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="44.8564" y="14.3002" size="0.8128" layer="26" rot="MR90"/>
