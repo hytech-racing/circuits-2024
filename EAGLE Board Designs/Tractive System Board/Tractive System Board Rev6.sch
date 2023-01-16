@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -6444,6 +6445,45 @@ Based on page 10.</description>
 <circle x="-5.409365625" y="-5.409365625" radius="3" width="0" layer="41"/>
 <circle x="-5.409365625" y="-5.409365625" radius="3" width="0" layer="42"/>
 </package>
+<package name="A759KR">
+<description>A759KR Series Aluminium Hybrid Electrolytic Capacitor &lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;a/&gt;</description>
+<pad name="PLUS" x="-1.75" y="0" drill="0.65"/>
+<pad name="MINUS" x="1.75" y="0" drill="0.65"/>
+<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
+<text x="4.88" y="0" size="1.778" layer="21" align="center">-</text>
+<text x="-4.87" y="0" size="1.778" layer="21" align="center">+</text>
+<text x="0" y="4.27" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="2" width="4" layer="39"/>
+<circle x="-1.75" y="0" radius="0.5" width="1" layer="40"/>
+<circle x="1.75" y="0" radius="0.5" width="1" layer="40"/>
+</package>
+<package name="EEH-AZS">
+<description>EEH-AZS Aluminum Polymer-Hybrid Electrolytic Capacitor
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pad name="PLUS" x="-2.5" y="0" drill="1"/>
+<pad name="MINUS" x="2.5" y="0" drill="1"/>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
+<text x="6" y="0" size="1.778" layer="21" align="center">-</text>
+<text x="-6" y="0" size="1.778" layer="21" align="center">+</text>
+<text x="0" y="6" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="3" width="6" layer="39"/>
+<circle x="-2.54" y="0" radius="0.508" width="1.016" layer="40"/>
+<circle x="2.54" y="0" radius="0.508" width="1.016" layer="40"/>
+</package>
+<package name="EEU-FP1E*">
+<description>EEUFP1E Aluminum Electrolytic Capacitor &lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/RDF0000C1260-1391675.pdf"&gt;Datasheet&lt;a/&gt;</description>
+<pad name="PLUS" x="-2.49999375" y="0" drill="0.650240625" first="yes"/>
+<pad name="MINUS" x="2.49999375" y="0" drill="0.650240625"/>
+<circle x="0" y="0" radius="4.99871875" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="5.6796125" width="0" layer="39"/>
+<circle x="0" y="0" radius="5.6796125" width="0" layer="40"/>
+<text x="0" y="5.715" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-6.223" y="0" size="0.8128" layer="21" align="center">+</text>
+<text x="6.223" y="0" size="0.8128" layer="21" align="center">-</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE_HOLDER">
@@ -6879,6 +6919,18 @@ Isolated Flyback Controller
 <rectangle x1="-2.794" y1="-0.254" x2="1.27" y2="0.254" layer="94" rot="R270"/>
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="CAPACITOR_POLARIZED">
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
+<text x="-1.27" y="2.54" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-3.81" y1="-0.254" x2="0.254" y2="0.254" layer="94" rot="R270"/>
+<pin name="MINUS" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="PLUS" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<text x="-3.175" y="1.27" size="1.778" layer="94" rot="R90" align="center">+</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="96" align="top-center">&gt;VOLTAGE</text>
+<text x="-1.27" y="-4.318" size="1.27" layer="96" align="top-center">&gt;CAPACITANCE</text>
+<wire x1="1.0414" y1="1.778" x2="1.016" y2="-1.778" width="0.508" layer="94" curve="180" cap="flat"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9839,6 +9891,75 @@ Isolated Flyback Controller
 </device>
 </devices>
 </deviceset>
+<deviceset name="CAPACITOR_ELECTROLYTIC_?_*" prefix="C">
+<description>A759 Series Aluminium Hybrid Electrolytic Capacitor &lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/212/KEM_A4072_A759-1104329.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+EEH_AZS Hybrid Electrolytic Capacitor &lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;&lt;br&gt;
+EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/315/RDF0000C1260-1391675.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A759KR" package="A759KR">
+<connects>
+<connect gate="G$1" pin="MINUS" pad="MINUS"/>
+<connect gate="G$1" pin="PLUS" pad="PLUS"/>
+</connects>
+<technologies>
+<technology name="180UF">
+<attribute name="CAPACITANCE" value="180uF"/>
+<attribute name="DKPN" value="399-A759KR187M1VAAE024-ND"/>
+<attribute name="ESR" value="24mOhms"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOPN" value="80-A759KR187M1VAAE24"/>
+<attribute name="MPN" value="A759KR187M1VAAE024"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="35V"/>
+</technology>
+</technologies>
+</device>
+<device name="EEH_AZS" package="EEH-AZS">
+<connects>
+<connect gate="G$1" pin="MINUS" pad="MINUS"/>
+<connect gate="G$1" pin="PLUS" pad="PLUS"/>
+</connects>
+<technologies>
+<technology name="470UF">
+<attribute name="CAPACITANCE" value="470uF"/>
+<attribute name="DKPN" value="10-EEH-AZS1V471BCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-EEH-AZS1V471B"/>
+<attribute name="MPN" value="EEH-AZS1V471B"/>
+<attribute name="TOLERANCE" value="20&amp;"/>
+<attribute name="VOLTAGE" value="35V"/>
+</technology>
+</technologies>
+</device>
+<device name="EEU-FP1E" package="EEU-FP1E*">
+<connects>
+<connect gate="G$1" pin="MINUS" pad="MINUS"/>
+<connect gate="G$1" pin="PLUS" pad="PLUS"/>
+</connects>
+<technologies>
+<technology name="680UF">
+<attribute name="CAPACITANCE" value="680uF"/>
+<attribute name="DPKN" value="P123947-ND"/>
+<attribute name="ESR" value="0.068 Ohms"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-EEU-FP1E681"/>
+<attribute name="MPN" value="EEU-FP1E681"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -10216,134 +10337,6 @@ Isolated Flyback Controller
 </deviceset>
 </devicesets>
 </library>
-<library name="HyTechTemp">
-<packages>
-<package name="A759">
-<description>A759 Series Aluminium Hybrid Electrolytic Capacitor &lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;a/&gt;</description>
-<pad name="PLUS" x="-1" y="0" drill="0.65"/>
-<pad name="MINUS" x="1" y="0" drill="0.65"/>
-<circle x="0" y="0" radius="2.5" width="0.127" layer="21"/>
-<text x="3.11" y="0" size="1.778" layer="21" align="center">-</text>
-<text x="-3.6" y="0" size="1.778" layer="21" align="center">+</text>
-<text x="0" y="3" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
-<circle x="0" y="0" radius="1.5" width="3.1" layer="39"/>
-<circle x="-1" y="0" radius="0.5" width="1" layer="40"/>
-<circle x="1" y="0" radius="0.5" width="1" layer="40"/>
-</package>
-<package name="EEH-AZS">
-<description>EEH-AZS Aluminum Polymer-Hybrid Electrolytic Capacitor
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<pad name="PLUS" x="-2.5" y="0" drill="1"/>
-<pad name="MINUS" x="2.5" y="0" drill="1"/>
-<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
-<text x="6" y="0" size="1.778" layer="21" align="center">-</text>
-<text x="-6" y="0" size="1.778" layer="21" align="center">+</text>
-<text x="0" y="6" size="1.27" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
-<circle x="0" y="0" radius="3" width="6" layer="39"/>
-<circle x="-2.54" y="0" radius="0.508" width="1.016" layer="40"/>
-<circle x="2.54" y="0" radius="0.508" width="1.016" layer="40"/>
-</package>
-<package name="EEU-FP1E*">
-<description>EEUFP1E Aluminum Electrolytic Capacitor &lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/315/RDF0000C1260-1391675.pdf"&gt;Datasheet&lt;a/&gt;</description>
-<pad name="PLUS" x="-2.49999375" y="0" drill="0.650240625" first="yes"/>
-<pad name="MINUS" x="2.49999375" y="0" drill="0.650240625"/>
-<circle x="0" y="0" radius="4.99871875" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="5.6796125" width="0" layer="39"/>
-<circle x="0" y="0" radius="5.6796125" width="0" layer="40"/>
-<text x="0" y="5.715" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-6.223" y="0" size="0.8128" layer="21" align="center">+</text>
-<text x="6.223" y="0" size="0.8128" layer="21" align="center">-</text>
-</package>
-</packages>
-<symbols>
-<symbol name="CAPACITOR_POLARIZED">
-<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
-<text x="-1.27" y="2.54" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-3.81" y1="-0.254" x2="0.254" y2="0.254" layer="94" rot="R270"/>
-<pin name="MINUS" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="PLUS" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<text x="-3.175" y="1.27" size="1.778" layer="94" rot="R90" align="center">+</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="96" align="top-center">&gt;VOLTAGE</text>
-<text x="-1.27" y="-4.318" size="1.27" layer="96" align="top-center">&gt;CAPACITANCE</text>
-<wire x1="1.0414" y1="1.778" x2="1.016" y2="-1.778" width="0.508" layer="94" curve="180" cap="flat"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CAPACITOR_ELECTROLYTIC_?_*" prefix="C">
-<description>A759 Series Aluminium Hybrid Electrolytic Capacitor &lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;&lt;br&gt;
-EEH_AZS Hybrid Electrolytic Capacitor &lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/315/DMD0000COL92-1141863.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;&lt;br&gt;
-EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/315/RDF0000C1260-1391675.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAPACITOR_POLARIZED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="A759" package="A759">
-<connects>
-<connect gate="G$1" pin="MINUS" pad="MINUS"/>
-<connect gate="G$1" pin="PLUS" pad="PLUS"/>
-</connects>
-<technologies>
-<technology name="180UF">
-<attribute name="CAPACITANCE" value="180uF"/>
-<attribute name="DKPN" value="399-A759KR187M1VAAE024-ND"/>
-<attribute name="ESR" value="24mOhms"/>
-<attribute name="MANUFACTURER" value="KEMET"/>
-<attribute name="MOPN" value="80-A759KR187M1VAAE24"/>
-<attribute name="MPN" value="A759KR187M1VAAE024"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="VOLTAGE" value="25V"/>
-</technology>
-</technologies>
-</device>
-<device name="EEH_AZS" package="EEH-AZS">
-<connects>
-<connect gate="G$1" pin="MINUS" pad="MINUS"/>
-<connect gate="G$1" pin="PLUS" pad="PLUS"/>
-</connects>
-<technologies>
-<technology name="470UF">
-<attribute name="CAPACITANCE" value="470uF"/>
-<attribute name="DKPN" value="10-EEH-AZS1V471BCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-EEH-AZS1V471B"/>
-<attribute name="MPN" value="EEH-AZS1V471B"/>
-<attribute name="TOLERANCE" value="20&amp;"/>
-<attribute name="VOLTAGE" value="35V"/>
-</technology>
-</technologies>
-</device>
-<device name="EEU-FP1E" package="EEU-FP1E*">
-<connects>
-<connect gate="G$1" pin="MINUS" pad="MINUS"/>
-<connect gate="G$1" pin="PLUS" pad="PLUS"/>
-</connects>
-<technologies>
-<technology name="680UF">
-<attribute name="CAPACITANCE" value="680uF"/>
-<attribute name="DPKN" value="P123947-ND"/>
-<attribute name="ESR" value="0.068 Ohms"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-EEU-FP1E681"/>
-<attribute name="MPN" value="EEU-FP1E681"/>
-<attribute name="TOLERANCE" value="20%"/>
-<attribute name="VOLTAGE" value="25V"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10538,12 +10531,12 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="U$6" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="C4" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_4.7UF"/>
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10"/>
-<part name="C3" library="HyTechTemp" deviceset="CAPACITOR_ELECTROLYTIC_?_*" device="A759" technology="180UF"/>
 <part name="P24" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_4.7UF"/>
 <part name="Q2" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="PMV15ENEA"/>
 <part name="CV1" library="HyTechDevices" deviceset="CAPACITOR_VALUE" device=""/>
 <part name="R36" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
+<part name="C28" library="HyTechDevices" deviceset="CAPACITOR_ELECTROLYTIC_?_*" device="A759KR" technology="180UF"/>
 </parts>
 <sheets>
 <sheet>
@@ -10889,11 +10882,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <attribute name="NAME" x="128.27" y="166.37" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="128.27" y="163.83" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C3" gate="G$1" x="223.774" y="173.99" smashed="yes" rot="R270">
-<attribute name="NAME" x="226.314" y="175.26" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="VOLTAGE" x="221.234" y="175.26" size="1.27" layer="96" rot="R270" align="top-center"/>
-<attribute name="CAPACITANCE" x="219.456" y="175.26" size="1.27" layer="96" rot="R270" align="top-center"/>
-</instance>
 <instance part="C6" gate="G$1" x="66.04" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.5" y="148.59" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="68.58" y="148.59" size="1.27" layer="96" rot="R90" align="top-center"/>
@@ -10906,6 +10894,11 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <instance part="R36" gate="G$1" x="182.88" y="187.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="181.61" y="186.69" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="184.15" y="186.69" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C28" gate="G$1" x="223.774" y="173.99" smashed="yes" rot="R270">
+<attribute name="NAME" x="226.314" y="175.26" size="1.27" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VOLTAGE" x="221.234" y="175.26" size="1.27" layer="96" rot="R270" align="top-center"/>
+<attribute name="CAPACITANCE" x="219.456" y="175.26" size="1.27" layer="96" rot="R270" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11080,12 +11073,12 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <wire x1="233.68" y1="180.34" x2="223.774" y2="180.34" width="0.4064" layer="91"/>
 <wire x1="223.774" y1="180.34" x2="212.09" y2="180.34" width="0.4064" layer="91"/>
 <wire x1="201.93" y1="180.34" x2="201.93" y2="188.214" width="0.4064" layer="91"/>
-<pinref part="C3" gate="G$1" pin="PLUS"/>
 <wire x1="223.774" y1="179.07" x2="223.774" y2="180.34" width="0.4064" layer="91"/>
 <junction x="223.774" y="180.34"/>
 <pinref part="CV1" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="182.88" x2="195.58" y2="180.34" width="0.4064" layer="91"/>
 <junction x="195.58" y="180.34"/>
+<pinref part="C28" gate="G$1" pin="PLUS"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -11236,10 +11229,10 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <wire x1="212.09" y1="170.18" x2="201.93" y2="170.18" width="0.4064" layer="91"/>
 <junction x="201.93" y="170.18"/>
 <junction x="201.93" y="170.18"/>
-<pinref part="C3" gate="G$1" pin="MINUS"/>
 <wire x1="223.774" y1="171.45" x2="223.774" y2="170.18" width="0.4064" layer="91"/>
 <junction x="223.774" y="170.18"/>
 <label x="187.96" y="167.64" size="1.778" layer="95"/>
+<pinref part="C28" gate="G$1" pin="MINUS"/>
 </segment>
 <segment>
 <wire x1="17.78" y1="25.4" x2="20.32" y2="25.4" width="0.6096" layer="91"/>
