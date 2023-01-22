@@ -646,6 +646,18 @@
 <wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
 <pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="+24V">
+<pin name="+24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.905" x2="0" y2="3.81" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="P">
@@ -713,6 +725,19 @@
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+12V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+24V" prefix="P">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+24V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3813,7 +3838,7 @@ Layer: 94 Symbol</description>
 <part name="AIR+" library="HyTechSymbols" deviceset="RELAY_SPST_NO_?*" device="" value="RELAY_SPST_NO_">
 <attribute name="MPN" value="GX23CA"/>
 </part>
-<part name="MAIN_FUSE" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="175A"/>
+<part name="MAIN_FUSE" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="125A"/>
 <part name="U$17" library="HyTechSymbolsTemp" deviceset="PRECHARGER" device=""/>
 <part name="PRECHARGE" library="HyTechSymbols" deviceset="RELAY_SPST_NO_?*" device="" technology="DAR72410" value="RELAY_SPST_NO_DAR72410"/>
 <part name="P11" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -3917,6 +3942,7 @@ Layer: 94 Symbol</description>
 <part name="DISCHARGE_RES1" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
 <part name="DISCHARGE_RES2" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
 <part name="J1" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800"/>
+<part name="P7" library="HyTechSupplies" deviceset="+24V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4354,6 +4380,9 @@ Connection</text>
 <attribute name="MPN" x="76.2" y="60.325" size="1.27" layer="96" align="top-left"/>
 <attribute name="MANUFACTURER" x="76.2" y="69.342" size="1.27" layer="96"/>
 </instance>
+<instance part="P7" gate="G$1" x="134.62" y="119.38" smashed="yes">
+<attribute name="VALUE" x="134.62" y="124.46" size="1.27" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4616,11 +4645,6 @@ Connection</text>
 <pinref part="DISCHARGE" gate="G$1" pin="COIL+"/>
 <wire x1="30.48" y1="104.14" x2="27.94" y2="104.14" width="0.0762" layer="91"/>
 <label x="27.94" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$17" gate="G$1" pin="VDD"/>
-<wire x1="132.08" y1="114.3" x2="134.62" y2="114.3" width="0.0762" layer="91"/>
-<label x="134.62" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="139.7" x2="55.88" y2="139.7" width="0.1524" layer="91"/>
@@ -5181,6 +5205,14 @@ Connection</text>
 <pinref part="S2" gate="SPST" pin="P"/>
 <pinref part="F3" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="U$17" gate="G$1" pin="VDD"/>
+<wire x1="132.08" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="114.3" x2="134.62" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="P7" gate="G$1" pin="+24V"/>
 </segment>
 </net>
 </nets>

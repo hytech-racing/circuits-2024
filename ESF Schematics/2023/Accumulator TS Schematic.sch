@@ -971,13 +971,17 @@ METER</text>
 <wire x1="2.032" y1="0.762" x2="2.286" y2="0.762" width="0.254" layer="94"/>
 <wire x1="3.81" y1="0.762" x2="3.556" y2="0.762" width="0.254" layer="94"/>
 </symbol>
-<symbol name="+5V">
-<text x="0" y="2.54" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<symbol name="+24V">
+<pin name="+24V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
-<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="0.635" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.905" x2="0" y2="3.81" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1055,10 +1059,10 @@ METER</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+5V" prefix="P">
+<deviceset name="+24V" prefix="P">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="1" symbol="+5V" x="0" y="0"/>
+<gate name="G$1" symbol="+24V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3706,7 +3710,7 @@ Layer: 94 Symbol</description>
 <attribute name="REVIEWER_SCHEMATIC" value="Zekun Li"/>
 </part>
 <part name="P12" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P15" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P15" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="U$7" library="HyTechSymbolsTemp" deviceset="MAINTENANCE_PLUG_*" device="" technology="104742-2"/>
 <part name="U$8" library="HyTechSymbolsTemp" deviceset="MAINTENANCE_PLUG_*" device="" technology="104742-2"/>
 <part name="U$9" library="HyTechSymbolsTemp" deviceset="MAINTENANCE_PLUG_*" device="" technology="104742-2"/>
@@ -3934,8 +3938,8 @@ well before TS voltage reaches 60V</text>
 <instance part="P12" gate="1" x="71.12" y="182.88" smashed="yes">
 <attribute name="VALUE" x="71.12" y="181.61" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P15" gate="1" x="71.12" y="190.5" smashed="yes">
-<attribute name="VALUE" x="71.12" y="193.04" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P15" gate="G$1" x="71.12" y="190.5" smashed="yes">
+<attribute name="VALUE" x="71.12" y="195.58" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U$7" gate="G$1" x="93.98" y="180.34" smashed="yes" rot="MR270">
 <attribute name="MANUFACTURER" x="91.948" y="180.34" size="1.27" layer="96" rot="MR270"/>
@@ -4444,7 +4448,7 @@ well before TS voltage reaches 60V</text>
 <segment>
 <pinref part="U$11" gate="G$1" pin="VDD"/>
 <wire x1="66.04" y1="187.96" x2="71.12" y2="187.96" width="0.0762" layer="91"/>
-<pinref part="P15" gate="1" pin="+5V"/>
+<pinref part="P15" gate="G$1" pin="+24V"/>
 </segment>
 </net>
 <net name="N$45" class="0">
