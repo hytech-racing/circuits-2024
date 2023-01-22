@@ -3544,10 +3544,6 @@ Filter</text>
 <part name="R16" library="HyTechSymbols" deviceset="RESISTOR" device="" value="43K"/>
 <part name="U6" library="HyTechSymbols" deviceset="OPAMP" device=""/>
 <part name="U7" library="HyTechSymbols" deviceset="OPAMP" device=""/>
-<part name="R19" library="HyTechSymbols" deviceset="RESISTOR" device="" value="100k"/>
-<part name="R20" library="HyTechSymbols" deviceset="RESISTOR" device="" value="100K"/>
-<part name="U$3" library="HyTechSupplies" deviceset="+24V" device=""/>
-<part name="U$4" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="U$6" library="HyTechSymbols" deviceset="FILTER_ACTIVE" device="" technology="1KHZ"/>
 <part name="P3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P25" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -3763,20 +3759,6 @@ Filter</text>
 </instance>
 <instance part="U6" gate="G$1" x="175.26" y="147.32" smashed="yes"/>
 <instance part="U7" gate="G$1" x="149.86" y="180.34" smashed="yes"/>
-<instance part="R19" gate="G$1" x="76.2" y="190.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.93" y="189.23" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="77.47" y="189.23" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R20" gate="G$1" x="76.2" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.93" y="153.67" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="77.47" y="153.67" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="U$3" gate="G$1" x="76.2" y="198.12" smashed="yes">
-<attribute name="VALUE" x="76.2" y="203.2" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="U$4" gate="G$1" x="76.2" y="162.56" smashed="yes">
-<attribute name="VALUE" x="76.2" y="167.64" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="U$6" gate="G$1" x="124.46" y="116.84" smashed="yes">
 <attribute name="MANUFACTURER" x="124.46" y="118.11" size="1.778" layer="97"/>
 <attribute name="MPN" x="124.46" y="93.98" size="1.778" layer="97"/>
@@ -4155,10 +4137,7 @@ Filter</text>
 <wire x1="78.74" y1="182.88" x2="76.2" y2="182.88" width="0.0762" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <label x="55.88" y="182.88" size="1.27" layer="95"/>
-<pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="182.88" x2="58.42" y2="182.88" width="0.2286" layer="91"/>
-<wire x1="76.2" y1="185.42" x2="76.2" y2="182.88" width="0.0762" layer="91"/>
-<junction x="76.2" y="182.88"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -4184,10 +4163,7 @@ Filter</text>
 <wire x1="58.42" y1="147.32" x2="76.2" y2="147.32" width="0.2286" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <label x="55.88" y="147.32" size="1.27" layer="95"/>
-<pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="147.32" x2="78.74" y2="147.32" width="0.0762" layer="91"/>
-<wire x1="76.2" y1="149.86" x2="76.2" y2="147.32" width="0.0762" layer="91"/>
-<junction x="76.2" y="147.32"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -4279,16 +4255,6 @@ Filter</text>
 </segment>
 </net>
 <net name="+24V" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="+24V"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="160.02" x2="76.2" y2="157.48" width="0.0762" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="+24V"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="195.58" x2="76.2" y2="193.04" width="0.0762" layer="91"/>
-</segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="266.7" y1="129.54" x2="266.7" y2="139.7" width="0.0762" layer="91"/>
