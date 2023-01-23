@@ -3562,8 +3562,10 @@ TSMP Circuitry</text>
 <wire x1="25.4" y1="10.16" x2="35.56" y2="10.16" width="0.1524" layer="94"/>
 <text x="12.7" y="10.16" size="1.778" layer="97" align="top-left">Direct
 Connection</text>
-<text x="151.13" y="72.39" size="1.27" layer="97" rot="R90">140mm</text>
-<text x="159.004" y="72.39" size="1.27" layer="97" rot="R90">140mm</text>
+<text x="151.13" y="72.39" size="1.27" layer="97" rot="R90">250mm</text>
+<text x="159.004" y="72.39" size="1.27" layer="97" rot="R90">250mm</text>
+<text x="157.48" y="88.9" size="1.27" layer="97">80mm</text>
+<text x="166.624" y="72.39" size="1.27" layer="97" rot="R90">130mm</text>
 </plain>
 <instances>
 <instance part="U$3" gate="G$1" x="58.42" y="99.06" smashed="yes">
