@@ -3767,6 +3767,7 @@ Layer: 94 Symbol</description>
 <part name="U$29" library="HyTechSymbols" deviceset="FLYBACK_CONVERTER" device=""/>
 <part name="U$30" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$41" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
+<part name="U$42" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3801,7 +3802,7 @@ Layer: 94 Symbol</description>
 <text x="101.6" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="88.9" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="38.1" y="96.52" size="1.27" layer="97" align="top-left">PCB Trace</text>
-<text x="40.64" y="142.24" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="45.72" y="142.24" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="22.86" y="157.48" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="17.78" y="180.34" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="68.58" y="177.8" size="1.27" layer="97" align="top-left">PCB Trace</text>
@@ -3809,9 +3810,9 @@ Layer: 94 Symbol</description>
 <text x="93.98" y="88.9" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="83.82" y="175.26" size="1.27" layer="97" align="top-left">17.5mm^2</text>
 <text x="195.58" y="144.78" size="1.27" layer="97" rot="R90" align="top-left">PCB Trace</text>
-<text x="232.156" y="84.836" size="1.27" layer="97" rot="R180" align="top-right">22AWG</text>
+<text x="241.808" y="84.582" size="1.27" layer="97" rot="R180" align="top-right">22AWG</text>
 <text x="129.54" y="198.12" size="1.27" layer="97" align="top-left">22AWG</text>
-<text x="93.98" y="202.184" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="86.36" y="202.184" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="96.52" y="48.26" size="1.778" layer="97">(Busbar)</text>
 <wire x1="5.08" y1="58.42" x2="5.08" y2="22.86" width="0.8128" layer="97" style="shortdash"/>
 <wire x1="5.08" y1="22.86" x2="78.74" y2="22.86" width="0.8128" layer="97" style="shortdash"/>
@@ -3843,11 +3844,12 @@ Connection</text>
 <text x="220.98" y="170.18" size="1.27" layer="97" align="top-left">PCB Trace</text>
 <text x="218.44" y="129.54" size="2.032" layer="97">Note: Flyback converter turns on 
 well before TS voltage reaches 60V</text>
-<text x="241.3" y="81.28" size="1.27" layer="97">&gt;150mm, fused by R23</text>
+<text x="241.3" y="79.502" size="1.27" layer="97">&gt;150mm, fused by R23 
+(1/8W 0603 resistor)</text>
 <text x="19.304" y="188.976" size="1.27" layer="97">60mm</text>
 <text x="19.304" y="175.514" size="1.27" layer="97">50mm</text>
-<text x="87.884" y="203.962" size="1.27" layer="97">60mm</text>
-<text x="49.53" y="138.938" size="1.27" layer="97" rot="R180">140mm</text>
+<text x="86.36" y="203.962" size="1.27" layer="97">60mm</text>
+<text x="45.974" y="137.668" size="1.27" layer="97">100mm</text>
 <text x="106.426" y="92.202" size="1.27" layer="97">80mm</text>
 <text x="106.426" y="86.868" size="1.27" layer="97">90mm</text>
 <text x="37.084" y="82.296" size="1.27" layer="97">60mm</text>
@@ -4127,6 +4129,9 @@ well before TS voltage reaches 60V</text>
 <instance part="U$41" gate="G$1" x="208.28" y="124.46" smashed="yes">
 <attribute name="VALUE" x="208.28" y="129.54" size="1.27" layer="96" align="bottom-center"/>
 </instance>
+<instance part="U$42" gate="G$1" x="43.18" y="142.24" smashed="yes">
+<attribute name="VALUE" x="43.18" y="147.32" size="1.27" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4227,16 +4232,11 @@ well before TS voltage reaches 60V</text>
 </net>
 <net name="TS+UNFUSED" class="0">
 <segment>
-<pinref part="U$14" gate="G$1" pin="HV+IN"/>
-<wire x1="38.1" y1="152.4" x2="17.78" y2="152.4" width="0.4445" layer="91"/>
-<wire x1="53.34" y1="139.7" x2="38.1" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="139.7" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
-<junction x="38.1" y="152.4"/>
+<wire x1="50.8" y1="152.4" x2="17.78" y2="152.4" width="0.4445" layer="91"/>
 <label x="25.4" y="154.94" size="1.27" layer="95" align="top-left"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="152.4" x2="17.78" y2="149.86" width="0.4445" layer="91"/>
 <pinref part="AIR+" gate="G$1" pin="CONTACT1"/>
-<wire x1="38.1" y1="152.4" x2="50.8" y2="152.4" width="0.4445" layer="91"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
@@ -4680,32 +4680,32 @@ well before TS voltage reaches 60V</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="OUTP"/>
 <pinref part="A1" gate="G$1" pin="OUTPB"/>
-<wire x1="223.52" y1="162.56" x2="223.52" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="167.64" x2="228.6" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="162.56" x2="223.52" y2="167.64" width="0.0762" layer="91"/>
+<wire x1="223.52" y1="167.64" x2="228.6" y2="167.64" width="0.0762" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUTN"/>
 <pinref part="A1" gate="G$1" pin="OUTNB"/>
-<wire x1="223.52" y1="157.48" x2="228.6" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="157.48" x2="228.6" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="157.48" x2="228.6" y2="157.48" width="0.0762" layer="91"/>
+<wire x1="228.6" y1="157.48" x2="228.6" y2="162.56" width="0.0762" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="OUTP"/>
 <pinref part="A1" gate="G$1" pin="OUTPA"/>
-<wire x1="223.52" y1="182.88" x2="228.6" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="182.88" x2="228.6" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="182.88" x2="228.6" y2="182.88" width="0.0762" layer="91"/>
+<wire x1="228.6" y1="182.88" x2="228.6" y2="177.8" width="0.0762" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="OUTN"/>
 <pinref part="A1" gate="G$1" pin="OUTNA"/>
-<wire x1="223.52" y1="177.8" x2="223.52" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="172.72" x2="228.6" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="177.8" x2="223.52" y2="172.72" width="0.0762" layer="91"/>
+<wire x1="223.52" y1="172.72" x2="228.6" y2="172.72" width="0.0762" layer="91"/>
 </segment>
 </net>
 <net name="TS+FUSED" class="0">
@@ -4713,6 +4713,11 @@ well before TS voltage reaches 60V</text>
 <pinref part="U$41" gate="G$1" pin="TS+FUSED"/>
 <pinref part="U$29" gate="G$1" pin="TS+"/>
 <wire x1="208.28" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$14" gate="G$1" pin="HV+IN"/>
+<wire x1="53.34" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="U$42" gate="G$1" pin="TS+FUSED"/>
 </segment>
 </net>
 <net name="TS-FUSED" class="0">
