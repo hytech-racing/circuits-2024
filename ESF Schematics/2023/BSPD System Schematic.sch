@@ -4079,13 +4079,6 @@ Filter</text>
 </net>
 <net name="BRAKE_HIGH" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="VOUT"/>
-<wire x1="180.34" y1="81.28" x2="203.2" y2="81.28" width="0.0762" layer="91"/>
-<label x="180.34" y="81.28" size="1.27" layer="95"/>
-<pinref part="U9" gate="G$1" pin="IN2"/>
-<wire x1="203.2" y1="142.24" x2="203.2" y2="81.28" width="0.0762" layer="91"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
 <wire x1="180.34" y1="101.6" x2="190.5" y2="101.6" width="0.0762" layer="91"/>
 <label x="177.8" y="99.06" size="1.27" layer="95"/>
@@ -4409,6 +4402,15 @@ Filter</text>
 <pinref part="U13" gate="G$1" pin="IN1"/>
 <wire x1="187.96" y1="175.26" x2="193.04" y2="175.26" width="0.0762" layer="91"/>
 <label x="177.8" y="111.76" size="1.27" layer="95"/>
+</segment>
+</net>
+<net name="BRAKE_PRESSED" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VOUT"/>
+<wire x1="180.34" y1="81.28" x2="203.2" y2="81.28" width="0.0762" layer="91"/>
+<label x="180.34" y="81.28" size="1.27" layer="95"/>
+<pinref part="U9" gate="G$1" pin="IN2"/>
+<wire x1="203.2" y1="142.24" x2="203.2" y2="81.28" width="0.0762" layer="91"/>
 </segment>
 </net>
 </nets>

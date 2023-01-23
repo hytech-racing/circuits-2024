@@ -3802,7 +3802,7 @@ Layer: 94 Symbol</description>
 <text x="101.6" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="88.9" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="38.1" y="96.52" size="1.27" layer="97" align="top-left">PCB Trace</text>
-<text x="45.72" y="142.24" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="45.72" y="142.24" size="1.27" layer="97" align="top-left">16AWG</text>
 <text x="22.86" y="157.48" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="17.78" y="180.34" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="68.58" y="177.8" size="1.27" layer="97" align="top-left">PCB Trace</text>
