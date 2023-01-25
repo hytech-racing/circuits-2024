@@ -506,7 +506,7 @@ Based on page 10.</description>
 <vertex x="1" y="0.785"/>
 <vertex x="1" y="3.665"/>
 </polygon>
-<polygon width="0" layer="29" spacing="0.1">
+<polygon width="0" layer="29" spacing="0.1" pour="hatch">
 <vertex x="-1.1" y="3.765"/>
 <vertex x="-1.1" y="0.714"/>
 <vertex x="-0.361" y="0.004"/>
@@ -918,13 +918,18 @@ Dashed line is edge of mated connector.</description>
 <text x="0" y="10.652" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <circle x="0" y="0" radius="5.25" width="10.5" layer="39"/>
 <circle x="0" y="0" radius="2.1" width="4.2" layer="40"/>
-<circle x="0" y="0" radius="10.3" width="0.127" layer="21"/>
-<wire x1="-5" y1="9" x2="5" y2="9" width="0.127" layer="21"/>
-<wire x1="5" y1="9" x2="10.3" y2="0" width="0.127" layer="21"/>
-<wire x1="10.3" y1="0" x2="5" y2="-9" width="0.127" layer="21"/>
-<wire x1="5" y1="-9" x2="-5" y2="-9" width="0.127" layer="21"/>
-<wire x1="-5" y1="-9" x2="-10.3" y2="0" width="0.127" layer="21"/>
-<wire x1="-10.3" y1="0" x2="-5" y2="9" width="0.127" layer="21"/>
+<wire x1="0" y1="10.3" x2="8.89" y2="5.15" width="0.127" layer="21"/>
+<wire x1="8.89" y1="5.15" x2="8.89" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-5.15" x2="0" y2="-10.3" width="0.127" layer="21"/>
+<wire x1="0" y1="-10.3" x2="-8.89" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-5.15" x2="-8.89" y2="5.15" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="5.15" x2="0" y2="10.3" width="0.127" layer="21"/>
+<wire x1="3.81" y1="5.08" x2="2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="2.54" y2="3.81" width="0.127" layer="21" curve="-180"/>
+<circle x="0" y="0" radius="7.184203125" width="0.127" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="3.81" y2="5.08" width="0.127" layer="21" curve="-343.739795"/>
+<circle x="2.68990625" y="0.57175625" radius="1.27" width="0.127" layer="21"/>
 </package>
 <package name="B2B-PH-K">
 <description>B2B-PH-K
@@ -1004,13 +1009,28 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <text x="0" y="10.652" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <circle x="0" y="0" radius="5.25" width="10.5" layer="39"/>
 <circle x="0" y="0" radius="2.1" width="4.2" layer="40"/>
-<circle x="0" y="0" radius="10.3" width="0.127" layer="21"/>
-<wire x1="-5" y1="9" x2="5" y2="9" width="0.127" layer="21"/>
-<wire x1="5" y1="9" x2="10.3" y2="0" width="0.127" layer="21"/>
-<wire x1="10.3" y1="0" x2="5" y2="-9" width="0.127" layer="21"/>
-<wire x1="5" y1="-9" x2="-5" y2="-9" width="0.127" layer="21"/>
-<wire x1="-5" y1="-9" x2="-10.3" y2="0" width="0.127" layer="21"/>
-<wire x1="-10.3" y1="0" x2="-5" y2="9" width="0.127" layer="21"/>
+<wire x1="0" y1="10.3" x2="8.89" y2="5.15" width="0.127" layer="21"/>
+<wire x1="8.89" y1="5.15" x2="8.89" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-5.15" x2="0" y2="-10.3" width="0.127" layer="21"/>
+<wire x1="0" y1="-10.3" x2="-8.89" y2="-5.15" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-5.15" x2="-8.89" y2="5.15" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="5.15" x2="0" y2="10.3" width="0.127" layer="21"/>
+<wire x1="3.81" y1="5.08" x2="2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="2.54" y2="3.81" width="0.127" layer="21" curve="-180"/>
+<wire x1="5.08" y1="3.81" x2="3.81" y2="5.08" width="0.127" layer="21" curve="-343.739795"/>
+<circle x="0" y="0" radius="7.184203125" width="0.127" layer="21"/>
+<circle x="2.5" y="0" radius="1.27" width="0.127" layer="21"/>
+</package>
+<package name="1812-CAP">
+<smd name="1" x="-2.15" y="0" dx="1.6" dy="3.6" layer="1"/>
+<smd name="2" x="2.15" y="0" dx="1.6" dy="3.6" layer="1"/>
+<wire x1="-2.5" y1="1.6" x2="2.5" y2="1.6" width="0.254" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="-1.6" width="0.254" layer="21"/>
+<wire x1="2.5" y1="-1.6" x2="-2.5" y2="-1.6" width="0.254" layer="21"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.5" y2="1.6" width="0.254" layer="21"/>
+<text x="0" y="2.286" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-3.556" y1="-2.286" x2="3.556" y2="2.286" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -1236,11 +1256,6 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <attribute name="DKPN" value="1754-1007-ND " constant="no"/>
 <attribute name="MANUFACTURER" value="Amphenol" constant="no"/>
 <attribute name="MPN" value="M12A-04PMMP-SF8001" constant="no"/>
-</technology>
-<technology name="M12-4P">
-<attribute name="DKPN" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1534,6 +1549,17 @@ Note: OPA991 is also a comparator</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="0.02">
+<attribute name="DKPN" value="P17461CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-3BWFR020V"/>
+<attribute name="MPN" value="ERJ-3BWFR020V"/>
+<attribute name="POWER" value="0.33W"/>
+<attribute name="RESISTANCE" value="0.02"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.081V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
 <technology name="0.5">
 <attribute name="DKPN" value="311-.5QTR-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -1678,13 +1704,13 @@ Note: OPA991 is also a comparator</description>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="10K">
-<attribute name="DKPN" value="311-10.0KHRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL"/>
-<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="DKPN" value="P10KBDCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V"/>
+<attribute name="MPN" value="ERA-3ARB103V"/>
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="10k"/>
-<attribute name="TOLERANCE" value="1%"/>
+<attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
@@ -2293,6 +2319,17 @@ Note: OPA991 is also a comparator</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="24.29V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="50">
+<attribute name="DKPN" value="13-RT0603BRE0750RLCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RT0603BRE0750RL"/>
+<attribute name="MPN" value="RT0603BRE0750RL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="50"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="2.24V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
 <technology name="510K">
 <attribute name="DKPN" value="RHM510KAYTR-ND"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
@@ -2380,6 +2417,17 @@ Note: OPA991 is also a comparator</description>
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="93.1K">
+<attribute name="DKPN" value="P20197CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B9312V"/>
+<attribute name="MPN" value="ERJ-PB3B9312V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="93.1k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="136V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
 <technology name="DNP">
 <attribute name="DKPN" value=""/>
@@ -2849,6 +2897,7 @@ Note: OPA991 is also a comparator</description>
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf"&gt; KEMET X7R Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/40/C0GNP0_Dielectric-951274.pdf"&gt;Kyocera AVX&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/281/1/GRM21BR61H106KE43_01A-1986884.pdf"&gt;GRM21BR61H&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/212/KEM_C1034_X7R_HV_ARC_SMD-1101730.pdf"&gt;C1812W104KDRACTU&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
@@ -3040,6 +3089,15 @@ Note: OPA991 is also a comparator</description>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </technology>
+<technology name="25V_4.7UF">
+<attribute name="CAPACITANCE" value="4.7uF"/>
+<attribute name="DKPN" value="445-9050-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-C1608X5R1E475K"/>
+<attribute name="MPN" value=" C1608X5R1E475K080AC"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
 <technology name="25V_47NF">
 <attribute name="CAPACITANCE" value="47nF"/>
 <attribute name="DKPN" value="478-6340-1-ND"/>
@@ -3109,6 +3167,15 @@ Note: OPA991 is also a comparator</description>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MOPN" value="187-CL10B471JB8NNNC"/>
 <attribute name="MPN" value="CL10B471JB8NNNC"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="50V_47PF">
+<attribute name="CAPACITANCE" value="47pF"/>
+<attribute name="DKPN" value="445-12417-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="CGA3E2NP01H470J080AA"/>
+<attribute name="MPN" value="CGA3E2NP01H470J080AA"/>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
@@ -3225,6 +3292,23 @@ Note: OPA991 is also a comparator</description>
 <attribute name="MPN" value="C3216X5R1V226M160AC"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VOLTAGE" value="35V"/>
+</technology>
+</technologies>
+</device>
+<device name="1812" package="1812-CAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="1000V_0.1UF">
+<attribute name="CAPACITANCE" value="0.1uF"/>
+<attribute name="DKPN" value="399-C1812W104KDRAC7800CT-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOPN" value="80-C1812W104KDR"/>
+<attribute name="MPN" value="C1812W104KDRAC7800"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="1000V"/>
 </technology>
 </technologies>
 </device>
@@ -3516,7 +3600,7 @@ Note: OPA991 is also a comparator</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="+24V">
+<deviceset name="+24V" prefix="P">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+24V" x="0" y="0"/>
