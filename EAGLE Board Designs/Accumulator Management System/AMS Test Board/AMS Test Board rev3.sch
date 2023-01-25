@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8372,20 +8373,20 @@ Dashed line is edge of mated connector.</description>
 <junction x="114.3" y="157.48"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="120.65" x2="175.26" y2="120.65" width="0.1524" layer="91"/>
-<pinref part="P75" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="139.7" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="P74" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="101.6" y1="132.08" x2="99.06" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="P73" gate="1" pin="GND"/>
 <wire x1="99.06" y1="132.08" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="P75" gate="1" pin="GND"/>
+<wire x1="177.8" y1="120.65" x2="175.26" y2="120.65" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="P74" gate="1" pin="GND"/>
+<wire x1="152.4" y1="139.7" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TD+" class="0">

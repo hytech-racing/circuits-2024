@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -5439,32 +5440,31 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="A1" pad="GND"/>
 <contactref element="A1" pad="AGND/GND"/>
 <contactref element="C6" pad="1"/>
-<contactref element="C5" pad="2"/>
-<contactref element="C1" pad="2"/>
-<contactref element="R2" pad="2"/>
 <polygon width="0.1524" layer="16">
 <vertex x="332.74" y="41.91"/>
 <vertex x="332.74" y="1.27"/>
 <vertex x="386.08" y="1.27"/>
 <vertex x="386.08" y="41.91"/>
 </polygon>
-<wire x1="356.528" y1="16.383" x2="354.457" y2="16.383" width="0.254" layer="1"/>
-<via x="354.457" y="16.383" extent="1-16" drill="0.381"/>
 <wire x1="359.168" y1="26.797" x2="356.997" y2="26.797" width="0.254" layer="1"/>
 <via x="356.997" y="26.797" extent="1-16" drill="0.381"/>
-<wire x1="359.168" y1="29.083" x2="356.997" y2="29.083" width="0.254" layer="1"/>
-<via x="356.997" y="29.083" extent="1-16" drill="0.381"/>
-<wire x1="353.06" y1="36.703" x2="353.06" y2="34.913" width="0.254" layer="1"/>
-<via x="353.06" y="36.703" extent="1-16" drill="0.381"/>
 <contactref element="U1" pad="13"/>
 <contactref element="U1" pad="14"/>
 <wire x1="356.5425" y1="22.237" x2="356.5425" y2="22.737" width="0.254" layer="1"/>
-<wire x1="356.997" y1="29.083" x2="353.06" y2="34.913" width="0" layer="19" extent="1-1"/>
-<wire x1="359.168" y1="26.797" x2="359.168" y2="29.083" width="0" layer="19" extent="1-1"/>
-<wire x1="356.5425" y1="22.737" x2="356.997" y2="26.797" width="0" layer="19" extent="1-1"/>
-<wire x1="356.528" y1="16.383" x2="356.5425" y2="22.237" width="0" layer="19" extent="1-1"/>
-<wire x1="368.046" y1="6.35" x2="356.528" y2="16.383" width="0" layer="19" extent="1-1"/>
-<wire x1="383.286" y1="3.81" x2="368.046" y2="6.35" width="0" layer="19" extent="1-1"/>
+<contactref element="C1" pad="2"/>
+<contactref element="R2" pad="2"/>
+<contactref element="C5" pad="2"/>
+<wire x1="356.5425" y1="22.237" x2="354.85" y2="22.237" width="0.254" layer="1"/>
+<wire x1="354.85" y1="22.237" x2="354.838" y2="22.225" width="0.254" layer="1"/>
+<wire x1="354.838" y1="22.225" x2="354.457" y2="22.225" width="0.254" layer="1"/>
+<via x="354.457" y="22.225" extent="1-16" drill="0.3556"/>
+<wire x1="359.168" y1="29.083" x2="356.997" y2="29.083" width="0.254" layer="1"/>
+<via x="356.997" y="29.083" extent="1-16" drill="0.3556"/>
+<wire x1="353.06" y1="34.913" x2="355.207" y2="34.913" width="0.254" layer="1"/>
+<wire x1="355.207" y1="34.913" x2="355.219" y2="34.925" width="0.254" layer="1"/>
+<via x="355.219" y="34.925" extent="1-16" drill="0.3556"/>
+<wire x1="356.528" y1="16.383" x2="354.584" y2="16.383" width="0.254" layer="1"/>
+<via x="354.584" y="16.383" extent="1-16" drill="0.3556"/>
 </signal>
 <signal name="N$23">
 <contactref element="C1" pad="1"/>
