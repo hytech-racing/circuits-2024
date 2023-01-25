@@ -506,7 +506,7 @@ Based on page 10.</description>
 <vertex x="1" y="0.785"/>
 <vertex x="1" y="3.665"/>
 </polygon>
-<polygon width="0" layer="29" spacing="0.1" pour="hatch">
+<polygon width="0" layer="29" spacing="0.1">
 <vertex x="-1.1" y="3.765"/>
 <vertex x="-1.1" y="0.714"/>
 <vertex x="-0.361" y="0.004"/>
