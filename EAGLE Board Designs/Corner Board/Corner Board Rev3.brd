@@ -195,7 +195,7 @@
 <wire x1="66.04" y1="0" x2="66.04" y2="44.45" width="0" layer="20"/>
 <wire x1="66.04" y1="44.45" x2="0" y2="44.45" width="0" layer="20"/>
 <wire x1="0" y1="44.45" x2="0" y2="0" width="0" layer="20"/>
-<text x="48.006" y="7.112" size="1.27" layer="22" font="vector" rot="MR0">Corner Board rev2
+<text x="48.006" y="7.112" size="1.27" layer="22" font="vector" rot="MR0">Corner Board rev3
 Designed by:
 Liwei Sun
 Shayan Noorani
