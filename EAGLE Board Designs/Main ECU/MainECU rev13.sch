@@ -8558,6 +8558,11 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P262" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="S1" library="HyTechDevices" deviceset="BUTTON" device=""/>
 <part name="P263" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P264" library="HyTechSupplies" deviceset="+24V" device=""/>
+<part name="R17" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.55K"/>
+<part name="P265" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="D8" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="5V"/>
 </parts>
 <sheets>
 <sheet>
@@ -12570,6 +12575,24 @@ trips at 4.802kW. </text>
 <instance part="P61" gate="1" x="175.26" y="180.34" smashed="yes">
 <attribute name="VALUE" x="175.26" y="179.07" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="P264" gate="G$1" x="27.94" y="43.18" smashed="yes">
+<attribute name="VALUE" x="27.94" y="48.26" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R17" gate="G$1" x="27.94" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.67" y="34.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="29.21" y="34.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R18" gate="G$1" x="27.94" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.67" y="21.59" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="29.21" y="21.59" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="P265" gate="1" x="35.56" y="10.16" smashed="yes">
+<attribute name="VALUE" x="35.56" y="8.89" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="D8" gate="G$1" x="35.56" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.655" y="21.59" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="37.465" y="21.59" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12827,6 +12850,16 @@ trips at 4.802kW. </text>
 <wire x1="154.94" y1="185.42" x2="165.1" y2="185.42" width="0.1524" layer="91"/>
 <junction x="154.94" y="185.42"/>
 <junction x="165.1" y="185.42"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="15.24" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="D8" gate="G$1" pin="A"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="P265" gate="1" pin="GND"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
+<junction x="35.56" y="15.24"/>
 </segment>
 </net>
 <net name="CAN_ECU_RX1" class="0">
@@ -13406,6 +13439,33 @@ trips at 4.802kW. </text>
 <wire x1="233.68" y1="101.6" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
 <label x="241.3" y="101.6" size="1.27" layer="95" xref="yes"/>
 <pinref part="A2" gate="G$1" pin="(CS)D10"/>
+</segment>
+</net>
+<net name="+24V" class="0">
+<segment>
+<pinref part="P264" gate="G$1" pin="+24V"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="40.64" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="24V_SENSE_ECU" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="30.48" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="27.94" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
+<junction x="27.94" y="27.94"/>
+<pinref part="D8" gate="G$1" pin="C"/>
+<wire x1="35.56" y1="27.94" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
+<junction x="35.56" y="27.94"/>
+<label x="38.1" y="27.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="IN4"/>
+<wire x1="177.8" y1="152.4" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
+<label x="180.34" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -14135,7 +14195,7 @@ trips at 4.802kW. </text>
 <wire x1="104.14" y1="167.64" x2="104.14" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="24V_SENSE" class="0">
+<net name="24V_SENSE_TCU" class="0">
 <segment>
 <pinref part="R42" gate="G$1" pin="1"/>
 <pinref part="R43" gate="G$1" pin="2"/>
