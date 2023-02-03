@@ -506,7 +506,7 @@ Based on page 10.</description>
 <vertex x="1" y="0.785"/>
 <vertex x="1" y="3.665"/>
 </polygon>
-<polygon width="0" layer="29" spacing="0.1">
+<polygon width="0" layer="29" spacing="0.1" pour="hatch">
 <vertex x="-1.1" y="3.765"/>
 <vertex x="-1.1" y="0.714"/>
 <vertex x="-0.361" y="0.004"/>
@@ -1367,10 +1367,6 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/308/NCP785A_D-1812704.pdf"&gt;NCP785AH120T1G&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.ti.com/lit/ds/symlink/lms8117a.pdf?HQS"&gt;LMS8117A Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/389/st732-1830546.pdf"&gt;ST732M50R Datasheet&lt;/a&gt;&lt;/li&gt;
-
-
-&lt;li&gt;&lt;a href="https://www.ti.com/lit/ds/symlink/lm2937.pdf"&gt;LM2937IMPX-10/NOPB Datasheet&lt;/a&gt;&lt;/li&gt;
-
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
@@ -1383,12 +1379,6 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <connect gate="G$1" pin="OUT" pad="2 4"/>
 </connects>
 <technologies>
-<technology name="10V">
-<attribute name="DKPN" value="LM2937IMPX-10/NOPBDKR-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
-<attribute name="MOPN" value="926-LM2937IMP-10NOPB" constant="no"/>
-<attribute name="MPN" value=" LM2937IMPX-10/NOPB"/>
-</technology>
 <technology name="3.3V">
 <attribute name="DKPN" value="LMS8117AMP-3.3/NOPBCT-ND"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
@@ -1400,24 +1390,6 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <attribute name="MANUFACTURER" value="STMicroelectronics"/>
 <attribute name="MOPN" value="511-LDL1117S50R"/>
 <attribute name="MPN" value="LDL1117S50R"/>
-</technology>
-<technology name="REGULATOR">
-<attribute name="DKPN" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MOPN" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-</technology>
-<technology name="SOT-223">
-<attribute name="DKPN" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MOPN" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-</technology>
-<technology name="VOLTAGE">
-<attribute name="DKPN" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MOPN" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1454,6 +1426,21 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <attribute name="MANUFACTURER" value="STMicroelectronics"/>
 <attribute name="MOPN" value="511-ST732M50R"/>
 <attribute name="MPN" value="ST732M50R"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT-89REVERSE" package="SOT-89">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="497-7279-2-ND"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MOPN" value="511-L78L15ACU-TR"/>
+<attribute name="MPN" value="L78L15ACUTR"/>
 </technology>
 </technologies>
 </device>
@@ -6316,7 +6303,7 @@ Layer: 94 Symbol</description>
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device="">
 <attribute name="ENGINEER" value="Liwei Sun, Shayan Noorani"/>
 </part>
-<part name="U1" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-89" technology="15V"/>
+<part name="U1" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-89REVERSE" value="VOLTAGE_REGULATOR_SOT-89REVERSE_"/>
 <part name="U$2" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P5" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U2" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
@@ -6350,9 +6337,6 @@ Layer: 94 Symbol</description>
 <part name="JP2" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
 <part name="JP3" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
 <part name="JP4" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.5M"/>
-<part name="P15" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.5M"/>
 <part name="U$5" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1M"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="20K"/>
@@ -6374,6 +6358,7 @@ Layer: 94 Symbol</description>
 <part name="O1" library="HyTechExternal" deviceset="RECEPTACLE-4_*" device="" technology="MICROFIT"/>
 <part name="O2" library="HyTechExternal" deviceset="RECEPTACLE-4_*" device="" technology="MICROFIT"/>
 <part name="O3" library="HyTechExternal" deviceset="RECEPTACLE-2_*" device="" technology="MICROFIT"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.5M"/>
 </parts>
 <sheets>
 <sheet>
@@ -6564,17 +6549,6 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="149.86" y="-38.1" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="149.86" y="-32.258" size="1.27" layer="96" rot="R180" align="top-left"/>
 </instance>
-<instance part="R10" gate="G$1" x="170.18" y="-27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="168.91" y="-29.21" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="171.45" y="-29.21" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="P15" gate="1" x="170.18" y="-38.1" smashed="yes">
-<attribute name="VALUE" x="170.18" y="-39.37" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R11" gate="G$1" x="170.18" y="-5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="168.91" y="-6.35" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="171.45" y="-6.35" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="U$5" gate="G$1" x="233.68" y="22.86" smashed="yes">
 <attribute name="VALUE" x="233.68" y="27.94" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -6635,6 +6609,10 @@ Layer: 94 Symbol</description>
 </instance>
 <instance part="P19" gate="1" x="241.3" y="5.08" smashed="yes">
 <attribute name="VALUE" x="241.3" y="3.81" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R5" gate="G$1" x="152.4" y="-15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="151.13" y="-16.51" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="153.67" y="-16.51" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -6772,11 +6750,6 @@ Layer: 94 Symbol</description>
 <wire x1="231.14" y1="10.16" x2="233.68" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="P7" gate="1" pin="GND"/>
 <wire x1="233.68" y1="7.62" x2="233.68" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="P15" gate="1" pin="GND"/>
-<wire x1="170.18" y1="-33.02" x2="170.18" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SIGNAL+" class="0">
@@ -6960,12 +6933,6 @@ Layer: 94 Symbol</description>
 <wire x1="203.2" y1="-7.62" x2="203.2" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="-2.54" x2="170.18" y2="0" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="0" x2="172.72" y2="0" width="0.1524" layer="91"/>
-<label x="172.72" y="0" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U6" gate="G$1" pin="VIN"/>
 <wire x1="147.32" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
 <label x="149.86" y="68.58" size="1.27" layer="95" xref="yes"/>
@@ -7046,13 +7013,12 @@ Layer: 94 Symbol</description>
 <wire x1="154.94" y1="-33.02" x2="152.4" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="-33.02" x2="149.86" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="152.4" y="-33.02"/>
-<wire x1="170.18" y1="-25.4" x2="170.18" y2="-22.86" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="VIN-"/>
-<wire x1="170.18" y1="-22.86" x2="172.72" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="-22.86" x2="152.4" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="-22.86" x2="152.4" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="-22.86" x2="152.4" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="170.18" y="-22.86"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="-20.32" x2="152.4" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="152.4" y="-22.86"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -7064,11 +7030,9 @@ Layer: 94 Symbol</description>
 <wire x1="152.4" y1="-2.54" x2="154.94" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="-2.54" x2="152.4" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="152.4" y="-2.54"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="-12.7" x2="170.18" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-12.7" x2="172.72" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-10.16" x2="170.18" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="170.18" y="-12.7"/>
+<wire x1="152.4" y1="-12.7" x2="172.72" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<junction x="152.4" y="-12.7"/>
 </segment>
 </net>
 <net name="LOAD_CELL_AMPLIFIED" class="0">
