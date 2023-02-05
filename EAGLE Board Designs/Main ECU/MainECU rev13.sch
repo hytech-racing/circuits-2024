@@ -3207,7 +3207,7 @@ Teensy 3.2/4.0 Footprint
 <pad name="D33" x="0" y="58.42" drill="1.016" rot="R180"/>
 <pad name="VBAT" x="12.7" y="45.72" drill="1.016" rot="R180"/>
 <pad name="3V3@3" x="10.16" y="45.72" drill="1.016" rot="R180"/>
-<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="59.944" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="59.69" width="0.127" layer="21"/>
 <wire x1="11.43" y1="-2.032" x2="3.81" y2="-2.032" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-2.032" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="11.43" y1="-1.27" x2="11.43" y2="-2.032" width="0.127" layer="21"/>
@@ -3218,25 +3218,24 @@ Teensy 3.2/4.0 Footprint
 <wire x1="3.81" y1="3.81" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
 <text x="7.62" y="0.889" size="2.032" layer="21" font="vector" rot="R180" align="center">&gt;TEENSY</text>
 <rectangle x1="13.716" y1="-1.778" x2="16.764" y2="60.198" layer="40"/>
-<wire x1="-1.27" y1="59.944" x2="1.27" y2="59.944" width="0.127" layer="21"/>
-<wire x1="16.51" y1="59.944" x2="13.97" y2="59.944" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-1.524" x2="1.27" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-1.524" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="16.51" y1="-1.524" x2="13.97" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="13.97" y1="-1.524" x2="13.97" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="59.69" x2="1.27" y2="59.69" width="0.127" layer="21"/>
+<wire x1="16.51" y1="59.69" x2="13.97" y2="59.69" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-1.27" x2="13.97" y2="-1.27" width="0.127" layer="21"/>
 <rectangle x1="-1.524" y1="-1.778" x2="1.524" y2="60.198" layer="39"/>
 <wire x1="1.27" y1="-1.27" x2="1.27" y2="59.69" width="0.127" layer="21"/>
 <rectangle x1="13.716" y1="-1.778" x2="16.764" y2="60.198" layer="39"/>
 <rectangle x1="-1.524" y1="-1.778" x2="1.524" y2="60.198" layer="40"/>
-<wire x1="1.27" y1="59.69" x2="1.27" y2="59.944" width="0.127" layer="21"/>
-<wire x1="1.27" y1="59.69" x2="13.716" y2="59.69" width="0.127" layer="21"/>
-<wire x1="13.97" y1="59.944" x2="13.97" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="16.51" y1="59.944" x2="16.51" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="59.69" x2="13.97" y2="59.69" width="0.127" layer="21"/>
+<wire x1="13.97" y1="59.69" x2="13.97" y2="46.99" width="0.127" layer="21"/>
+<wire x1="13.97" y1="46.99" x2="13.97" y2="44.45" width="0.127" layer="21"/>
+<wire x1="13.97" y1="44.45" x2="13.97" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="16.51" y1="59.69" x2="16.51" y2="-1.27" width="0.127" layer="21"/>
 <rectangle x1="8.382" y1="43.942" x2="14.478" y2="47.498" layer="40"/>
 <rectangle x1="8.382" y1="43.942" x2="14.478" y2="47.498" layer="39"/>
-<wire x1="8.636" y1="47.244" x2="8.636" y2="44.196" width="0.127" layer="21"/>
-<wire x1="8.636" y1="44.196" x2="13.97" y2="44.196" width="0.127" layer="21"/>
-<wire x1="13.97" y1="47.244" x2="8.636" y2="47.244" width="0.127" layer="21"/>
+<wire x1="8.89" y1="46.99" x2="8.89" y2="44.45" width="0.127" layer="21"/>
+<wire x1="8.89" y1="44.45" x2="13.97" y2="44.45" width="0.127" layer="21"/>
+<wire x1="13.97" y1="46.99" x2="8.89" y2="46.99" width="0.127" layer="21"/>
 </package>
 <package name="SOIC-08(NARROW,0.15&quot;)">
 <description>SOIC-8
@@ -3826,7 +3825,7 @@ Based on page 10.</description>
 <vertex x="1" y="0.785"/>
 <vertex x="1" y="3.665"/>
 </polygon>
-<polygon width="0" layer="29" spacing="0.1" pour="hatch">
+<polygon width="0" layer="29" spacing="0.1">
 <vertex x="-1.1" y="3.765"/>
 <vertex x="-1.1" y="0.714"/>
 <vertex x="-0.361" y="0.004"/>
@@ -4707,6 +4706,21 @@ Based on page 10.</description>
 <attribute name="MANUFACTURER" value="STMicroelectronics"/>
 <attribute name="MOPN" value="511-ST732M50R"/>
 <attribute name="MPN" value="ST732M50R"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT-89REVERSE" package="SOT-89">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="497-7279-2-ND"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MOPN" value="511-L78L15ACU-TR"/>
+<attribute name="MPN" value="L78L15ACUTR"/>
 </technology>
 </technologies>
 </device>
@@ -8567,9 +8581,9 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P303" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P304" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P305" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="JP10" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
+<part name="JP10" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="DNP"/>
 <part name="P306" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="JP11" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
+<part name="JP11" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="DNP"/>
 <part name="P307" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
