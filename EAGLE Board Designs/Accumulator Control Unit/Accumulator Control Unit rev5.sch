@@ -7213,17 +7213,6 @@ Teensy 3.2/4.0 Footprint
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
-<technology name="0.02">
-<attribute name="DKPN" value="P17461CT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-3BWFR020V"/>
-<attribute name="MPN" value="ERJ-3BWFR020V"/>
-<attribute name="POWER" value="0.33W"/>
-<attribute name="RESISTANCE" value="0.02"/>
-<attribute name="TOLERANCE" value="1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="0.081V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
-</technology>
 <technology name="0.5">
 <attribute name="DKPN" value="311-.5QTR-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -7368,13 +7357,13 @@ Teensy 3.2/4.0 Footprint
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="10K">
-<attribute name="DKPN" value="P10KBDCT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERA-3ARB103V"/>
-<attribute name="MPN" value="ERA-3ARB103V"/>
+<attribute name="DKPN" value="311-10.0KHRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RC0603FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="10k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
@@ -7851,6 +7840,17 @@ Teensy 3.2/4.0 Footprint
 <attribute name="VOLTAGE_CONTINUOUS" value="1.97V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="3K">
+<attribute name="DKPN" value="10-ERJ-UP3F3001VCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-UP3F3001V"/>
+<attribute name="MPN" value="ERJ-UP3F3001V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="3k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="27.39"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
 <technology name="4.12K">
 <attribute name="DKPN" value="P4.12KDBCT-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -7983,17 +7983,6 @@ Teensy 3.2/4.0 Footprint
 <attribute name="VOLTAGE_CONTINUOUS" value="24.29V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
-<technology name="50">
-<attribute name="DKPN" value="13-RT0603BRE0750RLCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MOPN" value="603-RT0603BRE0750RL"/>
-<attribute name="MPN" value="RT0603BRE0750RL"/>
-<attribute name="POWER" value="0.1W"/>
-<attribute name="RESISTANCE" value="50"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="2.24V"/>
-<attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
 <technology name="510K">
 <attribute name="DKPN" value="RHM510KAYTR-ND"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
@@ -8081,17 +8070,6 @@ Teensy 3.2/4.0 Footprint
 <attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
-</technology>
-<technology name="93.1K">
-<attribute name="DKPN" value="P20197CT-ND"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
-<attribute name="MOPN" value="667-ERJ-PB3B9312V"/>
-<attribute name="MPN" value="ERJ-PB3B9312V"/>
-<attribute name="POWER" value="0.2W"/>
-<attribute name="RESISTANCE" value="93.1k"/>
-<attribute name="TOLERANCE" value="0.1%"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="136V"/>
-<attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
 <technology name="DNP">
 <attribute name="DKPN" value=""/>
@@ -10150,6 +10128,274 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="hytech devices temp">
+<packages>
+<package name="6-SMD">
+<description>Omron G3VM-61ER1 solid state relays
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/307/en-g3vm_61br1_er1-22942.pdf"&gt;Datasheet&lt;a/&gt;</description>
+<smd name="6" x="-2.54" y="4.275" dx="1.5" dy="1.3" layer="1"/>
+<smd name="5" x="0" y="4.275" dx="1.5" dy="1.3" layer="1"/>
+<smd name="1" x="-2.54" y="-4.275" dx="1.5" dy="1.3" layer="1"/>
+<smd name="2" x="0" y="-4.275" dx="1.5" dy="1.3" layer="1"/>
+<wire x1="-3.56" y1="3.2" x2="-3.56" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="-3.56" y1="-3.2" x2="3.56" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="3.56" y1="-3.2" x2="3.56" y2="3.2" width="0.1524" layer="21"/>
+<wire x1="3.56" y1="3.2" x2="-3.56" y2="3.2" width="0.1524" layer="21"/>
+<text x="-4.98" y="0" size="1.27" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<circle x="-4.675" y="-4.44" radius="0.381" width="0" layer="21"/>
+<rectangle x1="-4.5" y1="-5.5" x2="4.5" y2="5.5" layer="39"/>
+<smd name="4" x="2.54" y="4.275" dx="1.5" dy="1.3" layer="1"/>
+<smd name="3" x="2.54" y="-4.275" dx="1.5" dy="1.3" layer="1"/>
+</package>
+<package name="DIP-4_AIRGAP">
+<description>DIP-4 Footprint
+&lt;br&gt;
+&lt;a href="https://toshiba.semicon-storage.com/us/semiconductor/design-development/package/detail.DIP4(LF1).html"&gt;Footprint Documentation
+&lt;/a&gt;</description>
+<smd name="3" x="-1.27" y="4.15" dx="1.5" dy="1.9" layer="1"/>
+<smd name="4" x="1.27" y="4.15" dx="1.5" dy="1.9" layer="1"/>
+<smd name="1" x="-1.27" y="-4.15" dx="1.5" dy="1.9" layer="1"/>
+<smd name="2" x="1.27" y="-4.15" dx="1.5" dy="1.9" layer="1"/>
+<wire x1="-2.39" y1="3.2" x2="-2.39" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="-2.39" y1="-3.2" x2="2.39" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="2.39" y1="-3.2" x2="2.39" y2="3.2" width="0.1524" layer="21"/>
+<wire x1="2.39" y1="3.2" x2="-2.39" y2="3.2" width="0.1524" layer="21"/>
+<text x="-3.175" y="0" size="1.27" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<circle x="-3.175" y="-3.81" radius="0.381" width="0" layer="21"/>
+<rectangle x1="-3.048" y1="-6.223" x2="3.048" y2="5.969" layer="39"/>
+<wire x1="-3.048" y1="3.048" x2="-3.048" y2="-3.048" width="0.0508" layer="46"/>
+<wire x1="-3.048" y1="-3.048" x2="3.048" y2="-3.048" width="0.0508" layer="46"/>
+<wire x1="3.048" y1="-3.048" x2="3.048" y2="3.048" width="0.0508" layer="46"/>
+<wire x1="3.048" y1="3.048" x2="-3.048" y2="3.048" width="0.0508" layer="46"/>
+</package>
+<package name="DIP-4">
+<description>DIP-4 Footprint
+&lt;br&gt;
+&lt;a href="https://toshiba.semicon-storage.com/us/semiconductor/design-development/package/detail.DIP4(LF1).html"&gt;Footprint Documentation
+&lt;/a&gt;</description>
+<smd name="3" x="-1.27" y="4.15" dx="1.5" dy="1.9" layer="1"/>
+<smd name="4" x="1.27" y="4.15" dx="1.5" dy="1.9" layer="1"/>
+<smd name="1" x="-1.27" y="-4.15" dx="1.5" dy="1.9" layer="1"/>
+<smd name="2" x="1.27" y="-4.15" dx="1.5" dy="1.9" layer="1"/>
+<wire x1="-2.39" y1="3.2" x2="-2.39" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="-2.39" y1="-3.2" x2="2.39" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="2.39" y1="-3.2" x2="2.39" y2="3.2" width="0.1524" layer="21"/>
+<wire x1="2.39" y1="3.2" x2="-2.39" y2="3.2" width="0.1524" layer="21"/>
+<text x="-3.81" y="0" size="1.27" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<circle x="-3.175" y="-3.81" radius="0.381" width="0" layer="21"/>
+<rectangle x1="-3.556" y1="-6.096" x2="3.556" y2="6.096" layer="39"/>
+</package>
+<package name="SOP-04">
+<description>SOP-4
+&lt;br&gt;
+&lt;a href="https://comus-intl.com/wp-content/uploads/2016/09/AB38S-Q.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
+<smd name="1" x="-1.27" y="-3.25" dx="0.7" dy="1.3" layer="1" thermals="no"/>
+<smd name="2" x="1.27" y="-3.25" dx="0.7" dy="1.3" layer="1" thermals="no"/>
+<smd name="3" x="1.27" y="3.25" dx="0.7" dy="1.3" layer="1" thermals="no"/>
+<smd name="4" x="-1.27" y="3.25" dx="0.7" dy="1.3" layer="1" thermals="no"/>
+<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.15" y1="2.2" x2="2.15" y2="2.2" width="0.127" layer="21"/>
+<wire x1="2.15" y1="2.2" x2="2.15" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="2.15" y1="-2.2" x2="-2.15" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-2.15" y1="-2.2" x2="-2.15" y2="2.2" width="0.127" layer="21"/>
+<circle x="-2.54" y="-3.175" radius="0.254" width="0" layer="21"/>
+<rectangle x1="-2.286" y1="-4.064" x2="2.286" y2="4.064" layer="39"/>
+</package>
+<package name="CRYDOM_CMX">
+<description>Crydom CMX series solid state relays SIP-4
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/657/cmx_series_dc_pcb_mount-1370813.pdf"&gt;Datasheet&lt;a/&gt;</description>
+<pad name="1" x="13.97" y="0" drill="2.1844" first="yes"/>
+<pad name="2" x="3.81" y="0" drill="2.1844"/>
+<pad name="3" x="-8.89" y="0" drill="2.1844"/>
+<pad name="4" x="-13.97" y="0" drill="2.1844"/>
+<wire x1="-20.32" y1="3.81" x2="-20.32" y2="-3.81" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-20.32" y1="-3.81" x2="20.32" y2="-3.81" width="0.127" layer="21" style="shortdash"/>
+<wire x1="20.32" y1="-3.81" x2="20.32" y2="3.81" width="0.127" layer="21" style="shortdash"/>
+<wire x1="20.32" y1="3.81" x2="-20.32" y2="3.81" width="0.127" layer="21" style="shortdash"/>
+<text x="0" y="5.08" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="-13.97" y="0" radius="1.79605" width="0" layer="40"/>
+<circle x="-8.89" y="0" radius="1.79605" width="0" layer="40"/>
+<circle x="3.81" y="0" radius="1.79605" width="0" layer="40"/>
+<circle x="13.97" y="0" radius="1.79605" width="0" layer="40"/>
+<rectangle x1="-21.59" y1="-5.08" x2="21.59" y2="5.08" layer="39"/>
+<circle x="21.082" y="0" radius="0.127" width="0" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RELAY_SOLIDSTATE_NO-1-1">
+<description>AQY214EHA Normally Open Solid State Relay&lt;br&gt;
+&lt;a href=https://www.datasheetq.com/datasheet-download/287654/1/Panasonic/AQY214EH&gt; Datasheet &lt;/a&gt;</description>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-10.16" x2="17.78" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-2.54" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="0" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.588" x2="7.366" y2="-6.858" width="0.2032" layer="94"/>
+<wire x1="7.366" y1="-6.858" x2="7.366" y2="-5.08" width="0.2032" layer="94"/>
+<wire x1="7.366" y1="-5.08" x2="10.414" y2="-7.112" width="0.2032" layer="94"/>
+<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-13.462" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<pin name="CONTROL+" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="CONTROL-" x="-2.54" y="-10.16" visible="pad" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="9.398" y="-5.842"/>
+<vertex x="8.89" y="-6.604"/>
+<vertex x="10.414" y="-7.112"/>
+</polygon>
+<circle x="12.7" y="-8.89" radius="0.635" width="0.1524" layer="94"/>
+<circle x="15.24" y="-3.81" radius="0.635" width="0.1524" layer="94"/>
+<circle x="10.16" y="-3.81" radius="0.635" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="-9.525" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="-3.175" width="0.1524" layer="94"/>
+<pin name="CONTACT1" x="20.32" y="-10.16" visible="pad" length="short" swaplevel="1" rot="R180"/>
+<pin name="CONTACT2" x="20.32" y="-2.54" visible="pad" length="short" swaplevel="1" rot="R180"/>
+<wire x1="13.0175" y1="-8.255" x2="14.9225" y2="-4.445" width="0.1524" layer="94"/>
+<polygon width="0.0254" layer="94">
+<vertex x="14.986" y="-5.334"/>
+<vertex x="14.224" y="-4.826"/>
+<vertex x="14.986" y="-4.318"/>
+</polygon>
+<wire x1="3.81" y1="-7.62" x2="1.27" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="3.81" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="1.27" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="17.78" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="17.78" y2="-10.16" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RELAY_SOLIDSTATE_NO_*" prefix="K">
+<description>Omron G3VM-61ER1 solid state relays &lt;br&gt;
+&lt;a href=https://www.mouser.com/datasheet/2/307/en-g3vm_61br1_er1-22942.pdf&gt; Datasheet &lt;/a&gt;
+&lt;br&gt;
+AQY214EHA Normally Open Solid State Relay&lt;br&gt;
+&lt;a href=https://www.datasheetq.com/datasheet-download/287654/1/Panasonic/AQY214EH&gt; Datasheet &lt;/a&gt;
+&lt;br&gt;
+Crydom CMX Series Solid State Normally Open Relay
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/657/cmx_series_dc_pcb_mount-1370813.pdf"&gt;Datasheet&lt;a/&gt;
+&lt;br&gt;
+AB38S-Q
+&lt;a href=https://comus-intl.com/wp-content/uploads/2016/09/AB38S-Q.pdf&gt; Datasheet &lt;/a&gt;
+&lt;br&gt;
+CPC1020NTR
+&lt;a href="https://www.mouser.com/datasheet/2/240/CPC1020N-1546163.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="RELAY_SOLIDSTATE_NO-1-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DIP-4-AIRGAP" package="DIP-4_AIRGAP">
+<connects>
+<connect gate="G$1" pin="CONTACT1" pad="3"/>
+<connect gate="G$1" pin="CONTACT2" pad="4"/>
+<connect gate="G$1" pin="CONTROL+" pad="1"/>
+<connect gate="G$1" pin="CONTROL-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="255-1436-5-ND "/>
+<attribute name="MANUFACTUER" value="Panasonic"/>
+<attribute name="MOPN" value="769-AQY214EHA"/>
+<attribute name="MPN" value="AQY214EHA"/>
+</technology>
+</technologies>
+</device>
+<device name="DIP-4" package="DIP-4">
+<connects>
+<connect gate="G$1" pin="CONTACT1" pad="3"/>
+<connect gate="G$1" pin="CONTACT2" pad="4"/>
+<connect gate="G$1" pin="CONTROL+" pad="1"/>
+<connect gate="G$1" pin="CONTROL-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="255-1436-5-ND "/>
+<attribute name="MANUFACTURER" value="Panasonic"/>
+<attribute name="MOPN" value="769-AQY214EHA"/>
+<attribute name="MPN" value="AQY214EHA"/>
+</technology>
+</technologies>
+</device>
+<device name="AB38S-Q" package="SOP-04">
+<connects>
+<connect gate="G$1" pin="CONTACT1" pad="3"/>
+<connect gate="G$1" pin="CONTACT2" pad="4"/>
+<connect gate="G$1" pin="CONTROL+" pad="1"/>
+<connect gate="G$1" pin="CONTROL-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="1835-1216-ND"/>
+<attribute name="MANUFACTURER" value="Comus International"/>
+<attribute name="MOPN" value=""/>
+<attribute name="MPN" value="AB38S-Q"/>
+<attribute name="VOLTAGE" value="600V"/>
+</technology>
+</technologies>
+</device>
+<device name="CMX" package="CRYDOM_CMX">
+<connects>
+<connect gate="G$1" pin="CONTACT1" pad="2"/>
+<connect gate="G$1" pin="CONTACT2" pad="1"/>
+<connect gate="G$1" pin="CONTROL+" pad="3"/>
+<connect gate="G$1" pin="CONTROL-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="CC1666-ND"/>
+<attribute name="MANUFACTURER" value="Crydom"/>
+<attribute name="MOPN" value="558-CMX60D20"/>
+<attribute name="MPN" value="CMX60D20"/>
+</technology>
+</technologies>
+</device>
+<device name="CPC1020NTR" package="SOP-04">
+<connects>
+<connect gate="G$1" pin="CONTACT1" pad="3"/>
+<connect gate="G$1" pin="CONTACT2" pad="4"/>
+<connect gate="G$1" pin="CONTROL+" pad="1"/>
+<connect gate="G$1" pin="CONTROL-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="CLA318CT-ND"/>
+<attribute name="MANUFACTURER" value="IXYS Integrated Circuits Division"/>
+<attribute name="MOPN" value="849-CPC1020NTR"/>
+<attribute name="MPN" value="CPC1020NTR"/>
+<attribute name="VOLTAGE" value="30V"/>
+</technology>
+</technologies>
+</device>
+<device name="6-SMD" package="6-SMD">
+<connects>
+<connect gate="G$1" pin="CONTACT1" pad="4"/>
+<connect gate="G$1" pin="CONTACT2" pad="6"/>
+<connect gate="G$1" pin="CONTROL+" pad="1"/>
+<connect gate="G$1" pin="CONTROL-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="  Z3521-ND"/>
+<attribute name="MANUFACTURER" value="Omron"/>
+<attribute name="MOPN" value="653-G3VM-61ER1TR"/>
+<attribute name="MPN" value="  G3VM-61ER1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10626,10 +10872,10 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="C20" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P121" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P122" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="K1" library="HyTechDevices" deviceset="RELAY_SOLIDSTATE_NO_*" device="CPC1020NTR"/>
+<part name="K1" library="hytech devices temp" deviceset="RELAY_SOLIDSTATE_NO_*" device="6-SMD"/>
 <part name="U$30" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P11" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R45" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R45" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3K" value="RESISTOR_0603_3K"/>
 <part name="J3" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK"/>
 <part name="J1" library="HyTechDevices" deviceset="CONNECTOR-12_?_*" device="MF_T_V"/>
 <part name="TP_24V" library="HyTechDevices" deviceset="TEST_POINT" device="">
