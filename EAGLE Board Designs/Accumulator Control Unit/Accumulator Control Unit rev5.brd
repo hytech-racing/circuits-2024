@@ -10411,16 +10411,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="N$25">
 <contactref element="U6" pad="4"/>
-<contactref element="A3" pad="D0"/>
 <via x="105.156" y="-27.686" extent="1-16" drill="0.254"/>
 <wire x1="105.156" y1="-27.686" x2="108.966" y2="-23.876" width="0.1524" layer="16"/>
-<wire x1="151.967175" y1="-23.876" x2="153.46508125" y2="-25.37390625" width="0.1524" layer="1"/>
 <wire x1="151.967175" y1="-23.876" x2="141.732" y2="-23.876" width="0.1524" layer="1"/>
 <wire x1="104.96208125" y1="-28.89591875" x2="105.156" y2="-28.702" width="0.1524" layer="1"/>
 <wire x1="105.156" y1="-28.702" x2="105.156" y2="-27.686" width="0.1524" layer="1"/>
 <wire x1="103.41420625" y1="-28.89591875" x2="104.96208125" y2="-28.89591875" width="0.1524" layer="1"/>
 <via x="141.732" y="-23.876" extent="1-16" drill="0.254"/>
 <wire x1="108.966" y1="-23.876" x2="141.732" y2="-23.876" width="0.1524" layer="16"/>
+<contactref element="A3" pad="D0"/>
+<wire x1="151.967175" y1="-23.876" x2="153.46508125" y2="-25.37390625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="R48" pad="2"/>
@@ -10433,16 +10433,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="IMD_OK" pad="1"/>
 <wire x1="70.1516" y1="-35.8854" x2="73.4042" y2="-35.8854" width="0.1524" layer="1"/>
 <wire x1="73.4042" y1="-35.8854" x2="73.455" y2="-35.8346" width="0.1524" layer="1"/>
-</signal>
-<signal name="N$29">
-<contactref element="A3" pad="D1"/>
-<contactref element="U6" pad="1"/>
-<wire x1="104.96208125" y1="-25.08591875" x2="105.156" y2="-24.892" width="0.1524" layer="1"/>
-<via x="105.156" y="-24.892" extent="1-16" drill="0.254"/>
-<wire x1="105.156" y1="-24.892" x2="106.934" y2="-23.114" width="0.1524" layer="16"/>
-<wire x1="106.934" y1="-23.114" x2="148.665175" y2="-23.114" width="0.1524" layer="16"/>
-<wire x1="103.41420625" y1="-25.08591875" x2="104.96208125" y2="-25.08591875" width="0.1524" layer="1"/>
-<wire x1="148.665175" y1="-23.114" x2="150.92508125" y2="-25.37390625" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$24">
 <contactref element="TSAL_GREEN" pad="2"/>
@@ -10823,6 +10813,11 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="INVERTER_24V">
 <contactref element="J1" pad="1"/>
+</signal>
+<signal name="N$29">
+<contactref element="A3" pad="D1"/>
+<contactref element="U6" pad="1"/>
+<wire x1="103.41420625" y1="-25.08591875" x2="150.92508125" y2="-25.37390625" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
