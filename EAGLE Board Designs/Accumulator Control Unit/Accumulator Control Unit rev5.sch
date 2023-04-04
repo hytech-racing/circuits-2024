@@ -15941,38 +15941,11 @@ current across precharge relay</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,71.12,101.6,U2P,VDD,+12V,,,"/>
-<approved hash="104,1,218.44,109.22,U3,VCC,+12V,,,"/>
-<approved hash="104,3,50.8,182.88,U13P,VDD,+5V,,,"/>
-<approved hash="104,3,50.8,71.12,U14P,VDD,+5V,,,"/>
-<approved hash="104,3,208.28,200.66,U7P,VDD,+5V,,,"/>
+<approved hash="201,1,127,157.48,OUT,+5V\, +3V3\, +12V,,,,"/>
+<approved hash="201,1,172.72,162.56,OUT,+5V\, +3V3\, +12V,,,,"/>
+<approved hash="201,1,172.72,193.04,OUT,+5V\, +3V3\, +12V,,,,"/>
 <approved hash="104,3,93.98,160.02,U12P,VDD,+5V,,,"/>
-<approved hash="104,3,91.44,55.88,U10P,VDD,+5V,,,"/>
-<approved hash="104,3,91.44,104.14,U4P,VDD,+5V,,,"/>
-<approved hash="104,3,93.98,198.12,U9P,VDD,+5V,,,"/>
-<approved hash="104,3,147.32,86.36,U15P,VDD,+5V,,,"/>
-<approved hash="104,3,144.78,190.5,U8P,VDD,+5V,,,"/>
-<approved hash="104,3,152.4,134.62,U11P,VDD,+5V,,,"/>
-<approved hash="104,4,22.86,45.72,U18P,VDD,+12V,,,"/>
-<approved hash="104,5,73.66,175.26,A1,3.3V,+3V3,,,"/>
-<approved hash="104,5,73.66,177.8,A1,VIN,+5V,,,"/>
-<approved hash="104,5,147.32,121.92,U25,VDD,+5V,,,"/>
-<approved hash="104,5,147.32,119.38,U25,VIO,+3V3,,,"/>
-<approved hash="104,4,88.9,119.38,U20P,VDD,+3V3,,,"/>
 <approved hash="104,4,116.84,106.68,U19,VDD,+3V3,,,"/>
-<approved hash="104,4,88.9,185.42,U22P,VDD,+3V3,,,"/>
-<approved hash="104,4,116.84,172.72,U26,VDD,+3V3,,,"/>
-<approved hash="104,4,210.82,187.96,U27P,VDD,+3V3,,,"/>
-<approved hash="104,4,238.76,175.26,U28,VDD,+3V3,,,"/>
-<approved hash="104,4,210.82,121.92,U29P,VDD,+3V3,,,"/>
-<approved hash="104,4,238.76,109.22,U30,VDD,+3V3,,,"/>
-<approved hash="104,5,157.48,175.26,U5,VDD,+3V3,,,"/>
-<approved hash="104,5,238.76,93.98,U6,VDD,+3V3,,,"/>
-<approved hash="104,1,152.4,193.04,A2,IN,+12V,,,"/>
-<approved hash="104,1,172.72,193.04,A2,OUT,+5V,,,"/>
-<approved hash="104,1,152.4,162.56,U17,IN,+5V,,,"/>
-<approved hash="104,1,172.72,162.56,U17,OUT,+3V3,,,"/>
-<approved hash="104,5,256.54,76.2,U21P,VDD,+3V3,,,"/>
 </errors>
 </schematic>
 </drawing>
