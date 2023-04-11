@@ -10321,8 +10321,8 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="C23" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="GND17" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+9" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="R54" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.9K" value="RESISTOR_0603_5.9K"/>
-<part name="R53" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="11.5K"/>
+<part name="R54" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="11.5K" value="RESISTOR_0603_11.5K"/>
+<part name="R53" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.9K" value="RESISTOR_0603_5.9K"/>
 <part name="GND20" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P+10" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="U22" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
@@ -10412,8 +10412,8 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="18.7K" value="RESISTOR_0603_18.7K"/>
 <part name="P72" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P73" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R30" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
-<part name="R31" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.65K" value="RESISTOR_0603_1.65K"/>
+<part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="470" value="RESISTOR_0603_470"/>
 <part name="P74" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="T1" library="HyTechDevices" deviceset="TRANSFORMER" device="_HM2112ZNLT_AIRGAP"/>
 <part name="C7" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
@@ -10466,8 +10466,8 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="C49" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P78" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C51" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
-<part name="R99" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="R100" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
+<part name="R99" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K" value="RESISTOR_0603_100K"/>
+<part name="R100" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="150K" value="RESISTOR_0603_150K"/>
 <part name="P81" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P88" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P89" library="HyTechSupplies" deviceset="+3V3" device=""/>
@@ -10480,8 +10480,8 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="C45" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P92" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C47" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
-<part name="R97" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="R98" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
+<part name="R97" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP" value="RESISTOR_0603_DNP"/>
+<part name="R98" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="150K" value="RESISTOR_0603_150K"/>
 <part name="P93" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P94" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P95" library="HyTechSupplies" deviceset="+3V3" device=""/>
@@ -10675,7 +10675,7 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="U4" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="P38" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C8" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF" value="CAPACITOR_0603_50V_0.1UF"/>
-<part name="R41" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K" value="RESISTOR_0603_100K"/>
+<part name="R41" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP" value="RESISTOR_0603_DNP"/>
 <part name="P70" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R42" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.74K" value="RESISTOR_0603_2.74K"/>
 <part name="R22" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K" value="RESISTOR_0603_10.5K"/>
@@ -10729,8 +10729,8 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="C52" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P127" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="C53" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="R103" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
-<part name="R104" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R103" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.65K" value="RESISTOR_0603_1.65K"/>
+<part name="R104" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="470" value="RESISTOR_0603_470"/>
 <part name="P128" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="T2" library="HyTechDevices" deviceset="TRANSFORMER" device="_HM2112ZNLT_AIRGAP"/>
 <part name="C54" library="HyTechDevices - Copy" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
@@ -11958,13 +11958,6 @@ Accumulator GND, both AIR+ and -</text>
 <wire x1="22.86" y1="187.96" x2="25.4" y2="187.96" width="0.1524" layer="91"/>
 <label x="25.4" y="187.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="INVERTER_24V" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="124.46" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
-<label x="45.72" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
