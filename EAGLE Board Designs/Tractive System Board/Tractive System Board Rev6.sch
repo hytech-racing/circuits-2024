@@ -7590,7 +7590,7 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
 <attribute name="MOPN" value="667-ERJ-PB3D3301V"/>
 <attribute name="MPN" value="ERJ-PB3D3301V"/>
-<attribute name="POWER" value="0.2W"/>
+<attribute name="POWER" value="0.3W"/>
 <attribute name="RESISTANCE" value="3.3k"/>
 <attribute name="TOLERANCE" value="0.5%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="25.69V"/>
