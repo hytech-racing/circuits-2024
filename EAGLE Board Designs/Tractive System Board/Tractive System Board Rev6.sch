@@ -6484,6 +6484,25 @@ Based on page 10.</description>
 <text x="-6.223" y="0" size="0.8128" layer="21" align="center">+</text>
 <text x="6.223" y="0" size="0.8128" layer="21" align="center">-</text>
 </package>
+<package name="OKI-78SR">
+<description>OKI-78SR Regulator
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/281/oki-78sr-56393.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pad name="1" x="-2.54" y="0" drill="0.9906" first="yes"/>
+<pad name="2" x="0" y="0" drill="0.9906"/>
+<pad name="3" x="2.54" y="0" drill="0.9906"/>
+<wire x1="-5.461" y1="5.715" x2="5.461" y2="5.715" width="0.127" layer="21" style="shortdash"/>
+<wire x1="5.461" y1="5.715" x2="5.461" y2="-3.937" width="0.127" layer="21" style="shortdash"/>
+<wire x1="5.461" y1="-3.937" x2="-5.461" y2="-3.937" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-5.461" y1="-3.937" x2="-5.461" y2="5.715" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-5.207" y1="1.27" x2="5.207" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="2.794" x2="5.207" y2="2.794" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="1.27" x2="-5.207" y2="2.794" width="0.127" layer="21"/>
+<wire x1="5.207" y1="2.794" x2="5.207" y2="1.27" width="0.127" layer="21"/>
+<text x="0" y="5.842" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-5.588" y1="-4.064" x2="5.588" y2="5.842" layer="39"/>
+<rectangle x1="-3.81" y1="-1.27" x2="3.81" y2="1.27" layer="40"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE_HOLDER">
@@ -9960,6 +9979,37 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="VOLTAGE_REGULATOR_MODULE_?_*" prefix="A">
+<description>Voltage Regulator Modules
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/281/oki-78sr-56393.pdf"&gt;OKI-78SR Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="OKI-78SR" package="OKI-78SR">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="12V">
+<attribute name="DKPN" value="811-3293-ND"/>
+<attribute name="MANUFACTURER" value="Murata Power Solutions Inc."/>
+<attribute name="MOPN" value="580-OKI78SR12/1W36C"/>
+<attribute name="MPN" value="OKI-78SR-12/1.0-W36-C"/>
+</technology>
+<technology name="5V">
+<attribute name="DKPN" value="811-2196-5-ND"/>
+<attribute name="MANUFACTURER" value="Murata Power Solutions Inc."/>
+<attribute name="MOPN" value="580-OKI78SR5/1.5W36C"/>
+<attribute name="MPN" value="OKI-78SR-5/1.5-W36-C"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -10392,8 +10442,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF" value="CAPACITOR_0603_50V_10NF"/>
 <part name="C12" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF" value="CAPACITOR_0603_50V_10NF"/>
 <part name="D7" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="8V" value="TVS__8V"/>
-<part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_1UF" value="CAPACITOR_0603_50V_1UF"/>
-<part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
 <part name="P3" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P4" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P5" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -10486,7 +10534,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="R21" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV365K" value="RESISTOR_0805_HV365K"/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV1M" value="RESISTOR_0805_HV1M"/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="39"/>
-<part name="U6" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-23-5" technology="5V"/>
 <part name="T1" library="HyTechDevices" deviceset="TRANSFORMER(3W)" device=""/>
 <part name="P1" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="P18" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
@@ -10537,6 +10584,9 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="CV1" library="HyTechDevices" deviceset="CAPACITOR_VALUE" device=""/>
 <part name="R36" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
 <part name="C28" library="HyTechDevices" deviceset="CAPACITOR_ELECTROLYTIC_?_*" device="A759KR" technology="180UF"/>
+<part name="A1" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V"/>
+<part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF"/>
+<part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 </parts>
 <sheets>
 <sheet>
@@ -11581,16 +11631,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <attribute name="NAME" x="151.765" y="92.71" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="147.955" y="92.71" size="1.27" layer="96" rot="MR90" align="top-center"/>
 </instance>
-<instance part="C27" gate="G$1" x="30.48" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.94" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="33.02" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="34.798" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="C24" gate="G$1" x="60.96" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="58.42" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="63.5" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="65.278" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="P3" gate="G$1" x="48.26" y="162.56" smashed="yes">
 <attribute name="VALUE" x="48.26" y="166.37" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -11791,10 +11831,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <attribute name="NAME" x="199.39" y="156.21" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="199.39" y="153.67" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="U6" gate="G$1" x="38.1" y="106.68" smashed="yes">
-<attribute name="NAME" x="38.1" y="107.442" size="1.27" layer="95"/>
-<attribute name="MPN" x="46.99" y="98.298" size="1.27" layer="96" align="top-left"/>
-</instance>
 <instance part="R20" gate="G$1" x="243.84" y="167.64" smashed="yes">
 <attribute name="NAME" x="242.57" y="168.91" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="242.57" y="166.37" size="1.27" layer="96" align="top-center"/>
@@ -11805,6 +11841,20 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <instance part="Q2" gate="G$1" x="172.72" y="104.14" smashed="yes">
 <attribute name="NAME" x="172.72" y="109.22" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="MPN" x="172.72" y="99.06" size="1.27" layer="95" align="top-center"/>
+</instance>
+<instance part="A1" gate="G$1" x="38.1" y="106.68" smashed="yes">
+<attribute name="NAME" x="38.1" y="107.442" size="1.27" layer="95"/>
+<attribute name="MPN" x="36.576" y="110.744" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="C27" gate="G$1" x="30.48" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.94" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="33.02" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="34.798" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C24" gate="G$1" x="60.96" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="58.42" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="63.5" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="65.278" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11847,32 +11897,32 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <pinref part="U5" gate="G$1" pin="CONTROL-"/>
 </segment>
 <segment>
-<pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="93.98" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="91.44" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="91.44" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
 <junction x="45.72" y="91.44"/>
 <pinref part="P6" gate="1" pin="GND"/>
 <pinref part="D3" gate="LED" pin="C"/>
+<wire x1="60.96" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="93.98" x2="10.16" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
-<junction x="30.48" y="91.44"/>
 <pinref part="D4" gate="LED" pin="C"/>
-<wire x1="20.32" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="93.98" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
-<junction x="60.96" y="91.44"/>
 <pinref part="C26" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="93.98" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
 <junction x="20.32" y="91.44"/>
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="93.98" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
 <junction x="71.12" y="91.44"/>
-<pinref part="U6" gate="G$1" pin="GND"/>
+<pinref part="A1" gate="G$1" pin="GND"/>
+<wire x1="45.72" y1="91.44" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="93.98" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<junction x="30.48" y="91.44"/>
+<pinref part="C24" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="93.98" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
+<junction x="60.96" y="91.44"/>
 </segment>
 <segment>
 <pinref part="GND" gate="G$1" pin="1"/>
@@ -11950,9 +12000,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 </net>
 <net name="+5V" class="0">
 <segment>
-<wire x1="55.88" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="104.14" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="P5" gate="1" pin="+5V"/>
 <junction x="60.96" y="104.14"/>
 <pinref part="R26" gate="G$1" pin="1"/>
@@ -11961,7 +12008,10 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <wire x1="71.12" y1="104.14" x2="73.66" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="101.6" x2="71.12" y2="104.14" width="0.1524" layer="91"/>
 <junction x="71.12" y="104.14"/>
-<pinref part="U6" gate="G$1" pin="OUT"/>
+<pinref part="A1" gate="G$1" pin="OUT"/>
+<wire x1="60.96" y1="104.14" x2="55.88" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="104.14" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+5V" gate="G$1" pin="1"/>
@@ -12174,18 +12224,18 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <pinref part="P9" gate="G$1" pin="+24V"/>
 </segment>
 <segment>
-<wire x1="35.56" y1="104.14" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="P4" gate="G$1" pin="+24V"/>
 <wire x1="30.48" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
 <junction x="30.48" y="104.14"/>
-<pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="104.14" x2="17.78" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="101.6" x2="30.48" y2="104.14" width="0.1524" layer="91" style="longdash"/>
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="101.6" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
 <junction x="20.32" y="104.14"/>
 <pinref part="R25" gate="G$1" pin="2"/>
-<pinref part="U6" gate="G$1" pin="IN"/>
+<pinref part="A1" gate="G$1" pin="IN"/>
+<wire x1="30.48" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="30.48" y1="104.14" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
