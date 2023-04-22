@@ -10585,8 +10585,8 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="R36" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
 <part name="C28" library="HyTechDevices" deviceset="CAPACITOR_ELECTROLYTIC_?_*" device="A759KR" technology="180UF"/>
 <part name="A1" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V"/>
-<part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF"/>
 <part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
+<part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_1UF"/>
 </parts>
 <sheets>
 <sheet>
@@ -11846,15 +11846,15 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <attribute name="NAME" x="38.1" y="107.442" size="1.27" layer="95"/>
 <attribute name="MPN" x="36.576" y="110.744" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C27" gate="G$1" x="30.48" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.94" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="33.02" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="34.798" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="C24" gate="G$1" x="60.96" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.42" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="63.5" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="65.278" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C27" gate="G$1" x="30.48" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.94" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="33.02" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="34.798" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11917,12 +11917,12 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <junction x="71.12" y="91.44"/>
 <pinref part="A1" gate="G$1" pin="GND"/>
 <wire x1="45.72" y1="91.44" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="93.98" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
-<junction x="30.48" y="91.44"/>
 <pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="93.98" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
 <junction x="60.96" y="91.44"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="93.98" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<junction x="30.48" y="91.44"/>
 </segment>
 <segment>
 <pinref part="GND" gate="G$1" pin="1"/>
