@@ -8024,21 +8024,6 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="B_HI" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED" value="LED_0603_RED"/>
 <part name="P186" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R59" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240" value="RESISTOR_0603_240"/>
-<part name="P188" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P190" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P191" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="U$6" library="HyTechSupplies" deviceset="+24V" device=""/>
-<part name="R47" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="R48" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.55K"/>
-<part name="P192" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="D22" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="5V"/>
-<part name="C49" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C45" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C47" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C46" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="P193" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P194" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="P195" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U30" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="R63" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="R71" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="43K" value="RESISTOR_0603_43K"/>
@@ -8504,8 +8489,6 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R39" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R41" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="P54" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="U14" library="Temp" deviceset="MCP3208" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13016,62 +12999,6 @@ trips at 4.802kW. </text>
 <instance part="P177" gate="G$1" x="68.58" y="172.72" smashed="yes">
 <attribute name="VALUE" x="68.58" y="173.99" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P188" gate="G$1" x="223.52" y="104.14" smashed="yes">
-<attribute name="VALUE" x="223.52" y="105.41" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P190" gate="1" x="223.52" y="71.12" smashed="yes">
-<attribute name="VALUE" x="223.52" y="69.85" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P191" gate="1" x="254" y="71.12" smashed="yes">
-<attribute name="VALUE" x="254" y="69.85" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="U$6" gate="G$1" x="104.14" y="170.18" smashed="yes">
-<attribute name="VALUE" x="104.14" y="175.26" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="R47" gate="G$1" x="104.14" y="162.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.87" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="105.41" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R48" gate="G$1" x="104.14" y="149.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.87" y="148.59" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="105.41" y="148.59" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="P192" gate="1" x="111.76" y="137.16" smashed="yes">
-<attribute name="VALUE" x="111.76" y="135.89" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="D22" gate="G$1" x="111.76" y="149.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="109.855" y="148.59" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="113.665" y="148.59" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="C49" gate="G$1" x="223.52" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="220.98" y="123.19" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="226.06" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="227.838" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="C45" gate="G$1" x="243.84" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="241.3" y="123.19" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="246.38" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="248.158" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="C47" gate="G$1" x="233.68" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="231.14" y="123.19" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="236.22" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="237.998" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="C46" gate="G$1" x="254" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="251.46" y="123.19" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="256.54" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="258.318" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="P193" gate="G$1" x="223.52" y="134.62" smashed="yes">
-<attribute name="VALUE" x="223.52" y="135.89" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P194" gate="1" x="243.84" y="134.62" smashed="yes">
-<attribute name="VALUE" x="243.84" y="137.16" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P195" gate="1" x="254" y="111.76" smashed="yes">
-<attribute name="VALUE" x="254" y="110.49" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="A4" gate="G$1" x="142.24" y="203.2" smashed="yes">
 <attribute name="NAME" x="142.24" y="203.962" size="1.27" layer="95"/>
 <attribute name="MPN" x="147.32" y="159.258" size="1.27" layer="96" align="top-left"/>
@@ -13264,12 +13191,6 @@ trips at 4.802kW. </text>
 <instance part="P307" gate="1" x="144.78" y="76.2" smashed="yes">
 <attribute name="VALUE" x="144.78" y="74.93" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P54" gate="G$1" x="254" y="104.14" smashed="yes">
-<attribute name="VALUE" x="254" y="105.41" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="U14" gate="G$1" x="228.6" y="101.6" smashed="yes">
-<attribute name="NAME" x="228.6" y="102.362" size="1.27" layer="95"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -13290,16 +13211,6 @@ trips at 4.802kW. </text>
 <pinref part="P19" gate="1" pin="+5V"/>
 <wire x1="60.96" y1="167.64" x2="63.5" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="167.64" x2="63.5" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P194" gate="1" pin="+5V"/>
-<pinref part="C45" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="132.08" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C46" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="129.54" x2="243.84" y2="127" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="129.54" x2="254" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="254" y1="129.54" x2="254" y2="127" width="0.1524" layer="91"/>
-<junction x="243.84" y="129.54"/>
 </segment>
 <segment>
 <pinref part="A4" gate="G$1" pin="VUSB"/>
@@ -13377,40 +13288,6 @@ trips at 4.802kW. </text>
 <pinref part="P175" gate="1" pin="GND"/>
 <wire x1="116.84" y1="195.58" x2="119.38" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="195.58" x2="119.38" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P190" gate="1" pin="GND"/>
-<wire x1="223.52" y1="73.66" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="76.2" x2="226.06" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U14" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="R48" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="144.78" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="142.24" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="D22" gate="G$1" pin="A"/>
-<wire x1="111.76" y1="142.24" x2="111.76" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="P192" gate="1" pin="GND"/>
-<wire x1="111.76" y1="142.24" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
-<junction x="111.76" y="142.24"/>
-</segment>
-<segment>
-<pinref part="C45" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="119.38" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="116.84" x2="254" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="P195" gate="1" pin="GND"/>
-<wire x1="254" y1="114.3" x2="254" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C46" gate="G$1" pin="2"/>
-<wire x1="254" y1="119.38" x2="254" y2="116.84" width="0.1524" layer="91"/>
-<junction x="254" y="116.84"/>
-<pinref part="C49" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="119.38" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="116.84" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C47" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="116.84" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="116.84" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
-<junction x="233.68" y="116.84"/>
-<junction x="243.84" y="116.84"/>
 </segment>
 <segment>
 <pinref part="ESP" gate="LED" pin="C"/>
@@ -13519,22 +13396,6 @@ trips at 4.802kW. </text>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="P188" gate="G$1" pin="+3V3"/>
-<wire x1="226.06" y1="99.06" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="99.06" x2="223.52" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U14" gate="G$1" pin="VREF"/>
-</segment>
-<segment>
-<pinref part="P193" gate="G$1" pin="+3V3"/>
-<pinref part="C49" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="132.08" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="C47" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="129.54" x2="223.52" y2="127" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="129.54" x2="233.68" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="129.54" x2="233.68" y2="127" width="0.1524" layer="91"/>
-<junction x="223.52" y="129.54"/>
-</segment>
-<segment>
 <pinref part="P196" gate="G$1" pin="+3V3"/>
 <wire x1="193.04" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="86.36" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
@@ -13633,22 +13494,12 @@ trips at 4.802kW. </text>
 <wire x1="60.96" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
 <label x="68.58" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<wire x1="226.06" y1="86.36" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
-<label x="223.52" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U14" gate="G$1" pin="SDI"/>
-</segment>
 </net>
 <net name="TELEM_SDI" class="0">
 <segment>
 <pinref part="A3" gate="G$1" pin="(SDI)D12"/>
 <wire x1="60.96" y1="124.46" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
 <label x="68.58" y="124.46" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="226.06" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
-<label x="223.52" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U14" gate="G$1" pin="SDO"/>
 </segment>
 </net>
 <net name="TELEM_CLK" class="0">
@@ -13657,37 +13508,12 @@ trips at 4.802kW. </text>
 <wire x1="60.96" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
 <label x="68.58" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<wire x1="226.06" y1="91.44" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
-<label x="223.52" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U14" gate="G$1" pin="CLK"/>
-</segment>
 </net>
-<net name="+24V" class="0">
+<net name="24V_SENSE_ECU" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="+24V"/>
-<pinref part="R47" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="167.64" x2="104.14" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="24V_SENSE_TCU" class="0">
-<segment>
-<pinref part="R47" gate="G$1" pin="1"/>
-<pinref part="R48" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="157.48" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="154.94" x2="104.14" y2="152.4" width="0.1524" layer="91"/>
-<junction x="104.14" y="154.94"/>
-<pinref part="D22" gate="G$1" pin="C"/>
-<wire x1="104.14" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="154.94" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="154.94" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
-<junction x="111.76" y="154.94"/>
-<label x="114.3" y="154.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="251.46" y1="96.52" x2="254" y2="96.52" width="0.1524" layer="91"/>
-<label x="254" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="U14" gate="G$1" pin="IN0"/>
+<wire x1="35.56" y1="144.78" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
+<label x="33.02" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="A3" gate="G$1" pin="A12"/>
 </segment>
 </net>
 <net name="CAN_TCU_TX1" class="0">
@@ -13768,28 +13594,16 @@ trips at 4.802kW. </text>
 </net>
 <net name="CURRENT" class="0">
 <segment>
-<wire x1="251.46" y1="93.98" x2="254" y2="93.98" width="0.1524" layer="91"/>
-<label x="254" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="U14" gate="G$1" pin="IN1"/>
-</segment>
-</net>
-<net name="!AD4_CS" class="0">
-<segment>
-<wire x1="226.06" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
-<label x="223.52" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U14" gate="G$1" pin="!CS!"/>
-</segment>
-<segment>
-<wire x1="60.96" y1="157.48" x2="68.58" y2="157.48" width="0.1524" layer="91"/>
-<label x="68.58" y="157.48" size="1.27" layer="95" xref="yes"/>
-<pinref part="A3" gate="G$1" pin="D33"/>
+<wire x1="35.56" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
+<label x="33.02" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="A3" gate="G$1" pin="A15"/>
 </segment>
 </net>
 <net name="REFERENCE" class="0">
 <segment>
-<wire x1="251.46" y1="91.44" x2="254" y2="91.44" width="0.1524" layer="91"/>
-<label x="254" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="U14" gate="G$1" pin="IN2"/>
+<wire x1="35.56" y1="134.62" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
+<label x="33.02" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="A3" gate="G$1" pin="A14"/>
 </segment>
 </net>
 <net name="TCU_TX7" class="0">
@@ -14039,22 +13853,6 @@ trips at 4.802kW. </text>
 <wire x1="96.52" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="93.98" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U33" gate="G$1" pin="RXD"/>
-</segment>
-</net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="P191" gate="1" pin="GND"/>
-<wire x1="251.46" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="254" y1="76.2" x2="254" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U14" gate="G$1" pin="GND"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<wire x1="251.46" y1="99.06" x2="254" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="254" y1="99.06" x2="254" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="P54" gate="G$1" pin="+3V3"/>
-<pinref part="U14" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 </nets>
