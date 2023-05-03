@@ -8489,6 +8489,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R39" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R41" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="TP9" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP10" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14496,6 +14498,14 @@ trips at 4.802kW. </text>
 <attribute name="NAME" x="166.37" y="85.09" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="166.37" y="82.55" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="TP9" gate="G$1" x="96.52" y="185.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="99.06" y="183.642" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="99.06" y="187.198" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP10" gate="G$1" x="96.52" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="99.06" y="155.702" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="99.06" y="159.258" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15148,8 +15158,9 @@ trips at 4.802kW. </text>
 <net name="CURRENT" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="OUT"/>
-<wire x1="88.9" y1="185.42" x2="91.44" y2="185.42" width="0.1524" layer="91"/>
 <label x="91.44" y="185.42" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP9" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="185.42" x2="88.9" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -15186,8 +15197,9 @@ trips at 4.802kW. </text>
 <net name="REFERENCE" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="OUT"/>
-<wire x1="88.9" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
 <label x="91.44" y="157.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP10" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="157.48" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$57" class="0">
