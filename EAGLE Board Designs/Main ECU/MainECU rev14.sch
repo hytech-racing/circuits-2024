@@ -8034,15 +8034,13 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="C53" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P223" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P224" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R64" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R64" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="14K" value="RESISTOR_0603_14K"/>
 <part name="R65" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="P225" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P226" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U19" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="C61" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P229" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P230" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P231" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P232" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R55" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K" value="RESISTOR_0603_1.13K"/>
 <part name="R54" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.2K" value="RESISTOR_0603_10.2K"/>
@@ -8059,7 +8057,6 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P247" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="VR1" library="HyTechDevices" deviceset="RESISTOR_TRIMPOT_*_?" device="3362P" technology="10K"/>
 <part name="P242" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P243" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="U28" library="HyTechDevices" deviceset="LOGICGATE_AND_" device="" technology="DCK3"/>
 <part name="P244" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P245" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8168,7 +8165,6 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="C64" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P45" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P46" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P47" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P93" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R50" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K" value="RESISTOR_0603_1.13K"/>
 <part name="R51" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.2K" value="RESISTOR_0603_10.2K"/>
@@ -8333,8 +8329,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="FRAME5" library="HyTechFrames" deviceset="FRAME" device="">
 <attribute name="ENGINEER" value="Mikhail Allen"/>
 </part>
-<part name="R83" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K"/>
-<part name="R82" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.3K"/>
+<part name="R83" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
+<part name="R82" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="R84" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R85" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="C77" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
@@ -8342,8 +8338,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P268" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P269" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P270" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R79" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K"/>
-<part name="R78" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.3K"/>
+<part name="R79" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
+<part name="R78" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="R80" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R81" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="C74" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
@@ -8351,8 +8347,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P271" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P272" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P273" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R75" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K"/>
-<part name="R74" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.3K"/>
+<part name="R75" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
+<part name="R74" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="R76" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R77" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="C72" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
@@ -8360,8 +8356,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P274" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P275" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P276" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R101" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K"/>
-<part name="R99" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.3K"/>
+<part name="R101" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
+<part name="R99" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="R102" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R103" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="C93" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
@@ -8438,7 +8434,6 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="U24" library="HyTechDevices" deviceset="LOGICGATE_OR" device=""/>
 <part name="P100" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P101" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P200" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P201" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R57" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K" value="RESISTOR_0603_1.13K"/>
 <part name="R58" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.2K" value="RESISTOR_0603_10.2K"/>
@@ -8491,6 +8486,11 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R41" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="TP9" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP10" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="P47" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="P54" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="P56" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="P57" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="P58" library="HyTechSupplies" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9964,17 +9964,17 @@ CAN_3 - Sensors and anything else</text>
 <text x="124.46" y="88.9" size="1.778" layer="97">Current sensor is ISB-300-A-802
 6.667mV/A
 ACU amp gain is 4.832x
-Decimation divider is 0.203x
-Final current slope is 6.540mV/A
+Decimation divider is 0.1103x
+Final current slope is 3.553mV/A
 
 5kW at 530V is 9.434A
-Signal will be 61.698mV above reference
+Signal will be 33.522mV above reference
 
 Non-inverting op-amp with 1k and 41.2k has
-42.2x gain. Boosts 5kW signal to 2.603V.
+42.2x gain. Boosts 5kW signal to 1.415V.
 
-Comparing to 2.5V reference means BSPD
-trips at 4.802kW. </text>
+Comparing to 1.375V reference means BSPD
+trips at 4.859kW. </text>
 <text x="226.06" y="121.92" size="1.27" layer="97">BRAKE_1 needs to be positive coefficient signal
 (increasing brake request = inrcreasing voltage)</text>
 </plain>
@@ -10047,9 +10047,6 @@ trips at 4.802kW. </text>
 <attribute name="NAME" x="87.63" y="39.37" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="90.17" y="39.37" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P225" gate="1" x="88.9" y="66.04" smashed="yes">
-<attribute name="VALUE" x="88.9" y="68.58" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="P226" gate="1" x="88.9" y="30.48" smashed="yes">
 <attribute name="VALUE" x="88.9" y="29.21" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -10071,9 +10068,6 @@ trips at 4.802kW. </text>
 </instance>
 <instance part="P230" gate="1" x="50.8" y="185.42" smashed="yes">
 <attribute name="VALUE" x="50.8" y="184.15" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P231" gate="1" x="10.16" y="205.74" smashed="yes">
-<attribute name="VALUE" x="10.16" y="208.28" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P232" gate="1" x="22.86" y="185.42" smashed="yes">
 <attribute name="VALUE" x="22.86" y="184.15" size="1.27" layer="96" align="top-center"/>
@@ -10145,9 +10139,6 @@ trips at 4.802kW. </text>
 </instance>
 <instance part="P242" gate="1" x="218.44" y="127" smashed="yes">
 <attribute name="VALUE" x="218.44" y="125.73" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P243" gate="1" x="218.44" y="149.86" smashed="yes">
-<attribute name="VALUE" x="218.44" y="152.4" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U28" gate="A" x="228.6" y="78.74" smashed="yes">
 <attribute name="NAME" x="228.6" y="83.185" size="1.27" layer="95"/>
@@ -10248,9 +10239,6 @@ trips at 4.802kW. </text>
 </instance>
 <instance part="P46" gate="1" x="50.8" y="157.48" smashed="yes">
 <attribute name="VALUE" x="50.8" y="156.21" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P47" gate="1" x="10.16" y="165.1" smashed="yes">
-<attribute name="VALUE" x="10.16" y="167.64" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P93" gate="1" x="22.86" y="144.78" smashed="yes">
 <attribute name="VALUE" x="22.86" y="143.51" size="1.27" layer="96" align="top-center"/>
@@ -10392,9 +10380,6 @@ trips at 4.802kW. </text>
 <instance part="P101" gate="1" x="190.5" y="157.48" smashed="yes">
 <attribute name="VALUE" x="190.5" y="156.21" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P200" gate="1" x="177.8" y="205.74" smashed="yes">
-<attribute name="VALUE" x="177.8" y="208.28" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="P201" gate="1" x="190.5" y="185.42" smashed="yes">
 <attribute name="VALUE" x="190.5" y="184.15" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -10405,6 +10390,21 @@ trips at 4.802kW. </text>
 <instance part="R58" gate="G$1" x="190.5" y="195.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="189.23" y="194.31" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="191.77" y="194.31" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="P47" gate="G$1" x="10.16" y="205.74" smashed="yes">
+<attribute name="VALUE" x="10.16" y="207.01" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P54" gate="G$1" x="10.16" y="165.1" smashed="yes">
+<attribute name="VALUE" x="10.16" y="166.37" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P56" gate="G$1" x="177.8" y="205.74" smashed="yes">
+<attribute name="VALUE" x="177.8" y="207.01" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P57" gate="G$1" x="218.44" y="149.86" smashed="yes">
+<attribute name="VALUE" x="218.44" y="151.13" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P58" gate="G$1" x="88.9" y="66.04" smashed="yes">
+<attribute name="VALUE" x="88.9" y="67.31" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -10613,11 +10613,6 @@ trips at 4.802kW. </text>
 <junction x="152.4" y="73.66"/>
 </segment>
 <segment>
-<pinref part="P225" gate="1" pin="+5V"/>
-<pinref part="R64" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="60.96" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U19" gate="P" pin="VDD"/>
 <pinref part="C61" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="198.12" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
@@ -10648,11 +10643,6 @@ trips at 4.802kW. </text>
 <junction x="165.1" y="170.18"/>
 </segment>
 <segment>
-<pinref part="P243" gate="1" pin="+5V"/>
-<pinref part="VR1" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="147.32" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="P244" gate="1" pin="+5V"/>
 <pinref part="U28" gate="P" pin="VDD"/>
 <wire x1="190.5" y1="83.82" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
@@ -10665,24 +10655,12 @@ trips at 4.802kW. </text>
 <wire x1="20.32" y1="119.38" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P231" gate="1" pin="+5V"/>
-<pinref part="R54" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="203.2" x2="10.16" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="200.66" x2="12.7" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U15" gate="P" pin="VDD"/>
 <pinref part="C64" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="170.18" x2="50.8" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="P45" gate="1" pin="+5V"/>
 <wire x1="50.8" y1="170.18" x2="50.8" y2="172.72" width="0.1524" layer="91"/>
 <junction x="50.8" y="170.18"/>
-</segment>
-<segment>
-<pinref part="P47" gate="1" pin="+5V"/>
-<pinref part="R50" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="162.56" x2="10.16" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="160.02" x2="12.7" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U22" gate="P" pin="VDD"/>
@@ -10731,12 +10709,6 @@ trips at 4.802kW. </text>
 <pinref part="U24" gate="P" pin="VDD"/>
 <wire x1="190.5" y1="172.72" x2="190.5" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="170.18" x2="187.96" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P200" gate="1" pin="+5V"/>
-<pinref part="R57" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="203.2" x2="177.8" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="200.66" x2="180.34" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="REFERENCE" class="0">
@@ -10958,7 +10930,7 @@ trips at 4.802kW. </text>
 <junction x="63.5" y="53.34"/>
 </segment>
 </net>
-<net name="0V5" class="0">
+<net name="0V26" class="0">
 <segment>
 <pinref part="R54" gate="G$1" pin="1"/>
 <pinref part="R55" gate="G$1" pin="2"/>
@@ -11008,27 +10980,6 @@ trips at 4.802kW. </text>
 <pinref part="U16" gate="A" pin="IN1"/>
 <wire x1="48.26" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
 <label x="45.72" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="4V5" class="0">
-<segment>
-<pinref part="R50" gate="G$1" pin="1"/>
-<pinref part="R51" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="160.02" x2="22.86" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="160.02" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
-<junction x="22.86" y="160.02"/>
-<label x="25.4" y="160.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U15" gate="A" pin="VIN-"/>
-<wire x1="76.2" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
-<label x="73.66" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U17" gate="A" pin="VIN-"/>
-<wire x1="109.22" y1="200.66" x2="106.68" y2="200.66" width="0.1524" layer="91"/>
-<label x="106.68" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="REFERENCE_OOR_LO" class="0">
@@ -11101,7 +11052,58 @@ trips at 4.802kW. </text>
 <pinref part="U24" gate="A" pin="IN1"/>
 </segment>
 </net>
-<net name="4V5_1" class="0">
+<net name="2V38" class="0">
+<segment>
+<pinref part="R50" gate="G$1" pin="1"/>
+<pinref part="R51" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="160.02" x2="22.86" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="160.02" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
+<junction x="22.86" y="160.02"/>
+<label x="25.4" y="160.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U15" gate="A" pin="VIN-"/>
+<wire x1="76.2" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
+<label x="73.66" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U17" gate="A" pin="VIN-"/>
+<wire x1="109.22" y1="200.66" x2="106.68" y2="200.66" width="0.1524" layer="91"/>
+<label x="106.68" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="R54" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="203.2" x2="10.16" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="200.66" x2="12.7" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="P47" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R50" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="162.56" x2="10.16" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="160.02" x2="12.7" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="P54" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R57" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="203.2" x2="177.8" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="200.66" x2="180.34" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="P56" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="VR1" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="147.32" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="P57" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R64" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="60.96" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="P58" gate="G$1" pin="+3V3"/>
+</segment>
+</net>
+<net name="2V38_1" class="0">
 <segment>
 <pinref part="R57" gate="G$1" pin="1"/>
 <pinref part="R58" gate="G$1" pin="2"/>
