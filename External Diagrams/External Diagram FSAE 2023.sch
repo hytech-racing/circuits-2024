@@ -2451,8 +2451,6 @@ Dashed line is edge of mated connector.</description>
 <part name="U$12" library="HyTechSymbols" deviceset="AMK_AMKASYN" device=""/>
 <part name="TSMP+1" library="HyTechSymbols" deviceset="BANANA_JACK" device=""/>
 <part name="TSMP-1" library="HyTechSymbols" deviceset="BANANA_JACK" device=""/>
-<part name="J26" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="2371035-2"/>
-<part name="J27" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="1-2371113-2"/>
 <part name="AIR2" library="HyTechSymbols" deviceset="RELAY_SPST_NO_?*" device="" technology="GX23BA">
 <attribute name="MPN" value="GX23CA"/>
 </part>
@@ -2486,6 +2484,8 @@ Dashed line is edge of mated connector.</description>
 <part name="J34" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="0436500214"/>
 <part name="J31" library="HyTechSymbols" deviceset="CONNECTOR-4_*" device=""/>
 <part name="J32" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="0436500214"/>
+<part name="J35" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="2371035-2"/>
+<part name="J36" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="1-2371113-2"/>
 </parts>
 <sheets>
 <sheet>
@@ -2608,8 +2608,6 @@ Telemetry Control Unit</text>
 <wire x1="-73.66" y1="213.36" x2="-73.66" y2="223.52" width="0.6096" layer="156"/>
 <wire x1="-76.2" y1="213.36" x2="-76.2" y2="233.68" width="0.6096" layer="156"/>
 <text x="-139.7" y="154.94" size="1.778" layer="97" rot="R180">TO_COMPUTER</text>
-<wire x1="-71.12" y1="233.68" x2="-76.2" y2="233.68" width="0.6096" layer="156"/>
-<wire x1="-71.12" y1="223.52" x2="-73.66" y2="223.52" width="0.6096" layer="156"/>
 <wire x1="-99.06" y1="144.78" x2="-129.54" y2="144.78" width="0.6096" layer="156"/>
 <wire x1="-99.06" y1="139.7" x2="-129.54" y2="139.7" width="0.6096" layer="156"/>
 <wire x1="-129.54" y1="139.7" x2="-129.54" y2="137.16" width="0.6096" layer="156"/>
@@ -2620,23 +2618,10 @@ Telemetry Control Unit</text>
 <wire x1="-17.78" y1="139.7" x2="-17.78" y2="137.16" width="0.6096" layer="156"/>
 <wire x1="-50.8" y1="134.62" x2="-17.78" y2="134.62" width="0.6096" layer="156"/>
 <wire x1="-17.78" y1="134.62" x2="-17.78" y2="129.54" width="0.6096" layer="156"/>
-<wire x1="-132.08" y1="210.82" x2="-99.06" y2="210.82" width="0.6096" layer="156"/>
-<wire x1="-99.06" y1="210.82" x2="-99.06" y2="208.28" width="0.6096" layer="156"/>
-<wire x1="-132.08" y1="203.2" x2="-99.06" y2="203.2" width="0.6096" layer="156"/>
-<wire x1="-132.08" y1="195.58" x2="-99.06" y2="195.58" width="0.6096" layer="156"/>
-<wire x1="-99.06" y1="195.58" x2="-99.06" y2="198.12" width="0.6096" layer="156"/>
 <wire x1="-73.66" y1="261.62" x2="-73.66" y2="223.52" width="0.6096" layer="156"/>
 <text x="-91.44" y="111.76" size="5.08" layer="97">Inverter Enclosure</text>
-<wire x1="-50.8" y1="208.28" x2="-35.56" y2="208.28" width="0.6096" layer="156"/>
-<wire x1="-35.56" y1="208.28" x2="-35.56" y2="205.74" width="0.6096" layer="156"/>
-<wire x1="-50.8" y1="203.2" x2="-35.56" y2="203.2" width="0.6096" layer="156"/>
-<wire x1="-50.8" y1="198.12" x2="-35.56" y2="198.12" width="0.6096" layer="156"/>
-<wire x1="-35.56" y1="198.12" x2="-35.56" y2="200.66" width="0.6096" layer="156"/>
-<wire x1="0" y1="210.82" x2="-10.16" y2="210.82" width="0.6096" layer="156"/>
-<wire x1="-10.16" y1="210.82" x2="-10.16" y2="205.74" width="0.6096" layer="156"/>
-<wire x1="0" y1="203.2" x2="-10.16" y2="203.2" width="0.6096" layer="156"/>
-<wire x1="0" y1="195.58" x2="-10.16" y2="195.58" width="0.6096" layer="156"/>
-<wire x1="-10.16" y1="195.58" x2="-10.16" y2="200.66" width="0.6096" layer="156"/>
+<wire x1="-17.78" y1="210.82" x2="-20.32" y2="210.82" width="0.6096" layer="156"/>
+<wire x1="-17.78" y1="195.58" x2="-20.32" y2="195.58" width="0.6096" layer="156"/>
 <wire x1="147.32" y1="264.16" x2="147.32" y2="259.08" width="0.6096" layer="156"/>
 <wire x1="233.68" y1="271.78" x2="233.68" y2="261.62" width="0.6096" layer="156"/>
 <wire x1="226.06" y1="271.78" x2="226.06" y2="251.46" width="0.6096" layer="156"/>
@@ -2670,6 +2655,21 @@ Telemetry Control Unit</text>
 <text x="45.72" y="-27.94" size="1.778" layer="97">CHASSIS</text>
 <text x="68.58" y="38.1" size="1.778" layer="97">LEFT_BRB</text>
 <text x="129.54" y="-9.398" size="1.778" layer="97">Maintenance</text>
+<wire x1="-132.08" y1="210.82" x2="-129.54" y2="210.82" width="0.6096" layer="156"/>
+<wire x1="-129.54" y1="210.82" x2="-129.54" y2="205.74" width="0.6096" layer="156"/>
+<wire x1="-132.08" y1="203.2" x2="-129.54" y2="203.2" width="0.6096" layer="156"/>
+<wire x1="-132.08" y1="195.58" x2="-129.54" y2="195.58" width="0.6096" layer="156"/>
+<wire x1="-129.54" y1="195.58" x2="-129.54" y2="200.66" width="0.6096" layer="156"/>
+<wire x1="-104.14" y1="205.74" x2="-104.14" y2="208.28" width="0.6096" layer="156"/>
+<wire x1="-104.14" y1="208.28" x2="-99.06" y2="208.28" width="0.6096" layer="156"/>
+<wire x1="-104.14" y1="203.2" x2="-99.06" y2="203.2" width="0.6096" layer="156"/>
+<wire x1="-104.14" y1="200.66" x2="-104.14" y2="198.12" width="0.6096" layer="156"/>
+<wire x1="-104.14" y1="198.12" x2="-99.06" y2="198.12" width="0.6096" layer="156"/>
+<wire x1="-20.32" y1="210.82" x2="-20.32" y2="208.28" width="0.6096" layer="156"/>
+<wire x1="-20.32" y1="208.28" x2="-50.8" y2="208.28" width="0.6096" layer="156"/>
+<wire x1="-17.78" y1="203.2" x2="-50.8" y2="203.2" width="0.6096" layer="156"/>
+<wire x1="-50.8" y1="198.12" x2="-20.32" y2="198.12" width="0.6096" layer="156"/>
+<wire x1="-20.32" y1="198.12" x2="-20.32" y2="195.58" width="0.6096" layer="156"/>
 </plain>
 <moduleinsts>
 <moduleinst name="BMS_SEGMENT2" module="BMS_SEGMENT" x="309.88" y="228.6">
@@ -2967,9 +2967,9 @@ Telemetry Control Unit</text>
 <attribute name="MANUFACTURER" x="-154.94" y="137.16" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="MPN" x="-152.4" y="137.16" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="U$16" gate="G$1" x="17.78" y="203.2" smashed="yes" rot="MR90">
-<attribute name="MANUFACTURER" x="25.4" y="203.2" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
-<attribute name="MPN" x="22.86" y="203.2" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
+<instance part="U$16" gate="G$1" x="0" y="203.2" smashed="yes" rot="MR90">
+<attribute name="MANUFACTURER" x="7.62" y="203.2" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
+<attribute name="MPN" x="5.08" y="203.2" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
 </instance>
 <instance part="U$17" gate="G$1" x="0" y="137.16" smashed="yes" rot="MR90">
 <attribute name="MANUFACTURER" x="7.62" y="137.16" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
@@ -2991,14 +2991,6 @@ Telemetry Control Unit</text>
 <instance part="TSMP-1" gate="G$1" x="-124.46" y="226.06" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-123.444" y="227.838" size="1.27" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-123.444" y="223.012" size="1.27" layer="96" rot="MR0"/>
-</instance>
-<instance part="J26" gate="G$1" x="-25.4" y="198.12" smashed="yes" rot="R180">
-<attribute name="MPN" x="-25.4" y="208.915" size="1.27" layer="96" rot="R180" align="top-left"/>
-<attribute name="MANUFACTURER" x="-25.4" y="197.358" size="1.27" layer="96" rot="R180"/>
-</instance>
-<instance part="J27" gate="G$1" x="-20.32" y="198.12" smashed="yes" rot="MR180">
-<attribute name="MPN" x="-20.32" y="208.915" size="1.27" layer="96" rot="MR180" align="top-left"/>
-<attribute name="MANUFACTURER" x="-20.32" y="197.358" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="AIR2" gate="G$1" x="149.86" y="276.86" smashed="yes">
 <attribute name="MPN" x="149.86" y="253.238" size="1.27" layer="96" align="top-left"/>
@@ -3100,6 +3092,14 @@ Telemetry Control Unit</text>
 <attribute name="MANUFACTURER" x="462.28" y="33.782" size="1.27" layer="96"/>
 </instance>
 <instance part="J32" gate="G$1" x="462.28" y="15.24" smashed="yes"/>
+<instance part="J35" gate="G$1" x="-119.38" y="198.12" smashed="yes" rot="R180">
+<attribute name="MPN" x="-119.38" y="208.915" size="1.27" layer="96" rot="R180" align="top-left"/>
+<attribute name="MANUFACTURER" x="-119.38" y="197.358" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="J36" gate="G$1" x="-114.3" y="198.12" smashed="yes" rot="MR180">
+<attribute name="MPN" x="-114.3" y="208.915" size="1.27" layer="96" rot="MR180" align="top-left"/>
+<attribute name="MANUFACTURER" x="-114.3" y="197.358" size="1.27" layer="96" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 <bus name="5V_ACCEL_1,5V_ACCEL_2,5V_BRAKE,5V_BRAKE_1,5V_BRAKE_2,+5V_MOTOR,12V_ACCUM,12V_ACCUM_MAINT,12V_AFTER_LEFT_BRB,12V_DCDC_1,12V_DCDC_2,12V_MC,12VSUPPLY_COOLING_FAN_1,12VSUPPLY_COOLING_FAN_2,12VSUPPLY_COOLING_FAN_3,12VSUPPLY_COOLING_PUMP_1,12VSUPPLY_COOLING_PUMP_2,12VSUPPLY_COOLING_UNSWITCHED,12VSUPPLY_UNSWITCHED,12V_TSAL,12V_WHEEL_SPEED_FRONT_LEFT,12V_WHEEL_SPEED_FRONT_RIGHT,12V_WHEEL_SPEED_REAR_LEFT,12V_WHEEL_SPEED_REAR_RIGHT,24V_ACCULUMATOR_SUPPLY,24V_DASH,24VIN,24V_INVERTERS,24V_MAIN,24V_MAINT,24V_SUPPLY,60V_THRESHOLD,60V_THRESHOLD_1,60V_THRESHOLD_2,AMS_OK,B$1,BAT+,BPSD+,BRAKE_LIGHT,BSPD-,CAN_ACCUM_SHIELD,CANH1,CANH2,CANH3,CANH_ACCUM,CANH_DASH,CANH_FRONT,CANH_MAINT,CANH_MC,CANL1,CANL2,CANL3,CANL_ACCUM,CANL_DASH,CANL_MAINT,CANL_MC,CHARGE_ENABLE,CURRENT_SENSOR,CURRENT_SENSOR_REF,CUR_SENSE_5V,CUR_SENSE_CUR_SENSE,CUR_SENSE_GND,CUR_SENSE_REF,DASH_1,DASH_4,DASH_5,DASH_6,DASH_8,DASH_9,DASH_11,DASH_12,ENCODER_CLK+,ENCODER_CLK-,ENCODER_DATA+,ENCODER_DATA-,FAN_1,FAN_2,FL_LOAD_CELL,FL_MOTOR_ENCODER_CLK_+-,FL_MOTOR_ENCODER_DATA+-,FL_MOTOR_ENCODER_TEMP+-,FR_LOAD_CELL,FR_MOTOR_ENCODER_CLK_+-,FR_MOTOR_ENCODER_DATA+-,FR_MOTOR_ENCODER_TEMP+-,GND,GND_ACCEL_1,GND_ACCEL_2,GND_ACCUM,GND_AUX,GND_BR,GND_BRAKE,GND_BRAKE_1,GND_BRAKE_2,GND_BR_TS,GND_CHASSIS,GND_CURRENT,GND_DASH,GND_DCDC_1,GND_DCDC1,GND_DCDC_2,GND_DCDC2,GND_DCDC_4,GND_LEFT_PANEL,GND_MAIN_ECU,GND_MAINT,GND_MC,GND_POWER_SWITCHING,GND_RADIATOR,GND_SHIELD,GND_TSAL_GREEN,GND_TSAL_RED,HV+,HV-,HV-FUSED,HV+FUSED,IMD_GND,IMD_HV-,IMD_HV+,IMD_OK,IMD_SUPPLY,INVERTER_24V,INVERTER_24VIN,INVERTER_COOLING_24V,INVERTER_COOLING_GND,INVERTER_EN,ISOSPI_M,ISOSPI_P,LATCH_BTN,LATCH_EXT_BTN,MC_MAINT_FAULT_INDIC,MC_MAINT_GND,MC_MAINT_PROG_ENA,MC_MAINT_RXD,MC_MAINT_TXD,MC_MAINT_XDCR_PWR,MOTOR_3PHASE_INTERLOCK_X4,MOTOR_COOLING_24V,MOTOR_COOLING_GND,MOTOR_COS+,MOTOR_COS-,MOTOR_EXC-,MOTOR_EXC+,MOTOR_SHIELD,MOTOR_SIN-,MOTOR_SIN+,MOTOR_TEMP-,MOTOR_TEMP+,N$1,N$2,N$3,N$4,N$5,N$6,N$7,N$8,N$9,N$10,N$11,N$12,N$13,N$14,N$15,N$16,N$17,N$18,N$19,N$20,N$21,N$22,N$23,N$24,N$25,N$26,N$27,N$28,N$29,N$30,N$31,N$32,N$33,N$34,N$35,N$36,N$37,N$38,N$39,N$40,N$41,N$42,N$43,N$44,N$45,N$46,N$47,N$48,N$49,N$50,N$51,N$52,N$53,N$54,N$55,N$56,N$57,N$58,N$59,N$60,N$62,N$63,N$64,N$65,N$66,N$67,N$68,N$69,N$70,N$71,N$72,N$73,N$74,N$75,N$76,N$77,N$78,N$79,N$80,N$81,N$82,N$83,N$84,N$85,N$86,N$87,N$88,N$89,N$90,N$91,N$92,N$93,N$94,N$95,N$96,N$97,N$98,N$99,N$100,N$101,N$102,N$103,N$104,N$105,N$106,N$107,N$108,N$109,N$110,N$111,N$112,N$113,N$114,N$115,N$116,N$117,N$118,N$119,N$120,N$121,N$122,N$123,N$124,N$125,N$126,N$127,N$128,N$129,N$130,N$131,N$132,N$133,N$134,N$135,N$136,N$137,N$138,N$139,N$140,N$141,N$142,N$143,N$144,N$145,N$146,N$147,N$148,N$149,N$150,N$151,N$152,N$153,N$154,N$155,N$156,N$157,N$158,N$159,N$160,N$161,N$162,N$163,N$164,N$165,N$166,N$167,N$168,N$169,N$170,N$171,N$172,N$173,N$174,N$175,N$176,N$177,N$178,N$179,N$180,N$181,N$182,N$183,N$184,N$185,N$186,N$187,N$188,N$189,N$190,N$191,N$192,N$193,N$194,N$195,N$196,N$197,N$198,N$199,N$200,N$201,N$202,N$203,PACK+,PRECHARGE_OK,RET_FAN_1,RL_LOAD_CELL,RL_MOTOR_INTERLOCK,RR_LOAD_CELL,RR_MOTOR_INTERLOCK,SHDN_S,SHUTDOWN,SHUTDOWN_G,SHUTDOWN_J,SHUTDOWN_K,SHUTDOWN_K_OUT,SHUTDOWN_L,SHUTDOWN_M,SHUTDOWN_N,SHUTDOWN_Q,SHUTDOWN_R,SHUTDOWN_S,SIGNAL_ACCEL_1,SIGNAL_ACCEL_2,SIGNAL_BRAKE,SIGNAL_BRAKE_1,SIGNAL_BRAKE_2,SIGNAL_CURRENT,SIGNAL_CURRENT_REF,SIGNAL_REF,SSOK,START,STEERING_ANALOG,STEERING_CLK,STEERING_CS,STEERING_MISO,STEERING_MOSI,SUS_POT_3,SUS_POT_4,TS+_METER,TS+_UNFUSED,USB_D-,USB_D+,USB_GND,USB_VCC,WHEEL_SPEED_2,WHEEL_SPEED_3,WHEEL_SPEED_4,WHEEL_SPEED_FRONT_LEFT,WHEEL_SPEED_FRONT_RIGHT,WHEEL_SPEED_REAR_LEFT,WHEEL_SPEED_REAR_RIGHT">
@@ -3159,8 +3159,8 @@ Telemetry Control Unit</text>
 </bus>
 <bus name="B$7">
 <segment>
-<wire x1="17.78" y1="187.96" x2="17.78" y2="182.88" width="0.762" layer="92"/>
-<wire x1="17.78" y1="182.88" x2="-53.34" y2="182.88" width="0.762" layer="92"/>
+<wire x1="0" y1="187.96" x2="0" y2="182.88" width="0.762" layer="92"/>
+<wire x1="0" y1="182.88" x2="-53.34" y2="182.88" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="5V_ACCEL_1,5V_ACCEL_2,5V_BRAKE,5V_BRAKE_1,5V_BRAKE_2,+5V_MOTOR,12V_ACCUM,12V_DCDC_1,12V_DCDC_2,12VSUPPLY_COOLING_PUMP_1,12V_TSAL,12V_WHEEL_SPEED_FRONT_LEFT,12V_WHEEL_SPEED_FRONT_RIGHT,12V_WHEEL_SPEED_REAR_LEFT,12V_WHEEL_SPEED_REAR_RIGHT,24V_DASH,24V_MAIN,24V_MAINT,24V_SUPPLY,AMS_OK,B$1,BAT+,BPSD+,BRAKE_LIGHT,BSPD-,CAN_ACCUM_SHIELD,CANH2,CANH_ACCUM,CANH_MAINT,CANH_MC,CANL2,CANL_ACCUM,CANL_MAINT,CANL_MC,DASH_1,DASH_4,DASH_5,DASH_6,DASH_8,DASH_9,DASH_11,DASH_12,ENCODER_CLK-,ENCODER_CLK+,ENCODER_DATA+,ENCODER_DATA-,FAN_1,FAN_2,GND,GND_ACCEL_1,GND_ACCEL_2,GND_ACCUM,GND_AUX,GND_BRAKE,GND_BRAKE_1,GND_BRAKE_2,GND_BR_TS,GND_CHASSIS,GND_CURRENT,GND_DASH,GND_DCDC_1,GND_DCDC1,GND_DCDC2,GND_DCDC_2,GND_LEFT_PANEL,GND_MAIN_ECU,GND_MAINT,GND_MC,GND_POWER_SWITCHING,GND_RADIATOR,GND_TSAL_GREEN,GND_TSAL_RED,IMD_OK,INVERTER_24VIN,INVERTER_EN,ISOSPI_M,ISOSPI_P,LATCH_EXT_BTN,MC_MAINT_FAULT_INDIC,MC_MAINT_GND,MC_MAINT_PROG_ENA,MC_MAINT_RXD,MC_MAINT_TXD,MC_MAINT_XDCR_PWR,MOTOR_TEMP+,MOTOR_TEMP-,N$1,N$2,N$3,N$4,N$5,N$6,N$7,N$8,N$9,N$10,N$11,N$12,N$13,N$14,N$15,N$16,N$17,N$18,N$19,N$21,N$22,N$23,N$24,N$26,N$27,N$28,N$29,N$30,N$31,N$32,N$33,N$34,N$35,N$36,N$37,N$38,N$40,N$41,N$42,N$43,N$44,N$45,N$46,N$47,N$48,N$49,N$50,N$51,N$52,N$53,N$55,N$56,N$57,N$60,N$62,N$63,N$64,N$65,N$66,N$67,N$68,N$69,N$72,N$75,N$76,N$77,N$78,N$79,N$81,N$82,N$94,N$102,N$104,N$105,N$106,N$107,N$108,PACK+,PRECHARGE_OK,RET_FAN_1,SHDN_S,SHUTDOWN_G,SHUTDOWN_J,SHUTDOWN_K,SHUTDOWN_L,SHUTDOWN_M,SHUTDOWN_N,SHUTDOWN_S,SIGNAL_ACCEL_1,SIGNAL_ACCEL_2,SIGNAL_BRAKE,SIGNAL_BRAKE_1,SIGNAL_BRAKE_2,SIGNAL_CURRENT,START,TS+_METER,TS+_UNFUSED,USB_D+,USB_D-,USB_GND,USB_VCC,WHEEL_SPEED_2,WHEEL_SPEED_3,WHEEL_SPEED_4,WHEEL_SPEED_FRONT_LEFT,WHEEL_SPEED_FRONT_RIGHT,WHEEL_SPEED_REAR_LEFT,WHEEL_SPEED_REAR_RIGHT">
@@ -5845,6 +5845,18 @@ Telemetry Control Unit</text>
 <wire x1="17.78" y1="116.84" x2="17.78" y2="124.46" width="0.1524" layer="91"/>
 <label x="17.78" y="116.84" size="1.778" layer="95"/>
 <wire x1="17.78" y1="116.84" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$61" class="0">
+<segment>
+<portref moduleinst="DISCHARGE" port="TS+"/>
+<wire x1="-71.12" y1="233.68" x2="-76.2" y2="233.68" width="0.6096" layer="91"/>
+</segment>
+</net>
+<net name="N$204" class="0">
+<segment>
+<portref moduleinst="DISCHARGE" port="TS-"/>
+<wire x1="-71.12" y1="223.52" x2="-73.66" y2="223.52" width="0.6096" layer="91"/>
 </segment>
 </net>
 </nets>
