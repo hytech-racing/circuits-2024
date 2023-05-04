@@ -8464,9 +8464,14 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P263" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P264" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.55K"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="P265" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="D5" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="5V"/>
+<part name="D5" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="5V">
+<attribute name="DKPN" value="GSOT03-E3-08CT-ND"/>
+<attribute name="MOPN" value="78-GSOT03-E3-08"/>
+<attribute name="MPN" value="GSOT03-E3-08"/>
+<attribute name="VOLTAGE" value="3.3V"/>
+</part>
 <part name="P302" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P303" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P304" library="HyTechSupplies" deviceset="GND" device=""/>
