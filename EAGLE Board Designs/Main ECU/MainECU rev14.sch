@@ -8506,6 +8506,15 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R106" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
 <part name="D27" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
 <part name="P63" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="JP12" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
+<part name="VR2" library="HyTechDevices" deviceset="RESISTOR_TRIMPOT_*_?" device="3362P" technology="10K"/>
+<part name="P89" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="P90" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="C45" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C46" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
+<part name="JP13" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="DNP"/>
+<part name="R107" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R108" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -10381,9 +10390,9 @@ trips at 4.859kW. </text>
 <attribute name="NAME" x="147.32" y="148.082" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="147.32" y="151.638" size="1.27" layer="95" rot="R180" align="top-left"/>
 </instance>
-<instance part="U24" gate="A" x="228.6" y="165.1" smashed="yes">
-<attribute name="NAME" x="228.6" y="169.545" size="1.27" layer="95"/>
-<attribute name="MPN" x="228.6" y="160.655" size="1.27" layer="96" align="top-left"/>
+<instance part="U24" gate="A" x="228.6" y="160.02" smashed="yes">
+<attribute name="NAME" x="228.6" y="164.465" size="1.27" layer="95"/>
+<attribute name="MPN" x="228.6" y="155.575" size="1.27" layer="96" align="top-left"/>
 </instance>
 <instance part="U24" gate="P" x="177.8" y="172.72" smashed="yes">
 <attribute name="NAME" x="177.8" y="173.482" size="1.27" layer="95"/>
@@ -10420,6 +10429,39 @@ trips at 4.859kW. </text>
 </instance>
 <instance part="P58" gate="G$1" x="88.9" y="66.04" smashed="yes">
 <attribute name="VALUE" x="88.9" y="67.31" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="VR2" gate="G$1" x="226.06" y="190.5" smashed="yes">
+<attribute name="NAME" x="223.52" y="189.484" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="227.584" y="186.69" size="1.27" layer="96" align="top-left"/>
+<attribute name="MPN" x="227.584" y="184.658" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="P89" gate="G$1" x="226.06" y="208.28" smashed="yes">
+<attribute name="VALUE" x="226.06" y="209.55" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P90" gate="1" x="243.84" y="167.64" smashed="yes">
+<attribute name="VALUE" x="243.84" y="166.37" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="C45" gate="G$1" x="233.68" y="182.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="231.14" y="181.61" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="236.22" y="181.61" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="237.998" y="181.61" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C46" gate="G$1" x="243.84" y="182.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="241.3" y="181.61" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="246.38" y="181.61" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="248.158" y="181.61" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="JP13" gate="G$1" x="246.38" y="190.5" smashed="yes">
+<attribute name="NAME" x="246.38" y="193.04" size="1.27" layer="95"/>
+<attribute name="MPN" x="246.38" y="187.198" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="R107" gate="G$1" x="226.06" y="200.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="224.79" y="199.39" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="227.33" y="199.39" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R108" gate="G$1" x="226.06" y="180.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="224.79" y="179.07" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="227.33" y="179.07" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -10585,6 +10627,20 @@ trips at 4.859kW. </text>
 <pinref part="P201" gate="1" pin="GND"/>
 <wire x1="190.5" y1="190.5" x2="190.5" y2="187.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="226.06" y1="172.72" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C46" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="172.72" x2="243.84" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="172.72" x2="243.84" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="P90" gate="1" pin="GND"/>
+<wire x1="243.84" y1="172.72" x2="243.84" y2="170.18" width="0.1524" layer="91"/>
+<junction x="243.84" y="172.72"/>
+<pinref part="C45" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="177.8" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
+<junction x="233.68" y="172.72"/>
+<pinref part="R108" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="175.26" x2="226.06" y2="172.72" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$67" class="0">
 <segment>
@@ -10742,6 +10798,11 @@ trips at 4.859kW. </text>
 <wire x1="109.22" y1="205.74" x2="106.68" y2="205.74" width="0.1524" layer="91"/>
 <label x="106.68" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP13" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="187.96" x2="254" y2="187.96" width="0.1524" layer="91"/>
+<label x="254" y="187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$65" class="0">
 <segment>
@@ -10795,8 +10856,8 @@ trips at 4.859kW. </text>
 </segment>
 <segment>
 <pinref part="U24" gate="A" pin="OUT"/>
-<wire x1="238.76" y1="165.1" x2="241.3" y2="165.1" width="0.1524" layer="91"/>
-<label x="241.3" y="165.1" size="1.27" layer="95" xref="yes"/>
+<wire x1="238.76" y1="160.02" x2="241.3" y2="160.02" width="0.1524" layer="91"/>
+<label x="241.3" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKE_HIGH" class="0">
@@ -11049,8 +11110,8 @@ trips at 4.859kW. </text>
 <wire x1="119.38" y1="177.8" x2="142.24" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="226.06" y1="162.56" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
-<label x="223.52" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="226.06" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
+<label x="223.52" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U24" gate="A" pin="IN2"/>
 </segment>
 </net>
@@ -11062,8 +11123,8 @@ trips at 4.859kW. </text>
 <wire x1="119.38" y1="149.86" x2="142.24" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="226.06" y1="167.64" x2="223.52" y2="167.64" width="0.1524" layer="91"/>
-<label x="223.52" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="226.06" y1="162.56" x2="223.52" y2="162.56" width="0.1524" layer="91"/>
+<label x="223.52" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U24" gate="A" pin="IN1"/>
 </segment>
 </net>
@@ -11117,6 +11178,11 @@ trips at 4.859kW. </text>
 <wire x1="88.9" y1="60.96" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="P58" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<pinref part="P89" gate="G$1" pin="+3V3"/>
+<pinref part="R107" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="205.74" x2="226.06" y2="203.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="2V38_1" class="0">
 <segment>
@@ -11132,6 +11198,35 @@ trips at 4.859kW. </text>
 <pinref part="U26" gate="A" pin="VIN-"/>
 <wire x1="109.22" y1="175.26" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
 <label x="106.68" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="VR2" gate="G$1" pin="3"/>
+<wire x1="231.14" y1="187.96" x2="233.68" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="C46" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="187.96" x2="243.84" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="187.96" x2="246.38" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="185.42" x2="243.84" y2="187.96" width="0.1524" layer="91"/>
+<junction x="243.84" y="187.96"/>
+<pinref part="C45" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="185.42" x2="233.68" y2="187.96" width="0.1524" layer="91"/>
+<junction x="233.68" y="187.96"/>
+<pinref part="JP13" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="R107" gate="G$1" pin="1"/>
+<pinref part="VR2" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="195.58" x2="226.06" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="VR2" gate="G$1" pin="1"/>
+<pinref part="R108" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="185.42" x2="226.06" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -14643,9 +14738,13 @@ trips at 4.859kW. </text>
 <attribute name="NAME" x="99.06" y="183.642" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="99.06" y="187.198" size="1.27" layer="95" rot="R180" align="top-left"/>
 </instance>
-<instance part="TP10" gate="G$1" x="96.52" y="157.48" smashed="yes" rot="R180">
-<attribute name="NAME" x="99.06" y="155.702" size="1.27" layer="95" rot="R180"/>
-<attribute name="MPN" x="99.06" y="159.258" size="1.27" layer="95" rot="R180" align="top-left"/>
+<instance part="TP10" gate="G$1" x="101.6" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="104.14" y="155.702" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="104.14" y="159.258" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="JP12" gate="G$1" x="96.52" y="154.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="96.52" y="152.4" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="96.52" y="148.082" size="1.27" layer="96" rot="R180" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -15335,14 +15434,6 @@ trips at 4.859kW. </text>
 <wire x1="50.8" y1="154.94" x2="68.58" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="REFERENCE" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="OUT"/>
-<label x="91.44" y="157.48" size="1.27" layer="95" xref="yes"/>
-<pinref part="TP10" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="157.48" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$57" class="0">
 <segment>
 <pinref part="R91" gate="G$1" pin="1"/>
@@ -15739,6 +15830,21 @@ trips at 4.859kW. </text>
 <wire x1="172.72" y1="83.82" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="81.28" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
 <junction x="172.72" y="83.82"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="OUT"/>
+<pinref part="JP12" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="REFERENCE" class="0">
+<segment>
+<pinref part="JP12" gate="G$1" pin="1"/>
+<pinref part="TP10" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
+<label x="88.9" y="157.48" size="1.27" layer="95"/>
 </segment>
 </net>
 </nets>
