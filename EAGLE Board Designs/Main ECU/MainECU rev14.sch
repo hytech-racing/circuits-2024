@@ -8496,6 +8496,16 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P56" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P57" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P58" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="R47" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
+<part name="P59" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="R48" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
+<part name="D22" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
+<part name="P60" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="R105" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="36.5K" value="RESISTOR_0603_36.5K"/>
+<part name="P61" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="R106" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.64K" value="RESISTOR_0603_4.64K"/>
+<part name="D27" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="28V" value="TVS_DO-214AA_28V"/>
+<part name="P63" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11402,6 +11412,42 @@ trips at 4.859kW. </text>
 <instance part="P263" gate="1" x="264.16" y="185.42" smashed="yes">
 <attribute name="VALUE" x="264.16" y="184.15" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="R47" gate="G$1" x="106.68" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="107.95" y="59.69" size="1.27" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="RESISTANCE" x="107.95" y="62.23" size="1.27" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="P59" gate="1" x="114.3" y="45.72" smashed="yes">
+<attribute name="VALUE" x="114.3" y="44.45" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R48" gate="G$1" x="114.3" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="113.03" y="54.61" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="115.57" y="54.61" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="D22" gate="G$1" x="101.6" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="99.695" y="54.61" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="MPN" x="103.505" y="54.61" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="P60" gate="1" x="101.6" y="45.72" smashed="yes">
+<attribute name="VALUE" x="101.6" y="44.45" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R105" gate="G$1" x="172.72" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="173.99" y="100.33" size="1.27" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="RESISTANCE" x="173.99" y="102.87" size="1.27" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="P61" gate="1" x="180.34" y="86.36" smashed="yes">
+<attribute name="VALUE" x="180.34" y="85.09" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R106" gate="G$1" x="180.34" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="179.07" y="95.25" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="181.61" y="95.25" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="D27" gate="G$1" x="167.64" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="165.735" y="95.25" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="MPN" x="169.545" y="95.25" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="P63" gate="1" x="167.64" y="86.36" smashed="yes">
+<attribute name="VALUE" x="167.64" y="85.09" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11416,6 +11462,15 @@ trips at 4.859kW. </text>
 <wire x1="60.96" y1="190.5" x2="63.5" y2="190.5" width="0.1524" layer="91"/>
 <junction x="60.96" y="190.5"/>
 <label x="63.5" y="190.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="99.06" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R47" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="D22" gate="G$1" pin="C"/>
+<wire x1="101.6" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="58.42" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
+<junction x="101.6" y="60.96"/>
 </segment>
 </net>
 <net name="LATCH_BTN" class="0">
@@ -11579,6 +11634,26 @@ trips at 4.859kW. </text>
 <pinref part="P263" gate="1" pin="GND"/>
 <wire x1="264.16" y1="190.5" x2="264.16" y2="187.96" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="P59" gate="1" pin="GND"/>
+<pinref part="R48" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="50.8" x2="114.3" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D22" gate="G$1" pin="A"/>
+<pinref part="P60" gate="1" pin="GND"/>
+<wire x1="101.6" y1="50.8" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P61" gate="1" pin="GND"/>
+<pinref part="R106" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="91.44" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D27" gate="G$1" pin="A"/>
+<pinref part="P63" gate="1" pin="GND"/>
+<wire x1="167.64" y1="91.44" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SHDN_B" class="0">
 <segment>
@@ -11616,6 +11691,15 @@ trips at 4.859kW. </text>
 <wire x1="134.62" y1="190.5" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
 <junction x="134.62" y="190.5"/>
 <label x="137.16" y="190.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="165.1" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R105" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="101.6" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="D27" gate="G$1" pin="C"/>
+<wire x1="167.64" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="99.06" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
+<junction x="167.64" y="101.6"/>
 </segment>
 </net>
 <net name="BSPD_OK" class="0">
@@ -11997,6 +12081,28 @@ trips at 4.859kW. </text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="78.74" x2="114.3" y2="81.28" width="0.1524" layer="91"/>
 <junction x="114.3" y="81.28"/>
+</segment>
+</net>
+<net name="BMS_OK_SENSE" class="0">
+<segment>
+<pinref part="R105" gate="G$1" pin="1"/>
+<label x="182.88" y="101.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="177.8" y1="101.6" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R106" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="99.06" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
+<junction x="180.34" y="101.6"/>
+</segment>
+</net>
+<net name="OKHS_SENSE" class="0">
+<segment>
+<pinref part="R47" gate="G$1" pin="1"/>
+<label x="116.84" y="60.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="111.76" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R48" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="58.42" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
+<junction x="114.3" y="60.96"/>
 </segment>
 </net>
 </nets>
@@ -12947,6 +13053,34 @@ trips at 4.859kW. </text>
 <pinref part="U10" gate="G$1" pin="GND"/>
 </segment>
 </net>
+<net name="ECU_TX3" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="A0"/>
+<wire x1="208.28" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
+<label x="200.66" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ECU_RX3" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="A1"/>
+<wire x1="208.28" y1="101.6" x2="200.66" y2="101.6" width="0.1524" layer="91"/>
+<label x="200.66" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="OKHS_SENSE" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="A4"/>
+<wire x1="208.28" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
+<label x="200.66" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BMS_OK_SENSE" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="A2"/>
+<wire x1="208.28" y1="99.06" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
+<label x="200.66" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -12954,7 +13088,7 @@ trips at 4.859kW. </text>
 <text x="45.72" y="200.66" size="1.778" layer="97">decoupling</text>
 <text x="38.1" y="175.26" size="1.778" layer="97">Data Acq</text>
 <text x="78.74" y="111.76" size="1.27" layer="97">Serial2</text>
-<text x="10.16" y="119.38" size="1.27" layer="97">Serial3</text>
+<text x="7.62" y="119.38" size="1.27" layer="97">Serial3</text>
 <text x="78.74" y="152.4" size="1.27" layer="97">Serial8</text>
 </plain>
 <instances>
@@ -13476,20 +13610,6 @@ trips at 4.859kW. </text>
 <wire x1="68.58" y1="162.56" x2="68.58" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GPS_RX" class="0">
-<segment>
-<pinref part="A3" gate="G$1" pin="A0"/>
-<wire x1="35.56" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
-<label x="27.94" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="GPS_TX" class="0">
-<segment>
-<pinref part="A3" gate="G$1" pin="A1"/>
-<wire x1="35.56" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
-<label x="27.94" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="GPS_FIX" class="0">
 <segment>
 <wire x1="35.56" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
@@ -13862,6 +13982,20 @@ trips at 4.859kW. </text>
 <wire x1="96.52" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="93.98" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U33" gate="G$1" pin="RXD"/>
+</segment>
+</net>
+<net name="ECU_TX3" class="0">
+<segment>
+<pinref part="A3" gate="G$1" pin="A1"/>
+<wire x1="35.56" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
+<label x="27.94" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ECU_RX3" class="0">
+<segment>
+<pinref part="A3" gate="G$1" pin="A0"/>
+<wire x1="35.56" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
+<label x="27.94" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
