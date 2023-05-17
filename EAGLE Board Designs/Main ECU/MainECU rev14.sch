@@ -8192,7 +8192,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R26" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C15" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C15" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P115" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P116" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P117" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8201,7 +8201,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R44" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
 <part name="R43" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="C30" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C35" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C35" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P119" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P120" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P121" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8218,7 +8218,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R91" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
 <part name="R89" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="C90" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C87" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C87" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P127" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P128" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P129" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8227,7 +8227,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R90" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
 <part name="R88" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="C89" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C86" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C86" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P131" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P132" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P133" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8244,7 +8244,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R28" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
 <part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="C12" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C16" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C16" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P142" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P143" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P144" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8253,7 +8253,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R104" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
 <part name="R100" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="C96" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C95" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C95" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P146" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P147" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P148" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8269,7 +8269,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="U6" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="15K" value="RESISTOR_0603_15K"/>
 <part name="C21" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C32" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C32" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P139" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P140" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P141" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8277,7 +8277,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="U1" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
 <part name="R22" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="15K" value="RESISTOR_0603_15K"/>
 <part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C13" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C13" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P170" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P171" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P172" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8293,7 +8293,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="U7" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
 <part name="R40" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="15K" value="RESISTOR_0603_15K"/>
 <part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C33" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C33" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P207" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P208" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P209" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8301,7 +8301,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="U2" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="15K" value="RESISTOR_0603_15K"/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C14" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C14" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P211" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C23" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
@@ -8317,7 +8317,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="U8" library="HyTechDevices" deviceset="MAX74*" device="" technology="00"/>
 <part name="R42" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="15K" value="RESISTOR_0603_15K"/>
 <part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C34" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C34" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF" value="CAPACITOR_0603_10V_10NF"/>
 <part name="P234" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="C25" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C26" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
@@ -8333,8 +8333,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R82" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="R84" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R85" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="C77" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
-<part name="C78" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C77" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
+<part name="C78" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
 <part name="P268" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P269" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P270" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8342,8 +8342,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R78" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="R80" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R81" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="C74" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
-<part name="C75" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C74" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
+<part name="C75" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
 <part name="P271" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P272" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P273" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8351,8 +8351,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R74" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="R76" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R77" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="C72" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
-<part name="C73" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C72" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
+<part name="C73" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
 <part name="P274" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P275" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P276" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8360,8 +8360,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="R99" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="R102" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R103" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="C93" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
-<part name="C94" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_680PF"/>
+<part name="C93" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
+<part name="C94" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
 <part name="P277" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P278" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P279" library="HyTechSupplies" deviceset="GND" device=""/>

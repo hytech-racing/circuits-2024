@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -6447,14 +6447,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="28.194" y="94.488" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="28.194" y="94.488" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C15" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="26.162" y="85.09" smashed="yes" rot="R180">
-<attribute name="CAPACITANCE" value="680pF" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="885012006013" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C15" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="26.162" y="85.09" smashed="yes" rot="R180">
+<attribute name="CAPACITANCE" value="10nF" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="23.622" y="85.356" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="26.162" y="85.09" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U9" library="HyTechDevices" package="SOIC-08(NARROW,0.15&quot;)" value="MAX7400" x="30.226" y="75.438" smashed="yes" rot="R180">
@@ -6498,14 +6498,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="39.37" y="81.28" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="39.37" y="81.28" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C35" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="34.036" y="73.66" smashed="yes" rot="R90">
-<attribute name="CAPACITANCE" value="680pF" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="885012006013" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C35" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="34.036" y="73.66" smashed="yes" rot="R90">
+<attribute name="CAPACITANCE" value="10nF" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.516" y="76.2" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="43.18" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C7" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="22.098" y="94.488" smashed="yes" rot="R90">
@@ -6589,14 +6589,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="11.176" y="93.218" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="11.176" y="93.218" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C87" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="8.382" y="85.09" smashed="yes" rot="MR270">
-<attribute name="CAPACITANCE" value="680pF" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="885012006013" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="C87" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="8.382" y="85.09" smashed="yes" rot="MR270">
+<attribute name="CAPACITANCE" value="10nF" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="7.632" y="85.09" size="0.8128" layer="26" font="vector" rot="MR270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="17.526" y="94.488" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U35" library="HyTechDevices" package="SOIC-08(NARROW,0.15&quot;)" value="MAX7400" x="26.67" y="84.074" smashed="yes" rot="MR270">
@@ -6640,14 +6640,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="32.512" y="105.41" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="32.512" y="105.41" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C86" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="22.352" y="85.09" smashed="yes" rot="MR270">
-<attribute name="CAPACITANCE" value="680pF" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="885012006013" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="C86" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="22.352" y="85.09" smashed="yes" rot="MR270">
+<attribute name="CAPACITANCE" value="10nF" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="22.618" y="82.55" size="0.8128" layer="26" font="vector" rot="MR270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="43.688" y="87.122" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C83" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="17.78" y="81.026" smashed="yes" rot="MR180">
@@ -6731,14 +6731,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="42.418" y="87.884" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="42.418" y="87.884" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C16" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="34.29" y="85.09" smashed="yes" rot="R180">
-<attribute name="CAPACITANCE" value="680pF" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="885012006013" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C16" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="34.29" y="85.09" smashed="yes" rot="R180">
+<attribute name="CAPACITANCE" value="10nF" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="31.75" y="85.356" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="43.688" y="94.234" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U38" library="HyTechDevices" package="SOIC-08(NARROW,0.15&quot;)" value="MAX7400" x="26.67" y="92.202" smashed="yes" rot="MR270">
@@ -6782,14 +6782,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="32.512" y="113.538" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="32.512" y="113.538" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C95" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="22.352" y="93.218" smashed="yes" rot="MR270">
-<attribute name="CAPACITANCE" value="680pF" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="885012006013" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="C95" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="22.352" y="93.218" smashed="yes" rot="MR270">
+<attribute name="CAPACITANCE" value="10nF" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="22.618" y="90.678" size="0.8128" layer="26" font="vector" rot="MR270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="43.688" y="95.25" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="C10" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="30.226" y="94.488" smashed="yes" rot="R90">
@@ -6861,14 +6861,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="14.986" y="66.548" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="14.986" y="66.548" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C32" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="9.398" y="73.66" smashed="yes" rot="R90">
-<attribute name="CAPACITANCE" value="680pF" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="885012006013" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C32" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="9.398" y="73.66" smashed="yes" rot="R90">
+<attribute name="CAPACITANCE" value="10nF" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="8.878" y="76.2" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="18.542" y="56.896" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="HyTechDevices" package="SOIC-08(NARROW,0.15&quot;)" value="MAX7400" x="8.89" y="89.408" smashed="yes" rot="R180">
@@ -6900,14 +6900,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="30.226" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="30.226" y="95.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C13" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="9.906" y="85.09" smashed="yes" rot="R180">
-<attribute name="CAPACITANCE" value="680pF" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="885012006013" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C13" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="9.906" y="85.09" smashed="yes" rot="R180">
+<attribute name="CAPACITANCE" value="10nF" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="7.366" y="85.356" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="11.938" y="106.426" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C19" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="2.794" y="80.518" smashed="yes" rot="R90">
@@ -6979,14 +6979,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="66.802" y="64.516" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="66.802" y="64.516" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C33" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="17.526" y="73.66" smashed="yes" rot="R90">
-<attribute name="CAPACITANCE" value="680pF" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="885012006013" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C33" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="17.526" y="73.66" smashed="yes" rot="R90">
+<attribute name="CAPACITANCE" value="10nF" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="17.006" y="76.2" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="67.31" y="74.422" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U2" library="HyTechDevices" package="SOIC-08(NARROW,0.15&quot;)" value="MAX7400" x="17.018" y="89.408" smashed="yes" rot="R180">
@@ -7018,14 +7018,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="86.106" y="92.456" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="86.106" y="92.456" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C14" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="18.034" y="85.09" smashed="yes" rot="R180">
-<attribute name="CAPACITANCE" value="680pF" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="885012006013" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C14" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="18.034" y="85.09" smashed="yes" rot="R180">
+<attribute name="CAPACITANCE" value="10nF" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="15.494" y="85.356" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="22.86" y="154.178" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C22" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="10.922" y="80.518" smashed="yes" rot="R90">
@@ -7097,14 +7097,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="5%" x="28.194" y="81.28" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="28.194" y="81.28" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C34" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="25.654" y="73.66" smashed="yes" rot="R90">
-<attribute name="CAPACITANCE" value="680pF" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="885012006013" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C34" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="25.654" y="73.66" smashed="yes" rot="R90">
+<attribute name="CAPACITANCE" value="10nF" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.134" y="76.2" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="TOLERANCE" value="5%" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="10%" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="31.75" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C25" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="19.05" y="80.518" smashed="yes" rot="R90">
@@ -7175,22 +7175,22 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="22.86" y="81.788" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="22.86" y="81.788" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C77" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="28.702" y="77.216" smashed="yes" rot="MR180">
-<attribute name="CAPACITANCE" value="680pF" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="885012006013" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C77" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="28.702" y="77.216" smashed="yes" rot="MR180">
+<attribute name="CAPACITANCE" value="0.1µF" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="720-1688-1-ND" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Vitramon" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="77-VJ0603Y104JXQPBC" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="VJ0603Y104JXQPW1BC" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="28.702" y="76.466" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="29.464" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C78" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="25.654" y="77.216" smashed="yes" rot="MR180">
-<attribute name="CAPACITANCE" value="680pF" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="885012006013" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C78" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="25.654" y="77.216" smashed="yes" rot="MR180">
+<attribute name="CAPACITANCE" value="0.1µF" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="720-1688-1-ND" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Vitramon" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="77-VJ0603Y104JXQPBC" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="VJ0603Y104JXQPW1BC" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="25.654" y="76.466" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="26.162" y="92.456" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -7243,22 +7243,22 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="8.636" y="78.74" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="8.636" y="78.74" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C74" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="14.478" y="74.168" smashed="yes" rot="MR180">
-<attribute name="CAPACITANCE" value="680pF" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="885012006013" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C74" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="14.478" y="74.168" smashed="yes" rot="MR180">
+<attribute name="CAPACITANCE" value="0.1µF" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="720-1688-1-ND" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Vitramon" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="77-VJ0603Y104JXQPBC" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="VJ0603Y104JXQPW1BC" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="14.478" y="72.148" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="14.986" y="86.36" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C75" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="11.43" y="74.168" smashed="yes" rot="MR180">
-<attribute name="CAPACITANCE" value="680pF" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="885012006013" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C75" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="11.43" y="74.168" smashed="yes" rot="MR180">
+<attribute name="CAPACITANCE" value="0.1µF" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="720-1688-1-ND" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Vitramon" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="77-VJ0603Y104JXQPBC" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="VJ0603Y104JXQPW1BC" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="11.43" y="73.418" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="8.636" y="89.408" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -7311,22 +7311,22 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="22.86" y="77.216" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="22.86" y="77.216" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C72" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="28.702" y="72.644" smashed="yes" rot="MR180">
-<attribute name="CAPACITANCE" value="680pF" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="885012006013" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C72" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="28.702" y="72.644" smashed="yes" rot="MR180">
+<attribute name="CAPACITANCE" value="0.1µF" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="720-1688-1-ND" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Vitramon" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="77-VJ0603Y104JXQPBC" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="VJ0603Y104JXQPW1BC" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="28.702" y="71.894" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="29.21" y="84.836" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C73" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="25.654" y="72.644" smashed="yes" rot="MR180">
-<attribute name="CAPACITANCE" value="680pF" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="885012006013" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C73" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="25.654" y="72.644" smashed="yes" rot="MR180">
+<attribute name="CAPACITANCE" value="0.1µF" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="720-1688-1-ND" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Vitramon" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="77-VJ0603Y104JXQPBC" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="VJ0603Y104JXQPW1BC" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="25.654" y="71.894" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="22.86" y="87.884" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -7379,22 +7379,22 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="5.588" y="111.252" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="5.588" y="111.252" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C93" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="14.732" y="91.44" smashed="yes" rot="MR180">
-<attribute name="CAPACITANCE" value="680pF" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="885012006013" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C93" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="14.732" y="91.44" smashed="yes" rot="MR180">
+<attribute name="CAPACITANCE" value="0.1µF" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="720-1688-1-ND" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Vitramon" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="77-VJ0603Y104JXQPBC" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="VJ0603Y104JXQPW1BC" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="14.732" y="90.69" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="8.636" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C94" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_680PF" x="11.684" y="91.44" smashed="yes" rot="MR180">
-<attribute name="CAPACITANCE" value="680pF" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DKPN" value="732-7757-1-ND" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MANUFACTURER" value="Würth Elektronik" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MOPN" value="710-885012006013" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="885012006013" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="C94" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_0.1UF" x="11.684" y="91.44" smashed="yes" rot="MR180">
+<attribute name="CAPACITANCE" value="0.1µF" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DKPN" value="720-1688-1-ND" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Vitramon" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MOPN" value="77-VJ0603Y104JXQPBC" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="VJ0603Y104JXQPW1BC" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="11.684" y="90.69" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="12.192" y="121.92" size="1.778" layer="28" rot="MR180" display="off"/>
