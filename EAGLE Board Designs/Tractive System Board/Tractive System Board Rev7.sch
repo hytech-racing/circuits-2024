@@ -10592,6 +10592,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="R39" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV330K"/>
 <part name="R40" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="41.2K"/>
 <part name="R41" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="41.2K"/>
+<part name="R42" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
 </parts>
 <sheets>
 <sheet>
@@ -11919,6 +11920,10 @@ EN/UVLO &gt; 1.22V</text>
 <attribute name="VOLTAGE" x="33.02" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="34.798" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="R42" gate="G$1" x="162.56" y="157.48" smashed="yes">
+<attribute name="NAME" x="161.29" y="158.75" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="161.29" y="156.21" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12107,6 +12112,9 @@ EN/UVLO &gt; 1.22V</text>
 <wire x1="157.48" y1="162.56" x2="154.94" y2="162.56" width="0.1524" layer="91"/>
 <label x="154.94" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R30" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="162.56" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
+<junction x="157.48" y="162.56"/>
+<pinref part="R42" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="2"/>
@@ -12177,6 +12185,9 @@ EN/UVLO &gt; 1.22V</text>
 <wire x1="170.18" y1="162.56" x2="165.1" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="CONTROL+"/>
 <pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="162.56" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
+<junction x="165.1" y="162.56"/>
+<pinref part="R42" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PACK+" class="0">
