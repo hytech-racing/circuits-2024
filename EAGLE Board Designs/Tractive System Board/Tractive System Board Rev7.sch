@@ -10606,6 +10606,8 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <wire x1="76.2" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="97" style="longdash"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="210.82" width="0.254" layer="97" style="longdash"/>
 <text x="68.58" y="187.96" size="2.54" layer="97">Precharger Power Stage</text>
+<text x="93.726" y="173.99" size="1.27" layer="95">TS+FUSED &gt; 60V
+EN/UVLO &gt; 1.22V</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
