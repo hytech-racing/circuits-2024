@@ -351,38 +351,6 @@ Cody Kaminsky, Ethan Su</text>
 <rectangle x1="-19.304" y1="-4.826" x2="19.304" y2="4.318" layer="39"/>
 <text x="0" y="4.572" size="1.016" layer="21" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="MOLEX_MICROFIT_PTH_VERTICAL_06_SINGLE_SPACED">
-<description>6 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0436500617"&gt;Part&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430451214_sd.pdf"&gt;Footprint&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430251200_sd.pdf"&gt;Plug Size&lt;/a&gt;</description>
-<hole x="10.5029" y="-1.9558" drill="1.27"/>
-<hole x="-10.5029" y="-1.9558" drill="1.27"/>
-<wire x1="-10.8204" y1="-1.905" x2="10.8204" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="10.8204" y1="-1.905" x2="10.8204" y2="1.905" width="0.127" layer="21"/>
-<wire x1="10.8204" y1="1.905" x2="1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="1.905" x2="-1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-10.8204" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-10.8204" y1="1.905" x2="-10.8204" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="1.9304" y2="3.302" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="3.302" x2="1.9304" y2="1.905" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="-1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="5.969" x2="1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="1.9304" y1="5.969" x2="1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<rectangle x1="-11.557" y1="-2.286" x2="11.557" y2="2.286" layer="39"/>
-<rectangle x1="-2.54" y1="2.286" x2="2.54" y2="6.35" layer="39"/>
-<rectangle x1="-11.557" y1="-2.286" x2="11.557" y2="2.286" layer="40"/>
-<text x="0" y="-2.286" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-<pad name="5" x="7.493" y="0" drill="1.0668"/>
-<pad name="4" x="4.4958" y="0" drill="1.0668"/>
-<pad name="3" x="-1.4986" y="0" drill="1.0668"/>
-<pad name="2" x="-4.4958" y="0" drill="1.0668"/>
-<pad name="1" x="-7.493" y="0" drill="1.0668"/>
-</package>
 <package name="MOLEX_MICROFIT_PTH_VERTICAL_07_SINGLE_SPACED">
 <description>7 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
 &lt;br&gt;
@@ -414,6 +382,38 @@ Cody Kaminsky, Ethan Su</text>
 <pad name="3" x="-2.9972" y="0" drill="1.0668"/>
 <pad name="1" x="-8.9916" y="0" drill="1.0668"/>
 <pad name="2" x="-5.9944" y="0" drill="1.0668"/>
+</package>
+<package name="MOLEX_MICROFIT_PTH_VERTICAL_06_SINGLE_SPACED">
+<description>6 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
+&lt;br&gt;
+&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0436500617"&gt;Part&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.molex.com/pdm_docs/sd/430451214_sd.pdf"&gt;Footprint&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.molex.com/pdm_docs/sd/430251200_sd.pdf"&gt;Plug Size&lt;/a&gt;</description>
+<hole x="10.5029" y="-1.9558" drill="1.27"/>
+<hole x="-10.5029" y="-1.9558" drill="1.27"/>
+<wire x1="-10.8204" y1="-1.905" x2="10.8204" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="10.8204" y1="-1.905" x2="10.8204" y2="1.905" width="0.127" layer="21"/>
+<wire x1="10.8204" y1="1.905" x2="1.9304" y2="1.905" width="0.127" layer="21"/>
+<wire x1="1.9304" y1="1.905" x2="-1.9304" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-1.9304" y1="1.905" x2="-10.8204" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-10.8204" y1="1.905" x2="-10.8204" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.9304" y1="1.905" x2="-1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1.9304" y1="3.302" x2="1.9304" y2="3.302" width="0.127" layer="21"/>
+<wire x1="1.9304" y1="3.302" x2="1.9304" y2="1.905" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1.9304" y1="3.302" x2="-1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-1.9304" y1="5.969" x2="1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
+<wire x1="1.9304" y1="5.969" x2="1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
+<rectangle x1="-11.557" y1="-2.286" x2="11.557" y2="2.286" layer="39"/>
+<rectangle x1="-2.54" y1="2.286" x2="2.54" y2="6.35" layer="39"/>
+<rectangle x1="-11.557" y1="-2.286" x2="11.557" y2="2.286" layer="40"/>
+<text x="0" y="-2.286" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
+<pad name="5" x="7.493" y="0" drill="1.0668"/>
+<pad name="4" x="4.4958" y="0" drill="1.0668"/>
+<pad name="3" x="-1.4986" y="0" drill="1.0668"/>
+<pad name="2" x="-4.4958" y="0" drill="1.0668"/>
+<pad name="1" x="-7.493" y="0" drill="1.0668"/>
 </package>
 <package name="MOLEX_MICROFIT_PTH_VERTICAL_08_DUAL">
 <description>8 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
@@ -5814,12 +5814,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </element>
 <element name="J2" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_06_SINGLE_SPACED" value="CONNECTOR-5_MICRO_V6S_" x="198.374" y="-45.212" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Molex" x="81.534" y="-97.282" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="2165713006" x="81.534" y="-97.282" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="43650-0617" x="81.534" y="-97.282" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="196.088" y="-45.212" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
 </element>
 <element name="J1" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_07_SINGLE_SPACED" value="CONNECTOR-5_MICRO_V7S_" x="18.542" y="-17.526" smashed="yes">
 <attribute name="MANUFACTURER" value="Molex" x="45.212" y="-134.366" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="2165713007" x="45.212" y="-134.366" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="43650-0717" x="45.212" y="-134.366" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.542" y="-20.066" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
 </element>
 <element name="J3" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_08_DUAL" value="CONNECTOR-8_μF_T_V_BLACK" x="36.576" y="-67.056" smashed="yes">
