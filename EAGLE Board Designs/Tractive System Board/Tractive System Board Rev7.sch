@@ -10608,7 +10608,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <wire x1="5.08" y1="5.08" x2="5.08" y2="210.82" width="0.254" layer="97" style="longdash"/>
 <text x="68.58" y="187.96" size="2.54" layer="97">Precharger Power Stage</text>
 <text x="93.726" y="173.99" size="1.27" layer="95">TS+FUSED &gt; 60V
-EN/UVLO &gt; 1.22V</text>
+EN/UVLO &gt; 1.27V</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
@@ -11265,14 +11265,14 @@ EN/UVLO &gt; 1.22V</text>
 <junction x="134.62" y="133.35"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="142.24" x2="91.44" y2="133.35" width="0.6096" layer="91"/>
-<pinref part="R40" gate="G$1" pin="1"/>
 <pinref part="R41" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="142.24" x2="83.82" y2="142.24" width="0.6096" layer="91"/>
 <wire x1="83.82" y1="142.24" x2="83.82" y2="133.35" width="0.6096" layer="91"/>
-<junction x="83.82" y="142.24"/>
 <wire x1="83.82" y1="133.35" x2="91.44" y2="133.35" width="0.6096" layer="91"/>
 <junction x="83.82" y="133.35"/>
 <junction x="91.44" y="133.35"/>
+<pinref part="R40" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="142.24" x2="76.2" y2="142.24" width="0.6096" layer="91"/>
+<junction x="83.82" y="142.24"/>
 </segment>
 <segment>
 <wire x1="17.78" y1="81.28" x2="20.32" y2="81.28" width="0.6096" layer="91"/>
@@ -11614,11 +11614,11 @@ EN/UVLO &gt; 1.22V</text>
 <wire x1="83.82" y1="172.72" x2="114.3" y2="172.72" width="0.6096" layer="91"/>
 <wire x1="83.82" y1="172.72" x2="83.82" y2="149.86" width="0.6096" layer="91"/>
 <junction x="83.82" y="172.72"/>
-<wire x1="83.82" y1="149.86" x2="76.2" y2="149.86" width="0.6096" layer="91"/>
-<pinref part="R40" gate="G$1" pin="2"/>
 <pinref part="R41" gate="G$1" pin="2"/>
-<junction x="83.82" y="149.86"/>
 <pinref part="U2" gate="G$1" pin="EN/UVLO"/>
+<pinref part="R40" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="149.86" x2="76.2" y2="149.86" width="0.6096" layer="91"/>
+<junction x="83.82" y="149.86"/>
 </segment>
 </net>
 </nets>
