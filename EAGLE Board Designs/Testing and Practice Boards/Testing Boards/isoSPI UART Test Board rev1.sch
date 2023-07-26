@@ -3163,28 +3163,6 @@ Teensy 3.2/4.0 Footprint
 <wire x1="27.051" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="25.4" y1="-3.81" x2="25.4" y2="3.81" width="0.1524" layer="21"/>
 </package>
-<package name="78613/3C">
-<description>78613/3C 
-&lt;BR&gt;
-Pulse Transformers 1CT:1 200 UH 
-&lt;BR&gt;
-&lt;a href=https://www.murata.com/products/productdata/8816046047262/kmp-786.pdf&gt;Datasheet&lt;/a&gt;</description>
-<pad name="1" x="-5.08" y="2.54" drill="0.9906" diameter="1.199996875"/>
-<pad name="2" x="-5.08" y="0" drill="0.9906" diameter="1.199996875"/>
-<pad name="3" x="-5.08" y="-2.54" drill="0.9906" diameter="1.199996875"/>
-<pad name="6" x="5.08" y="2.54" drill="0.9906" diameter="1.199996875"/>
-<pad name="5" x="5.08" y="0" drill="0.9906" diameter="1.199996875"/>
-<pad name="4" x="5.08" y="-2.54" drill="0.9906" diameter="1.199996875"/>
-<wire x1="-4.759959375" y1="4.580890625" x2="-4.759959375" y2="-4.580890625" width="0.254" layer="21"/>
-<wire x1="-4.759959375" y1="-4.580890625" x2="4.759959375" y2="-4.580890625" width="0.254" layer="21"/>
-<wire x1="4.759959375" y1="-4.580890625" x2="4.759959375" y2="4.580890625" width="0.254" layer="21"/>
-<wire x1="4.759959375" y1="4.580890625" x2="-4.759959375" y2="4.580890625" width="0.254" layer="21"/>
-<rectangle x1="3.81" y1="-3.81" x2="6.35" y2="3.81" layer="40"/>
-<rectangle x1="-6.35" y1="-3.81" x2="-3.81" y2="3.81" layer="40"/>
-<rectangle x1="-6.35" y1="-5.3848" x2="6.35" y2="5.3848" layer="39"/>
-<text x="-2.286" y="5.969" size="0.8128" layer="25" align="center">&gt;NAME</text>
-<circle x="-5.207" y="5.969" radius="0.254" width="0" layer="21"/>
-</package>
 <package name="SOIC-08(NARROW,0.15&quot;)">
 <description>SOIC-8
 &lt;br&gt;
@@ -3542,6 +3520,28 @@ Note: Based on page 14 and 15.</description>
 <text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
 </package>
+<package name="78613/3C">
+<description>78613/3C 
+&lt;BR&gt;
+Pulse Transformers 1CT:1 200 UH 
+&lt;BR&gt;
+&lt;a href=https://www.murata.com/products/productdata/8816046047262/kmp-786.pdf&gt;Datasheet&lt;/a&gt;</description>
+<pad name="1" x="-5.08" y="2.54" drill="0.9906" diameter="1.199996875"/>
+<pad name="2" x="-5.08" y="0" drill="0.9906" diameter="1.199996875"/>
+<pad name="3" x="-5.08" y="-2.54" drill="0.9906" diameter="1.199996875"/>
+<pad name="6" x="5.08" y="2.54" drill="0.9906" diameter="1.199996875"/>
+<pad name="5" x="5.08" y="0" drill="0.9906" diameter="1.199996875"/>
+<pad name="4" x="5.08" y="-2.54" drill="0.9906" diameter="1.199996875"/>
+<wire x1="-4.759959375" y1="4.580890625" x2="-4.759959375" y2="-4.580890625" width="0.254" layer="21"/>
+<wire x1="-4.759959375" y1="-4.580890625" x2="4.759959375" y2="-4.580890625" width="0.254" layer="21"/>
+<wire x1="4.759959375" y1="-4.580890625" x2="4.759959375" y2="4.580890625" width="0.254" layer="21"/>
+<wire x1="4.759959375" y1="4.580890625" x2="-4.759959375" y2="4.580890625" width="0.254" layer="21"/>
+<rectangle x1="3.81" y1="-3.81" x2="6.35" y2="3.81" layer="40"/>
+<rectangle x1="-6.35" y1="-3.81" x2="-3.81" y2="3.81" layer="40"/>
+<rectangle x1="-6.35" y1="-5.3848" x2="6.35" y2="5.3848" layer="39"/>
+<text x="-2.286" y="5.969" size="0.8128" layer="25" align="center">&gt;NAME</text>
+<circle x="-5.207" y="5.969" radius="0.254" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TEENSY_4.0">
@@ -3663,64 +3663,6 @@ Pins tied to GND: SLOW
 <wire x1="-2.8575" y1="1.016" x2="-3.175" y2="0" width="0.1524" layer="94"/>
 <wire x1="0.635" y1="0" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="78613/3C">
-<description>78613/3C
-&lt;BR&gt;
-Pulse Transformers 1CT:1 200 UH
-&lt;BR&gt;
-&lt;a href="https://www.murata.com/products/productdata/8816046047262/kmp-786.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<pin name="PRI_1" x="-20.32" y="10.16" visible="off" length="middle" direction="pas"/>
-<pin name="PRI_CENTER_TAP" x="-12.7" y="-12.7" visible="off" length="middle" direction="pas"/>
-<pin name="PRI_2" x="-20.32" y="-10.16" visible="off" length="middle" direction="pas"/>
-<pin name="SEC_2" x="17.78" y="10.16" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="SEC_1" x="17.78" y="-10.16" visible="off" length="middle" direction="pas" rot="R180"/>
-<wire x1="-2.5146" y1="0" x2="-1.2446" y2="1.27" width="0.1524" layer="94" curve="90" cap="flat"/>
-<wire x1="-2.5146" y1="2.5397" x2="-1.27" y2="1.27" width="0.1524" layer="94" curve="-88.851934" cap="flat"/>
-<wire x1="-2.5146" y1="2.54" x2="-1.2446" y2="3.81" width="0.1524" layer="94" curve="90" cap="flat"/>
-<wire x1="-2.5146" y1="5.0797" x2="-1.27" y2="3.81" width="0.1524" layer="94" curve="-88.851934" cap="flat"/>
-<wire x1="-2.5146" y1="5.08" x2="-1.2446" y2="6.35" width="0.1524" layer="94" curve="90" cap="flat"/>
-<wire x1="-2.5146" y1="7.6197" x2="-1.2697" y2="6.35" width="0.1524" layer="94" curve="-88.838669" cap="flat"/>
-<wire x1="-2.5146" y1="7.62" x2="-1.2446" y2="8.89" width="0.1524" layer="94" curve="90" cap="flat"/>
-<wire x1="-2.5146" y1="10.1597" x2="-1.2697" y2="8.89" width="0.1524" layer="94" curve="-88.838669" cap="flat"/>
-<wire x1="1.2446" y1="1.2959" x2="2.54" y2="0.0002" width="0.1524" layer="94" curve="92.304783" cap="flat"/>
-<wire x1="1.27" y1="1.2954" x2="2.54" y2="2.5654" width="0.1524" layer="94" curve="-90" cap="flat"/>
-<wire x1="1.2446" y1="3.8359" x2="2.54" y2="2.5402" width="0.1524" layer="94" curve="92.304783" cap="flat"/>
-<wire x1="1.27" y1="3.8354" x2="2.54" y2="5.1054" width="0.1524" layer="94" curve="-90" cap="flat"/>
-<wire x1="1.2443" y1="6.35" x2="2.54" y2="5.0804" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
-<wire x1="1.27" y1="6.35" x2="2.54" y2="7.5946" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
-<wire x1="1.2443" y1="8.89" x2="2.54" y2="7.6204" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
-<wire x1="1.27" y1="8.89" x2="2.54" y2="10.1346" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
-<text x="0" y="10.922" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<wire x1="-0.508" y1="-10.16" x2="-0.508" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="10.16" x2="0.508" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="-2.5146" y1="-10.16" x2="-1.2446" y2="-8.89" width="0.1524" layer="94" curve="90" cap="flat"/>
-<wire x1="-2.5146" y1="-7.6203" x2="-1.27" y2="-8.89" width="0.1524" layer="94" curve="-88.851934" cap="flat"/>
-<wire x1="-2.5146" y1="-7.62" x2="-1.2446" y2="-6.35" width="0.1524" layer="94" curve="90" cap="flat"/>
-<wire x1="-2.5146" y1="-5.0803" x2="-1.27" y2="-6.35" width="0.1524" layer="94" curve="-88.851934" cap="flat"/>
-<wire x1="-2.5146" y1="-5.08" x2="-1.2446" y2="-3.81" width="0.1524" layer="94" curve="90" cap="flat"/>
-<wire x1="-2.5146" y1="-2.5403" x2="-1.2697" y2="-3.81" width="0.1524" layer="94" curve="-88.838669" cap="flat"/>
-<wire x1="-2.5146" y1="-2.54" x2="-1.2446" y2="-1.27" width="0.1524" layer="94" curve="90" cap="flat"/>
-<wire x1="-2.5146" y1="-0.0003" x2="-1.2697" y2="-1.27" width="0.1524" layer="94" curve="-88.838669" cap="flat"/>
-<wire x1="1.2446" y1="-8.8641" x2="2.54" y2="-10.1598" width="0.1524" layer="94" curve="92.304783" cap="flat"/>
-<wire x1="1.27" y1="-8.8646" x2="2.54" y2="-7.5946" width="0.1524" layer="94" curve="-90" cap="flat"/>
-<wire x1="1.2446" y1="-6.3241" x2="2.54" y2="-7.6198" width="0.1524" layer="94" curve="92.304783" cap="flat"/>
-<wire x1="1.27" y1="-6.3246" x2="2.54" y2="-5.0546" width="0.1524" layer="94" curve="-90" cap="flat"/>
-<wire x1="1.2443" y1="-3.81" x2="2.54" y2="-5.0796" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
-<wire x1="1.27" y1="-3.81" x2="2.54" y2="-2.5654" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
-<wire x1="1.2443" y1="-1.27" x2="2.54" y2="-2.5396" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
-<wire x1="1.27" y1="-1.27" x2="2.54" y2="-0.0254" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
-<circle x="2.54" y="-1.27" radius="0.381" width="0" layer="94"/>
-<circle x="-2.54" y="-1.27" radius="0.381" width="0" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="-12.7" width="0.1524" layer="94"/>
-<circle x="2.54" y="8.89" radius="0.381" width="0" layer="94"/>
-<circle x="-2.54" y="8.89" radius="0.381" width="0" layer="94"/>
-<wire x1="2.54" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-10.16" x2="-2.54" y2="-10.16" width="0.1524" layer="94"/>
-<text x="-2.54" y="-12.7" size="1.27" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
 <symbol name="ADM4854ARZ">
 <pin name="VCC" x="-2.54" y="-2.54" length="short" direction="pas"/>
@@ -3906,6 +3848,64 @@ Pulse Transformers 1CT:1 200 UH
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="-2.54" y="1.778" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-1.778" size="1.27" layer="95" align="top-left">&gt;MPN</text>
+</symbol>
+<symbol name="78613/3C">
+<description>78613/3C
+&lt;BR&gt;
+Pulse Transformers 1CT:1 200 UH
+&lt;BR&gt;
+&lt;a href="https://www.murata.com/products/productdata/8816046047262/kmp-786.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pin name="PRI_1" x="-20.32" y="10.16" visible="off" length="middle" direction="pas"/>
+<pin name="PRI_CENTER_TAP" x="-12.7" y="-12.7" visible="off" length="middle" direction="pas"/>
+<pin name="PRI_2" x="-20.32" y="-10.16" visible="off" length="middle" direction="pas"/>
+<pin name="SEC_2" x="17.78" y="10.16" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="SEC_1" x="17.78" y="-10.16" visible="off" length="middle" direction="pas" rot="R180"/>
+<wire x1="-2.5146" y1="0" x2="-1.2446" y2="1.27" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.5146" y1="2.5397" x2="-1.27" y2="1.27" width="0.1524" layer="94" curve="-88.851934" cap="flat"/>
+<wire x1="-2.5146" y1="2.54" x2="-1.2446" y2="3.81" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.5146" y1="5.0797" x2="-1.27" y2="3.81" width="0.1524" layer="94" curve="-88.851934" cap="flat"/>
+<wire x1="-2.5146" y1="5.08" x2="-1.2446" y2="6.35" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.5146" y1="7.6197" x2="-1.2697" y2="6.35" width="0.1524" layer="94" curve="-88.838669" cap="flat"/>
+<wire x1="-2.5146" y1="7.62" x2="-1.2446" y2="8.89" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.5146" y1="10.1597" x2="-1.2697" y2="8.89" width="0.1524" layer="94" curve="-88.838669" cap="flat"/>
+<wire x1="1.2446" y1="1.2959" x2="2.54" y2="0.0002" width="0.1524" layer="94" curve="92.304783" cap="flat"/>
+<wire x1="1.27" y1="1.2954" x2="2.54" y2="2.5654" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.2446" y1="3.8359" x2="2.54" y2="2.5402" width="0.1524" layer="94" curve="92.304783" cap="flat"/>
+<wire x1="1.27" y1="3.8354" x2="2.54" y2="5.1054" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.2443" y1="6.35" x2="2.54" y2="5.0804" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
+<wire x1="1.27" y1="6.35" x2="2.54" y2="7.5946" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
+<wire x1="1.2443" y1="8.89" x2="2.54" y2="7.6204" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
+<wire x1="1.27" y1="8.89" x2="2.54" y2="10.1346" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
+<text x="0" y="10.922" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<wire x1="-0.508" y1="-10.16" x2="-0.508" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="10.16" x2="0.508" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-2.5146" y1="-10.16" x2="-1.2446" y2="-8.89" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.5146" y1="-7.6203" x2="-1.27" y2="-8.89" width="0.1524" layer="94" curve="-88.851934" cap="flat"/>
+<wire x1="-2.5146" y1="-7.62" x2="-1.2446" y2="-6.35" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.5146" y1="-5.0803" x2="-1.27" y2="-6.35" width="0.1524" layer="94" curve="-88.851934" cap="flat"/>
+<wire x1="-2.5146" y1="-5.08" x2="-1.2446" y2="-3.81" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.5146" y1="-2.5403" x2="-1.2697" y2="-3.81" width="0.1524" layer="94" curve="-88.838669" cap="flat"/>
+<wire x1="-2.5146" y1="-2.54" x2="-1.2446" y2="-1.27" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.5146" y1="-0.0003" x2="-1.2697" y2="-1.27" width="0.1524" layer="94" curve="-88.838669" cap="flat"/>
+<wire x1="1.2446" y1="-8.8641" x2="2.54" y2="-10.1598" width="0.1524" layer="94" curve="92.304783" cap="flat"/>
+<wire x1="1.27" y1="-8.8646" x2="2.54" y2="-7.5946" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.2446" y1="-6.3241" x2="2.54" y2="-7.6198" width="0.1524" layer="94" curve="92.304783" cap="flat"/>
+<wire x1="1.27" y1="-6.3246" x2="2.54" y2="-5.0546" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="1.2443" y1="-3.81" x2="2.54" y2="-5.0796" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
+<wire x1="1.27" y1="-3.81" x2="2.54" y2="-2.5654" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
+<wire x1="1.2443" y1="-1.27" x2="2.54" y2="-2.5396" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
+<wire x1="1.27" y1="-1.27" x2="2.54" y2="-0.0254" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
+<circle x="2.54" y="-1.27" radius="0.381" width="0" layer="94"/>
+<circle x="-2.54" y="-1.27" radius="0.381" width="0" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-7.62" y2="-12.7" width="0.1524" layer="94"/>
+<circle x="2.54" y="8.89" radius="0.381" width="0" layer="94"/>
+<circle x="-2.54" y="8.89" radius="0.381" width="0" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="12.7" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="-2.54" y2="-10.16" width="0.1524" layer="94"/>
+<text x="-2.54" y="-12.7" size="1.27" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5886,37 +5886,6 @@ Requires ordering of:
 </device>
 </devices>
 </deviceset>
-<deviceset name="78613/3C" prefix="T">
-<description>Murata
-&lt;BR&gt;
-78613/3C 
-&lt;BR&gt;
-Pulse Transformers 1CT:1 200 UH 
-&lt;BR&gt;
-&lt;a href=https://www.murata.com/products/productdata/8816046047262/kmp-786.pdf&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="78613/3C" x="-2.54" y="-25.4"/>
-</gates>
-<devices>
-<device name="" package="78613/3C">
-<connects>
-<connect gate="G$1" pin="PRI_1" pad="1"/>
-<connect gate="G$1" pin="PRI_2" pad="2"/>
-<connect gate="G$1" pin="PRI_CENTER_TAP" pad="3"/>
-<connect gate="G$1" pin="SEC_1" pad="4"/>
-<connect gate="G$1" pin="SEC_2" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="811-3726-ND" constant="no"/>
-<attribute name="MANUFACTURER" value="Murata Power Solutions" constant="no"/>
-<attribute name="MOPN" value="580-786133C" constant="no"/>
-<attribute name="MPN" value="78613/3C" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ADM4854ARZ" prefix="U">
 <description>ADM4854ARZ
 &lt;BR&gt;
@@ -6330,6 +6299,37 @@ Used for RS485 transreceiver chips
 </device>
 </devices>
 </deviceset>
+<deviceset name="78613/3C" prefix="T">
+<description>Murata
+&lt;BR&gt;
+78613/3C 
+&lt;BR&gt;
+Pulse Transformers 1CT:1 200 UH 
+&lt;BR&gt;
+&lt;a href=https://www.murata.com/products/productdata/8816046047262/kmp-786.pdf&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="78613/3C" x="-2.54" y="-25.4"/>
+</gates>
+<devices>
+<device name="" package="78613/3C">
+<connects>
+<connect gate="G$1" pin="PRI_1" pad="1"/>
+<connect gate="G$1" pin="PRI_2" pad="3"/>
+<connect gate="G$1" pin="PRI_CENTER_TAP" pad="2"/>
+<connect gate="G$1" pin="SEC_1" pad="4"/>
+<connect gate="G$1" pin="SEC_2" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="811-3726-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Power Solutions" constant="no"/>
+<attribute name="MOPN" value="580-786133C" constant="no"/>
+<attribute name="MPN" value="78613/3C" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -6615,6 +6615,8 @@ Dashed line is edge of mated connector.</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="diff pairs" width="0.254" drill="0">
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device="">
@@ -6686,8 +6688,6 @@ Dashed line is edge of mated connector.</description>
 <part name="P58" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C20" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
 <part name="P59" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="T1" library="HyTechDevices" deviceset="78613/3C" device=""/>
-<part name="T2" library="HyTechDevices" deviceset="78613/3C" device=""/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="120"/>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="120"/>
 <part name="P60" library="HyTechSupplies" deviceset="+3V3" device=""/>
@@ -6720,6 +6720,8 @@ Dashed line is edge of mated connector.</description>
 <part name="J5" library="HyTechDevices" deviceset="CONNECTOR-6_?_*" device="μF_T_V" technology="BLACK"/>
 <part name="J4" library="HyTechDevices - Copy" deviceset="CONNECTOR-2_?_*" device="MF_T_V"/>
 <part name="J2" library="HyTechDevices - Copy" deviceset="CONNECTOR-2_?_*" device="MF_T_V"/>
+<part name="T1" library="HyTechDevices" deviceset="78613/3C" device=""/>
+<part name="T2" library="HyTechDevices" deviceset="78613/3C" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7142,7 +7144,7 @@ Dashed line is edge of mated connector.</description>
 <label x="27.94" y="30.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="RX+" class="0">
+<net name="RX_P" class="1">
 <segment>
 <pinref part="U2" gate="G$1" pin="A"/>
 <label x="2.54" y="33.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
@@ -7154,12 +7156,12 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="-10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.1524" layer="91"/>
-<label x="-10.16" y="5.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="D2" gate="G$1" pin="C1"/>
+<pinref part="D2" gate="G$1" pin="C2"/>
+<wire x1="-7.62" y1="0" x2="-10.16" y2="0" width="0.1524" layer="91"/>
+<label x="-10.16" y="0" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="RX-" class="0">
+<net name="RX_N" class="1">
 <segment>
 <pinref part="U2" gate="G$1" pin="B"/>
 <label x="2.54" y="30.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
@@ -7171,12 +7173,12 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J5" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.1524" layer="91"/>
-<label x="-10.16" y="0" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<pinref part="D2" gate="G$1" pin="C2"/>
+<pinref part="D2" gate="G$1" pin="C1"/>
+<wire x1="-7.62" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="91"/>
+<label x="-10.16" y="5.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TX-" class="0">
+<net name="TX_N" class="1">
 <segment>
 <pinref part="U2" gate="G$1" pin="Z"/>
 <label x="2.54" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
@@ -7184,7 +7186,7 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J5" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="TX+" class="0">
+<net name="TX_P" class="1">
 <segment>
 <pinref part="U2" gate="G$1" pin="Y"/>
 <label x="2.54" y="25.4" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
@@ -7461,14 +7463,6 @@ for &lt; 50m communication</text>
 <instance part="P59" gate="1" x="-33.02" y="30.48" smashed="yes">
 <attribute name="VALUE" x="-33.02" y="29.21" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="T1" gate="G$1" x="2.54" y="114.3" smashed="yes">
-<attribute name="NAME" x="2.54" y="125.222" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="MPN" x="0" y="101.6" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="T2" gate="G$1" x="-2.54" y="50.8" smashed="yes">
-<attribute name="NAME" x="-2.54" y="61.722" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="MPN" x="-5.08" y="38.1" size="1.27" layer="95" align="top-left"/>
-</instance>
 <instance part="R24" gate="G$1" x="-20.32" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="-21.59" y="113.03" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="-19.05" y="113.03" size="1.27" layer="96" rot="R90" align="top-center"/>
@@ -7543,6 +7537,14 @@ for &lt; 50m communication</text>
 <instance part="J2" gate="G$1" x="43.18" y="55.88" smashed="yes" rot="MR0">
 <attribute name="MPN" x="43.18" y="47.625" size="1.27" layer="96" rot="MR0" align="top-left"/>
 <attribute name="NAME" x="43.18" y="56.642" size="1.27" layer="95" rot="MR0"/>
+</instance>
+<instance part="T1" gate="G$1" x="2.54" y="114.3" smashed="yes">
+<attribute name="NAME" x="2.54" y="125.222" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="0" y="101.6" size="1.27" layer="95" align="top-left"/>
+</instance>
+<instance part="T2" gate="G$1" x="-2.54" y="50.8" smashed="yes">
+<attribute name="NAME" x="-2.54" y="61.722" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="-5.08" y="38.1" size="1.27" layer="95" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -7892,24 +7894,23 @@ for &lt; 50m communication</text>
 <pinref part="U7" gate="G$1" pin="ICMP"/>
 </segment>
 </net>
-<net name="IP_1" class="0">
+<net name="DIFF_1_P" class="1">
 <segment>
 <pinref part="U3" gate="G$1" pin="IP"/>
 <wire x1="-40.64" y1="128.27" x2="-27.94" y2="128.27" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="128.27" x2="-27.94" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="124.46" x2="-20.32" y2="124.46" width="0.1524" layer="91"/>
 <label x="-22.86" y="124.46" size="1.27" layer="95"/>
-<pinref part="T1" gate="G$1" pin="PRI_1"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="-20.32" y1="124.46" x2="-17.78" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="116.84" x2="-20.32" y2="124.46" width="0.1524" layer="91"/>
 <junction x="-20.32" y="124.46"/>
+<pinref part="T1" gate="G$1" pin="PRI_1"/>
 </segment>
 </net>
-<net name="IM_1" class="0">
+<net name="DIFF_1_N" class="1">
 <segment>
 <label x="-27.94" y="104.14" size="1.27" layer="95"/>
-<pinref part="T1" gate="G$1" pin="PRI_2"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="104.14" x2="-17.78" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="109.22" x2="-20.32" y2="104.14" width="0.1524" layer="91"/>
@@ -7918,6 +7919,7 @@ for &lt; 50m communication</text>
 <junction x="-20.32" y="104.14"/>
 <pinref part="U3" gate="G$1" pin="IM"/>
 <wire x1="-32.004" y1="125.73" x2="-40.64" y2="125.73" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="PRI_2"/>
 </segment>
 </net>
 <net name="TD_1+" class="0">
@@ -7925,8 +7927,8 @@ for &lt; 50m communication</text>
 <wire x1="20.32" y1="124.46" x2="20.32" y2="118.11" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="118.11" x2="34.29" y2="118.11" width="0.1524" layer="91"/>
 <label x="22.86" y="119.38" size="1.27" layer="95"/>
-<pinref part="T1" gate="G$1" pin="SEC_2"/>
 <pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="T1" gate="G$1" pin="SEC_2"/>
 </segment>
 </net>
 <net name="TD_1-" class="0">
@@ -7934,8 +7936,8 @@ for &lt; 50m communication</text>
 <wire x1="34.29" y1="115.57" x2="20.32" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="115.57" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
 <label x="22.86" y="114.3" size="1.27" layer="95"/>
-<pinref part="T1" gate="G$1" pin="SEC_1"/>
 <pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="T1" gate="G$1" pin="SEC_1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -7945,24 +7947,23 @@ for &lt; 50m communication</text>
 <pinref part="T1" gate="G$1" pin="PRI_CENTER_TAP"/>
 </segment>
 </net>
-<net name="IP_2" class="0">
+<net name="DIFF_2_P" class="1">
 <segment>
 <pinref part="U7" gate="G$1" pin="IP"/>
 <wire x1="-44.45" y1="67.31" x2="-27.94" y2="67.31" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="67.31" x2="-27.94" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="60.96" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
 <label x="-25.4" y="60.96" size="1.27" layer="95"/>
-<pinref part="T2" gate="G$1" pin="PRI_1"/>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="-25.4" y1="60.96" x2="-22.86" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="53.34" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-25.4" y="60.96"/>
+<pinref part="T2" gate="G$1" pin="PRI_1"/>
 </segment>
 </net>
-<net name="IM_2" class="0">
+<net name="DIFF_2_N" class="1">
 <segment>
 <label x="-33.02" y="40.64" size="1.27" layer="95"/>
-<pinref part="T2" gate="G$1" pin="PRI_2"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="-25.4" y1="40.64" x2="-22.86" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="45.72" x2="-25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -7971,6 +7972,7 @@ for &lt; 50m communication</text>
 <junction x="-25.4" y="40.64"/>
 <pinref part="U7" gate="G$1" pin="IM"/>
 <wire x1="-35.306" y1="64.77" x2="-44.45" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="PRI_2"/>
 </segment>
 </net>
 <net name="TD_2+" class="0">
@@ -7978,8 +7980,8 @@ for &lt; 50m communication</text>
 <wire x1="15.24" y1="60.96" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <label x="20.32" y="53.34" size="1.27" layer="95"/>
-<pinref part="T2" gate="G$1" pin="SEC_2"/>
 <pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="T2" gate="G$1" pin="SEC_2"/>
 </segment>
 </net>
 <net name="TD_2-" class="0">
@@ -7987,8 +7989,8 @@ for &lt; 50m communication</text>
 <wire x1="33.02" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="50.8" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
 <label x="20.32" y="50.8" size="1.27" layer="95"/>
-<pinref part="T2" gate="G$1" pin="SEC_1"/>
 <pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="T2" gate="G$1" pin="SEC_1"/>
 </segment>
 </net>
 <net name="N$19" class="0">
