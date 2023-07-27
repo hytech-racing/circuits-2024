@@ -753,21 +753,6 @@ Cody Kaminsky, Ethan Su</text>
 <wire x1="-1.55" y1="-0.8" x2="-1.55" y2="0.8" width="0.127" layer="21"/>
 <rectangle x1="-2.286" y1="-1.016" x2="2.286" y2="1.016" layer="39"/>
 </package>
-<package name="2220-CAP">
-<description>2220 Cap
-&lt;br&gt;
-&lt;a href="https://www.yageo.com/upload/website/yageo_UPY-C_GEN_26_20092411_950.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.knowlescapacitors.com/getattachment/fe7386b2-d58d-4a83-96e0-cf03dfba634f/Safety-Cap.aspx"&gt;Size&lt;/a&gt;</description>
-<smd name="1" x="-2.775" y="0" dx="1.05" dy="5.3" layer="1"/>
-<smd name="2" x="2.775" y="0" dx="1.05" dy="5.3" layer="1"/>
-<text x="0" y="2.95" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-2.85" y1="2.5" x2="2.85" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.85" y1="2.5" x2="2.85" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.85" y1="-2.5" x2="-2.85" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.85" y1="-2.5" x2="-2.85" y2="2.5" width="0.127" layer="21"/>
-<rectangle x1="-3.5" y1="-2.95" x2="3.5" y2="2.95" layer="39"/>
-</package>
 </packages>
 </library>
 <library name="HyTechManufacturing">
@@ -6687,16 +6672,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="107.7V" x="-1.27" y="-100.838" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="500V" x="-1.27" y="-100.838" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="HyTechDevices" package="2220-CAP" value="CAPACITOR_2220_630V_1UF" x="-0.254" y="-105.918" smashed="yes">
-<attribute name="CAPACITANCE" value="1µF" x="-0.254" y="-105.918" size="1.778" layer="27" display="off"/>
-<attribute name="DKPN" value="1608-2220Y6300105KXTWS2CT-ND" x="-0.254" y="-105.918" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Knowles Syfer" x="-0.254" y="-105.918" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="843-2220Y63105KXTWS2" x="-0.254" y="-105.918" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="2220Y6300105KXTWS2" x="-0.254" y="-105.918" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-0.254" y="-102.968" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-<attribute name="TOLERANCE" value="10%" x="-0.254" y="-105.918" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="630V" x="-0.254" y="-105.918" size="1.778" layer="27" display="off"/>
-</element>
 <element name="C29" library="HyTechDevices" package="1812-CAP" value="CAPACITOR_1812_1000V_0.1UF" x="0" y="-112.268" smashed="yes">
 <attribute name="CAPACITANCE" value="0.1uF" x="0" y="-112.268" size="1.778" layer="27" display="off"/>
 <attribute name="DKPN" value="399-C1812W104KDRAC7800CT-ND" x="0" y="-112.268" size="1.778" layer="27" display="off"/>
@@ -7323,9 +7298,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="R37" pad="1"/>
 <contactref element="R38" pad="1"/>
 <contactref element="C29" pad="2"/>
-<contactref element="C3" pad="2"/>
-<wire x1="2.521" y1="-105.918" x2="2.15" y2="-112.268" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.87" y1="-100.838" x2="2.521" y2="-105.918" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.87" y1="-100.838" x2="2.15" y2="-112.268" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.87" y1="-97.536" x2="-2.87" y2="-100.838" width="0" layer="19" extent="1-1"/>
 <wire x1="39.624" y1="-32.258" x2="-2.87" y2="-97.536" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -7846,9 +7819,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="R37" pad="2"/>
 <contactref element="R38" pad="2"/>
 <contactref element="C29" pad="1"/>
-<contactref element="C3" pad="1"/>
-<wire x1="-3.029" y1="-105.918" x2="-2.15" y2="-112.268" width="0" layer="19" extent="1-1"/>
-<wire x1="0.33" y1="-100.838" x2="-3.029" y2="-105.918" width="0" layer="19" extent="1-1"/>
+<wire x1="0.33" y1="-100.838" x2="-2.15" y2="-112.268" width="0" layer="19" extent="1-1"/>
 <wire x1="0.33" y1="-97.536" x2="0.33" y2="-100.838" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.982" y1="-82.55" x2="0.33" y2="-97.536" width="0" layer="19" extent="1-1"/>
 <wire x1="42.885" y1="-23.857" x2="-0.982" y2="-82.55" width="0" layer="19" extent="1-1"/>

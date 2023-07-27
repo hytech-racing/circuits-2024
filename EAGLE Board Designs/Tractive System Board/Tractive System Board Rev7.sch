@@ -10627,7 +10627,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="R44" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV365K"/>
 <part name="R37" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV46.4K"/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV46.4K"/>
-<part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="2220" technology="630V_1UF"/>
 <part name="C29" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1812" technology="1000V_0.1UF"/>
 </parts>
 <sheets>
@@ -10991,38 +10990,33 @@ EN/UVLO &gt; 1.285V</text>
 <attribute name="VOLTAGE" x="246.634" y="172.72" size="1.27" layer="96" rot="R270" align="top-center"/>
 <attribute name="CAPACITANCE" x="244.856" y="172.72" size="1.27" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="U$5" gate="G$1" x="35.56" y="190.5" smashed="yes">
-<attribute name="VALUE" x="35.56" y="195.58" size="1.27" layer="96" align="bottom-center"/>
+<instance part="U$5" gate="G$1" x="43.18" y="190.5" smashed="yes">
+<attribute name="VALUE" x="43.18" y="195.58" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R39" gate="G$1" x="63.5" y="172.72" smashed="yes">
-<attribute name="NAME" x="62.23" y="173.99" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="62.23" y="171.45" size="1.27" layer="96" align="top-center"/>
+<instance part="R39" gate="G$1" x="71.12" y="172.72" smashed="yes">
+<attribute name="NAME" x="69.85" y="173.99" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="69.85" y="171.45" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R43" gate="G$1" x="43.18" y="172.72" smashed="yes">
-<attribute name="NAME" x="41.91" y="173.99" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="41.91" y="171.45" size="1.27" layer="96" align="top-center"/>
+<instance part="R43" gate="G$1" x="50.8" y="172.72" smashed="yes">
+<attribute name="NAME" x="49.53" y="173.99" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="49.53" y="171.45" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R44" gate="G$1" x="53.34" y="172.72" smashed="yes">
-<attribute name="NAME" x="52.07" y="173.99" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="52.07" y="171.45" size="1.27" layer="96" align="top-center"/>
+<instance part="R44" gate="G$1" x="60.96" y="172.72" smashed="yes">
+<attribute name="NAME" x="59.69" y="173.99" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="59.69" y="171.45" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R37" gate="G$1" x="68.58" y="147.32" smashed="yes" rot="R90">
+<instance part="R37" gate="G$1" x="76.2" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="74.93" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="77.47" y="146.05" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R38" gate="G$1" x="68.58" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.31" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="69.85" y="146.05" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R38" gate="G$1" x="60.96" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.69" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="62.23" y="146.05" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="C3" gate="G$1" x="83.82" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="81.28" y="151.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="86.36" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="88.138" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="C29" gate="G$1" x="76.2" y="157.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.66" y="156.21" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="78.74" y="156.21" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="80.518" y="156.21" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C29" gate="G$1" x="83.82" y="157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="81.28" y="156.21" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="86.36" y="156.21" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="88.138" y="156.21" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11311,21 +11305,17 @@ EN/UVLO &gt; 1.285V</text>
 <junction x="134.62" y="133.35"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="142.24" x2="91.44" y2="133.35" width="0.6096" layer="91"/>
-<wire x1="68.58" y1="142.24" x2="68.58" y2="133.35" width="0.6096" layer="91"/>
-<wire x1="68.58" y1="133.35" x2="76.2" y2="133.35" width="0.6096" layer="91"/>
-<junction x="68.58" y="133.35"/>
+<wire x1="76.2" y1="142.24" x2="76.2" y2="133.35" width="0.6096" layer="91"/>
+<wire x1="76.2" y1="133.35" x2="83.82" y2="133.35" width="0.6096" layer="91"/>
+<junction x="76.2" y="133.35"/>
 <junction x="91.44" y="133.35"/>
 <pinref part="R37" gate="G$1" pin="1"/>
 <pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="133.35" x2="83.82" y2="133.35" width="0.6096" layer="91"/>
 <wire x1="83.82" y1="133.35" x2="91.44" y2="133.35" width="0.6096" layer="91"/>
-<wire x1="68.58" y1="142.24" x2="60.96" y2="142.24" width="0.6096" layer="91"/>
-<junction x="68.58" y="142.24"/>
+<wire x1="76.2" y1="142.24" x2="68.58" y2="142.24" width="0.6096" layer="91"/>
+<junction x="76.2" y="142.24"/>
 <pinref part="C29" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="152.4" x2="76.2" y2="133.35" width="0.6096" layer="91"/>
-<junction x="76.2" y="133.35"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="147.32" x2="83.82" y2="133.35" width="0.6096" layer="91"/>
+<wire x1="83.82" y1="152.4" x2="83.82" y2="133.35" width="0.6096" layer="91"/>
 <junction x="83.82" y="133.35"/>
 </segment>
 <segment>
@@ -11539,13 +11529,13 @@ EN/UVLO &gt; 1.285V</text>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="TS+FUSED"/>
-<wire x1="35.56" y1="187.96" x2="35.56" y2="182.88" width="0.6096" layer="91"/>
-<wire x1="35.56" y1="182.88" x2="35.56" y2="172.72" width="0.6096" layer="91"/>
+<wire x1="43.18" y1="187.96" x2="43.18" y2="182.88" width="0.6096" layer="91"/>
+<wire x1="43.18" y1="182.88" x2="43.18" y2="172.72" width="0.6096" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VIN"/>
-<wire x1="35.56" y1="182.88" x2="114.3" y2="182.88" width="0.6096" layer="91"/>
-<junction x="35.56" y="182.88"/>
+<wire x1="43.18" y1="182.88" x2="114.3" y2="182.88" width="0.6096" layer="91"/>
+<junction x="43.18" y="182.88"/>
 <pinref part="R43" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="172.72" x2="35.56" y2="172.72" width="0.6096" layer="91"/>
+<wire x1="45.72" y1="172.72" x2="43.18" y2="172.72" width="0.6096" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -11649,24 +11639,19 @@ EN/UVLO &gt; 1.285V</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<wire x1="68.58" y1="172.72" x2="76.2" y2="172.72" width="0.6096" layer="91"/>
 <wire x1="76.2" y1="172.72" x2="83.82" y2="172.72" width="0.6096" layer="91"/>
 <wire x1="83.82" y1="172.72" x2="114.3" y2="172.72" width="0.6096" layer="91"/>
-<wire x1="68.58" y1="172.72" x2="68.58" y2="149.86" width="0.6096" layer="91"/>
+<wire x1="76.2" y1="172.72" x2="76.2" y2="149.86" width="0.6096" layer="91"/>
 <pinref part="U2" gate="G$1" pin="EN/UVLO"/>
 <pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="172.72" x2="68.58" y2="172.72" width="0.6096" layer="91"/>
-<junction x="68.58" y="172.72"/>
+<wire x1="73.66" y1="172.72" x2="76.2" y2="172.72" width="0.6096" layer="91"/>
+<junction x="76.2" y="172.72"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <pinref part="R38" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="149.86" x2="60.96" y2="149.86" width="0.6096" layer="91"/>
-<junction x="68.58" y="149.86"/>
+<wire x1="76.2" y1="149.86" x2="68.58" y2="149.86" width="0.6096" layer="91"/>
+<junction x="76.2" y="149.86"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="172.72" x2="76.2" y2="160.02" width="0.6096" layer="91"/>
-<junction x="76.2" y="172.72"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="154.94" x2="83.82" y2="172.72" width="0.6096" layer="91"/>
-<wire x1="83.82" y1="172.974" x2="83.82" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="172.72" x2="83.82" y2="160.02" width="0.6096" layer="91"/>
 <junction x="83.82" y="172.72"/>
 </segment>
 </net>
@@ -11674,14 +11659,14 @@ EN/UVLO &gt; 1.285V</text>
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
 <pinref part="R44" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="172.72" x2="48.26" y2="172.72" width="0.6096" layer="91"/>
+<wire x1="53.34" y1="172.72" x2="55.88" y2="172.72" width="0.6096" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="R44" gate="G$1" pin="2"/>
 <pinref part="R39" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="172.72" x2="58.42" y2="172.72" width="0.6096" layer="91"/>
+<wire x1="63.5" y1="172.72" x2="66.04" y2="172.72" width="0.6096" layer="91"/>
 </segment>
 </net>
 </nets>
