@@ -10471,8 +10471,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="P46" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P47" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P48" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_"/>
 <part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF" value="CAPACITOR_0603_50V_10NF"/>
 <part name="C12" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF" value="CAPACITOR_0603_50V_10NF"/>
 <part name="D7" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="8V" value="TVS__8V"/>
@@ -10729,14 +10727,6 @@ EN/UVLO &gt; 1.285V</text>
 </instance>
 <instance part="P48" gate="1" x="121.92" y="43.18" smashed="yes">
 <attribute name="VALUE" x="121.92" y="41.91" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R18" gate="G$1" x="60.96" y="33.02" smashed="yes">
-<attribute name="NAME" x="59.69" y="34.29" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="59.69" y="31.75" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R15" gate="G$1" x="58.42" y="91.44" smashed="yes">
-<attribute name="NAME" x="57.15" y="92.71" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="57.15" y="90.17" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="C10" gate="G$1" x="66.04" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.5" y="26.67" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -11114,30 +11104,13 @@ EN/UVLO &gt; 1.285V</text>
 </net>
 <net name="N$62" class="0">
 <segment>
-<pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="33.02" x2="66.04" y2="33.02" width="0.6096" layer="91"/>
 <wire x1="66.04" y1="33.02" x2="66.04" y2="30.48" width="0.6096" layer="91"/>
 <pinref part="U4" gate="G$1" pin="IN"/>
 <wire x1="66.04" y1="33.02" x2="76.2" y2="33.02" width="0.6096" layer="91"/>
 <junction x="66.04" y="33.02"/>
-</segment>
-</net>
-<net name="N$63" class="0">
-<segment>
-<pinref part="R15" gate="G$1" pin="2"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="91.44" x2="63.5" y2="91.44" width="0.6096" layer="91"/>
-<wire x1="63.5" y1="91.44" x2="63.5" y2="88.9" width="0.6096" layer="91"/>
-<pinref part="U3" gate="G$1" pin="IN"/>
-<wire x1="63.5" y1="91.44" x2="76.2" y2="91.44" width="0.6096" layer="91"/>
-<junction x="63.5" y="91.44"/>
-</segment>
-</net>
-<net name="PACK_DIV_OUT" class="0">
-<segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="33.02" x2="55.88" y2="33.02" width="0.6096" layer="91"/>
+<wire x1="20.32" y1="33.02" x2="63.5" y2="33.02" width="0.6096" layer="91"/>
 <label x="25.4" y="33.02" size="1.27" layer="95"/>
 <wire x1="17.78" y1="33.02" x2="20.32" y2="33.02" width="0.6096" layer="91"/>
 <wire x1="20.32" y1="33.02" x2="22.86" y2="33.02" width="0.6096" layer="91"/>
@@ -11147,18 +11120,18 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="PACK_DIV_OUT" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
-<label x="22.86" y="132.08" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
-<net name="TS_DIV_OUT" class="0">
+<net name="N$63" class="0">
 <segment>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="91.44" x2="63.5" y2="91.44" width="0.6096" layer="91"/>
+<wire x1="63.5" y1="91.44" x2="63.5" y2="88.9" width="0.6096" layer="91"/>
+<pinref part="U3" gate="G$1" pin="IN"/>
+<wire x1="63.5" y1="91.44" x2="76.2" y2="91.44" width="0.6096" layer="91"/>
+<junction x="63.5" y="91.44"/>
 <wire x1="17.78" y1="88.9" x2="20.32" y2="88.9" width="0.6096" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="88.9" x2="22.86" y2="88.9" width="0.6096" layer="91"/>
-<wire x1="20.32" y1="91.44" x2="53.34" y2="91.44" width="0.6096" layer="91"/>
+<wire x1="20.32" y1="91.44" x2="63.5" y2="91.44" width="0.6096" layer="91"/>
 <wire x1="20.32" y1="88.9" x2="20.32" y2="91.44" width="0.6096" layer="91"/>
 <junction x="20.32" y="88.9"/>
 <wire x1="20.32" y1="93.98" x2="20.32" y2="91.44" width="0.6096" layer="91"/>
@@ -11168,6 +11141,15 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 </segment>
+</net>
+<net name="PACK_DIV_OUT" class="0">
+<segment>
+<pinref part="PACK_DIV_OUT" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="132.08" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
+<label x="22.86" y="132.08" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="TS_DIV_OUT" class="0">
 <segment>
 <pinref part="TS_DIV_OUT" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="139.7" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
