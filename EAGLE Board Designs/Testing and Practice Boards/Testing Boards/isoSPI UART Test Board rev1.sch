@@ -3480,6 +3480,36 @@ Notes: See page 47</description>
 <circle x="-5.08" y="-2.54" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-4.572" y1="-3.556" x2="4.572" y2="3.556" layer="39"/>
 </package>
+<package name="5015">
+<description>Keystone Micro-Miniature SMD Test Point
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
+</package>
+<package name="78613/3C">
+<description>78613/3C 
+&lt;BR&gt;
+Pulse Transformers 1CT:1 200 UH 
+&lt;BR&gt;
+&lt;a href=https://www.murata.com/products/productdata/8816046047262/kmp-786.pdf&gt;Datasheet&lt;/a&gt;</description>
+<pad name="1" x="-5.08" y="2.54" drill="0.9906" diameter="1.199996875"/>
+<pad name="2" x="-5.08" y="0" drill="0.9906" diameter="1.199996875"/>
+<pad name="3" x="-5.08" y="-2.54" drill="0.9906" diameter="1.199996875"/>
+<pad name="6" x="5.08" y="2.54" drill="0.9906" diameter="1.199996875"/>
+<pad name="5" x="5.08" y="0" drill="0.9906" diameter="1.199996875"/>
+<pad name="4" x="5.08" y="-2.54" drill="0.9906" diameter="1.199996875"/>
+<wire x1="-4.759959375" y1="4.580890625" x2="-4.759959375" y2="-4.580890625" width="0.254" layer="21"/>
+<wire x1="-4.759959375" y1="-4.580890625" x2="4.759959375" y2="-4.580890625" width="0.254" layer="21"/>
+<wire x1="4.759959375" y1="-4.580890625" x2="4.759959375" y2="4.580890625" width="0.254" layer="21"/>
+<wire x1="4.759959375" y1="4.580890625" x2="-4.759959375" y2="4.580890625" width="0.254" layer="21"/>
+<rectangle x1="3.81" y1="-3.81" x2="6.35" y2="3.81" layer="40"/>
+<rectangle x1="-6.35" y1="-3.81" x2="-3.81" y2="3.81" layer="40"/>
+<rectangle x1="-6.35" y1="-5.3848" x2="6.35" y2="5.3848" layer="39"/>
+<text x="-2.286" y="5.969" size="0.8128" layer="25" align="center">&gt;NAME</text>
+<circle x="-5.207" y="5.969" radius="0.254" width="0" layer="21"/>
+</package>
 <package name="SC-70-3">
 <description>SC-70-3/SOT323
 &lt;br&gt;
@@ -3511,36 +3541,6 @@ Note: Based on page 14 and 15.</description>
 <text x="0" y="1.778" size="0.635" layer="25" font="vector" rot="R180" align="top-center">&gt;NAME</text>
 <rectangle x1="-1.778" y1="-1.778" x2="1.778" y2="1.778" layer="39"/>
 <circle x="-1.778" y="-1.0033" radius="0.15875" width="0" layer="21"/>
-</package>
-<package name="5015">
-<description>Keystone Micro-Miniature SMD Test Point
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
-</package>
-<package name="78613/3C">
-<description>78613/3C 
-&lt;BR&gt;
-Pulse Transformers 1CT:1 200 UH 
-&lt;BR&gt;
-&lt;a href=https://www.murata.com/products/productdata/8816046047262/kmp-786.pdf&gt;Datasheet&lt;/a&gt;</description>
-<pad name="1" x="-5.08" y="2.54" drill="0.9906" diameter="1.199996875"/>
-<pad name="2" x="-5.08" y="0" drill="0.9906" diameter="1.199996875"/>
-<pad name="3" x="-5.08" y="-2.54" drill="0.9906" diameter="1.199996875"/>
-<pad name="6" x="5.08" y="2.54" drill="0.9906" diameter="1.199996875"/>
-<pad name="5" x="5.08" y="0" drill="0.9906" diameter="1.199996875"/>
-<pad name="4" x="5.08" y="-2.54" drill="0.9906" diameter="1.199996875"/>
-<wire x1="-4.759959375" y1="4.580890625" x2="-4.759959375" y2="-4.580890625" width="0.254" layer="21"/>
-<wire x1="-4.759959375" y1="-4.580890625" x2="4.759959375" y2="-4.580890625" width="0.254" layer="21"/>
-<wire x1="4.759959375" y1="-4.580890625" x2="4.759959375" y2="4.580890625" width="0.254" layer="21"/>
-<wire x1="4.759959375" y1="4.580890625" x2="-4.759959375" y2="4.580890625" width="0.254" layer="21"/>
-<rectangle x1="3.81" y1="-3.81" x2="6.35" y2="3.81" layer="40"/>
-<rectangle x1="-6.35" y1="-3.81" x2="-3.81" y2="3.81" layer="40"/>
-<rectangle x1="-6.35" y1="-5.3848" x2="6.35" y2="5.3848" layer="39"/>
-<text x="-2.286" y="5.969" size="0.8128" layer="25" align="center">&gt;NAME</text>
-<circle x="-5.207" y="5.969" radius="0.254" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -3799,50 +3799,6 @@ Pins tied to GND: SLOW
 <text x="0.762" y="-2.54" size="1.016" layer="95" align="center-left">RG2</text>
 <text x="6.35" y="-2.794" size="1.016" layer="95" rot="R90" align="center-left">VREF</text>
 </symbol>
-<symbol name="DIODE_TVS_BIDIRECTIONAL_DUAL">
-<wire x1="-3.937" y1="3.556" x2="-3.937" y2="1.778" width="0.1524" layer="94"/>
-<pin name="C1" x="-7.62" y="2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
-<text x="-3.81" y="4.445" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-<polygon width="0.1524" layer="94">
-<vertex x="-6.477" y="3.81"/>
-<vertex x="-6.477" y="1.27"/>
-<vertex x="-3.937" y="2.54"/>
-</polygon>
-<wire x1="-3.683" y1="3.302" x2="-3.683" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="-4.191" y1="3.81" x2="-3.937" y2="3.556" width="0.1524" layer="94"/>
-<wire x1="-3.937" y1="3.556" x2="-3.683" y2="3.302" width="0.1524" layer="94"/>
-<wire x1="-3.937" y1="1.778" x2="-3.683" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="-3.683" y1="1.524" x2="-3.429" y2="1.27" width="0.1524" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-1.143" y="1.27"/>
-<vertex x="-1.143" y="3.81"/>
-<vertex x="-3.683" y="2.54"/>
-</polygon>
-<wire x1="-3.937" y1="-1.524" x2="-3.937" y2="-3.302" width="0.1524" layer="94"/>
-<pin name="C2" x="-7.62" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="A" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-3.937" y="-4.445" size="1.27" layer="96" align="top-center">&gt;MPN</text>
-<polygon width="0.1524" layer="94">
-<vertex x="-6.477" y="-1.27"/>
-<vertex x="-6.477" y="-3.81"/>
-<vertex x="-3.937" y="-2.54"/>
-</polygon>
-<wire x1="-3.683" y1="-1.778" x2="-3.683" y2="-3.556" width="0.1524" layer="94"/>
-<wire x1="-4.191" y1="-1.27" x2="-3.937" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-3.937" y1="-1.524" x2="-3.683" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="-3.937" y1="-3.302" x2="-3.683" y2="-3.556" width="0.1524" layer="94"/>
-<wire x1="-3.683" y1="-3.556" x2="-3.429" y2="-3.81" width="0.1524" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-1.143" y="-3.81"/>
-<vertex x="-1.143" y="-1.27"/>
-<vertex x="-3.683" y="-2.54"/>
-</polygon>
-<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-</symbol>
 <symbol name="TEST_POINT">
 <circle x="-1.27" y="0" radius="1.27" width="0.254" layer="94"/>
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
@@ -3906,6 +3862,50 @@ Pulse Transformers 1CT:1 200 UH
 <wire x1="-15.24" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="-15.24" y1="-10.16" x2="-2.54" y2="-10.16" width="0.1524" layer="94"/>
 <text x="-2.54" y="-12.7" size="1.27" layer="95" align="top-left">&gt;MPN</text>
+</symbol>
+<symbol name="DIODE_TVS_BIDIRECTIONAL_DUAL">
+<wire x1="-3.937" y1="3.556" x2="-3.937" y2="1.778" width="0.1524" layer="94"/>
+<pin name="C1" x="-7.62" y="2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<text x="-3.81" y="4.445" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-6.477" y="3.81"/>
+<vertex x="-6.477" y="1.27"/>
+<vertex x="-3.937" y="2.54"/>
+</polygon>
+<wire x1="-3.683" y1="3.302" x2="-3.683" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-4.191" y1="3.81" x2="-3.937" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="3.556" x2="-3.683" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="1.778" x2="-3.683" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-3.683" y1="1.524" x2="-3.429" y2="1.27" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.143" y="1.27"/>
+<vertex x="-1.143" y="3.81"/>
+<vertex x="-3.683" y="2.54"/>
+</polygon>
+<wire x1="-3.937" y1="-1.524" x2="-3.937" y2="-3.302" width="0.1524" layer="94"/>
+<pin name="C2" x="-7.62" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="A" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-3.937" y="-4.445" size="1.27" layer="96" align="top-center">&gt;MPN</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-6.477" y="-1.27"/>
+<vertex x="-6.477" y="-3.81"/>
+<vertex x="-3.937" y="-2.54"/>
+</polygon>
+<wire x1="-3.683" y1="-1.778" x2="-3.683" y2="-3.556" width="0.1524" layer="94"/>
+<wire x1="-4.191" y1="-1.27" x2="-3.937" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="-1.524" x2="-3.683" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="-3.302" x2="-3.683" y2="-3.556" width="0.1524" layer="94"/>
+<wire x1="-3.683" y1="-3.556" x2="-3.429" y2="-3.81" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.143" y="-3.81"/>
+<vertex x="-1.143" y="-1.27"/>
+<vertex x="-3.683" y="-2.54"/>
+</polygon>
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6227,56 +6227,6 @@ Note: OPA991 is also a comparator</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TVS_BIDIRECTIONAL_DUAL" prefix="D">
-<description>Bdirectional TVS for CAN ESD
-&lt;br&gt;
-&lt;a href="https://www.ti.com/lit/ds/symlink/tpd2e007.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1615155679700&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F"&gt;Datasheet&lt;/a&gt;
-&lt;BR&gt;
-&lt;BR&gt;SM712 Bidirectional TVS Diode
-&lt;BR&gt;
--7V to 12V RSV
-&lt;BR&gt;
-Used for RS485 transreceiver chips
-&lt;BR&gt;
-(Works for RS422 since ADM4854ARZ runs both)
-&lt;BR&gt;
-&lt;a href=https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/440000001MKW/f6pBKheIN2CeR0DxWdS3THuJ7nh4aKYltSzghsLP5iw"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="DIODE_TVS_BIDIRECTIONAL_DUAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SC-70-3">
-<connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="C1" pad="1"/>
-<connect gate="G$1" pin="C2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="296-25281-1-ND"/>
-<attribute name="MANUFACTURER" value="Texas Instruments"/>
-<attribute name="MOPN" value="595-TPD2E007DCKR"/>
-<attribute name="MPN" value="TPD2E007DCKR"/>
-</technology>
-</technologies>
-</device>
-<device name="RS422" package="SOT-23">
-<connects>
-<connect gate="G$1" pin="A" pad="3"/>
-<connect gate="G$1" pin="C1" pad="1"/>
-<connect gate="G$1" pin="C2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="SM712CT-ND"/>
-<attribute name="MANUFACTURER" value="Semtech Corporation"/>
-<attribute name="MOPN" value="947-SM712.TCT" constant="no"/>
-<attribute name="MPN" value="SM712.TCT"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TEST_POINT" prefix="TP">
 <description>Test Point for Probing
 &lt;br&gt;</description>
@@ -6325,6 +6275,56 @@ Pulse Transformers 1CT:1 200 UH
 <attribute name="MANUFACTURER" value="Murata Power Solutions" constant="no"/>
 <attribute name="MOPN" value="580-786133C" constant="no"/>
 <attribute name="MPN" value="78613/3C" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TVS_BIDIRECTIONAL_DUAL" prefix="D">
+<description>Bdirectional TVS for CAN ESD
+&lt;br&gt;
+&lt;a href="https://www.ti.com/lit/ds/symlink/tpd2e007.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1615155679700&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F"&gt;Datasheet&lt;/a&gt;
+&lt;BR&gt;
+&lt;BR&gt;SM712 Bidirectional TVS Diode
+&lt;BR&gt;
+-7V to 12V RSV
+&lt;BR&gt;
+Used for RS485 transreceiver chips
+&lt;BR&gt;
+(Works for RS422 since ADM4854ARZ runs both)
+&lt;BR&gt;
+&lt;a href=https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/440000001MKW/f6pBKheIN2CeR0DxWdS3THuJ7nh4aKYltSzghsLP5iw"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE_TVS_BIDIRECTIONAL_DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC-70-3">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="296-25281-1-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MOPN" value="595-TPD2E007DCKR"/>
+<attribute name="MPN" value="TPD2E007DCKR"/>
+</technology>
+</technologies>
+</device>
+<device name="RS422" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="SM712CT-ND"/>
+<attribute name="MANUFACTURER" value="Semtech Corporation"/>
+<attribute name="MOPN" value="947-SM712.TCT" constant="no"/>
+<attribute name="MPN" value="SM712.TCT"/>
 </technology>
 </technologies>
 </device>
@@ -6712,7 +6712,6 @@ Dashed line is edge of mated connector.</description>
 <part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P24" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
-<part name="D2" library="HyTechDevices" deviceset="TVS_BIDIRECTIONAL_DUAL" device="RS422"/>
 <part name="P25" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="P26" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -6722,6 +6721,7 @@ Dashed line is edge of mated connector.</description>
 <part name="J2" library="HyTechDevices - Copy" deviceset="CONNECTOR-2_?_*" device="MF_T_V"/>
 <part name="T1" library="HyTechDevices" deviceset="78613/3C" device=""/>
 <part name="T2" library="HyTechDevices" deviceset="78613/3C" device=""/>
+<part name="D2" library="HyTechDevices" deviceset="TVS_BIDIRECTIONAL_DUAL" device="RS422"/>
 </parts>
 <sheets>
 <sheet>
@@ -6912,10 +6912,6 @@ Dashed line is edge of mated connector.</description>
 <attribute name="NAME" x="-6.35" y="44.45" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="-3.81" y="44.45" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="D2" gate="G$1" x="0" y="2.54" smashed="yes">
-<attribute name="NAME" x="-3.81" y="6.985" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="MPN" x="-3.937" y="-1.905" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="P25" gate="1" x="7.62" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="7.62" y="-3.81" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -6926,6 +6922,10 @@ Dashed line is edge of mated connector.</description>
 <instance part="J5" gate="G$1" x="-30.48" y="38.1" smashed="yes">
 <attribute name="NAME" x="-30.48" y="38.862" size="1.27" layer="95"/>
 <attribute name="MPN" x="-30.48" y="19.685" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="D2" gate="G$1" x="0" y="2.54" smashed="yes">
+<attribute name="NAME" x="-3.81" y="6.985" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="-3.937" y="-1.905" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -7053,10 +7053,10 @@ Dashed line is edge of mated connector.</description>
 <junction x="91.44" y="76.2"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="2.54" y1="2.54" x2="7.62" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="P25" gate="1" pin="GND"/>
 <wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -7156,9 +7156,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J5" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="C2"/>
 <wire x1="-7.62" y1="0" x2="-10.16" y2="0" width="0.1524" layer="91"/>
 <label x="-10.16" y="0" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="D2" gate="G$1" pin="C2"/>
 </segment>
 </net>
 <net name="RX_N" class="1">
@@ -7173,9 +7173,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J5" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="C1"/>
 <wire x1="-7.62" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="91"/>
 <label x="-10.16" y="5.08" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="D2" gate="G$1" pin="C1"/>
 </segment>
 </net>
 <net name="TX_N" class="1">
