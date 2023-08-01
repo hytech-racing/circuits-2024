@@ -10450,10 +10450,9 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="P44" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="U$36" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="FRAME5" library="HyTechFrames" deviceset="FRAME" device="">
-<attribute name="DESCRIPTION_1" value="Precharge power stage"/>
-<attribute name="DESIGNER_BOARD" value="Liwei Sun"/>
-<attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
-<attribute name="ENGINEER" value="Liwei Sun"/>
+<attribute name="DESCRIPTION_1" value="Precharge Power Stage"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Ethan Su"/>
+<attribute name="ENGINEER" value="Ethan Su"/>
 </part>
 <part name="U3" library="HyTechDevices" deviceset="ISO224*" device="_AIRGAP" technology="B"/>
 <part name="U4" library="HyTechDevices" deviceset="ISO224*" device="_AIRGAP" technology="B"/>
@@ -10627,10 +10626,9 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV46.4K"/>
 <part name="C29" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1812" technology="1000V_0.1UF"/>
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device="">
-<attribute name="DESCRIPTION_1" value="Precharge power stage"/>
-<attribute name="DESIGNER_BOARD" value="Liwei Sun"/>
-<attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
-<attribute name="ENGINEER" value="Liwei Sun"/>
+<attribute name="DESCRIPTION_1" value="AIL Driver"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Ethan Su"/>
+<attribute name="ENGINEER" value="Ethan Su"/>
 </part>
 </parts>
 <sheets>
