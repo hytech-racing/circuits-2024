@@ -10626,8 +10626,38 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="R37" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV46.4K"/>
 <part name="R38" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV46.4K"/>
 <part name="C29" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1812" technology="1000V_0.1UF"/>
+<part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device="">
+<attribute name="DESCRIPTION_1" value="Precharge power stage"/>
+<attribute name="DESIGNER_BOARD" value="Liwei Sun"/>
+<attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
+<attribute name="ENGINEER" value="Liwei Sun"/>
+</part>
 </parts>
 <sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME1" gate="O" x="0" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="186.69" y="2.54" size="2.54" layer="95"/>
+<attribute name="DRAWING_NAME" x="207.01" y="22.86" size="2.54" layer="95"/>
+<attribute name="SHEET" x="259.08" y="2.54" size="2.54" layer="95"/>
+<attribute name="ENGINEER" x="129.54" y="22.86" size="2.54" layer="95"/>
+<attribute name="DESIGNER_SCHEMATIC" x="176.53" y="45.72" size="2.54" layer="95"/>
+<attribute name="DESIGNER_BOARD" x="176.53" y="38.1" size="2.54" layer="95"/>
+<attribute name="DESIGNER_FURTHER" x="176.53" y="30.48" size="2.54" layer="95"/>
+<attribute name="REVIEWER_SCHEMATIC" x="227.33" y="45.72" size="2.54" layer="95"/>
+<attribute name="REVIEWER_BOARD" x="227.33" y="38.1" size="2.54" layer="95"/>
+<attribute name="REVIEWER_FURTHER" x="227.33" y="30.48" size="2.54" layer="95"/>
+<attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
+<attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 <sheet>
 <plain>
 <text x="58.42" y="121.92" size="2.54" layer="97">Precharger Isoamps</text>
