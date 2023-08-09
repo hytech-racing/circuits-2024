@@ -11055,6 +11055,7 @@ Isolated Flyback Converter with 630V/300mA Switch
 <part name="TS+12V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TS-FUSED" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="D12" library="HyTechDevices" deviceset="ZENER_?_*" device="SMB(DO-214AA)" technology="13V"/>
+<part name="EN/UVLO" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11212,6 +11213,10 @@ EN/UVLO &gt; 1.285V</text>
 <attribute name="VOLTAGE" x="263.017" y="105.41" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="MPN" x="264.922" y="105.41" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="EN/UVLO" gate="G$1" x="269.24" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="271.78" y="76.962" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="271.78" y="80.518" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11269,7 +11274,7 @@ EN/UVLO &gt; 1.285V</text>
 <junction x="155.702" y="114.3"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="EN/UVLO" class="0">
 <segment>
 <wire x1="155.702" y1="160.02" x2="155.702" y2="144.78" width="0.6096" layer="91"/>
 <pinref part="R47" gate="G$1" pin="2"/>
@@ -11281,6 +11286,11 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="155.702" y1="161.29" x2="155.702" y2="160.02" width="0.6096" layer="91"/>
 <junction x="155.702" y="160.02"/>
+</segment>
+<segment>
+<pinref part="EN/UVLO" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="78.74" x2="261.62" y2="78.74" width="0.6096" layer="91"/>
+<label x="261.62" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$36" class="0">

@@ -6963,6 +6963,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="NAME" x="-9.652" y="-199.136" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VOLTAGE" value="13V" x="-9.652" y="-201.422" size="1.778" layer="27" display="off"/>
 </element>
+<element name="EN/UVLO" library="HyTechDevices" package="5015" value="TEST_POINT" x="-11.176" y="-206.248" smashed="yes">
+<attribute name="DKPN" value="36-5015CT-ND" x="-11.176" y="-206.248" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="-11.176" y="-206.248" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="534-5015" x="-11.176" y="-206.248" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="5015" x="-11.176" y="-206.248" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-11.176" y="-204.978" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="N$69">
@@ -8156,11 +8163,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="0.945" y1="-115.335" x2="1.595" y2="-115.335" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.655" y1="-115.335" x2="0.945" y2="-115.335" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$33">
+<signal name="EN/UVLO">
 <contactref element="R47" pad="2"/>
 <contactref element="R48" pad="2"/>
 <contactref element="U6" pad="17"/>
 <contactref element="R41" pad="1"/>
+<contactref element="EN/UVLO" pad="1"/>
+<wire x1="-11.718" y1="-157.988" x2="-11.176" y2="-206.248" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.306" y1="-154.94" x2="-11.718" y2="-157.988" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.306" y1="-151.638" x2="-8.306" y2="-154.94" width="0" layer="19" extent="1-1"/>
 <wire x1="0.295" y1="-115.335" x2="-8.306" y2="-151.638" width="0" layer="19" extent="1-1"/>
