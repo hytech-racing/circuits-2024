@@ -6197,6 +6197,20 @@ Based on page 10.</description>
 <text x="-2" y="0" size="0.8128" layer="21" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
 </package>
+<package name="SMB(DO-214AA)">
+<description>SMBJ5338B THRU SMBJ5388B DO-214AA Doide Footprint
+&lt;br&gt;
+&lt;a href="https://www.mccsemi.com/pdf/Products/SMBJ5338B-SMBJ5388B(SMB).pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="A" x="-2.15" y="0" dx="2.3" dy="2.5" layer="1" rot="R90"/>
+<smd name="C" x="2.15" y="0" dx="2.3" dy="2.5" layer="1" rot="R90"/>
+<text x="0" y="2.286" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.425" y1="1.97" x2="2.425" y2="1.97" width="0.127" layer="21"/>
+<wire x1="2.425" y1="1.97" x2="2.425" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="2.425" y1="-1.97" x2="-2.425" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="-2.425" y1="-1.97" x2="-2.425" y2="1.97" width="0.127" layer="21"/>
+<rectangle x1="-3.75" y1="-2.25" x2="3.75" y2="2.25" layer="39"/>
+<wire x1="3.75" y1="1.524" x2="3.75" y2="-1.524" width="0.254" layer="21"/>
+</package>
 <package name="DO-214AA">
 <description>DO-214AA Doide Footprint
 &lt;br&gt;
@@ -6613,6 +6627,20 @@ Based on page 10.</description>
 <wire x1="3.65" y1="3.65" x2="3.65" y2="1" width="0.127" layer="21" style="shortdash"/>
 <wire x1="-3.65" y1="-1" x2="-3.65" y2="-3.65" width="0.127" layer="21" style="shortdash"/>
 <wire x1="3.65" y1="-1" x2="3.65" y2="-3.65" width="0.127" layer="21" style="shortdash"/>
+</package>
+<package name="1.5SMBJ">
+<description>DO-214AA Doide Footprint
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/54/BOURNS_1_5SMBJ_datasheet-2530221.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-1.98" y="0" dx="2.1" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="1.98" y="0" dx="2.1" dy="1.27" layer="1" rot="R90"/>
+<text x="0" y="2.286" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.285" y1="1.97" x2="2.285" y2="1.97" width="0.127" layer="21"/>
+<wire x1="2.285" y1="1.97" x2="2.285" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="2.285" y1="-1.97" x2="-2.285" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="-2.285" y1="-1.97" x2="-2.285" y2="1.97" width="0.127" layer="21"/>
+<rectangle x1="-3.302" y1="-2.286" x2="3.302" y2="2.286" layer="39"/>
+<wire x1="3.302" y1="1.524" x2="3.302" y2="-1.524" width="0.254" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -10071,12 +10099,14 @@ Isolated Flyback Controller
 <deviceset name="ZENER_?_*" prefix="D">
 <description>Zener Diode
  &lt;br&gt;
-&lt;a href="https://www.diodes.com/assets/Datasheets/ds32125.pdf"&gt;1SMB5949B-13&lt;/a&gt;</description>
+&lt;a href="https://www.diodes.com/assets/Datasheets/ds32125.pdf"&gt;1SMB5949B-13&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.mccsemi.com/pdf/Products/SMBJ5338B-SMBJ5388B(SMB).pdf"&gt;SMBJ5350B-TP&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODE_ZENER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="DO-214AA" package="DO-214AA">
+<device name="1.5SMBJ" package="1.5SMBJ">
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
@@ -10089,6 +10119,22 @@ Isolated Flyback Controller
 <attribute name="MOPN" value="621-1SMB5949B-13"/>
 <attribute name="MPN" value="1SMB5949B-13"/>
 <attribute name="VOLTAGE" value="100V"/>
+</technology>
+</technologies>
+</device>
+<device name="SMB(DO-214AA)" package="SMB(DO-214AA)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="13V">
+<attribute name="CURRENT" value="0.385A"/>
+<attribute name="DKPN" value="SMBJ5350B-TPMSCT-ND"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co"/>
+<attribute name="MOPN" value="833-SMBJ5350B-TP"/>
+<attribute name="MPN" value="SMBJ5350B-TP"/>
+<attribute name="VOLTAGE" value="13V"/>
 </technology>
 </technologies>
 </device>
@@ -10947,7 +10993,7 @@ Isolated Flyback Converter with 630V/300mA Switch
 <part name="C1" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
 <part name="C14" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1812" technology="1000V_0.1UF"/>
 <part name="U2" library="HyTechDevices" deviceset="LT8316" device=""/>
-<part name="D102" library="HyTechDevices" deviceset="ZENER_?_*" device="DO-214AA" technology="100V"/>
+<part name="D102" library="HyTechDevices" deviceset="ZENER_?_*" device="SMB(DO-214AA)" technology="13V"/>
 <part name="Q1" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="POWERFLAT5X6" technology="STL2N80K5"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="0.02"/>
 <part name="D1" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="DO-214AA" technology="150V"/>
@@ -11008,6 +11054,7 @@ Isolated Flyback Converter with 630V/300mA Switch
 <part name="C35" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1812" technology="1000V_0.1UF"/>
 <part name="TS+12V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TS-FUSED" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="D12" library="HyTechDevices" deviceset="ZENER_?_*" device="SMB(DO-214AA)" technology="13V"/>
 </parts>
 <sheets>
 <sheet>
@@ -11159,6 +11206,11 @@ EN/UVLO &gt; 1.285V</text>
 <instance part="TS-FUSED" gate="G$1" x="269.24" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="271.78" y="94.742" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="271.78" y="98.298" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="D12" gate="G$1" x="261.112" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="259.207" y="105.41" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="263.017" y="105.41" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="MPN" x="264.922" y="105.41" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11354,9 +11406,10 @@ EN/UVLO &gt; 1.285V</text>
 <wire x1="251.46" y1="114.3" x2="251.46" y2="109.22" width="0.6096" layer="91"/>
 <junction x="251.46" y="114.3"/>
 <wire x1="251.46" y1="114.3" x2="261.112" y2="114.3" width="0.6096" layer="91"/>
-<wire x1="261.112" y1="114.3" x2="261.112" y2="109.22" width="0.6096" layer="91"/>
 <pinref part="U$20" gate="G$1" pin="TS+12V"/>
 <wire x1="261.112" y1="119.38" x2="261.112" y2="114.3" width="0.6096" layer="91"/>
+<pinref part="D12" gate="G$1" pin="C"/>
+<wire x1="261.112" y1="109.22" x2="261.112" y2="114.3" width="0.6096" layer="91"/>
 <junction x="261.112" y="114.3"/>
 </segment>
 <segment>
@@ -11380,11 +11433,12 @@ EN/UVLO &gt; 1.285V</text>
 <wire x1="241.3" y1="101.6" x2="241.3" y2="96.52" width="0.6096" layer="91"/>
 <wire x1="251.46" y1="101.6" x2="251.46" y2="96.52" width="0.6096" layer="91"/>
 <wire x1="241.3" y1="96.52" x2="251.46" y2="96.52" width="0.6096" layer="91"/>
-<wire x1="261.112" y1="101.6" x2="261.112" y2="96.52" width="0.6096" layer="91"/>
 <wire x1="251.46" y1="96.52" x2="261.112" y2="96.52" width="0.6096" layer="91"/>
 <junction x="251.46" y="96.52"/>
 <pinref part="U$23" gate="G$1" pin="TS-FUSED"/>
 <wire x1="261.112" y1="96.52" x2="261.112" y2="93.98" width="0.6096" layer="91"/>
+<pinref part="D12" gate="G$1" pin="A"/>
+<wire x1="261.112" y1="101.6" x2="261.112" y2="96.52" width="0.6096" layer="91"/>
 <junction x="261.112" y="96.52"/>
 </segment>
 <segment>

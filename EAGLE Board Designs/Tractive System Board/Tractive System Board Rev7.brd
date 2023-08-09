@@ -675,6 +675,20 @@ Cody Kaminsky, Ethan Su</text>
 <rectangle x1="-3.556" y1="-3.556" x2="3.556" y2="3.556" layer="39"/>
 <smd name="THERMAL" x="0" y="0.47" dx="5.68" dy="1.78" layer="1"/>
 </package>
+<package name="SMB(DO-214AA)">
+<description>SMBJ5338B THRU SMBJ5388B DO-214AA Doide Footprint
+&lt;br&gt;
+&lt;a href="https://www.mccsemi.com/pdf/Products/SMBJ5338B-SMBJ5388B(SMB).pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="A" x="-2.15" y="0" dx="2.3" dy="2.5" layer="1" rot="R90"/>
+<smd name="C" x="2.15" y="0" dx="2.3" dy="2.5" layer="1" rot="R90"/>
+<text x="0" y="2.286" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.425" y1="1.97" x2="2.425" y2="1.97" width="0.127" layer="21"/>
+<wire x1="2.425" y1="1.97" x2="2.425" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="2.425" y1="-1.97" x2="-2.425" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="-2.425" y1="-1.97" x2="-2.425" y2="1.97" width="0.127" layer="21"/>
+<rectangle x1="-3.75" y1="-2.25" x2="3.75" y2="2.25" layer="39"/>
+<wire x1="3.75" y1="1.524" x2="3.75" y2="-1.524" width="0.254" layer="21"/>
+</package>
 <package name="DO-214AA">
 <description>DO-214AA Doide Footprint
 &lt;br&gt;
@@ -6446,14 +6460,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="LT8316EFE#PBF" x="41.91" y="-21.082" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="45.72" y="-21.082" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="D102" library="HyTechDevices" package="DO-214AA" value="ZENER_DO-214AA_100V" x="50.546" y="-11.43" smashed="yes" rot="MR90">
-<attribute name="CURRENT" value="0.03A" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DKPN" value="1SMB5949B-13DICT-ND" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Incorporated" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MOPN" value="621-1SMB5949B-13" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="1SMB5949B-13" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="D102" library="HyTechDevices" package="SMB(DO-214AA)" value="ZENER_SMB(DO-214AA)_13V" x="50.546" y="-11.43" smashed="yes" rot="MR90">
+<attribute name="CURRENT" value="0.385A" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DKPN" value="SMBJ5350B-TPMSCT-ND" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MOPN" value="833-SMBJ5350B-TP" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="SMBJ5350B-TP" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="48.26" y="-11.43" size="0.8128" layer="26" font="vector" rot="MR270" align="bottom-center"/>
-<attribute name="VOLTAGE" value="100V" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="VOLTAGE" value="13V" x="50.546" y="-11.43" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="Q1" library="HyTechDevices" package="POWERFLAT5X6" value="TRANSISTOR_N_MOS_POWERFLAT5X6_STL2N80K5" x="48.006" y="-11.176" smashed="yes">
 <attribute name="DKPN" value="497-14539-1-ND" x="48.006" y="-11.176" size="1.778" layer="27" display="off"/>
@@ -6940,6 +6954,15 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="5015" x="-10.16" y="-196.596" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-10.16" y="-195.326" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
+<element name="D12" library="HyTechDevices" package="SMB(DO-214AA)" value="ZENER_SMB(DO-214AA)_13V" x="-9.652" y="-201.422" smashed="yes">
+<attribute name="CURRENT" value="0.385A" x="-9.652" y="-201.422" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="SMBJ5350B-TPMSCT-ND" x="-9.652" y="-201.422" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co" x="-9.652" y="-201.422" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="833-SMBJ5350B-TP" x="-9.652" y="-201.422" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="SMBJ5350B-TP" x="-9.652" y="-201.422" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-9.652" y="-199.136" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="13V" x="-9.652" y="-201.422" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$69">
@@ -7243,7 +7266,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="J1" pad="4"/>
 <contactref element="C14" pad="1"/>
 <contactref element="T1" pad="3"/>
-<contactref element="D102" pad="1"/>
+<contactref element="D102" pad="A"/>
 <contactref element="R9" pad="2"/>
 <via x="109.474" y="-24.638" extent="1-16" drill="0.381"/>
 <wire x1="109.474" y1="-24.638" x2="109.252" y2="-24.638" width="0.254" layer="1"/>
@@ -7260,7 +7283,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="44.831" y1="-23.495" x2="44.704" y2="-23.622" width="0.254" layer="2"/>
 <wire x1="55.118" y1="-18.288" x2="52.696" y2="-18.288" width="0.508" layer="16"/>
 <wire x1="52.696" y1="-18.288" x2="50.546" y2="-16.138" width="0.508" layer="16"/>
-<wire x1="50.546" y1="-16.138" x2="50.546" y2="-13.41" width="0.508" layer="16"/>
+<wire x1="50.546" y1="-16.138" x2="50.546" y2="-13.58" width="0.508" layer="16"/>
 <wire x1="55.118" y1="-21.336" x2="55.118" y2="-18.288" width="0.8128" layer="2"/>
 <contactref element="F1" pad="4"/>
 <wire x1="21.5392" y1="-17.526" x2="21.5392" y2="-15.1384" width="0.8128" layer="2"/>
@@ -7369,6 +7392,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="L1" pad="1"/>
 <contactref element="D9" pad="A"/>
 <contactref element="R50" pad="2"/>
+<contactref element="D12" pad="C"/>
+<wire x1="-10.072" y1="-183.388" x2="-7.502" y2="-201.422" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.278" y1="-130.048" x2="-10.072" y2="-183.388" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.82" y1="-127.508" x2="-11.278" y2="-130.048" width="0" layer="19" extent="1-1"/>
 <wire x1="28.448" y1="-32.258" x2="-2.82" y2="-127.508" width="0" layer="19" extent="1-1"/>
@@ -7563,6 +7588,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="D11" pad="A"/>
 <contactref element="LED_+12V1" pad="1"/>
 <contactref element="C35" pad="2"/>
+<contactref element="D12" pad="A"/>
+<wire x1="-6.486" y1="-187.96" x2="-11.802" y2="-201.422" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.461" y1="-180.594" x2="-6.486" y2="-187.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.456" y1="-174.244" x2="-9.461" y2="-180.594" width="0" layer="19" extent="1-1"/>
 <wire x1="2.15" y1="-112.268" x2="-11.456" y2="-174.244" width="0" layer="19" extent="1-1"/>
@@ -7986,9 +8013,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="N$5">
 <contactref element="D103" pad="C"/>
-<contactref element="D102" pad="2"/>
+<contactref element="D102" pad="C"/>
 <wire x1="49.816" y1="-6.096" x2="50.546" y2="-6.826" width="0.508" layer="16"/>
-<wire x1="50.546" y1="-6.826" x2="50.546" y2="-9.45" width="0.508" layer="16"/>
+<wire x1="50.546" y1="-6.826" x2="50.546" y2="-9.28" width="0.508" layer="16"/>
 </signal>
 <signal name="N$26">
 <contactref element="Q1" pad="S"/>
