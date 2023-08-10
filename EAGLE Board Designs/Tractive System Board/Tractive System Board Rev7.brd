@@ -806,6 +806,55 @@ Cody Kaminsky, Ethan Su</text>
 <wire x1="-3.65" y1="-1" x2="-3.65" y2="-3.65" width="0.127" layer="21" style="shortdash"/>
 <wire x1="3.65" y1="-1" x2="3.65" y2="-3.65" width="0.127" layer="21" style="shortdash"/>
 </package>
+<package name="SOIC-16W-AIRGAP">
+<description>SOIC-16W-AIRGAP
+&lt;br&gt;
+&lt;a href="https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-soic/so_16_05-08-1620.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-4.445" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="2" x="-3.175" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="3" x="-1.905" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="4" x="-0.635" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="5" x="0.635" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="6" x="1.905" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="7" x="3.175" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="8" x="4.445" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="9" x="4.445" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="10" x="3.175" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="11" x="1.905" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="12" x="0.635" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="13" x="-0.635" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="14" x="-1.905" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="15" x="-3.175" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="16" x="-4.445" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<wire x1="-5.25" y1="3.8" x2="5.25" y2="3.8" width="0.127" layer="21"/>
+<wire x1="5.25" y1="3.8" x2="5.25" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="5.25" y1="-3.8" x2="-5.25" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="-5.25" y1="-3.8" x2="-5.25" y2="3.8" width="0.127" layer="21"/>
+<text x="-5.842" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<circle x="-5.715" y="-4.445" radius="0.254" width="0" layer="21"/>
+<rectangle x1="-5.715" y1="-6.35" x2="5.715" y2="6.35" layer="39"/>
+<polygon width="0" layer="20">
+<vertex x="5.715" y="-4"/>
+<vertex x="-5.715" y="-4"/>
+<vertex x="-5.715" y="4"/>
+<vertex x="5.715" y="4"/>
+</polygon>
+</package>
+<package name="1206-CAP">
+<description>1206 Cap
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/website/yageo_UPY-C_GEN_26_20092411_950.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-1.5" y="0" dx="1" dy="1.8" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1" dy="1.8" layer="1"/>
+<text x="0" y="1.25" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<rectangle x1="-2.2" y1="-1.25" x2="2.2" y2="1.25" layer="39"/>
+</package>
 </packages>
 </library>
 <library name="HyTechManufacturing">
@@ -6970,6 +7019,30 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="5015" x="-11.176" y="-206.248" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-11.176" y="-204.978" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
+<element name="U7" library="HyTechDevices" package="SOIC-16W-AIRGAP" value="AMC3330_AIRGAP" x="-19.812" y="-201.168" smashed="yes">
+<attribute name="DKPN" value="296-AMC3330QDWERQ1TR-ND" x="-19.812" y="-201.168" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="-19.812" y="-201.168" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="595-AMC3330QDWERQ1" x="-19.812" y="-201.168" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AMC3330QDWERQ1" x="-19.812" y="-201.168" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-25.654" y="-201.168" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
+</element>
+<element name="U8" library="HyTechDevices" package="SOIC-16W-AIRGAP" value="AMC3330_AIRGAP" x="-32.512" y="-201.168" smashed="yes">
+<attribute name="DKPN" value="296-AMC3330QDWERQ1TR-ND" x="-32.512" y="-201.168" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="-32.512" y="-201.168" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="595-AMC3330QDWERQ1" x="-32.512" y="-201.168" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AMC3330QDWERQ1" x="-32.512" y="-201.168" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-38.354" y="-201.168" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
+</element>
+<element name="C31" library="HyTechDevices" package="1206-CAP" value="CAPACITOR_1206_50V_1NF" x="-37.084" y="-210.058" smashed="yes">
+<attribute name="CAPACITANCE" value="1nF" x="-37.084" y="-210.058" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="478-KGM31BR71H102KTCT-ND" x="-37.084" y="-210.058" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="KYOCERA AVX" x="-37.084" y="-210.058" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="581-12065C102K" x="-37.084" y="-210.058" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="KGM31BR71H102KT" x="-37.084" y="-210.058" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.084" y="-208.808" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="TOLERANCE" value="10%" x="-37.084" y="-210.058" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="-37.084" y="-210.058" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$69">
@@ -7083,20 +7156,24 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="20.511" y1="-64.579" x2="19.304" y2="-65.786" width="0.1524" layer="1"/>
 <contactref element="C27" pad="2"/>
 <wire x1="74.676" y1="-61.48" x2="72.898" y2="-61.48" width="0.254" layer="1"/>
-<wire x1="102.922" y1="-57.912" x2="99.834" y2="-54.102" width="0" layer="19" extent="1-1"/>
-<wire x1="91.198" y1="-54.61" x2="98.298" y2="-55.626" width="0" layer="19" extent="1-1"/>
-<wire x1="87.288" y1="-60.452" x2="89.916" y2="-55.626" width="0" layer="19" extent="1-1"/>
-<wire x1="82.816" y1="-61.722" x2="85.852" y2="-61.214" width="0" layer="19" extent="1-1"/>
-<wire x1="74.676" y1="-61.48" x2="79.248" y2="-64.936" width="0" layer="19" extent="1-1"/>
-<wire x1="64.77" y1="-61.722" x2="72.136" y2="-59.944" width="0" layer="19" extent="1-1"/>
-<wire x1="98.552" y1="-72.644" x2="100.838" y2="-60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="32.0802" y1="-70.0532" x2="56.134" y2="-61.48" width="0" layer="19" extent="1-1"/>
+<contactref element="U8" pad="9"/>
+<contactref element="U7" pad="9"/>
+<wire x1="-15.367" y1="-196.293" x2="-28.067" y2="-196.293" width="0" layer="19" extent="1-1"/>
+<wire x1="32.0802" y1="-70.0532" x2="-15.367" y2="-196.293" width="0" layer="19" extent="1-1"/>
 <wire x1="29.972" y1="-60.198" x2="32.0802" y2="-70.0532" width="0" layer="19" extent="1-1"/>
 <wire x1="20.511" y1="-60.96" x2="29.972" y2="-60.198" width="0" layer="19" extent="1-1"/>
 <wire x1="19.295025" y1="-58.682975" x2="20.511" y2="-60.96" width="0" layer="19" extent="1-1"/>
 <wire x1="19.4970625" y1="-55.4329375" x2="20.511" y2="-57.658" width="0" layer="19" extent="1-1"/>
 <wire x1="20.511" y1="-64.516" x2="19.304" y2="-61.976" width="0" layer="19" extent="1-1"/>
 <wire x1="19.304" y1="-51.816" x2="20.511" y2="-54.356" width="0" layer="19" extent="1-1"/>
+<wire x1="56.134" y1="-61.48" x2="32.0802" y2="-70.0532" width="0" layer="19" extent="1-1"/>
+<wire x1="72.136" y1="-59.944" x2="64.77" y2="-61.722" width="0" layer="19" extent="1-1"/>
+<wire x1="79.248" y1="-64.936" x2="74.676" y2="-61.48" width="0" layer="19" extent="1-1"/>
+<wire x1="85.852" y1="-61.214" x2="82.816" y2="-61.722" width="0" layer="19" extent="1-1"/>
+<wire x1="89.916" y1="-55.626" x2="87.288" y2="-60.452" width="0" layer="19" extent="1-1"/>
+<wire x1="98.298" y1="-55.626" x2="91.198" y2="-54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="102.922" y1="-57.912" x2="99.834" y2="-54.102" width="0" layer="19" extent="1-1"/>
+<wire x1="98.552" y1="-72.644" x2="100.838" y2="-60.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U3" pad="8"/>
@@ -7181,6 +7258,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="38.1" y1="-50.038" x2="36.576" y2="-50.038" width="0.1524" layer="1"/>
 <wire x1="42.3929625" y1="-55.6009625" x2="35.0774" y2="-62.916525" width="0.254" layer="16"/>
 <wire x1="35.0774" y1="-62.916525" x2="35.0774" y2="-67.056" width="0.254" layer="16"/>
+<contactref element="U7" pad="11"/>
+<wire x1="35.0774" y1="-67.056" x2="-17.907" y2="-196.293" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IT-">
 <contactref element="U3" pad="6"/>
@@ -7198,6 +7277,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="33.274" y1="-50.038" x2="30.226" y2="-50.038" width="0.1524" layer="1"/>
 <wire x1="39.039" y1="-54.787" x2="32.0802" y2="-61.7458" width="0.254" layer="16"/>
 <wire x1="32.0802" y1="-61.7458" x2="32.0802" y2="-67.056" width="0.254" layer="16"/>
+<contactref element="U7" pad="10"/>
+<wire x1="32.0802" y1="-67.056" x2="-16.637" y2="-196.293" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IP+">
 <contactref element="U4" pad="7"/>
@@ -8255,6 +8336,55 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="N$48">
 <contactref element="TS-FUSED" pad="1"/>
+</signal>
+<signal name="DCDC_OUT">
+<contactref element="U7" pad="1"/>
+<contactref element="U8" pad="1"/>
+<wire x1="-24.257" y1="-206.043" x2="-36.957" y2="-206.043" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DCDC_HGND">
+<contactref element="U7" pad="2"/>
+<contactref element="U8" pad="2"/>
+<wire x1="-22.987" y1="-206.043" x2="-35.687" y2="-206.043" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="HLDO_IN">
+<contactref element="U7" pad="3"/>
+<contactref element="U8" pad="3"/>
+<wire x1="-21.717" y1="-206.043" x2="-34.417" y2="-206.043" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="HLDO_OUT">
+<contactref element="U7" pad="5"/>
+<contactref element="U8" pad="5"/>
+<wire x1="-19.177" y1="-206.043" x2="-31.877" y2="-206.043" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="HGND">
+<contactref element="U7" pad="8"/>
+<contactref element="U8" pad="8"/>
+<wire x1="-15.367" y1="-206.043" x2="-28.067" y2="-206.043" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VDD">
+<contactref element="U8" pad="12"/>
+</signal>
+<signal name="LDO_OUT">
+<contactref element="U7" pad="13"/>
+<contactref element="U8" pad="13"/>
+<wire x1="-20.447" y1="-196.293" x2="-33.147" y2="-196.293" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DCDC_GND">
+<contactref element="U7" pad="15"/>
+<contactref element="U8" pad="15"/>
+<wire x1="-22.987" y1="-196.293" x2="-35.687" y2="-196.293" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DCDC_IN">
+<contactref element="U7" pad="16"/>
+<contactref element="U8" pad="16"/>
+<wire x1="-24.257" y1="-196.293" x2="-36.957" y2="-196.293" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+3V3">
+<contactref element="U7" pad="12"/>
+</signal>
+<signal name="AMC_DIAG">
+<contactref element="U7" pad="14"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

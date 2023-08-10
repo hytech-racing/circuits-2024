@@ -6642,6 +6642,68 @@ Based on page 10.</description>
 <rectangle x1="-3.302" y1="-2.286" x2="3.302" y2="2.286" layer="39"/>
 <wire x1="3.302" y1="1.524" x2="3.302" y2="-1.524" width="0.254" layer="21"/>
 </package>
+<package name="SOIC-16W">
+<description>SOIC-16W
+&lt;br&gt;
+&lt;a href="https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-soic/so_16_05-08-1620.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-4.445" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="2" x="-3.175" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="3" x="-1.905" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="4" x="-0.635" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="5" x="0.635" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="6" x="1.905" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="7" x="3.175" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="8" x="4.445" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="9" x="4.445" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="10" x="3.175" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="11" x="1.905" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="12" x="0.635" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="13" x="-0.635" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="14" x="-1.905" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="15" x="-3.175" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="16" x="-4.445" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<wire x1="-5.2451" y1="3.7973" x2="5.2451" y2="3.7973" width="0.127" layer="21"/>
+<wire x1="5.2451" y1="3.7973" x2="5.2451" y2="-3.7973" width="0.127" layer="21"/>
+<wire x1="5.2451" y1="-3.7973" x2="-5.2451" y2="-3.7973" width="0.127" layer="21"/>
+<wire x1="-5.2451" y1="-3.7973" x2="-5.2451" y2="3.7973" width="0.127" layer="21"/>
+<text x="-5.715" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<circle x="-5.715" y="-4.445" radius="0.254" width="0" layer="21"/>
+<rectangle x1="-5.715" y1="-6.35" x2="5.715" y2="6.35" layer="39"/>
+</package>
+<package name="SOIC-16W-AIRGAP">
+<description>SOIC-16W-AIRGAP
+&lt;br&gt;
+&lt;a href="https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-soic/so_16_05-08-1620.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-4.445" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="2" x="-3.175" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="3" x="-1.905" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="4" x="-0.635" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="5" x="0.635" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="6" x="1.905" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="7" x="3.175" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="8" x="4.445" y="-4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="9" x="4.445" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="10" x="3.175" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="11" x="1.905" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="12" x="0.635" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="13" x="-0.635" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="14" x="-1.905" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="15" x="-3.175" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<smd name="16" x="-4.445" y="4.875" dx="0.6" dy="1.65" layer="1"/>
+<wire x1="-5.25" y1="3.8" x2="5.25" y2="3.8" width="0.127" layer="21"/>
+<wire x1="5.25" y1="3.8" x2="5.25" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="5.25" y1="-3.8" x2="-5.25" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="-5.25" y1="-3.8" x2="-5.25" y2="3.8" width="0.127" layer="21"/>
+<text x="-5.842" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<circle x="-5.715" y="-4.445" radius="0.254" width="0" layer="21"/>
+<rectangle x1="-5.715" y1="-6.35" x2="5.715" y2="6.35" layer="39"/>
+<polygon width="0" layer="20">
+<vertex x="5.715" y="-4"/>
+<vertex x="-5.715" y="-4"/>
+<vertex x="-5.715" y="4"/>
+<vertex x="5.715" y="4"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE_HOLDER">
@@ -7131,6 +7193,62 @@ Isolated Flyback Converter with 630V/300mA Switch
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94" curve="-180" cap="flat"/>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94" curve="-180" cap="flat"/>
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.1524" layer="94" curve="-180" cap="flat"/>
+</symbol>
+<symbol name="AMC3330">
+<description>Precision, ±1-V Input, Reinforced Isolated Amplifier
+With Integrated DC/DC Converter
+&lt;br&gt;
+&lt;a href="https://www.ti.com/lit/ds/symlink/amc3330.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="0" y1="-40.64" x2="18.796" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="18.796" y1="-40.64" x2="38.1" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-40.64" x2="38.1" y2="0" width="0.254" layer="94"/>
+<wire x1="38.1" y1="0" x2="18.796" y2="0" width="0.254" layer="94"/>
+<wire x1="18.796" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-40.64" width="0.254" layer="94"/>
+<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-41.402" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<wire x1="15.24" y1="-26.67" x2="15.24" y2="-34.29" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-34.29" x2="17.78" y2="-32.766" width="0.254" layer="94"/>
+<wire x1="19.812" y1="-31.5468" x2="21.59" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="21.59" y1="-30.48" x2="19.812" y2="-29.4132" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-28.194" x2="15.24" y2="-26.67" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-28.194" x2="17.78" y2="-32.766" width="0.254" layer="94"/>
+<wire x1="19.812" y1="-29.4132" x2="19.812" y2="-31.5468" width="0.254" layer="94"/>
+<wire x1="18.796" y1="0" x2="18.796" y2="-40.64" width="0.254" layer="94" style="shortdash"/>
+<pin name="DCDC_OUT" x="-2.54" y="-2.54" length="short" direction="pwr"/>
+<pin name="DCDC_HGND" x="-2.54" y="-7.62" length="short" direction="pwr"/>
+<pin name="HLDO_IN" x="-2.54" y="-12.7" length="short" direction="pwr"/>
+<pin name="NC" x="-2.54" y="-17.78" length="short" direction="nc"/>
+<pin name="HLDO_OUT" x="-2.54" y="-22.86" length="short" direction="pwr"/>
+<pin name="INP" x="-2.54" y="-27.94" length="short"/>
+<pin name="INN" x="-2.54" y="-33.02" length="short" direction="in" function="dot"/>
+<pin name="HGND" x="-2.54" y="-38.1" length="short" direction="pwr"/>
+<pin name="GND" x="40.64" y="-38.1" length="short" direction="pwr" rot="R180"/>
+<pin name="OUTN" x="40.64" y="-33.02" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="OUTP" x="40.64" y="-27.94" length="short" rot="R180"/>
+<pin name="VDD" x="40.64" y="-22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="LDO_OUT" x="40.64" y="-17.78" length="short" direction="pwr" rot="R180"/>
+<pin name="DIAG" x="40.64" y="-12.7" length="short" direction="oc" rot="R180"/>
+<pin name="DCDC_GND" x="40.64" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="DCDC_IN" x="40.64" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<wire x1="18.288" y1="-10.668" x2="18.288" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="19.304" y1="-0.508" x2="19.304" y2="-10.668" width="0.1524" layer="94"/>
+<wire x1="16.2814" y1="-10.668" x2="17.5514" y2="-9.398" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="16.2814" y1="-8.1283" x2="17.526" y2="-9.398" width="0.1524" layer="94" curve="-88.851934" cap="flat"/>
+<wire x1="16.2814" y1="-8.128" x2="17.5514" y2="-6.858" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="16.2814" y1="-5.5883" x2="17.526" y2="-6.858" width="0.1524" layer="94" curve="-88.851934" cap="flat"/>
+<wire x1="16.2814" y1="-5.588" x2="17.5514" y2="-4.318" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="16.2814" y1="-3.0483" x2="17.5263" y2="-4.318" width="0.1524" layer="94" curve="-88.838669" cap="flat"/>
+<wire x1="16.2814" y1="-3.048" x2="17.5514" y2="-1.778" width="0.1524" layer="94" curve="90" cap="flat"/>
+<wire x1="16.2814" y1="-0.5083" x2="17.5263" y2="-1.778" width="0.1524" layer="94" curve="-88.838669" cap="flat"/>
+<wire x1="20.0406" y1="-9.3721" x2="21.336" y2="-10.6678" width="0.1524" layer="94" curve="92.304783" cap="flat"/>
+<wire x1="20.066" y1="-9.3726" x2="21.336" y2="-8.1026" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="20.0406" y1="-6.8321" x2="21.336" y2="-8.1278" width="0.1524" layer="94" curve="92.304783" cap="flat"/>
+<wire x1="20.066" y1="-6.8326" x2="21.336" y2="-5.5626" width="0.1524" layer="94" curve="-90" cap="flat"/>
+<wire x1="20.0403" y1="-4.318" x2="21.336" y2="-5.5876" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
+<wire x1="20.066" y1="-4.318" x2="21.336" y2="-3.0734" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
+<wire x1="20.0403" y1="-1.778" x2="21.336" y2="-3.0476" width="0.1524" layer="94" curve="91.165843" cap="flat"/>
+<wire x1="20.066" y1="-1.778" x2="21.336" y2="-0.5334" width="0.1524" layer="94" curve="-88.865467" cap="flat"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9023,6 +9141,24 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VOLTAGE" value="35V"/>
 </technology>
+<technology name="50V_0.1UF">
+<attribute name="CAPACITANCE" value="0.1µF"/>
+<attribute name="DKPN" value="445-14655-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-C3216NP01H104J1A"/>
+<attribute name="MPN" value="C3216NP01H104J160AA"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="50V_1NF">
+<attribute name="CAPACITANCE" value="1nF"/>
+<attribute name="DKPN" value="478-KGM31BR71H102KTCT-ND"/>
+<attribute name="MANUFACTURER" value="KYOCERA AVX"/>
+<attribute name="MOPN" value="581-12065C102K"/>
+<attribute name="MPN" value="KGM31BR71H102KT"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
 </technologies>
 </device>
 <device name="1812" package="1812-CAP">
@@ -10438,6 +10574,74 @@ Isolated Flyback Converter with 630V/300mA Switch
 </device>
 </devices>
 </deviceset>
+<deviceset name="AMC3330*" prefix="U">
+<description>AMC3330
+&lt;br&gt;
+±1-V input, precision voltage sensing reinforced isolated amplifier with integrated DC/DC
+&lt;br&gt;
+&lt;a href="https://www.ti.com/lit/gpn/amc3330"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AMC3330" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-16W">
+<connects>
+<connect gate="G$1" pin="DCDC_GND" pad="15"/>
+<connect gate="G$1" pin="DCDC_HGND" pad="2"/>
+<connect gate="G$1" pin="DCDC_IN" pad="16"/>
+<connect gate="G$1" pin="DCDC_OUT" pad="1"/>
+<connect gate="G$1" pin="DIAG" pad="14"/>
+<connect gate="G$1" pin="GND" pad="9"/>
+<connect gate="G$1" pin="HGND" pad="8"/>
+<connect gate="G$1" pin="HLDO_IN" pad="3"/>
+<connect gate="G$1" pin="HLDO_OUT" pad="5"/>
+<connect gate="G$1" pin="INN" pad="7"/>
+<connect gate="G$1" pin="INP" pad="6"/>
+<connect gate="G$1" pin="LDO_OUT" pad="13"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUTN" pad="10"/>
+<connect gate="G$1" pin="OUTP" pad="11"/>
+<connect gate="G$1" pin="VDD" pad="12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="296-AMC3330QDWERQ1TR-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MOPN" value="595-AMC3330QDWERQ1"/>
+<attribute name="MPN" value="AMC3330QDWERQ1"/>
+</technology>
+</technologies>
+</device>
+<device name="_AIRGAP" package="SOIC-16W-AIRGAP">
+<connects>
+<connect gate="G$1" pin="DCDC_GND" pad="15"/>
+<connect gate="G$1" pin="DCDC_HGND" pad="2"/>
+<connect gate="G$1" pin="DCDC_IN" pad="16"/>
+<connect gate="G$1" pin="DCDC_OUT" pad="1"/>
+<connect gate="G$1" pin="DIAG" pad="14"/>
+<connect gate="G$1" pin="GND" pad="9"/>
+<connect gate="G$1" pin="HGND" pad="8"/>
+<connect gate="G$1" pin="HLDO_IN" pad="3"/>
+<connect gate="G$1" pin="HLDO_OUT" pad="5"/>
+<connect gate="G$1" pin="INN" pad="7"/>
+<connect gate="G$1" pin="INP" pad="6"/>
+<connect gate="G$1" pin="LDO_OUT" pad="13"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="OUTN" pad="10"/>
+<connect gate="G$1" pin="OUTP" pad="11"/>
+<connect gate="G$1" pin="VDD" pad="12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="296-AMC3330QDWERQ1TR-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MOPN" value="595-AMC3330QDWERQ1"/>
+<attribute name="MPN" value="AMC3330QDWERQ1"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -10564,6 +10768,12 @@ Isolated Flyback Converter with 630V/300mA Switch
 <wire x1="-1.905" y1="-1.778" x2="1.905" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="-1.905" y1="-0.889" x2="1.905" y2="-0.889" width="0.254" layer="94"/>
 </symbol>
+<symbol name="+3V3">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="0" y="1.27" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TS+FUSED">
@@ -10656,6 +10866,19 @@ Isolated Flyback Converter with 630V/300mA Switch
 <deviceset name="TS-UNFUSED" prefix="P">
 <gates>
 <gate name="G$1" symbol="TS-UNFUSED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+3V3" prefix="P">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -11056,6 +11279,11 @@ Isolated Flyback Converter with 630V/300mA Switch
 <part name="TS-FUSED" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="D12" library="HyTechDevices" deviceset="ZENER_?_*" device="SMB(DO-214AA)" technology="13V"/>
 <part name="EN/UVLO" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="U7" library="HyTechDevices" deviceset="AMC3330*" device="_AIRGAP"/>
+<part name="U8" library="HyTechDevices" deviceset="AMC3330*" device="_AIRGAP"/>
+<part name="P28" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="P29" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="C31" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="50V_1NF"/>
 </parts>
 <sheets>
 <sheet>
@@ -11216,6 +11444,25 @@ EN/UVLO &gt; 1.285V</text>
 <instance part="EN/UVLO" gate="G$1" x="269.24" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="271.78" y="76.962" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="271.78" y="80.518" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="U7" gate="G$1" x="50.8" y="157.48" smashed="yes">
+<attribute name="NAME" x="50.8" y="158.242" size="1.27" layer="95"/>
+<attribute name="MPN" x="50.8" y="116.078" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="U8" gate="G$1" x="45.72" y="66.04" smashed="yes">
+<attribute name="NAME" x="45.72" y="66.802" size="1.27" layer="95"/>
+<attribute name="MPN" x="45.72" y="24.638" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="P28" gate="G$1" x="124.46" y="139.7" smashed="yes">
+<attribute name="VALUE" x="124.46" y="140.97" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P29" gate="1" x="124.46" y="114.3" smashed="yes">
+<attribute name="VALUE" x="124.46" y="113.03" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="C31" gate="G$1" x="114.3" y="128.524" smashed="yes" rot="R90">
+<attribute name="NAME" x="111.76" y="127.254" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="116.84" y="127.254" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="118.618" y="127.254" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11493,6 +11740,42 @@ EN/UVLO &gt; 1.285V</text>
 <segment>
 <pinref part="TS-FUSED" gate="G$1" pin="1"/>
 <wire x1="261.62" y1="96.52" x2="266.7" y2="96.52" width="0.6096" layer="91"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="VDD"/>
+<wire x1="91.44" y1="134.62" x2="124.46" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="134.62" x2="124.46" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="P28" gate="G$1" pin="+3V3"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="GND"/>
+<wire x1="91.44" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="119.38" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="P29" gate="1" pin="GND"/>
+</segment>
+</net>
+<net name="AMC_DIAG" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="DIAG"/>
+<wire x1="91.44" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="IT+" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="OUTP"/>
+<wire x1="91.44" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
+<label x="93.98" y="129.54" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="IT-" class="0">
+<segment>
+<pinref part="U7" gate="G$1" pin="OUTN"/>
+<wire x1="91.44" y1="124.46" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
+<label x="93.98" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
