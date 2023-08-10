@@ -7098,6 +7098,36 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="TOLERANCE" value="10%" x="-37.084" y="-230.632" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="-37.084" y="-230.632" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C41" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_50V_1NF" x="-37.084" y="-233.68" smashed="yes">
+<attribute name="CAPACITANCE" value="1nF" x="-37.084" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="399-C0603C102K5RAC7867CT-ND" x="-37.084" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="KEMET" x="-37.084" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="80-C0603C102K5R" x="-37.084" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="C0603C102K5RACTU" x="-37.084" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.084" y="-232.93" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="TOLERANCE" value="10%" x="-37.084" y="-233.68" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="-37.084" y="-233.68" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C42" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_50V_0.1UF" x="-37.084" y="-236.728" smashed="yes">
+<attribute name="CAPACITANCE" value="0.1µF" x="-37.084" y="-236.728" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="311-1344-1-ND" x="-37.084" y="-236.728" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="-37.084" y="-236.728" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R9BB104" x="-37.084" y="-236.728" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R9BB104" x="-37.084" y="-236.728" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.084" y="-235.978" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="TOLERANCE" value="10%" x="-37.084" y="-236.728" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="-37.084" y="-236.728" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C43" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_100V_10NF" x="-37.084" y="-239.776" smashed="yes">
+<attribute name="CAPACITANCE" value="10nF" x="-37.084" y="-239.776" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="311-1788-1-ND" x="-37.084" y="-239.776" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="-37.084" y="-239.776" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R0BB103" x="-37.084" y="-239.776" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R0BB103" x="-37.084" y="-239.776" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.084" y="-239.026" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="TOLERANCE" value="10%" x="-37.084" y="-239.776" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="100V" x="-37.084" y="-239.776" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$69">
@@ -7299,6 +7329,14 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="71.404165625" y1="-64.962" x2="71.342165625" y2="-65.024" width="0.254" layer="1"/>
 <wire x1="71.342165625" y1="-65.024" x2="65.532" y2="-65.024" width="0.254" layer="1"/>
 <wire x1="65.532" y1="-65.024" x2="62.23" y2="-61.722" width="0.254" layer="1"/>
+<contactref element="U7" pad="12"/>
+<contactref element="C36" pad="1"/>
+<contactref element="C31" pad="1"/>
+<contactref element="R51" pad="1"/>
+<wire x1="-38.584" y1="-210.058" x2="-38.584" y2="-213.868" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.934" y1="-219.964" x2="-38.584" y2="-213.868" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.177" y1="-196.293" x2="-38.584" y2="-210.058" width="0" layer="19" extent="1-1"/>
+<wire x1="36.576" y1="-58.42" x2="-19.177" y2="-196.293" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IT+">
 <contactref element="U3" pad="7"/>
@@ -8405,15 +8443,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="-24.257" y1="-196.293" x2="-37.834" y2="-217.17" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.447" y1="-196.293" x2="-24.257" y2="-196.293" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="+3V3">
-<contactref element="U7" pad="12"/>
-<contactref element="C36" pad="1"/>
-<contactref element="C31" pad="1"/>
-<contactref element="R51" pad="1"/>
-<wire x1="-38.584" y1="-210.058" x2="-38.584" y2="-213.868" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.934" y1="-219.964" x2="-38.584" y2="-213.868" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.177" y1="-196.293" x2="-38.584" y2="-210.058" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="N$39">
 <contactref element="U7" pad="14"/>
 <contactref element="R51" pad="2"/>
@@ -8421,21 +8450,29 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="N$52">
 <contactref element="U7" pad="7"/>
-<contactref element="U7" pad="8"/>
 <contactref element="U7" pad="4"/>
 <contactref element="C39" pad="2"/>
 <contactref element="C38" pad="2"/>
 <contactref element="U7" pad="2"/>
 <contactref element="C40" pad="2"/>
+<contactref element="C41" pad="2"/>
+<contactref element="C42" pad="1"/>
+<contactref element="C43" pad="2"/>
+<contactref element="U7" pad="8"/>
 <wire x1="-20.447" y1="-206.043" x2="-22.987" y2="-206.043" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.637" y1="-206.043" x2="-20.447" y2="-206.043" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.367" y1="-206.043" x2="-16.637" y2="-206.043" width="0" layer="19" extent="1-1"/>
 <wire x1="-35.584" y1="-223.52" x2="-22.987" y2="-206.043" width="0" layer="19" extent="1-1"/>
 <wire x1="-35.584" y1="-227.33" x2="-35.584" y2="-223.52" width="0" layer="19" extent="1-1"/>
 <wire x1="-36.334" y1="-230.632" x2="-35.584" y2="-227.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.334" y1="-233.68" x2="-36.334" y2="-230.632" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.834" y1="-236.728" x2="-36.334" y2="-233.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.334" y1="-239.776" x2="-37.834" y2="-236.728" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$56">
 <contactref element="U7" pad="6"/>
+<contactref element="C43" pad="1"/>
+<wire x1="-37.834" y1="-239.776" x2="-17.907" y2="-206.043" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$58">
 <contactref element="U7" pad="5"/>
@@ -8448,8 +8485,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="U7" pad="3"/>
 <contactref element="U7" pad="1"/>
 <contactref element="C40" pad="1"/>
+<contactref element="C41" pad="1"/>
+<contactref element="C42" pad="2"/>
 <wire x1="-21.717" y1="-206.043" x2="-24.257" y2="-206.043" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.834" y1="-230.632" x2="-24.257" y2="-206.043" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.834" y1="-233.68" x2="-37.834" y2="-230.632" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.334" y1="-236.728" x2="-37.834" y2="-233.68" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
