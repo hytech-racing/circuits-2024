@@ -6333,34 +6333,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="5015" x="47.752" y="-165.608" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="32.512" y="-30.988" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="IP-" library="HyTechDevices" package="5015" value="TEST_POINT" x="42.926" y="-50.038" smashed="yes">
-<attribute name="DKPN" value="36-5015CT-ND" x="64.516" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics" x="64.516" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="534-5015" x="64.516" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5015" x="64.516" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.926" y="-48.768" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-</element>
-<element name="IP+" library="HyTechDevices" package="5015" value="TEST_POINT" x="42.926" y="-53.848" smashed="yes">
-<attribute name="DKPN" value="36-5015CT-ND" x="70.866" y="-187.198" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics" x="70.866" y="-187.198" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="534-5015" x="70.866" y="-187.198" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5015" x="70.866" y="-187.198" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.926" y="-52.578" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-</element>
-<element name="IT+" library="HyTechDevices" package="5015" value="TEST_POINT" x="36.576" y="-50.038" smashed="yes">
-<attribute name="DKPN" value="36-5015CT-ND" x="70.866" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics" x="70.866" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="534-5015" x="70.866" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5015" x="70.866" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="36.576" y="-48.768" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-</element>
-<element name="IT-" library="HyTechDevices" package="5015" value="TEST_POINT" x="30.226" y="-50.038" smashed="yes">
-<attribute name="DKPN" value="36-5015CT-ND" x="70.866" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics" x="70.866" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="534-5015" x="70.866" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="5015" x="70.866" y="-183.388" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="30.226" y="-48.768" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-</element>
 <element name="PRECHARGE_OK" library="HyTechDevices" package="5015" value="TEST_POINT" x="36.576" y="-54.102" smashed="yes">
 <attribute name="DKPN" value="36-5015CT-ND" x="83.566" y="-187.452" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Keystone Electronics" x="83.566" y="-187.452" size="1.778" layer="27" display="off"/>
@@ -7347,6 +7319,34 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="5015" x="-37.084" y="-289.306" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-37.084" y="-288.036" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
+<element name="IP+" library="HyTechDevices" package="5015" value="TEST_POINT" x="-38.1" y="-293.116" smashed="yes">
+<attribute name="DKPN" value="36-5015CT-ND" x="-37.846" y="-293.116" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="-37.846" y="-293.116" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="534-5015" x="-37.846" y="-293.116" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="5015" x="-37.846" y="-293.116" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-38.1" y="-291.846" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
+<element name="IP-" library="HyTechDevices" package="5015" value="TEST_POINT" x="-38.1" y="-296.926" smashed="yes">
+<attribute name="DKPN" value="36-5015CT-ND" x="-37.846" y="-296.926" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="-37.846" y="-296.926" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="534-5015" x="-37.846" y="-296.926" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="5015" x="-37.846" y="-296.926" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-38.1" y="-295.656" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
+<element name="IT+" library="HyTechDevices" package="5015" value="TEST_POINT" x="-38.1" y="-300.736" smashed="yes">
+<attribute name="DKPN" value="36-5015CT-ND" x="-37.846" y="-300.736" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="-37.846" y="-300.736" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="534-5015" x="-37.846" y="-300.736" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="5015" x="-37.846" y="-300.736" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-38.1" y="-299.466" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
+<element name="IT-" library="HyTechDevices" package="5015" value="TEST_POINT" x="-38.1" y="-304.546" smashed="yes">
+<attribute name="DKPN" value="36-5015CT-ND" x="-37.846" y="-304.546" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="-37.846" y="-304.546" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="534-5015" x="-37.846" y="-304.546" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="5015" x="-37.846" y="-304.546" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-38.1" y="-303.276" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="N$69">
@@ -7577,7 +7577,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="IT+">
 <contactref element="U3" pad="7"/>
-<contactref element="IT+" pad="1"/>
 <contactref element="J3" pad="7"/>
 <wire x1="92.329" y1="-48.122" x2="92.329" y2="-49.911" width="0.254" layer="1"/>
 <wire x1="92.329" y1="-49.911" x2="92.456" y2="-50.038" width="0.254" layer="1"/>
@@ -7591,17 +7590,17 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="40.386" y1="-55.118" x2="39.624" y2="-54.356" width="0.1524" layer="1"/>
 <wire x1="39.624" y1="-54.356" x2="39.624" y2="-51.562" width="0.1524" layer="1"/>
 <wire x1="39.624" y1="-51.562" x2="38.1" y2="-50.038" width="0.1524" layer="1"/>
-<wire x1="38.1" y1="-50.038" x2="36.576" y2="-50.038" width="0.1524" layer="1"/>
 <wire x1="42.3929625" y1="-55.6009625" x2="35.0774" y2="-62.916525" width="0.254" layer="16"/>
 <wire x1="35.0774" y1="-62.916525" x2="35.0774" y2="-67.056" width="0.254" layer="16"/>
 <contactref element="U7" pad="11"/>
 <contactref element="U8" pad="11"/>
+<contactref element="IT+" pad="1"/>
 <wire x1="-30.353" y1="-261.825" x2="-17.907" y2="-196.293" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.1" y1="-300.736" x2="-30.353" y2="-261.825" width="0" layer="19" extent="1-1"/>
 <wire x1="35.0774" y1="-67.056" x2="-17.907" y2="-196.293" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IT-">
 <contactref element="U3" pad="6"/>
-<contactref element="IT-" pad="1"/>
 <contactref element="J3" pad="8"/>
 <wire x1="91.059" y1="-48.122" x2="91.059" y2="-49.911" width="0.254" layer="1"/>
 <wire x1="91.059" y1="-49.911" x2="90.932" y2="-50.038" width="0.254" layer="1"/>
@@ -7612,17 +7611,17 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="39.039" y1="-54.787" x2="38.023" y2="-54.787" width="0.1524" layer="16"/>
 <wire x1="38.023" y1="-54.787" x2="33.274" y2="-50.038" width="0.1524" layer="16"/>
 <via x="33.274" y="-50.038" extent="1-16" drill="0.254"/>
-<wire x1="33.274" y1="-50.038" x2="30.226" y2="-50.038" width="0.1524" layer="1"/>
 <wire x1="39.039" y1="-54.787" x2="32.0802" y2="-61.7458" width="0.254" layer="16"/>
 <wire x1="32.0802" y1="-61.7458" x2="32.0802" y2="-67.056" width="0.254" layer="16"/>
 <contactref element="U7" pad="10"/>
 <contactref element="U8" pad="10"/>
+<contactref element="IT-" pad="1"/>
 <wire x1="-29.083" y1="-261.825" x2="-16.637" y2="-196.293" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.1" y1="-304.546" x2="-29.083" y2="-261.825" width="0" layer="19" extent="1-1"/>
 <wire x1="32.0802" y1="-67.056" x2="-16.637" y2="-196.293" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IP+">
 <contactref element="U4" pad="7"/>
-<contactref element="IP+" pad="1"/>
 <contactref element="J3" pad="5"/>
 <wire x1="101.219" y1="-48.122" x2="101.219" y2="-49.911" width="0.254" layer="1"/>
 <wire x1="101.219" y1="-49.911" x2="101.346" y2="-50.038" width="0.254" layer="1"/>
@@ -7633,13 +7632,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="47.371" y1="-58.801" x2="46.482" y2="-57.912" width="0.1524" layer="16"/>
 <via x="46.482" y="-57.912" extent="1-16" drill="0.254"/>
 <wire x1="46.482" y1="-57.912" x2="42.926" y2="-54.356" width="0.1524" layer="1"/>
-<wire x1="42.926" y1="-54.356" x2="42.926" y2="-53.848" width="0.1524" layer="1"/>
 <wire x1="47.371" y1="-58.801" x2="41.0718" y2="-65.1002" width="0.254" layer="16"/>
 <wire x1="41.0718" y1="-65.1002" x2="41.0718" y2="-67.056" width="0.254" layer="16"/>
+<contactref element="IP+" pad="1"/>
+<wire x1="41.0718" y1="-67.056" x2="-38.1" y2="-293.116" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IP-">
 <contactref element="U4" pad="6"/>
-<contactref element="IP-" pad="1"/>
 <contactref element="J3" pad="6"/>
 <wire x1="99.949" y1="-48.122" x2="99.949" y2="-49.657" width="0.254" layer="1"/>
 <wire x1="99.949" y1="-49.657" x2="99.568" y2="-50.038" width="0.254" layer="1"/>
@@ -7652,9 +7651,10 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <via x="46.99" y="-55.118" extent="1-16" drill="0.254"/>
 <wire x1="46.99" y1="-55.118" x2="46.99" y2="-51.816" width="0.1524" layer="1"/>
 <wire x1="46.99" y1="-51.816" x2="45.212" y2="-50.038" width="0.1524" layer="1"/>
-<wire x1="45.212" y1="-50.038" x2="42.926" y2="-50.038" width="0.1524" layer="1"/>
 <wire x1="45.974" y1="-56.896" x2="38.0746" y2="-64.7954" width="0.254" layer="16"/>
 <wire x1="38.0746" y1="-64.7954" x2="38.0746" y2="-67.056" width="0.254" layer="16"/>
+<contactref element="IP-" pad="1"/>
+<wire x1="38.0746" y1="-67.056" x2="-38.1" y2="-296.926" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$62">
 <contactref element="C10" pad="1"/>
@@ -8669,16 +8669,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="C34" pad="1"/>
 <wire x1="-8.356" y1="-167.386" x2="-10.91" y2="-177.546" width="0" layer="19" extent="1-1"/>
 <wire x1="-6.062" y1="-157.988" x2="-8.356" y2="-167.386" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$34">
-<contactref element="R45" pad="1"/>
-<contactref element="R46" pad="2"/>
-<wire x1="-8.162" y1="-157.988" x2="-9.618" y2="-161.036" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$35">
-<contactref element="R46" pad="1"/>
-<contactref element="R41" pad="2"/>
-<wire x1="-9.618" y1="-157.988" x2="-11.718" y2="-161.036" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="U6" pad="18"/>
