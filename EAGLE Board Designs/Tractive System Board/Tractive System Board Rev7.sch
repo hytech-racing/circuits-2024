@@ -11949,13 +11949,13 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="R55" gate="G$1" pin="1"/>
 <pinref part="U$28" gate="G$1" pin="TS-FUSED"/>
 <junction x="143.002" y="163.83"/>
-<wire x1="179.07" y1="154.94" x2="172.72" y2="154.94" width="0.6096" layer="91"/>
+<wire x1="182.88" y1="154.94" x2="172.72" y2="154.94" width="0.6096" layer="91"/>
 <wire x1="172.72" y1="154.94" x2="162.56" y2="154.94" width="0.6096" layer="91"/>
 <wire x1="162.56" y1="154.94" x2="157.48" y2="154.94" width="0.6096" layer="91"/>
 <pinref part="U7" gate="G$1" pin="NC"/>
-<wire x1="186.69" y1="180.34" x2="179.07" y2="180.34" width="0.6096" layer="91"/>
-<wire x1="179.07" y1="180.34" x2="179.07" y2="154.94" width="0.6096" layer="91"/>
-<junction x="179.07" y="154.94"/>
+<wire x1="186.69" y1="180.34" x2="182.88" y2="180.34" width="0.6096" layer="91"/>
+<wire x1="182.88" y1="180.34" x2="182.88" y2="154.94" width="0.6096" layer="91"/>
+<junction x="182.88" y="154.94"/>
 <pinref part="C39" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="156.21" x2="162.56" y2="154.94" width="0.6096" layer="91"/>
 <junction x="162.56" y="154.94"/>
@@ -11963,7 +11963,7 @@ EN/UVLO &gt; 1.285V</text>
 <wire x1="172.72" y1="156.21" x2="172.72" y2="154.94" width="0.6096" layer="91"/>
 <junction x="172.72" y="154.94"/>
 <pinref part="U7" gate="G$1" pin="HGND"/>
-<wire x1="179.07" y1="154.94" x2="186.69" y2="154.94" width="0.6096" layer="91"/>
+<wire x1="182.88" y1="154.94" x2="186.69" y2="154.94" width="0.6096" layer="91"/>
 <wire x1="186.69" y1="154.94" x2="186.69" y2="160.02" width="0.6096" layer="91"/>
 <pinref part="U7" gate="G$1" pin="DCDC_HGND"/>
 <pinref part="C41" gate="G$1" pin="2"/>
@@ -11992,13 +11992,13 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="R60" gate="G$1" pin="1"/>
 <pinref part="U$31" gate="G$1" pin="TS-FUSED"/>
 <junction x="143.002" y="115.57"/>
-<wire x1="179.07" y1="106.68" x2="172.72" y2="106.68" width="0.6096" layer="91"/>
+<wire x1="182.88" y1="106.68" x2="172.72" y2="106.68" width="0.6096" layer="91"/>
 <wire x1="172.72" y1="106.68" x2="162.56" y2="106.68" width="0.6096" layer="91"/>
 <wire x1="162.56" y1="106.68" x2="157.48" y2="106.68" width="0.6096" layer="91"/>
 <pinref part="U8" gate="G$1" pin="NC"/>
-<wire x1="186.69" y1="132.08" x2="179.07" y2="132.08" width="0.6096" layer="91"/>
-<wire x1="179.07" y1="132.08" x2="179.07" y2="106.68" width="0.6096" layer="91"/>
-<junction x="179.07" y="106.68"/>
+<wire x1="186.69" y1="132.08" x2="182.88" y2="132.08" width="0.6096" layer="91"/>
+<wire x1="182.88" y1="132.08" x2="182.88" y2="106.68" width="0.6096" layer="91"/>
+<junction x="182.88" y="106.68"/>
 <pinref part="C48" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="107.95" x2="162.56" y2="106.68" width="0.6096" layer="91"/>
 <junction x="162.56" y="106.68"/>
@@ -12006,7 +12006,7 @@ EN/UVLO &gt; 1.285V</text>
 <wire x1="172.72" y1="107.95" x2="172.72" y2="106.68" width="0.6096" layer="91"/>
 <junction x="172.72" y="106.68"/>
 <pinref part="U8" gate="G$1" pin="HGND"/>
-<wire x1="179.07" y1="106.68" x2="186.69" y2="106.68" width="0.6096" layer="91"/>
+<wire x1="182.88" y1="106.68" x2="186.69" y2="106.68" width="0.6096" layer="91"/>
 <wire x1="186.69" y1="106.68" x2="186.69" y2="111.76" width="0.6096" layer="91"/>
 <pinref part="U8" gate="G$1" pin="DCDC_HGND"/>
 <pinref part="C50" gate="G$1" pin="2"/>
