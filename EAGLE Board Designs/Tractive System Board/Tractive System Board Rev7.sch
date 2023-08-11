@@ -12086,13 +12086,13 @@ EN/UVLO &gt; 1.285V</text>
 <segment>
 <pinref part="C37" gate="G$1" pin="1"/>
 <wire x1="245.618" y1="198.12" x2="263.398" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="245.618" y1="198.12" x2="245.618" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="LDO_OUT"/>
-<wire x1="245.618" y1="195.58" x2="245.618" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="245.618" y1="198.12" x2="245.618" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="245.618" y1="180.34" x2="229.87" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="DCDC_IN"/>
-<wire x1="229.87" y1="195.58" x2="245.618" y2="195.58" width="0.1524" layer="91"/>
-<junction x="245.618" y="195.58"/>
+<wire x1="229.87" y1="195.58" x2="229.87" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="229.87" y1="198.12" x2="245.618" y2="198.12" width="0.1524" layer="91"/>
+<junction x="245.618" y="198.12"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -12245,13 +12245,13 @@ EN/UVLO &gt; 1.285V</text>
 <segment>
 <pinref part="C46" gate="G$1" pin="1"/>
 <wire x1="245.618" y1="149.86" x2="263.398" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="245.618" y1="149.86" x2="245.618" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="LDO_OUT"/>
-<wire x1="245.618" y1="147.32" x2="245.618" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="245.618" y1="149.86" x2="245.618" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="245.618" y1="132.08" x2="229.87" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="DCDC_IN"/>
-<wire x1="229.87" y1="147.32" x2="245.618" y2="147.32" width="0.1524" layer="91"/>
-<junction x="245.618" y="147.32"/>
+<wire x1="229.87" y1="147.32" x2="229.87" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="229.87" y1="149.86" x2="245.618" y2="149.86" width="0.1524" layer="91"/>
+<junction x="245.618" y="149.86"/>
 </segment>
 </net>
 <net name="PACK_ISO_DIAG" class="0">
