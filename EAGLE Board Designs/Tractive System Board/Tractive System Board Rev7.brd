@@ -8090,27 +8090,27 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="C35" pad="2"/>
 <contactref element="D12" pad="A"/>
 <contactref element="U7" pad="7"/>
+<contactref element="C43" pad="2"/>
+<contactref element="R55" pad="1"/>
+<contactref element="U8" pad="7"/>
+<contactref element="C52" pad="2"/>
+<contactref element="R60" pad="1"/>
 <contactref element="U7" pad="4"/>
 <contactref element="C39" pad="2"/>
 <contactref element="C38" pad="2"/>
+<contactref element="U7" pad="8"/>
 <contactref element="U7" pad="2"/>
 <contactref element="C40" pad="2"/>
 <contactref element="C41" pad="2"/>
 <contactref element="C42" pad="1"/>
-<contactref element="C43" pad="2"/>
-<contactref element="U7" pad="8"/>
-<contactref element="R55" pad="1"/>
-<contactref element="U8" pad="7"/>
 <contactref element="U8" pad="4"/>
 <contactref element="C48" pad="2"/>
 <contactref element="C47" pad="2"/>
+<contactref element="U8" pad="8"/>
 <contactref element="U8" pad="2"/>
 <contactref element="C49" pad="2"/>
 <contactref element="C50" pad="2"/>
 <contactref element="C51" pad="1"/>
-<contactref element="C52" pad="2"/>
-<contactref element="U8" pad="8"/>
-<contactref element="R60" pad="1"/>
 <wire x1="-20.447" y1="-206.043" x2="-22.987" y2="-206.043" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.637" y1="-206.043" x2="-20.447" y2="-206.043" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.367" y1="-206.043" x2="-16.637" y2="-206.043" width="0" layer="19" extent="1-1"/>
