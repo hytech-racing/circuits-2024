@@ -11854,11 +11854,8 @@ EN/UVLO &gt; 1.285V</text>
 <wire x1="93.98" y1="185.674" x2="93.98" y2="142.24" width="0.6096" layer="91"/>
 <pinref part="U6" gate="G$1" pin="DRAIN"/>
 <wire x1="93.98" y1="142.24" x2="91.44" y2="142.24" width="0.6096" layer="91"/>
-<wire x1="13.716" y1="185.674" x2="76.2" y2="185.674" width="0.6096" layer="91"/>
+<wire x1="13.716" y1="185.674" x2="93.98" y2="185.674" width="0.6096" layer="91"/>
 <junction x="13.716" y="185.674"/>
-<wire x1="76.2" y1="185.674" x2="93.98" y2="185.674" width="0.6096" layer="91"/>
-<wire x1="76.2" y1="182.88" x2="76.2" y2="185.674" width="0.6096" layer="91"/>
-<junction x="76.2" y="185.674"/>
 </segment>
 <segment>
 <pinref part="P26" gate="G$1" pin="TS+FUSED"/>
