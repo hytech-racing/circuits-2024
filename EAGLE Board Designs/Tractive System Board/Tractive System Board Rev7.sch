@@ -9153,6 +9153,15 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </technology>
+<technology name="35V_47UF">
+<attribute name="CAPACITANCE" value="47µF"/>
+<attribute name="DKPN" value="445-CGA9N1X7R1V476M230KCCT-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-CGA9N1X7R1V476M2"/>
+<attribute name="MPN" value="CGA9N1X7R1V476M230KC"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="35V"/>
+</technology>
 <technology name="630V_0.1UF">
 <attribute name="CAPACITANCE" value="0.1μF"/>
 <attribute name="DKPN" value="445-11980-2-ND"/>
@@ -11432,13 +11441,15 @@ Isolated Flyback Converter with 630V/300mA Switch
 <part name="PACK_ISO_DIAG" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$21" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
-<part name="C53" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="2220" technology="25V_47UF"/>
 <part name="C54" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="630V_47PF"/>
 <part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="C55" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="630V_10NF"/>
 <part name="C56" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF"/>
 <part name="R51" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="0.12"/>
+<part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="2220" technology="35V_47UF"/>
+<part name="R56" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV4.99K"/>
+<part name="R61" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV4.99K"/>
 </parts>
 <sheets>
 <sheet>
@@ -11783,11 +11794,6 @@ EN/UVLO &gt; 1.285V</text>
 <attribute name="NAME" x="130.556" y="188.976" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="133.096" y="188.976" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="C53" gate="G$1" x="119.38" y="99.06" smashed="yes" rot="R90">
-<attribute name="NAME" x="116.84" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="121.92" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="123.698" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="C54" gate="G$1" x="76.2" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="173.99" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="78.74" y="173.99" size="1.27" layer="96" rot="R90" align="top-center"/>
@@ -11814,6 +11820,19 @@ EN/UVLO &gt; 1.285V</text>
 <instance part="R51" gate="G$1" x="93.98" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="92.71" y="115.57" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="95.25" y="115.57" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C3" gate="G$1" x="119.38" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="116.84" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="121.92" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="123.698" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R56" gate="G$1" x="71.12" y="180.34" smashed="yes">
+<attribute name="NAME" x="69.85" y="181.61" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="69.85" y="179.07" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R61" gate="G$1" x="63.5" y="180.34" smashed="yes">
+<attribute name="NAME" x="62.23" y="181.61" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="62.23" y="179.07" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -12007,7 +12026,7 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="D12" gate="G$1" pin="C"/>
 <wire x1="129.032" y1="101.6" x2="129.032" y2="106.68" width="0.6096" layer="91"/>
 <junction x="129.032" y="106.68"/>
-<pinref part="C53" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R50" gate="G$1" pin="2"/>
@@ -12042,7 +12061,7 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="D12" gate="G$1" pin="A"/>
 <wire x1="129.032" y1="93.98" x2="129.032" y2="88.9" width="0.6096" layer="91"/>
 <junction x="129.032" y="88.9"/>
-<pinref part="C53" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="LED_+12V1" gate="LED" pin="C"/>
@@ -12492,6 +12511,27 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="131.826" y1="185.166" x2="131.826" y2="183.642" width="0.6096" layer="91"/>
 <label x="131.826" y="183.388" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="R56" gate="G$1" pin="1"/>
+<pinref part="R61" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="R56" gate="G$1" pin="2"/>
+<pinref part="C54" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="180.34" x2="76.2" y2="180.34" width="0.6096" layer="91"/>
+<wire x1="76.2" y1="180.34" x2="76.2" y2="177.8" width="0.6096" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="R61" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="180.34" x2="55.88" y2="180.34" width="0.6096" layer="91"/>
+<wire x1="55.88" y1="180.34" x2="55.88" y2="185.42" width="0.6096" layer="91"/>
 </segment>
 </net>
 </nets>
