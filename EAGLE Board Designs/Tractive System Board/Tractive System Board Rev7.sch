@@ -10725,8 +10725,8 @@ Isolated Flyback Converter with 630V/300mA Switch
 <part name="U$21" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
 <part name="C54" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="630V_47PF"/>
-<part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TS_HLDO" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="PACK_HLDO" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="C55" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="630V_10NF"/>
 <part name="C56" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF"/>
 <part name="R51" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="0.12"/>
@@ -11082,11 +11082,11 @@ EN/UVLO &gt; 1.285V</text>
 <attribute name="VOLTAGE" x="78.74" y="173.99" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="80.518" y="173.99" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="TP1" gate="G$1" x="167.64" y="101.6" smashed="yes">
+<instance part="TS_HLDO" gate="G$1" x="167.64" y="101.6" smashed="yes">
 <attribute name="NAME" x="165.1" y="103.378" size="1.27" layer="95"/>
 <attribute name="MPN" x="165.1" y="99.822" size="1.27" layer="95" align="top-left"/>
 </instance>
-<instance part="TP2" gate="G$1" x="167.64" y="93.98" smashed="yes">
+<instance part="PACK_HLDO" gate="G$1" x="167.64" y="93.98" smashed="yes">
 <attribute name="NAME" x="165.1" y="95.758" size="1.27" layer="95"/>
 <attribute name="MPN" x="165.1" y="92.202" size="1.27" layer="95" align="top-left"/>
 </instance>
@@ -11577,7 +11577,7 @@ EN/UVLO &gt; 1.285V</text>
 <junction x="172.72" y="175.26"/>
 </segment>
 <segment>
-<pinref part="TP1" gate="G$1" pin="1"/>
+<pinref part="TS_HLDO" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="101.6" x2="172.72" y2="101.6" width="0.6096" layer="91"/>
 <label x="172.72" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -11679,7 +11679,7 @@ EN/UVLO &gt; 1.285V</text>
 <junction x="172.72" y="127"/>
 </segment>
 <segment>
-<pinref part="TP2" gate="G$1" pin="1"/>
+<pinref part="PACK_HLDO" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="93.98" x2="172.72" y2="93.98" width="0.6096" layer="91"/>
 <label x="172.72" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
