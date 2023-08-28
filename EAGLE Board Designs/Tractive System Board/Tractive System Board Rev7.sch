@@ -10614,7 +10614,6 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="FRAME5" library="HyTechFrames" deviceset="FRAME" device="">
 <attribute name="DESCRIPTION_1" value="Precharge power stage"/>
 <attribute name="DESIGNER_BOARD" value="Liwei Sun"/>
-<attribute name="DESIGNER_FURTHER" value="Ethan Su"/>
 <attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
 <attribute name="ENGINEER" value="Liwei Sun"/>
 </part>
