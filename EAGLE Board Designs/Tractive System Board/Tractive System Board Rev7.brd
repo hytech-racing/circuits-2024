@@ -767,6 +767,21 @@ Cody Kaminsky, Ethan Su</text>
 <rectangle x1="-2.286" y1="-1.27" x2="2.286" y2="1.27" layer="39"/>
 <text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="1206-CAP">
+<description>1206 Cap
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/website/yageo_UPY-C_GEN_26_20092411_950.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_26.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-1.5" y="0" dx="1" dy="1.8" layer="1"/>
+<smd name="2" x="1.5" y="0" dx="1" dy="1.8" layer="1"/>
+<text x="0" y="1.25" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<rectangle x1="-2.2" y1="-1.25" x2="2.2" y2="1.25" layer="39"/>
+</package>
 </packages>
 </library>
 <library name="HyTechManufacturing">
@@ -6690,6 +6705,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="5015" x="-1.524" y="-96.52" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-1.524" y="-95.25" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 </element>
+<element name="C3" library="HyTechDevices" package="1206-CAP" value="CAPACITOR_1206_630V_10NF" x="-2.032" y="-100.33" smashed="yes">
+<attribute name="CAPACITANCE" value="10nF" x="-2.032" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="445-9083-1-ND" x="-2.032" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="TDK Corporation" x="-2.032" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="810-CGA5L4C0G2J103J" x="-2.032" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CGA5L4C0G2J103J160AA" x="-2.032" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.032" y="-99.08" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="TOLERANCE" value="5%" x="-2.032" y="-100.33" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="630V" x="-2.032" y="-100.33" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$69">
@@ -7305,6 +7330,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="80.518" y1="-18.288" x2="85.57" y2="-18.288" width="0.508" layer="15"/>
 <contactref element="R40" pad="1"/>
 <contactref element="R41" pad="1"/>
+<contactref element="C3" pad="2"/>
+<wire x1="-2.87" y1="-89.154" x2="-0.532" y2="-100.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.87" y1="-85.852" x2="-2.87" y2="-89.154" width="0" layer="19" extent="1-1"/>
 <wire x1="39.624" y1="-32.258" x2="-2.87" y2="-85.852" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -7839,6 +7866,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <signal name="N$35">
 <contactref element="D2" pad="C"/>
 <contactref element="R37" pad="2"/>
+<contactref element="C3" pad="1"/>
+<wire x1="0.28" y1="-92.71" x2="-3.532" y2="-100.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.474" y1="-76.454" x2="0.28" y2="-92.71" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
