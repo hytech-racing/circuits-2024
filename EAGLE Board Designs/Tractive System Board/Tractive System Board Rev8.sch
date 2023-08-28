@@ -11173,6 +11173,11 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="R51" gate="G$1" pin="1"/>
 <pinref part="C55" gate="G$1" pin="2"/>
 <pinref part="C56" gate="G$1" pin="2"/>
+<pinref part="R48" gate="G$1" pin="1"/>
+<pinref part="R47" gate="G$1" pin="1"/>
+<wire x1="17.526" y1="129.54" x2="23.622" y2="129.54" width="0.6096" layer="91"/>
+<wire x1="23.622" y1="129.54" x2="23.622" y2="114.3" width="0.6096" layer="91"/>
+<junction x="23.622" y="129.54"/>
 </segment>
 </net>
 <net name="EN/UVLO" class="0">
@@ -11327,15 +11332,6 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="U$21" gate="G$1" pin="TS+12V"/>
 <wire x1="131.826" y1="194.31" x2="131.826" y2="192.786" width="0.6096" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="R48" gate="G$1" pin="1"/>
-<pinref part="R47" gate="G$1" pin="1"/>
-<wire x1="23.622" y1="129.54" x2="17.526" y2="129.54" width="0.6096" layer="91"/>
-<junction x="23.622" y="129.54"/>
-<wire x1="23.622" y1="129.54" x2="23.622" y2="113.03" width="0.6096" layer="91"/>
 </segment>
 </net>
 <net name="TS-FUSED" class="0">

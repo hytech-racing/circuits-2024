@@ -7276,15 +7276,19 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="R51" pad="1"/>
 <contactref element="C55" pad="2"/>
 <contactref element="C56" pad="2"/>
+<contactref element="R48" pad="1"/>
+<contactref element="R47" pad="1"/>
 <wire x1="-8.356" y1="-174.244" x2="-10.172" y2="-170.688" width="0" layer="19" extent="1-1"/>
 <wire x1="-11.01" y1="-163.83" x2="-10.172" y2="-170.688" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.41" y1="-145.542" x2="-11.01" y2="-163.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.506" y1="-154.94" x2="-11.01" y2="-163.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.506" y1="-151.638" x2="-11.506" y2="-154.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.41" y1="-145.542" x2="-11.506" y2="-151.638" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.41" y1="-139.446" x2="-9.41" y2="-145.542" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.374" y1="-133.35" x2="-9.41" y2="-139.446" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.978" y1="-130.048" x2="-2.374" y2="-133.35" width="0" layer="19" extent="1-1"/>
 <wire x1="5.334" y1="-117.64" x2="-4.978" y2="-130.048" width="0" layer="19" extent="1-1"/>
-<wire x1="5.659" y1="-115.335" x2="5.334" y2="-117.64" width="0" layer="19" extent="1-1"/>
-<wire x1="5.009" y1="-115.335" x2="5.659" y2="-115.335" width="0" layer="19" extent="1-1"/>
+<wire x1="5.009" y1="-115.335" x2="5.334" y2="-117.64" width="0" layer="19" extent="1-1"/>
+<wire x1="5.659" y1="-115.335" x2="5.009" y2="-115.335" width="0" layer="19" extent="1-1"/>
 <wire x1="2.409" y1="-115.335" x2="5.009" y2="-115.335" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.886" y1="-348.742" x2="-8.356" y2="-174.244" width="0" layer="19" extent="1-1"/>
 <wire x1="-39.636" y1="-352.044" x2="-38.886" y2="-348.742" width="0" layer="19" extent="1-1"/>
@@ -7348,11 +7352,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="-0.674" y1="-130.556" x2="-41.136" y2="-352.044" width="0" layer="19" extent="1-1"/>
 <wire x1="0.28" y1="-127.508" x2="-0.674" y2="-130.556" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.674" y1="-123.952" x2="0.28" y2="-127.508" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$37">
-<contactref element="R47" pad="1"/>
-<contactref element="R48" pad="1"/>
-<wire x1="-11.506" y1="-151.638" x2="-11.506" y2="-154.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="U6" pad="10"/>
