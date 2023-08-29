@@ -10807,8 +10807,8 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <wire x1="5.08" y1="210.82" x2="266.7" y2="210.82" width="0.254" layer="97" style="longdash"/>
 <wire x1="76.2" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="97" style="longdash"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="210.82" width="0.254" layer="97" style="longdash"/>
-<text x="98.552" y="173.482" size="1.27" layer="95">TS+FUSED ~&gt; 60V
-EN/UVLO ~&gt; 1.285V</text>
+<text x="93.472" y="173.482" size="1.27" layer="95">TS+FUSED &gt; 60V
+EN/UVLO &gt; 1.285V @ 50C</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
