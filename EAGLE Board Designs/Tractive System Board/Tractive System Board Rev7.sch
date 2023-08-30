@@ -7069,10 +7069,12 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/54/pwr163-777985.pdf"&gt;PWR163 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/Yageo_PYu_AC_51_RoHS_L_7_1714230-1874691.pdf"&gt;AC Series&lt;/a&gt;&lt;li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/PYu-PU_51_RoHS_L_6-1504619.pdf"&gt;PU Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ucr-e.pdf"&gt;UCR Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"&gt;ERA Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/54/pwr263s_35-778069.pdf"&gt;PWR263 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/348/ROHM_S_A0011075115_1-2563276.pdf"&gt;KTR Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf"&gt;RC Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C313-1141758.pdf"&gt;ERJ Low Resistance Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C328-1530132.pdf"&gt;ERJ PB3, PB6 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf"&gt;ERJ  PA2, P03, PA3, P06, P08, P14 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.ohmite.com/assets/docs/res_200.pdf?r=false"&gt;B20 Series&lt;/a&gt;&lt;/li&gt;
@@ -7133,6 +7135,28 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="0.081V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="0.12">
+<attribute name="DKPN" value="RHM1241CT-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-UCR03EVPFLR120"/>
+<attribute name="MPN" value="UCR03EVPFLR120"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="0.12"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.173V"/>
+<attribute name="VOLTAGE_MAX" value="" constant="no"/>
+</technology>
+<technology name="0.3">
+<attribute name="DKPN" value="P17395CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-3BQFR30V"/>
+<attribute name="MPN" value="ERJ-3BQFR30V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="0.3"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.274V"/>
+<attribute name="VOLTAGE_MAX" value="" constant="no"/>
 </technology>
 <technology name="0.5">
 <attribute name="DKPN" value="311-.5QTR-ND"/>
@@ -8469,6 +8493,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="HV4.99K">
+<attribute name="DKPN" value="RHM4.99KAICT-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR18EZPF4991"/>
+<attribute name="MPN" value="KTR18EZPF4991"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="4.99k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="35.32V"/>
+<attribute name="VOLTAGE_MAX" value="500V"/>
+</technology>
 <technology name="HV46.4K">
 <attribute name="DKPN" value="RHM46.4KAICT-ND"/>
 <attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
@@ -10793,6 +10828,7 @@ EEU-FP1E Aluminum Electrolytic Capacitor &lt;br&gt;
 <part name="P25" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="EN/UVLO" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="630V_10NF"/>
+<part name="R42" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
 </parts>
 <sheets>
 <sheet>
@@ -11197,6 +11233,10 @@ EN/UVLO &gt; 1.285V @ 50C</text>
 <attribute name="NAME" x="63.5" y="179.07" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="68.58" y="179.07" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="70.358" y="179.07" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R42" gate="G$1" x="91.44" y="167.64" smashed="yes">
+<attribute name="NAME" x="90.17" y="168.91" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="90.17" y="166.37" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11766,6 +11806,8 @@ EN/UVLO &gt; 1.285V @ 50C</text>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="152.4" x2="93.98" y2="149.86" width="0.6096" layer="91"/>
 <junction x="93.98" y="152.4"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<junction x="93.98" y="167.64"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -11834,10 +11876,12 @@ EN/UVLO &gt; 1.285V @ 50C</text>
 <pinref part="R41" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="167.64" x2="73.66" y2="167.64" width="0.6096" layer="91"/>
 <junction x="81.28" y="167.64"/>
-<wire x1="81.28" y1="167.64" x2="88.9" y2="167.64" width="0.6096" layer="91"/>
-<wire x1="88.9" y1="167.64" x2="88.9" y2="172.72" width="0.6096" layer="91"/>
-<wire x1="116.84" y1="172.72" x2="88.9" y2="172.72" width="0.6096" layer="91"/>
+<wire x1="81.28" y1="167.64" x2="86.36" y2="167.64" width="0.6096" layer="91"/>
+<wire x1="86.36" y1="167.64" x2="86.36" y2="172.72" width="0.6096" layer="91"/>
+<wire x1="116.84" y1="172.72" x2="86.36" y2="172.72" width="0.6096" layer="91"/>
 <pinref part="U2" gate="G$1" pin="EN/UVLO"/>
+<pinref part="R42" gate="G$1" pin="1"/>
+<junction x="86.36" y="167.64"/>
 </segment>
 <segment>
 <pinref part="EN/UVLO" gate="G$1" pin="1"/>
