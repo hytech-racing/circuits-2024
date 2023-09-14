@@ -11199,14 +11199,14 @@ EN/UVLO &gt; 1.285V</text>
 <label x="48.26" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="IREG/SS" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="IREG/SS"/>
 <pinref part="R49" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="124.46" x2="71.12" y2="119.38" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="VC" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="VC"/>
 <wire x1="60.96" y1="137.16" x2="58.42" y2="137.16" width="0.6096" layer="91"/>
@@ -11252,7 +11252,7 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="R54" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="SOURCE" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="SOURCE"/>
 <wire x1="91.44" y1="137.16" x2="93.98" y2="137.16" width="0.6096" layer="91"/>
@@ -11279,7 +11279,7 @@ EN/UVLO &gt; 1.285V</text>
 <wire x1="58.42" y1="124.46" x2="58.42" y2="119.38" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$54" class="0">
+<net name="FB" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="FB"/>
 <wire x1="91.44" y1="152.4" x2="98.806" y2="152.4" width="0.6096" layer="91"/>
@@ -11462,7 +11462,7 @@ EN/UVLO &gt; 1.285V</text>
 <wire x1="120.396" y1="183.642" x2="120.396" y2="185.166" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="N$45" class="0">
+<net name="INTVCC" class="0">
 <segment>
 <pinref part="C33" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="147.32" x2="43.434" y2="147.32" width="0.6096" layer="91"/>
