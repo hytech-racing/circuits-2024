@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7005,7 +7005,6 @@ Layer: 94 Symbol</description>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
 <part name="U5" library="HyTechDevices" deviceset="INA823*" device="" technology="DT"/>
 <part name="P17" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C4" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
 <part name="P20" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.1UF"/>
 <part name="C15" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.1UF"/>
@@ -7036,7 +7035,6 @@ Layer: 94 Symbol</description>
 <part name="P53" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P56" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.33K"/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13M"/>
 <part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K"/>
 <part name="P11" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P5" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -7053,6 +7051,9 @@ Layer: 94 Symbol</description>
 <part name="P57" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P58" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="120"/>
+<part name="C4" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.1UF"/>
+<part name="JP9" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
+<part name="P59" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7067,6 +7068,7 @@ Layer: 94 Symbol</description>
 <wire x1="233.68" y1="81.28" x2="233.68" y2="43.18" width="0.1524" layer="97"/>
 <wire x1="233.68" y1="43.18" x2="111.76" y2="43.18" width="0.1524" layer="97"/>
 <wire x1="111.76" y1="43.18" x2="111.76" y2="81.28" width="0.1524" layer="97"/>
+<text x="125.73" y="76.2" size="1.27" layer="97" font="vector"> .184 W consumed</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="5.08" y="53.34" smashed="yes">
@@ -7246,16 +7248,12 @@ Layer: 94 Symbol</description>
 <instance part="P47" gate="G$1" x="15.24" y="35.56" smashed="yes">
 <attribute name="VALUE" x="15.24" y="40.64" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P56" gate="G$1" x="142.24" y="-5.08" smashed="yes">
-<attribute name="VALUE" x="142.24" y="-3.81" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P56" gate="G$1" x="133.35" y="-6.35" smashed="yes">
+<attribute name="VALUE" x="133.35" y="-5.08" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R9" gate="G$1" x="137.16" y="5.08" smashed="yes">
 <attribute name="NAME" x="135.89" y="6.35" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="135.89" y="3.81" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="R11" gate="G$1" x="38.1" y="160.02" smashed="yes">
-<attribute name="NAME" x="36.83" y="161.29" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="36.83" y="158.75" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="R13" gate="G$1" x="152.4" y="5.08" smashed="yes">
 <attribute name="NAME" x="151.13" y="6.35" size="1.27" layer="95" align="bottom-center"/>
@@ -7270,9 +7268,9 @@ Layer: 94 Symbol</description>
 <instance part="P13" gate="1" x="180.34" y="71.12" smashed="yes">
 <attribute name="VALUE" x="180.34" y="73.66" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="207.264" y="11.43" smashed="yes" rot="R90">
-<attribute name="NAME" x="205.994" y="10.16" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="208.534" y="10.16" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R10" gate="G$1" x="204.47" y="9.906" smashed="yes">
+<attribute name="NAME" x="203.2" y="11.176" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="203.2" y="8.636" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -7474,13 +7472,6 @@ Layer: 94 Symbol</description>
 <pinref part="P11" gate="G$1" pin="+24V"/>
 </segment>
 </net>
-<net name="SUS_POT_2" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="15.24" y1="-50.8" x2="20.32" y2="-50.8" width="0.1524" layer="91"/>
-<label x="20.32" y="-50.8" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="SUS_POT_1" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
@@ -7619,8 +7610,8 @@ Layer: 94 Symbol</description>
 </segment>
 <segment>
 <pinref part="U10" gate="G$1" pin="EN"/>
-<wire x1="124.46" y1="-10.16" x2="142.24" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="-10.16" x2="142.24" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-10.16" x2="133.35" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="133.35" y1="-10.16" x2="133.35" y2="-8.89" width="0.1524" layer="91"/>
 <pinref part="P56" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
@@ -7635,7 +7626,7 @@ Layer: 94 Symbol</description>
 <wire x1="205.74" y1="20.32" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
 <label x="203.2" y="20.32" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="207.264" y1="13.97" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="9.906" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT_N" class="0">
@@ -7649,7 +7640,7 @@ Layer: 94 Symbol</description>
 <wire x1="205.74" y1="0" x2="203.2" y2="0" width="0.1524" layer="91"/>
 <label x="203.2" y="0" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="0" x2="207.264" y2="6.35" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="0" x2="199.39" y2="9.906" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIFF_P" class="0">
@@ -7727,6 +7718,20 @@ Layer: 94 Symbol</description>
 <label x="132.08" y="-55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
+<net name="GEN_SIG+" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="-48.26" x2="17.78" y2="-48.26" width="0.1524" layer="91"/>
+<label x="17.78" y="-48.26" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="GEN_SIG-" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="15.24" y1="-50.8" x2="17.78" y2="-50.8" width="0.1524" layer="91"/>
+<label x="17.78" y="-50.8" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -7735,9 +7740,9 @@ Layer: 94 Symbol</description>
 <text x="66.04" y="60.96" size="1.27" layer="97">37.5x gain</text>
 <text x="109.22" y="55.88" size="1.27" layer="97">4.32x gain</text>
 <text x="96.52" y="38.1" size="1.27" layer="97">162x gain total</text>
-<text x="53.34" y="68.58" size="1.27" layer="97" font="vector">Gain = 1 + 100K/R</text>
-<text x="53.34" y="160.02" size="1.27" layer="97" font="vector">unity gain if open circuit between RG1 and RG2</text>
-<text x="53.34" y="170.18" size="1.27" layer="97" font="vector">INA has common mode input limits so if unity gain 
+<text x="53.34" y="67.31" size="1.27" layer="97" font="vector">Gain = 1 + 100K/R</text>
+<text x="60.96" y="161.29" size="1.27" layer="97" font="vector">unity gain if open circuit between RG1 and RG2</text>
+<text x="60.96" y="165.1" size="1.27" layer="97" font="vector">INA has common mode input limits so if unity gain 
 ensure that the input signal's voltage 
 does not exceed Vs - 1. </text>
 <wire x1="7.62" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="97"/>
@@ -7745,7 +7750,7 @@ does not exceed Vs - 1. </text>
 <wire x1="157.48" y1="144.78" x2="157.48" y2="162.56" width="0.1524" layer="97"/>
 <wire x1="157.48" y1="162.56" x2="139.7" y2="162.56" width="0.1524" layer="97"/>
 <wire x1="139.7" y1="162.56" x2="139.7" y2="208.28" width="0.1524" layer="97"/>
-<text x="66.04" y="149.86" size="1.27" layer="97" font="vector">General Purpose input signal configuration. 
+<text x="60.96" y="154.94" size="1.27" layer="97" font="vector">General Purpose input signal configuration. 
 Can take differential/ratiometric then filtered into ADC</text>
 <wire x1="5.08" y1="111.76" x2="7.62" y2="111.76" width="0.1524" layer="97"/>
 <wire x1="7.62" y1="111.76" x2="7.62" y2="208.28" width="0.1524" layer="97"/>
@@ -7754,10 +7759,13 @@ Can take differential/ratiometric then filtered into ADC</text>
 <wire x1="7.62" y1="30.48" x2="137.16" y2="30.48" width="0.1524" layer="97"/>
 <wire x1="137.16" y1="30.48" x2="137.16" y2="50.8" width="0.1524" layer="97"/>
 <wire x1="137.16" y1="50.8" x2="172.72" y2="50.8" width="0.1524" layer="97"/>
-<wire x1="139.7" y1="208.28" x2="271.78" y2="208.28" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="208.28" x2="271.78" y2="144.78" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="97"/>
+<wire x1="139.7" y1="208.28" x2="274.32" y2="208.28" width="0.1524" layer="97"/>
+<wire x1="274.32" y1="208.28" x2="274.32" y2="144.78" width="0.1524" layer="97"/>
+<wire x1="274.32" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="97"/>
 <text x="198.12" y="175.26" size="1.27" layer="97" font="vector">0.11 gain</text>
+<wire x1="172.72" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="97"/>
+<wire x1="172.72" y1="111.76" x2="172.72" y2="144.78" width="0.1524" layer="97"/>
+<text x="10.16" y="31.75" size="1.27" layer="97" font="vector">add CAP in place of R5 from rev3 if signal is too distorted.</text>
 </plain>
 <instances>
 <instance part="U2" gate="A" x="99.06" y="53.34" smashed="yes">
@@ -7945,11 +7953,6 @@ Can take differential/ratiometric then filtered into ADC</text>
 <instance part="P17" gate="1" x="60.96" y="182.88" smashed="yes">
 <attribute name="VALUE" x="60.96" y="181.61" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C4" gate="G$1" x="81.28" y="193.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="78.74" y="191.77" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="83.82" y="191.77" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="85.598" y="191.77" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="P20" gate="1" x="81.28" y="182.88" smashed="yes">
 <attribute name="VALUE" x="81.28" y="181.61" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -7967,10 +7970,10 @@ Can take differential/ratiometric then filtered into ADC</text>
 <attribute name="NAME" x="231.14" y="178.562" size="1.27" layer="95"/>
 <attribute name="MPN" x="231.14" y="154.178" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="C21" gate="G$1" x="220.98" y="162.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="218.44" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="223.52" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="225.298" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C21" gate="G$1" x="219.71" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="217.17" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="222.25" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="224.028" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="P27" gate="1" x="226.06" y="149.86" smashed="yes">
 <attribute name="VALUE" x="226.06" y="148.59" size="1.27" layer="96" align="top-center"/>
@@ -8094,6 +8097,18 @@ Can take differential/ratiometric then filtered into ADC</text>
 <instance part="P58" gate="1" x="119.38" y="66.04" smashed="yes">
 <attribute name="VALUE" x="119.38" y="64.77" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="C4" gate="G$1" x="81.28" y="193.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="78.74" y="191.77" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="83.82" y="191.77" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="85.598" y="191.77" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="JP9" gate="G$1" x="35.56" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="38.1" y="124.46" size="1.27" layer="95" rot="R270"/>
+<attribute name="MPN" x="32.258" y="129.54" size="1.27" layer="96" rot="R270" align="top-left"/>
+</instance>
+<instance part="P59" gate="1" x="33.02" y="114.3" smashed="yes">
+<attribute name="VALUE" x="33.02" y="113.03" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8175,20 +8190,20 @@ Can take differential/ratiometric then filtered into ADC</text>
 </segment>
 <segment>
 <pinref part="P20" gate="1" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="185.42" x2="81.28" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="220.98" y1="157.48" x2="226.06" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="219.71" y1="157.48" x2="226.06" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="157.48" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="GND"/>
 <wire x1="228.6" y1="157.48" x2="226.06" y2="157.48" width="0.1524" layer="91"/>
 <junction x="226.06" y="157.48"/>
 <pinref part="P27" gate="1" pin="GND"/>
 <pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="157.48" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
-<junction x="220.98" y="157.48"/>
+<wire x1="210.82" y1="157.48" x2="219.71" y2="157.48" width="0.1524" layer="91"/>
+<junction x="219.71" y="157.48"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
@@ -8250,6 +8265,11 @@ Can take differential/ratiometric then filtered into ADC</text>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="73.66" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 <junction x="111.76" y="71.12"/>
+</segment>
+<segment>
+<pinref part="JP9" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="119.38" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="P59" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SIGNAL+" class="0">
@@ -8483,6 +8503,8 @@ Can take differential/ratiometric then filtered into ADC</text>
 <junction x="33.02" y="132.08"/>
 <junction x="33.02" y="137.16"/>
 <pinref part="U5" gate="A" pin="VIN-"/>
+<pinref part="JP9" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="132.08" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GEN_SIG+" class="0">
@@ -8526,7 +8548,7 @@ Can take differential/ratiometric then filtered into ADC</text>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="165.1" x2="226.06" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="OS"/>
-<wire x1="226.06" y1="165.1" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="165.1" x2="219.71" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="162.56" x2="226.06" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="162.56" x2="226.06" y2="165.1" width="0.1524" layer="91"/>
 <junction x="226.06" y="165.1"/>
@@ -8666,9 +8688,9 @@ Can take differential/ratiometric then filtered into ADC</text>
 <pinref part="P53" gate="G$1" pin="+24V"/>
 </segment>
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="195.58" x2="81.28" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="P48" gate="G$1" pin="+24V"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U5" gate="P" pin="VDD"/>
