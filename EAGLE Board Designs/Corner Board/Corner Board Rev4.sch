@@ -762,6 +762,31 @@ Notes: See page 47</description>
 <wire x1="27.051" y1="-3.81" x2="25.4" y2="-3.81" width="0.1524" layer="21"/>
 <wire x1="25.4" y1="-3.81" x2="25.4" y2="3.81" width="0.1524" layer="21"/>
 </package>
+<package name="BINDER-86-0531-1120-00004M12">
+<description>file:///Users/ashish/Downloads/Datasheet.pdf</description>
+<pad name="1" x="1.767753125" y="1.767753125" drill="1.3" rot="R45" first="yes"/>
+<pad name="3" x="-1.767753125" y="-1.767753125" drill="1.3" rot="R45"/>
+<pad name="2" x="-1.767753125" y="1.767753125" drill="1.3" rot="R45"/>
+<pad name="4" x="1.767753125" y="-1.767753125" drill="1.3" rot="R45"/>
+<circle x="1.767753125" y="1.767753125" radius="1.27" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.1" width="4.2" layer="40"/>
+<pad name="P$1" x="4.419403125" y="4.419403125" drill="3" rot="R45"/>
+<pad name="P$2" x="-4.419403125" y="-4.419403125" drill="3" rot="R45"/>
+<wire x1="0.898025" y1="6.286165625" x2="-0.898025" y2="6.286165625" width="0.127" layer="21" curve="-343.739795"/>
+<wire x1="0.898025" y1="6.286171875" x2="0.898025" y2="4.490121875" width="0.127" layer="21"/>
+<wire x1="-0.898025" y1="6.286171875" x2="-0.898025" y2="4.490121875" width="0.127" layer="21"/>
+<wire x1="0.898025" y1="4.490121875" x2="-0.898025" y2="4.490121875" width="0.127" layer="21" curve="-180"/>
+<circle x="0" y="0" radius="7.184203125" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="9" width="0.127" layer="21"/>
+<wire x1="-9.927778125" y1="-2.644578125" x2="-7.283196875" y2="7.283196875" width="0.127" layer="21"/>
+<wire x1="-7.283196875" y1="7.283196875" x2="2.644578125" y2="9.927778125" width="0.127" layer="21"/>
+<wire x1="2.694075" y1="9.87828125" x2="9.87828125" y2="2.694075" width="0.127" layer="21"/>
+<wire x1="7.3143125" y1="-7.3143125" x2="9.958890625" y2="2.613465625" width="0.127" layer="21"/>
+<wire x1="-2.613465625" y1="-9.958890625" x2="7.3143125" y2="-7.3143125" width="0.127" layer="21"/>
+<wire x1="-9.87828125" y1="-2.694075" x2="-2.694075" y2="-9.87828125" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="5.25" width="10.5" layer="39"/>
+<text x="0" y="10.652" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
 <package name="M12A-04PMMP">
 <description>M12A-04PMMP Amphenol Connector
 &lt;p&gt;
@@ -1165,6 +1190,23 @@ Pulse Transformers 1CT:1 200 UH
 <vertex x="-3.556" y="5.3848"/>
 </polygon>
 </package>
+<package name="BM04B-SRSS-TB">
+<description>JST SR 4-pin top entry connector
+&lt;br&gt;
+&lt;a href="https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-1.5" y="-1.775" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="PAD2" x="2.79999375" y="0.75" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="PAD1" x="-2.79999375" y="0.75" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="-0.5" y="-1.775" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.5" y="-1.775" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="1.5" y="-1.775" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-2.99999375" y1="1.45" x2="-2.99999375" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-2.99999375" y1="-1.45" x2="2.99999375" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="2.99999375" y1="-1.45" x2="2.99999375" y2="1.45" width="0.127" layer="21"/>
+<wire x1="2.99999375" y1="1.45" x2="-2.99999375" y2="1.45" width="0.127" layer="21"/>
+<rectangle x1="-3.81" y1="-2.921" x2="3.81" y2="2.032" layer="39"/>
+<text x="-3.048" y="2.032" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_04">
@@ -1460,6 +1502,27 @@ Pulse Transformers 1CT:1 200 UH
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="BINDER-M12-A_4_PIN" prefix="J">
+<gates>
+<gate name="G$1" symbol="CONNECTOR_04" x="-17.78" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="BINDER-86-0531-1120-00004M12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Binder" constant="no"/>
+<attribute name="MPN" value="BN86-0531-1120-00004" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="CONNECTOR-4_?_*" prefix="J">
 <description>4 Pin Connector</description>
 <gates>
@@ -1524,6 +1587,22 @@ Pulse Transformers 1CT:1 200 UH
 <attribute name="DKPN" value="1754-1007-ND " constant="no"/>
 <attribute name="MANUFACTURER" value="Amphenol" constant="no"/>
 <attribute name="MPN" value="M12A-04PMMP-SF8001" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="JST_SR" package="BM04B-SRSS-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DPKN" value="PRT-16766" constant="no"/>
+<attribute name="MANUFACTURER" value="JST" constant="no"/>
+<attribute name="MOPN" value="PRT-16766" constant="no"/>
+<attribute name="MPN" value="BM04B-SRSS-TB" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6969,7 +7048,7 @@ Layer: 94 Symbol</description>
 <part name="U6" library="HyTechDevices" deviceset="VOLTAGE_REFERENCE_?_*" device="SOIC-8" technology="10V"/>
 <part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF"/>
 <part name="P14" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="AMPHENOL_M12A_04PMMP"/>
+<part name="J3" library="HyTechDevices" deviceset="BINDER-M12-A_4_PIN" device=""/>
 <part name="U$16" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="FRAME2" library="HyTechFrames" deviceset="FRAME" device=""/>
 <part name="O1" library="HyTechExternal" deviceset="RECEPTACLE-4_*" device="" technology="MICROFIT"/>
@@ -7829,7 +7908,7 @@ Layer: 94 Symbol</description>
 <attribute name="CAPACITANCE" x="34.798" y="90.17" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="JP1" gate="G$1" x="22.86" y="73.66" smashed="yes">
-<attribute name="NAME" x="30.48" y="76.2" size="1.27" layer="95"/>
+<attribute name="NAME" x="22.86" y="76.2" size="1.27" layer="95"/>
 <attribute name="MPN" x="22.86" y="67.818" size="1.27" layer="96" rot="R180" align="top-left"/>
 </instance>
 <instance part="JP2" gate="G$1" x="33.02" y="73.66" smashed="yes">
