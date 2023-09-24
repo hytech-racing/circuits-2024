@@ -6958,6 +6958,10 @@ Layer: 94 Symbol</description>
 <part name="P19" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.32K"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.5M"/>
+<part name="C11" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
+<part name="C12" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="75K"/>
 <part name="JP5" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
 <part name="JP6" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
 <part name="JP7" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
@@ -7050,7 +7054,6 @@ Layer: 94 Symbol</description>
 <part name="C4" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.1UF"/>
 <part name="JP9" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
 <part name="P59" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 </parts>
 <sheets>
 <sheet>
@@ -7763,7 +7766,6 @@ Can take differential/ratiometric then filtered into ADC</text>
 <wire x1="172.72" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="97"/>
 <wire x1="172.72" y1="111.76" x2="172.72" y2="144.78" width="0.1524" layer="97"/>
 <text x="10.16" y="31.75" size="1.27" layer="97" font="vector">add CAP in place of R5 from rev3 if signal is too distorted.</text>
-<text x="71.12" y="147.32" size="1.27" layer="97" font="vector">anyone reading this, this will be removed when i get to it!</text>
 </plain>
 <instances>
 <instance part="U2" gate="A" x="99.06" y="53.34" smashed="yes">
@@ -7848,6 +7850,24 @@ Can take differential/ratiometric then filtered into ADC</text>
 <instance part="R5" gate="G$1" x="30.48" y="57.404" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.21" y="56.134" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="31.75" y="56.134" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C11" gate="G$1" x="99.06" y="66.04" smashed="yes">
+<attribute name="NAME" x="97.79" y="68.58" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VOLTAGE" x="97.79" y="63.5" size="1.27" layer="96" align="top-center"/>
+<attribute name="CAPACITANCE" x="97.79" y="61.722" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="C12" gate="G$1" x="83.82" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="81.28" y="49.53" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="86.36" y="49.53" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="88.138" y="49.53" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R6" gate="G$1" x="78.74" y="55.88" smashed="yes">
+<attribute name="NAME" x="77.47" y="57.15" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="77.47" y="54.61" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R12" gate="G$1" x="91.44" y="55.88" smashed="yes">
+<attribute name="NAME" x="90.17" y="57.15" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="90.17" y="54.61" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="JP5" gate="G$1" x="20.32" y="160.02" smashed="yes">
 <attribute name="NAME" x="25.4" y="162.56" size="1.27" layer="95"/>
@@ -8089,10 +8109,6 @@ Can take differential/ratiometric then filtered into ADC</text>
 <instance part="P59" gate="1" x="33.02" y="114.3" smashed="yes">
 <attribute name="VALUE" x="33.02" y="113.03" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="91.44" y="55.88" smashed="yes">
-<attribute name="NAME" x="90.17" y="57.15" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="90.17" y="54.61" size="1.27" layer="96" align="top-center"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -8115,9 +8131,13 @@ Can take differential/ratiometric then filtered into ADC</text>
 <wire x1="59.69" y1="49.53" x2="59.69" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="59.69" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="P6" gate="1" pin="GND"/>
-<wire x1="68.58" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="43.18" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="38.1" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
 <junction x="68.58" y="43.18"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="45.72" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
+<junction x="83.82" y="43.18"/>
 </segment>
 <segment>
 <pinref part="P8" gate="1" pin="GND"/>
@@ -8343,6 +8363,9 @@ Can take differential/ratiometric then filtered into ADC</text>
 <wire x1="109.22" y1="43.18" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
 <junction x="109.22" y="53.34"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="66.04" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IN"/>
@@ -8374,11 +8397,32 @@ Can take differential/ratiometric then filtered into ADC</text>
 <label x="60.96" y="96.52" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 </segment>
 </net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="U3" gate="A" pin="VOUT"/>
+<wire x1="73.66" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="53.34" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
+<junction x="83.82" y="55.88"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="55.88" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$6" class="0">
 <segment>
+<pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="U2" gate="A" pin="VIN+"/>
 <wire x1="93.98" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -8681,13 +8725,6 @@ Can take differential/ratiometric then filtered into ADC</text>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <wire x1="142.24" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
 <label x="147.32" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U3" gate="A" pin="VOUT"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
