@@ -7895,6 +7895,7 @@ Layer: 94 Symbol</description>
 <wire x1="271.018" y1="135.89" x2="271.018" y2="207.772" width="0.1524" layer="97"/>
 <wire x1="271.018" y1="207.772" x2="145.034" y2="208.026" width="0.1524" layer="97"/>
 <text x="147.828" y="203.962" size="1.778" layer="97" font="vector">RAE Tech SteeringTorque Sensor</text>
+<text x="187.198" y="168.402" size="1.27" layer="97" font="vector">0.666x gain</text>
 </plain>
 <instances>
 <instance part="U2" gate="A" x="99.06" y="53.34" smashed="yes">
