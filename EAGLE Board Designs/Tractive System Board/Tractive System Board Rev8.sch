@@ -10733,6 +10733,7 @@ Isolated Flyback Converter with 630V/300mA Switch
 <part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="2220" technology="35V_47UF"/>
 <part name="R56" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV4.99K"/>
 <part name="R61" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV4.99K"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
 </parts>
 <sheets>
 <sheet>
@@ -11117,6 +11118,10 @@ EN/UVLO &gt; 1.285V</text>
 <attribute name="NAME" x="62.23" y="181.61" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="62.23" y="179.07" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="R1" gate="G$1" x="37.592" y="101.092" smashed="yes" rot="R180">
+<attribute name="NAME" x="38.862" y="99.822" size="1.27" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="RESISTANCE" x="38.862" y="102.362" size="1.27" layer="96" rot="R180" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11197,6 +11202,11 @@ EN/UVLO &gt; 1.285V</text>
 <pinref part="EN/UVLO" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="162.56" x2="48.26" y2="162.56" width="0.6096" layer="91"/>
 <label x="48.26" y="162.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="35.052" y1="101.092" x2="32.512" y2="101.092" width="0.6096" layer="91"/>
+<label x="32.512" y="101.092" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IREG/SS" class="0">
@@ -11468,6 +11478,11 @@ EN/UVLO &gt; 1.285V</text>
 <wire x1="60.96" y1="147.32" x2="43.434" y2="147.32" width="0.6096" layer="91"/>
 <wire x1="43.434" y1="147.32" x2="43.434" y2="119.38" width="0.6096" layer="91"/>
 <pinref part="U6" gate="G$1" pin="INTVCC"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="42.672" y1="101.092" x2="45.212" y2="101.092" width="0.6096" layer="91"/>
+<label x="45.212" y="101.092" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IT+" class="0">

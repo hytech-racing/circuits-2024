@@ -6655,6 +6655,18 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="35.32V" x="33.274" y="-29.718" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE_MAX" value="500V" x="33.274" y="-29.718" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="R1" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_DNP" x="-76.962" y="-89.916" smashed="yes">
+<attribute name="DKPN" value="" x="-76.962" y="-89.916" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-76.962" y="-89.916" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="" x="-76.962" y="-89.916" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-76.962" y="-89.916" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-76.962" y="-89.281" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="" x="-76.962" y="-89.916" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="DNP" x="-76.962" y="-89.916" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-76.962" y="-89.916" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="" x="-76.962" y="-89.916" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="" x="-76.962" y="-89.916" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -7410,6 +7422,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="U6" pad="17"/>
 <contactref element="R41" pad="1"/>
 <contactref element="EN/UVLO" pad="1"/>
+<contactref element="R1" pad="2"/>
+<wire x1="-66.074" y1="-43.434" x2="-76.112" y2="-89.916" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.852" y1="-43.434" x2="-66.074" y2="-43.434" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.772" y1="-43.18" x2="-58.852" y2="-43.434" width="0" layer="19" extent="1-1"/>
 <wire x1="-23.876" y1="-42.926" x2="-53.772" y2="-43.18" width="0" layer="19" extent="1-1"/>
@@ -7476,7 +7490,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <signal name="INTVCC">
 <contactref element="C33" pad="1"/>
 <contactref element="U6" pad="8"/>
-<wire x1="38.881" y1="-29.311" x2="40.652" y2="-32.258" width="0" layer="19" extent="1-1"/>
+<contactref element="R1" pad="1"/>
+<wire x1="38.881" y1="-29.311" x2="-77.812" y2="-89.916" width="0" layer="19" extent="1-1"/>
+<wire x1="40.652" y1="-32.258" x2="38.881" y2="-29.311" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="C37" pad="1"/>
