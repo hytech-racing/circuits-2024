@@ -11819,6 +11819,20 @@ EN/UVLO &gt; 1.285V</text>
 <wire x1="76.2" y1="180.34" x2="76.2" y2="177.8" width="0.6096" layer="91"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R46" gate="G$1" pin="1"/>
+<pinref part="R41" gate="G$1" pin="2"/>
+<wire x1="23.622" y1="160.02" x2="23.622" y2="161.29" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R45" gate="G$1" pin="1"/>
+<pinref part="R46" gate="G$1" pin="2"/>
+<wire x1="23.622" y1="166.37" x2="23.622" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
