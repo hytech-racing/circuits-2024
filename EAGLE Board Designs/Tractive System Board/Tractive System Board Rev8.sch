@@ -11228,11 +11228,12 @@ EN/UVLO &gt; 1.285V</text>
 <segment>
 <pinref part="D10" gate="G$1" pin="C"/>
 <wire x1="13.716" y1="176.53" x2="13.716" y2="175.26" width="0.6096" layer="91"/>
-<wire x1="13.716" y1="175.26" x2="13.716" y2="119.38" width="0.6096" layer="91"/>
 <wire x1="13.716" y1="175.26" x2="23.622" y2="175.26" width="0.6096" layer="91"/>
-<junction x="13.716" y="175.26"/>
 <pinref part="R45" gate="G$1" pin="2"/>
 <wire x1="23.622" y1="175.26" x2="23.622" y2="173.99" width="0.6096" layer="91"/>
+<pinref part="C55" gate="G$1" pin="1"/>
+<wire x1="13.716" y1="175.26" x2="13.716" y2="119.126" width="0.6096" layer="91"/>
+<junction x="13.716" y="175.26"/>
 </segment>
 </net>
 <net name="TS+FUSED" class="0">
