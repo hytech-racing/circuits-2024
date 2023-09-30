@@ -11126,7 +11126,7 @@ EN/UVLO &gt; 1.285V</text>
 <busses>
 </busses>
 <nets>
-<net name="TS-FUSED1" class="0">
+<net name="PGND" class="0">
 <segment>
 <pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="43.434" y1="111.76" x2="43.434" y2="106.68" width="0.6096" layer="91"/>

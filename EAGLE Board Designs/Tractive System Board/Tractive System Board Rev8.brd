@@ -7379,7 +7379,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="R27" pad="1"/>
 <wire x1="27.344" y1="-49.53" x2="25.717" y2="-49.53" width="0.254" layer="1"/>
 </signal>
-<signal name="TS-FUSED1">
+<signal name="PGND">
 <contactref element="C33" pad="2"/>
 <contactref element="D11" pad="C"/>
 <contactref element="L1" pad="2"/>
