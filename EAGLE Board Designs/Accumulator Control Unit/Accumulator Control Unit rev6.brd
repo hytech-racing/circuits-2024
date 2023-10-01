@@ -9496,6 +9496,10 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="J6" pad="2"/>
 <wire x1="24.97671875" y1="-24.58089375" x2="27.8966" y2="-21.6610125" width="0.254" layer="1"/>
 <wire x1="27.8966" y1="-21.6610125" x2="27.8966" y2="-13.3992" width="0.254" layer="1"/>
+<contactref element="C55" pad="1"/>
+<contactref element="U33" pad="5"/>
+<wire x1="-50.788" y1="-103.886" x2="-53.482" y2="-103.802" width="0" layer="19" extent="1-1"/>
+<wire x1="21.14131875" y1="-59.07470625" x2="-50.788" y2="-103.886" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BSPD_CURRENT">
 <contactref element="J6" pad="10"/>
@@ -9890,11 +9894,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <via x="173.228" y="-41.656" extent="1-16" drill="0.254"/>
 <contactref element="J10" pad="1"/>
 <contactref element="R108" pad="2"/>
-<contactref element="C55" pad="1"/>
-<contactref element="U33" pad="5"/>
-<wire x1="-50.788" y1="-103.886" x2="-51.474" y2="-111.252" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.482" y1="-103.802" x2="-50.788" y2="-103.886" width="0" layer="19" extent="1-1"/>
-<wire x1="-47.2694" y1="-97.2312" x2="-50.788" y2="-103.886" width="0" layer="19" extent="1-1"/>
+<wire x1="-47.2694" y1="-97.2312" x2="-51.474" y2="-111.252" width="0" layer="19" extent="1-1"/>
 <wire x1="75.105" y1="-57.730040625" x2="-47.2694" y2="-97.2312" width="0" layer="19" extent="1-1"/>
 <wire x1="110.01890625" y1="-60.21411875" x2="82.804" y2="-60.452" width="0" layer="19" extent="1-1"/>
 <wire x1="111.76411875" y1="-66.24509375" x2="110.27109375" y2="-62.83388125" width="0" layer="19" extent="1-1"/>

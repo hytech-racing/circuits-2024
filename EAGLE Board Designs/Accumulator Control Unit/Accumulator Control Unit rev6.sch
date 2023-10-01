@@ -10904,8 +10904,8 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="R109" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R110" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
 <part name="R111" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.12K"/>
-<part name="P132" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P135" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P132" library="HyTechSupplies" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14050,11 +14050,11 @@ current across precharge relay</text>
 <attribute name="NAME" x="85.09" y="34.29" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="85.09" y="31.75" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P132" gate="G$1" x="22.86" y="43.18" smashed="yes">
-<attribute name="VALUE" x="22.86" y="44.45" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="P135" gate="1" x="91.44" y="17.78" smashed="yes">
 <attribute name="VALUE" x="91.44" y="16.51" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P132" gate="1" x="22.86" y="43.18" smashed="yes">
+<attribute name="VALUE" x="22.86" y="46.99" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -14527,14 +14527,6 @@ current across precharge relay</text>
 <pinref part="R108" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="48.26" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="C55" gate="G$1" pin="1"/>
-<pinref part="U33" gate="P" pin="VDD"/>
-<wire x1="22.86" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="38.1" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
-<junction x="22.86" y="38.1"/>
-<pinref part="P132" gate="G$1" pin="+3V3"/>
-</segment>
 </net>
 <net name="N$50" class="0">
 <segment>
@@ -14728,6 +14720,16 @@ current across precharge relay</text>
 <pinref part="R106" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="30.48" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
 <label x="48.26" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="+12V" class="0">
+<segment>
+<pinref part="C55" gate="G$1" pin="1"/>
+<pinref part="U33" gate="P" pin="VDD"/>
+<wire x1="22.86" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="38.1" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
+<junction x="22.86" y="38.1"/>
+<pinref part="P132" gate="1" pin="+12V"/>
 </segment>
 </net>
 </nets>
