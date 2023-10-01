@@ -6947,28 +6947,28 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P32" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C19" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C20" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C21" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
+<part name="C21" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
 <part name="P33" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P34" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P35" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P36" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C23" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
+<part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
 <part name="P37" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P38" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P39" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P40" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C25" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C26" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
+<part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
 <part name="P41" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P42" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P43" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P44" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C28" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C29" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
-<part name="C30" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
+<part name="C30" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF" value="CAPACITOR_0603_10V_0.1UF"/>
 <part name="P45" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P46" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P47" library="HyTechSupplies" deviceset="+3V3" device=""/>
