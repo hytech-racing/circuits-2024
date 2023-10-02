@@ -588,10 +588,10 @@ Note: Based on page 14 and 15.</description>
 <smd name="A" x="-1.15" y="0" dx="0.8" dy="0.9" layer="1"/>
 <smd name="C" x="1.15" y="0" dx="0.8" dy="0.9" layer="1"/>
 <text x="0" y="1" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-0.85" y1="0.625" x2="-0.85" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="0.85" y1="-0.625" x2="0.85" y2="0.625" width="0.127" layer="21"/>
-<wire x1="0.85" y1="0.625" x2="-0.85" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="0.65" x2="-0.85" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-0.65" x2="0.85" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-0.65" x2="0.85" y2="0.65" width="0.127" layer="21"/>
+<wire x1="0.85" y1="0.65" x2="-0.85" y2="0.65" width="0.127" layer="21"/>
 <rectangle x1="-1.778" y1="-0.762" x2="1.778" y2="0.762" layer="39"/>
 <rectangle x1="1.261" y1="0.5" x2="1.661" y2="0.75" layer="21"/>
 <rectangle x1="1.261" y1="-0.75" x2="1.661" y2="-0.5" layer="21"/>
@@ -896,6 +896,20 @@ Pulse Transformers 1CT:1 200 UH
 <rectangle x1="-6.35" y1="-5.3848" x2="6.35" y2="5.3848" layer="39"/>
 <text x="-2.286" y="5.969" size="0.8128" layer="25" align="center">&gt;NAME</text>
 <circle x="-5.207" y="5.969" radius="0.254" width="0" layer="21"/>
+</package>
+<package name="1.5SMBJ">
+<description>DO-214AA Doide Footprint
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/54/BOURNS_1_5SMBJ_datasheet-2530221.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-1.98" y="0" dx="2.1" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="1.98" y="0" dx="2.1" dy="1.27" layer="1" rot="R90"/>
+<text x="0" y="2.286" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.285" y1="1.97" x2="2.285" y2="1.97" width="0.127" layer="21"/>
+<wire x1="2.285" y1="1.97" x2="2.285" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="2.285" y1="-1.97" x2="-2.285" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="-2.285" y1="-1.97" x2="-2.285" y2="1.97" width="0.127" layer="21"/>
+<rectangle x1="-3.302" y1="-2.286" x2="3.302" y2="2.286" layer="39"/>
+<wire x1="3.302" y1="1.524" x2="3.302" y2="-1.524" width="0.254" layer="21"/>
 </package>
 </packages>
 </library>
@@ -6839,18 +6853,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="SN74LVC1G32IDCKREP" x="31.496" y="41.402" size="0.8128" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="NAME" x="29.083" y="46.482" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="R57" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1.13K" x="17.018" y="51.562" smashed="yes" rot="R270">
-<attribute name="DKPN" value="P1.13KHCT-ND" x="17.018" y="51.054" size="0.8128" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="17.018" y="51.054" size="0.8128" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="667-ERJ-3EKF1131V" x="17.018" y="51.054" size="0.8128" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="ERJ-3EKF1131V" x="17.018" y="51.054" size="0.8128" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="NAME" x="16.51" y="49.022" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="17.018" y="51.054" size="0.8128" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="RESISTANCE" value="1.13k" x="17.018" y="51.054" size="0.8128" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="17.018" y="51.054" size="0.8128" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V" x="17.018" y="51.054" size="0.8128" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="VOLTAGE_MAX" value="150V" x="17.018" y="51.054" size="0.8128" layer="27" font="vector" rot="R270" display="off"/>
-</element>
 <element name="R58" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10.2K" x="16.256" y="54.356" smashed="yes">
 <attribute name="DKPN" value="P10.2KDBCT-ND" x="16.764" y="54.356" size="0.8128" layer="27" font="vector" display="off"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="16.764" y="54.356" size="0.8128" layer="27" font="vector" display="off"/>
@@ -7267,42 +7269,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="3.46V" x="-3.048" y="-64.262" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="-3.048" y="-64.262" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R50" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1.33K" x="-3.556" y="-67.31" smashed="yes">
-<attribute name="DKPN" value="P1.33KDBCT-ND" x="-3.556" y="-67.31" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-3.556" y="-67.31" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="667-ERA-3AEB1331V" x="-3.556" y="-67.31" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ERA-3AEB1331V" x="-3.556" y="-67.31" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-3.556" y="-66.675" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="-3.556" y="-67.31" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="1.33k" x="-3.556" y="-67.31" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="0.1%" x="-3.556" y="-67.31" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="11.53V" x="-3.556" y="-67.31" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="-3.556" y="-67.31" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R68" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_13K" x="-3.556" y="-70.358" smashed="yes">
-<attribute name="DKPN" value="P13KBECT-ND" x="-3.556" y="-70.358" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-3.556" y="-70.358" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="667-ERA-3ARW133V" x="-3.556" y="-70.358" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ERA-3ARW133V" x="-3.556" y="-70.358" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-3.556" y="-69.723" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="-3.556" y="-70.358" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="13k" x="-3.556" y="-70.358" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="0.05%" x="-3.556" y="-70.358" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="75V" x="-3.556" y="-70.358" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_MAX" value="150V" x="-3.556" y="-70.358" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R54" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="-3.556" y="-73.406" smashed="yes">
-<attribute name="DKPN" value="P10KBDCT-ND" x="-3.556" y="-73.406" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-3.556" y="-73.406" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="667-ERA-3ARB103V" x="-3.556" y="-73.406" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ERA-3ARB103V" x="-3.556" y="-73.406" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-3.556" y="-72.771" size="0.8128" layer="25" font="vector" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="-3.556" y="-73.406" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="10k" x="-3.556" y="-73.406" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="0.1%" x="-3.556" y="-73.406" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="-3.556" y="-73.406" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="-3.556" y="-73.406" size="1.778" layer="27" display="off"/>
-</element>
 <element name="A4" library="HyTechDevices" package="OKI-78SR" value="VOLTAGE_REGULATOR_MODULE_OKI-78SR_12V" x="-0.254" y="-81.534" smashed="yes">
 <attribute name="DKPN" value="811-3293-ND" x="-0.254" y="-81.534" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Power Solutions Inc." x="-0.254" y="-81.534" size="1.778" layer="27" display="off"/>
@@ -7336,6 +7302,116 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MOPN" value="534-5015" x="-3.556" y="-94.488" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="5015" x="-3.556" y="-94.488" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-3.556" y="-93.218" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+</element>
+<element name="R54" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10.2K" x="-3.556" y="-97.79" smashed="yes">
+<attribute name="DKPN" value="P10.2KDBCT-ND" x="-3.556" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-3.556" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERA-3AEB1022V" x="-3.556" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERA-3AEB1022V" x="-3.556" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.556" y="-97.155" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.1W" x="-3.556" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="10.2k" x="-3.556" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="-3.556" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="31.94V" x="-3.556" y="-97.79" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="75V" x="-3.556" y="-97.79" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R55" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1.13K" x="-3.556" y="-100.838" smashed="yes">
+<attribute name="DKPN" value="P1.13KHCT-ND" x="-3.556" y="-100.838" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-3.556" y="-100.838" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERJ-3EKF1131V" x="-3.556" y="-100.838" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1131V" x="-3.556" y="-100.838" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.556" y="-100.203" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.1W" x="-3.556" y="-100.838" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="1.13k" x="-3.556" y="-100.838" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="-3.556" y="-100.838" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V" x="-3.556" y="-100.838" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="-3.556" y="-100.838" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R50" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1.13K" x="-3.556" y="-103.886" smashed="yes">
+<attribute name="DKPN" value="P1.13KHCT-ND" x="-3.556" y="-103.886" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-3.556" y="-103.886" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERJ-3EKF1131V" x="-3.556" y="-103.886" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1131V" x="-3.556" y="-103.886" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.556" y="-103.251" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.1W" x="-3.556" y="-103.886" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="1.13k" x="-3.556" y="-103.886" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="-3.556" y="-103.886" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V" x="-3.556" y="-103.886" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="-3.556" y="-103.886" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R57" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2.18K" x="-3.556" y="-109.982" smashed="yes">
+<attribute name="DKPN" value="13-RT0805BRD072K18LTR-ND" x="-3.556" y="-109.982" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO" x="-3.556" y="-109.982" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-RT0805BRD072K18L" x="-3.556" y="-109.982" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RT0805BRD072K18L" x="-3.556" y="-109.982" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.556" y="-109.347" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.125W" x="-3.556" y="-109.982" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="2.18k" x="-3.556" y="-109.982" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="-3.556" y="-109.982" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="16.51V" x="-3.556" y="-109.982" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="-3.556" y="-109.982" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R68" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2.18K" x="-3.556" y="-113.03" smashed="yes">
+<attribute name="DKPN" value="13-RT0805BRD072K18LTR-ND" x="-3.556" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO" x="-3.556" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-RT0805BRD072K18L" x="-3.556" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RT0805BRD072K18L" x="-3.556" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.556" y="-112.395" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.125W" x="-3.556" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="2.18k" x="-3.556" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="-3.556" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="16.51V" x="-3.556" y="-113.03" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="-3.556" y="-113.03" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R69" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10K" x="-3.556" y="-116.078" smashed="yes">
+<attribute name="DKPN" value="P10KBDCT-ND" x="-3.556" y="-116.078" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="-3.556" y="-116.078" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERA-3ARB103V" x="-3.556" y="-116.078" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERA-3ARB103V" x="-3.556" y="-116.078" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.556" y="-115.443" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="0.1W" x="-3.556" y="-116.078" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="10k" x="-3.556" y="-116.078" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="-3.556" y="-116.078" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="-3.556" y="-116.078" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="75V" x="-3.556" y="-116.078" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D2" library="HyTechDevices" package="1.5SMBJ" value="SCHOTTKY_DO-214AA_150V" x="-2.54" y="-120.65" smashed="yes">
+<attribute name="CURRENT" value="3A" x="-2.54" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="641-1720-1-ND" x="-2.54" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Comchip Technology" x="-2.54" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="750-CDBB3150-HF" x="-2.54" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CDBB3150-HF" x="-2.54" y="-120.65" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.54" y="-118.364" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="VOLTAGE" value="150V" x="-2.54" y="-120.65" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U14" library="HyTechDevices" package="SOIC-08(NARROW,0.15&quot;)" value="ADM4854ARZ" x="-1.27" y="-126.492" smashed="yes">
+<attribute name="DKPN" value="  505-ADM4854ARZ-ND" x="-1.27" y="-126.492" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Analog Devices Inc." x="-1.27" y="-126.492" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="584-ADM4854ARZ" x="-1.27" y="-126.492" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ADM4854ARZ" x="-1.27" y="-126.492" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-4.445" y="-126.492" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
+</element>
+<element name="C60" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_25V_1.2NF" x="-3.556" y="-132.08" smashed="yes">
+<attribute name="CAPACITANCE" value="1.2nF" x="-3.556" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="311-4079-2-ND" x="-3.556" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO" x="-3.556" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R8BB122 " x="-3.556" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R8BB122" x="-3.556" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.556" y="-131.33" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="TOLERANCE" value="10%" x="-3.556" y="-132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="25V" x="-3.556" y="-132.08" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R70" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_DNP" x="-3.556" y="-135.128" smashed="yes">
+<attribute name="DKPN" value="" x="-3.556" y="-135.128" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="" x="-3.556" y="-135.128" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="" x="-3.556" y="-135.128" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="-3.556" y="-135.128" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.556" y="-134.493" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="POWER" value="" x="-3.556" y="-135.128" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="DNP" x="-3.556" y="-135.128" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="" x="-3.556" y="-135.128" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="" x="-3.556" y="-135.128" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="" x="-3.556" y="-135.128" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -7380,7 +7456,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="89.0007" y1="85.764" x2="86.868" y2="85.764" width="0.254" layer="16"/>
 <wire x1="88.4047" y1="90.8558" x2="89.408" y2="89.8525" width="0.254" layer="16"/>
 <wire x1="89.408" y1="89.8525" x2="89.408" y2="85.3567" width="0.254" layer="16"/>
-<contactref element="J1" pad="34"/>
 <wire x1="57.313" y1="84.328" x2="59.436" y2="84.328" width="0.8128" layer="16"/>
 <contactref element="R2" pad="2"/>
 <wire x1="50.535765625" y1="84.571765625" x2="50.77953125" y2="84.328" width="0.6096" layer="1"/>
@@ -7391,7 +7466,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="43.18" y1="99.06" x2="45.212" y2="101.092" width="0.6096" layer="1"/>
 <wire x1="62.142" y1="84.328" x2="59.436" y2="84.328" width="0.254" layer="16"/>
 <wire x1="45.212" y1="110.236" x2="43.958" y2="111.49" width="0.6096" layer="1"/>
-<wire x1="43.958" y1="111.49" x2="43.94" y2="111.49" width="0.6096" layer="1"/>
 <wire x1="45.212" y1="101.092" x2="45.212" y2="110.236" width="0.6096" layer="1"/>
 <via x="86.868" y="85.764" extent="1-16" drill="0.35"/>
 <wire x1="86.868" y1="85.764" x2="78.574" y2="85.764" width="0.254" layer="2"/>
@@ -7707,11 +7781,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="U10" pad="13"/>
 <contactref element="C12" pad="2"/>
 <contactref element="C16" pad="2"/>
-<contactref element="R68" pad="1"/>
 <contactref element="A4" pad="2"/>
 <contactref element="C47" pad="2"/>
 <contactref element="C49" pad="2"/>
 <contactref element="J1" pad="31"/>
+<contactref element="R55" pad="1"/>
+<contactref element="R68" pad="1"/>
+<contactref element="U14" pad="4"/>
 <wire x1="98.2218" y1="87.3633" x2="104.638" y2="89.456" width="0" layer="19" extent="1-16"/>
 <wire x1="94.742" y1="87.288" x2="98.2218" y2="87.3633" width="0" layer="19" extent="16-16"/>
 <wire x1="96.3422" y1="90.9193" x2="94.742" y2="87.288" width="0" layer="19" extent="16-16"/>
@@ -7936,10 +8012,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="0.226" y1="-21.9175" x2="-0.274" y2="-21.9175" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.298" y1="-55.118" x2="-0.274" y2="-21.9175" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.298" y1="-58.166" x2="-2.298" y2="-55.118" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.406" y1="-70.358" x2="-2.298" y2="-58.166" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.254" y1="-81.534" x2="-4.406" y2="-70.358" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.254" y1="-81.534" x2="-2.298" y2="-58.166" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.631" y1="-87.884" x2="-0.254" y2="-81.534" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.806" y1="-90.932" x2="-2.631" y2="-87.884" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.406" y1="-100.838" x2="-2.806" y2="-90.932" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.406" y1="-113.03" x2="-4.406" y2="-100.838" width="0" layer="19" extent="1-1"/>
+<wire x1="0.635" y1="-129.0955" x2="-4.406" y2="-113.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ACCEL_1_EXT">
 <contactref element="JP1" pad="1"/>
@@ -8611,10 +8689,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="15.736" y1="51.562" x2="19.812" y2="51.562" width="0.254" layer="1"/>
 <wire x1="22.352" y1="36.83" x2="26.474" y2="36.83" width="0.254" layer="1"/>
 <wire x1="26.474" y1="36.83" x2="29.522" y2="39.878" width="0.254" layer="1"/>
-<contactref element="R50" pad="1"/>
 <contactref element="J1" pad="32"/>
+<contactref element="R50" pad="1"/>
+<contactref element="U14" pad="1"/>
 <wire x1="43.94" y1="101.344" x2="41.94" y2="111.49" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.406" y1="-67.31" x2="17.61" y2="40.274" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.406" y1="-103.886" x2="78.74" y2="11.43" width="0" layer="19" extent="1-2"/>
+<wire x1="-3.175" y1="-129.0955" x2="-4.406" y2="-103.886" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMU_DATAREADY">
 <contactref element="A2" pad="D35"/>
@@ -8879,11 +8959,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <via x="13.208" y="22.606" extent="1-16" drill="0.35"/>
 <wire x1="13.208" y1="22.606" x2="13.208" y2="21.336" width="0.254" layer="16"/>
 <wire x1="13.22" y1="21.324" x2="13.208" y2="21.336" width="0.254" layer="16"/>
-<contactref element="R57" pad="2"/>
 <contactref element="VR1" pad="3"/>
 <contactref element="R64" pad="2"/>
 <via x="13.716" y="37.25" extent="1-16" drill="0.35"/>
-<via x="17.018" y="50.712" extent="1-16" drill="0.35"/>
 <wire x1="36.322" y1="50.712" x2="43.688" y2="58.078" width="0.254" layer="2"/>
 <wire x1="43.688" y1="61.6585" x2="44.7675" y2="62.738" width="0.254" layer="2"/>
 <wire x1="43.688" y1="58.078" x2="43.688" y2="61.6585" width="0.254" layer="2"/>
@@ -8914,7 +8992,11 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="R27" pad="2"/>
 <contactref element="R28" pad="2"/>
 <contactref element="R54" pad="1"/>
-<wire x1="-2.198" y1="-27.686" x2="-4.406" y2="-73.406" width="0" layer="19" extent="1-1"/>
+<contactref element="R57" pad="1"/>
+<contactref element="R69" pad="1"/>
+<wire x1="-4.406" y1="-109.982" x2="-4.406" y2="-116.078" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.406" y1="-97.79" x2="-4.406" y2="-109.982" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.198" y1="-27.686" x2="-4.406" y2="-97.79" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.198" y1="-24.638" x2="-2.198" y2="-27.686" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.274" y1="-21.9175" x2="-2.198" y2="-24.638" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.774" y1="-21.9175" x2="-3.274" y2="-21.9175" width="0" layer="19" extent="1-1"/>
@@ -9673,9 +9755,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="R45" pad="1"/>
 <contactref element="R46" pad="2"/>
 <wire x1="90.17" y1="64.936" x2="90.17" y2="63.588" width="0.254" layer="1"/>
-<contactref element="A2" pad="D20"/>
 <wire x1="91.186" y1="62.572" x2="90.17" y2="63.588" width="0.254" layer="1"/>
-<wire x1="91.186" y1="58.42" x2="91.186" y2="62.572" width="0.254" layer="1"/>
+<contactref element="A2" pad="D23"/>
+<wire x1="98.806" y1="54.864" x2="91.186" y2="62.572" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_ECU_RX2">
 <contactref element="A2" pad="D0"/>
@@ -9891,15 +9973,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <signal name="TCU_RX6">
 <contactref element="A3" pad="D25"/>
 </signal>
-<signal name="1V87">
+<signal name="0V26">
 <contactref element="U19" pad="1"/>
 <contactref element="U22" pad="1"/>
-<contactref element="U25" pad="1"/>
 <wire x1="29.352" y1="52.916" x2="29.352" y2="52.212" width="0.254" layer="1"/>
 <wire x1="29.352" y1="52.212" x2="29.21" y2="52.07" width="0.254" layer="1"/>
 <wire x1="29.21" y1="52.07" x2="27.012" y2="52.07" width="0.254" layer="1"/>
 <wire x1="20.292" y1="52.07" x2="19.7" y2="52.662" width="0.254" layer="1"/>
-<wire x1="19.7" y1="52.916" x2="19.7" y2="52.662" width="0.254" layer="1"/>
 <wire x1="23.764" y1="52.466" x2="23.764" y2="52.916" width="0.254" layer="1"/>
 <wire x1="20.292" y1="52.07" x2="23.368" y2="52.07" width="0.254" layer="1"/>
 <wire x1="23.368" y1="52.07" x2="23.764" y2="52.466" width="0.254" layer="1"/>
@@ -9907,10 +9987,10 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="23.764" y1="52.69" x2="24.384" y2="52.07" width="0.254" layer="1"/>
 <wire x1="24.384" y1="52.07" x2="26.328" y2="52.07" width="0.254" layer="1"/>
 <contactref element="R54" pad="2"/>
-<contactref element="R68" pad="2"/>
-<wire x1="26.328" y1="52.07" x2="27.012" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.706" y1="-70.358" x2="19.7" y2="52.916" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.706" y1="-73.406" x2="-2.706" y2="-70.358" width="0" layer="19" extent="1-1"/>
+<contactref element="R55" pad="2"/>
+<wire x1="-2.706" y1="-97.79" x2="-2.706" y2="-100.838" width="0" layer="19" extent="1-1"/>
+<wire x1="19.7" y1="52.662" x2="-2.706" y2="-97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="27.012" y1="52.07" x2="26.328" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CURRENT_OOR_LO">
 <contactref element="U19" pad="4"/>
@@ -10311,7 +10391,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="22.733" y1="78.0415" x2="22.733" y2="79.541" width="0.254" layer="1"/>
 <wire x1="22.733" y1="79.541" x2="22.86" y2="79.668" width="0.254" layer="1"/>
 </signal>
-<signal name="4V42">
+<signal name="2V38">
 <contactref element="R51" pad="2"/>
 <contactref element="U15" pad="3"/>
 <contactref element="U17" pad="3"/>
@@ -10321,20 +10401,20 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="37.704" y1="52.916" x2="36.826" y2="52.916" width="0.254" layer="1"/>
 <wire x1="36.41" y1="54.356" x2="36.41" y2="52.5" width="0.254" layer="1"/>
 <contactref element="R50" pad="2"/>
-<wire x1="36.41" y1="52.5" x2="36.826" y2="52.916" width="0" layer="19" extent="1-1"/>
-<wire x1="35.98" y1="52.07" x2="36.41" y2="52.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.706" y1="-67.31" x2="32.116" y2="52.916" width="0" layer="19" extent="1-1"/>
+<wire x1="32.116" y1="52.916" x2="-2.706" y2="-103.886" width="0" layer="19" extent="1-1"/>
+<wire x1="36.41" y1="52.5" x2="35.98" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="36.826" y1="52.916" x2="36.41" y2="52.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="2V38_1">
-<contactref element="R57" pad="1"/>
+<signal name="2V72">
 <contactref element="R58" pad="2"/>
 <wire x1="17.106" y1="54.356" x2="17.018" y2="54.268" width="0.254" layer="1"/>
-<wire x1="17.018" y1="54.268" x2="17.018" y2="52.412" width="0.254" layer="1"/>
 <contactref element="U26" pad="3"/>
 <wire x1="12.812" y1="52.916" x2="12.812" y2="52.466" width="0.254" layer="1"/>
 <wire x1="12.812" y1="52.466" x2="13.208" y2="52.07" width="0.254" layer="1"/>
 <wire x1="13.208" y1="52.07" x2="16.676" y2="52.07" width="0.254" layer="1"/>
-<wire x1="16.676" y1="52.07" x2="17.018" y2="52.412" width="0.254" layer="1"/>
+<contactref element="R57" pad="2"/>
+<wire x1="16.676" y1="52.07" x2="-2.706" y2="-109.982" width="0" layer="19" extent="1-1"/>
+<wire x1="17.018" y1="54.268" x2="16.676" y2="52.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ECU_TX3">
 <contactref element="A2" pad="D14"/>
@@ -10475,6 +10555,44 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="2.286" y1="-81.534" x2="43.94" y2="109.49" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.306" y1="-90.932" x2="2.286" y2="-81.534" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.556" y1="-94.488" x2="-4.306" y2="-90.932" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="0V59">
+<contactref element="R69" pad="2"/>
+<contactref element="R68" pad="2"/>
+<contactref element="U25" pad="1"/>
+<wire x1="-2.706" y1="-113.03" x2="-2.706" y2="-116.078" width="0" layer="19" extent="1-1"/>
+<wire x1="19.7" y1="52.916" x2="-2.706" y2="-113.03" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="STEERING_TX">
+<contactref element="U14" pad="3"/>
+<contactref element="A2" pad="D20"/>
+<wire x1="-0.635" y1="-129.0955" x2="91.186" y2="58.42" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="STEERING_RX">
+<contactref element="U14" pad="2"/>
+<contactref element="A2" pad="D21"/>
+<wire x1="-1.905" y1="-129.0955" x2="93.726" y2="54.864" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RS422_RX_P">
+<contactref element="U14" pad="8"/>
+<contactref element="C60" pad="2"/>
+<wire x1="-3.175" y1="-123.8885" x2="-2.806" y2="-132.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RS422_RX_N">
+<contactref element="U14" pad="7"/>
+<contactref element="R70" pad="1"/>
+<wire x1="-1.905" y1="-123.8885" x2="-4.406" y2="-135.128" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RS422_TX_N">
+<contactref element="U14" pad="6"/>
+</signal>
+<signal name="RS422_TX_P">
+<contactref element="U14" pad="5"/>
+</signal>
+<signal name="N$1">
+<contactref element="C60" pad="1"/>
+<contactref element="R70" pad="2"/>
+<wire x1="-4.306" y1="-132.08" x2="-2.706" y2="-135.128" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
