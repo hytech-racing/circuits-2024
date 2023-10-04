@@ -11110,9 +11110,9 @@ EN/UVLO &gt; 1.285V</text>
 <attribute name="VOLTAGE" x="121.92" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="123.698" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R56" gate="G$1" x="71.12" y="180.34" smashed="yes">
-<attribute name="NAME" x="69.85" y="181.61" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="69.85" y="179.07" size="1.27" layer="96" align="top-center"/>
+<instance part="R56" gate="G$1" x="71.628" y="180.34" smashed="yes">
+<attribute name="NAME" x="70.358" y="181.61" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="70.358" y="179.07" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="R61" gate="G$1" x="63.5" y="180.34" smashed="yes">
 <attribute name="NAME" x="62.23" y="181.61" size="1.27" layer="95" align="bottom-center"/>
@@ -11799,13 +11799,14 @@ EN/UVLO &gt; 1.285V</text>
 <segment>
 <pinref part="R56" gate="G$1" pin="1"/>
 <pinref part="R61" gate="G$1" pin="2"/>
+<wire x1="66.548" y1="180.34" x2="66.04" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="R56" gate="G$1" pin="2"/>
 <pinref part="C54" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="180.34" x2="76.2" y2="180.34" width="0.6096" layer="91"/>
+<wire x1="74.168" y1="180.34" x2="76.2" y2="180.34" width="0.6096" layer="91"/>
 <wire x1="76.2" y1="180.34" x2="76.2" y2="177.8" width="0.6096" layer="91"/>
 </segment>
 </net>
