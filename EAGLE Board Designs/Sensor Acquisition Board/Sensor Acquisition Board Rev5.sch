@@ -7645,7 +7645,7 @@ D-sub 9 pin</text>
 <text x="111.76" y="147.32" size="1.778" layer="97">GLV
 power and gnd
 Right angle</text>
-<text x="126.238" y="109.474" size="1.778" layer="97">isoSPI
+<text x="113.538" y="109.474" size="1.778" layer="97">isoSPI
 ADC
 Master
 Straight</text>
@@ -8096,6 +8096,7 @@ Aero sensor
 Ride height
 Thermistor</text>
 <text x="71.12" y="203.2" size="1.778" layer="97">Fuse GLV 24V</text>
+<text x="132.08" y="203.2" size="1.778" layer="97">Thermistor reference</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="O" x="0" y="0" smashed="yes">
@@ -8420,6 +8421,10 @@ Thermistor</text>
 <text x="11.176" y="207.518" size="1.778" layer="97">Thermistors</text>
 <text x="170.18" y="198.12" size="1.27" layer="97">IMU
 RS232</text>
+<text x="12.7" y="162.56" size="1.778" layer="97">Filter analog input</text>
+<text x="147.32" y="127" size="1.778" layer="97">ADC
+Digitize analog signals
+Thermistors</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
@@ -9561,6 +9566,8 @@ RS232</text>
 <sheet>
 <description>isoSPI</description>
 <plain>
+<text x="15.24" y="200.66" size="1.778" layer="97">isoSPI
+Rear corner board ADCs</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
@@ -10108,6 +10115,11 @@ RS232</text>
 <sheet>
 <description>CAN and RS485</description>
 <plain>
+<text x="15.24" y="200.66" size="1.778" layer="97">CAN transceiver and termination
+Bidirectional TVS/ESD protection</text>
+<text x="15.24" y="58.42" size="1.778" layer="97">RS485 transceiver
+Bidirectional TVS/ESD protection
+Ride height sensors</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
