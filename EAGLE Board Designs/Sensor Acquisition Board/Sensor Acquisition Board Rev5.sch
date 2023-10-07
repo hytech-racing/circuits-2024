@@ -3795,6 +3795,23 @@ Pulse Transformers 1CT:1 200 UH
 <vertex x="-3.556" y="5.3848"/>
 </polygon>
 </package>
+<package name="SC-70-3">
+<description>SC-70-3/SOT323
+&lt;br&gt;
+&lt;a href="https://www.ti.com/lit/ds/symlink/tpd2e007.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1615155679700&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+Note: Based on page 14 and 15.</description>
+<smd name="1" x="-1.1" y="0.65" dx="0.95" dy="0.4" layer="1"/>
+<smd name="2" x="-1.1" y="-0.65" dx="0.95" dy="0.4" layer="1"/>
+<smd name="3" x="1.1" y="0" dx="0.95" dy="0.4" layer="1"/>
+<wire x1="-0.7" y1="1.075" x2="-0.7" y2="-1.075" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1.075" x2="0.7" y2="-1.075" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-1.075" x2="0.7" y2="1.075" width="0.127" layer="21"/>
+<wire x1="0.7" y1="1.075" x2="-0.7" y2="1.075" width="0.127" layer="21"/>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.778" y1="-1.27" x2="1.778" y2="1.27" layer="39"/>
+<circle x="-1.1" y="1.1176" radius="0.127" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_10">
@@ -4197,6 +4214,50 @@ Pulse Transformers 1CT:1 200 UH
 <wire x1="-15.24" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="-15.24" y1="-10.16" x2="-2.54" y2="-10.16" width="0.1524" layer="94"/>
 <text x="-2.54" y="-12.7" size="1.27" layer="95" align="top-left">&gt;MPN</text>
+</symbol>
+<symbol name="DIODE_TVS_BIDIRECTIONAL_DUAL">
+<wire x1="-3.937" y1="3.556" x2="-3.937" y2="1.778" width="0.1524" layer="94"/>
+<pin name="C1" x="-7.62" y="2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<text x="-3.81" y="4.445" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-6.477" y="3.81"/>
+<vertex x="-6.477" y="1.27"/>
+<vertex x="-3.937" y="2.54"/>
+</polygon>
+<wire x1="-3.683" y1="3.302" x2="-3.683" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-4.191" y1="3.81" x2="-3.937" y2="3.556" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="3.556" x2="-3.683" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="1.778" x2="-3.683" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-3.683" y1="1.524" x2="-3.429" y2="1.27" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.143" y="1.27"/>
+<vertex x="-1.143" y="3.81"/>
+<vertex x="-3.683" y="2.54"/>
+</polygon>
+<wire x1="-3.937" y1="-1.524" x2="-3.937" y2="-3.302" width="0.1524" layer="94"/>
+<pin name="C2" x="-7.62" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="A" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-3.937" y="-4.445" size="1.27" layer="96" align="top-center">&gt;MPN</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-6.477" y="-1.27"/>
+<vertex x="-6.477" y="-3.81"/>
+<vertex x="-3.937" y="-2.54"/>
+</polygon>
+<wire x1="-3.683" y1="-1.778" x2="-3.683" y2="-3.556" width="0.1524" layer="94"/>
+<wire x1="-4.191" y1="-1.27" x2="-3.937" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="-1.524" x2="-3.683" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-3.937" y1="-3.302" x2="-3.683" y2="-3.556" width="0.1524" layer="94"/>
+<wire x1="-3.683" y1="-3.556" x2="-3.429" y2="-3.81" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.143" y="-3.81"/>
+<vertex x="-1.143" y="-1.27"/>
+<vertex x="-3.683" y="-2.54"/>
+</polygon>
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7136,6 +7197,56 @@ Pulse Transformers 1CT:1 200 UH
 </device>
 </devices>
 </deviceset>
+<deviceset name="TVS_BIDIRECTIONAL_DUAL" prefix="D">
+<description>Bdirectional TVS for CAN ESD
+&lt;br&gt;
+&lt;a href="https://www.ti.com/lit/ds/symlink/tpd2e007.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&amp;ts=1615155679700&amp;ref_url=https%253A%252F%252Fwww.mouser.com%252F"&gt;Datasheet&lt;/a&gt;
+&lt;BR&gt;
+&lt;BR&gt;SM712 Bidirectional TVS Diode
+&lt;BR&gt;
+-7V to 12V RSV
+&lt;BR&gt;
+Used for RS485 transreceiver chips
+&lt;BR&gt;
+(Works for RS422 since ADM4854ARZ runs both)
+&lt;BR&gt;
+&lt;a href=https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/440000001MKW/f6pBKheIN2CeR0DxWdS3THuJ7nh4aKYltSzghsLP5iw"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE_TVS_BIDIRECTIONAL_DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC-70-3">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="296-25281-1-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MOPN" value="595-TPD2E007DCKR"/>
+<attribute name="MPN" value="TPD2E007DCKR"/>
+</technology>
+</technologies>
+</device>
+<device name="RS422" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="SM712CT-ND"/>
+<attribute name="MANUFACTURER" value="Semtech Corporation"/>
+<attribute name="MOPN" value="947-SM712.TCT" constant="no"/>
+<attribute name="MPN" value="SM712.TCT"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -7499,6 +7610,15 @@ Pulse Transformers 1CT:1 200 UH
 <part name="P115" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C52" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C53" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
+<part name="R26" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="60.4"/>
+<part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="60.4"/>
+<part name="C54" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7NF"/>
+<part name="P116" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="JP7" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
+<part name="D2" library="HyTechDevices" deviceset="TVS_BIDIRECTIONAL_DUAL" device=""/>
+<part name="P117" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="D3" library="HyTechDevices" deviceset="TVS_BIDIRECTIONAL_DUAL" device="RS422"/>
+<part name="P118" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9986,6 +10106,7 @@ RS232</text>
 </nets>
 </sheet>
 <sheet>
+<description>CAN and RS485</description>
 <plain>
 </plain>
 <instances>
@@ -10131,6 +10252,40 @@ RS232</text>
 <attribute name="VOLTAGE" x="111.76" y="44.45" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="113.538" y="44.45" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="R26" gate="G$1" x="40.64" y="101.6" smashed="yes">
+<attribute name="NAME" x="39.37" y="102.87" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="39.37" y="100.33" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R27" gate="G$1" x="58.42" y="101.6" smashed="yes">
+<attribute name="NAME" x="57.15" y="102.87" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="57.15" y="100.33" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="C54" gate="G$1" x="48.26" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.72" y="92.71" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="50.8" y="92.71" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="52.578" y="92.71" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="P116" gate="1" x="48.26" y="81.28" smashed="yes">
+<attribute name="VALUE" x="48.26" y="80.01" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="JP7" gate="G$1" x="66.04" y="104.14" smashed="yes">
+<attribute name="NAME" x="66.04" y="106.68" size="1.27" layer="95"/>
+<attribute name="MPN" x="66.04" y="100.838" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="D2" gate="G$1" x="109.22" y="88.9" smashed="yes">
+<attribute name="NAME" x="105.41" y="93.345" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="105.283" y="84.455" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P117" gate="1" x="116.84" y="78.74" smashed="yes">
+<attribute name="VALUE" x="116.84" y="77.47" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="D3" gate="G$1" x="38.1" y="17.78" smashed="yes">
+<attribute name="NAME" x="34.29" y="22.225" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="34.163" y="13.335" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P118" gate="1" x="45.72" y="7.62" smashed="yes">
+<attribute name="VALUE" x="45.72" y="6.35" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10199,6 +10354,23 @@ RS232</text>
 <wire x1="99.06" y1="40.64" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="38.1" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
 <junction x="109.22" y="38.1"/>
+</segment>
+<segment>
+<pinref part="C54" gate="G$1" pin="2"/>
+<pinref part="P116" gate="1" pin="GND"/>
+<wire x1="48.26" y1="88.9" x2="48.26" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="111.76" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="P117" gate="1" pin="GND"/>
+<wire x1="116.84" y1="88.9" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="P118" gate="1" pin="GND"/>
+<wire x1="40.64" y1="17.78" x2="45.72" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="17.78" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -10333,12 +10505,32 @@ RS232</text>
 <wire x1="66.04" y1="137.16" x2="68.58" y2="137.16" width="0.1524" layer="91"/>
 <label x="68.58" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP7" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="101.6" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
+<label x="76.2" y="101.6" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="C1"/>
+<wire x1="101.6" y1="91.44" x2="96.52" y2="91.44" width="0.1524" layer="91"/>
+<label x="96.52" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="TELEM_CANL" class="0">
 <segment>
 <pinref part="U12" gate="G$1" pin="CANL"/>
 <wire x1="66.04" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
 <label x="68.58" y="134.62" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
+<label x="30.48" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D2" gate="G$1" pin="C2"/>
+<wire x1="101.6" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
+<label x="96.52" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -10385,12 +10577,40 @@ RS232</text>
 <wire x1="66.04" y1="38.1" x2="71.12" y2="38.1" width="0.1524" layer="91"/>
 <label x="71.12" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="C2"/>
+<wire x1="30.48" y1="15.24" x2="25.4" y2="15.24" width="0.1524" layer="91"/>
+<label x="25.4" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="RHEIGHT_P" class="0">
 <segment>
 <pinref part="U14" gate="G$1" pin="A"/>
 <wire x1="66.04" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
 <label x="71.12" y="35.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="C1"/>
+<wire x1="30.48" y1="20.32" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<label x="25.4" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C54" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="96.52" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
+<junction x="48.26" y="101.6"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="JP7" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
