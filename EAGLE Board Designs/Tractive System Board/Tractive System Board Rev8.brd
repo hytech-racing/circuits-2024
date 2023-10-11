@@ -5351,7 +5351,7 @@ Designed by Ethan Su &amp; Liwei Sun</text>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="HyTech Default (4 Layer)">
+<designrules name="HyTech Default (4 Layer) *">
 <description language="en">
 &lt;b&gt;HyTech Default Design Rules (4 Layer)&lt;/b&gt;
 &lt;p&gt;
@@ -7131,9 +7131,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="84.455" y1="-29.161" x2="84.455" y2="-27.063" width="0.8128" layer="1"/>
 <wire x1="90.551" y1="-29.161" x2="90.551" y2="-27.789" width="0.8128" layer="1"/>
 <wire x1="96.901" y1="-29.161" x2="96.901" y2="-27.063" width="0.8128" layer="1"/>
-<polygon width="0.1524" layer="15">
-<vertex x="23.876" y="-1.016"/>
-<vertex x="23.876" y="-27.432"/>
+<polygon width="0.1524" layer="15" isolate="1.27">
+<vertex x="23.368" y="-1.016"/>
+<vertex x="23.368" y="-27.432"/>
 <vertex x="99.568" y="-27.432"/>
 <vertex x="99.568" y="-1.016"/>
 </polygon>
@@ -7760,10 +7760,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="28.868" y1="-24.892" x2="27.686" y2="-24.892" width="0.254" layer="1"/>
 <via x="27.686" y="-24.892" extent="1-16" drill="0.35"/>
 <wire x1="27.686" y1="-24.892" x2="25.654" y2="-24.892" width="0.254" layer="16"/>
-<wire x1="25.3746" y1="-14.478" x2="24.3586" y2="-14.478" width="0.254" layer="16"/>
-<wire x1="24.3586" y1="-14.478" x2="22.9616" y2="-15.875" width="0.254" layer="16"/>
-<wire x1="22.9616" y1="-15.875" x2="22.9616" y2="-22.1996" width="0.254" layer="16"/>
-<wire x1="25.654" y1="-24.892" x2="22.9616" y2="-22.1996" width="0.254" layer="16"/>
+<wire x1="25.3746" y1="-14.478" x2="23.9776" y2="-15.875" width="0.254" layer="16"/>
+<wire x1="23.9776" y1="-15.875" x2="23.9776" y2="-23.2156" width="0.254" layer="16"/>
+<wire x1="25.654" y1="-24.892" x2="23.9776" y2="-23.2156" width="0.254" layer="16"/>
 </signal>
 <signal name="N$34">
 <contactref element="R56" pad="1"/>
