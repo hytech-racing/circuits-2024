@@ -7131,11 +7131,11 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="84.455" y1="-29.161" x2="84.455" y2="-27.063" width="0.8128" layer="1"/>
 <wire x1="90.551" y1="-29.161" x2="90.551" y2="-27.789" width="0.8128" layer="1"/>
 <wire x1="96.901" y1="-29.161" x2="96.901" y2="-27.063" width="0.8128" layer="1"/>
-<polygon width="0.1524" layer="15" isolate="1.27">
-<vertex x="23.368" y="-1.016"/>
-<vertex x="23.368" y="-27.432"/>
-<vertex x="99.568" y="-27.432"/>
-<vertex x="99.568" y="-1.016"/>
+<polygon width="0.254" layer="15" isolate="1.27">
+<vertex x="21.844" y="-1.016"/>
+<vertex x="21.844" y="-27.94"/>
+<vertex x="99.314" y="-27.94"/>
+<vertex x="99.314" y="-1.016"/>
 </polygon>
 </signal>
 <signal name="TS+UNFUSED">
@@ -7410,8 +7410,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <vertex x="48.006" y="-10.16"/>
 <vertex x="35.56" y="-10.16"/>
 <vertex x="35.56" y="-17.78"/>
-<vertex x="24.13" y="-17.78"/>
-<vertex x="24.13" y="-27.94"/>
+<vertex x="21.844" y="-17.78"/>
+<vertex x="21.844" y="-27.94"/>
 </polygon>
 <wire x1="51.6" y1="-17.526" x2="53.594" y2="-17.526" width="0.8128" layer="1"/>
 <via x="53.594" y="-17.526" extent="1-16" drill="1.016"/>
