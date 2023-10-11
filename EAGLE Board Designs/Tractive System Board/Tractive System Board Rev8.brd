@@ -7401,7 +7401,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="C56" pad="2"/>
 <contactref element="R48" pad="1"/>
 <contactref element="R47" pad="1"/>
-<polygon width="0.254" layer="2">
+<polygon width="0.254" layer="2" isolate="1.27">
 <vertex x="61.722" y="-27.94"/>
 <vertex x="61.722" y="-7.366"/>
 <vertex x="52.07" y="-7.366"/>
