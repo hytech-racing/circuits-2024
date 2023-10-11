@@ -3811,6 +3811,17 @@ Pulse Transformers 1CT:1 200 UH
 <rectangle x1="-3.302" y1="-2.286" x2="3.302" y2="2.286" layer="39"/>
 <wire x1="3.302" y1="1.524" x2="3.302" y2="-1.524" width="0.254" layer="21"/>
 </package>
+<package name="1206-DIODE">
+<description>1206 Diode Package</description>
+<smd name="1" x="-1.497" y="0.019" dx="1" dy="1.5" layer="1"/>
+<smd name="2" x="1.541" y="0.011" dx="1" dy="1.5" layer="1"/>
+<wire x1="-0.959" y1="0.811" x2="1.041" y2="0.811" width="0.127" layer="21"/>
+<wire x1="1.041" y1="0.811" x2="1.041" y2="-0.789" width="0.127" layer="21"/>
+<wire x1="1.041" y1="-0.789" x2="-0.959" y2="-0.789" width="0.127" layer="21"/>
+<wire x1="-0.959" y1="-0.789" x2="-0.959" y2="0.811" width="0.127" layer="21"/>
+<rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="39"/>
+<text x="0" y="1.27" size="0.8128" layer="21" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="VOLTAGE_REGULATOR">
@@ -4170,7 +4181,7 @@ Pulse Transformers 1CT:1 200 UH
 <vertex x="8.89" y="-1.27"/>
 </polygon>
 </symbol>
-<symbol name="DIODE_SCHOTTKY">
+<symbol name="DIODE_SCHOTTKY-1">
 <wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94"/>
 <pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
@@ -7296,9 +7307,11 @@ Note: OPA991 is also a comparator</description>
 <description>&lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/408/CUS08F30_datasheet_en_20140414-1916097.pdf"&gt;CUS08F30 Shottky Diode Datasheet&lt;/a&gt;
 &lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/68/cmdsh2-3-39086.pdf"&gt;CMDSH2-3 Shottky Diode Datasheet&lt;/a&gt;</description>
+&lt;a href="https://www.mouser.com/datasheet/2/68/cmdsh2-3-39086.pdf"&gt;CMDSH2-3 Shottky Diode Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href = "https://datasheets.kyocera-avx.com/schottky.pdf"&gt;SD1206S040S2R0 Schottky Diode Datasheet&lt;\a&gt;</description>
 <gates>
-<gate name="G$1" symbol="DIODE_SCHOTTKY" x="0" y="0"/>
+<gate name="G$1" symbol="DIODE_SCHOTTKY-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SOD323" package="SOD-323">
@@ -7346,6 +7359,21 @@ Note: OPA991 is also a comparator</description>
 <attribute name="MOPN" value="750-CDBB3150-HF"/>
 <attribute name="MPN" value="CDBB3150-HF"/>
 <attribute name="VOLTAGE" value="150V"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="1206-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="40V">
+<attribute name="DKPN" value="478-7806-1-ND"/>
+<attribute name="MANUFACTURER" value="KYOCERA AVX"/>
+<attribute name="MOPN" value="581-SD1206S040S2R0" constant="no"/>
+<attribute name="MPN" value="SD1206S040S2R0" constant="no"/>
+<attribute name="VOLTAGE" value="40 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8625,6 +8653,8 @@ RS422 Transreceiver
 <part name="P70" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C60" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1.2NF"/>
 <part name="R70" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
+<part name="D2" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="1206" technology="40V"/>
+<part name="D28" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="1206" technology="40V"/>
 </parts>
 <sheets>
 <sheet>
@@ -8695,6 +8725,14 @@ RS422 Transreceiver
 <instance part="P25" gate="1" x="76.2" y="88.9" smashed="yes">
 <attribute name="VALUE" x="76.2" y="90.932" size="1.27" layer="96" align="bottom-center"/>
 </instance>
+<instance part="D2" gate="G$1" x="68.58" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="69.85" y="84.455" size="1.27" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="MPN" x="66.548" y="88.265" size="1.27" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="D28" gate="G$1" x="73.66" y="81.28" smashed="yes">
+<attribute name="NAME" x="72.39" y="75.565" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="72.39" y="79.375" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8727,7 +8765,8 @@ RS422 Transreceiver
 <wire x1="58.42" y1="106.68" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="101.6" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="96.52" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="91.44" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="91.44" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="83.82" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="137.16" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
 <junction x="58.42" y="137.16"/>
 <pinref part="J1" gate="G$1" pin="14"/>
@@ -8765,6 +8804,9 @@ RS422 Transreceiver
 <wire x1="58.42" y1="147.32" x2="58.42" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 <junction x="58.42" y="147.32"/>
+<pinref part="J1" gate="G$1" pin="33"/>
+<wire x1="55.88" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
+<junction x="58.42" y="83.82"/>
 </segment>
 </net>
 <net name="ACCEL_1_EXT" class="0">
@@ -8823,27 +8865,6 @@ RS422 Transreceiver
 <pinref part="J2" gate="G$1" pin="21"/>
 </segment>
 </net>
-<net name="ECU_SDI" class="0">
-<segment>
-<wire x1="114.3" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
-<label x="121.92" y="144.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="9"/>
-</segment>
-</net>
-<net name="ECU_CLK" class="0">
-<segment>
-<wire x1="114.3" y1="134.62" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
-<label x="121.92" y="134.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="13"/>
-</segment>
-</net>
-<net name="ECU_SDO" class="0">
-<segment>
-<wire x1="114.3" y1="139.7" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
-<label x="121.92" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="11"/>
-</segment>
-</net>
 <net name="LATCH_BTN" class="0">
 <segment>
 <wire x1="114.3" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
@@ -8899,13 +8920,6 @@ RS422 Transreceiver
 <wire x1="55.88" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
 <label x="63.5" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="5"/>
-</segment>
-</net>
-<net name="!STEERING_2_CS" class="0">
-<segment>
-<wire x1="114.3" y1="129.54" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
-<label x="121.92" y="129.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="FR_CORNER_P" class="0">
@@ -9102,18 +9116,21 @@ RS422 Transreceiver
 <segment>
 <pinref part="U$8" gate="G$1" pin="+24V"/>
 <wire x1="86.36" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D28" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="34"/>
 <wire x1="68.58" y1="81.28" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="D28" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="32"/>
 <wire x1="55.88" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 </net>
 </nets>
@@ -11313,7 +11330,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <plain>
 <text x="-7.62" y="114.3" size="1.27" layer="97">to BOTS</text>
 <text x="137.16" y="137.16" size="1.27" layer="97">SHDN_B is BOTS sense</text>
-<text x="139.7" y="144.78" size="1.27" layer="97">Rules Clarification</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="O" x="0" y="0" smashed="yes">
