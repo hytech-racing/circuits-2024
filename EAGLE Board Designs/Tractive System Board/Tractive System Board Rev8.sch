@@ -10646,6 +10646,7 @@ Isolated Flyback Converter with 630V/300mA Switch
 <attribute name="DESIGNER_BOARD" value="Ethan Su"/>
 <attribute name="DESIGNER_SCHEMATIC" value="Ethan Su"/>
 <attribute name="ENGINEER" value="Ethan Su"/>
+<attribute name="REVIEWER_BOARD" value="Liwei Sun"/>
 <attribute name="REVIEWER_SCHEMATIC" value="Liwei Sun"/>
 </part>
 <part name="U6" library="HyTechDevices" deviceset="LT8315" device=""/>
