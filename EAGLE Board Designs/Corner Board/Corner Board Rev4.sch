@@ -7170,6 +7170,9 @@ Layer: 94 Symbol</description>
 <part name="P62" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="20K"/>
+<part name="J5" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_S_RA" value="CONNECTOR-4_μF_S_RA_"/>
+<part name="P63" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="U$8" library="HyTechSupplies" deviceset="+24V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7414,6 +7417,16 @@ Layer: 94 Symbol</description>
 <instance part="P4" gate="G$1" x="201.93" y="70.358" smashed="yes">
 <attribute name="VALUE" x="201.93" y="71.628" size="1.27" layer="96" align="bottom-center"/>
 </instance>
+<instance part="J5" gate="G$1" x="5.08" y="-42.418" smashed="yes">
+<attribute name="MPN" x="5.08" y="-55.753" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="5.08" y="-41.656" size="1.27" layer="95"/>
+</instance>
+<instance part="P63" gate="1" x="17.78" y="-57.658" smashed="yes">
+<attribute name="VALUE" x="17.78" y="-58.928" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="U$8" gate="G$1" x="17.78" y="-39.878" smashed="yes">
+<attribute name="VALUE" x="17.78" y="-34.798" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7557,6 +7570,12 @@ Layer: 94 Symbol</description>
 <junction x="62.23" y="54.61"/>
 <pinref part="P12" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="4"/>
+<pinref part="P63" gate="1" pin="GND"/>
+<wire x1="15.24" y1="-52.578" x2="17.78" y2="-52.578" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-52.578" x2="17.78" y2="-55.118" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SIGNAL_P" class="0">
 <segment>
@@ -7626,6 +7645,12 @@ Layer: 94 Symbol</description>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="85.09" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <junction x="73.66" y="63.5"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="+24V"/>
+<wire x1="17.78" y1="-44.958" x2="17.78" y2="-42.418" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="-44.958" x2="15.24" y2="-44.958" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SUS_POT_1" class="0">
@@ -7865,6 +7890,13 @@ Layer: 94 Symbol</description>
 <pinref part="U11" gate="G$1" pin="CH2"/>
 <wire x1="236.22" y1="-22.86" x2="241.3" y2="-22.86" width="0.1524" layer="91"/>
 <label x="241.3" y="-22.86" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="STEER_TORQUE_24V" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="15.24" y1="-50.038" x2="18.288" y2="-50.038" width="0.1524" layer="91"/>
+<label x="18.288" y="-50.038" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
