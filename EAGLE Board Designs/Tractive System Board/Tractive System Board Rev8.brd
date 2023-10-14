@@ -6676,7 +6676,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <element name="U$2" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="26" y="-61" smashed="yes"/>
 <element name="U$4" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="196" y="-14" smashed="yes"/>
 <element name="U$5" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="196" y="-61" smashed="yes"/>
-<element name="U$6" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="107.381" y="-17" smashed="yes"/>
 <element name="U$8" library="HyTechManufacturing" package="HV_MEDIUM" value="" x="176.53" y="-13.462" smashed="yes"/>
 <element name="U$16" library="HyTechManufacturing" package="HV_MEDIUM" value="" x="176.53" y="-13.462" smashed="yes" rot="MR0"/>
 </elements>
