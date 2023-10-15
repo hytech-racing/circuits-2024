@@ -3956,6 +3956,36 @@ Note: Based on page 14 and 15.</description>
 <text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
 </package>
+<package name="0603-LED">
+<description>0603 LED
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/216/APT1608SURCK-41133.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-0.825" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="2" x="0.825" y="0" dx="0.8" dy="0.8" layer="1"/>
+<rectangle x1="-0.45" y1="-0.2" x2="-0.05" y2="0.2" layer="21"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
+<text x="0" y="0.75" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.35" y1="-0.75" x2="1.35" y2="0.75" layer="39"/>
+<rectangle x1="-1.025" y1="0.5" x2="-0.625" y2="0.75" layer="21"/>
+<rectangle x1="-1.025" y1="-0.75" x2="-0.625" y2="-0.5" layer="21"/>
+</package>
+<package name="2835-LED">
+<description>LUXEON 2835 LED&lt;br&gt;
+&lt;a href = "https://www.mouser.com/datasheet/2/602/DS236_luxeon_2835_color_line_datasheet-1596094.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="A" x="-0.735" y="0" dx="1.93" dy="1.8" layer="1" roundness="11"/>
+<smd name="C" x="1.265" y="0" dx="0.87" dy="1.8" layer="1" roundness="22"/>
+<wire x1="-1.75" y1="1.4" x2="1.75" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.75" y1="1.4" x2="1.75" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1.4" x2="-1.75" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.4" x2="-1.75" y2="1.4" width="0.127" layer="21"/>
+<text x="0" y="2.286" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-2.032" y1="-1.778" x2="2.032" y2="1.778" layer="39"/>
+<text x="0" y="1.524" size="0.8128" layer="21" font="vector" align="bottom-center">+ -</text>
+<circle x="-2.032" y="1.778" radius="0.127" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_10">
@@ -4537,6 +4567,28 @@ Pulse Transformers 1CT:1 200 UH
 <pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <text x="-2.54" y="1.778" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-1.778" size="1.27" layer="95" align="top-left">&gt;MPN</text>
+</symbol>
+<symbol name="DIODE_LED">
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="1.778" x2="-0.127" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.651" x2="1.016" y2="3.048" width="0.1524" layer="94"/>
+<text x="-1.27" y="-1.778" size="1.27" layer="95" align="top-center">&gt;COLOR</text>
+<text x="-1.27" y="3.556" size="1.27" layer="96" align="bottom-center">&gt;NAME</text>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.127" y="3.175"/>
+<vertex x="-1.016" y="2.794"/>
+<vertex x="-0.508" y="2.286"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="3.048"/>
+<vertex x="0.127" y="2.667"/>
+<vertex x="0.635" y="2.159"/>
+</polygon>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7659,6 +7711,118 @@ Requires ordering of:
 </device>
 </devices>
 </deviceset>
+<deviceset name="LED_?_*" prefix="D">
+<description>LED
+&lt;ul&gt;0603
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/216/APT1608VBC_D-246010.pdf"&gt;Blue&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/216/APT1608ZGCK-1173388.pdf"&gt;Green&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/216/APT1608SECK-6197.pdf"&gt;Orange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/216/APT1608SECK-J3-PRV-1173336.pdf"&gt;Red&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/50/SM0603UWC-880813.pdf"&gt;White&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/216/APT1608SYCK-J3-PRV-1173311.pdf"&gt;Yellow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;2835 (Series not on Digikey)
+&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/602/DS236_luxeon_2835_color_line_datasheet-1596094.pdf"&gt;Lumiled LUXEON 2835 Color Line&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="LED" symbol="DIODE_LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="0603-LED">
+<connects>
+<connect gate="LED" pin="A" pad="2"/>
+<connect gate="LED" pin="C" pad="1"/>
+</connects>
+<technologies>
+<technology name="BLUE">
+<attribute name="COLOR" value="Blue"/>
+<attribute name="DKPN" value="754-1789-1-ND"/>
+<attribute name="MANUFACTURER" value="Kingbright"/>
+<attribute name="MOPN" value="604-APT1608VBC/D"/>
+<attribute name="MPN" value="APT1608VBC/D"/>
+</technology>
+<technology name="GREEN">
+<attribute name="COLOR" value="Green"/>
+<attribute name="DKPN" value="754-1790-1-ND"/>
+<attribute name="MANUFACTURER" value="Kingbright"/>
+<attribute name="MOPN" value="604-APT1608ZGCK"/>
+<attribute name="MPN" value="APT1608ZGCK"/>
+</technology>
+<technology name="ORANGE">
+<attribute name="COLOR" value="Orange"/>
+<attribute name="DKPN" value="754-1120-1-ND"/>
+<attribute name="MANUFACTURER" value="Kingbright"/>
+<attribute name="MOPN" value="604-APT1608SECK"/>
+<attribute name="MPN" value="APT1608SECK"/>
+</technology>
+<technology name="RED">
+<attribute name="COLOR" value="Red"/>
+<attribute name="DKPN" value="754-1786-1-ND"/>
+<attribute name="MANUFACTURER" value="Kingbright"/>
+<attribute name="MOPN" value="604-APT1608SECKJ3PRV"/>
+<attribute name="MPN" value="APT1608SECK/J3-PRV"/>
+</technology>
+<technology name="WHITE">
+<attribute name="COLOR" value="White"/>
+<attribute name="DKPN" value="SM0603UWC-ND"/>
+<attribute name="MANUFACTURER" value="Bivar Inc."/>
+<attribute name="MOPN" value="749-SM0603UWC"/>
+<attribute name="MPN" value="SM0603UWC"/>
+</technology>
+<technology name="YELLOW">
+<attribute name="COLOR" value="Yellow"/>
+<attribute name="DKPN" value="754-1788-1-ND"/>
+<attribute name="MANUFACTURER" value="Kingbright"/>
+<attribute name="MOPN" value="604-APT1608SYCK/J3-PRV"/>
+<attribute name="MPN" value="APT1608SYCK/J3-PRV"/>
+</technology>
+</technologies>
+</device>
+<device name="2835" package="2835-LED">
+<connects>
+<connect gate="LED" pin="A" pad="A"/>
+<connect gate="LED" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="AMBER">
+<attribute name="COLOR" value="Amber"/>
+<attribute name="DKPN" value=""/>
+<attribute name="MANUFACTURER" value="Lumileds"/>
+<attribute name="MOPN" value="997-L128PCA10350"/>
+<attribute name="MPN" value="L128-PCA1003500000"/>
+</technology>
+<technology name="BLUE">
+<attribute name="COLOR" value="Blue"/>
+<attribute name="DKPN" value=""/>
+<attribute name="MANUFACTURER" value="Lumileds"/>
+<attribute name="MOPN" value="997-L128BLU10350"/>
+<attribute name="MPN" value="L128-BLU1003500000"/>
+</technology>
+<technology name="GREEN">
+<attribute name="COLOR" value="Green"/>
+<attribute name="DKPN" value=""/>
+<attribute name="MANUFACTURER" value="Lumileds"/>
+<attribute name="MOPN" value="997-L128GRN10350"/>
+<attribute name="MPN" value="L128-GRN1003500000"/>
+</technology>
+<technology name="RED">
+<attribute name="COLOR" value="Red"/>
+<attribute name="DKPN" value=""/>
+<attribute name="MANUFACTURER" value="Lumileds"/>
+<attribute name="MOPN" value="997-L128RED10350"/>
+<attribute name="MPN" value="L128-RED1003500000"/>
+</technology>
+<technology name="RED-ORANGE">
+<attribute name="COLOR" value="Red-Orange"/>
+<attribute name="DKPN" value=""/>
+<attribute name="MANUFACTURER" value="Lumileds"/>
+<attribute name="MOPN" value="997-L128RNG10350 "/>
+<attribute name="MPN" value="L128-RNG1003500000 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSupplies">
@@ -8052,6 +8216,21 @@ Requires ordering of:
 <part name="TP20" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP7" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="P84" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="P86" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P89" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="D4" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="R28" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="120"/>
+<part name="R29" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240"/>
+<part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="P124" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P125" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P126" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="D5" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
+<part name="D6" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
+<part name="D7" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="BLUE" value="LED_0603_BLUE"/>
+<part name="R31" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="P128" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8775,6 +8954,7 @@ Ride height
 Thermistor</text>
 <text x="88.9" y="203.2" size="1.778" layer="97">Fuse GLV 24V</text>
 <text x="149.86" y="203.2" size="1.778" layer="97">Thermistor reference</text>
+<text x="15.24" y="81.28" size="1.778" layer="97">Power indication LEDs</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="O" x="0" y="0" smashed="yes">
@@ -8920,6 +9100,59 @@ Thermistor</text>
 <attribute name="NAME" x="66.04" y="109.982" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="66.04" y="113.538" size="1.27" layer="95" rot="R180" align="top-left"/>
 </instance>
+<instance part="P84" gate="1" x="27.94" y="68.58" smashed="yes">
+<attribute name="VALUE" x="27.94" y="72.39" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P86" gate="1" x="27.94" y="50.8" smashed="yes">
+<attribute name="VALUE" x="27.94" y="53.34" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P89" gate="G$1" x="27.94" y="33.02" smashed="yes">
+<attribute name="VALUE" x="27.94" y="34.29" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="D4" gate="LED" x="50.8" y="63.5" smashed="yes">
+<attribute name="COLOR" x="49.53" y="61.722" size="1.27" layer="95" align="top-center"/>
+<attribute name="NAME" x="49.53" y="67.056" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R28" gate="G$1" x="38.1" y="27.94" smashed="yes">
+<attribute name="NAME" x="36.83" y="29.21" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="36.83" y="26.67" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R29" gate="G$1" x="38.1" y="45.72" smashed="yes">
+<attribute name="NAME" x="36.83" y="46.99" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="36.83" y="44.45" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R30" gate="G$1" x="38.1" y="63.5" smashed="yes">
+<attribute name="NAME" x="36.83" y="64.77" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="36.83" y="62.23" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P124" gate="1" x="58.42" y="58.42" smashed="yes">
+<attribute name="VALUE" x="58.42" y="57.15" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P125" gate="1" x="58.42" y="40.64" smashed="yes">
+<attribute name="VALUE" x="58.42" y="39.37" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P126" gate="1" x="58.42" y="22.86" smashed="yes">
+<attribute name="VALUE" x="58.42" y="21.59" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="D5" gate="LED" x="50.8" y="45.72" smashed="yes">
+<attribute name="COLOR" x="49.53" y="43.942" size="1.27" layer="95" align="top-center"/>
+<attribute name="NAME" x="49.53" y="49.276" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="D6" gate="LED" x="50.8" y="27.94" smashed="yes">
+<attribute name="COLOR" x="49.53" y="26.162" size="1.27" layer="95" align="top-center"/>
+<attribute name="NAME" x="49.53" y="31.496" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="D7" gate="LED" x="99.06" y="63.5" smashed="yes">
+<attribute name="COLOR" x="97.79" y="61.722" size="1.27" layer="95" align="top-center"/>
+<attribute name="NAME" x="97.79" y="67.056" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R31" gate="G$1" x="86.36" y="63.5" smashed="yes">
+<attribute name="NAME" x="85.09" y="64.77" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="85.09" y="62.23" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P128" gate="1" x="106.68" y="58.42" smashed="yes">
+<attribute name="VALUE" x="106.68" y="57.15" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8972,6 +9205,12 @@ Thermistor</text>
 <pinref part="P15" gate="1" pin="+12V"/>
 <wire x1="200.66" y1="198.12" x2="205.74" y2="198.12" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="P84" gate="1" pin="+12V"/>
+<wire x1="27.94" y1="66.04" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -8993,6 +9232,12 @@ Thermistor</text>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="109.22" x2="20.32" y2="111.76" width="0.1524" layer="91"/>
 <junction x="20.32" y="111.76"/>
+</segment>
+<segment>
+<pinref part="P86" gate="1" pin="+5V"/>
+<wire x1="27.94" y1="48.26" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9054,6 +9299,30 @@ Thermistor</text>
 <pinref part="P18" gate="1" pin="GND"/>
 <wire x1="106.68" y1="144.78" x2="106.68" y2="139.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="D4" gate="LED" pin="C"/>
+<wire x1="53.34" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="P124" gate="1" pin="GND"/>
+<wire x1="58.42" y1="63.5" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D5" gate="LED" pin="C"/>
+<wire x1="53.34" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="P125" gate="1" pin="GND"/>
+<wire x1="58.42" y1="45.72" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D6" gate="LED" pin="C"/>
+<wire x1="53.34" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="P126" gate="1" pin="GND"/>
+<wire x1="58.42" y1="27.94" x2="58.42" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D7" gate="LED" pin="C"/>
+<wire x1="101.6" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="P128" gate="1" pin="GND"/>
+<wire x1="106.68" y1="63.5" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -9066,6 +9335,12 @@ Thermistor</text>
 <junction x="50.8" y="111.76"/>
 <pinref part="TP3" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="111.76" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P89" gate="G$1" pin="+3V3"/>
+<wire x1="27.94" y1="30.48" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="24VIN" class="0">
@@ -9090,6 +9365,12 @@ Thermistor</text>
 <wire x1="180.34" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
 <label x="185.42" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="63.5" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="63.5" x2="76.2" y2="71.12" width="0.1524" layer="91"/>
+<label x="76.2" y="71.12" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -9107,6 +9388,34 @@ Thermistor</text>
 <wire x1="195.58" y1="198.12" x2="190.5" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="198.12" x2="190.5" y2="187.96" width="0.1524" layer="91"/>
 <junction x="190.5" y="187.96"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="D4" gate="LED" pin="A"/>
+<wire x1="40.64" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="R29" gate="G$1" pin="2"/>
+<pinref part="D5" gate="LED" pin="A"/>
+<wire x1="40.64" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="D6" gate="LED" pin="A"/>
+<wire x1="40.64" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="R31" gate="G$1" pin="2"/>
+<pinref part="D7" gate="LED" pin="A"/>
+<wire x1="88.9" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
