@@ -202,8 +202,8 @@
 <wire x1="257.6322" y1="-85.979" x2="16.637" y2="-85.979" width="0.1524" layer="20" locked="yes"/>
 <wire x1="17.9324" y1="-46.7106" x2="13.2334" y2="-41.9862" width="0.1524" layer="20" locked="yes"/>
 <wire x1="256.3368" y1="-46.4566" x2="260.7564" y2="-41.9862" width="0.1524" layer="20" locked="yes"/>
-<text x="144.78" y="-23.622" size="1.016" layer="21" font="vector" align="center">HyTech Racing 2022
-AMS Segment rev18
+<text x="144.78" y="-23.622" size="1.016" layer="21" font="vector" align="center">HyTech Racing 2023
+AMS Segment rev19
 Designed by Liwei Sun
 Based on AMS Segment rev17
 By Cody Kaminsky
