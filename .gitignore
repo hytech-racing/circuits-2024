@@ -1,3 +1,13 @@
+# Altium
+*/History/*
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+*\__Previews
+*\History
+*.PrjPcbStructure
+*~$*
+
 # EAGLE
 
 # Unnecessary Files
