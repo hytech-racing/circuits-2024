@@ -1,6 +1,10 @@
 Record=TopLevelDocument|FileName=Telemetry_Pi_Board.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=Telemetry_Pi_Board.SchDoc|Designator=U_Ethernet|SchDesignator=U_Ethernet|FileName=Ethernet.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=Ethernet.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Telemetry_Pi_Board.SchDoc|Designator=U_Other_Pi|SchDesignator=U_Other_Pi|FileName=Other_Pi.SchDoc|SheetNumber=7|SymbolType=Normal|RawFileName=Other_Pi.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Telemetry_Pi_Board.SchDoc|Designator=U_Other_Pi_2|SchDesignator=U_Other_Pi_2|FileName=Other_Pi_2.SchDoc|SheetNumber=8|SymbolType=Normal|RawFileName=Other_Pi_2.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Telemetry_Pi_Board.SchDoc|Designator=U_Pi_Cellular|SchDesignator=U_Pi_Cellular|FileName=Pi_Cellular.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Pi_Cellular.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Telemetry_Pi_Board.SchDoc|Designator=U_Pi_Power|SchDesignator=U_Pi_Power|FileName=Pi_Power.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Pi_Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=Telemetry_Pi_Board.SchDoc|Designator=U_Power|SchDesignator=U_Power|FileName=Power.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=Telemetry_Pi_Board.SchDoc|FileName=Ethernet.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=Telemetry_Pi_Board.SchDoc|FileName=Pi_Cellular.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=Telemetry_Pi_Board.SchDoc|FileName=Pi_Power.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=Telemetry_Pi_Board.SchDoc|FileName=USB.SchDoc|SheetNumber=5
+Record=SheetSymbol|SourceDocument=Telemetry_Pi_Board.SchDoc|Designator=U_USB|SchDesignator=U_USB|FileName=USB.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=USB.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=Telemetry_Pi_Board.SchDoc|FileName=5v_Regulator.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=Telemetry_Pi_Board.SchDoc|FileName=GPIO_CAN.SchDoc|SheetNumber=10

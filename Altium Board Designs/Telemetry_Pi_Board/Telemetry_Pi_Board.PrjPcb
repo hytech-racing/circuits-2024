@@ -100,6 +100,23 @@ GenerateClassCluster=0
 DocumentUniqueId=POSYKYMJ
 
 [Document4]
+DocumentPath=..\..\..\circuits-support-2024\EAGLE Libraries\Imported HyTechDevices.Library.PrjPcb\HyTechDevices.PCBLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TRDBSHWH
+
+[Document5]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\CM4.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +133,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJEMJNEL
 
-[Document5]
+[Document6]
+DocumentPath=..\..\..\circuits-support-2024\EAGLE Libraries\Imported HyTechDevices.Library.PrjPcb\HyTechDevices.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=URYSUBZF
+
+[Document7]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\CM4.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ROPDXZRL
 
-[Document6]
+[Document8]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\PCBLIB\HyTechDevices.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document9]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\PCBLIB\HyTechManufacturing.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +201,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document10]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\PCBLIB\HyTechSymbols.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +218,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document11]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechDevices.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +235,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MZQPNAMN
 
-[Document10]
+[Document12]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechExternal.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,7 +252,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document13]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechFrames.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,7 +269,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document14]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechSupplies.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -252,7 +286,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document15]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechSymbols.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,40 +303,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
-DocumentPath=..\..\..\..\..\..\Andrew\Downloads\Components - 02.08.23 - 13.12\Components - 02.08.23 - 13.12.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HBXNHHJN
-
-[Document15]
-DocumentPath=..\..\..\..\..\..\Andrew\Downloads\Components - 02.08.23 - 13.12\Components - 02.08.23 - 13.12.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RYHJSGXQ
-
 [Document16]
 DocumentPath=Pi_Power.SchDoc
 AnnotationEnabled=1
@@ -310,7 +310,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -327,7 +327,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -344,7 +344,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -361,7 +361,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -387,6 +387,108 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document21]
+DocumentPath=Telemetry_Pi_Board.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document22]
+DocumentPath=Other_Pi.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OOQSAIMR
+
+[Document23]
+DocumentPath=Other_Pi_2.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BIIRRHYD
+
+[Document24]
+DocumentPath=5v_Regulator.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZLLMEQTB
+
+[Document25]
+DocumentPath=GPIO_CAN.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WTFLKUZT
+
+[Document26]
+DocumentPath=SD_Card.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RIUGVVXA
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Telemetry_Pi_Board\Design Rule Check - PCB2.html
@@ -1119,6 +1221,16 @@ Type117=1
 Type118=1
 Type119=1
 Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
 
 [Difference Levels]
 Type1=1
@@ -1189,6 +1301,12 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1317,6 +1435,30 @@ Type124=1
 Type125=1
 Type126=1
 Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1341,10 +1483,8 @@ L17=WNNNNNNNWNNNWWWWN
 SortOrder=3
 SortLocation=0
 ReplaceSubparts=0
-MatchParameter1=Comment
+MatchParameter1=Library Reference
 MatchStrictly1=1
-MatchParameter2=Library Reference
-MatchStrictly2=1
 PhysicalNamingFormat=$Component_$RoomName
 GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
