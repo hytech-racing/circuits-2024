@@ -7045,11 +7045,11 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="36.982" y1="-13.208" x2="36.982" y2="-14.732" width="0.508" layer="1"/>
 <wire x1="33.411" y1="-20.085" x2="33.392" y2="-20.066" width="0.508" layer="1"/>
 <wire x1="38.862" y1="-20.085" x2="33.411" y2="-20.085" width="0.508" layer="1"/>
-<wire x1="47.599" y1="-7.747" x2="47.599" y2="-6.503" width="0.508" layer="1"/>
-<wire x1="47.599" y1="-6.503" x2="51.308" y2="-2.794" width="0.508" layer="1"/>
-<wire x1="51.308" y1="-2.794" x2="71.882" y2="-2.794" width="0.508" layer="1"/>
+<wire x1="47.599" y1="-7.747" x2="47.599" y2="-3.455" width="0.508" layer="1"/>
+<wire x1="47.599" y1="-3.455" x2="48.514" y2="-2.54" width="0.508" layer="1"/>
+<wire x1="48.514" y1="-2.54" x2="71.628" y2="-2.54" width="0.508" layer="1"/>
 <wire x1="74.168" y1="-5.588" x2="74.168" y2="-5.08" width="0.508" layer="1"/>
-<wire x1="74.168" y1="-5.08" x2="71.882" y2="-2.794" width="0.508" layer="1"/>
+<wire x1="74.168" y1="-5.08" x2="71.628" y2="-2.54" width="0.508" layer="1"/>
 </signal>
 <signal name="PACK+FUSED">
 <contactref element="R24" pad="2"/>
