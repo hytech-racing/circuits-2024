@@ -7835,7 +7835,7 @@ Layer: 94 Symbol</description>
 <pinref part="T1" gate="G$1" pin="PRI_CENTER_TAP"/>
 </segment>
 </net>
-<net name="SUS_POT_FILTERED" class="0">
+<net name="SUS_POT_1_3V3" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="CH1"/>
 <wire x1="232.918" y1="-20.32" x2="238.252" y2="-20.32" width="0.1524" layer="91"/>
