@@ -8397,6 +8397,12 @@ Straight</text>
 Pre breakout basic solu./pi 4 backup</text>
 <text x="228.6" y="78.74" size="1.778" layer="97">Spare UART to TCU in case 
 EMI not horrible</text>
+<text x="104.14" y="162.56" size="1.778" layer="97">pps line
+cut and 10 pin Harwin</text>
+<text x="167.64" y="162.56" size="1.778" layer="97">Distinguish connectors</text>
+<text x="243.84" y="119.38" size="1.778" layer="97">ditch</text>
+<text x="134.62" y="109.22" size="1.778" layer="97">power corner board</text>
+<text x="129.54" y="63.5" size="1.778" layer="97">interlock signal</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="O" x="0" y="0" smashed="yes">
@@ -9072,15 +9078,19 @@ EMI not horrible</text>
 <description>Power supplies</description>
 <plain>
 <text x="12.7" y="208.28" size="1.778" layer="97">Voltage regulators</text>
-<text x="45.72" y="165.1" size="1.778" layer="97">24V -&gt; 12V
+<text x="45.72" y="162.56" size="1.778" layer="97">24V -&gt; 12V
 Aero sensor
 Ride height
-Thermistor</text>
+Thermistor
+IMU</text>
 <text x="116.84" y="203.2" size="1.778" layer="97">Fuse GLV 24V</text>
 <text x="177.8" y="203.2" size="1.778" layer="97">Thermistor reference</text>
 <text x="15.24" y="81.28" size="1.778" layer="97">Power indication LEDs</text>
 <text x="53.34" y="88.9" size="1.778" layer="97">Swap for 3.3V</text>
 <text x="66.04" y="175.26" size="1.778" layer="97">Swap for 12V</text>
+<text x="53.34" y="132.08" size="1.778" layer="97">Always clamping bc same voltage as supply?</text>
+<text x="241.3" y="203.2" size="1.778" layer="97">get rid of 12V</text>
+<text x="238.76" y="180.34" size="1.778" layer="97">use rail</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="O" x="0" y="0" smashed="yes">
@@ -9610,6 +9620,12 @@ Voltage wrong, swap chip</text>
 Digitize analog signals
 Thermistors</text>
 <text x="218.44" y="149.86" size="1.778" layer="97">Protection?</text>
+<text x="76.2" y="203.2" size="1.778" layer="97">geometric mean</text>
+<text x="7.62" y="137.16" size="1.778" layer="97">Shayan's second order cheaper alternatives
+or LTCs</text>
+<text x="81.28" y="195.58" size="1.778" layer="97">adjustable lin reg</text>
+<text x="81.28" y="190.5" size="1.778" layer="97">adjustable lin reg
+more current output</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
@@ -10753,6 +10769,7 @@ Thermistors</text>
 <plain>
 <text x="15.24" y="200.66" size="1.778" layer="97">isoSPI
 Rear corner board ADCs</text>
+<text x="12.7" y="187.96" size="1.778" layer="97">DNP</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
@@ -11333,6 +11350,10 @@ Bidirectional TVS/ESD protection</text>
 <text x="22.86" y="104.14" size="1.778" layer="97">RS485 transceiver
 Bidirectional TVS/ESD protection
 Ride height sensors</text>
+<text x="160.02" y="149.86" size="1.778" layer="97">4.0</text>
+<text x="78.74" y="172.72" size="1.778" layer="97">s tie to gnd</text>
+<text x="55.88" y="160.02" size="1.778" layer="97">jumper x 2</text>
+<text x="83.82" y="58.42" size="1.778" layer="97">DNP termination resistors</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
