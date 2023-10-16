@@ -8441,13 +8441,6 @@ Layer: 94 Symbol</description>
 <pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="LOAD_CELL_FILTERED" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="OUT"/>
-<wire x1="142.24" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
-<label x="147.32" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
 <net name="N$22" class="0">
 <segment>
 <wire x1="96.266" y1="155.448" x2="77.47" y2="155.448" width="0.1524" layer="91"/>
@@ -8486,6 +8479,13 @@ Layer: 94 Symbol</description>
 <wire x1="62.992" y1="165.1" x2="65.278" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="62.992" y1="171.45" x2="62.992" y2="165.1" width="0.1524" layer="91"/>
 <junction x="62.992" y="165.1"/>
+</segment>
+</net>
+<net name="LOAD_CELL_FILTERED" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="OUT"/>
+<wire x1="142.24" y1="88.9" x2="145.034" y2="88.9" width="0.1524" layer="91"/>
+<label x="145.034" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
