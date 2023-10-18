@@ -3174,17 +3174,17 @@ design rules under a new name.</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="81.9912" y="-93.5482" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="81.9912" y="-93.5482" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R89" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_470" x="32.6898" y="11.938" smashed="yes">
-<attribute name="DKPN" value="P470BYCT-ND" x="89.8398" y="-103.632" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="89.8398" y="-103.632" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="667-ERJ-PA3F4700V" x="89.8398" y="-103.632" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ERJ-PA3F4700V" x="89.8398" y="-103.632" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="32.6898" y="11.2014" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
-<attribute name="POWER" value="0.25W" x="89.8398" y="-103.632" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="470" x="89.8398" y="-103.632" size="1.778" layer="27" display="off"/>
-<attribute name="TOLERANCE" value="1%" x="89.8398" y="-103.632" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="10.84V" x="89.8398" y="-103.632" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE_MAX" value="150V" x="89.8398" y="-103.632" size="1.778" layer="27" display="off"/>
+<element name="R89" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_470" x="32.766" y="12.065" smashed="yes">
+<attribute name="DKPN" value="P470BYCT-ND" x="89.916" y="-103.505" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="89.916" y="-103.505" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="667-ERJ-PA3F4700V" x="89.916" y="-103.505" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="ERJ-PA3F4700V" x="89.916" y="-103.505" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="32.766" y="11.3284" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="POWER" value="0.25W" x="89.916" y="-103.505" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="470" x="89.916" y="-103.505" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="89.916" y="-103.505" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="10.84V" x="89.916" y="-103.505" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="89.916" y="-103.505" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R9" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_36.5K" x="-15.24" y="104.14" smashed="yes">
 <attribute name="DKPN" value="311-36.5KHRCT-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -4986,14 +4986,14 @@ design rules under a new name.</description>
 <signal name="N$41">
 <contactref element="U25" pad="4"/>
 <contactref element="R89" pad="1"/>
-<wire x1="31.8398" y1="11.938" x2="31.8248" y2="11.923" width="0.1524" layer="1"/>
-<wire x1="31.8248" y1="11.923" x2="30.564" y2="11.923" width="0.1524" layer="1"/>
+<wire x1="31.916" y1="12.065" x2="31.774" y2="11.923" width="0.1524" layer="1"/>
+<wire x1="31.774" y1="11.923" x2="30.564" y2="11.923" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$49">
 <contactref element="R89" pad="2"/>
 <contactref element="U14" pad="1"/>
-<wire x1="33.5398" y1="11.938" x2="35.433" y2="13.8312" width="0.1524" layer="1"/>
-<wire x1="35.433" y1="13.8312" x2="35.433" y2="16.551" width="0.1524" layer="1"/>
+<wire x1="33.616" y1="12.065" x2="35.433" y2="13.882" width="0.1524" layer="1"/>
+<wire x1="35.433" y1="13.882" x2="35.433" y2="16.551" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="U5" pad="3"/>
