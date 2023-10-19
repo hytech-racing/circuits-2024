@@ -8238,24 +8238,20 @@ Requires ordering of:
 <part name="P51" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P52" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P53" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P54" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R16" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.33K"/>
 <part name="R17" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K"/>
 <part name="P55" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
-<part name="R19" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="U10" library="HyTechDevices" deviceset="LTC6820" device=""/>
 <part name="P56" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P57" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P58" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P59" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P60" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P61" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R20" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.33K"/>
 <part name="R21" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K"/>
 <part name="P62" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R22" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
-<part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="P63" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P64" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P65" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -9066,6 +9062,7 @@ IMU</text>
 <text x="53.34" y="132.08" size="1.778" layer="97">Always clamping bc same voltage as supply?</text>
 <text x="241.3" y="203.2" size="1.778" layer="97">get rid of 12V</text>
 <text x="238.76" y="180.34" size="1.778" layer="97">use rail</text>
+<text x="144.78" y="147.32" size="1.778" layer="97">Might not need this large capacity</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="O" x="0" y="0" smashed="yes">
@@ -10744,6 +10741,8 @@ more current output</text>
 <text x="15.24" y="200.66" size="1.778" layer="97">isoSPI
 Rear corner board ADCs</text>
 <text x="12.7" y="187.96" size="1.778" layer="97">DNP</text>
+<text x="15.24" y="152.4" size="1.778" layer="97">Data output needs pull up
+Teensy master -&gt; SDO on LTC</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
@@ -10779,9 +10778,6 @@ Rear corner board ADCs</text>
 <instance part="P53" gate="G$1" x="38.1" y="187.96" smashed="yes">
 <attribute name="VALUE" x="38.1" y="189.23" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P54" gate="G$1" x="30.48" y="187.96" smashed="yes">
-<attribute name="VALUE" x="30.48" y="189.23" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="R16" gate="G$1" x="109.22" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.95" y="168.91" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="110.49" y="168.91" size="1.27" layer="96" rot="R90" align="top-center"/>
@@ -10796,10 +10792,6 @@ Rear corner board ADCs</text>
 <instance part="R18" gate="G$1" x="38.1" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.83" y="179.07" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="39.37" y="179.07" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R19" gate="G$1" x="30.48" y="180.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.21" y="179.07" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="31.75" y="179.07" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="U10" gate="G$1" x="58.42" y="111.76" smashed="yes">
 <attribute name="NAME" x="58.42" y="112.522" size="1.27" layer="95"/>
@@ -10820,9 +10812,6 @@ Rear corner board ADCs</text>
 <instance part="P60" gate="G$1" x="38.1" y="119.38" smashed="yes">
 <attribute name="VALUE" x="38.1" y="120.65" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P61" gate="G$1" x="30.48" y="119.38" smashed="yes">
-<attribute name="VALUE" x="30.48" y="120.65" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="R20" gate="G$1" x="109.22" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.95" y="100.33" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="110.49" y="100.33" size="1.27" layer="96" rot="R90" align="top-center"/>
@@ -10837,10 +10826,6 @@ Rear corner board ADCs</text>
 <instance part="R22" gate="G$1" x="38.1" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.83" y="110.49" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="39.37" y="110.49" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R23" gate="G$1" x="30.48" y="111.76" smashed="yes" rot="R90">
-<attribute name="NAME" x="29.21" y="110.49" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="31.75" y="110.49" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="P63" gate="G$1" x="73.66" y="208.28" smashed="yes">
 <attribute name="VALUE" x="73.66" y="209.55" size="1.27" layer="96" align="bottom-center"/>
@@ -11035,11 +11020,6 @@ Rear corner board ADCs</text>
 <wire x1="38.1" y1="185.42" x2="38.1" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P54" gate="G$1" pin="+3V3"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="185.42" x2="30.48" y2="182.88" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="P56" gate="G$1" pin="+3V3"/>
 <pinref part="U10" gate="G$1" pin="VLOGIC"/>
 <wire x1="50.8" y1="114.3" x2="50.8" y2="109.22" width="0.1524" layer="91"/>
@@ -11063,11 +11043,6 @@ Rear corner board ADCs</text>
 <pinref part="P60" gate="G$1" pin="+3V3"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="116.84" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P61" gate="G$1" pin="+3V3"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="116.84" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P63" gate="G$1" pin="+3V3"/>
@@ -11144,20 +11119,12 @@ Rear corner board ADCs</text>
 <net name="TEENSY_SDO" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="SDI"/>
-<wire x1="55.88" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="170.18" x2="30.48" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="170.18" x2="25.4" y2="170.18" width="0.1524" layer="91"/>
-<junction x="30.48" y="170.18"/>
+<wire x1="55.88" y1="170.18" x2="25.4" y2="170.18" width="0.1524" layer="91"/>
 <label x="25.4" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U10" gate="G$1" pin="SDI"/>
-<wire x1="55.88" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="101.6" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
-<junction x="30.48" y="101.6"/>
+<wire x1="55.88" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
 <label x="25.4" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
