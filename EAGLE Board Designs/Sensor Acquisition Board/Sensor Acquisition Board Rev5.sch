@@ -8153,11 +8153,11 @@ Requires ordering of:
 <part name="P16" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF"/>
 <part name="FRAME3" library="HyTechFrames" deviceset="FRAME" device=""/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_30K"/>
+<part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_30K"/>
+<part name="R3" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_30K"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_30K"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="30K" value="RESISTOR_0603_30K"/>
 <part name="C8" library="HyTechDevices" deviceset="CAPACITOR_ELECTROLYTIC_?_*" device="EEH_AZS" technology="470UF"/>
 <part name="P17" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P18" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8390,6 +8390,8 @@ Requires ordering of:
 <part name="P131" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P80" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="JP3" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
+<part name="R19" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="120"/>
+<part name="P54" library="HyTechSupplies" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9559,7 +9561,7 @@ IMU</text>
 <sheet>
 <description>Filters, ADC, RS232</description>
 <plain>
-<text x="11.176" y="207.518" size="1.778" layer="97">Thermistors</text>
+<text x="28.956" y="207.518" size="1.778" layer="97">Thermistors</text>
 <text x="170.18" y="203.2" size="1.27" layer="97">IMU
 RS232
 Voltage wrong, swap chip</text>
@@ -9963,34 +9965,13 @@ more current output</text>
 <instance part="P131" gate="1" x="233.68" y="132.08" smashed="yes">
 <attribute name="VALUE" x="233.68" y="130.81" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="P54" gate="1" x="22.86" y="205.74" smashed="yes">
+<attribute name="VALUE" x="22.86" y="208.28" size="1.27" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="10V" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="34.036" y1="199.898" x2="26.416" y2="199.898" width="0.1524" layer="91"/>
-<label x="21.336" y="199.898" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="26.416" y1="199.898" x2="21.336" y2="199.898" width="0.1524" layer="91"/>
-<wire x1="34.036" y1="192.278" x2="26.416" y2="192.278" width="0.1524" layer="91"/>
-<wire x1="26.416" y1="192.278" x2="26.416" y2="199.898" width="0.1524" layer="91"/>
-<junction x="26.416" y="199.898"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="34.036" y1="184.658" x2="26.416" y2="184.658" width="0.1524" layer="91"/>
-<wire x1="26.416" y1="184.658" x2="26.416" y2="192.278" width="0.1524" layer="91"/>
-<junction x="26.416" y="192.278"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="34.036" y1="177.038" x2="26.416" y2="177.038" width="0.1524" layer="91"/>
-<wire x1="26.416" y1="177.038" x2="26.416" y2="184.658" width="0.1524" layer="91"/>
-<junction x="26.416" y="184.658"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="34.036" y1="169.418" x2="26.416" y2="169.418" width="0.1524" layer="91"/>
-<wire x1="26.416" y1="169.418" x2="26.416" y2="177.038" width="0.1524" layer="91"/>
-<junction x="26.416" y="177.038"/>
-</segment>
-</net>
 <net name="THERM1_EXT" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -10094,6 +10075,28 @@ more current output</text>
 <wire x1="213.36" y1="101.6" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U13" gate="G$1" pin="VDD"/>
 <wire x1="213.36" y1="96.52" x2="208.28" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P54" gate="1" pin="+5V"/>
+<wire x1="22.86" y1="203.2" x2="22.86" y2="199.898" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="199.898" x2="34.036" y2="199.898" width="0.1524" layer="91"/>
+<wire x1="34.036" y1="192.278" x2="22.86" y2="192.278" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="192.278" x2="22.86" y2="199.898" width="0.1524" layer="91"/>
+<junction x="22.86" y="199.898"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="34.036" y1="184.658" x2="22.86" y2="184.658" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="184.658" x2="22.86" y2="192.278" width="0.1524" layer="91"/>
+<junction x="22.86" y="192.278"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="34.036" y1="177.038" x2="22.86" y2="177.038" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="177.038" x2="22.86" y2="184.658" width="0.1524" layer="91"/>
+<junction x="22.86" y="184.658"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="34.036" y1="169.418" x2="22.86" y2="169.418" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="169.418" x2="22.86" y2="177.038" width="0.1524" layer="91"/>
+<junction x="22.86" y="177.038"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -11402,12 +11405,12 @@ New chip for 3v3 output</text>
 <instance part="P117" gate="1" x="127" y="127" smashed="yes">
 <attribute name="VALUE" x="127" y="125.73" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="D3" gate="G$1" x="45.72" y="63.5" smashed="yes">
-<attribute name="NAME" x="41.91" y="67.945" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="MPN" x="41.783" y="59.055" size="1.27" layer="96" align="top-center"/>
+<instance part="D3" gate="G$1" x="58.42" y="63.5" smashed="yes">
+<attribute name="NAME" x="54.61" y="67.945" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="54.483" y="59.055" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P118" gate="1" x="53.34" y="53.34" smashed="yes">
-<attribute name="VALUE" x="53.34" y="52.07" size="1.27" layer="96" align="top-center"/>
+<instance part="P118" gate="1" x="66.04" y="53.34" smashed="yes">
+<attribute name="VALUE" x="66.04" y="52.07" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="A3" gate="G$1" x="195.58" y="190.5" smashed="yes"/>
 <instance part="P122" gate="1" x="223.52" y="195.58" smashed="yes">
@@ -11450,6 +11453,10 @@ New chip for 3v3 output</text>
 <instance part="JP3" gate="G$1" x="35.56" y="152.4" smashed="yes">
 <attribute name="NAME" x="35.56" y="154.94" size="1.27" layer="95"/>
 <attribute name="MPN" x="33.02" y="149.098" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="R19" gate="G$1" x="43.18" y="53.34" smashed="yes">
+<attribute name="NAME" x="41.91" y="54.61" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="41.91" y="52.07" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11505,8 +11512,8 @@ New chip for 3v3 output</text>
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="P118" gate="1" pin="GND"/>
-<wire x1="48.26" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="63.5" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="63.5" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="A3" gate="G$1" pin="GND"/>
@@ -11701,8 +11708,13 @@ New chip for 3v3 output</text>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="C2"/>
-<wire x1="38.1" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="60.96" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <label x="33.02" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R19" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="53.34" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="53.34" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
+<junction x="48.26" y="60.96"/>
 </segment>
 </net>
 <net name="RHEIGHT_P" class="0">
@@ -11713,8 +11725,13 @@ New chip for 3v3 output</text>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="C1"/>
-<wire x1="38.1" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="66.04" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
 <label x="33.02" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="35.56" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="53.34" x2="35.56" y2="66.04" width="0.1524" layer="91"/>
+<junction x="35.56" y="66.04"/>
 </segment>
 </net>
 <net name="N$28" class="0">
