@@ -3,12 +3,12 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -22,18 +22,18 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -7325,12 +7325,12 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="VOLTAGE_CONTINUOUS" value="11.53V" x="128.905" y="-54.356" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="128.905" y="-54.356" size="1.778" layer="27" display="off"/>
 </element>
-<element name="T1" library="HyTechDevices" package="78613/3C_AIRGAP" value="78613/3C_78613/3C_AIRGAP" x="52.197" y="13.081" smashed="yes" rot="R270">
-<attribute name="DKPN" value="811-3726-ND" x="6.477" y="-50.419" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Murata Power Solutions" x="6.477" y="-50.419" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="580-786133C" x="6.477" y="-50.419" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="78613/3C" x="6.477" y="-50.419" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="46.228" y="13.335" size="0.8128" layer="25" rot="R270" align="center"/>
+<element name="T1" library="HyTechDevices" package="78613/3C_AIRGAP" value="78613/3C_78613/3C_AIRGAP" x="52.197" y="11.303" smashed="yes" rot="R270">
+<attribute name="DKPN" value="811-3726-ND" x="6.477" y="-52.197" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Power Solutions" x="6.477" y="-52.197" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="580-786133C" x="6.477" y="-52.197" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="78613/3C" x="6.477" y="-52.197" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="46.228" y="11.557" size="0.8128" layer="25" rot="R270" align="center"/>
 </element>
 <element name="U1" library="HyTechDevices" package="SOIC-08(NARROW,0.15&quot;)" value="MAX7404" x="35.814" y="29.718" smashed="yes" rot="MR180">
 <attribute name="DKPN" value="MAX7404CSA+-ND" x="71.374" y="97.028" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -7893,12 +7893,11 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="U10" pad="11"/>
 <contactref element="R10" pad="2"/>
 <contactref element="T1" pad="1"/>
-<wire x1="52.59" y1="25.9615" x2="52.59" y2="24.892" width="0.254" layer="1"/>
-<wire x1="52.59" y1="24.892" x2="52.59" y2="24.587" width="0.254" layer="1"/>
+<wire x1="52.59" y1="25.9615" x2="52.59" y2="24.587" width="0.254" layer="1"/>
 <wire x1="52.59" y1="24.587" x2="53.174" y2="24.003" width="0.254" layer="1"/>
-<wire x1="53.174" y1="24.003" x2="53.174" y2="22.772" width="0.1524" layer="1"/>
-<wire x1="53.174" y1="22.772" x2="54.737" y2="21.209" width="0.1524" layer="1"/>
-<wire x1="54.737" y1="21.209" x2="54.737" y2="18.161" width="0.1524" layer="1"/>
+<wire x1="53.174" y1="24.003" x2="53.174" y2="22.772" width="0.254" layer="1"/>
+<wire x1="53.174" y1="22.772" x2="54.737" y2="21.209" width="0.254" layer="1"/>
+<wire x1="54.737" y1="21.209" x2="54.737" y2="16.383" width="0.254" layer="1"/>
 </signal>
 <signal name="OUT_N">
 <contactref element="U10" pad="10"/>
@@ -7906,38 +7905,33 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="T1" pad="3"/>
 <wire x1="52.09" y1="25.9615" x2="52.09" y2="24.619" width="0.254" layer="1"/>
 <wire x1="52.09" y1="24.619" x2="51.474" y2="24.003" width="0.254" layer="1"/>
-<wire x1="49.911" y1="21.209" x2="49.911" y2="18.415" width="0.1524" layer="1"/>
-<wire x1="49.911" y1="18.415" x2="49.657" y2="18.161" width="0.1524" layer="1"/>
-<wire x1="51.474" y1="24.003" x2="51.474" y2="22.772" width="0.1524" layer="1"/>
-<wire x1="51.474" y1="22.772" x2="49.911" y2="21.209" width="0.1524" layer="1"/>
+<wire x1="49.911" y1="21.209" x2="49.911" y2="16.637" width="0.254" layer="1"/>
+<wire x1="49.911" y1="16.637" x2="49.657" y2="16.383" width="0.254" layer="1"/>
+<wire x1="51.474" y1="24.003" x2="51.474" y2="22.772" width="0.254" layer="1"/>
+<wire x1="51.474" y1="22.772" x2="49.911" y2="21.209" width="0.254" layer="1"/>
 </signal>
 <signal name="DIFF_P">
 <contactref element="T1" pad="6"/>
 <contactref element="J1" pad="5"/>
-<wire x1="33.86945625" y1="13.04145625" x2="33.86945625" y2="11.77145625" width="0.1524" layer="1"/>
-<wire x1="30.4292" y1="6.47774375" x2="32.38574375" y2="4.5212" width="0.1524" layer="1"/>
-<wire x1="33.86945625" y1="11.77145625" x2="30.4292" y2="8.3312" width="0.1524" layer="1"/>
-<wire x1="30.4292" y1="8.3312" x2="30.4292" y2="6.47774375" width="0.1524" layer="1"/>
-<wire x1="32.38574375" y1="4.5212" x2="51.4342625" y2="4.5212" width="0.1524" layer="1"/>
-<wire x1="52.324" y1="5.4109375" x2="52.324" y2="5.41094375" width="0.1524" layer="1"/>
-<wire x1="52.324" y1="5.41094375" x2="52.3748" y2="5.46174375" width="0.1524" layer="1"/>
-<wire x1="52.3748" y1="5.46174375" x2="52.3748" y2="6.35" width="0.1524" layer="1"/>
-<wire x1="52.3748" y1="6.35" x2="54.0258" y2="8.001" width="0.1524" layer="1"/>
-<wire x1="54.0258" y1="8.001" x2="54.737" y2="8.001" width="0.1524" layer="1"/>
-<wire x1="51.4342625" y1="4.5212" x2="52.324" y2="5.4109375" width="0.1524" layer="1"/>
+<wire x1="54.737" y1="6.223" x2="52.4256" y2="3.9116" width="0.254" layer="1"/>
+<wire x1="33.86945625" y1="11.218340625" x2="33.86945625" y2="13.04145625" width="0.254" layer="1"/>
+<wire x1="34.161171875" y1="10.926625" x2="33.86945625" y2="11.218340625" width="0.254" layer="1"/>
+<wire x1="34.161171875" y1="10.3432" x2="34.161171875" y2="10.926625" width="0.254" layer="1"/>
+<wire x1="32.977115625" y1="9.15914375" x2="34.161171875" y2="10.3432" width="0.254" layer="1"/>
+<wire x1="32.977115625" y1="8.358146875" x2="32.977115625" y2="9.15914375" width="0.254" layer="1"/>
+<wire x1="52.4256" y1="3.9116" x2="37.4236625" y2="3.9116" width="0.254" layer="1"/>
+<wire x1="37.4236625" y1="3.9116" x2="32.977115625" y2="8.358146875" width="0.254" layer="1"/>
 </signal>
 <signal name="DIFF_N">
 <contactref element="T1" pad="4"/>
 <contactref element="J1" pad="6"/>
-<wire x1="36.00583125" y1="12.2427" x2="34.7717625" y2="12.2427" width="0.1524" layer="1"/>
-<wire x1="34.7717625" y1="12.2427" x2="30.734" y2="8.2049375" width="0.1524" layer="1"/>
-<wire x1="30.734" y1="8.2049375" x2="30.734" y2="6.604" width="0.1524" layer="1"/>
-<wire x1="30.734" y1="6.604" x2="32.512" y2="4.826" width="0.1524" layer="1"/>
-<wire x1="51.308" y1="4.826" x2="52.07" y2="5.588" width="0.1524" layer="1"/>
-<wire x1="32.512" y1="4.826" x2="51.308" y2="4.826" width="0.1524" layer="1"/>
-<wire x1="52.07" y1="5.588" x2="52.07" y2="6.35" width="0.1524" layer="1"/>
-<wire x1="52.07" y1="6.35" x2="50.419" y2="8.001" width="0.1524" layer="1"/>
-<wire x1="50.419" y1="8.001" x2="49.657" y2="8.001" width="0.1524" layer="1"/>
+<wire x1="49.657" y1="6.223" x2="47.752" y2="4.318" width="0.254" layer="1"/>
+<wire x1="34.986290625" y1="11.223159375" x2="36.00583125" y2="12.2427" width="0.254" layer="1"/>
+<wire x1="34.986290625" y1="10.593575" x2="34.986290625" y2="11.223159375" width="0.254" layer="1"/>
+<wire x1="33.510521875" y1="9.11780625" x2="34.986290625" y2="10.593575" width="0.254" layer="1"/>
+<wire x1="33.510521875" y1="8.399478125" x2="33.510521875" y2="9.11780625" width="0.254" layer="1"/>
+<wire x1="47.752" y1="4.318" x2="37.592" y2="4.318" width="0.254" layer="1"/>
+<wire x1="37.592" y1="4.318" x2="33.510521875" y2="8.399478125" width="0.254" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="U10" pad="16"/>
@@ -7984,8 +7978,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <signal name="N$14">
 <contactref element="C20" pad="1"/>
 <contactref element="T1" pad="2"/>
-<wire x1="52.197" y1="18.161" x2="51.574" y2="18.784" width="0.254" layer="1"/>
-<wire x1="51.574" y1="18.784" x2="51.574" y2="20.701" width="0.254" layer="1"/>
+<wire x1="52.197" y1="16.383" x2="51.574" y2="17.006" width="0.254" layer="1"/>
+<wire x1="51.574" y1="17.006" x2="51.574" y2="20.701" width="0.254" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U2" pad="3"/>
