@@ -10889,7 +10889,7 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="J9" library="HyTechDevices - Copy" deviceset="CONNECTOR-2_?_*" device="MF_T_V"/>
 <part name="TD+2" library="HyTechDevices - Copy" deviceset="TEST_POINT" device=""/>
 <part name="TD-2" library="HyTechDevices - Copy" deviceset="TEST_POINT" device=""/>
-<part name="J10" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK"/>
+<part name="CURRENT_SHUNT" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK"/>
 <part name="P130" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P131" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U33" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
@@ -11349,7 +11349,7 @@ Accumulator GND, both AIR+ and -</text>
 <attribute name="NAME" x="7.62" y="66.802" size="1.27" layer="95"/>
 <attribute name="MPN" x="7.62" y="47.625" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="J10" gate="G$1" x="7.62" y="25.4" smashed="yes">
+<instance part="CURRENT_SHUNT" gate="G$1" x="7.62" y="25.4" smashed="yes">
 <attribute name="MPN" x="7.62" y="12.065" size="1.27" layer="96" align="top-left"/>
 <attribute name="NAME" x="7.62" y="26.162" size="1.27" layer="95"/>
 </instance>
@@ -11640,7 +11640,7 @@ Accumulator GND, both AIR+ and -</text>
 <wire x1="68.58" y1="157.48" x2="93.98" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J10" gate="G$1" pin="4"/>
+<pinref part="CURRENT_SHUNT" gate="G$1" pin="4"/>
 <wire x1="17.78" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="P131" gate="1" pin="GND"/>
 <wire x1="22.86" y1="15.24" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
@@ -11873,7 +11873,7 @@ Accumulator GND, both AIR+ and -</text>
 <wire x1="198.12" y1="172.72" x2="203.2" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J10" gate="G$1" pin="1"/>
+<pinref part="CURRENT_SHUNT" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="P130" gate="G$1" pin="+3V3"/>
 <wire x1="22.86" y1="22.86" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
@@ -12150,14 +12150,14 @@ Accumulator GND, both AIR+ and -</text>
 </net>
 <net name="CURR_P" class="0">
 <segment>
-<pinref part="J10" gate="G$1" pin="2"/>
+<pinref part="CURRENT_SHUNT" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="20.32" x2="22.86" y2="20.32" width="0.1524" layer="91"/>
 <label x="22.86" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CURR_N" class="0">
 <segment>
-<pinref part="J10" gate="G$1" pin="3"/>
+<pinref part="CURRENT_SHUNT" gate="G$1" pin="3"/>
 <wire x1="17.78" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
 <label x="22.86" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
