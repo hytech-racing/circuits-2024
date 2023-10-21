@@ -10786,7 +10786,7 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="J7" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02" value="JUMPER__1X02"/>
 <part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="0603" technology=".75A"/>
 <part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="0603" technology=".75A"/>
-<part name="PRECHARGE_OK_TEST" library="HyTechDevices - Copy" deviceset="TEST_POINT" device=""/>
+<part name="PC_OK" library="HyTechDevices - Copy" deviceset="TEST_POINT" device=""/>
 <part name="U20" library="HyTechDevices" deviceset="LOGICGATE_BUFFER" device=""/>
 <part name="R79" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="P50" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -12920,7 +12920,7 @@ current across precharge relay</text>
 <instance part="GND34" gate="1" x="104.14" y="165.1" smashed="yes">
 <attribute name="VALUE" x="104.14" y="163.83" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="PRECHARGE_OK_TEST" gate="G$1" x="243.84" y="134.62" smashed="yes" rot="R180">
+<instance part="PC_OK" gate="G$1" x="243.84" y="134.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="256.54" y="132.842" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="246.38" y="136.398" size="1.27" layer="95" rot="R180" align="top-left"/>
 </instance>
@@ -13529,7 +13529,7 @@ current across precharge relay</text>
 <junction x="233.68" y="121.92"/>
 <wire x1="241.3" y1="134.62" x2="233.68" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="134.62" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="PRECHARGE_OK_TEST" gate="G$1" pin="P$1"/>
+<pinref part="PC_OK" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
