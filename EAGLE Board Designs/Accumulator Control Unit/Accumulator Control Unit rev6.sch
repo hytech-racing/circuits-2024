@@ -14143,7 +14143,7 @@ current across precharge relay</text>
 <attribute name="CAPACITANCE" x="72.39" y="10.922" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="CUR_SHUNT" gate="G$1" x="91.44" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="93.218" y="43.18" size="1.27" layer="95" rot="R270"/>
+<attribute name="NAME" x="91.44" y="44.958" size="1.27" layer="95"/>
 <attribute name="MPN" x="89.662" y="43.18" size="1.27" layer="95" rot="R270" align="top-left"/>
 </instance>
 </instances>
