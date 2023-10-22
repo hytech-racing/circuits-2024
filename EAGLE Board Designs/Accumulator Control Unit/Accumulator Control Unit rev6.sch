@@ -6766,6 +6766,7 @@ Pins tied to GND: SLOW
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf"&gt;VJ...1BC Series Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"&gt;Samsung Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/585/MLCC_Automotive-1837966.pdf"&gt;Samsung Automotive MLCC Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf"&gt;Walsin Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/281/1/GRM188R61A226ME15_02A-1985787.pdf"&gt;GRM188R61A226ME15D&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/281/1/GRM188R61E106MA73_01A-1985806.pdf"&gt;GRM188R61E106MA73D&lt;/a&gt;&lt;/li&gt;
@@ -6778,6 +6779,7 @@ Pins tied to GND: SLOW
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/40/C0GNP0_Dielectric-951274.pdf"&gt;Kyocera AVX&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/281/1/GRM21BR61H106KE43_01A-1986884.pdf"&gt;GRM21BR61H&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/212/KEM_C1034_X7R_HV_ARC_SMD-1101730.pdf"&gt;C1812W104KDRACTU&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"&gt;CGA series - MLCC Automotive grade&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
@@ -6951,6 +6953,15 @@ Pins tied to GND: SLOW
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="25V"/>
 </technology>
+<technology name="25V_10NF">
+<attribute name="CAPACITANCE" value="10nF"/>
+<attribute name="DKPN" value="1276-6531-1-ND"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MOPN" value="187-CL10B103KA8WPNC"/>
+<attribute name="MPN" value="CL10B103KA8WPNC"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
 <technology name="25V_10UF">
 <attribute name="CAPACITANCE" value="10µF"/>
 <attribute name="DKPN" value="490-7202-1-ND"/>
@@ -7032,6 +7043,15 @@ Pins tied to GND: SLOW
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
+<technology name="50V_1NF">
+<attribute name="CAPACITANCE" value="1nF"/>
+<attribute name="DKPN" value="399-C0603C102K5RAC7867CT-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MOPN" value="80-C0603C102K5R"/>
+<attribute name="MPN" value="C0603C102K5RACTU"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
 <technology name="50V_1UF">
 <attribute name="CAPACITANCE" value="1uF"/>
 <attribute name="DKPN" value="587-2400-2-ND"/>
@@ -7075,6 +7095,24 @@ Pins tied to GND: SLOW
 <attribute name="MPN" value="C5750X7R2E105K230KA"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="250V"/>
+</technology>
+<technology name="25V_47UF">
+<attribute name="CAPACITANCE" value="47µF"/>
+<attribute name="DKPN" value="445-174773-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-A9N3X7476M23KB"/>
+<attribute name="MPN" value="CGA9N3X7R1E476M230KB"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="35V_47UF">
+<attribute name="CAPACITANCE" value="47µF"/>
+<attribute name="DKPN" value="445-CGA9N1X7R1V476M230KCCT-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-CGA9N1X7R1V476M2"/>
+<attribute name="MPN" value="CGA9N1X7R1V476M230KC"/>
+<attribute name="TOLERANCE" value="20%"/>
+<attribute name="VOLTAGE" value="35V"/>
 </technology>
 <technology name="630V_0.1UF">
 <attribute name="CAPACITANCE" value="0.1μF"/>
@@ -7155,6 +7193,15 @@ Pins tied to GND: SLOW
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="250V"/>
 </technology>
+<technology name="25V_1UF">
+<attribute name="CAPACITANCE" value="1µF"/>
+<attribute name="DKPN" value="478-KGM31HR71E105KUCT-ND"/>
+<attribute name="MANUFACTURER" value="KYOCERA AVX"/>
+<attribute name="MOPN" value="581-12063C105K"/>
+<attribute name="MPN" value="KGM31HR71E105KU"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
 <technology name="25V_33UF">
 <attribute name="CAPACITANCE" value="33µF"/>
 <attribute name="DKPN" value="445-8046-1-ND"/>
@@ -7172,6 +7219,42 @@ Pins tied to GND: SLOW
 <attribute name="MPN" value="C3216X5R1V226M160AC"/>
 <attribute name="TOLERANCE" value="20%"/>
 <attribute name="VOLTAGE" value="35V"/>
+</technology>
+<technology name="50V_0.1UF">
+<attribute name="CAPACITANCE" value="0.1µF"/>
+<attribute name="DKPN" value="445-14655-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-C3216NP01H104J1A"/>
+<attribute name="MPN" value="C3216NP01H104J160AA"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="50V_1NF">
+<attribute name="CAPACITANCE" value="1nF"/>
+<attribute name="DKPN" value="478-KGM31BR71H102KTCT-ND"/>
+<attribute name="MANUFACTURER" value="KYOCERA AVX"/>
+<attribute name="MOPN" value="581-12065C102K"/>
+<attribute name="MPN" value="KGM31BR71H102KT"/>
+<attribute name="TOLERANCE" value="10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="630V_10NF">
+<attribute name="CAPACITANCE" value="10nF"/>
+<attribute name="DKPN" value="445-9083-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-CGA5L4C0G2J103J"/>
+<attribute name="MPN" value="CGA5L4C0G2J103J160AA"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="630V"/>
+</technology>
+<technology name="630V_47PF">
+<attribute name="CAPACITANCE" value="47pF"/>
+<attribute name="DKPN" value="490-5041-1-ND"/>
+<attribute name="MANUFACTURER" value="Murata Electronics"/>
+<attribute name="MOPN" value="81-GCM31A7U2J470JX1D"/>
+<attribute name="MPN" value="GCM31A7U2J470JX01D"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="630V"/>
 </technology>
 </technologies>
 </device>
@@ -10904,6 +10987,9 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="R111" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.12K"/>
 <part name="P135" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P132" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="C56" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_68NF"/>
+<part name="C57" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_68NF"/>
+<part name="CUR_SHUNT" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14046,6 +14132,20 @@ current across precharge relay</text>
 <instance part="P132" gate="1" x="22.86" y="43.18" smashed="yes">
 <attribute name="VALUE" x="22.86" y="46.99" size="1.27" layer="96" align="bottom-center"/>
 </instance>
+<instance part="C56" gate="G$1" x="99.06" y="27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="96.52" y="26.67" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="101.6" y="26.67" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="103.378" y="26.67" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C57" gate="G$1" x="73.66" y="15.24" smashed="yes">
+<attribute name="NAME" x="72.39" y="17.78" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VOLTAGE" x="72.39" y="12.7" size="1.27" layer="96" align="top-center"/>
+<attribute name="CAPACITANCE" x="72.39" y="10.922" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="CUR_SHUNT" gate="G$1" x="91.44" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="93.218" y="43.18" size="1.27" layer="95" rot="R270"/>
+<attribute name="MPN" x="89.662" y="43.18" size="1.27" layer="95" rot="R270" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14227,6 +14327,9 @@ current across precharge relay</text>
 <pinref part="R110" gate="G$1" pin="2"/>
 <pinref part="P135" gate="1" pin="GND"/>
 <wire x1="91.44" y1="22.86" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="C56" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
+<junction x="91.44" y="22.86"/>
 </segment>
 </net>
 <net name="CURRENT" class="0">
@@ -14641,6 +14744,10 @@ current across precharge relay</text>
 <wire x1="68.58" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="22.86" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <junction x="63.5" y="30.48"/>
+<pinref part="C57" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="15.24" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
+<junction x="63.5" y="22.86"/>
 </segment>
 </net>
 <net name="N$67" class="0">
@@ -14653,6 +14760,10 @@ current across precharge relay</text>
 <pinref part="U33" gate="A" pin="VOUT"/>
 <wire x1="76.2" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <junction x="78.74" y="33.02"/>
+<pinref part="C57" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="15.24" x2="78.74" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="15.24" x2="78.74" y2="22.86" width="0.1524" layer="91"/>
+<junction x="78.74" y="22.86"/>
 </segment>
 </net>
 <net name="CURRENT_SHUNT_OUT" class="0">
@@ -14664,6 +14775,11 @@ current across precharge relay</text>
 <wire x1="91.44" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
 <junction x="91.44" y="33.02"/>
 <label x="93.98" y="33.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="CUR_SHUNT" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="33.02" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C56" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="30.48" x2="91.44" y2="30.48" width="0.1524" layer="91"/>
+<junction x="91.44" y="30.48"/>
 </segment>
 </net>
 <net name="CURR_P" class="0">
