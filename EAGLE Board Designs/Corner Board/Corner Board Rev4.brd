@@ -8079,7 +8079,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="U2" pad="3"/>
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="1"/>
-<wire x1="30.138" y1="33.069" x2="30.353" y2="32.854" width="0.254" layer="16"/>
 <wire x1="30.353" y1="32.854" x2="28.848" y2="32.854" width="0.254" layer="16"/>
 <wire x1="28.848" y1="32.854" x2="28.844" y2="32.85" width="0.254" layer="16"/>
 <wire x1="30.353" y1="32.854" x2="32.131" y2="32.854" width="0.254" layer="16"/>
@@ -8126,12 +8125,11 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="U2" pad="4"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R14" pad="1"/>
-<wire x1="30.095" y1="31.412" x2="30.353" y2="31.154" width="0.254" layer="16"/>
-<wire x1="30.48" y1="31.027" x2="30.353" y2="31.154" width="0.254" layer="16"/>
-<wire x1="30.48" y1="29.806" x2="30.48" y2="30.734" width="0.254" layer="16"/>
-<wire x1="30.48" y1="30.734" x2="30.48" y2="31.027" width="0.254" layer="16"/>
-<wire x1="30.48" y1="30.734" x2="30.396" y2="30.65" width="0.254" layer="16"/>
-<wire x1="30.396" y1="30.65" x2="28.844" y2="30.65" width="0.254" layer="16"/>
+<wire x1="30.353" y1="31.154" x2="30.353" y2="30.48" width="0.254" layer="16"/>
+<wire x1="30.353" y1="30.48" x2="30.353" y2="29.933" width="0.254" layer="16"/>
+<wire x1="30.353" y1="29.933" x2="30.48" y2="29.806" width="0.254" layer="16"/>
+<wire x1="30.353" y1="30.48" x2="30.183" y2="30.65" width="0.254" layer="16"/>
+<wire x1="30.183" y1="30.65" x2="28.844" y2="30.65" width="0.254" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="U3" pad="6"/>
