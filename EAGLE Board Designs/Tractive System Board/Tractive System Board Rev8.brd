@@ -7021,8 +7021,9 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="36.156" y1="-20.32" x2="36.391" y2="-20.085" width="0.508" layer="1"/>
 <wire x1="36.391" y1="-20.085" x2="40.132" y2="-20.085" width="0.508" layer="1"/>
 <wire x1="36.156" y1="-22.352" x2="36.156" y2="-20.32" width="0.508" layer="1"/>
-<wire x1="40.132" y1="-20.085" x2="41.065" y2="-20.085" width="0.508" layer="1"/>
-<wire x1="41.065" y1="-20.085" x2="44.602" y2="-23.622" width="0.508" layer="1"/>
+<wire x1="43.586" y1="-23.622" x2="40.132" y2="-20.168" width="0.508" layer="1"/>
+<wire x1="40.132" y1="-20.085" x2="40.132" y2="-20.168" width="0.508" layer="1"/>
+<wire x1="43.586" y1="-23.622" x2="44.602" y2="-23.622" width="0.508" layer="1"/>
 <wire x1="39.624" y1="-17.39" x2="40.132" y2="-17.898" width="0.508" layer="1"/>
 <wire x1="40.132" y1="-17.898" x2="40.132" y2="-20.085" width="0.508" layer="1"/>
 <wire x1="39.624" y1="-17.39" x2="36.533978125" y2="-17.39" width="0.508" layer="1"/>
@@ -7765,9 +7766,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="J2" pad="3"/>
 <wire x1="34.456" y1="-20.32" x2="33.370521875" y2="-20.32" width="0.254" layer="1"/>
 <via x="33.370521875" y="-20.32" extent="1-16" drill="0.35"/>
-<wire x1="33.370521875" y1="-20.32" x2="32.2326" y2="-20.32" width="0.254" layer="16"/>
-<wire x1="32.2326" y1="-20.32" x2="26.3906" y2="-14.478" width="0.254" layer="16"/>
-<wire x1="26.3906" y1="-14.478" x2="25.3746" y2="-14.478" width="0.254" layer="16"/>
+<wire x1="33.370521875" y1="-20.32" x2="31.2166" y2="-20.32" width="0.254" layer="16"/>
+<wire x1="31.2166" y1="-20.32" x2="25.3746" y2="-14.478" width="0.254" layer="16"/>
 </signal>
 <signal name="N$34">
 <contactref element="R56" pad="1"/>
@@ -7795,10 +7795,10 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC83A019D"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF474747"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFBFBFBF"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 </board>
