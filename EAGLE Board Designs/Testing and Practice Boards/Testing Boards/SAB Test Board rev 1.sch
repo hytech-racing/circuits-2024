@@ -11854,11 +11854,6 @@ Layer: 94 Symbol</description>
 <wire x1="195.58" y1="111.76" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
 <junction x="195.58" y="111.76"/>
 </segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="A"/>
-<wire x1="236.22" y1="121.92" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
-<label x="233.68" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="P2" class="0">
 <segment>
@@ -12150,6 +12145,12 @@ Layer: 94 Symbol</description>
 <pinref part="A1" gate="G$1" pin="A1"/>
 <wire x1="17.78" y1="172.72" x2="12.7" y2="172.72" width="0.1524" layer="91"/>
 <label x="12.7" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="A"/>
+<wire x1="236.22" y1="121.92" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
