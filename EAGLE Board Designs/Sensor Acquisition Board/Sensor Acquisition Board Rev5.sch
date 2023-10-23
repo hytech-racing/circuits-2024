@@ -9512,7 +9512,7 @@ IMU</text>
 <description>Filters, ADC, RS232</description>
 <plain>
 <text x="28.956" y="207.518" size="1.778" layer="97">Thermistors</text>
-<text x="190.5" y="200.66" size="1.27" layer="97">IMU
+<text x="175.26" y="200.66" size="1.27" layer="97">IMU
 RS232
 Voltage wrong, swap chip</text>
 <text x="12.7" y="162.56" size="1.778" layer="97">Filter analog input</text>
@@ -9523,7 +9523,6 @@ Thermistors</text>
 <text x="76.2" y="203.2" size="1.778" layer="97">geometric mean</text>
 <text x="7.62" y="137.16" size="1.778" layer="97">Shayan's second order cheaper alternatives
 or LTCs</text>
-<text x="81.28" y="195.58" size="1.778" layer="97">adjustable lin reg</text>
 <text x="81.28" y="190.5" size="1.778" layer="97">adjustable lin reg
 more current output</text>
 </plain>
