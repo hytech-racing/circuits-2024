@@ -1457,6 +1457,46 @@ Dashed line is edge of mated connector.</description>
 <circle x="-3.81" y="-2.794" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-3.556" y1="-3.556" x2="3.556" y2="3.556" layer="39"/>
 </package>
+<package name="SOD-323">
+<description>SOD-323 Diode Package
+&lt;br&gt;
+&lt;a href="https://www.diodes.com/assets/Package-Files/SOD323.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="A" x="-1.15" y="0" dx="0.8" dy="0.9" layer="1"/>
+<smd name="C" x="1.15" y="0" dx="0.8" dy="0.9" layer="1"/>
+<text x="0" y="1" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-0.85" y1="0.65" x2="-0.85" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-0.65" x2="0.85" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="0.85" y1="-0.65" x2="0.85" y2="0.65" width="0.127" layer="21"/>
+<wire x1="0.85" y1="0.65" x2="-0.85" y2="0.65" width="0.127" layer="21"/>
+<rectangle x1="-1.778" y1="-0.762" x2="1.778" y2="0.762" layer="39"/>
+<rectangle x1="1.261" y1="0.5" x2="1.661" y2="0.75" layer="21"/>
+<rectangle x1="1.261" y1="-0.75" x2="1.661" y2="-0.5" layer="21"/>
+</package>
+<package name="1.5SMBJ">
+<description>DO-214AA Doide Footprint
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/54/BOURNS_1_5SMBJ_datasheet-2530221.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-1.98" y="0" dx="2.1" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="1.98" y="0" dx="2.1" dy="1.27" layer="1" rot="R90"/>
+<text x="0" y="2.286" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.285" y1="1.97" x2="2.285" y2="1.97" width="0.127" layer="21"/>
+<wire x1="2.285" y1="1.97" x2="2.285" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="2.285" y1="-1.97" x2="-2.285" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="-2.285" y1="-1.97" x2="-2.285" y2="1.97" width="0.127" layer="21"/>
+<rectangle x1="-3.302" y1="-2.286" x2="3.302" y2="2.286" layer="39"/>
+<wire x1="3.302" y1="1.524" x2="3.302" y2="-1.524" width="0.254" layer="21"/>
+</package>
+<package name="1206-DIODE">
+<description>1206 Diode Package</description>
+<smd name="1" x="-1.497" y="0.019" dx="1" dy="1.5" layer="1"/>
+<smd name="2" x="1.541" y="0.011" dx="1" dy="1.5" layer="1"/>
+<wire x1="-0.959" y1="0.811" x2="1.041" y2="0.811" width="0.127" layer="21"/>
+<wire x1="1.041" y1="0.811" x2="1.041" y2="-0.789" width="0.127" layer="21"/>
+<wire x1="1.041" y1="-0.789" x2="-0.959" y2="-0.789" width="0.127" layer="21"/>
+<wire x1="-0.959" y1="-0.789" x2="-0.959" y2="0.811" width="0.127" layer="21"/>
+<rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="39"/>
+<text x="0" y="1.27" size="0.8128" layer="21" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CRYSTAL">
@@ -1843,6 +1883,23 @@ Dashed line is edge of mated connector.</description>
 <pin name="!RX1BF" x="25.4" y="-25.4" length="short" direction="out" function="dot" rot="R180"/>
 <pin name="!INT" x="25.4" y="-27.94" length="short" direction="out" function="dot" rot="R180"/>
 <pin name="!RESET" x="-2.54" y="-12.7" length="short" direction="in" function="dot"/>
+</symbol>
+<symbol name="DIODE_SCHOTTKY-1">
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-1.27" y="1.905" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="1.27" layer="96" align="top-center">&gt;MPN</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="-0.508" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="1.27" x2="-0.508" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0.508" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="-1.27" x2="0.508" y2="-1.016" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4966,6 +5023,82 @@ Note: OPA2991 is also a comparator</description>
 <attribute name="MANUFACTURER" value="Microchip Technology"/>
 <attribute name="MOPN" value="579-MCP2515-E/ST"/>
 <attribute name="MPN" value="MCP2515-E/ST"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCHOTTKY_?_*" prefix="D">
+<description>&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/408/CUS08F30_datasheet_en_20140414-1916097.pdf"&gt;CUS08F30 Shottky Diode Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/68/cmdsh2-3-39086.pdf"&gt;CMDSH2-3 Shottky Diode Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href = "https://datasheets.kyocera-avx.com/schottky.pdf"&gt;SD1206S040S2R0 Schottky Diode Datasheet&lt;\a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE_SCHOTTKY-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOD323" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="30V">
+<attribute name="CURRENT" value="0.8A"/>
+<attribute name="DKPN" value="CUS08F30H3FTR-ND"/>
+<attribute name="MANUFACTURER" value="Toshiba Semiconductor and Storage"/>
+<attribute name="MOPN" value="757-CUS08F30H3F"/>
+<attribute name="MPN" value="CUS08F30"/>
+<attribute name="VOLTAGE" value="30V"/>
+</technology>
+<technology name="30VV">
+<attribute name="CURRENT" value="0.2A"/>
+<attribute name="DKPN" value="1514-CMDSH2-3TRPBFREECT-ND"/>
+<attribute name="MANUFACTURER" value="Central Semiconductor Corp"/>
+<attribute name="MOPN" value="610-CMDSH2-3"/>
+<attribute name="MPN" value="CMDSH2-3 TR PBFREE"/>
+<attribute name="VOLTAGE" value="30V"/>
+</technology>
+<technology name="60V">
+<attribute name="CURRENT" value="1A"/>
+<attribute name="DKPN" value="3757-MBR1060HEWS_R1_00001TR-ND"/>
+<attribute name="MANUFACTURER" value="Panjit International Inc."/>
+<attribute name="MOPN" value="241-MBR1060HEWSR1000"/>
+<attribute name="MPN" value="MBR1060HEWS_R1_00001"/>
+<attribute name="VOLTAGE" value="60V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="DO-214AA" package="1.5SMBJ">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="150V">
+<attribute name="CURRENT" value="3A"/>
+<attribute name="DKPN" value="641-1720-1-ND"/>
+<attribute name="MANUFACTURER" value="Comchip Technology"/>
+<attribute name="MOPN" value="750-CDBB3150-HF"/>
+<attribute name="MPN" value="CDBB3150-HF"/>
+<attribute name="VOLTAGE" value="150V"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="1206-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="40V">
+<attribute name="DKPN" value="478-7806-1-ND"/>
+<attribute name="MANUFACTURER" value="KYOCERA AVX"/>
+<attribute name="MOPN" value="581-SD1206S040S2R0" constant="no"/>
+<attribute name="MPN" value="SD1206S040S2R0" constant="no"/>
+<attribute name="VOLTAGE" value="40 V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10222,44 +10355,6 @@ Layer: 94 Symbol</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="HyTechSymbols">
-<packages>
-</packages>
-<symbols>
-<symbol name="DIODE_SCHOTTKY">
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94"/>
-<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-1.27" y="1.905" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.27" x2="-0.508" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="1.27" x2="-0.508" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0.508" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-1.27" x2="0.508" y2="-1.016" width="0.1524" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DIODE_SHOTTKY">
-<gates>
-<gate name="G$1" symbol="DIODE_SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10358,7 +10453,6 @@ Layer: 94 Symbol</description>
 <part name="P37" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P38" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="XF1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="PTH" technology="MINIBLADE"/>
-<part name="U$3" library="HyTechSymbols" deviceset="DIODE_SHOTTKY" device=""/>
 <part name="P9" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P8" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P13" library="HyTechSupplies" deviceset="+3V3" device=""/>
@@ -10438,6 +10532,7 @@ Layer: 94 Symbol</description>
 <part name="JP7" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
 <part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.32K"/>
+<part name="D5" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="1206" technology="40V"/>
 </parts>
 <sheets>
 <sheet>
@@ -10703,9 +10798,6 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="228.6" y="198.882" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="MPN" x="228.6" y="192.278" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="U$3" gate="G$1" x="213.36" y="195.58" smashed="yes">
-<attribute name="NAME" x="212.09" y="197.485" size="1.27" layer="95" align="bottom-center"/>
-</instance>
 <instance part="P9" gate="1" x="241.3" y="203.2" smashed="yes">
 <attribute name="VALUE" x="241.3" y="205.74" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -10905,6 +10997,10 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="109.22" y="115.57" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="114.3" y="115.57" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="116.078" y="115.57" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="D5" gate="G$1" x="213.36" y="195.58" smashed="yes">
+<attribute name="NAME" x="212.09" y="197.485" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="212.09" y="193.675" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11844,9 +11940,9 @@ Layer: 94 Symbol</description>
 <label x="175.26" y="208.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="A"/>
 <wire x1="208.28" y1="195.58" x2="205.74" y2="195.58" width="0.1524" layer="91"/>
 <label x="205.74" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="FOURTH_ORDER_FILT" class="0">
@@ -11858,9 +11954,9 @@ Layer: 94 Symbol</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="C"/>
 <pinref part="XF1" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="195.58" x2="220.98" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="C"/>
 </segment>
 </net>
 </nets>
