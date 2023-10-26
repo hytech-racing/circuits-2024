@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -6677,12 +6677,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VOLTAGE_CONTINUOUS" value="" x="51.816" y="-14.224" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="" x="51.816" y="-14.224" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="U$1" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="4" y="-4" smashed="yes"/>
-<element name="U$2" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="26" y="-61" smashed="yes"/>
-<element name="U$4" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="196" y="-14" smashed="yes"/>
-<element name="U$5" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="196" y="-61" smashed="yes"/>
 <element name="U$8" library="HyTechManufacturing" package="HV_MEDIUM" value="" x="176.53" y="-13.462" smashed="yes"/>
 <element name="U$16" library="HyTechManufacturing" package="HV_MEDIUM" value="" x="176.53" y="-13.462" smashed="yes" rot="MR0"/>
+<element name="U$6" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="26" y="-61" smashed="yes"/>
+<element name="U$2" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="4" y="-4" smashed="yes"/>
+<element name="U$17" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="196" y="-14" smashed="yes"/>
+<element name="U$22" library="HyTechManufacturing" package="MOUNTING_M4" value="" x="196" y="-61" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
