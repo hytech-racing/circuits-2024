@@ -8186,7 +8186,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="C45" pad="2"/>
 <contactref element="R108" pad="1"/>
 <contactref element="U4" pad="14"/>
-<contactref element="U4" pad="12"/>
 <contactref element="U4" pad="13"/>
 <contactref element="U4" pad="7"/>
 <contactref element="U4" pad="8"/>
@@ -8195,7 +8194,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U10" pad="14"/>
 <contactref element="U10" pad="7"/>
 <contactref element="U10" pad="8"/>
-<contactref element="U10" pad="12"/>
 <contactref element="U10" pad="13"/>
 <contactref element="C12" pad="2"/>
 <contactref element="C16" pad="2"/>
@@ -8413,13 +8411,11 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="16.383" y1="63.8175" x2="9.906" y2="54.368" width="0" layer="19" extent="1-1"/>
 <wire x1="18.014" y1="67.8715" x2="16.383" y2="63.8175" width="0" layer="19" extent="1-1"/>
 <wire x1="18.514" y1="67.8715" x2="18.014" y2="67.8715" width="0" layer="19" extent="1-1"/>
-<wire x1="17.014" y1="72.0825" x2="18.014" y2="67.8715" width="0" layer="19" extent="1-1"/>
-<wire x1="16.514" y1="72.0825" x2="17.014" y2="72.0825" width="0" layer="19" extent="1-1"/>
+<wire x1="16.514" y1="72.0825" x2="18.014" y2="67.8715" width="0" layer="19" extent="1-1"/>
 <wire x1="16.014" y1="72.0825" x2="16.514" y2="72.0825" width="0" layer="19" extent="1-1"/>
 <wire x1="8.862" y1="67.8715" x2="16.014" y2="72.0825" width="0" layer="19" extent="1-1"/>
 <wire x1="8.362" y1="67.8715" x2="8.862" y2="67.8715" width="0" layer="19" extent="1-1"/>
-<wire x1="7.362" y1="72.0825" x2="8.362" y2="67.8715" width="0" layer="19" extent="1-1"/>
-<wire x1="6.862" y1="72.0825" x2="7.362" y2="72.0825" width="0" layer="19" extent="1-1"/>
+<wire x1="6.862" y1="72.0825" x2="8.362" y2="67.8715" width="0" layer="19" extent="1-1"/>
 <wire x1="6.362" y1="72.0825" x2="6.862" y2="72.0825" width="0" layer="19" extent="1-1"/>
 <wire x1="36.0045" y1="61.849" x2="18.514" y2="67.8715" width="0" layer="19" extent="1-1"/>
 <wire x1="41.2115" y1="63.119" x2="36.0045" y2="61.849" width="0" layer="19" extent="1-1"/>
@@ -8990,6 +8986,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="U1" pad="1"/>
 <contactref element="U2" pad="16"/>
 <contactref element="U2" pad="1"/>
+<contactref element="U4" pad="12"/>
+<contactref element="U10" pad="12"/>
 <wire x1="-102.489" y1="-128.651" x2="-102.489" y2="-133.858" width="0" layer="19" extent="1-1"/>
 <wire x1="-102.489" y1="-117.094" x2="-102.489" y2="-128.651" width="0" layer="19" extent="1-1"/>
 <wire x1="-102.489" y1="-111.887" x2="-102.489" y2="-117.094" width="0" layer="19" extent="1-1"/>
@@ -9019,10 +9017,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="7.493" y1="63.8175" x2="8.763" y2="63.8175" width="0" layer="19" extent="1-1"/>
 <wire x1="7.862" y1="67.8715" x2="7.493" y2="63.8175" width="0" layer="19" extent="1-1"/>
 <wire x1="5.362" y1="67.8715" x2="7.862" y2="67.8715" width="0" layer="19" extent="1-1"/>
-<wire x1="8.862" y1="72.0825" x2="7.862" y2="67.8715" width="0" layer="19" extent="1-1"/>
+<wire x1="7.362" y1="72.0825" x2="7.862" y2="67.8715" width="0" layer="19" extent="1-1"/>
+<wire x1="8.862" y1="72.0825" x2="7.362" y2="72.0825" width="0" layer="19" extent="1-1"/>
 <wire x1="15.014" y1="67.8715" x2="7.862" y2="67.8715" width="0" layer="19" extent="1-1"/>
 <wire x1="17.514" y1="67.8715" x2="15.014" y2="67.8715" width="0" layer="19" extent="1-1"/>
-<wire x1="18.514" y1="72.0825" x2="17.514" y2="67.8715" width="0" layer="19" extent="1-1"/>
+<wire x1="17.014" y1="72.0825" x2="17.514" y2="67.8715" width="0" layer="19" extent="1-1"/>
+<wire x1="18.514" y1="72.0825" x2="17.014" y2="72.0825" width="0" layer="19" extent="1-1"/>
 <wire x1="35.826" y1="67.31" x2="18.514" y2="72.0825" width="0" layer="19" extent="1-1"/>
 <wire x1="36.0045" y1="65.659" x2="35.826" y2="67.31" width="0" layer="19" extent="1-1"/>
 <wire x1="35.572" y1="47.244" x2="36.0045" y2="65.659" width="0" layer="19" extent="1-1"/>

@@ -12577,6 +12577,7 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="180.34" y1="63.5" x2="274.32" y2="63.5" width="0.1524" layer="97"/>
 <wire x1="274.32" y1="63.5" x2="274.32" y2="172.466" width="0.1524" layer="97"/>
 <wire x1="214.122" y1="172.466" x2="274.32" y2="172.466" width="0.1524" layer="97"/>
+<text x="261.62" y="205.74" size="1.27" layer="97" font="vector">remove this</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
@@ -12976,11 +12977,8 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <junction x="88.9" y="154.94"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="MSTR"/>
 <pinref part="U4" gate="G$1" pin="SLOW"/>
-<wire x1="119.38" y1="154.94" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="152.4" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
-<junction x="119.38" y="152.4"/>
 <pinref part="P51" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -13008,11 +13006,8 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <junction x="154.94" y="154.94"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="MSTR"/>
 <pinref part="U10" gate="G$1" pin="SLOW"/>
-<wire x1="185.42" y1="154.94" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="152.4" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
-<junction x="185.42" y="152.4"/>
 <pinref part="P73" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -13132,8 +13127,12 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="121.92" y1="170.18" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="EN"/>
 <wire x1="119.38" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="149.86" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="149.86" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
 <junction x="121.92" y="170.18"/>
+<pinref part="U4" gate="G$1" pin="MSTR"/>
+<wire x1="121.92" y1="154.94" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
+<junction x="121.92" y="154.94"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VLOGIC"/>
@@ -13158,8 +13157,12 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="187.96" y1="170.18" x2="187.96" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U10" gate="G$1" pin="EN"/>
 <wire x1="185.42" y1="149.86" x2="187.96" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="149.86" x2="187.96" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="149.86" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
 <junction x="187.96" y="170.18"/>
+<pinref part="U10" gate="G$1" pin="MSTR"/>
+<wire x1="187.96" y1="154.94" x2="187.96" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="154.94" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
+<junction x="187.96" y="154.94"/>
 </segment>
 <segment>
 <pinref part="U10" gate="G$1" pin="VLOGIC"/>
