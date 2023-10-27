@@ -4345,6 +4345,19 @@ Dashed line is edge of mated connector.</description>
 <wire x1="5.08" y1="3.81" x2="3.81" y2="5.08" width="0.127" layer="21" curve="-343.739795"/>
 <circle x="2.68990625" y="0.57175625" radius="1.27" width="0.127" layer="21"/>
 </package>
+<package name="SMF">
+<description>SMF(DO-219AB)&lt;br&gt;
+&lt;a href="https://www.vishay.com/docs/85881/smf5v0atosmf58a.pdf"&gt;DataSheet&lt;/a&gt;</description>
+<smd name="P$1" x="-1.45" y="0" dx="1.4" dy="1.3" layer="1" rot="R90"/>
+<smd name="P$2" x="1.45" y="0" dx="1.4" dy="1.3" layer="1" rot="R90"/>
+<wire x1="-1.45" y1="-0.95" x2="1.45" y2="-0.95" width="0.127" layer="21"/>
+<wire x1="1.45" y1="-0.95" x2="1.45" y2="0.95" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.95" x2="-1.45" y2="0.95" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="0.95" x2="1.45" y2="0.95" width="0.127" layer="21"/>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&lt;NAME</text>
+<rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="39"/>
+<wire x1="2.35" y1="0.9" x2="2.35" y2="-0.9" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_10">
@@ -5821,7 +5834,9 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <deviceset name="TVS_?_*" prefix="D">
 <description>TVS Diode
 &lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/427/gsot03-1767593.pdf"&gt;GSOT Datasheet&lt;/a&gt;</description>
+&lt;a href="https://www.mouser.com/datasheet/2/427/gsot03-1767593.pdf"&gt;GSOT Datasheet&lt;/a&gt;&lt;br&gt;
+
+&lt;a href="https://www.vishay.com/docs/85881/smf5v0atosmf58a.pdf"&gt;SMF14A Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODE_TVS_UNIDIRECTIONAL" x="0" y="0"/>
 </gates>
@@ -5881,6 +5896,21 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="MOPN" value="652-1.5SMBJ30A"/>
 <attribute name="MPN" value=" 1.5SMBJ30A"/>
 <attribute name="VOLTAGE" value="30V"/>
+</technology>
+</technologies>
+</device>
+<device name="DO-219AB" package="SMF">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="14V">
+<attribute name="DKPN" value="SMF14A-E3-08GITR-ND"/>
+<attribute name="MANUFACTURER" value="Vishay General Semiconductor"/>
+<attribute name="MOPN" value="78-SMF14A-E3-08"/>
+<attribute name="MPN" value="SMF14A-E3-08"/>
+<attribute name="VOLTAGE" value="14V"/>
 </technology>
 </technologies>
 </device>
@@ -8665,7 +8695,7 @@ Requires ordering of:
 <part name="D5" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
 <part name="D6" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
 <part name="D8" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="1206" technology="40V"/>
-<part name="D11" library="HyTechDevices" deviceset="TVS_?_*" device="" technology="15V"/>
+<part name="D11" library="HyTechDevices" deviceset="TVS_?_*" device="DO-219AB" technology="14V" value="TVS_DO-219AB_14V"/>
 <part name="TP8" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="J19" library="HyTechDevices" deviceset="CONNECTOR-10_?_*" device="MF_T_V"/>
 <part name="P79" library="HyTechSupplies" deviceset="+12V" device=""/>
@@ -8736,7 +8766,7 @@ Right angle</text>
 <text x="66.802" y="140.462" size="1.778" layer="97">FR</text>
 <text x="13.716" y="108.966" size="1.778" layer="97">RL</text>
 <text x="66.802" y="108.712" size="1.778" layer="97">RR</text>
-<text x="17.78" y="78.74" size="1.778" layer="97">Aero sensors
+<text x="17.78" y="76.2" size="1.778" layer="97">Aero sensors
 CAN
 Right angle</text>
 <text x="17.78" y="70.612" size="1.778" layer="97">8-channel</text>
@@ -8753,12 +8783,13 @@ Right angle</text>
 1. ADC isoSPI master
 2. Power supply
 3. Interlock
-Right angle</text>
+Straight</text>
 <text x="184.658" y="104.394" size="1.778" layer="97">RL</text>
 <text x="231.902" y="103.886" size="1.778" layer="97">RR</text>
 <text x="170.18" y="195.58" size="1.778" layer="97">CAN
 1. Main ECU -&gt; SAB
 2. SAB -&gt; TCU/pi
+3. Spare
 Straight</text>
 <text x="160.02" y="149.86" size="1.778" layer="97">Distinguish connectors</text>
 </plain>
@@ -9917,8 +9948,7 @@ Digitize analog signals
 Thermistors</text>
 <text x="223.52" y="144.78" size="1.27" layer="97">Protection?</text>
 <text x="76.2" y="203.2" size="1.778" layer="97">geometric mean</text>
-<text x="7.62" y="137.16" size="1.778" layer="97">Shayan's second order cheaper alternatives
-or LTCs</text>
+<text x="12.7" y="142.24" size="1.778" layer="97">LTCs?</text>
 <text x="81.28" y="190.5" size="1.778" layer="97">adjustable lin reg
 more current output</text>
 </plain>
