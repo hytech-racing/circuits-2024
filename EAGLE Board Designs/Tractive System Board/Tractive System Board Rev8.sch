@@ -9764,10 +9764,10 @@ CPC1020NTR
 <attribute name="MPN" value="LTC6994CS6-1#TRMPBF"/>
 </technology>
 <technology name="2">
-<attribute name="DKPN" value="" constant="no"/>
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MOPN" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
+<attribute name="DKPN" value="505-LTC6994CS6-2#TRMPBFCT-ND"/>
+<attribute name="MANUFACTURER" value="Analog Devices Inc"/>
+<attribute name="MOPN" value="584-C6994HS6-2TRMPBF"/>
+<attribute name="MPN" value="LTC6994HS6-2#TRMPBF"/>
 </technology>
 </technologies>
 </device>
@@ -10126,10 +10126,10 @@ Isolated Flyback Converter with 630V/300mA Switch
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DKPN" value="296-AMC3330QDWERQ1TR-ND"/>
+<attribute name="DKPN" value="296-AMC3330DWERCT-ND"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
-<attribute name="MOPN" value="595-AMC3330QDWERQ1"/>
-<attribute name="MPN" value="AMC3330QDWERQ1"/>
+<attribute name="MOPN" value="595-AMC3330DWER"/>
+<attribute name="MPN" value="AMC3330DWER"/>
 </technology>
 </technologies>
 </device>
@@ -10154,10 +10154,10 @@ Isolated Flyback Converter with 630V/300mA Switch
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DKPN" value="296-AMC3330QDWERQ1TR-ND"/>
+<attribute name="DKPN" value="296-AMC3330DWERCT-ND"/>
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
-<attribute name="MOPN" value="595-AMC3330QDWERQ1"/>
-<attribute name="MPN" value="AMC3330QDWERQ1"/>
+<attribute name="MOPN" value="595-AMC3330DWER"/>
+<attribute name="MPN" value="AMC3330DWER"/>
 </technology>
 </technologies>
 </device>
@@ -10468,42 +10468,6 @@ Isolated Flyback Converter with 630V/300mA Switch
 </device>
 </devices>
 </deviceset>
-<deviceset name="FUSE_*" prefix="O">
-<description>Fuse
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_MINI_Datasheet-1077557.pdf"&gt;MINI Blade&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="ORDERING" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="MINI_BLADE_1">
-<attribute name="DKPN" value="2298-ANM58-1A-ND"/>
-<attribute name="MANUFACTURER" value="OptiFuse"/>
-<attribute name="MOPN" value="" constant="no"/>
-<attribute name="MPN" value="ANM58-1A"/>
-</technology>
-<technology name="MINI_BLADE_10">
-<attribute name="DKPN" value="F991-ND"/>
-<attribute name="MANUFACTURER" value="Littelfuse"/>
-<attribute name="MOPN" value="576-0297010.WXNV"/>
-<attribute name="MPN" value="0297010.WXNV"/>
-</technology>
-<technology name="MINI_BLADE_2">
-<attribute name="CURRENT" value="2A"/>
-<attribute name="DKPN" value="F986-ND"/>
-<attribute name="FUSE_TYPE" value="MINI 297"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
-<attribute name="MOPN" value="576-0297002.WXNV"/>
-<attribute name="MPN" value="0297002.WXNV"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RECEPTACLE-7_*" prefix="O">
 <gates>
 <gate name="G$1" symbol="ORDERING" x="0" y="0"/>
@@ -10620,7 +10584,6 @@ Isolated Flyback Converter with 630V/300mA Switch
 <part name="O21" library="HyTechExternal" deviceset="CRIMP_*" device="" technology="MICROFIT_20-24"/>
 <part name="O22" library="HyTechExternal" deviceset="CRIMP_*" device="" technology="MICROFIT_20-24"/>
 <part name="O23" library="HyTechExternal" deviceset="RECEPTACLE-4_*" device="" technology="MICROFIT"/>
-<part name="O25" library="HyTechExternal" deviceset="FUSE_*" device="" technology="MINI_BLADE_10"/>
 <part name="O2" library="HyTechExternal" deviceset="RECEPTACLE-7_*" device="" technology="MICROFIT"/>
 <part name="O3" library="HyTechExternal" deviceset="RECEPTACLE-6_SINGLE_*" device="" technology="MICROFIT"/>
 <part name="U10" library="HyTechDevices" deviceset="LTC6994-*" device="" technology="2"/>
@@ -12578,7 +12541,6 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 </sheet>
 <sheet>
 <plain>
-<text x="33.02" y="190.5" size="1.778" layer="97">10A Mini-Blade Fuse</text>
 <text x="104.14" y="198.12" size="1.778" layer="97">Molex Microfit 4-pin</text>
 <text x="152.4" y="198.12" size="1.778" layer="97">Molex Microfit 6-pin, spaced</text>
 <text x="193.04" y="198.12" size="1.778" layer="97">Molex Microfit 7-pin, spaced</text>
@@ -12642,10 +12604,6 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <instance part="O23" gate="G$1" x="104.14" y="190.5" smashed="yes">
 <attribute name="MPN" x="104.14" y="187.198" size="1.27" layer="96" align="top-left"/>
 <attribute name="NAME" x="104.14" y="191.262" size="1.27" layer="95"/>
-</instance>
-<instance part="O25" gate="G$1" x="38.1" y="182.88" smashed="yes">
-<attribute name="MPN" x="38.1" y="179.578" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="38.1" y="183.642" size="1.27" layer="95"/>
 </instance>
 <instance part="O2" gate="G$1" x="193.04" y="190.5" smashed="yes">
 <attribute name="MPN" x="193.04" y="187.198" size="1.27" layer="96" align="top-left"/>
