@@ -5095,56 +5095,6 @@ Dashed line is edge of mated connector.</description>
 <smd name="7" x="-1.5" y="10.0965" dx="1.27" dy="2.921" layer="1"/>
 <smd name="8" x="-4.5" y="10.0965" dx="1.27" dy="2.921" layer="1"/>
 </package>
-<package name="MOLEX_NANOFIT_SMD_VERTICAL_02">
-<description>2 Pin Nano-Fit Vertical Header, SMD Mount, Single Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/1054311102"&gt;Part&lt;\a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/1054311102_sd.pdf"&gt;Footprint&lt;\a&gt;</description>
-<smd name="1" x="1.25" y="0" dx="1.24" dy="7" layer="1"/>
-<smd name="2" x="-1.25" y="0" dx="1.24" dy="7" layer="1"/>
-<smd name="PAD" x="3.055" y="0" dx="1.1" dy="8" layer="1"/>
-<smd name="PAD1" x="-3.055" y="0" dx="1.1" dy="8" layer="1"/>
-<rectangle x1="-4.115" y1="-4" x2="4.115" y2="5.05" layer="39"/>
-<wire x1="-4.115" y1="-1.74" x2="4.115" y2="-1.74" width="0.127" layer="21"/>
-<wire x1="4.115" y1="-1.74" x2="4.115" y2="1.74" width="0.127" layer="21"/>
-<wire x1="4.115" y1="1.74" x2="2.55" y2="1.74" width="0.127" layer="21"/>
-<wire x1="2.55" y1="1.74" x2="2.55" y2="4.95" width="0.127" layer="21"/>
-<wire x1="2.55" y1="4.95" x2="-2.55" y2="4.95" width="0.127" layer="21"/>
-<wire x1="-2.55" y1="4.95" x2="-2.55" y2="1.74" width="0.127" layer="21"/>
-<wire x1="-2.55" y1="1.74" x2="-4.115" y2="1.74" width="0.127" layer="21"/>
-<wire x1="-4.115" y1="1.74" x2="-4.115" y2="-1.74" width="0.127" layer="21"/>
-<text x="0" y="5.08" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<circle x="3.81" y="5.08" radius="0.635" width="0" layer="21"/>
-</package>
-<package name="1X02">
-<description>2 pin .1" header
-&lt;br&gt;
-&lt;a href="https://s3.amazonaws.com/catalogspreads-pdf/PAGE112-113%20.100%20MALE%20HDR.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</description>
-<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.127" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.127" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.127" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="1.016" first="yes"/>
-<pad name="2" x="1.27" y="0" drill="1.016"/>
-<text x="0" y="1.524" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<circle x="-2.54" y="1.27" radius="0.127" width="0" layer="21"/>
-<rectangle x1="-2.794" y1="-1.524" x2="2.794" y2="1.524" layer="40"/>
-<rectangle x1="-2.794" y1="-1.524" x2="2.794" y2="1.524" layer="39"/>
-</package>
 <package name="885">
 <description>885 Fuse
 &lt;br&gt;
@@ -6578,14 +6528,6 @@ Teensy 3.2/4.0 Footprint
 <wire x1="3.81" y1="-17.78" x2="5.08" y2="-17.78" width="0.6096" layer="94"/>
 <wire x1="3.81" y1="-20.32" x2="5.08" y2="-20.32" width="0.6096" layer="94"/>
 <text x="0" y="-23.495" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-</symbol>
-<symbol name="JUMPER">
-<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="2" x="5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<text x="0" y="0.508" size="1.27" layer="94">JUMP</text>
-<text x="0" y="2.54" size="1.27" layer="95">&gt;NAME</text>
-<text x="0" y="-3.302" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
 <symbol name="FUSE">
 <wire x1="-1.27" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94" curve="-180"/>
@@ -9748,62 +9690,6 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER_?_*" prefix="JP">
-<description>2 Pin Connector</description>
-<gates>
-<gate name="G$1" symbol="JUMPER" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="NANOFIT_SMD_VERTICAL" package="MOLEX_NANOFIT_SMD_VERTICAL_02">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="BLACK">
-<attribute name="DKPN" value="900-1054291304TR-ND"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MOPN" value="538-105429-1304"/>
-<attribute name="MPN" value="105429-1304"/>
-</technology>
-<technology name="NATURAL">
-<attribute name="DKPN" value="900-1054312302TR-ND"/>
-<attribute name="MANUFACTURER" value="Molex"/>
-<attribute name="MOPN" value="538-105431-2302"/>
-<attribute name="MPN" value="105431-2302"/>
-</technology>
-</technologies>
-</device>
-<device name="0603" package="0603-RES">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="13-RC0603FR-130RLTR-ND"/>
-<attribute name="MANUFACTURER" value="YAGEO"/>
-<attribute name="MOPN" value="603-RC0603FR-130RL"/>
-<attribute name="MPN" value="RC0603FR-130RL"/>
-</technology>
-</technologies>
-</device>
-<device name="" package="1X02">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="1X02">
-<attribute name="DKPN" value="S1011EC-02-ND"/>
-<attribute name="MANUFACTURER" value="Sullins Connector Solutions"/>
-<attribute name="MOPN" value=""/>
-<attribute name="MPN" value="PRPC002SAAN-RC"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FUSE_?_*" prefix="F">
 <description>Fuse
 &lt;ul&gt;
@@ -10866,7 +10752,6 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="60.4"/>
 <part name="P108" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C12" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7NF"/>
-<part name="J7" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02" value="JUMPER__1X02"/>
 <part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="0603" technology=".75A"/>
 <part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="0603" technology=".75A"/>
 <part name="PC_OK" library="HyTechDevices - Copy" deviceset="TEST_POINT" device=""/>
@@ -10941,7 +10826,6 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <part name="R51" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="60.4"/>
 <part name="P119" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C21" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7NF"/>
-<part name="J8" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02" value="JUMPER__1X02"/>
 <part name="P120" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="C20" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P121" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -15088,10 +14972,6 @@ current across precharge relay</text>
 <attribute name="VOLTAGE" x="106.68" y="102.87" size="1.27" layer="96" rot="R270" align="top-center"/>
 <attribute name="CAPACITANCE" x="104.902" y="102.87" size="1.27" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="J7" gate="G$1" x="119.38" y="119.38" smashed="yes" rot="R270">
-<attribute name="NAME" x="116.84" y="116.84" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="MPN" x="123.698" y="119.38" size="1.27" layer="96" rot="R270" align="top-left"/>
-</instance>
 <instance part="U20" gate="A" x="246.38" y="88.9" smashed="yes">
 <attribute name="NAME" x="248.793" y="91.948" size="1.27" layer="95"/>
 <attribute name="MPN" x="248.793" y="85.852" size="1.27" layer="96" align="top-left"/>
@@ -15196,9 +15076,9 @@ current across precharge relay</text>
 <attribute name="NAME" x="125.73" y="59.69" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="128.27" y="59.69" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R51" gate="G$1" x="137.16" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="135.89" y="59.69" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="138.43" y="59.69" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R51" gate="G$1" x="142.24" y="60.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="140.97" y="59.69" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="143.51" y="59.69" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="P119" gate="1" x="132.08" y="43.18" smashed="yes">
 <attribute name="VALUE" x="132.08" y="41.91" size="1.27" layer="96" align="top-center"/>
@@ -15207,10 +15087,6 @@ current across precharge relay</text>
 <attribute name="NAME" x="134.62" y="52.07" size="1.27" layer="95" rot="R270" align="bottom-center"/>
 <attribute name="VOLTAGE" x="129.54" y="52.07" size="1.27" layer="96" rot="R270" align="top-center"/>
 <attribute name="CAPACITANCE" x="127.762" y="52.07" size="1.27" layer="96" rot="R270" align="top-center"/>
-</instance>
-<instance part="J8" gate="G$1" x="144.78" y="68.58" smashed="yes" rot="R270">
-<attribute name="NAME" x="142.24" y="66.04" size="1.27" layer="95" rot="R270" align="bottom-center"/>
-<attribute name="MPN" x="149.098" y="68.58" size="1.27" layer="96" rot="R270" align="top-left"/>
 </instance>
 <instance part="P120" gate="G$1" x="144.78" y="91.44" smashed="yes">
 <attribute name="VALUE" x="144.78" y="92.71" size="1.27" layer="96" align="bottom-center"/>
@@ -16022,12 +15898,6 @@ current across precharge relay</text>
 <label x="256.54" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CANH/1.3B" class="0">
-<segment>
-<pinref part="R27" gate="G$1" pin="2"/>
-<pinref part="J7" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
@@ -16041,12 +15911,12 @@ current across precharge relay</text>
 <net name="CANH" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="CANH"/>
-<pinref part="J7" gate="G$1" pin="1"/>
 <label x="127" y="121.92" size="1.27" layer="95" xref="yes"/>
 <wire x1="101.6" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="121.92" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="121.92" x2="127" y2="121.92" width="0.1524" layer="91"/>
 <junction x="116.84" y="121.92"/>
+<pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="114.3" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AMS_OK_3.3V" class="0">
@@ -16107,24 +15977,17 @@ current across precharge relay</text>
 <wire x1="127" y1="55.88" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R51" gate="G$1" pin="1"/>
 <pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="55.88" x2="137.16" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
 <junction x="132.08" y="55.88"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="R51" gate="G$1" pin="2"/>
-<pinref part="J8" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="63.5" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EM_CANH" class="0">
 <segment>
 <pinref part="U10" gate="G$1" pin="CANH"/>
 <wire x1="121.92" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="J8" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="76.2" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="76.2" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
 <label x="142.24" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="R51" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="EM_CANL" class="0">
