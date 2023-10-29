@@ -11007,14 +11007,14 @@ Layer: 94 Symbol</description>
 </instance>
 <instance part="JP8" gate="G$1" x="190.5" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="187.96" y="167.64" size="1.27" layer="95" rot="R90"/>
-<attribute name="MPN" x="193.802" y="167.64" size="1.27" layer="96" rot="R90" align="top-left"/>
+<attribute name="MPN" x="183.642" y="172.72" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
 <instance part="JP9" gate="G$1" x="195.58" y="170.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="193.04" y="170.18" size="1.27" layer="95" rot="R90"/>
 <attribute name="MPN" x="198.882" y="170.18" size="1.27" layer="96" rot="R90" align="top-left"/>
 </instance>
-<instance part="P62" gate="1" x="203.2" y="172.72" smashed="yes">
-<attribute name="VALUE" x="203.2" y="171.45" size="1.27" layer="96" align="top-center"/>
+<instance part="P62" gate="1" x="198.12" y="180.34" smashed="yes" rot="R180">
+<attribute name="VALUE" x="198.12" y="181.61" size="1.27" layer="96" rot="R180" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11261,8 +11261,6 @@ Layer: 94 Symbol</description>
 <segment>
 <pinref part="JP9" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="175.26" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="177.8" x2="203.2" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="177.8" x2="203.2" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="P62" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -11409,7 +11407,7 @@ Layer: 94 Symbol</description>
 <label x="20.32" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CAN_INT" class="0">
+<net name="!CAN_INT" class="0">
 <segment>
 <wire x1="50.8" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
 <label x="50.8" y="15.24" size="1.27" layer="95" xref="yes"/>
