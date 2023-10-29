@@ -10749,9 +10749,9 @@ EN/UVLO &gt; 1.285V</text>
 <text x="45.72" y="203.2" size="2.54" layer="97">AIL Driver</text>
 <text x="154.94" y="203.2" size="2.54" layer="97">Precharge Isolation</text>
 <wire x1="7.62" y1="208.28" x2="7.62" y2="78.74" width="0.254" layer="97" style="longdash"/>
-<wire x1="7.62" y1="78.74" x2="211.836" y2="78.74" width="0.254" layer="97" style="longdash"/>
-<wire x1="211.836" y1="78.74" x2="211.836" y2="208.28" width="0.254" layer="97" style="longdash"/>
-<wire x1="211.836" y1="208.28" x2="7.62" y2="208.28" width="0.254" layer="97" style="longdash"/>
+<wire x1="7.62" y1="78.74" x2="208.026" y2="78.74" width="0.254" layer="97" style="longdash"/>
+<wire x1="208.026" y1="78.74" x2="208.026" y2="208.28" width="0.254" layer="97" style="longdash"/>
+<wire x1="208.026" y1="208.28" x2="7.62" y2="208.28" width="0.254" layer="97" style="longdash"/>
 <text x="124.714" y="151.13" size="1.27" layer="97">Divider Ratio: 0.001904
 Max Input: 533V * 0.001904 = 1.01477V &lt; 1.25V
 Min Input: 377V * 0.001904 = 0.71776V &lt; 1.25V</text>
