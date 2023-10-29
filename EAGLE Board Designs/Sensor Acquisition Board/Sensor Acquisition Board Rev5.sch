@@ -8854,6 +8854,7 @@ Straight</text>
 3. Spare
 Straight</text>
 <text x="160.02" y="149.86" size="1.778" layer="97">Distinguish connectors</text>
+<text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="O" x="0" y="0" smashed="yes">
@@ -9643,6 +9644,7 @@ IMU</text>
 <text x="66.04" y="175.26" size="1.778" layer="97">Swap for 14V</text>
 <text x="53.34" y="132.08" size="1.778" layer="97">Always clamping bc same voltage as supply?</text>
 <text x="144.78" y="147.32" size="1.778" layer="97">Might not need this large capacity</text>
+<text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="O" x="0" y="0" smashed="yes">
@@ -10049,6 +10051,7 @@ IMU</text>
 <text x="68.58" y="190.5" size="1.778" layer="97">adjustable lin reg
 more current output</text>
 <text x="125.476" y="207.518" size="1.778" layer="97">Thermistors</text>
+<text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
@@ -11243,6 +11246,7 @@ Teensy master -&gt; SDO on LTC</text>
 RS232
 Voltage wrong, swap chip</text>
 <text x="63.5" y="25.4" size="1.27" layer="97">Protection?</text>
+<text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
@@ -11996,6 +12000,7 @@ New chip for 3v3 output</text>
 <text x="152.4" y="111.76" size="1.778" layer="97">ADC
 Digitize analog signals
 Thermistors</text>
+<text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
