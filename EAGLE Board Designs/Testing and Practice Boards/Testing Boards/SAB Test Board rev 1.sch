@@ -11945,9 +11945,9 @@ Layer: 94 Symbol</description>
 <label x="116.84" y="205.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="A1" gate="G$1" pin="A1"/>
-<wire x1="17.78" y1="172.72" x2="12.7" y2="172.72" width="0.1524" layer="91"/>
-<label x="12.7" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="12.7" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="12.7" y1="170.18" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="A1" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="5VIN" class="0">
@@ -11965,9 +11965,9 @@ Layer: 94 Symbol</description>
 </net>
 <net name="FOURTH_ORDER_FILT" class="0">
 <segment>
-<pinref part="A1" gate="G$1" pin="A2"/>
-<wire x1="17.78" y1="170.18" x2="12.7" y2="170.18" width="0.1524" layer="91"/>
-<label x="12.7" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="12.7" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="12.7" y1="172.72" x2="17.78" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="A1" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
