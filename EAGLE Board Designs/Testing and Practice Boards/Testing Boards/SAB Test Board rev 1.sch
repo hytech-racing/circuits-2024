@@ -11487,13 +11487,6 @@ Layer: 94 Symbol</description>
 <pinref part="JP4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="T_RX" class="0">
-<segment>
-<pinref part="A1" gate="G$1" pin="(CRX1)D0"/>
-<wire x1="43.18" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
-<label x="50.8" y="144.78" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="TX_485" class="0">
 <segment>
 <pinref part="A1" gate="G$1" pin="(CTX1)D1"/>
@@ -11790,6 +11783,11 @@ Layer: 94 Symbol</description>
 <pinref part="U7" gate="G$1" pin="RO"/>
 <wire x1="91.44" y1="167.64" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
 <label x="76.2" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="A1" gate="G$1" pin="(CRX1)D0"/>
+<wire x1="43.18" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
+<label x="50.8" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$29" class="0">

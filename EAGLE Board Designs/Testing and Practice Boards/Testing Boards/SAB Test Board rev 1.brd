@@ -2288,9 +2288,6 @@ design rules under a new name.</description>
 <wire x1="76.796" y1="25.019" x2="76.962" y2="24.853" width="0.1524" layer="1"/>
 <wire x1="76.962" y1="24.853" x2="76.962" y2="22.733" width="0.1524" layer="1"/>
 </signal>
-<signal name="T_RX">
-<contactref element="A1" pad="D0"/>
-</signal>
 <signal name="TX_485">
 <contactref element="A1" pad="D1"/>
 <contactref element="U7" pad="4"/>
@@ -2504,6 +2501,15 @@ design rules under a new name.</description>
 </signal>
 <signal name="RX_485">
 <contactref element="U7" pad="1"/>
+<contactref element="A1" pad="D0"/>
+<wire x1="24.1935" y1="51.435" x2="25.527" y2="51.435" width="0.1524" layer="1"/>
+<wire x1="25.527" y1="51.435" x2="26.162" y2="50.8" width="0.1524" layer="1"/>
+<via x="26.162" y="50.8" extent="1-16" drill="0.35"/>
+<wire x1="26.162" y1="50.8" x2="29.718" y2="50.8" width="0.1524" layer="16"/>
+<wire x1="29.718" y1="50.8" x2="32.258" y2="48.26" width="0.1524" layer="16"/>
+<via x="32.258" y="48.26" extent="1-16" drill="0.35"/>
+<wire x1="32.258" y1="48.26" x2="42.418" y2="38.1" width="0.1524" layer="1"/>
+<wire x1="42.418" y1="38.1" x2="44.45" y2="38.1" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$29">
 <contactref element="U8" pad="7"/>
