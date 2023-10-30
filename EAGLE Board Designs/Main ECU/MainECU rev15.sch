@@ -8847,7 +8847,7 @@ Note: OPA2991 is also a comparator</description>
 <attribute name="VOLTAGE" value="3.3V"/>
 </part>
 <part name="JP2" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="JUMPER_0603_"/>
-<part name="JP3" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="JUMPER_0603_"/>
+<part name="JP3" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02" value="JUMPER__1X02"/>
 <part name="U16" library="HyTechDevices" deviceset="MAX3074EESA+" device=""/>
 <part name="P64" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P91" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8880,7 +8880,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="R74" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R75" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="P132" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P133" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R76" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="C33" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C34" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
@@ -8901,7 +8900,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="R82" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R81" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="P124" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P125" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R80" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="U19" library="HyTechDevices" deviceset="LTC1563*" device=""/>
 <part name="C38" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
@@ -8914,7 +8912,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="R84" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R83" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="P134" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P135" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R88" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="TP13" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="JP4" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
@@ -8932,7 +8929,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="R94" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R93" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="P142" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P143" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R96" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="U21" library="HyTechDevices" deviceset="LTC1563*" device=""/>
 <part name="C40" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
@@ -8945,7 +8941,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="R102" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R101" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="P147" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P148" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R100" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="C41" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C42" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
@@ -8986,7 +8981,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="R116" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R115" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="P171" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P173" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R114" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="U23" library="HyTechDevices" deviceset="LTC1563*" device=""/>
 <part name="C48" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
@@ -8999,7 +8993,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="R122" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R121" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="P178" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P179" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R120" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="C49" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C50" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
@@ -9032,7 +9025,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="R130" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R129" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="P184" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P185" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R128" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R36" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K" value="RESISTOR_0603_10K"/>
 <part name="R40" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
@@ -9052,7 +9044,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="R43" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R35" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="P193" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P194" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R42" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="4.22M" value="RESISTOR_0603_4.22M"/>
 <part name="R131" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="8.35K"/>
 <part name="R132" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="8.35K"/>
@@ -9480,20 +9471,6 @@ Note: OPA2991 is also a comparator</description>
 <pinref part="J2" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="THERM_FR" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="111.76" y1="160.02" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
-<label x="119.38" y="160.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="THERM_FL" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
-<label x="119.38" y="162.56" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="FL_CORNER_P" class="0">
 <segment>
 <wire x1="185.42" y1="124.46" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
@@ -9536,6 +9513,20 @@ Note: OPA2991 is also a comparator</description>
 <junction x="182.88" y="149.86"/>
 <pinref part="T1" gate="A" pin="TD-"/>
 <label x="180.34" y="149.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="THERM_FL_EXT" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="111.76" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
+<label x="119.38" y="162.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM_FR_EXT" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="111.76" y1="160.02" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
+<label x="119.38" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -13399,13 +13390,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <label x="205.74" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SHDN_D_READ" class="0">
-<segment>
-<wire x1="205.74" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="A2" gate="G$1" pin="A16"/>
-<label x="205.74" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="SHDN_E_READ" class="0">
 <segment>
 <wire x1="205.74" y1="114.3" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
@@ -13446,13 +13430,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="48.26" y1="157.48" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
 <label x="50.8" y="157.48" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U6" gate="G$1" pin="CH3"/>
-</segment>
-</net>
-<net name="!IMU_CS" class="0">
-<segment>
-<wire x1="213.36" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
-<label x="205.74" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="A2" gate="G$1" pin="A14"/>
 </segment>
 </net>
 <net name="SHDN_F_READ" class="0">
@@ -13659,6 +13636,27 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <pinref part="C31" gate="G$1" pin="1"/>
 <pinref part="R70" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="64.77" x2="65.278" y2="64.77" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="THERM_FL" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="A14"/>
+<wire x1="213.36" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
+<label x="205.74" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="THERM_FR" class="0">
+<segment>
+<wire x1="205.74" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="A2" gate="G$1" pin="A16"/>
+<label x="205.74" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SHDN_D_READ" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="A3"/>
+<wire x1="213.36" y1="96.52" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
+<label x="205.74" y="96.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -14583,9 +14581,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <instance part="P132" gate="G$1" x="93.98" y="142.24" smashed="yes">
 <attribute name="VALUE" x="93.98" y="143.51" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P133" gate="G$1" x="63.5" y="142.24" smashed="yes">
-<attribute name="VALUE" x="63.5" y="143.51" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="R76" gate="G$1" x="48.26" y="129.54" smashed="yes">
 <attribute name="NAME" x="46.99" y="130.81" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="46.99" y="128.27" size="1.27" layer="96" align="top-center"/>
@@ -14663,9 +14658,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <instance part="P124" gate="G$1" x="91.44" y="190.5" smashed="yes">
 <attribute name="VALUE" x="91.44" y="191.77" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P125" gate="G$1" x="60.96" y="190.5" smashed="yes">
-<attribute name="VALUE" x="60.96" y="191.77" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="R80" gate="G$1" x="45.72" y="177.8" smashed="yes">
 <attribute name="NAME" x="44.45" y="179.07" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="44.45" y="176.53" size="1.27" layer="96" align="top-center"/>
@@ -14710,9 +14702,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 </instance>
 <instance part="P134" gate="G$1" x="236.22" y="96.52" smashed="yes">
 <attribute name="VALUE" x="236.22" y="97.79" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P135" gate="G$1" x="205.74" y="96.52" smashed="yes">
-<attribute name="VALUE" x="205.74" y="97.79" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R88" gate="G$1" x="190.5" y="83.82" smashed="yes">
 <attribute name="NAME" x="189.23" y="85.09" size="1.27" layer="95" align="bottom-center"/>
@@ -14778,9 +14767,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <instance part="P142" gate="G$1" x="99.06" y="91.44" smashed="yes">
 <attribute name="VALUE" x="99.06" y="92.71" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P143" gate="G$1" x="68.58" y="91.44" smashed="yes">
-<attribute name="VALUE" x="68.58" y="92.71" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="R96" gate="G$1" x="53.34" y="78.74" smashed="yes">
 <attribute name="NAME" x="52.07" y="80.01" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="52.07" y="77.47" size="1.27" layer="96" align="top-center"/>
@@ -14825,9 +14811,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 </instance>
 <instance part="P147" gate="G$1" x="86.36" y="40.64" smashed="yes">
 <attribute name="VALUE" x="86.36" y="41.91" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P148" gate="G$1" x="55.88" y="40.64" smashed="yes">
-<attribute name="VALUE" x="55.88" y="41.91" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R100" gate="G$1" x="40.64" y="27.94" smashed="yes">
 <attribute name="NAME" x="39.37" y="29.21" size="1.27" layer="95" align="bottom-center"/>
@@ -14982,9 +14965,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <instance part="P171" gate="G$1" x="236.22" y="190.5" smashed="yes">
 <attribute name="VALUE" x="236.22" y="191.77" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P173" gate="G$1" x="205.74" y="190.5" smashed="yes">
-<attribute name="VALUE" x="205.74" y="191.77" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="R114" gate="G$1" x="190.5" y="177.8" smashed="yes">
 <attribute name="NAME" x="189.23" y="179.07" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="189.23" y="176.53" size="1.27" layer="96" align="top-center"/>
@@ -15029,9 +15009,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 </instance>
 <instance part="P178" gate="G$1" x="236.22" y="144.78" smashed="yes">
 <attribute name="VALUE" x="236.22" y="146.05" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P179" gate="G$1" x="205.74" y="144.78" smashed="yes">
-<attribute name="VALUE" x="205.74" y="146.05" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R120" gate="G$1" x="190.5" y="132.08" smashed="yes">
 <attribute name="NAME" x="189.23" y="133.35" size="1.27" layer="95" align="bottom-center"/>
@@ -15534,22 +15511,10 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <pinref part="P132" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="U17" gate="G$1" pin="!LP"/>
-<wire x1="66.04" y1="137.16" x2="63.5" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="137.16" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="P133" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="U18" gate="G$1" pin="V+"/>
 <wire x1="88.9" y1="185.42" x2="91.44" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="185.42" x2="91.44" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="P124" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="U18" gate="G$1" pin="!LP"/>
-<wire x1="63.5" y1="185.42" x2="60.96" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="185.42" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="P125" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="U19" gate="G$1" pin="V+"/>
@@ -15558,22 +15523,10 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <pinref part="P134" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="U19" gate="G$1" pin="!LP"/>
-<wire x1="208.28" y1="91.44" x2="205.74" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="91.44" x2="205.74" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="P135" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="U20" gate="G$1" pin="V+"/>
 <wire x1="96.52" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="86.36" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="P142" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="U20" gate="G$1" pin="!LP"/>
-<wire x1="71.12" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="86.36" x2="68.58" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="P143" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="U21" gate="G$1" pin="V+"/>
@@ -15582,34 +15535,16 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <pinref part="P147" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="U21" gate="G$1" pin="!LP"/>
-<wire x1="58.42" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="35.56" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="P148" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="U22" gate="G$1" pin="V+"/>
 <wire x1="233.68" y1="185.42" x2="236.22" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="185.42" x2="236.22" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="P171" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="U22" gate="G$1" pin="!LP"/>
-<wire x1="208.28" y1="185.42" x2="205.74" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="185.42" x2="205.74" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="P173" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="U23" gate="G$1" pin="V+"/>
 <wire x1="233.68" y1="139.7" x2="236.22" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="139.7" x2="236.22" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="P178" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="U23" gate="G$1" pin="!LP"/>
-<wire x1="208.28" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="139.7" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="P179" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="P42" gate="G$1" pin="+3V3"/>
@@ -16358,9 +16293,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <instance part="P184" gate="G$1" x="223.52" y="182.88" smashed="yes">
 <attribute name="VALUE" x="223.52" y="184.15" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P185" gate="G$1" x="193.04" y="182.88" smashed="yes">
-<attribute name="VALUE" x="193.04" y="184.15" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="R128" gate="G$1" x="177.8" y="170.18" smashed="yes">
 <attribute name="NAME" x="176.53" y="171.45" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="176.53" y="168.91" size="1.27" layer="96" align="top-center"/>
@@ -16432,9 +16364,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 </instance>
 <instance part="P193" gate="G$1" x="226.06" y="116.84" smashed="yes">
 <attribute name="VALUE" x="226.06" y="118.11" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P194" gate="G$1" x="195.58" y="116.84" smashed="yes">
-<attribute name="VALUE" x="195.58" y="118.11" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R42" gate="G$1" x="180.34" y="104.14" smashed="yes">
 <attribute name="NAME" x="179.07" y="105.41" size="1.27" layer="95" align="bottom-center"/>
@@ -16569,22 +16498,10 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <pinref part="P184" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="U28" gate="G$1" pin="!LP"/>
-<wire x1="195.58" y1="177.8" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="177.8" x2="193.04" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="P185" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="U5" gate="G$1" pin="V+"/>
 <wire x1="223.52" y1="111.76" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="111.76" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="P193" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="U5" gate="G$1" pin="!LP"/>
-<wire x1="198.12" y1="111.76" x2="195.58" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="111.76" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="P194" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="R131" gate="G$1" pin="1"/>
@@ -16770,11 +16687,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="228.6" y1="113.284" x2="241.046" y2="113.284" width="0.1524" layer="91"/>
 <label x="241.046" y="113.284" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R132" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="177.8" x2="48.26" y2="177.8" width="0.1524" layer="91"/>
-<label x="48.26" y="177.8" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="THERM_FL" class="0">
 <segment>
@@ -16787,11 +16699,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="226.06" y1="179.578" x2="240.03" y2="179.578" width="0.1524" layer="91"/>
 <label x="240.03" y="179.832" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R131" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="187.96" x2="48.26" y2="187.96" width="0.1524" layer="91"/>
-<label x="48.26" y="187.96" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="THERM_FL_EXT" class="0">
 <segment>
@@ -16799,12 +16706,22 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="160.02" y1="170.18" x2="157.48" y2="170.18" width="0.1524" layer="91"/>
 <label x="157.48" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R131" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="187.96" x2="48.26" y2="187.96" width="0.1524" layer="91"/>
+<label x="48.26" y="187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="THERM_FR_EXT" class="0">
 <segment>
 <pinref part="R36" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
 <label x="160.02" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R132" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="177.8" x2="48.26" y2="177.8" width="0.1524" layer="91"/>
+<label x="48.26" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
