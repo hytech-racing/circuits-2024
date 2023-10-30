@@ -2104,7 +2104,7 @@ design rules under a new name.</description>
 <wire x1="88.9" y1="7.62" x2="91.44" y2="10.16" width="0.1524" layer="1"/>
 <wire x1="91.44" y1="10.16" x2="91.44" y2="10.7442" width="0.1524" layer="1"/>
 <wire x1="75.057" y1="5.207" x2="77.47" y2="7.62" width="0.1524" layer="1"/>
-<wire x1="72.263" y1="5.207" x2="75.165" y2="16.865" width="0" layer="19" extent="1-1"/>
+<wire x1="75.165" y1="16.865" x2="72.263" y2="5.207" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
 <contactref element="TP7" pad="1"/>
@@ -2115,24 +2115,21 @@ design rules under a new name.</description>
 </signal>
 <signal name="MOSI">
 <contactref element="TP6" pad="1"/>
-<contactref element="J2" pad="3"/>
-<wire x1="80.01" y1="9.652" x2="88.4428" y2="16.7386" width="0" layer="19" extent="1-1"/>
+<wire x1="80.01" y1="9.652" x2="80.01" y2="10.0612" width="0.1524" layer="1"/>
+<contactref element="U10" pad="16"/>
+<contactref element="J2" pad="2"/>
+<wire x1="75.165" y1="15.565" x2="86.6192" y2="15.565" width="0.1524" layer="1"/>
+<wire x1="86.6192" y1="15.565" x2="88.4428" y2="13.7414" width="0.1524" layer="1"/>
+<wire x1="80.01" y1="10.0612" x2="75.165" y2="15.565" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO">
 <contactref element="TP5" pad="1"/>
-<contactref element="J2" pad="2"/>
-<contactref element="U10" pad="16"/>
 <contactref element="U10" pad="17"/>
-<wire x1="88.4428" y1="13.7414" x2="84.8614" y2="13.7414" width="0.1524" layer="1"/>
-<wire x1="84.8614" y1="13.7414" x2="83.82" y2="12.7" width="0.1524" layer="1"/>
-<via x="83.82" y="12.7" extent="1-16" drill="0.35"/>
-<wire x1="83.82" y1="12.7" x2="83.82" y2="7.62" width="0.1524" layer="16"/>
-<wire x1="83.82" y1="7.62" x2="82.55" y2="6.35" width="0.1524" layer="16"/>
-<via x="82.55" y="6.35" extent="1-16" drill="0.35"/>
-<wire x1="82.55" y1="6.35" x2="81.534" y2="5.334" width="0.1524" layer="1"/>
 <wire x1="81.534" y1="5.334" x2="80.137" y2="5.334" width="0.1524" layer="1"/>
-<wire x1="75.165" y1="16.215" x2="75.165" y2="15.565" width="0" layer="19" extent="1-1"/>
-<wire x1="83.82" y1="12.7" x2="75.165" y2="15.565" width="0" layer="19" extent="1-1"/>
+<contactref element="J2" pad="3"/>
+<wire x1="75.165" y1="16.215" x2="87.9192" y2="16.215" width="0.1524" layer="1"/>
+<wire x1="87.9192" y1="16.215" x2="88.4428" y2="16.7386" width="0.1524" layer="1"/>
+<wire x1="80.137" y1="5.334" x2="75.165" y2="16.215" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!CAN_INT">
 <contactref element="J2" pad="6"/>
