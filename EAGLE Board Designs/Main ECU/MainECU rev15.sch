@@ -9226,26 +9226,26 @@ Note: OPA2991 is also a comparator</description>
 </net>
 <net name="FL_CORNER_EXT_P" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="165.1" x2="63.5" y2="165.1" width="0.1524" layer="91"/>
-<label x="63.5" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
 <wire x1="231.14" y1="127" x2="233.68" y2="127" width="0.1524" layer="91"/>
 <label x="233.68" y="127" size="1.27" layer="95" xref="yes"/>
 <pinref part="T1" gate="B" pin="MX+"/>
 </segment>
-</net>
-<net name="FL_CORNER_EXT_N" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="167.64" x2="63.5" y2="167.64" width="0.1524" layer="91"/>
-<label x="63.5" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="63.5" y="167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="FL_CORNER_EXT_N" class="0">
 <segment>
 <wire x1="231.14" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
 <label x="233.68" y="106.68" size="1.27" layer="95" xref="yes"/>
 <pinref part="T1" gate="B" pin="MX-"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="165.1" x2="63.5" y2="165.1" width="0.1524" layer="91"/>
+<label x="63.5" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="FR_CORNER_EXT_P" class="0">
@@ -13050,6 +13050,12 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <pinref part="P91" gate="1" pin="GND"/>
 <pinref part="U16" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="AGND"/>
+<pinref part="P111" gate="1" pin="GND"/>
+<wire x1="48.26" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="144.78" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAN_ECU_RX2" class="0">
 <segment>
@@ -13361,6 +13367,11 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <label x="20.32" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U6" gate="G$1" pin="!CS!/SHDN"/>
 </segment>
+<segment>
+<pinref part="A2" gate="G$1" pin="D34"/>
+<wire x1="238.76" y1="137.16" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
+<label x="246.38" y="137.16" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="INVERTER_EN" class="0">
 <segment>
@@ -13397,39 +13408,11 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <label x="205.74" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ACCEL_1" class="0">
-<segment>
-<wire x1="48.26" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
-<label x="50.8" y="147.32" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="CH7"/>
-</segment>
-</net>
-<net name="ACCEL_2" class="0">
-<segment>
-<wire x1="48.26" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
-<label x="50.8" y="149.86" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="CH6"/>
-</segment>
-</net>
-<net name="BRAKE_1" class="0">
-<segment>
-<wire x1="48.26" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
-<label x="50.8" y="152.4" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="CH5"/>
-</segment>
-</net>
-<net name="BRAKE_2" class="0">
-<segment>
-<wire x1="48.26" y1="154.94" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
-<label x="50.8" y="154.94" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="CH4"/>
-</segment>
-</net>
 <net name="STEERING_1" class="0">
 <segment>
-<wire x1="48.26" y1="157.48" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
-<label x="50.8" y="157.48" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="CH3"/>
+<wire x1="48.26" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH7"/>
+<label x="50.8" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHDN_F_READ" class="0">
@@ -13441,16 +13424,9 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 </net>
 <net name="CURRENT" class="0">
 <segment>
-<wire x1="48.26" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<label x="50.8" y="160.02" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="CH2"/>
-</segment>
-</net>
-<net name="REFERENCE" class="0">
-<segment>
-<wire x1="48.26" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
-<label x="50.8" y="162.56" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="U6" gate="G$1" pin="CH1"/>
+<wire x1="48.26" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH6"/>
+<label x="50.8" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHDN_G_READ" class="0">
@@ -13465,21 +13441,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="238.76" y1="101.6" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
 <label x="246.38" y="101.6" size="1.27" layer="95" xref="yes"/>
 <pinref part="A2" gate="G$1" pin="(CS)D10"/>
-</segment>
-</net>
-<net name="24V_SENSE_ECU" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="CH0"/>
-<wire x1="48.26" y1="165.1" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
-<label x="50.8" y="165.1" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="P111" gate="1" pin="GND"/>
-<wire x1="48.26" y1="144.78" x2="50.8" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="144.78" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="ECU_TX3" class="0">
@@ -13657,6 +13618,48 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <pinref part="A2" gate="G$1" pin="A3"/>
 <wire x1="213.36" y1="96.52" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
 <label x="205.74" y="96.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BRAKE_1" class="0">
+<segment>
+<wire x1="48.26" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH5"/>
+<label x="50.8" y="152.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BRAKE_2" class="0">
+<segment>
+<wire x1="48.26" y1="157.48" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH3"/>
+<label x="50.8" y="157.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ACCEL_1" class="0">
+<segment>
+<wire x1="48.26" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH2"/>
+<label x="50.8" y="160.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ACCEL_2" class="0">
+<segment>
+<wire x1="48.26" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH1"/>
+<label x="50.8" y="162.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="REFERENCE" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="CH0"/>
+<wire x1="48.26" y1="165.1" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
+<label x="50.8" y="165.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="24V_SENSE_ECU" class="0">
+<segment>
+<wire x1="48.26" y1="154.94" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH4"/>
+<label x="50.8" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
