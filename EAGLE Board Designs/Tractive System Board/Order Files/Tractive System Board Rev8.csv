@@ -1,5 +1,5 @@
 "Board Quantity","Ordering Quantity","Value","Reference","ATTRITION","CAPACITANCE","COLOR","CURRENT","CURRENT_RATED","CURRENT_SATURATION","DCR","DKPN","FUSE_TYPE","GAUGE","INDUCTANCE","MANUFACTURER","MOPN","MPN","POWER","RESISTANCE","TOLERANCE","VOLTAGE","VOLTAGE_CONTINUOUS","VOLTAGE_MAX",
-"2","4","AMC3330_AIRGAP","U7, U8","100","","","","","","","296-AMC3330QDWERQ1TR-ND","","","","Texas Instruments","595-AMC3330QDWERQ1","AMC3330QDWERQ1","","","","","","",
+"2","4","AMC3330_AIRGAP","U7, U8","100","","","","","","","296-AMC3330DWERCT-ND","","","","Texas Instruments","595-AMC3330DWER","AMC3330DWER","","","","","","",
 "2","12","CAPACITOR_0603_100V_10NF","C43, C52","500","10nF","","","","","","311-1788-1-ND","","","","Yageo","603-CC603KRX7R0BB103","CC0603KRX7R0BB103","","","10%","100V","","",
 "2","12","CAPACITOR_0603_10V_0.1UF","C23, C25","500","0.1µF","","","","","","720-1688-1-ND","","","","Vishay Vitramon","77-VJ0603Y104JXQPBC","VJ0603Y104JXQPW1BC","","","5%","10V","","",
 "3","13","CAPACITOR_0603_25V_10UF","C24, C32, C33","333","10µF","","","","","","490-7202-1-ND","","","","Murata Electronics","81-GRM188R61E106MA3D","GRM188R61E106MA73D","","","20%","25V","","",

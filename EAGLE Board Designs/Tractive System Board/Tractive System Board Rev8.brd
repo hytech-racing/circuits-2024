@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -5354,53 +5354,55 @@ Designed by Ethan Su &amp; Liwei Sun</text>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="HyTech Default (4 Layer)">
-<description language="en">
-&lt;b&gt;HyTech Default Design Rules (4 Layer)&lt;/b&gt;
+<designrules name="JLCPCB (4 Layer)">
+<description language="en">&lt;b&gt;JLCPCB Design Rules (4 Layers)&lt;/b&gt;
 &lt;p&gt;
-These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, OshPark, Sunstone Circuits) the team uses.
-</description>
+The default Design Rules have been set to cover
+a wide range of applications.
+&lt;p&gt;
+Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;JLCPCB&lt;/a&gt;
+&lt;/p&gt;</description>
 <param name="layerSetup" value="(1+2*15+16)"/>
 <param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
 <param name="mtIsolate" value="0.2mm 1.065mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="5mil"/>
 <param name="mdWireVia" value="8mil"/>
-<param name="mdPadPad" value="6mil"/>
+<param name="mdPadPad" value="5mil"/>
 <param name="mdPadVia" value="10mil"/>
 <param name="mdViaVia" value="20mil"/>
-<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdPad" value="5mil"/>
 <param name="mdSmdVia" value="10mil"/>
-<param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mdSmdSmd" value="5mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="20mil"/>
+<param name="mdCopperDimension" value="0.2mm"/>
 <param name="mdDrill" value="21mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="10mil"/>
-<param name="msMicroVia" value="10mil"/>
+<param name="msWidth" value="5mil"/>
+<param name="msDrill" value="0.2mm"/>
+<param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
 <param name="rvPadBottom" value="0.25"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
-<param name="rvMicroViaOuter" value="0.25"/>
-<param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="8mil"/>
+<param name="rvMicroViaOuter" value="0"/>
+<param name="rvMicroViaInner" value="0"/>
+<param name="rlMinPadTop" value="6mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="8mil"/>
+<param name="rlMinPadInner" value="6mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="8mil"/>
+<param name="rlMinPadBottom" value="6mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="5mil"/>
+<param name="rlMaxViaOuter" value="10mil"/>
+<param name="rlMinViaInner" value="5mil"/>
+<param name="rlMaxViaInner" value="10mil"/>
+<param name="rlMinMicroViaOuter" value="6mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="8mil"/>
+<param name="rlMinMicroViaInner" value="6mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -5409,8 +5411,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="3mil"/>
-<param name="mlMaxStopFrame" value="3mil"/>
+<param name="mlMinStopFrame" value="2mil"/>
+<param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="30mil"/>
@@ -5632,17 +5634,17 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <attribute name="MPN" value="01220088Z" x="50.292" y="-131.826" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="27.432" y="-9.652" size="0.8128" layer="21" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="J2" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_06_SINGLE_SPACED" value="CONNECTOR-5_MICRO_V6S_" x="23.876" y="-14.478" smashed="yes" rot="R180">
+<element name="TS-" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_06_SINGLE_SPACED" value="CONNECTOR-5_MICRO_V6S_" x="23.876" y="-14.478" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Molex" x="-28.194" y="102.362" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="43650-0617" x="-28.194" y="102.362" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="23.876" y="-20.828" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
 </element>
-<element name="J1" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_07_SINGLE_SPACED" value="CONNECTOR-5_MICRO_V7S_" x="190.5" y="-36.576" smashed="yes" rot="R270">
+<element name="TS+" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_07_SINGLE_SPACED" value="CONNECTOR-5_MICRO_V7S_" x="190.5" y="-36.576" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Molex" x="73.66" y="-63.246" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="43650-0717" x="73.66" y="-63.246" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="196.85" y="-36.576" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
 </element>
-<element name="J3" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_08_DUAL" value="CONNECTOR-8_μF_T_V_BLACK" x="38.354" y="-50.546" smashed="yes" rot="R270">
+<element name="ACU" library="HyTechDevices" package="MOLEX_MICROFIT_PTH_VERTICAL_08_DUAL" value="CONNECTOR-8_μF_T_V_BLACK" x="38.354" y="-50.546" smashed="yes" rot="R270">
 <attribute name="DKPN" value="WM1798-ND" x="-78.486" y="-126.746" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Molex" x="-78.486" y="-126.746" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOPN" value="538-43045-0814" x="-78.486" y="-126.746" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6693,7 +6695,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="C26" pad="2"/>
 <contactref element="C25" pad="2"/>
 <contactref element="GND" pad="1"/>
-<contactref element="J3" pad="4"/>
+<contactref element="ACU" pad="4"/>
 <contactref element="D5" pad="1"/>
 <contactref element="D6" pad="1"/>
 <contactref element="U10" pad="2"/>
@@ -6853,7 +6855,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="51.308" y1="-53.34" x2="51.32" y2="-53.352" width="0.508" layer="1"/>
 </signal>
 <signal name="IT+">
-<contactref element="J3" pad="7"/>
+<contactref element="ACU" pad="7"/>
 <contactref element="U7" pad="11"/>
 <contactref element="IT+" pad="1"/>
 <wire x1="79.375" y1="-38.911" x2="79.375" y2="-40.6501375" width="0.254" layer="1"/>
@@ -6884,7 +6886,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="40.9194" y1="-46.482" x2="42.926" y2="-46.482" width="0.254" layer="1"/>
 </signal>
 <signal name="IT-">
-<contactref element="J3" pad="8"/>
+<contactref element="ACU" pad="8"/>
 <contactref element="U7" pad="10"/>
 <contactref element="IT-" pad="1"/>
 <wire x1="78.105" y1="-38.911" x2="78.105" y2="-40.259" width="0.254" layer="1"/>
@@ -6915,7 +6917,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="40.7162" y1="-43.688" x2="42.926" y2="-43.688" width="0.254" layer="1"/>
 </signal>
 <signal name="IP+">
-<contactref element="J3" pad="5"/>
+<contactref element="ACU" pad="5"/>
 <contactref element="IP+" pad="1"/>
 <contactref element="U8" pad="11"/>
 <wire x1="46.482" y1="-56.134" x2="44.196" y2="-53.848" width="0.254" layer="16"/>
@@ -6937,7 +6939,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="40.7162" y1="-57.404" x2="42.926" y2="-57.404" width="0.254" layer="1"/>
 </signal>
 <signal name="IP-">
-<contactref element="J3" pad="6"/>
+<contactref element="ACU" pad="6"/>
 <contactref element="IP-" pad="1"/>
 <contactref element="U8" pad="10"/>
 <via x="82.931" y="-52.832" extent="1-16" drill="0.35"/>
@@ -6959,7 +6961,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="TS+FUSED">
 <contactref element="F1" pad="3"/>
-<contactref element="J1" pad="4"/>
+<contactref element="TS+" pad="4"/>
 <contactref element="F1" pad="4"/>
 <contactref element="D10" pad="A"/>
 <contactref element="U6" pad="3"/>
@@ -7060,8 +7062,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="TS-FUSED">
 <contactref element="F2" pad="3"/>
-<contactref element="J2" pad="1"/>
-<contactref element="J2" pad="2"/>
+<contactref element="TS-" pad="1"/>
+<contactref element="TS-" pad="2"/>
 <contactref element="F2" pad="4"/>
 <contactref element="D11" pad="A"/>
 <contactref element="LED_+12V1" pad="1"/>
@@ -7168,8 +7170,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="R23" pad="2"/>
 <contactref element="R13" pad="2"/>
 <contactref element="F1" pad="1"/>
-<contactref element="J1" pad="1"/>
-<contactref element="J1" pad="2"/>
+<contactref element="TS+" pad="1"/>
+<contactref element="TS+" pad="2"/>
 <contactref element="F1" pad="2"/>
 <wire x1="176.53" y1="-27.1018" x2="176.53" y2="-19.4691" width="0.8128" layer="15"/>
 <wire x1="176.53" y1="-19.4691" x2="169.7609" y2="-12.7" width="0.8128" layer="15"/>
@@ -7181,7 +7183,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="177.0126" y1="-27.5844" x2="176.53" y2="-27.1018" width="0.8128" layer="15"/>
 </signal>
 <signal name="TS-UNFUSED">
-<contactref element="J2" pad="5"/>
+<contactref element="TS-" pad="5"/>
 <contactref element="F2" pad="1"/>
 <contactref element="TS-UNFUSED" pad="1"/>
 <contactref element="F2" pad="2"/>
@@ -7227,7 +7229,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <signal name="PRECHARGE_OK">
 <contactref element="U10" pad="1"/>
 <contactref element="R29" pad="2"/>
-<contactref element="J3" pad="3"/>
+<contactref element="ACU" pad="3"/>
 <contactref element="PRECHARGE_OK" pad="1"/>
 <wire x1="65.786" y1="-43.582" x2="64.45" y2="-44.918" width="0.254" layer="1"/>
 <wire x1="63.942" y1="-44.918" x2="64.45" y2="-44.918" width="0.254" layer="1"/>
@@ -7252,7 +7254,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="D100" pad="C"/>
 <contactref element="K1" pad="4"/>
 <contactref element="R30" pad="1"/>
-<contactref element="J3" pad="2"/>
+<contactref element="ACU" pad="2"/>
 <contactref element="SHDN" pad="1"/>
 <contactref element="R27" pad="2"/>
 <via x="98.298" y="-61.976" extent="1-16" drill="0.508"/>
@@ -7306,7 +7308,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="PACK+">
 <contactref element="U5" pad="4"/>
-<contactref element="J1" pad="5"/>
+<contactref element="TS+" pad="5"/>
 <contactref element="K1" pad="2"/>
 <contactref element="PACK+" pad="1"/>
 <wire x1="190.5" y1="-45.5676" x2="188.0616" y2="-45.5676" width="0.8128" layer="2"/>
@@ -7350,7 +7352,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="142.9893" y1="-60.1218" x2="140.1191" y2="-62.992" width="0.4064" layer="1"/>
 </signal>
 <signal name="+24V">
-<contactref element="J3" pad="1"/>
+<contactref element="ACU" pad="1"/>
 <contactref element="+24V" pad="1"/>
 <contactref element="C26" pad="1"/>
 <contactref element="R25" pad="2"/>
@@ -7762,7 +7764,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 </signal>
 <signal name="AIL+">
 <contactref element="R20" pad="1"/>
-<contactref element="J2" pad="3"/>
+<contactref element="TS-" pad="3"/>
 <wire x1="34.456" y1="-20.32" x2="33.370521875" y2="-20.32" width="0.254" layer="1"/>
 <via x="33.370521875" y="-20.32" extent="1-16" drill="0.35"/>
 <wire x1="33.370521875" y1="-20.32" x2="31.2166" y2="-20.32" width="0.254" layer="16"/>

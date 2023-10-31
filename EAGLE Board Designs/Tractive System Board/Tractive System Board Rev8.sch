@@ -10526,7 +10526,7 @@ Isolated Flyback Converter with 630V/300mA Switch
 <part name="P31" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="P33" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P37" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
+<part name="ACU" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
 <part name="P39" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U$32" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="F1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="122" value="FUSE_HOLDER_122"/>
@@ -10562,8 +10562,8 @@ Isolated Flyback Converter with 630V/300mA Switch
 <part name="P17" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="U$3" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$30" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
-<part name="J2" library="HyTechDevices" deviceset="CONNECTOR-5_?_*" device="MICRO_V6S" value="CONNECTOR-5_MICRO_V6S_"/>
-<part name="J1" library="HyTechDevices" deviceset="CONNECTOR-5_?_*" device="MICRO_V7S" value="CONNECTOR-5_MICRO_V7S_"/>
+<part name="TS-" library="HyTechDevices" deviceset="CONNECTOR-5_?_*" device="MICRO_V6S" value="CONNECTOR-5_MICRO_V6S_"/>
+<part name="TS+" library="HyTechDevices" deviceset="CONNECTOR-5_?_*" device="MICRO_V7S" value="CONNECTOR-5_MICRO_V7S_"/>
 <part name="TS-UNFUSED" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U$49" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device="">
 <attribute name="DESCRIPTION_1" value="Externals Sheet"/>
@@ -11851,7 +11851,7 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <instance part="P37" gate="1" x="167.64" y="149.86" smashed="yes">
 <attribute name="VALUE" x="167.64" y="148.59" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="J3" gate="G$1" x="35.56" y="162.56" smashed="yes">
+<instance part="ACU" gate="G$1" x="35.56" y="162.56" smashed="yes">
 <attribute name="NAME" x="35.56" y="163.322" size="1.27" layer="95"/>
 </instance>
 <instance part="P39" gate="1" x="63.5" y="149.86" smashed="yes">
@@ -11977,10 +11977,10 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <instance part="U$30" gate="G$1" x="259.08" y="119.38" smashed="yes">
 <attribute name="VALUE" x="259.08" y="116.84" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="J2" gate="G$1" x="231.14" y="124.46" smashed="yes">
+<instance part="TS-" gate="G$1" x="231.14" y="124.46" smashed="yes">
 <attribute name="NAME" x="231.14" y="125.222" size="1.27" layer="95"/>
 </instance>
-<instance part="J1" gate="G$1" x="231.14" y="149.86" smashed="yes">
+<instance part="TS+" gate="G$1" x="231.14" y="149.86" smashed="yes">
 <attribute name="NAME" x="231.14" y="150.622" size="1.27" layer="95"/>
 </instance>
 <instance part="TS-UNFUSED" gate="G$1" x="203.2" y="106.68" smashed="yes">
@@ -12153,7 +12153,7 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <pinref part="P8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
+<pinref part="ACU" gate="G$1" pin="4"/>
 <pinref part="P39" gate="1" pin="GND"/>
 <wire x1="45.72" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
 </segment>
@@ -12211,7 +12211,7 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <pinref part="R29" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="ACU" gate="G$1" pin="3"/>
 <wire x1="45.72" y1="154.94" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
 <label x="48.26" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12272,7 +12272,7 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <pinref part="R42" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="ACU" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="157.48" x2="48.26" y2="157.48" width="0.1524" layer="91"/>
 <label x="48.26" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12316,8 +12316,8 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <segment>
 <pinref part="P14" gate="G$1" pin="TS+UNFUSED"/>
 <wire x1="241.3" y1="147.32" x2="246.38" y2="147.32" width="0.6096" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="TS+" gate="G$1" pin="1"/>
+<pinref part="TS+" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="144.78" x2="246.38" y2="144.78" width="0.6096" layer="91"/>
 <wire x1="246.38" y1="144.78" x2="246.38" y2="147.32" width="0.6096" layer="91"/>
 <junction x="246.38" y="147.32"/>
@@ -12354,7 +12354,7 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <segment>
 <wire x1="241.3" y1="137.16" x2="243.84" y2="137.16" width="0.6096" layer="91"/>
 <label x="243.84" y="137.16" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="5"/>
+<pinref part="TS+" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="134.62" x2="187.96" y2="137.16" width="0.6096" layer="91"/>
@@ -12376,28 +12376,28 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 </net>
 <net name="IP+" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="5"/>
+<pinref part="ACU" gate="G$1" pin="5"/>
 <wire x1="45.72" y1="149.86" x2="48.26" y2="149.86" width="0.1524" layer="91"/>
 <label x="48.26" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IP-" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="6"/>
+<pinref part="ACU" gate="G$1" pin="6"/>
 <wire x1="45.72" y1="147.32" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
 <label x="48.26" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IT+" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="7"/>
+<pinref part="ACU" gate="G$1" pin="7"/>
 <wire x1="45.72" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
 <label x="48.26" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IT-" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="8"/>
+<pinref part="ACU" gate="G$1" pin="8"/>
 <wire x1="45.72" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
 <label x="48.26" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12411,7 +12411,7 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 </net>
 <net name="+24V" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="ACU" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="160.02" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="P3" gate="G$1" pin="+24V"/>
 </segment>
@@ -12464,14 +12464,14 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <segment>
 <pinref part="U$32" gate="G$1" pin="TS+FUSED"/>
 <wire x1="241.3" y1="139.7" x2="256.54" y2="139.7" width="0.6096" layer="91"/>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="TS+" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="TS-UNFUSED" class="0">
 <segment>
 <wire x1="241.3" y1="111.76" x2="243.84" y2="111.76" width="0.6096" layer="91"/>
 <pinref part="P17" gate="G$1" pin="TS-UNFUSED"/>
-<pinref part="J2" gate="G$1" pin="5"/>
+<pinref part="TS-" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="P16" gate="G$1" pin="TS-UNFUSED"/>
@@ -12493,8 +12493,8 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <segment>
 <wire x1="241.3" y1="121.92" x2="243.84" y2="121.92" width="0.6096" layer="91"/>
 <pinref part="U$30" gate="G$1" pin="TS-FUSED"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="TS-" gate="G$1" pin="1"/>
+<pinref part="TS-" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="121.92" x2="259.08" y2="121.92" width="0.6096" layer="91"/>
 <wire x1="241.3" y1="119.38" x2="243.84" y2="119.38" width="0.6096" layer="91"/>
 <wire x1="243.84" y1="119.38" x2="243.84" y2="121.92" width="0.6096" layer="91"/>
@@ -12532,7 +12532,7 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 </net>
 <net name="AIL+" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="TS-" gate="G$1" pin="3"/>
 <wire x1="241.3" y1="116.84" x2="243.84" y2="116.84" width="0.6096" layer="91"/>
 <label x="243.84" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
