@@ -13256,13 +13256,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <pinref part="A2" gate="G$1" pin="D32"/>
 </segment>
 </net>
-<net name="SOFTWARE_OK" class="0">
-<segment>
-<wire x1="238.76" y1="114.3" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
-<label x="246.38" y="114.3" size="1.27" layer="95" xref="yes"/>
-<pinref part="A2" gate="G$1" pin="D28"/>
-</segment>
-</net>
 <net name="ECU_SDO" class="0">
 <segment>
 <wire x1="22.86" y1="154.94" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
@@ -13389,9 +13382,9 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 </net>
 <net name="SHDN_C_READ" class="0">
 <segment>
-<wire x1="205.74" y1="109.22" x2="213.36" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="A2" gate="G$1" pin="A17"/>
-<label x="205.74" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="A2" gate="G$1" pin="(CS)D10"/>
+<wire x1="238.76" y1="101.6" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
+<label x="246.38" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHDN_E_READ" class="0">
@@ -13427,13 +13420,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="213.36" y1="127" x2="205.74" y2="127" width="0.1524" layer="91"/>
 <label x="205.74" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="A2" gate="G$1" pin="A12"/>
-</segment>
-</net>
-<net name="!STEERING_2_CS" class="0">
-<segment>
-<wire x1="238.76" y1="101.6" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
-<label x="246.38" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="A2" gate="G$1" pin="(CS)D10"/>
 </segment>
 </net>
 <net name="ECU_TX3" class="0">
@@ -13656,6 +13642,13 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 </segment>
 </net>
 <net name="BRAKELIGHT_EN" class="0">
+<segment>
+<pinref part="A2" gate="G$1" pin="D6"/>
+<wire x1="238.76" y1="91.44" x2="246.38" y2="91.44" width="0.1524" layer="91"/>
+<label x="246.38" y="91.44" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SOFTWARE_OK" class="0">
 <segment>
 <wire x1="238.76" y1="96.52" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
 <label x="246.38" y="96.52" size="1.27" layer="95" xref="yes"/>
@@ -15640,17 +15633,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="106.68" y1="113.792" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R77" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="165.1" x2="104.14" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="U18" gate="G$1" pin="LPA"/>
-<pinref part="R81" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="172.72" x2="62.484" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="62.484" y1="172.72" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="162.56" x2="62.484" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="62.484" y1="162.56" x2="62.484" y2="172.72" width="0.1524" layer="91"/>
-<junction x="62.484" y="172.72"/>
-</segment>
-<segment>
 <pinref part="U19" gate="G$1" pin="LPA"/>
 <pinref part="R83" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="78.74" x2="207.01" y2="78.74" width="0.1524" layer="91"/>
@@ -16200,6 +16182,19 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <junction x="96.52" y="134.62"/>
 <pinref part="JP4" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LPA10" class="0">
+<segment>
+<pinref part="R77" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="165.1" x2="104.14" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U18" gate="G$1" pin="LPA"/>
+<pinref part="R81" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="172.72" x2="62.484" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="62.484" y1="172.72" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="162.56" x2="62.484" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="62.484" y1="162.56" x2="62.484" y2="172.72" width="0.1524" layer="91"/>
+<junction x="62.484" y="172.72"/>
 </segment>
 </net>
 </nets>
