@@ -13256,13 +13256,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <pinref part="A2" gate="G$1" pin="D32"/>
 </segment>
 </net>
-<net name="BRAKELIGHT_EN" class="0">
-<segment>
-<wire x1="238.76" y1="93.98" x2="246.38" y2="93.98" width="0.1524" layer="91"/>
-<label x="246.38" y="93.98" size="1.27" layer="95" xref="yes"/>
-<pinref part="A2" gate="G$1" pin="D7"/>
-</segment>
-</net>
 <net name="SOFTWARE_OK" class="0">
 <segment>
 <wire x1="238.76" y1="114.3" x2="246.38" y2="114.3" width="0.1524" layer="91"/>
@@ -13382,9 +13375,9 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 </net>
 <net name="INVERTER_24V_EN" class="0">
 <segment>
-<wire x1="238.76" y1="96.52" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
-<label x="246.38" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="A2" gate="G$1" pin="D8"/>
+<wire x1="238.76" y1="93.98" x2="246.38" y2="93.98" width="0.1524" layer="91"/>
+<label x="246.38" y="93.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="A2" gate="G$1" pin="D7"/>
 </segment>
 </net>
 <net name="SHDN_B_READ" class="0">
@@ -13660,6 +13653,13 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="48.26" y1="154.94" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="CH4"/>
 <label x="50.8" y="154.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BRAKELIGHT_EN" class="0">
+<segment>
+<wire x1="238.76" y1="96.52" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
+<label x="246.38" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="A2" gate="G$1" pin="D8"/>
 </segment>
 </net>
 </nets>
