@@ -9396,18 +9396,11 @@ Note: OPA2991 is also a comparator</description>
 <pinref part="J2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="BRAKE_1_EXT" class="0">
-<segment>
-<wire x1="111.76" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
-<label x="119.38" y="127" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="17"/>
-</segment>
-</net>
 <net name="BRAKE_2_EXT" class="0">
 <segment>
-<wire x1="111.76" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
-<label x="119.38" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="18"/>
+<wire x1="111.76" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="17"/>
+<label x="119.38" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="STEERING_1_EXT" class="0">
@@ -9527,6 +9520,13 @@ Note: OPA2991 is also a comparator</description>
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="111.76" y1="160.02" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
 <label x="119.38" y="160.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BRAKE_1_EXT" class="0">
+<segment>
+<wire x1="111.76" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
+<label x="119.38" y="124.46" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="18"/>
 </segment>
 </net>
 </nets>
