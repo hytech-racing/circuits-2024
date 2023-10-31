@@ -10517,7 +10517,7 @@ Layer: 94 Symbol</description>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P4" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C1" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="JP2" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="GEN_TO_T" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
 <part name="P16" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P17" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C2" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
@@ -10525,11 +10525,11 @@ Layer: 94 Symbol</description>
 <part name="JP3" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
 <part name="P20" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P60" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="JP5" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
-<part name="JP6" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="CON_PWR" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="3.3_JMP" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
 <part name="J6" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK"/>
 <part name="P61" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="JP7" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="4_TO_T" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
 <part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
 <part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.32K"/>
 <part name="D5" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="1206" technology="40V"/>
@@ -10972,7 +10972,7 @@ Layer: 94 Symbol</description>
 <attribute name="VOLTAGE" x="198.12" y="107.95" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="199.898" y="107.95" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="JP2" gate="G$1" x="106.68" y="208.28" smashed="yes">
+<instance part="GEN_TO_T" gate="G$1" x="106.68" y="208.28" smashed="yes">
 <attribute name="NAME" x="106.68" y="210.82" size="1.27" layer="95"/>
 <attribute name="MPN" x="106.68" y="204.978" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -11735,7 +11735,7 @@ Layer: 94 Symbol</description>
 <junction x="256.54" y="88.9"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="GEN_TO_T" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="205.74" x2="101.6" y2="205.74" width="0.1524" layer="91"/>
 <label x="101.6" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11938,7 +11938,7 @@ Layer: 94 Symbol</description>
 </net>
 <net name="GEN_FILT_TEENSY" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="GEN_TO_T" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="205.74" x2="116.84" y2="205.74" width="0.1524" layer="91"/>
 <label x="116.84" y="205.74" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12172,15 +12172,15 @@ Layer: 94 Symbol</description>
 <instance part="P60" gate="G$1" x="58.42" y="195.58" smashed="yes">
 <attribute name="VALUE" x="58.42" y="196.85" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP5" gate="G$1" x="45.72" y="187.96" smashed="yes">
+<instance part="CON_PWR" gate="G$1" x="45.72" y="187.96" smashed="yes">
 <attribute name="NAME" x="45.72" y="190.5" size="1.27" layer="95"/>
 <attribute name="MPN" x="45.72" y="184.658" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="JP6" gate="G$1" x="45.72" y="195.58" smashed="yes">
+<instance part="3.3_JMP" gate="G$1" x="45.72" y="195.58" smashed="yes">
 <attribute name="NAME" x="45.72" y="198.12" size="1.27" layer="95"/>
 <attribute name="MPN" x="45.72" y="192.278" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="JP7" gate="G$1" x="96.52" y="205.74" smashed="yes">
+<instance part="4_TO_T" gate="G$1" x="96.52" y="205.74" smashed="yes">
 <attribute name="NAME" x="96.52" y="208.28" size="1.27" layer="95"/>
 <attribute name="MPN" x="96.52" y="202.438" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -12343,7 +12343,7 @@ Layer: 94 Symbol</description>
 <label x="101.6" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="CON_PWR" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
 <label x="55.88" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -12384,7 +12384,7 @@ Layer: 94 Symbol</description>
 <pinref part="U9" gate="G$3" pin="VOUT"/>
 </segment>
 <segment>
-<pinref part="JP7" gate="G$1" pin="1"/>
+<pinref part="4_TO_T" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="203.2" x2="86.36" y2="203.2" width="0.1524" layer="91"/>
 <label x="86.36" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12492,7 +12492,7 @@ Layer: 94 Symbol</description>
 <junction x="198.12" y="96.52"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="3.3_JMP" gate="G$1" pin="2"/>
 <pinref part="P60" gate="G$1" pin="+3V3"/>
 <wire x1="50.8" y1="193.04" x2="58.42" y2="193.04" width="0.1524" layer="91"/>
 </segment>
@@ -12503,16 +12503,16 @@ Layer: 94 Symbol</description>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="185.42" x2="38.1" y2="185.42" width="0.1524" layer="91"/>
 <junction x="38.1" y="185.42"/>
-<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="CON_PWR" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="185.42" x2="38.1" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="3.3_JMP" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="193.04" x2="38.1" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="193.04" x2="38.1" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FOURTH_ORDER_FILT" class="0">
 <segment>
-<pinref part="JP7" gate="G$1" pin="2"/>
+<pinref part="4_TO_T" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="203.2" x2="111.76" y2="203.2" width="0.1524" layer="91"/>
 <label x="111.76" y="203.2" size="1.27" layer="95" xref="yes"/>
 </segment>
