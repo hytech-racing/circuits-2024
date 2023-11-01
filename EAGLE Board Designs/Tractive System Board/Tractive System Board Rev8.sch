@@ -12541,7 +12541,7 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 </sheet>
 <sheet>
 <plain>
-<text x="104.14" y="198.12" size="1.778" layer="97">Molex Microfit 4-pin</text>
+<text x="116.84" y="198.12" size="1.778" layer="97">Molex Microfit 4-pin</text>
 <text x="152.4" y="198.12" size="1.778" layer="97">Molex Microfit 6-pin, spaced</text>
 <text x="193.04" y="198.12" size="1.778" layer="97">Molex Microfit 7-pin, spaced</text>
 </plain>
@@ -12556,18 +12556,18 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
 </instance>
-<instance part="O9" gate="G$1" x="104.14" y="182.88" smashed="yes">
-<attribute name="MPN" x="104.14" y="179.578" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="104.14" y="183.642" size="1.27" layer="95"/>
+<instance part="O9" gate="G$1" x="116.84" y="182.88" smashed="yes">
+<attribute name="MPN" x="116.84" y="179.578" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="116.84" y="183.642" size="1.27" layer="95"/>
 </instance>
-<instance part="O10" gate="G$1" x="109.22" y="182.88" smashed="yes">
-<attribute name="NAME" x="109.22" y="183.642" size="1.27" layer="95"/>
+<instance part="O10" gate="G$1" x="121.92" y="182.88" smashed="yes">
+<attribute name="NAME" x="121.92" y="183.642" size="1.27" layer="95"/>
 </instance>
-<instance part="O11" gate="G$1" x="114.3" y="182.88" smashed="yes">
-<attribute name="NAME" x="114.3" y="183.642" size="1.27" layer="95"/>
+<instance part="O11" gate="G$1" x="127" y="182.88" smashed="yes">
+<attribute name="NAME" x="127" y="183.642" size="1.27" layer="95"/>
 </instance>
-<instance part="O12" gate="G$1" x="119.38" y="182.88" smashed="yes">
-<attribute name="NAME" x="119.38" y="183.642" size="1.27" layer="95"/>
+<instance part="O12" gate="G$1" x="132.08" y="182.88" smashed="yes">
+<attribute name="NAME" x="132.08" y="183.642" size="1.27" layer="95"/>
 </instance>
 <instance part="O13" gate="G$1" x="152.4" y="182.88" smashed="yes">
 <attribute name="MPN" x="152.4" y="179.578" size="1.27" layer="96" align="top-left"/>
@@ -12601,9 +12601,9 @@ Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
 <instance part="O22" gate="G$1" x="213.36" y="182.88" smashed="yes">
 <attribute name="NAME" x="213.36" y="183.642" size="1.27" layer="95"/>
 </instance>
-<instance part="O23" gate="G$1" x="104.14" y="190.5" smashed="yes">
-<attribute name="MPN" x="104.14" y="187.198" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="104.14" y="191.262" size="1.27" layer="95"/>
+<instance part="O23" gate="G$1" x="116.84" y="190.5" smashed="yes">
+<attribute name="MPN" x="116.84" y="187.198" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="116.84" y="191.262" size="1.27" layer="95"/>
 </instance>
 <instance part="O2" gate="G$1" x="193.04" y="190.5" smashed="yes">
 <attribute name="MPN" x="193.04" y="187.198" size="1.27" layer="96" align="top-left"/>
