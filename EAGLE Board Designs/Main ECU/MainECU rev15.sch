@@ -15622,17 +15622,6 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 </net>
 <net name="LPA" class="0">
 <segment>
-<pinref part="U17" gate="G$1" pin="LPA"/>
-<pinref part="R75" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="124.46" x2="65.278" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="65.278" y1="124.46" x2="65.278" y2="113.792" width="0.1524" layer="91"/>
-<junction x="66.04" y="124.46"/>
-<pinref part="R73" gate="G$1" pin="2"/>
-<wire x1="65.278" y1="113.792" x2="106.68" y2="113.792" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="113.792" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U19" gate="G$1" pin="LPA"/>
 <pinref part="R83" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="78.74" x2="207.01" y2="78.74" width="0.1524" layer="91"/>
@@ -16195,6 +16184,19 @@ rotated at 25 degrees from center. (max travel of 20)</text>
 <wire x1="104.14" y1="162.56" x2="62.484" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="62.484" y1="162.56" x2="62.484" y2="172.72" width="0.1524" layer="91"/>
 <junction x="62.484" y="172.72"/>
+</segment>
+</net>
+<net name="LPA20" class="0">
+<segment>
+<pinref part="U17" gate="G$1" pin="LPA"/>
+<pinref part="R75" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="124.46" x2="65.278" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="65.278" y1="124.46" x2="65.278" y2="113.792" width="0.1524" layer="91"/>
+<junction x="66.04" y="124.46"/>
+<pinref part="R73" gate="G$1" pin="2"/>
+<wire x1="65.278" y1="113.792" x2="106.68" y2="113.792" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="113.792" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
