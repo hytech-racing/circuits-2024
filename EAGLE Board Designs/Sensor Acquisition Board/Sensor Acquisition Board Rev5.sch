@@ -8662,7 +8662,6 @@ Requires ordering of:
 <part name="P111" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P112" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P113" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P114" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P115" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C62" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="C64" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
@@ -8818,6 +8817,7 @@ Requires ordering of:
 <part name="P130" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P94" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P97" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="P114" library="HyTechSupplies" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12060,9 +12060,6 @@ Thermistors</text>
 <attribute name="VOLTAGE" x="127" y="189.23" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="128.778" y="189.23" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P114" gate="G$1" x="104.14" y="101.6" smashed="yes">
-<attribute name="VALUE" x="104.14" y="104.14" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="P115" gate="1" x="114.3" y="78.74" smashed="yes">
 <attribute name="VALUE" x="114.3" y="77.47" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -12222,6 +12219,9 @@ Thermistors</text>
 </instance>
 <instance part="P97" gate="G$1" x="246.38" y="109.22" smashed="yes">
 <attribute name="VALUE" x="246.38" y="110.49" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P114" gate="G$1" x="104.14" y="101.6" smashed="yes">
+<attribute name="VALUE" x="104.14" y="102.87" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -12383,6 +12383,16 @@ Thermistors</text>
 <wire x1="256.54" y1="104.14" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
 <junction x="246.38" y="104.14"/>
 </segment>
+<segment>
+<pinref part="P114" gate="G$1" pin="+3V3"/>
+<pinref part="C62" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="99.06" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C64" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="96.52" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="93.98" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="96.52" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
+<junction x="104.14" y="96.52"/>
+</segment>
 </net>
 <net name="TEENSY_CAN_TX1" class="0">
 <segment>
@@ -12424,16 +12434,6 @@ Thermistors</text>
 <wire x1="114.3" y1="193.04" x2="114.3" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="195.58" x2="104.14" y2="195.58" width="0.1524" layer="91"/>
 <junction x="104.14" y="195.58"/>
-</segment>
-<segment>
-<pinref part="P114" gate="G$1" pin="+3V3"/>
-<pinref part="C62" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="99.06" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C64" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="96.52" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="93.98" x2="114.3" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="96.52" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
-<junction x="104.14" y="96.52"/>
 </segment>
 <segment>
 <pinref part="P76" gate="1" pin="+5V"/>
