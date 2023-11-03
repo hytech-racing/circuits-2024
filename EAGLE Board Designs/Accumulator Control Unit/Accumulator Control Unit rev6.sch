@@ -14945,9 +14945,9 @@ current across precharge relay</text>
 <attribute name="VOLTAGE" x="135.89" y="200.66" size="1.27" layer="96" align="top-center"/>
 <attribute name="CAPACITANCE" x="135.89" y="198.882" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="WATCHDOG_INPUT" gate="G$1" x="81.28" y="167.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="83.82" y="166.878" size="1.27" layer="95"/>
-<attribute name="MPN" x="78.74" y="166.878" size="1.27" layer="95" rot="R180" align="top-left"/>
+<instance part="WATCHDOG_INPUT" gate="G$1" x="86.36" y="170.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="88.9" y="169.418" size="1.27" layer="95"/>
+<attribute name="MPN" x="83.82" y="169.418" size="1.27" layer="95" rot="R180" align="top-left"/>
 </instance>
 <instance part="WATCHDOG" gate="LED" x="185.42" y="66.04" smashed="yes">
 <attribute name="COLOR" x="184.15" y="64.262" size="1.27" layer="95" align="top-center"/>
@@ -15632,9 +15632,9 @@ current across precharge relay</text>
 <pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="A3" gate="G$1" pin="D2"/>
-<wire x1="68.58" y1="162.56" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
-<label x="71.12" y="162.56" size="1.27" layer="95" xref="yes"/>
+<label x="71.12" y="167.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="A3" gate="G$1" pin="D4"/>
+<wire x1="68.58" y1="167.64" x2="71.12" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="WATCHDOG_INPUT" class="0">
@@ -15648,10 +15648,9 @@ current across precharge relay</text>
 <wire x1="187.96" y1="93.98" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="83.82" y="170.18" size="1.27" layer="95" xref="yes"/>
+<label x="106.68" y="170.18" size="1.27" layer="95" xref="yes"/>
 <pinref part="WATCHDOG_INPUT" gate="G$1" pin="P$1"/>
 <wire x1="78.74" y1="170.18" x2="83.82" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="170.18" x2="78.74" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="A3" gate="G$1" pin="D5"/>
 <wire x1="68.58" y1="170.18" x2="78.74" y2="170.18" width="0.1524" layer="91"/>
 <junction x="78.74" y="170.18"/>
