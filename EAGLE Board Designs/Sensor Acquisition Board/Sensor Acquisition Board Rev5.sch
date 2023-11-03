@@ -8533,7 +8533,7 @@ Requires ordering of:
 <part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
-<part name="XF1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="SMD" technology="MINIBLADE"/>
+<part name="XF1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="PTH" technology="MINIBLADE" value="FUSE_HOLDER_MINIBLADEPTH"/>
 <part name="D6" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="30V"/>
 <part name="P12" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P13" library="HyTechSupplies" deviceset="GND" device=""/>
