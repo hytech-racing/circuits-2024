@@ -8533,7 +8533,7 @@ Requires ordering of:
 <part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
-<part name="XF1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="PTH" technology="MINIBLADE" value="FUSE_HOLDER_MINIBLADEPTH"/>
+<part name="XF1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="SMD" technology="MINIBLADE" value="FUSE_HOLDER_MINIBLADESMD"/>
 <part name="D6" library="HyTechDevices" deviceset="TVS_?_*" device="DO-214AA" technology="30V"/>
 <part name="P12" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P13" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8725,7 +8725,7 @@ Requires ordering of:
 <part name="P19" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P20" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="JP5" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
-<part name="A3" library="HyTechDevices" deviceset="TEENSY_4.0" device="TH"/>
+<part name="A3" library="HyTechDevices" deviceset="TEENSY_4.0" device="SM" value="TEENSY_4.0SM"/>
 <part name="P21" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P22" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="CLK" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
@@ -8733,11 +8733,11 @@ Requires ordering of:
 <part name="MOSI" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="P23" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P25" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="JP1" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
-<part name="JP2" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
-<part name="JP3" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
-<part name="J14" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK"/>
-<part name="J16" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK"/>
+<part name="JP24V" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="JUMPER_0603_"/>
+<part name="JP12V" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="JUMPER_0603_"/>
+<part name="JP5V" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="JUMPER_0603_"/>
+<part name="J14" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_S_RA" value="CONNECTOR-8_μF_S_RA_"/>
+<part name="J16" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_S_RA" value="CONNECTOR-8_μF_S_RA_"/>
 <part name="P28" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P92" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P104" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -9024,15 +9024,15 @@ Straight</text>
 <instance part="P25" gate="1" x="238.76" y="154.94" smashed="yes">
 <attribute name="VALUE" x="238.76" y="157.48" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="203.2" y="154.94" smashed="yes">
+<instance part="JP24V" gate="G$1" x="203.2" y="154.94" smashed="yes">
 <attribute name="NAME" x="203.2" y="157.48" size="1.27" layer="95"/>
 <attribute name="MPN" x="198.12" y="151.638" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="JP2" gate="G$1" x="215.9" y="149.86" smashed="yes">
+<instance part="JP12V" gate="G$1" x="215.9" y="149.86" smashed="yes">
 <attribute name="NAME" x="215.9" y="152.4" size="1.27" layer="95"/>
 <attribute name="MPN" x="210.82" y="146.558" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="JP3" gate="G$1" x="228.6" y="144.78" smashed="yes">
+<instance part="JP5V" gate="G$1" x="228.6" y="144.78" smashed="yes">
 <attribute name="NAME" x="228.6" y="147.32" size="1.27" layer="95"/>
 <attribute name="MPN" x="223.52" y="141.478" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -9285,7 +9285,7 @@ Straight</text>
 <segment>
 <pinref part="P23" gate="1" pin="+12V"/>
 <wire x1="226.06" y1="152.4" x2="226.06" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="JP12V" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="147.32" x2="226.06" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9467,7 +9467,7 @@ Straight</text>
 <wire x1="203.2" y1="185.42" x2="203.2" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="JP24V" gate="G$1" pin="2"/>
 <pinref part="P120" gate="G$1" pin="+24V"/>
 <wire x1="208.28" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
 </segment>
@@ -9522,16 +9522,16 @@ Straight</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="JP24V" gate="G$1" pin="1"/>
 <pinref part="J13" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="152.4" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="147.32" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="142.24" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="JP12V" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 <junction x="203.2" y="147.32"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="JP5V" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
 <junction x="203.2" y="142.24"/>
 </segment>
@@ -9539,7 +9539,7 @@ Straight</text>
 <net name="+5V" class="0">
 <segment>
 <pinref part="P25" gate="1" pin="+5V"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="JP5V" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="152.4" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="142.24" x2="233.68" y2="142.24" width="0.1524" layer="91"/>
 </segment>
