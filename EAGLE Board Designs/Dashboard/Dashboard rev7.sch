@@ -1452,6 +1452,101 @@ Mouser number 538-505110-0492&lt;br&gt;
 <text x="0" y="1.1" size="0.254" layer="25" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.286" y1="-1.27" x2="2.286" y2="1.27" layer="39"/>
 </package>
+<package name="B3S-100X">
+<description>B3S-100x Button
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/307/en-b3s-1221332.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-3" y1="-3.3" x2="3" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="3" y1="-3.3" x2="3" y2="3.3" width="0.127" layer="21"/>
+<wire x1="3" y1="3.3" x2="-3" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-3" y1="3.3" x2="-3" y2="-3.3" width="0.127" layer="21"/>
+<smd name="2" x="-3.975" y="-2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
+<smd name="1" x="3.975" y="-2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
+<smd name="4" x="-3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
+<smd name="3" x="3.975" y="2.25" dx="1.3" dy="1.55" layer="1" rot="R90"/>
+<text x="0" y="3.556" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;Name</text>
+<rectangle x1="-5.08" y1="-3.556" x2="5.08" y2="3.556" layer="39"/>
+</package>
+<package name="SOT-223">
+<description>SOT-223
+&lt;br&gt;
+&lt;a href="https://www.diodes.com/assets/Package-Files/SOT223.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="2" x="0" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="3" x="2.3" y="-3.2" dx="1.2" dy="1.6" layer="1"/>
+<smd name="4" x="0" y="3.2" dx="3.3" dy="1.6" layer="1"/>
+<text x="0" y="4.445" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-3.275" y1="1.775" x2="3.275" y2="1.775" width="0.127" layer="21"/>
+<wire x1="3.275" y1="1.775" x2="3.275" y2="-1.775" width="0.127" layer="21"/>
+<wire x1="3.275" y1="-1.775" x2="-3.275" y2="-1.775" width="0.127" layer="21"/>
+<wire x1="-3.275" y1="-1.775" x2="-3.275" y2="1.775" width="0.127" layer="21"/>
+<rectangle x1="-3.81" y1="-4.445" x2="3.81" y2="4.445" layer="39"/>
+<circle x="-3.556" y="-3.2" radius="0.15875" width="0" layer="21"/>
+</package>
+<package name="SOT-89">
+<description>SOT-89
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/308/1/NCP785A_D-2317346.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+Based on page 10.</description>
+<smd name="2" x="0" y="-0.355" dx="0.58" dy="0.86" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
+<smd name="3" x="1.5" y="0" dx="0.5" dy="1.57" layer="1"/>
+<wire x1="-2.3" y1="2.7" x2="2.3" y2="2.7" width="0.127" layer="21"/>
+<wire x1="2.3" y1="2.7" x2="2.3" y2="0.1" width="0.127" layer="21"/>
+<wire x1="2.3" y1="0.1" x2="-2.3" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="0.1" x2="-2.3" y2="2.7" width="0.127" layer="21"/>
+<rectangle x1="-2.54" y1="-1.14" x2="2.54" y2="3.94" layer="39"/>
+<text x="0" y="3.94" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<polygon width="0" layer="1">
+<vertex x="-1" y="3.665"/>
+<vertex x="-1" y="0.785"/>
+<vertex x="-0.29" y="0.075"/>
+<vertex x="-0.29" y="0"/>
+<vertex x="0.29" y="0"/>
+<vertex x="0.29" y="0.075"/>
+<vertex x="1" y="0.785"/>
+<vertex x="1" y="3.665"/>
+</polygon>
+<polygon width="0" layer="31" spacing="0.05" pour="hatch">
+<vertex x="-1" y="3.665"/>
+<vertex x="-1" y="0.785"/>
+<vertex x="-0.29" y="0.075"/>
+<vertex x="-0.29" y="0"/>
+<vertex x="0.29" y="0"/>
+<vertex x="0.29" y="0.075"/>
+<vertex x="1" y="0.785"/>
+<vertex x="1" y="3.665"/>
+</polygon>
+<polygon width="0" layer="29" spacing="0.1">
+<vertex x="-1.1" y="3.765"/>
+<vertex x="-1.1" y="0.714"/>
+<vertex x="-0.361" y="0.004"/>
+<vertex x="-0.29" y="0"/>
+<vertex x="0.29" y="0"/>
+<vertex x="0.361" y="0.004"/>
+<vertex x="1.1" y="0.714"/>
+<vertex x="1.1" y="3.765"/>
+</polygon>
+<circle x="-2.3" y="-0.508" radius="0.15875" width="0" layer="21"/>
+</package>
+<package name="SOT-23-5">
+<description>SOT-23-5
+&lt;br&gt;
+&lt;a href="https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sot-23/SOT_5_05-08-1635.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="-1.45" y1="0.875" x2="1.45" y2="0.875" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="1.45" y1="-0.875" x2="-1.45" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.875" x2="-1.45" y2="0.875" width="0.127" layer="21"/>
+<smd name="2" x="0" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="1" x="-0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="3" x="0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="4" x="0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="5" x="-0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<text x="-1.905" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
+<circle x="-1.8" y="-1.31" radius="0.15875" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESISTOR">
@@ -1954,6 +2049,23 @@ Mouser number 538-505110-0492&lt;br&gt;
 <pin name="DIR" x="20.32" y="-10.16" length="short" direction="in" rot="R180"/>
 <text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="-13.462" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+</symbol>
+<symbol name="BUTTON">
+<wire x1="4.445" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="4.445" y1="4.445" x2="4.445" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0.635" y1="4.445" x2="0.635" y2="3.175" width="0.254" layer="94"/>
+<wire x1="4.445" y1="4.445" x2="2.54" y2="4.445" width="0.254" layer="94"/>
+<wire x1="2.54" y1="4.445" x2="0.635" y2="4.445" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="4.445" x2="2.54" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="4.445" y2="1.27" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="5.08" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="2.54" y="5.08" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="96" align="top-center">&gt;MPN</text>
+<pin name="P" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="S" x="7.62" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3748,7 +3860,7 @@ Mouser number 538-505110-0492&lt;br&gt;
 </technology>
 <technology name="50V_1UF">
 <attribute name="CAPACITANCE" value="1uF"/>
-<attribute name="DKPN" value="587-2400-2-ND"/>
+<attribute name="DKPN" value="587-2400-1-ND"/>
 <attribute name="MANUFACTURER" value="Taiyo Yuden"/>
 <attribute name="MOPN" value="963-UMK107BJ105KA-T"/>
 <attribute name="MPN" value="UMK107BJ105KA-T"/>
@@ -5133,6 +5245,146 @@ Neopixel RGBW LED
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MOPN" value="595-SN74LXC2T45DCUR"/>
 <attribute name="MPN" value="SN74LXC2T45DCUR"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BUTTON" prefix="S">
+<description>&lt;b&gt;Button&lt;/b&gt;
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/307/en_b3s-1221332.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BUTTON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B3S-100X">
+<connects>
+<connect gate="G$1" pin="P" pad="1 2"/>
+<connect gate="G$1" pin="S" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="SW415-ND "/>
+<attribute name="MANUFACTURER" value="Omron"/>
+<attribute name="MOPN" value="653-B3S-1000"/>
+<attribute name="MPN" value="B3S-1000"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VOLTAGE_REGULATOR_?_*" prefix="U">
+<description>Voltage Regulators
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/389/dm00366442-1799212.pdf"&gt;LDL1117S50R Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/308/NCP785A_D-1812704.pdf"&gt;NCP785AH120T1G&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ti.com/lit/ds/symlink/lms8117a.pdf?HQS"&gt;LMS8117A Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/389/st732-1830546.pdf"&gt;ST732M50R Datasheet&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;li&gt;&lt;a href="https://www.ti.com/lit/ds/symlink/lm2937.pdf"&gt;LM2937IMPX-10/NOPB Datasheet&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/389/l78l-1849295.pdf"&gt;L78L15ACUTR Datasheet&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOT-223" package="SOT-223">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2 4"/>
+</connects>
+<technologies>
+<technology name="10V">
+<attribute name="DKPN" value="LM2937IMPX-10/NOPBDKR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MOPN" value="926-LM2937IMP-10NOPB" constant="no"/>
+<attribute name="MPN" value=" LM2937IMPX-10/NOPB"/>
+</technology>
+<technology name="3.3V">
+<attribute name="DKPN" value="LMS8117AMP-3.3/NOPBCT-ND"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MOPN" value="926-LMS8117AMP33NOPB"/>
+<attribute name="MPN" value="LMS8117AMP-3.3/NOPB"/>
+</technology>
+<technology name="5V">
+<attribute name="DKPN" value="497-17240-1-ND"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MOPN" value="511-LDL1117S50R"/>
+<attribute name="MPN" value="LDL1117S50R"/>
+</technology>
+<technology name="REGULATOR">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+<technology name="SOT-223">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+<technology name="VOLTAGE">
+<attribute name="DKPN" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT-89" package="SOT-89">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="12V">
+<attribute name="DKPN" value="NCP785AH120T1GOSCT-ND"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor"/>
+<attribute name="MOPN" value="863-NCP785AH120T1G"/>
+<attribute name="MPN" value="NCP785AH120T1G"/>
+</technology>
+<technology name="15V">
+<attribute name="DKPN" value="NCP785AH150T1GOSTR-ND"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor"/>
+<attribute name="MOPN" value="863-NCP785AH150T1G"/>
+<attribute name="MPN" value="NCP785AH150T1G"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT-23-5" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="5V">
+<attribute name="DKPN" value="497-ST732M50RTR-ND"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MOPN" value="511-ST732M50R"/>
+<attribute name="MPN" value="ST732M50R"/>
+</technology>
+</technologies>
+</device>
+<device name="SOT-89-REVERSE" package="SOT-89">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="15V">
+<attribute name="DKPN" value="497-7279-2-ND"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MOPN" value="511-L78L15ACU-TR"/>
+<attribute name="MPN" value="L78L15ACUTR"/>
 </technology>
 </technologies>
 </device>
@@ -8444,6 +8696,13 @@ Layer: 94 Symbol</description>
 <part name="P73" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="C21" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P74" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="S1" library="HyTechDevices" deviceset="BUTTON" device=""/>
+<part name="U17" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_?_*" device="SOT-223" technology="3.3V"/>
+<part name="P77" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P78" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="P79" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
+<part name="C23" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 </parts>
 <sheets>
 <sheet>
@@ -8457,6 +8716,7 @@ Layer: 94 Symbol</description>
 <text x="129.54" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
 <text x="228.6" y="45.72" size="2.54" layer="97">Liwei Sun</text>
 <text x="177.8" y="45.72" size="2.54" layer="97">Youssef Jaafar</text>
+<text x="223.52" y="132.08" size="1.27" layer="95">correct resistors</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
@@ -8661,8 +8921,8 @@ Layer: 94 Symbol</description>
 <instance part="P3" gate="1" x="35.56" y="91.44" smashed="yes">
 <attribute name="VALUE" x="35.56" y="90.17" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P26" gate="1" x="43.18" y="190.5" smashed="yes" rot="R270">
-<attribute name="VALUE" x="46.99" y="190.5" size="1.27" layer="96" rot="R270" align="bottom-center"/>
+<instance part="P26" gate="1" x="33.02" y="193.04" smashed="yes">
+<attribute name="VALUE" x="33.02" y="196.85" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P63" gate="1" x="251.46" y="137.16" smashed="yes">
 <attribute name="VALUE" x="251.46" y="135.89" size="1.27" layer="96" align="top-center"/>
@@ -8674,6 +8934,29 @@ Layer: 94 Symbol</description>
 <instance part="R6" gate="G$1" x="251.46" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="250.19" y="146.05" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="252.73" y="146.05" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="U17" gate="G$1" x="149.86" y="127" smashed="yes">
+<attribute name="NAME" x="149.86" y="127.762" size="1.27" layer="95"/>
+<attribute name="MPN" x="158.75" y="116.078" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="P77" gate="1" x="157.48" y="109.22" smashed="yes">
+<attribute name="VALUE" x="157.48" y="107.95" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P78" gate="1" x="142.24" y="127" smashed="yes">
+<attribute name="VALUE" x="142.24" y="129.54" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P79" gate="G$1" x="172.72" y="127" smashed="yes">
+<attribute name="VALUE" x="172.72" y="128.27" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C22" gate="G$1" x="142.24" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="139.7" y="118.11" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="144.78" y="118.11" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="146.558" y="118.11" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C23" gate="G$1" x="172.72" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="170.18" y="118.11" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="175.26" y="118.11" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="177.038" y="118.11" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -8723,6 +9006,14 @@ Layer: 94 Symbol</description>
 <pinref part="P55" gate="1" pin="+5V"/>
 <pinref part="5V" gate="LED" pin="A"/>
 <wire x1="231.14" y1="167.64" x2="231.14" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U17" gate="G$1" pin="IN"/>
+<wire x1="147.32" y1="124.46" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="P78" gate="1" pin="+5V"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="124.46" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+<junction x="142.24" y="124.46"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8805,6 +9096,17 @@ Layer: 94 Symbol</description>
 <wire x1="251.46" y1="142.24" x2="251.46" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U17" gate="G$1" pin="GND"/>
+<wire x1="157.48" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="116.84" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
+<junction x="157.48" y="114.3"/>
+<pinref part="P77" gate="1" pin="GND"/>
+<wire x1="157.48" y1="114.3" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
@@ -8826,7 +9128,7 @@ Layer: 94 Symbol</description>
 <junction x="124.46" y="124.46"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="190.5" x2="40.64" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="190.5" x2="33.02" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="P26" gate="1" pin="+12V"/>
 </segment>
@@ -8857,6 +9159,14 @@ Layer: 94 Symbol</description>
 <pinref part="TP_3.3V" gate="G$1" pin="1"/>
 <pinref part="P50" gate="G$1" pin="+3V3"/>
 <wire x1="190.5" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U17" gate="G$1" pin="OUT"/>
+<wire x1="167.64" y1="124.46" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="P79" gate="G$1" pin="+3V3"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="124.46" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<junction x="172.72" y="124.46"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -9035,12 +9345,27 @@ Layer: 94 Symbol</description>
 <label x="251.46" y="167.64" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 </segment>
 </net>
+<net name="LEFT_SHIFTER" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
+<label x="30.48" y="101.6" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RIGHT_SHIFTER" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="99.06" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
+<label x="30.48" y="99.06" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
-<text x="43.18" y="20.32" size="1.27" layer="97" font="vector">button here</text>
 <text x="233.68" y="185.42" size="1.778" layer="97">Error Codes</text>
+<text x="180.34" y="45.72" size="2.54" layer="95" font="vector">Ivan Mix</text>
+<text x="20.32" y="116.84" size="1.27" layer="95">Change to 10 pF</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="O" x="0" y="0" smashed="yes">
@@ -9319,6 +9644,10 @@ Layer: 94 Symbol</description>
 <instance part="P65" gate="1" x="43.18" y="111.76" smashed="yes">
 <attribute name="VALUE" x="43.18" y="110.49" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="S1" gate="G$1" x="43.18" y="22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.26" y="20.32" size="1.27" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="MPN" x="41.91" y="20.32" size="1.27" layer="96" rot="R270" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9413,6 +9742,7 @@ Layer: 94 Symbol</description>
 <label x="30.48" y="27.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <wire x1="43.18" y1="27.94" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
 <junction x="43.18" y="27.94"/>
+<pinref part="S1" gate="G$1" pin="P"/>
 </segment>
 </net>
 <net name="MCU_SPI2_MOSI" class="0">
@@ -9699,6 +10029,7 @@ Layer: 94 Symbol</description>
 <wire x1="43.18" y1="12.7" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="15.24" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
 <junction x="43.18" y="15.24"/>
+<pinref part="S1" gate="G$1" pin="S"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
@@ -10195,11 +10526,26 @@ Layer: 94 Symbol</description>
 <wire x1="71.12" y1="152.4" x2="71.12" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="LEFT_SHIFTER" class="0">
+<segment>
+<pinref part="U16" gate="G$1" pin="PA10"/>
+<wire x1="139.7" y1="139.7" x2="142.24" y2="139.7" width="0.1524" layer="91"/>
+<label x="142.24" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
+<net name="RIGHT_SHIFTER" class="0">
+<segment>
+<pinref part="U16" gate="G$1" pin="PA9"/>
+<wire x1="139.7" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
+<label x="142.24" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
 <text x="33.02" y="104.14" size="1.27" layer="97" font="vector">Same symbol, different footprint</text>
+<text x="177.8" y="45.72" size="2.54" layer="95" font="vector">Ivan Mix</text>
 </plain>
 <instances>
 <instance part="FRAME7" gate="O" x="0" y="0" smashed="yes">
@@ -10897,9 +11243,9 @@ Layer: 94 Symbol</description>
 <instance part="P71" gate="1" x="76.2" y="175.26" smashed="yes">
 <attribute name="VALUE" x="76.2" y="173.99" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="TP6" gate="G$1" x="20.32" y="170.18" smashed="yes">
-<attribute name="NAME" x="17.78" y="171.958" size="1.27" layer="95"/>
-<attribute name="MPN" x="17.78" y="168.402" size="1.27" layer="95" align="top-left"/>
+<instance part="TP6" gate="G$1" x="30.48" y="167.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="28.702" y="165.1" size="1.27" layer="95" rot="R90"/>
+<attribute name="MPN" x="32.258" y="165.1" size="1.27" layer="95" rot="R90" align="top-left"/>
 </instance>
 <instance part="C20" gate="G$1" x="27.94" y="180.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.21" y="177.8" size="1.27" layer="95" rot="R180" align="bottom-center"/>
@@ -10986,9 +11332,11 @@ Layer: 94 Symbol</description>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="A1"/>
-<wire x1="38.1" y1="170.18" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="TP6" gate="G$1" pin="1"/>
-<label x="22.86" y="170.18" size="1.27" layer="95" font="vector"/>
+<wire x1="30.48" y1="170.18" x2="25.4" y2="170.18" width="0.1524" layer="91"/>
+<junction x="30.48" y="170.18"/>
+<label x="25.4" y="170.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
