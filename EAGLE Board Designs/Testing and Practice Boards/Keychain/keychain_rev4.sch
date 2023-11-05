@@ -3660,6 +3660,17 @@ Layer: 94 Symbol</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="43.24V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="18.7K_LT">
+<attribute name="DKPN" value="YAG4485CT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RT0603BRD0718K7L"/>
+<attribute name="MPN" value="RT0603BRD0718K7L"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="18.7k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="43.24V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
 <technology name="180">
 <attribute name="DKPN" value="311-180HRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -4042,6 +4053,17 @@ Layer: 94 Symbol</description>
 <attribute name="POWER" value="0.1W"/>
 <attribute name="RESISTANCE" value="43k"/>
 <attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="65.57V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="43K_LT">
+<attribute name="DKPN" value="YAG4557CT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RT0603BRD0743KL"/>
+<attribute name="MPN" value="RT0603BRD0743KL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="43k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="65.57V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
@@ -5454,6 +5476,9 @@ Layer: 94 Symbol</description>
 <part name="D4" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="D5" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="D6" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="RED"/>
+<part name="R4" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
+<part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.1K"/>
+<part name="P9" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5474,12 +5499,12 @@ Layer: 94 Symbol</description>
 <attribute name="NAME" x="83.82" y="102.362" size="1.27" layer="95"/>
 <attribute name="MPN" x="83.82" y="75.438" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="J1" gate="G$1" x="27.94" y="175.26" smashed="yes"/>
-<instance part="P1" gate="1" x="58.42" y="177.8" smashed="yes">
-<attribute name="VALUE" x="58.42" y="180.34" size="1.27" layer="96" align="bottom-center"/>
+<instance part="J1" gate="G$1" x="35.56" y="175.26" smashed="yes"/>
+<instance part="P1" gate="1" x="63.5" y="177.8" smashed="yes">
+<attribute name="VALUE" x="63.5" y="180.34" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P2" gate="1" x="58.42" y="144.78" smashed="yes">
-<attribute name="VALUE" x="58.42" y="143.51" size="1.27" layer="96" align="top-center"/>
+<instance part="P2" gate="1" x="63.5" y="144.78" smashed="yes">
+<attribute name="VALUE" x="63.5" y="143.51" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P3" gate="1" x="76.2" y="71.12" smashed="yes">
 <attribute name="VALUE" x="76.2" y="69.85" size="1.27" layer="96" align="top-center"/>
@@ -5550,6 +5575,17 @@ Layer: 94 Symbol</description>
 <attribute name="COLOR" x="181.102" y="85.09" size="1.27" layer="95" rot="R270" align="top-center"/>
 <attribute name="NAME" x="186.436" y="85.09" size="1.27" layer="96" rot="R270" align="bottom-center"/>
 </instance>
+<instance part="R4" gate="G$1" x="22.86" y="172.72" smashed="yes">
+<attribute name="NAME" x="21.59" y="173.99" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="21.59" y="171.45" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R5" gate="G$1" x="22.86" y="167.64" smashed="yes">
+<attribute name="NAME" x="21.59" y="168.91" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="21.59" y="166.37" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P9" gate="1" x="12.7" y="162.56" smashed="yes">
+<attribute name="VALUE" x="12.7" y="161.29" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5558,12 +5594,12 @@ Layer: 94 Symbol</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <pinref part="P2" gate="1" pin="GND"/>
-<wire x1="50.8" y1="149.86" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="149.86" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="149.86" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="SHELL"/>
-<wire x1="50.8" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="152.4" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
-<junction x="58.42" y="149.86"/>
+<wire x1="58.42" y1="152.4" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="152.4" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
+<junction x="63.5" y="149.86"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -5586,13 +5622,23 @@ Layer: 94 Symbol</description>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="81.28" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="172.72" x2="12.7" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="P9" gate="1" pin="GND"/>
+<wire x1="12.7" y1="172.72" x2="12.7" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="167.64" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="167.64" x2="12.7" y2="167.64" width="0.1524" layer="91"/>
+<junction x="12.7" y="167.64"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
 <pinref part="P1" gate="1" pin="+5V"/>
-<wire x1="50.8" y1="172.72" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="172.72" x2="58.42" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="172.72" x2="63.5" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC"/>
@@ -5695,13 +5741,27 @@ Layer: 94 Symbol</description>
 <junction x="139.7" y="88.9"/>
 </segment>
 </net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="CC1"/>
+<wire x1="25.4" y1="172.72" x2="30.48" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="167.64" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="167.64" x2="27.94" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="CC2"/>
+<wire x1="27.94" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
 <approved hash="104,1,114.3,99.06,U1,VCC,+5V,,,"/>
-<approved hash="104,1,50.8,172.72,J1,VBUS,+5V,,,"/>
-<approved hash="104,1,50.8,152.4,J1,SHELL,GND,,,"/>
 </errors>
 </schematic>
 </drawing>
