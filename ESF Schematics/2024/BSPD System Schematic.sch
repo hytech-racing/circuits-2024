@@ -4274,7 +4274,7 @@ Filter</text>
 <junction x="266.7" y="139.7"/>
 </segment>
 </net>
-<net name="4.4V" class="0">
+<net name="4.5V" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="VIN-"/>
 <wire x1="147.32" y1="177.8" x2="144.78" y2="177.8" width="0.0762" layer="91"/>
@@ -4384,7 +4384,7 @@ Filter</text>
 <wire x1="205.74" y1="175.26" x2="205.74" y2="172.72" width="0.0762" layer="91"/>
 </segment>
 </net>
-<net name="0.9V" class="0">
+<net name="0.5V" class="0">
 <segment>
 <pinref part="U14" gate="G$1" pin="VIN+"/>
 <wire x1="147.32" y1="195.58" x2="144.78" y2="195.58" width="0.0762" layer="91"/>
