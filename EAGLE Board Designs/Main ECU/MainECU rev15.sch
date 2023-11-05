@@ -11418,20 +11418,6 @@ worst case input supply short circuit </text>
 <label x="73.66" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U26" gate="B" pin="VIN+"/>
 </segment>
-<segment>
-<pinref part="R69" gate="G$1" pin="2"/>
-<pinref part="R68" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="200.66" x2="213.36" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="200.66" x2="213.36" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="200.66" x2="215.9" y2="200.66" width="0.1524" layer="91"/>
-<junction x="213.36" y="200.66"/>
-<label x="215.9" y="200.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="109.22" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
-<label x="106.68" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U27" gate="B" pin="VIN+"/>
-</segment>
 </net>
 <net name="CURRENT_OOR_LO" class="0">
 <segment>
@@ -11634,6 +11620,22 @@ worst case input supply short circuit </text>
 <wire x1="109.22" y1="175.26" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
 <label x="106.68" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U27" gate="A" pin="VIN-"/>
+</segment>
+</net>
+<net name="0V26_1" class="0">
+<segment>
+<pinref part="R69" gate="G$1" pin="2"/>
+<pinref part="R68" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="200.66" x2="213.36" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="200.66" x2="213.36" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="200.66" x2="215.9" y2="200.66" width="0.1524" layer="91"/>
+<junction x="213.36" y="200.66"/>
+<label x="215.9" y="200.66" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
+<label x="106.68" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U27" gate="B" pin="VIN+"/>
 </segment>
 </net>
 </nets>
