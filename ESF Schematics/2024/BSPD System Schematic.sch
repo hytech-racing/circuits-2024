@@ -3429,6 +3429,11 @@ Filter</text>
 <attribute name="MPN" value="9360 Series"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
+<technology name="EURO-XPD-2838-806-214-911-00">
+<attribute name="MANUFACTURER" value="Variohm" constant="no"/>
+<attribute name="MPN" value="Euro-XPD-2838-806-214-911-00" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
 <technology name="M3031-000005-2K5PG">
 <attribute name="MANUFACTURER" value="TE Connectivity"/>
 <attribute name="MPN" value="M3031-000005-2K5PG"/>
@@ -3514,7 +3519,7 @@ Filter</text>
 <part name="P13" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P15" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P16" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="A2" library="HyTechSymbols" deviceset="BSE" device="" technology="9360" value="BSE9360"/>
+<part name="A2" library="HyTechSymbols" deviceset="BSE" device="" technology="EURO-XPD-2838-806-214-911-00" value="BSEEURO-XPD-2838-806-214-911-00"/>
 <part name="LATCHING_BUTTON" library="HyTechSymbolsTemp" deviceset="BUTTON_NO_*" device="" technology="LP9"/>
 <part name="U1" library="HyTechSymbols" deviceset="OPAMP" device=""/>
 <part name="U2" library="HyTechSymbols" deviceset="OPAMP" device=""/>
@@ -4269,7 +4274,7 @@ Filter</text>
 <junction x="266.7" y="139.7"/>
 </segment>
 </net>
-<net name="4.45V" class="0">
+<net name="4.4V" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="VIN-"/>
 <wire x1="147.32" y1="177.8" x2="144.78" y2="177.8" width="0.0762" layer="91"/>
@@ -4379,7 +4384,7 @@ Filter</text>
 <wire x1="205.74" y1="175.26" x2="205.74" y2="172.72" width="0.0762" layer="91"/>
 </segment>
 </net>
-<net name="0.5V" class="0">
+<net name="0.9V" class="0">
 <segment>
 <pinref part="U14" gate="G$1" pin="VIN+"/>
 <wire x1="147.32" y1="195.58" x2="144.78" y2="195.58" width="0.0762" layer="91"/>
