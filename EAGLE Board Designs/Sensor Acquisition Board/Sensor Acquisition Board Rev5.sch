@@ -9612,7 +9612,7 @@ Straight</text>
 <wire x1="73.66" y1="172.72" x2="78.74" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SHDN_PI" class="0">
+<net name="PI_SHUTDOWN" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
@@ -12771,7 +12771,7 @@ Thermistors</text>
 <label x="218.44" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SHDN_PI" class="0">
+<net name="PI_SHUTDOWN" class="0">
 <segment>
 <pinref part="A3" gate="G$1" pin="A0"/>
 <wire x1="172.72" y1="187.96" x2="167.64" y2="187.96" width="0.1524" layer="91"/>
