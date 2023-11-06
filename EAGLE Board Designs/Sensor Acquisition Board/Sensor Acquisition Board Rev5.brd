@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -6570,15 +6570,32 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <signal name="RR_EXT_P">
 <contactref element="J16" pad="5"/>
 <contactref element="T2" pad="6"/>
-<wire x1="181.862003125" y1="11.600565625" x2="174.835434375" y2="11.600565625" width="0.254" layer="1"/>
-<wire x1="174.835434375" y1="11.600565625" x2="174.498" y2="11.938" width="0.254" layer="1"/>
+<wire x1="181.862003125" y1="11.600565625" x2="181.227003125" y2="10.965565625" width="0.1524" layer="1"/>
+<wire x1="181.227003125" y1="10.965565625" x2="181.227003125" y2="9.473253125" width="0.1524" layer="1"/>
+<wire x1="178.713871875" y1="6.960121875" x2="181.227003125" y2="9.473253125" width="0.1524" layer="1"/>
+<wire x1="178.713871875" y1="6.960121875" x2="177.951878125" y2="6.960121875" width="0.1524" layer="1"/>
+<wire x1="177.951878125" y1="6.960121875" x2="177.292" y2="7.62" width="0.1524" layer="1"/>
+<wire x1="177.292" y1="9.0583375" x2="176.7999375" y2="9.5504" width="0.1524" layer="1"/>
+<wire x1="176.7999375" y1="9.5504" x2="175.895" y2="9.5504" width="0.1524" layer="1"/>
+<wire x1="177.292" y1="7.62" x2="177.292" y2="9.0583375" width="0.1524" layer="1"/>
+<wire x1="175.895" y1="9.5504" x2="174.498" y2="10.9474" width="0.1524" layer="1"/>
+<wire x1="174.498" y1="10.9474" x2="174.498" y2="11.938" width="0.1524" layer="1"/>
 </signal>
 <signal name="RR_EXT_N">
 <contactref element="J16" pad="6"/>
 <contactref element="T2" pad="4"/>
 <wire x1="183.642259375" y1="9.185884375" x2="183.600375" y2="9.144" width="0.254" layer="1"/>
-<wire x1="183.642259375" y1="9.185884375" x2="181.314375" y2="6.858" width="0.254" layer="1"/>
-<wire x1="181.314375" y1="6.858" x2="174.498" y2="6.858" width="0.254" layer="1"/>
+<wire x1="183.642259375" y1="9.185884375" x2="181.514371875" y2="9.185884375" width="0.1524" layer="1"/>
+<wire x1="179.001240625" y1="6.672753125" x2="181.514371875" y2="9.185884375" width="0.1524" layer="1"/>
+<wire x1="179.001240625" y1="6.672753125" x2="179.001234375" y2="6.672753125" width="0.1524" layer="1"/>
+<wire x1="179.001234375" y1="6.672753125" x2="178.88220625" y2="6.553725" width="0.1524" layer="1"/>
+<wire x1="178.88220625" y1="6.553725" x2="177.7835375" y2="6.553725" width="0.1524" layer="1"/>
+<wire x1="176.8856" y1="7.4516625" x2="176.8856" y2="8.89" width="0.1524" layer="1"/>
+<wire x1="176.8856" y1="8.89" x2="176.6316" y2="9.144" width="0.1524" layer="1"/>
+<wire x1="176.6316" y1="9.144" x2="175.895" y2="9.144" width="0.1524" layer="1"/>
+<wire x1="177.7835375" y1="6.553725" x2="176.8856" y2="7.4516625" width="0.1524" layer="1"/>
+<wire x1="175.895" y1="9.144" x2="174.498" y2="7.747" width="0.1524" layer="1"/>
+<wire x1="174.498" y1="7.747" x2="174.498" y2="6.858" width="0.1524" layer="1"/>
 </signal>
 <signal name="TELEM_CANH">
 <contactref element="J5" pad="2"/>
