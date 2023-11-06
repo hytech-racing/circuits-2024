@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -719,7 +719,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Yageo" x="12.446" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="603-RC0603FR-075K1L " x="12.446" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="RC0603FR-075K1L" x="12.446" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="13.081" y="17.78" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="11.938" y="17.78" size="0.8128" layer="26" font="vector" rot="MR270" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="12.446" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RESISTANCE" value="5.1k" x="12.446" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="12.446" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -731,7 +731,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Yageo" x="15.494" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="603-RC0603FR-075K1L " x="15.494" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="RC0603FR-075K1L" x="15.494" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="16.129" y="17.78" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="14.859" y="17.78" size="0.8128" layer="26" font="vector" rot="MR270" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="15.494" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RESISTANCE" value="5.1k" x="15.494" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="15.494" y="17.78" size="1.778" layer="28" rot="MR90" display="off"/>
