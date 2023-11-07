@@ -9977,13 +9977,6 @@ Layer: 94 Symbol</description>
 <label x="91.44" y="109.22" size="1.27" layer="95" font="vector" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="MCU_NEOPIXEL" class="0">
-<segment>
-<pinref part="U16" gate="G$1" pin="PA2"/>
-<wire x1="78.74" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
-<label x="76.2" y="124.46" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="U16" gate="G$1" pin="VSSA/VREF-"/>
@@ -10240,6 +10233,13 @@ Layer: 94 Symbol</description>
 <wire x1="142.24" y1="144.78" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
 <label x="144.78" y="144.78" size="1.27" layer="95" xref="yes"/>
 <pinref part="U16" gate="G$1" pin="PA8"/>
+</segment>
+</net>
+<net name="MCU_NEOPIXEL" class="0">
+<segment>
+<wire x1="78.74" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
+<label x="76.2" y="157.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="U16" gate="G$1" pin="PC14-OSC32_IN"/>
 </segment>
 </net>
 </nets>
@@ -11228,11 +11228,6 @@ Layer: 94 Symbol</description>
 </net>
 <net name="MCU_NEOPIXEL" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="DIN"/>
-<pinref part="U$6" gate="G$1" pin="B1"/>
-<wire x1="68.58" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$6" gate="G$1" pin="A1"/>
 <wire x1="45.72" y1="170.18" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="TP6" gate="G$1" pin="1"/>
@@ -11456,6 +11451,13 @@ Layer: 94 Symbol</description>
 <pinref part="U$6" gate="G$1" pin="DIR"/>
 <wire x1="68.58" y1="165.1" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="P74" gate="G$1" pin="+3V3"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="B1"/>
+<pinref part="U1" gate="G$1" pin="DIN"/>
+<wire x1="68.58" y1="170.18" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
