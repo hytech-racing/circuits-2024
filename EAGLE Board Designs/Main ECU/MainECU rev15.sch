@@ -9235,7 +9235,7 @@ Note: OPA2991 is also a comparator</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="167.64" x2="63.5" y2="167.64" width="0.1524" layer="91"/>
-<label x="63.5" y="167.64" size="1.27" layer="95" xref="yes"/>
+<label x="63.5" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="FL_CORNER_EXT_N" class="0">
@@ -9557,8 +9557,6 @@ CAN_3 - Sensors and anything else</text>
 <wire x1="134.62" y1="30.48" x2="134.62" y2="101.6" width="0.1524" layer="97"/>
 <wire x1="134.62" y1="101.6" x2="10.16" y2="101.6" width="0.1524" layer="97"/>
 <text x="12.7" y="99.06" size="1.778" layer="97" font="vector">CAN Termination Jumpers + TVS Protection</text>
-<text x="15.24" y="93.98" size="1.778" layer="97" font="vector">wait a minute?, this is affecting impedance at high frequencies! so i added jumpers</text>
-<text x="15.24" y="66.04" size="1.778" layer="97" font="vector">wait a minute?</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="O" x="0" y="0" smashed="yes">
@@ -12584,6 +12582,7 @@ worst case input supply short circuit </text>
 <wire x1="274.32" y1="63.5" x2="274.32" y2="172.466" width="0.1524" layer="97"/>
 <wire x1="214.122" y1="172.466" x2="274.32" y2="172.466" width="0.1524" layer="97"/>
 <text x="261.62" y="205.74" size="1.27" layer="97" font="vector">remove this</text>
+<text x="68.58" y="66.04" size="1.778" layer="97">add decoupling</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
@@ -16254,6 +16253,7 @@ worst case input supply short circuit </text>
 <text x="157.48" y="96.52" size="1.27" layer="97">30 to 3.31
 .1103 gain</text>
 <text x="142.24" y="134.62" size="1.778" layer="97">Filter Stage</text>
+<text x="78.74" y="203.2" size="1.778" layer="97">check the beta value</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
