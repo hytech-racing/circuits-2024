@@ -9306,7 +9306,7 @@ Straight</text>
 <label x="251.46" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TCANH_P" class="0">
+<net name="CAN_P" class="0">
 <segment>
 <pinref part="J15" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="182.88" x2="248.92" y2="182.88" width="0.1524" layer="91"/>
@@ -9343,7 +9343,7 @@ Straight</text>
 <label x="43.18" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TCANL_N" class="0">
+<net name="CAN_N" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="30.48" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
@@ -12437,7 +12437,7 @@ Thermistors</text>
 <wire x1="203.2" y1="195.58" x2="203.2" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TCANH_P" class="0">
+<net name="CAN_P" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="149.86" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
@@ -12464,7 +12464,7 @@ Thermistors</text>
 <label x="106.68" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TCANL_N" class="0">
+<net name="CAN_N" class="0">
 <segment>
 <pinref part="D9" gate="G$1" pin="C2"/>
 <wire x1="134.62" y1="157.48" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
