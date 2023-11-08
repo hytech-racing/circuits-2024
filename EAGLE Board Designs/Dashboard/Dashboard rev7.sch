@@ -9813,11 +9813,15 @@ Layer: 94 Symbol</description>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="185.42" x2="198.12" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="182.88" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
 <label x="185.42" y="182.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="187.96" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="182.88" x2="198.12" y2="180.34" width="0.1524" layer="91"/>
 <junction x="198.12" y="182.88"/>
 <pinref part="S1" gate="G$1" pin="P"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="180.34" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
+<junction x="187.96" y="182.88"/>
 </segment>
 </net>
 <net name="MCU_SPI2_MOSI" class="0">
@@ -10088,12 +10092,6 @@ Layer: 94 Symbol</description>
 <wire x1="48.26" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="180.34" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="BTN_MODE_READ" class="0">
 <segment>
 <pinref part="U16" gate="G$1" pin="PD2"/>
@@ -10106,27 +10104,6 @@ Layer: 94 Symbol</description>
 <pinref part="U16" gate="G$1" pin="PC12"/>
 <wire x1="119.38" y1="175.26" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
 <label x="119.38" y="177.8" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="BOTS_READ" class="0">
-<segment>
-<pinref part="U16" gate="G$1" pin="PB5"/>
-<wire x1="109.22" y1="175.26" x2="109.22" y2="177.8" width="0.1524" layer="91"/>
-<label x="109.22" y="177.8" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="INERTIA_READ" class="0">
-<segment>
-<pinref part="U16" gate="G$1" pin="PB6"/>
-<wire x1="106.68" y1="175.26" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
-<label x="106.68" y="177.8" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="BRB_READ" class="0">
-<segment>
-<pinref part="U16" gate="G$1" pin="PB7"/>
-<wire x1="104.14" y1="175.26" x2="104.14" y2="177.8" width="0.1524" layer="91"/>
-<label x="104.14" y="177.8" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
@@ -10240,6 +10217,27 @@ Layer: 94 Symbol</description>
 <wire x1="78.74" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
 <label x="76.2" y="157.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U16" gate="G$1" pin="PC14-OSC32_IN"/>
+</segment>
+</net>
+<net name="BOTS_READ" class="0">
+<segment>
+<wire x1="106.68" y1="175.26" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
+<label x="106.68" y="177.8" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="U16" gate="G$1" pin="PB6"/>
+</segment>
+</net>
+<net name="INERTIA_READ" class="0">
+<segment>
+<wire x1="104.14" y1="175.26" x2="104.14" y2="177.8" width="0.1524" layer="91"/>
+<label x="104.14" y="177.8" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="U16" gate="G$1" pin="PB7"/>
+</segment>
+</net>
+<net name="BRB_READ" class="0">
+<segment>
+<wire x1="109.22" y1="175.26" x2="109.22" y2="177.8" width="0.1524" layer="91"/>
+<label x="109.22" y="177.8" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
+<pinref part="U16" gate="G$1" pin="PB5"/>
 </segment>
 </net>
 </nets>
