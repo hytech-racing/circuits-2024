@@ -8816,7 +8816,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="P39" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R68" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.18K"/>
 <part name="R69" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
-<part name="D1" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="1206" technology="40V"/>
 <part name="D2" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="1206" technology="40V"/>
 <part name="XB1" library="HyTechDevices" deviceset="BATTERY_HOLDER_*" device="KEYSTONE_498"/>
 <part name="P1" library="HyTechSupplies" deviceset="VBAT" device=""/>
@@ -9053,6 +9052,10 @@ Note: OPA2991 is also a comparator</description>
 <part name="R152" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.33K"/>
 <part name="R153" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K"/>
 <part name="P133" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="C63" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
+<part name="C64" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
+<part name="P135" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="P143" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9104,10 +9107,6 @@ Note: OPA2991 is also a comparator</description>
 </instance>
 <instance part="P25" gate="1" x="78.74" y="114.3" smashed="yes">
 <attribute name="VALUE" x="78.74" y="116.332" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="D1" gate="G$1" x="66.04" y="111.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="70.358" y="110.871" size="1.27" layer="95" rot="R180" align="bottom-center"/>
-<attribute name="MPN" x="79.502" y="111.125" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="D2" gate="G$1" x="68.58" y="109.22" smashed="yes">
 <attribute name="NAME" x="74.93" y="103.505" size="1.27" layer="95" align="bottom-center"/>
@@ -9337,13 +9336,6 @@ Note: OPA2991 is also a comparator</description>
 <pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="23"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="58.42" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$36" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="24"/>
@@ -9353,9 +9345,9 @@ Note: OPA2991 is also a comparator</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="P25" gate="1" pin="+5V"/>
-<wire x1="71.12" y1="111.76" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="23"/>
+<wire x1="58.42" y1="111.76" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHDN_B" class="0">
@@ -12571,9 +12563,9 @@ worst case input supply short circuit </text>
 <wire x1="137.16" y1="132.08" x2="5.08" y2="132.08" width="0.1524" layer="97"/>
 <text x="7.62" y="129.54" size="1.778" layer="97" font="vector">CAN</text>
 <wire x1="5.08" y1="68.58" x2="5.08" y2="30.48" width="0.1524" layer="97"/>
-<wire x1="5.08" y1="30.48" x2="86.36" y2="30.48" width="0.1524" layer="97"/>
-<wire x1="86.36" y1="30.48" x2="86.36" y2="68.58" width="0.1524" layer="97"/>
-<wire x1="86.36" y1="68.58" x2="5.08" y2="68.58" width="0.1524" layer="97"/>
+<wire x1="5.08" y1="30.48" x2="134.62" y2="30.48" width="0.1524" layer="97"/>
+<wire x1="134.62" y1="30.48" x2="134.62" y2="68.58" width="0.1524" layer="97"/>
+<wire x1="134.62" y1="68.58" x2="5.08" y2="68.58" width="0.1524" layer="97"/>
 <text x="7.62" y="66.04" size="1.778" layer="97" font="vector">RS422 for steering</text>
 <wire x1="214.122" y1="172.466" x2="214.122" y2="134.62" width="0.1524" layer="97"/>
 <wire x1="214.122" y1="134.62" x2="180.34" y2="134.62" width="0.1524" layer="97"/>
@@ -12853,6 +12845,21 @@ worst case input supply short circuit </text>
 <instance part="P133" gate="1" x="210.82" y="160.02" smashed="yes">
 <attribute name="VALUE" x="210.82" y="158.75" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="C63" gate="G$1" x="104.14" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="101.6" y="52.07" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="106.68" y="52.07" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="108.458" y="52.07" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C64" gate="G$1" x="114.3" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="111.76" y="52.07" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="116.84" y="52.07" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="P135" gate="G$1" x="104.14" y="63.5" smashed="yes">
+<attribute name="VALUE" x="104.14" y="64.77" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="P143" gate="1" x="114.3" y="40.64" smashed="yes">
+<attribute name="VALUE" x="114.3" y="39.37" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13056,6 +13063,16 @@ worst case input supply short circuit </text>
 <pinref part="P133" gate="1" pin="GND"/>
 <wire x1="210.82" y1="162.56" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C63" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="48.26" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="C64" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="45.72" x2="114.3" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="P143" gate="1" pin="GND"/>
+<wire x1="114.3" y1="45.72" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
+<junction x="114.3" y="45.72"/>
+</segment>
 </net>
 <net name="CAN_ECU_RX2" class="0">
 <segment>
@@ -13225,6 +13242,16 @@ worst case input supply short circuit </text>
 <pinref part="U16" gate="G$1" pin="VCC"/>
 <wire x1="20.32" y1="52.832" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="P64" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="P135" gate="G$1" pin="+3V3"/>
+<pinref part="C63" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="60.96" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C64" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="58.42" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="58.42" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
+<junction x="104.14" y="58.42"/>
 </segment>
 </net>
 <net name="CANH_2" class="0">
