@@ -3733,8 +3733,7 @@ Layer: 94 Symbol</description>
 <part name="U$40" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U1" library="HyTechSymbolsTemp" deviceset="ISO_224*" device="" technology="BDWVR"/>
 <part name="U2" library="HyTechSymbolsTemp" deviceset="ISO_224*" device="" technology="BDWVR"/>
-<part name="R12" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="75k"/>
-<part name="R13" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="75k"/>
+<part name="R12" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="3.3k"/>
 <part name="R18" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="1M"/>
 <part name="R19" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="365k"/>
 <part name="R23" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="1k"/>
@@ -3749,8 +3748,7 @@ Layer: 94 Symbol</description>
 </part>
 <part name="PRECHARGE_RES2" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="1.5k"/>
 <part name="R5" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="365k"/>
-<part name="R1" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="75k"/>
-<part name="R2" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="75k"/>
+<part name="R1" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="3.3k"/>
 <part name="R3" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="1M"/>
 <part name="R4" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="365k"/>
 <part name="R6" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="365k"/>
@@ -3920,8 +3918,8 @@ well before TS voltage reaches 60V</text>
 <instance part="U$26" gate="G$1" x="185.42" y="142.24" smashed="yes">
 <attribute name="VALUE" x="185.42" y="139.7" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="U$28" gate="G$1" x="185.42" y="73.66" smashed="yes">
-<attribute name="VALUE" x="185.42" y="71.12" size="1.27" layer="96" align="top-center"/>
+<instance part="U$28" gate="G$1" x="185.42" y="71.12" smashed="yes">
+<attribute name="VALUE" x="185.42" y="68.58" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P10" gate="1" x="132.08" y="193.04" smashed="yes">
 <attribute name="VALUE" x="132.08" y="191.77" size="1.27" layer="96" align="top-center"/>
@@ -4019,21 +4017,17 @@ well before TS voltage reaches 60V</text>
 <attribute name="MANUFACTURER" x="198.12" y="186.182" size="1.27" layer="96"/>
 <attribute name="MPN" x="198.12" y="174.498" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="R12" gate="G$1" x="182.88" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="181.61" y="151.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="184.15" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R12" gate="G$1" x="185.42" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="184.15" y="151.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="186.69" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R13" gate="G$1" x="187.96" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="186.69" y="151.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="189.23" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R18" gate="G$1" x="185.42" y="182.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="184.15" y="181.61" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="186.69" y="181.61" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R18" gate="G$1" x="185.42" y="162.56" smashed="yes" rot="R90">
+<instance part="R19" gate="G$1" x="185.42" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="184.15" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="186.69" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R19" gate="G$1" x="185.42" y="172.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="184.15" y="171.45" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="186.69" y="171.45" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="R23" gate="G$1" x="254" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="252.73" y="113.03" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -4063,29 +4057,25 @@ well before TS voltage reaches 60V</text>
 <instance part="PRECHARGE_RES2" gate="G$1" x="68.58" y="83.82" smashed="yes">
 <attribute name="VALUE" x="67.31" y="82.55" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="185.42" y="182.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="184.15" y="181.61" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="186.69" y="181.61" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="185.42" y="172.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="184.15" y="171.45" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="186.69" y="171.45" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R1" gate="G$1" x="182.88" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="181.61" y="82.55" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="184.15" y="82.55" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R1" gate="G$1" x="185.42" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="184.15" y="80.01" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="186.69" y="80.01" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="187.96" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="186.69" y="82.55" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="189.23" y="82.55" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="R3" gate="G$1" x="185.42" y="93.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="184.15" y="92.71" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="186.69" y="92.71" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R3" gate="G$1" x="185.42" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="184.15" y="113.03" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="186.69" y="113.03" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="R4" gate="G$1" x="185.42" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="184.15" y="102.87" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="186.69" y="102.87" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="185.42" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="184.15" y="113.03" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="186.69" y="113.03" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R6" gate="G$1" x="185.42" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="184.15" y="92.71" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="186.69" y="92.71" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="U$2" gate="G$1" x="147.32" y="144.78" smashed="yes" rot="R90"/>
 <instance part="U$12" gate="G$1" x="139.7" y="180.34" smashed="yes" rot="MR270">
@@ -4296,24 +4286,6 @@ well before TS voltage reaches 60V</text>
 <pinref part="U$40" gate="G$1" pin="TS-FUSED"/>
 <wire x1="53.34" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="187.96" y1="147.32" x2="185.42" y2="147.32" width="0.0762" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="147.32" x2="182.88" y2="147.32" width="0.0762" layer="91"/>
-<wire x1="185.42" y1="147.32" x2="185.42" y2="144.78" width="0.0762" layer="91"/>
-<junction x="185.42" y="147.32"/>
-<pinref part="U$26" gate="G$1" pin="TS-FUSED"/>
-</segment>
-<segment>
-<wire x1="187.96" y1="78.74" x2="185.42" y2="78.74" width="0.0762" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="78.74" x2="182.88" y2="78.74" width="0.0762" layer="91"/>
-<junction x="185.42" y="78.74"/>
-<pinref part="U$28" gate="G$1" pin="TS-FUSED"/>
-<wire x1="185.42" y1="78.74" x2="185.42" y2="76.2" width="0.0762" layer="91"/>
-</segment>
 </net>
 <net name="PACK+FUSED" class="0">
 <segment>
@@ -4327,9 +4299,9 @@ well before TS voltage reaches 60V</text>
 <pinref part="R24" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="185.42" y1="121.92" x2="185.42" y2="116.84" width="0.0762" layer="91"/>
 <label x="185.42" y="121.92" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="121.92" x2="185.42" y2="116.84" width="0.0762" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -4406,26 +4378,18 @@ well before TS voltage reaches 60V</text>
 <wire x1="30.48" y1="35.56" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$39" gate="G$1" pin="TS+FUSED"/>
 </segment>
-<segment>
-<pinref part="U$25" gate="G$1" pin="TS+FUSED"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="187.96" x2="185.42" y2="185.42" width="0.0762" layer="91"/>
-</segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<wire x1="182.88" y1="86.36" x2="185.42" y2="86.36" width="0.0762" layer="91"/>
-<wire x1="185.42" y1="86.36" x2="187.96" y2="86.36" width="0.0762" layer="91"/>
-<wire x1="185.42" y1="88.9" x2="185.42" y2="86.36" width="0.0762" layer="91"/>
-<junction x="185.42" y="86.36"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<junction x="185.42" y="88.9"/>
-<wire x1="193.04" y1="88.9" x2="185.42" y2="88.9" width="0.0762" layer="91"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
-<wire x1="195.58" y1="160.02" x2="195.58" y2="88.9" width="0.0762" layer="91"/>
-<wire x1="195.58" y1="88.9" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="160.02" x2="195.58" y2="86.36" width="0.0762" layer="91"/>
+<wire x1="195.58" y1="86.36" x2="193.04" y2="86.36" width="0.0762" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="88.9" x2="185.42" y2="86.36" width="0.0762" layer="91"/>
+<wire x1="185.42" y1="86.36" x2="185.42" y2="83.82" width="0.0762" layer="91"/>
+<wire x1="193.04" y1="86.36" x2="185.42" y2="86.36" width="0.0762" layer="91"/>
+<junction x="185.42" y="86.36"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -4459,26 +4423,15 @@ well before TS voltage reaches 60V</text>
 <wire x1="83.82" y1="121.92" x2="83.82" y2="124.46" width="0.4445" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<wire x1="185.42" y1="165.1" x2="185.42" y2="167.64" width="0.0762" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$48" class="0">
 <segment>
-<wire x1="182.88" y1="154.94" x2="185.42" y2="154.94" width="0.0762" layer="91"/>
-<wire x1="185.42" y1="154.94" x2="187.96" y2="154.94" width="0.0762" layer="91"/>
-<wire x1="185.42" y1="157.48" x2="185.42" y2="154.94" width="0.0762" layer="91"/>
-<junction x="185.42" y="154.94"/>
-<wire x1="185.42" y1="157.48" x2="190.5" y2="157.48" width="0.0762" layer="91"/>
 <wire x1="190.5" y1="157.48" x2="190.5" y2="180.34" width="0.0762" layer="91"/>
 <wire x1="190.5" y1="180.34" x2="195.58" y2="180.34" width="0.0762" layer="91"/>
 <pinref part="U2" gate="G$1" pin="IN"/>
+<pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="157.48" x2="185.42" y2="154.94" width="0.0762" layer="91"/>
+<wire x1="190.5" y1="157.48" x2="185.42" y2="157.48" width="0.0762" layer="91"/>
 <junction x="185.42" y="157.48"/>
 </segment>
 </net>
@@ -4589,21 +4542,7 @@ well before TS voltage reaches 60V</text>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="177.8" x2="185.42" y2="175.26" width="0.0762" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<wire x1="185.42" y1="96.52" x2="185.42" y2="99.06" width="0.0762" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="109.22" x2="185.42" y2="106.68" width="0.0762" layer="91"/>
+<wire x1="185.42" y1="167.64" x2="185.42" y2="165.1" width="0.0762" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -4718,12 +4657,27 @@ well before TS voltage reaches 60V</text>
 <wire x1="53.34" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U$42" gate="G$1" pin="TS+FUSED"/>
 </segment>
+<segment>
+<pinref part="U$25" gate="G$1" pin="TS+FUSED"/>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="187.96" x2="185.42" y2="185.42" width="0.0762" layer="91"/>
+</segment>
 </net>
 <net name="TS-FUSED" class="0">
 <segment>
 <pinref part="U$29" gate="G$1" pin="TS-"/>
 <pinref part="U$30" gate="G$1" pin="TS-FUSED"/>
 <wire x1="213.36" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$28" gate="G$1" pin="TS-FUSED"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="73.66" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="U$26" gate="G$1" pin="TS-FUSED"/>
+<wire x1="185.42" y1="147.32" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -4740,6 +4694,27 @@ well before TS voltage reaches 60V</text>
 <pinref part="ACCUMULATOR_INDICATOR" gate="G$1" pin="A"/>
 <wire x1="254" y1="109.22" x2="254" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="254" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="109.22" x2="185.42" y2="106.68" width="0.0762" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="99.06" x2="185.42" y2="96.52" width="0.0762" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="177.8" x2="185.42" y2="175.26" width="0.0762" layer="91"/>
 </segment>
 </net>
 </nets>
