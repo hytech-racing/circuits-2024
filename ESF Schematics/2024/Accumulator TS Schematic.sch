@@ -403,6 +403,30 @@ LOGIC</text>
 <wire x1="10.16" y1="-15.24" x2="12.7" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
 <pin name="TS+12V" x="30.48" y="-2.54" length="short" direction="pwr" rot="R180"/>
 </symbol>
+<symbol name="ISO224">
+<description>ISO224*: Isolated precision amplifier
+&lt;br&gt;
+&lt;a href="https://www.ti.com/lit/ds/symlink/iso224.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="0" y1="-10.16" x2="11.176" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="11.176" y1="-10.16" x2="22.86" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-10.16" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="11.176" y2="0" width="0.254" layer="94"/>
+<wire x1="11.176" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
+<pin name="OUTN" x="25.4" y="-7.62" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="OUTP" x="25.4" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="IN" x="-2.54" y="-5.08" length="short" direction="in"/>
+<text x="0" y="-10.922" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-8.89" x2="10.16" y2="-7.366" width="0.254" layer="94"/>
+<wire x1="12.192" y1="-6.1468" x2="13.97" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="13.97" y1="-5.08" x2="12.192" y2="-4.0132" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.794" x2="7.62" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.794" x2="10.16" y2="-7.366" width="0.254" layer="94"/>
+<wire x1="12.192" y1="-4.0132" x2="12.192" y2="-6.1468" width="0.254" layer="94"/>
+<wire x1="11.176" y1="0" x2="11.176" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -599,6 +623,30 @@ LOGIC</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="AMC333" prefix="U">
+<description>ISO224*: Isolated precision amplifier
+&lt;br&gt;
+&lt;a href="https://www.ti.com/lit/ds/symlink/iso224.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ISO224" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="BDWVR">
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MPN" value="AMC3330DWER"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="HyTechSymbolsTemp">
@@ -682,30 +730,6 @@ METER</text>
 <pin name="4" x="10.16" y="-10.16" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="5" x="10.16" y="-12.7" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <text x="0" y="-15.875" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-</symbol>
-<symbol name="ISO224">
-<description>ISO224*: Isolated precision amplifier
-&lt;br&gt;
-&lt;a href="https://www.ti.com/lit/ds/symlink/iso224.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<wire x1="0" y1="-10.16" x2="11.176" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="11.176" y1="-10.16" x2="22.86" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-10.16" x2="22.86" y2="0" width="0.254" layer="94"/>
-<wire x1="22.86" y1="0" x2="11.176" y2="0" width="0.254" layer="94"/>
-<wire x1="11.176" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
-<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
-<pin name="OUTN" x="25.4" y="-7.62" length="short" direction="out" function="dot" rot="R180"/>
-<pin name="OUTP" x="25.4" y="-2.54" length="short" direction="out" rot="R180"/>
-<pin name="IN" x="-2.54" y="-5.08" length="short" direction="in"/>
-<text x="0" y="-10.922" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-<wire x1="7.62" y1="-1.27" x2="7.62" y2="-8.89" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-8.89" x2="10.16" y2="-7.366" width="0.254" layer="94"/>
-<wire x1="12.192" y1="-6.1468" x2="13.97" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="13.97" y1="-5.08" x2="12.192" y2="-4.0132" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.794" x2="7.62" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-2.794" x2="10.16" y2="-7.366" width="0.254" layer="94"/>
-<wire x1="12.192" y1="-4.0132" x2="12.192" y2="-6.1468" width="0.254" layer="94"/>
-<wire x1="11.176" y1="0" x2="11.176" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
 </symbol>
 <symbol name="RESISTOR_VALUE">
 <pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
@@ -833,30 +857,6 @@ METER</text>
 <technology name="MICROFIT">
 <attribute name="MANUFACTURER" value="Molex"/>
 <attribute name="MPN" value="Microfit 3.0"/>
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ISO_224*" prefix="U">
-<description>ISO224*: Isolated precision amplifier
-&lt;br&gt;
-&lt;a href="https://www.ti.com/lit/ds/symlink/iso224.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ISO224" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-<technology name="BDWVR">
-<attribute name="MANUFACTURER" value="Texas Instruments"/>
-<attribute name="MPN" value="ISO224BDWVR"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -3731,8 +3731,6 @@ Layer: 94 Symbol</description>
 <part name="J8" library="HyTechSymbolsTemp" deviceset="CONNECTOR-5_*" device="" technology="MICROFIT"/>
 <part name="P19" library="HyTechSupplies" deviceset="TS-UNFUSED" device=""/>
 <part name="U$40" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
-<part name="U1" library="HyTechSymbolsTemp" deviceset="ISO_224*" device="" technology="BDWVR"/>
-<part name="U2" library="HyTechSymbolsTemp" deviceset="ISO_224*" device="" technology="BDWVR"/>
 <part name="R12" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="3.3k"/>
 <part name="R18" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="1M"/>
 <part name="R19" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="365k"/>
@@ -3767,6 +3765,8 @@ Layer: 94 Symbol</description>
 <part name="U$41" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="U$42" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="U$29" library="HyTechSymbols" deviceset="BUCK_CONVERTER" device=""/>
+<part name="U1" library="HyTechSymbols" deviceset="AMC333" device="" technology="BDWVR"/>
+<part name="U2" library="HyTechSymbols" deviceset="AMC333" device="" technology="BDWVR"/>
 </parts>
 <sheets>
 <sheet>
@@ -4009,14 +4009,6 @@ before TS voltage reaches 60V</text>
 <instance part="U$40" gate="G$1" x="68.58" y="40.64" smashed="yes">
 <attribute name="VALUE" x="68.58" y="38.1" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="U1" gate="G$1" x="198.12" y="165.1" smashed="yes">
-<attribute name="MANUFACTURER" x="198.12" y="165.862" size="1.27" layer="96"/>
-<attribute name="MPN" x="198.12" y="154.178" size="1.27" layer="96" align="top-left"/>
-</instance>
-<instance part="U2" gate="G$1" x="198.12" y="185.42" smashed="yes">
-<attribute name="MANUFACTURER" x="198.12" y="186.182" size="1.27" layer="96"/>
-<attribute name="MPN" x="198.12" y="174.498" size="1.27" layer="96" align="top-left"/>
-</instance>
 <instance part="R12" gate="G$1" x="185.42" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="184.15" y="151.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="186.69" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
@@ -4121,6 +4113,14 @@ before TS voltage reaches 60V</text>
 <attribute name="VALUE" x="43.18" y="147.32" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U$29" gate="G$1" x="215.9" y="124.46" smashed="yes"/>
+<instance part="U1" gate="G$1" x="198.12" y="165.1" smashed="yes">
+<attribute name="MANUFACTURER" x="198.12" y="165.862" size="1.27" layer="96"/>
+<attribute name="MPN" x="198.12" y="154.178" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="U2" gate="G$1" x="198.12" y="185.42" smashed="yes">
+<attribute name="MANUFACTURER" x="198.12" y="186.182" size="1.27" layer="96"/>
+<attribute name="MPN" x="198.12" y="174.498" size="1.27" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4381,15 +4381,14 @@ before TS voltage reaches 60V</text>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="IN"/>
 <wire x1="195.58" y1="160.02" x2="195.58" y2="86.36" width="0.0762" layer="91"/>
-<wire x1="195.58" y1="86.36" x2="193.04" y2="86.36" width="0.0762" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="88.9" x2="185.42" y2="86.36" width="0.0762" layer="91"/>
 <wire x1="185.42" y1="86.36" x2="185.42" y2="83.82" width="0.0762" layer="91"/>
-<wire x1="193.04" y1="86.36" x2="185.42" y2="86.36" width="0.0762" layer="91"/>
+<wire x1="195.58" y1="86.36" x2="185.42" y2="86.36" width="0.0762" layer="91"/>
 <junction x="185.42" y="86.36"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -4426,12 +4425,12 @@ before TS voltage reaches 60V</text>
 <segment>
 <wire x1="190.5" y1="157.48" x2="190.5" y2="180.34" width="0.0762" layer="91"/>
 <wire x1="190.5" y1="180.34" x2="195.58" y2="180.34" width="0.0762" layer="91"/>
-<pinref part="U2" gate="G$1" pin="IN"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="157.48" x2="185.42" y2="154.94" width="0.0762" layer="91"/>
 <wire x1="190.5" y1="157.48" x2="185.42" y2="157.48" width="0.0762" layer="91"/>
 <junction x="185.42" y="157.48"/>
+<pinref part="U2" gate="G$1" pin="IN"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -4608,34 +4607,34 @@ before TS voltage reaches 60V</text>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="OUTP"/>
 <pinref part="A1" gate="G$1" pin="OUTPB"/>
 <wire x1="223.52" y1="162.56" x2="223.52" y2="167.64" width="0.0762" layer="91"/>
 <wire x1="223.52" y1="167.64" x2="228.6" y2="167.64" width="0.0762" layer="91"/>
+<pinref part="U1" gate="G$1" pin="OUTP"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="OUTN"/>
 <pinref part="A1" gate="G$1" pin="OUTNB"/>
 <wire x1="223.52" y1="157.48" x2="228.6" y2="157.48" width="0.0762" layer="91"/>
 <wire x1="228.6" y1="157.48" x2="228.6" y2="162.56" width="0.0762" layer="91"/>
+<pinref part="U1" gate="G$1" pin="OUTN"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="OUTP"/>
 <pinref part="A1" gate="G$1" pin="OUTPA"/>
 <wire x1="223.52" y1="182.88" x2="228.6" y2="182.88" width="0.0762" layer="91"/>
 <wire x1="228.6" y1="182.88" x2="228.6" y2="177.8" width="0.0762" layer="91"/>
+<pinref part="U2" gate="G$1" pin="OUTP"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="OUTN"/>
 <pinref part="A1" gate="G$1" pin="OUTNA"/>
 <wire x1="223.52" y1="177.8" x2="223.52" y2="172.72" width="0.0762" layer="91"/>
 <wire x1="223.52" y1="172.72" x2="228.6" y2="172.72" width="0.0762" layer="91"/>
+<pinref part="U2" gate="G$1" pin="OUTN"/>
 </segment>
 </net>
 <net name="TS+FUSED" class="0">
