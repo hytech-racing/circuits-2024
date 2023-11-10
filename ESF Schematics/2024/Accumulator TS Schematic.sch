@@ -391,6 +391,18 @@ LOGIC</text>
 <pin name="OUTNB" x="-2.54" y="-17.78" length="short" direction="in"/>
 <pin name="PRECHARGE_OK" x="33.02" y="-15.24" length="short" direction="out" rot="R180"/>
 </symbol>
+<symbol name="BUCK">
+<wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="27.94" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-15.24" x2="27.94" y2="0" width="0.254" layer="94"/>
+<wire x1="27.94" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="TS+" x="-2.54" y="-2.54" length="short" direction="in"/>
+<pin name="TS-" x="-2.54" y="-12.7" length="short" direction="in"/>
+<text x="4.572" y="-8.89" size="2.032" layer="95" rot="R180" align="top-right">Buck Converter</text>
+<wire x1="10.16" y1="-15.24" x2="12.7" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
+<pin name="TS+12V" x="30.48" y="-2.54" length="short" direction="pwr" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -562,6 +574,20 @@ LOGIC</text>
 <description>Block representation of the precharge logic.</description>
 <gates>
 <gate name="G$1" symbol="PRECHARGE_LOGIC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BUCK_CONVERTER">
+<gates>
+<gate name="G$1" symbol="BUCK" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3740,6 +3766,7 @@ Layer: 94 Symbol</description>
 <part name="U$30" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$41" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="U$42" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
+<part name="U$29" library="HyTechSymbols" deviceset="BUCK_CONVERTER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3814,8 +3841,8 @@ Connection</text>
 <text x="248.92" y="124.46" size="1.27" layer="97" rot="R180" align="top-right">PCB Trace</text>
 <text x="223.52" y="185.42" size="1.27" layer="97" align="top-left">PCB Trace</text>
 <text x="220.98" y="170.18" size="1.27" layer="97" align="top-left">PCB Trace</text>
-<text x="218.44" y="129.54" size="2.032" layer="97">Note: Flyback converter turns on 
-well before TS voltage reaches 60V</text>
+<text x="218.44" y="129.54" size="2.032" layer="97">Note: Buck converter turns on 
+before TS voltage reaches 60V</text>
 <text x="241.3" y="79.502" size="1.27" layer="97">&gt;150mm, fused by R23 
 (1/8W 0603 resistor)</text>
 <text x="19.304" y="188.976" size="1.27" layer="97">60mm</text>
@@ -4093,6 +4120,7 @@ well before TS voltage reaches 60V</text>
 <instance part="U$42" gate="G$1" x="43.18" y="142.24" smashed="yes">
 <attribute name="VALUE" x="43.18" y="147.32" size="1.27" layer="96" align="bottom-center"/>
 </instance>
+<instance part="U$29" gate="G$1" x="215.9" y="124.46" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4614,6 +4642,7 @@ well before TS voltage reaches 60V</text>
 <segment>
 <pinref part="U$41" gate="G$1" pin="TS+FUSED"/>
 <wire x1="208.28" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U$29" gate="G$1" pin="TS+"/>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="HV+IN"/>
@@ -4630,6 +4659,7 @@ well before TS voltage reaches 60V</text>
 <segment>
 <pinref part="U$30" gate="G$1" pin="TS-FUSED"/>
 <wire x1="213.36" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U$29" gate="G$1" pin="TS-"/>
 </segment>
 <segment>
 <pinref part="U$28" gate="G$1" pin="TS-FUSED"/>
@@ -4647,6 +4677,7 @@ well before TS voltage reaches 60V</text>
 <wire x1="246.38" y1="121.92" x2="254" y2="121.92" width="0.0762" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="254" y1="121.92" x2="254" y2="116.84" width="0.0762" layer="91"/>
+<pinref part="U$29" gate="G$1" pin="TS+12V"/>
 </segment>
 </net>
 <net name="N$36" class="0">
