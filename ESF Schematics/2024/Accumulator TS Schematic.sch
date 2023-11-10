@@ -3767,8 +3767,8 @@ Layer: 94 Symbol</description>
 <wire x1="238.76" y1="91.44" x2="238.76" y2="73.66" width="0.1524" layer="97" style="shortdash"/>
 <text x="210.82" y="93.98" size="2.54" layer="97" rot="R180" align="top-right">Accumulator Indicator</text>
 <text x="111.76" y="50.8" size="1.778" layer="97" align="top-left">16AWG:</text>
-<text x="20.32" y="142.24" size="1.27" layer="97">17.5mm^2</text>
-<text x="20.32" y="149.86" size="1.27" layer="97">17.5mm^2</text>
+<text x="20.574" y="143.002" size="1.27" layer="97">17.5mm^2</text>
+<text x="19.304" y="150.622" size="1.27" layer="97">17.5mm^2</text>
 <text x="129.54" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="116.84" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="101.6" y="142.24" size="1.27" layer="97">17.5mm^2</text>
@@ -3795,15 +3795,15 @@ Layer: 94 Symbol</description>
 <text x="182.88" y="48.26" size="1.778" layer="97">(&gt;= 20 mil)</text>
 <text x="78.74" y="83.82" size="1.27" layer="97">PCB Trace</text>
 <text x="190.5" y="167.64" size="1.27" layer="97" rot="R90" align="top-left">PCB Trace</text>
-<text x="17.78" y="129.54" size="1.27" layer="97" align="top-left">22AWG</text>
-<text x="136.144" y="128.524" size="1.27" layer="97" align="top-left">22 AWG</text>
+<text x="114.3" y="119.38" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="135.128" y="129.286" size="1.27" layer="97" align="top-left">22 AWG</text>
 <text x="144.78" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="157.48" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="167.64" y="134.62" size="1.27" layer="97">17.5mm^2</text>
 <text x="17.78" y="30.48" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="55.88" y="40.64" size="1.27" layer="97" align="top-left">22AWG</text>
-<text x="96.52" y="124.46" size="1.27" layer="97">17.5mm^2</text>
-<wire x1="40.64" y1="127" x2="40.64" y2="132.08" width="0.1524" layer="94"/>
+<text x="132.08" y="122.682" size="1.27" layer="97">17.5mm^2</text>
+<wire x1="134.62" y1="114.3" x2="134.62" y2="121.92" width="0.1524" layer="94"/>
 <wire x1="213.36" y1="50.8" x2="223.52" y2="50.8" width="0.1524" layer="94"/>
 <text x="200.66" y="50.8" size="1.778" layer="97" align="top-left">Direct
 Connection</text>
@@ -3863,9 +3863,9 @@ well before TS voltage reaches 60V</text>
 <instance part="P9" gate="1" x="147.32" y="86.36" smashed="yes">
 <attribute name="VALUE" x="147.32" y="85.09" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="F3" gate="G$1" x="30.48" y="127" smashed="yes">
-<attribute name="NAME" x="29.21" y="128.27" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="29.21" y="125.73" size="1.27" layer="96" align="top-center"/>
+<instance part="F3" gate="G$1" x="124.46" y="114.3" smashed="yes">
+<attribute name="NAME" x="123.19" y="115.57" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="123.19" y="113.03" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U$17" gate="G$1" x="12.7" y="190.5" smashed="yes">
 <attribute name="VALUE" x="12.7" y="195.58" size="1.27" layer="96" align="bottom-center"/>
@@ -3876,8 +3876,8 @@ well before TS voltage reaches 60V</text>
 <instance part="U$19" gate="G$1" x="17.78" y="162.56" smashed="yes">
 <attribute name="VALUE" x="17.78" y="167.64" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$20" gate="G$1" x="20.32" y="124.46" smashed="yes">
-<attribute name="VALUE" x="20.32" y="121.92" size="1.27" layer="96" align="top-center"/>
+<instance part="U$20" gate="G$1" x="114.3" y="111.76" smashed="yes">
+<attribute name="VALUE" x="114.3" y="109.22" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U$23" gate="G$1" x="101.6" y="93.98" smashed="yes">
 <attribute name="VALUE" x="101.6" y="99.06" size="1.27" layer="96" align="bottom-center"/>
@@ -3950,9 +3950,9 @@ well before TS voltage reaches 60V</text>
 <attribute name="MANUFACTURER" x="175.26" y="121.412" size="1.27" layer="96" rot="MR0"/>
 <attribute name="MPN" x="175.26" y="117.348" size="1.27" layer="95" rot="MR0" align="top-left"/>
 </instance>
-<instance part="U$36" gate="G$1" x="38.1" y="127" smashed="yes">
-<attribute name="MANUFACTURER" x="35.56" y="128.778" size="1.27" layer="96"/>
-<attribute name="MPN" x="35.56" y="125.222" size="1.27" layer="96" align="top-left"/>
+<instance part="U$36" gate="G$1" x="132.08" y="114.3" smashed="yes" rot="MR0">
+<attribute name="MANUFACTURER" x="134.62" y="116.078" size="1.27" layer="96" rot="MR0"/>
+<attribute name="MPN" x="137.16" y="112.776" size="1.27" layer="96" rot="MR0" align="top-left"/>
 </instance>
 <instance part="U$37" gate="G$1" x="35.56" y="160.02" smashed="yes">
 <attribute name="MANUFACTURER" x="33.02" y="161.798" size="1.27" layer="96"/>
@@ -4075,9 +4075,9 @@ well before TS voltage reaches 60V</text>
 <attribute name="MPN" x="7.62" y="144.145" size="1.27" layer="96" align="top-left"/>
 <attribute name="MANUFACTURER" x="7.62" y="153.162" size="1.27" layer="96"/>
 </instance>
-<instance part="MAIN_FUSE" gate="G$1" x="45.72" y="132.08" smashed="yes">
-<attribute name="NAME" x="44.45" y="133.35" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="44.45" y="130.81" size="1.27" layer="96" align="top-center"/>
+<instance part="MAIN_FUSE" gate="G$1" x="127" y="121.92" smashed="yes">
+<attribute name="NAME" x="125.476" y="123.444" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="125.73" y="120.65" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="F1" gate="G$1" x="27.94" y="160.02" smashed="yes">
 <attribute name="NAME" x="26.67" y="161.29" size="1.27" layer="95" align="bottom-center"/>
@@ -4194,7 +4194,7 @@ well before TS voltage reaches 60V</text>
 <net name="TS+UNFUSED" class="0">
 <segment>
 <wire x1="50.8" y1="152.4" x2="17.78" y2="152.4" width="0.4445" layer="91"/>
-<label x="25.4" y="154.94" size="1.27" layer="95"/>
+<label x="19.304" y="152.908" size="1.27" layer="95"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="152.4" x2="17.78" y2="149.86" width="0.4445" layer="91"/>
 <pinref part="AIR+" gate="G$1" pin="CONTACT1"/>
@@ -4221,12 +4221,12 @@ well before TS voltage reaches 60V</text>
 <net name="TS-UNFUSED" class="0">
 <segment>
 <wire x1="17.78" y1="144.78" x2="35.56" y2="144.78" width="0.4445" layer="91"/>
-<wire x1="35.56" y1="144.78" x2="35.56" y2="132.08" width="0.4445" layer="91"/>
-<label x="25.4" y="147.32" size="1.27" layer="95"/>
+<label x="20.066" y="145.542" size="1.27" layer="95"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="144.78" x2="17.78" y2="147.32" width="0.4445" layer="91"/>
-<pinref part="MAIN_FUSE" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="132.08" x2="40.64" y2="132.08" width="0.4445" layer="91"/>
+<wire x1="35.56" y1="144.78" x2="35.56" y2="132.08" width="0.4445" layer="91"/>
+<pinref part="U$14" gate="G$1" pin="HV-OUT"/>
+<wire x1="35.56" y1="132.08" x2="53.34" y2="132.08" width="0.4445" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="TS-"/>
@@ -4235,7 +4235,7 @@ well before TS voltage reaches 60V</text>
 </segment>
 <segment>
 <pinref part="F3" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="127" x2="20.32" y2="127" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U$20" gate="G$1" pin="TS-FUSED"/>
 </segment>
 <segment>
@@ -4389,10 +4389,9 @@ well before TS voltage reaches 60V</text>
 <net name="N$45" class="0">
 <segment>
 <pinref part="U$14" gate="G$1" pin="HV-IN"/>
-<wire x1="83.82" y1="132.08" x2="83.82" y2="124.46" width="0.4445" layer="91"/>
-<pinref part="AIR-" gate="G$1" pin="CONTACT2"/>
-<wire x1="142.24" y1="121.92" x2="83.82" y2="121.92" width="0.4445" layer="91"/>
-<wire x1="83.82" y1="121.92" x2="83.82" y2="124.46" width="0.4445" layer="91"/>
+<wire x1="83.82" y1="132.08" x2="83.82" y2="121.92" width="0.4445" layer="91"/>
+<pinref part="MAIN_FUSE" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="121.92" x2="121.92" y2="121.92" width="0.4445" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -4469,8 +4468,8 @@ well before TS voltage reaches 60V</text>
 <net name="N$50" class="0">
 <segment>
 <pinref part="F3" gate="G$1" pin="2"/>
-<pinref part="U$36" gate="G$1" pin="P$1"/>
-<wire x1="33.02" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
+<wire x1="127" y1="114.3" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U$36" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="N$51" class="0">
@@ -4579,13 +4578,6 @@ well before TS voltage reaches 60V</text>
 <wire x1="170.18" y1="144.78" x2="162.56" y2="144.78" width="0.4445" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="MAIN_FUSE" gate="G$1" pin="2"/>
-<pinref part="U$14" gate="G$1" pin="HV-OUT"/>
-<wire x1="48.26" y1="132.08" x2="53.34" y2="132.08" width="0.4445" layer="91"/>
-</segment>
-</net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="OUTP"/>
@@ -4684,6 +4676,13 @@ well before TS voltage reaches 60V</text>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="177.8" x2="185.42" y2="175.26" width="0.0762" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="MAIN_FUSE" gate="G$1" pin="2"/>
+<pinref part="AIR-" gate="G$1" pin="CONTACT2"/>
+<wire x1="129.54" y1="121.92" x2="142.24" y2="121.92" width="0.4445" layer="91"/>
 </segment>
 </net>
 </nets>
