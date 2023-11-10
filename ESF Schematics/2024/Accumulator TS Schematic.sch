@@ -391,18 +391,6 @@ LOGIC</text>
 <pin name="OUTNB" x="-2.54" y="-17.78" length="short" direction="in"/>
 <pin name="PRECHARGE_OK" x="33.02" y="-15.24" length="short" direction="out" rot="R180"/>
 </symbol>
-<symbol name="FLYBACK_CONVERTER">
-<wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="27.94" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-15.24" x2="27.94" y2="0" width="0.254" layer="94"/>
-<wire x1="27.94" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="TS+" x="-2.54" y="-2.54" length="short" direction="in"/>
-<pin name="TS-" x="-2.54" y="-12.7" length="short" direction="in"/>
-<text x="2.54" y="-10.16" size="2.032" layer="95" rot="R180" align="top-right">Flyback Converter</text>
-<wire x1="10.16" y1="-15.24" x2="12.7" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
-<pin name="TS+12V" x="30.48" y="-2.54" length="short" direction="pwr" rot="R180"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -574,20 +562,6 @@ LOGIC</text>
 <description>Block representation of the precharge logic.</description>
 <gates>
 <gate name="G$1" symbol="PRECHARGE_LOGIC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FLYBACK_CONVERTER">
-<gates>
-<gate name="G$1" symbol="FLYBACK_CONVERTER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3763,7 +3737,6 @@ Layer: 94 Symbol</description>
 <part name="MAIN_FUSE" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="125A"/>
 <part name="F1" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1A"/>
 <part name="A1" library="HyTechSymbols" deviceset="PRECHARGE_LOGIC" device=""/>
-<part name="U$29" library="HyTechSymbols" deviceset="FLYBACK_CONVERTER" device=""/>
 <part name="U$30" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="U$41" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="U$42" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
@@ -4111,7 +4084,6 @@ well before TS voltage reaches 60V</text>
 <attribute name="VALUE" x="26.67" y="158.75" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="A1" gate="G$1" x="231.14" y="180.34" smashed="yes"/>
-<instance part="U$29" gate="G$1" x="215.9" y="124.46" smashed="yes"/>
 <instance part="U$30" gate="G$1" x="208.28" y="109.22" smashed="yes">
 <attribute name="VALUE" x="208.28" y="106.68" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -4649,7 +4621,6 @@ well before TS voltage reaches 60V</text>
 <net name="TS+FUSED" class="0">
 <segment>
 <pinref part="U$41" gate="G$1" pin="TS+FUSED"/>
-<pinref part="U$29" gate="G$1" pin="TS+"/>
 <wire x1="208.28" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4665,7 +4636,6 @@ well before TS voltage reaches 60V</text>
 </net>
 <net name="TS-FUSED" class="0">
 <segment>
-<pinref part="U$29" gate="G$1" pin="TS-"/>
 <pinref part="U$30" gate="G$1" pin="TS-FUSED"/>
 <wire x1="213.36" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
 </segment>
@@ -4682,7 +4652,6 @@ well before TS voltage reaches 60V</text>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="U$29" gate="G$1" pin="TS+12V"/>
 <wire x1="246.38" y1="121.92" x2="254" y2="121.92" width="0.0762" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="254" y1="121.92" x2="254" y2="116.84" width="0.0762" layer="91"/>
