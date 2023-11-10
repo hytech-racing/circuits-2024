@@ -49,6 +49,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=Pi_Boot_Control.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZLLMEQTB
+
+[Document2]
 DocumentPath=Telemetry_Pi_Board.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -65,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TUBWBLJJ
 
-[Document2]
+[Document3]
 DocumentPath=PCB2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VSSRYXQY
 
-[Document3]
+[Document4]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=POSYKYMJ
 
-[Document4]
+[Document5]
 DocumentPath=..\..\..\circuits-support-2024\EAGLE Libraries\Imported HyTechDevices.Library.PrjPcb\HyTechDevices.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TRDBSHWH
 
-[Document5]
+[Document6]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\CM4.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJEMJNEL
 
-[Document6]
+[Document7]
 DocumentPath=..\..\..\circuits-support-2024\EAGLE Libraries\Imported HyTechDevices.Library.PrjPcb\HyTechDevices.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=URYSUBZF
 
-[Document7]
+[Document8]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\CM4.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ROPDXZRL
 
-[Document8]
+[Document9]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\PCBLIB\HyTechDevices.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +201,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document10]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\PCBLIB\HyTechManufacturing.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +218,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document11]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\PCBLIB\HyTechSymbols.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,7 +235,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document12]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechDevices.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,7 +252,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MZQPNAMN
 
-[Document12]
+[Document13]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechExternal.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -252,7 +269,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document14]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechFrames.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,7 +286,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document15]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechSupplies.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -286,7 +303,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document16]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechSymbols.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -303,7 +320,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document17]
 DocumentPath=Pi_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -320,7 +337,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WKSQNXCV
 
-[Document17]
+[Document18]
 DocumentPath=Pi_Cellular.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -337,7 +354,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JBYWJAMZ
 
-[Document18]
+[Document19]
 DocumentPath=USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -354,7 +371,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZWHHUEQN
 
-[Document19]
+[Document20]
 DocumentPath=Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,7 +388,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TMABZXKS
 
-[Document20]
+[Document21]
 DocumentPath=..\..\..\..\..\Downloads\2199119-3.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -388,7 +405,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document22]
 DocumentPath=Telemetry_Pi_Board.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -405,7 +422,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document23]
 DocumentPath=Other_Pi.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -422,7 +439,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OOQSAIMR
 
-[Document23]
+[Document24]
 DocumentPath=Other_Pi_2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -438,23 +455,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BIIRRHYD
-
-[Document24]
-DocumentPath=5v_Regulator.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ZLLMEQTB
 
 [Document25]
 DocumentPath=GPIO_CAN.SchDoc
