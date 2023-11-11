@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -575,6 +576,25 @@ Controller</text>
 <text x="-2.54" y="1.778" size="1.27" layer="96">&gt;MANUFACTURER</text>
 <text x="-2.54" y="-1.778" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
+<symbol name="CONNECTOR_05">
+<description>Five pin connector.</description>
+<wire x1="7.62" y1="-15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-12.7" x2="5.08" y2="-12.7" width="0.6096" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
+<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
+<pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="3" x="10.16" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="10.16" y="-10.16" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="10.16" y="-12.7" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<text x="0" y="-15.875" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -855,6 +875,41 @@ Controller</text>
 <technology name="6MM2">
 <attribute name="MANUFACTURER" value="Panduit Corp"/>
 <attribute name="MPN" value="LCMA10-6-C"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONNECTOR-5_*" prefix="J">
+<description>Five pin connector
+&lt;ul&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/1Be8WGxzm3IeOWSN4qfSP8J4bwHUWCwaO/view"&gt;Micro-Fit 3.0&lt;/a&gt;&lt;li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="CONNECTOR_05" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="1-2393947-1">
+<attribute name="MANUFACTURER" value="TE" constant="no"/>
+<attribute name="MPN" value="1-2393947-1" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="436500513">
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MPN" value="436500513"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="MICROFIT">
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MPN" value="Microfit 3.0"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -3621,6 +3676,8 @@ Layer: 94 Symbol</description>
 <part name="J4" library="HyTechSymbols" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
 <part name="J6" library="HyTechSymbols" deviceset="RING_TERMINAL_*" device="" technology="19054-0042"/>
 <part name="J7" library="HyTechSymbols" deviceset="RING_TERMINAL_*" device="" technology="19054-0042"/>
+<part name="J11" library="HyTechSymbols" deviceset="CONNECTOR-5_*" device="" technology="1-2393947-1"/>
+<part name="J12" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="XXC106-EV-P3Z" value="CONNECTOR-3_XXC106-EV-P3Z"/>
 </parts>
 <sheets>
 <sheet>
@@ -3672,6 +3729,10 @@ AC Power</text>
 Connection</text>
 <text x="223.52" y="147.32" size="1.27" layer="97">22AWG</text>
 <wire x1="226.06" y1="119.38" x2="226.06" y2="129.54" width="0.1524" layer="94"/>
+<text x="28.702" y="176.784" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="28.956" y="166.37" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="28.448" y="174.244" size="1.27" layer="97" align="top-left">6mm^2</text>
+<text x="28.448" y="171.704" size="1.27" layer="97" align="top-left">6mm^2</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="200.66" y="137.16" smashed="yes">
@@ -3817,6 +3878,14 @@ Connection</text>
 <instance part="J7" gate="G$1" x="220.98" y="119.38" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" x="223.52" y="117.602" size="1.27" layer="96" rot="R180"/>
 <attribute name="MPN" x="223.52" y="121.158" size="1.27" layer="96" rot="R180" align="top-left"/>
+</instance>
+<instance part="J11" gate="G$1" x="17.78" y="177.8" smashed="yes">
+<attribute name="MANUFACTURER" x="17.78" y="178.562" size="1.27" layer="96"/>
+<attribute name="MPN" x="17.78" y="161.925" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="J12" gate="G$1" x="60.96" y="175.26" smashed="yes" rot="MR0">
+<attribute name="MPN" x="60.96" y="164.465" size="1.27" layer="96" rot="MR0" align="top-left"/>
+<attribute name="MANUFACTURER" x="60.96" y="176.022" size="1.27" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -4141,6 +4210,34 @@ Connection</text>
 <pinref part="F3" gate="G$1" pin="2"/>
 <pinref part="S2" gate="SPST" pin="P"/>
 <wire x1="233.68" y1="129.54" x2="241.3" y2="129.54" width="0.4445" layer="91"/>
+</segment>
+</net>
+<net name="J1772_PROX" class="0">
+<segment>
+<pinref part="J11" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="175.26" x2="35.56" y2="175.26" width="0.1524" layer="91"/>
+<label x="35.56" y="175.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="J1772_PILOT" class="0">
+<segment>
+<pinref part="J11" gate="G$1" pin="5"/>
+<wire x1="27.94" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
+<label x="35.56" y="165.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="J11" gate="G$1" pin="2"/>
+<pinref part="J12" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="172.72" x2="50.8" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="J11" gate="G$1" pin="3"/>
+<pinref part="J12" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="170.18" x2="50.8" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
