@@ -3120,49 +3120,6 @@ Dashed line is edge of mated connector.</description>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
 <rectangle x1="-1.45" y1="-0.75" x2="1.45" y2="0.75" layer="39"/>
 </package>
-<package name="MOLEX_MICROFIT_PTH_VERTICAL_16_DUAL">
-<description>16 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
-&lt;br&gt;
-&lt;a href="https://www.molex.com/molex/products/part-detail/pcb_headers/0430451614"&gt;Part&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430451614_sd.pdf"&gt;Footprint&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.molex.com/pdm_docs/sd/430251400_sd.pdf"&gt;Plug Size&lt;/a&gt;</description>
-<pad name="2" x="7.5" y="-3" drill="1.0668"/>
-<pad name="1" x="10.5" y="-3" drill="1.0668" first="yes"/>
-<hole x="13.5" y="0.94" drill="1.0668"/>
-<hole x="-13.5" y="0.94" drill="1.0668"/>
-<wire x1="-13.819" y1="-5.461" x2="13.819" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="13.819" y1="-5.461" x2="13.819" y2="1.905" width="0.127" layer="21"/>
-<wire x1="13.819" y1="1.905" x2="1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="1.905" x2="-1.9304" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-13.819" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-13.819" y1="1.905" x2="-13.819" y2="-5.461" width="0.127" layer="21"/>
-<wire x1="-1.9304" y1="1.905" x2="-1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="1.9304" y2="3.302" width="0.127" layer="21"/>
-<wire x1="1.9304" y1="3.302" x2="1.9304" y2="1.905" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="3.302" x2="-1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="-1.9304" y1="5.969" x2="1.9304" y2="5.969" width="0.127" layer="21" style="shortdash"/>
-<wire x1="1.9304" y1="5.969" x2="1.9304" y2="3.302" width="0.127" layer="21" style="shortdash"/>
-<rectangle x1="-2.54" y1="2.286" x2="2.54" y2="6.35" layer="39"/>
-<text x="0" y="-6.477" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
-<pad name="3" x="4.5" y="-3" drill="1.0668"/>
-<pad name="4" x="1.5" y="-3" drill="1.0668"/>
-<pad name="5" x="-1.5" y="-3" drill="1.0668"/>
-<pad name="6" x="-4.5" y="-3" drill="1.0668"/>
-<pad name="7" x="-7.5" y="-3" drill="1.0668"/>
-<pad name="8" x="-10.5" y="-3" drill="1.0668"/>
-<pad name="9" x="10.5" y="0" drill="1.0668"/>
-<pad name="10" x="7.5" y="0" drill="1.0668"/>
-<pad name="11" x="4.5" y="0" drill="1.0668"/>
-<pad name="12" x="1.5" y="0" drill="1.0668"/>
-<pad name="13" x="-1.5" y="0" drill="1.0668"/>
-<pad name="14" x="-4.5" y="0" drill="1.0668"/>
-<pad name="15" x="-7.5" y="0" drill="1.0668"/>
-<pad name="16" x="-10.5" y="0" drill="1.0668"/>
-<rectangle x1="-14.478" y1="-5.842" x2="14.478" y2="2.286" layer="39"/>
-<rectangle x1="-14.478" y1="-5.842" x2="14.478" y2="2.286" layer="40"/>
-</package>
 <package name="MOLEX_MICROFIT_PTH_VERTICAL_18_DUAL">
 <description>18 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
 &lt;br&gt;
@@ -3694,14 +3651,6 @@ Dashed line is edge of mated connector.</description>
 <circle x="-7.56604375" y="-7.56604375" radius="3" width="0" layer="41"/>
 <circle x="-7.56604375" y="-7.56604375" radius="3" width="0" layer="42"/>
 </package>
-<package name="5015">
-<description>Keystone Micro-Miniature SMD Test Point
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
-<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
-</package>
 <package name="0805-RES">
 <description>0805 Resistor Footprint
 &lt;br&gt;
@@ -3797,6 +3746,14 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <rectangle x1="-2.794" y1="-1.524" x2="2.794" y2="1.524" layer="40"/>
 <rectangle x1="-2.794" y1="-1.524" x2="2.794" y2="1.524" layer="39"/>
 </package>
+<package name="5015">
+<description>Keystone Micro-Miniature SMD Test Point
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/215/015-744075.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CONNECTOR_08">
@@ -3851,46 +3808,6 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="10.16" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="10.16" y="-10.16" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="CONNECTOR_16">
-<wire x1="7.62" y1="-43.18" x2="0" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-10.16" x2="5.08" y2="-10.16" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-12.7" x2="5.08" y2="-12.7" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-15.24" x2="5.08" y2="-15.24" width="0.6096" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-43.18" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="5.08" y2="-7.62" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.6096" layer="94"/>
-<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
-<pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="10.16" y="-7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="4" x="10.16" y="-10.16" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="5" x="10.16" y="-12.7" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="6" x="10.16" y="-15.24" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="7" x="10.16" y="-17.78" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="8" x="10.16" y="-20.32" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="3.81" y1="-17.78" x2="5.08" y2="-17.78" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-20.32" x2="5.08" y2="-20.32" width="0.6096" layer="94"/>
-<pin name="9" x="10.16" y="-22.86" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="10" x="10.16" y="-25.4" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="3.81" y1="-22.86" x2="5.08" y2="-22.86" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-25.4" x2="5.08" y2="-25.4" width="0.6096" layer="94"/>
-<pin name="11" x="10.16" y="-27.94" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="12" x="10.16" y="-30.48" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="3.81" y1="-27.94" x2="5.08" y2="-27.94" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-30.48" x2="5.08" y2="-30.48" width="0.6096" layer="94"/>
-<pin name="13" x="10.16" y="-33.02" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="14" x="10.16" y="-35.56" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="3.81" y1="-33.02" x2="5.08" y2="-33.02" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-35.56" x2="5.08" y2="-35.56" width="0.6096" layer="94"/>
-<text x="0" y="-43.815" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-<pin name="15" x="10.16" y="-38.1" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="16" x="10.16" y="-40.64" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="3.81" y1="-38.1" x2="5.08" y2="-38.1" width="0.6096" layer="94"/>
-<wire x1="3.81" y1="-40.64" x2="5.08" y2="-40.64" width="0.6096" layer="94"/>
 </symbol>
 <symbol name="CONNECTOR_18">
 <wire x1="7.62" y1="-48.26" x2="0" y2="-48.26" width="0.254" layer="94"/>
@@ -4126,12 +4043,6 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <pin name="6" x="10.16" y="-15.24" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <text x="0" y="-18.415" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
-<symbol name="TEST_POINT">
-<circle x="-1.27" y="0" radius="1.27" width="0.254" layer="94"/>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<text x="-2.54" y="1.778" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-1.778" size="1.27" layer="95" align="top-left">&gt;MPN</text>
-</symbol>
 <symbol name="JUMPER">
 <wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
@@ -4139,6 +4050,12 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <text x="0" y="0.508" size="1.27" layer="94">JUMP</text>
 <text x="0" y="2.54" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="-3.302" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+</symbol>
+<symbol name="TEST_POINT">
+<circle x="-1.27" y="0" radius="1.27" width="0.254" layer="94"/>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-2.54" y="1.778" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-1.778" size="1.27" layer="95" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4376,48 +4293,10 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONNECTOR-16_?_*" prefix="J">
-<description>16 pin connector
-&lt;br&gt;
-&lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/2068321602_PCB_HEADERS.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CONNECTOR_16" x="0" y="0"/>
-</gates>
-<devices>
-<device name="MF_T_V" package="MOLEX_MICROFIT_PTH_VERTICAL_16_DUAL">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="WM4718-ND"/>
-<attribute name="MANUFACTURER" value="MOLEX"/>
-<attribute name="MOPN" value="538-43045-1614"/>
-<attribute name="MPN" value="0430451614"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CONNECTOR-18_?_*" prefix="J">
 <description>18 pin connector
 &lt;br&gt;
-&lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/2068321802_PCB_HEADERS.pdf"&gt;Datasheet&lt;/a&gt;</description>
+&lt;a href="https://www.molex.com/webdocs/datasheets/pdf/en-us/0430451814_PCB_HEADERS.pdf"&gt;Datasheet&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CONNECTOR_18" x="0" y="0"/>
 </gates>
@@ -6352,28 +6231,6 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEST_POINT" prefix="TP">
-<description>Test Point for Probing
-&lt;br&gt;</description>
-<gates>
-<gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="5015">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DKPN" value="36-5015CT-ND"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics"/>
-<attribute name="MOPN" value="534-5015"/>
-<attribute name="MPN" value="5015"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="JUMPER_?_*" prefix="JP">
 <description>2 Pin Connector</description>
 <gates>
@@ -6425,6 +6282,28 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="MANUFACTURER" value="Sullins Connector Solutions"/>
 <attribute name="MOPN" value=""/>
 <attribute name="MPN" value="PRPC002SAAN-RC"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST_POINT" prefix="TP">
+<description>Test Point for Probing
+&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="TEST_POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5015">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="36-5015CT-ND"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics"/>
+<attribute name="MOPN" value="534-5015"/>
+<attribute name="MPN" value="5015"/>
 </technology>
 </technologies>
 </device>
@@ -6882,16 +6761,11 @@ Dashed line is edge of mated connector.</description>
 <part name="J9" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK"/>
 <part name="P8" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P9" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="J10" library="HyTechDevices" deviceset="CONNECTOR-16_?_*" device="MF_T_V"/>
-<part name="J11" library="HyTechDevices" deviceset="CONNECTOR-18_?_*" device="MF_T_V"/>
 <part name="XF1" library="HyTechDevices" deviceset="FUSE_HOLDER_*" device="SMD" technology="MINIBLADE"/>
-<part name="P13" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="U$9" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="U$8" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P12" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P14" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="U$10" library="HyTechSupplies" deviceset="+24V" device=""/>
-<part name="P15" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="Q1" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="DMG3406L-7"/>
 <part name="Q2" library="HyTechDevices" deviceset="TRANSISTOR_P_MOS_?_*" device="SOT-23" technology="DMP3056L-7"/>
 <part name="R5" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
@@ -6942,11 +6816,6 @@ Dashed line is edge of mated connector.</description>
 <part name="J1" library="HyTechDevices" deviceset="CONNECTOR-6_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-6_μF_T_V_BLACK"/>
 <part name="P6" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P7" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="TP5" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="TP6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="P1" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="J4" library="HyTechDevices - Copy" deviceset="CONNECTOR-2_?_*" device="MF_T_V"/>
 <part name="J13" library="HyTechDevices - Copy" deviceset="CONNECTOR-2_?_*" device="MF_T_V"/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -6955,6 +6824,15 @@ Dashed line is edge of mated connector.</description>
 <part name="JP2" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
 <part name="P22" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P23" library="HyTechSupplies" deviceset="+12V" device=""/>
+<part name="J10" library="HyTechDevices" deviceset="CONNECTOR-18_?_*" device="MF_T_V"/>
+<part name="P15" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="J11" library="HyTechDevices" deviceset="CONNECTOR-6_?_*" device="μF_T_V" technology="BLACK"/>
+<part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP5" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="TP6" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="P1" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P13" library="HyTechSupplies" deviceset="+24V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6962,17 +6840,7 @@ Dashed line is edge of mated connector.</description>
 <text x="91.44" y="111.76" size="1.27" layer="97">BOTS</text>
 <text x="91.44" y="91.44" size="1.27" layer="97">Inertia</text>
 <text x="91.44" y="71.12" size="1.27" layer="97">BRB</text>
-<wire x1="201.93" y1="113.03" x2="201.93" y2="95.25" width="0.1524" layer="97" style="longdash"/>
-<wire x1="240.03" y1="95.25" x2="240.03" y2="113.03" width="0.1524" layer="97" style="longdash"/>
-<wire x1="201.93" y1="95.25" x2="201.93" y2="80.01" width="0.1524" layer="97" style="longdash"/>
-<wire x1="201.93" y1="80.01" x2="240.03" y2="80.01" width="0.1524" layer="97" style="longdash"/>
-<wire x1="240.03" y1="80.01" x2="240.03" y2="95.25" width="0.1524" layer="97" style="longdash"/>
-<wire x1="240.03" y1="95.25" x2="201.93" y2="95.25" width="0.1524" layer="97" style="longdash"/>
-<wire x1="201.93" y1="113.03" x2="201.93" y2="125.73" width="0.1524" layer="97" style="longdash"/>
-<wire x1="201.93" y1="125.73" x2="240.03" y2="125.73" width="0.1524" layer="97" style="longdash"/>
-<wire x1="240.03" y1="125.73" x2="240.03" y2="113.03" width="0.1524" layer="97" style="longdash"/>
-<wire x1="240.03" y1="113.03" x2="201.93" y2="113.03" width="0.1524" layer="97" style="longdash"/>
-<text x="243.84" y="180.34" size="1.27" layer="97">interlocks on rears handled on SAB</text>
+<text x="243.84" y="182.88" size="1.27" layer="97">interlocks on rears handled on SAB</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="O" x="0" y="0" smashed="yes">
@@ -7021,23 +6889,6 @@ Dashed line is edge of mated connector.</description>
 <instance part="P9" gate="1" x="99.06" y="137.16" smashed="yes">
 <attribute name="VALUE" x="99.06" y="135.89" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="J10" gate="G$1" x="203.2" y="200.66" smashed="yes">
-<attribute name="NAME" x="203.2" y="201.422" size="1.27" layer="95"/>
-<attribute name="MPN" x="203.2" y="151.765" size="1.27" layer="96" align="top-left"/>
-</instance>
-<instance part="J11" gate="G$1" x="203.2" y="127" smashed="yes">
-<attribute name="NAME" x="203.2" y="127.762" size="1.27" layer="95"/>
-<attribute name="MPN" x="203.2" y="78.105" size="1.27" layer="96" align="top-left"/>
-</instance>
-<instance part="P13" gate="1" x="218.44" y="76.2" smashed="yes">
-<attribute name="VALUE" x="218.44" y="74.93" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="U$9" gate="G$1" x="215.9" y="129.54" smashed="yes">
-<attribute name="VALUE" x="215.9" y="134.62" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P15" gate="1" x="215.9" y="154.94" smashed="yes">
-<attribute name="VALUE" x="215.9" y="153.67" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="J12" gate="G$1" x="86.36" y="55.88" smashed="yes">
 <attribute name="NAME" x="86.36" y="56.642" size="1.27" layer="95"/>
 <attribute name="MPN" x="86.36" y="32.385" size="1.27" layer="96" align="top-left"/>
@@ -7075,24 +6926,6 @@ Dashed line is edge of mated connector.</description>
 <instance part="P7" gate="1" x="172.72" y="157.48" smashed="yes">
 <attribute name="VALUE" x="172.72" y="160.02" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="TP1" gate="G$1" x="236.22" y="195.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="238.76" y="193.802" size="1.27" layer="95" rot="R180"/>
-<attribute name="MPN" x="238.76" y="197.358" size="1.27" layer="95" rot="R180" align="top-left"/>
-</instance>
-<instance part="TP2" gate="G$1" x="243.84" y="193.04" smashed="yes" rot="R180">
-<attribute name="MPN" x="246.38" y="194.818" size="1.27" layer="95" rot="R180" align="top-left"/>
-</instance>
-<instance part="TP5" gate="G$1" x="243.84" y="190.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="246.38" y="188.722" size="1.27" layer="95" rot="R180"/>
-<attribute name="MPN" x="246.38" y="192.278" size="1.27" layer="95" rot="R180" align="top-left"/>
-</instance>
-<instance part="TP6" gate="G$1" x="251.46" y="187.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="254" y="186.182" size="1.27" layer="95" rot="R180"/>
-<attribute name="MPN" x="254" y="189.738" size="1.27" layer="95" rot="R180" align="top-left"/>
-</instance>
-<instance part="P1" gate="G$1" x="220.98" y="203.2" smashed="yes">
-<attribute name="VALUE" x="220.98" y="208.28" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="J4" gate="G$1" x="87.63" y="171.45" smashed="yes" rot="MR180">
 <attribute name="MPN" x="87.63" y="179.705" size="1.27" layer="96" rot="MR180" align="top-left"/>
 <attribute name="NAME" x="87.63" y="170.688" size="1.27" layer="95" rot="MR180"/>
@@ -7106,6 +6939,38 @@ Dashed line is edge of mated connector.</description>
 </instance>
 <instance part="P21" gate="1" x="104.14" y="170.18" smashed="yes">
 <attribute name="VALUE" x="104.14" y="168.91" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="J10" gate="G$1" x="203.2" y="200.66" smashed="yes">
+<attribute name="NAME" x="203.2" y="201.422" size="1.27" layer="95"/>
+<attribute name="MPN" x="203.2" y="151.765" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="P15" gate="1" x="215.9" y="149.86" smashed="yes">
+<attribute name="VALUE" x="215.9" y="148.59" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="J11" gate="G$1" x="203.2" y="124.46" smashed="yes">
+<attribute name="NAME" x="203.2" y="125.222" size="1.27" layer="95"/>
+<attribute name="MPN" x="203.2" y="106.045" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="TP1" gate="G$1" x="236.22" y="198.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="238.76" y="196.342" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="238.76" y="199.898" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP2" gate="G$1" x="243.84" y="195.58" smashed="yes" rot="R180">
+<attribute name="MPN" x="246.38" y="197.358" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP5" gate="G$1" x="243.84" y="193.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="246.38" y="191.262" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="246.38" y="194.818" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="TP6" gate="G$1" x="251.46" y="190.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="254" y="188.722" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="254" y="192.278" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="P1" gate="1" x="218.44" y="101.6" smashed="yes">
+<attribute name="VALUE" x="218.44" y="100.33" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P13" gate="G$1" x="215.9" y="127" smashed="yes">
+<attribute name="VALUE" x="215.9" y="132.08" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -7123,10 +6988,10 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="18"/>
 </segment>
 <segment>
-<label x="220.98" y="190.5" size="1.27" layer="95" xref="yes"/>
+<label x="220.98" y="193.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP5" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="190.5" x2="241.3" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="J10" gate="G$1" pin="4"/>
+<wire x1="213.36" y1="193.04" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="CANH_3" class="0">
@@ -7141,10 +7006,10 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="17"/>
 </segment>
 <segment>
-<label x="220.98" y="187.96" size="1.27" layer="95" xref="yes"/>
+<label x="220.98" y="190.5" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP6" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="187.96" x2="248.92" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="J10" gate="G$1" pin="5"/>
+<wire x1="213.36" y1="190.5" x2="248.92" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="CANL_2" class="0">
@@ -7154,10 +7019,13 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="22"/>
 </segment>
 <segment>
-<label x="220.98" y="193.04" size="1.27" layer="95" xref="yes"/>
+<label x="220.98" y="195.58" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="193.04" x2="241.3" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="J10" gate="G$1" pin="3"/>
+<wire x1="213.36" y1="195.58" x2="241.3" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<label x="220.98" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CANH_2" class="0">
@@ -7167,10 +7035,13 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="21"/>
 </segment>
 <segment>
-<label x="220.98" y="195.58" size="1.27" layer="95" xref="yes"/>
+<label x="220.98" y="198.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="195.58" x2="233.68" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="J10" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="198.12" x2="233.68" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<label x="220.98" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHDN_B" class="0">
@@ -7207,9 +7078,9 @@ Dashed line is edge of mated connector.</description>
 <label x="33.02" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="177.8" x2="220.98" y2="177.8" width="0.1524" layer="91"/>
-<label x="220.98" y="177.8" size="1.27" layer="95" xref="yes"/>
-<pinref part="J10" gate="G$1" pin="9"/>
+<wire x1="213.36" y1="175.26" x2="220.98" y2="175.26" width="0.1524" layer="91"/>
+<label x="220.98" y="175.26" size="1.27" layer="95" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="REFERENCE_EXT" class="0">
@@ -7219,9 +7090,9 @@ Dashed line is edge of mated connector.</description>
 <label x="33.02" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="180.34" x2="220.98" y2="180.34" width="0.1524" layer="91"/>
-<label x="220.98" y="180.34" size="1.27" layer="95" xref="yes"/>
-<pinref part="J10" gate="G$1" pin="8"/>
+<wire x1="213.36" y1="177.8" x2="220.98" y2="177.8" width="0.1524" layer="91"/>
+<label x="220.98" y="177.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="STEERING_1_EXT" class="0">
@@ -7279,18 +7150,6 @@ Dashed line is edge of mated connector.</description>
 <label x="33.02" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPN_POT_6_EXT" class="0">
-<segment>
-<wire x1="213.36" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="15"/>
-</segment>
-</net>
-<net name="LOAD_RR_EXT" class="0">
-<segment>
-<wire x1="213.36" y1="91.44" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="14"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="P4" gate="1" pin="GND"/>
@@ -7309,26 +7168,6 @@ Dashed line is edge of mated connector.</description>
 <wire x1="99.06" y1="139.7" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="142.24" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="6"/>
-</segment>
-<segment>
-<pinref part="P13" gate="1" pin="GND"/>
-<wire x1="213.36" y1="81.28" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="81.28" x2="218.44" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="96.52" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="96.52" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
-<junction x="218.44" y="81.28"/>
-<wire x1="213.36" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
-<junction x="218.44" y="96.52"/>
-<wire x1="218.44" y1="119.38" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="3"/>
-<pinref part="J11" gate="G$1" pin="12"/>
-<pinref part="J11" gate="G$1" pin="18"/>
-</segment>
-<segment>
-<pinref part="P15" gate="1" pin="GND"/>
-<wire x1="213.36" y1="160.02" x2="215.9" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="160.02" x2="215.9" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="J10" gate="G$1" pin="16"/>
 </segment>
 <segment>
 <pinref part="J12" gate="G$1" pin="8"/>
@@ -7390,6 +7229,22 @@ Dashed line is edge of mated connector.</description>
 <wire x1="104.14" y1="172.72" x2="104.14" y2="173.99" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="173.99" x2="97.79" y2="173.99" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="P15" gate="1" pin="GND"/>
+<wire x1="213.36" y1="154.94" x2="215.9" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="154.94" x2="215.9" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="18"/>
+</segment>
+<segment>
+<pinref part="J11" gate="G$1" pin="6"/>
+<wire x1="213.36" y1="109.22" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="J11" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="119.38" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="109.22" x2="218.44" y2="104.14" width="0.1524" layer="91"/>
+<junction x="218.44" y="109.22"/>
+<pinref part="P1" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="SHDN_G" class="0">
 <segment>
@@ -7420,9 +7275,9 @@ Dashed line is edge of mated connector.</description>
 <junction x="30.48" y="73.66"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="162.56" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
-<label x="220.98" y="162.56" size="1.27" layer="95" xref="yes"/>
-<pinref part="J10" gate="G$1" pin="15"/>
+<wire x1="213.36" y1="160.02" x2="220.98" y2="160.02" width="0.1524" layer="91"/>
+<label x="220.98" y="160.02" size="1.27" layer="95" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="16"/>
 </segment>
 </net>
 <net name="OKHS_IN" class="0">
@@ -7432,9 +7287,9 @@ Dashed line is edge of mated connector.</description>
 <label x="33.02" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="175.26" x2="220.98" y2="175.26" width="0.1524" layer="91"/>
-<label x="220.98" y="175.26" size="1.27" layer="95" xref="yes"/>
-<pinref part="J10" gate="G$1" pin="10"/>
+<wire x1="213.36" y1="172.72" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
+<label x="220.98" y="172.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="BMS_OK" class="0">
@@ -7444,9 +7299,9 @@ Dashed line is edge of mated connector.</description>
 <label x="33.02" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="172.72" x2="220.98" y2="172.72" width="0.1524" layer="91"/>
-<label x="220.98" y="172.72" size="1.27" layer="95" xref="yes"/>
-<pinref part="J10" gate="G$1" pin="11"/>
+<wire x1="213.36" y1="170.18" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
+<label x="220.98" y="170.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -7477,24 +7332,6 @@ Dashed line is edge of mated connector.</description>
 </net>
 <net name="+24V" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="+24V"/>
-<wire x1="215.9" y1="127" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="124.46" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="121.92" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="93.98" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
-<junction x="215.9" y="111.76"/>
-<wire x1="213.36" y1="124.46" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
-<junction x="215.9" y="124.46"/>
-<wire x1="213.36" y1="121.92" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
-<junction x="215.9" y="121.92"/>
-<pinref part="J11" gate="G$1" pin="1"/>
-<pinref part="J11" gate="G$1" pin="2"/>
-<pinref part="J11" gate="G$1" pin="6"/>
-<pinref part="J11" gate="G$1" pin="13"/>
-</segment>
-<segment>
 <pinref part="J12" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="+24V"/>
 <wire x1="96.52" y1="53.34" x2="99.06" y2="53.34" width="0.1524" layer="91"/>
@@ -7507,10 +7344,22 @@ Dashed line is edge of mated connector.</description>
 <pinref part="P20" gate="G$1" pin="+24V"/>
 </segment>
 <segment>
-<pinref part="J10" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="198.12" x2="220.98" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="198.12" x2="220.98" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="P1" gate="G$1" pin="+24V"/>
+<pinref part="J11" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="121.92" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="121.92" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="J11" gate="G$1" pin="3"/>
+<wire x1="213.36" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="116.84" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
+<junction x="215.9" y="121.92"/>
+<pinref part="J11" gate="G$1" pin="5"/>
+<wire x1="213.36" y1="111.76" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="111.76" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
+<junction x="215.9" y="116.84"/>
+<pinref part="J11" gate="G$1" pin="4"/>
+<wire x1="215.9" y1="114.3" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="114.3" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
+<junction x="215.9" y="114.3"/>
+<pinref part="P13" gate="G$1" pin="+24V"/>
 </segment>
 </net>
 <net name="SHDN_I" class="0">
@@ -7518,11 +7367,6 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J3" gate="G$1" pin="6"/>
 <wire x1="165.1" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
 <label x="172.72" y="139.7" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="213.36" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
-<label x="220.98" y="101.6" size="1.27" layer="95" xref="yes"/>
-<pinref part="J11" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
@@ -7561,11 +7405,6 @@ Dashed line is edge of mated connector.</description>
 </net>
 <net name="SHDN_K" class="0">
 <segment>
-<wire x1="213.36" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
-<label x="220.98" y="83.82" size="1.27" layer="95" xref="yes"/>
-<pinref part="J11" gate="G$1" pin="17"/>
-</segment>
-<segment>
 <wire x1="96.52" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
@@ -7576,9 +7415,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J9" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="185.42" x2="220.98" y2="185.42" width="0.1524" layer="91"/>
-<label x="220.98" y="185.42" size="1.27" layer="95" xref="yes"/>
-<pinref part="J10" gate="G$1" pin="6"/>
+<wire x1="213.36" y1="182.88" x2="220.98" y2="182.88" width="0.1524" layer="91"/>
+<label x="220.98" y="182.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="SHDN_L" class="0">
@@ -7600,14 +7439,14 @@ Dashed line is edge of mated connector.</description>
 <label x="104.14" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="165.1" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
-<label x="220.98" y="165.1" size="1.27" layer="95" xref="yes"/>
-<pinref part="J10" gate="G$1" pin="14"/>
+<wire x1="213.36" y1="180.34" x2="220.98" y2="180.34" width="0.1524" layer="91"/>
+<label x="220.98" y="180.34" size="1.27" layer="95" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="8"/>
 </segment>
 <segment>
-<wire x1="213.36" y1="182.88" x2="220.98" y2="182.88" width="0.1524" layer="91"/>
-<label x="220.98" y="182.88" size="1.27" layer="95" xref="yes"/>
-<pinref part="J10" gate="G$1" pin="7"/>
+<pinref part="J10" gate="G$1" pin="17"/>
+<wire x1="213.36" y1="157.48" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
+<label x="220.98" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FL_CORNER_EXT_P" class="0">
@@ -7733,20 +7572,6 @@ Dashed line is edge of mated connector.</description>
 <label x="172.72" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="INVERTER_EN_BOOSTED" class="0">
-<segment>
-<wire x1="213.36" y1="167.64" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
-<label x="220.98" y="167.64" size="1.27" layer="95" xref="yes"/>
-<pinref part="J10" gate="G$1" pin="13"/>
-</segment>
-</net>
-<net name="INVERTER_24V_EN_BOOSTED" class="0">
-<segment>
-<wire x1="213.36" y1="170.18" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
-<label x="220.98" y="170.18" size="1.27" layer="95" xref="yes"/>
-<pinref part="J10" gate="G$1" pin="12"/>
-</segment>
-</net>
 <net name="SHDN_J" class="0">
 <segment>
 <wire x1="96.52" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
@@ -7781,6 +7606,39 @@ Dashed line is edge of mated connector.</description>
 <wire x1="165.1" y1="152.4" x2="167.64" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="152.4" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
 <label x="167.64" y="154.94" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="INVERTER_EN_BOOSTED" class="0">
+<segment>
+<wire x1="213.36" y1="165.1" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
+<label x="220.98" y="165.1" size="1.27" layer="95" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="14"/>
+</segment>
+</net>
+<net name="INVERTER_24V_EN_BOOSTED" class="0">
+<segment>
+<wire x1="213.36" y1="167.64" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
+<label x="220.98" y="167.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="13"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<wire x1="213.36" y1="187.96" x2="220.98" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="5"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<wire x1="213.36" y1="185.42" x2="220.98" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="6"/>
+</segment>
+</net>
+<net name="BRAKELIGHT_12V" class="0">
+<segment>
+<wire x1="213.36" y1="162.56" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
+<label x="220.98" y="162.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="J10" gate="G$1" pin="15"/>
 </segment>
 </net>
 </nets>
