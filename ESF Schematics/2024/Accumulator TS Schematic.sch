@@ -3802,9 +3802,9 @@ Layer: 94 Symbol</description>
 <text x="88.9" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="38.1" y="96.52" size="1.27" layer="97" align="top-left">PCB Trace</text>
 <text x="45.72" y="142.24" size="1.27" layer="97" align="top-left">16AWG</text>
-<text x="22.86" y="157.48" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="24.638" y="156.972" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="17.78" y="180.34" size="1.27" layer="97" align="top-left">22AWG</text>
-<text x="68.58" y="177.8" size="1.27" layer="97" align="top-left">PCB Trace</text>
+<text x="74.676" y="177.8" size="1.27" layer="97" rot="MR0" align="top-left">PCB Trace</text>
 <text x="149.86" y="88.9" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="93.98" y="88.9" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="83.82" y="175.26" size="1.27" layer="97" align="top-left">17.5mm^2</text>
@@ -3822,7 +3822,7 @@ Layer: 94 Symbol</description>
 <text x="182.88" y="48.26" size="1.778" layer="97">(&gt;= 20 mil)</text>
 <text x="78.74" y="83.82" size="1.27" layer="97">PCB Trace</text>
 <text x="190.5" y="167.64" size="1.27" layer="97" rot="R90" align="top-left">PCB Trace</text>
-<text x="114.3" y="119.38" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="119.38" y="116.84" size="1.27" layer="97" rot="MR0" align="top-left">22AWG</text>
 <text x="135.128" y="129.286" size="1.27" layer="97" align="top-left">22 AWG</text>
 <text x="144.78" y="142.24" size="1.27" layer="97">17.5mm^2</text>
 <text x="157.48" y="142.24" size="1.27" layer="97">17.5mm^2</text>
@@ -3857,6 +3857,10 @@ before TS voltage reaches 60V</text>
 <wire x1="68.58" y1="154.94" x2="68.58" y2="167.64" width="0.1524" layer="94"/>
 <wire x1="71.12" y1="167.64" x2="68.58" y2="167.64" width="0.1524" layer="94"/>
 <text x="128.27" y="22.606" size="2.54" layer="95">Shayan Noorani &amp; Liwei Sun</text>
+<text x="205.74" y="114.3" size="1.27" layer="97" align="top-left">PCB Trace</text>
+<text x="206.756" y="121.158" size="1.27" layer="97" align="top-left">PCB Trace</text>
+<text x="123.444" y="118.364" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="89.154" y="122.936" size="1.27" layer="97">17.5mm^2</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="142.24" y="93.98" smashed="yes" rot="MR0"/>
