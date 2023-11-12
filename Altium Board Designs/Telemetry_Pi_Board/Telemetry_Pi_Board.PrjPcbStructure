@@ -1,11 +1,10 @@
-Record=TopLevelDocument|FileName=Ethernet.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=GPIO_CAN.SchDoc|SheetNumber=10
-Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=Other_Pi.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=Other_Pi_2.SchDoc|SheetNumber=9
+Record=TopLevelDocument|FileName=Ethernet.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=GPIO_CAN.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=Other_Pi.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=Other_Pi_2.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=Pi_Boot_Control.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=Pi_Cellular.SchDoc|SheetNumber=5
 Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=Pi_Power.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=Power.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=SD_Card.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=SD_Card.SchDoc|SheetNumber=10
 Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=Telemetry_Pi_Board.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=Ethernet.SchDoc|FileName=USB.SchDoc|SheetNumber=6
