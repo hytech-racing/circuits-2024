@@ -5143,24 +5143,16 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="57.658" y1="6.858" x2="57.658" y2="18.772" width="0.508" layer="1"/>
 <contactref element="J10" pad="3"/>
 <contactref element="J10" pad="4"/>
-<wire x1="5.365" y1="-77.295" x2="2.365" y2="-77.295" width="0" layer="19" extent="1-1"/>
-<wire x1="70.8914" y1="7.62" x2="5.365" y2="-77.295" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SHDN_L">
-<contactref element="J12" pad="6"/>
-<wire x1="99.06" y1="12.4714" x2="100.5586" y2="13.97" width="0.254" layer="16"/>
-<wire x1="85.598" y1="7.62" x2="86.36" y2="6.858" width="0.254" layer="16"/>
-<wire x1="86.36" y1="6.858" x2="95.504" y2="6.858" width="0.254" layer="16"/>
-<wire x1="95.504" y1="6.858" x2="99.06" y2="10.414" width="0.254" layer="16"/>
-<wire x1="99.06" y1="10.414" x2="99.06" y2="12.4714" width="0.254" layer="16"/>
-<contactref element="J7" pad="5"/>
-<wire x1="9.51356875" y1="-19.414490625" x2="85.598" y2="7.62" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="SHDN_M">
 <contactref element="J12" pad="2"/>
 <wire x1="100.5586" y1="10.7188" x2="95.9358" y2="6.096" width="0.254" layer="16"/>
 <wire x1="100.5586" y1="10.7188" x2="100.5586" y2="10.9728" width="0.254" layer="16"/>
 <wire x1="75.4126" y1="6.096" x2="95.9358" y2="6.096" width="0.254" layer="16"/>
+<wire x1="73.8886" y1="7.62" x2="75.4126" y2="6.096" width="0" layer="19" extent="16-16"/>
+<wire x1="5.365" y1="-77.295" x2="70.8914" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="2.365" y1="-77.295" x2="5.365" y2="-77.295" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SHDN_L">
+<contactref element="J7" pad="5"/>
 </signal>
 <signal name="+12V">
 <contactref element="A1" pad="3"/>
@@ -5405,6 +5397,13 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="57.912" y1="25.654" x2="57.912" y2="23.876" width="0.254" layer="2"/>
 <wire x1="57.912" y1="23.876" x2="65.532" y2="16.256" width="0.254" layer="2"/>
 <wire x1="69.596" y1="12.192" x2="69.596" y2="5.9182" width="0.254" layer="2"/>
+<contactref element="J12" pad="6"/>
+<wire x1="99.06" y1="12.4714" x2="100.5586" y2="13.97" width="0.254" layer="16"/>
+<wire x1="85.598" y1="7.62" x2="86.36" y2="6.858" width="0.254" layer="16"/>
+<wire x1="86.36" y1="6.858" x2="95.504" y2="6.858" width="0.254" layer="16"/>
+<wire x1="95.504" y1="6.858" x2="99.06" y2="10.414" width="0.254" layer="16"/>
+<wire x1="99.06" y1="10.414" x2="99.06" y2="12.4714" width="0.254" layer="16"/>
+<wire x1="85.3186" y1="7.62" x2="85.598" y2="7.62" width="0" layer="19" extent="16-16"/>
 <wire x1="79.3242" y1="4.6228" x2="82.3214" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CB_VIN">

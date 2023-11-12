@@ -7346,24 +7346,17 @@ Dashed line is edge of mated connector.</description>
 <wire x1="215.9" y1="193.04" x2="215.9" y2="190.5" width="0.1524" layer="91"/>
 <junction x="215.9" y="193.04"/>
 </segment>
-</net>
-<net name="SHDN_L" class="0">
-<segment>
-<pinref part="J12" gate="G$1" pin="6"/>
-<wire x1="96.52" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
-<label x="104.14" y="40.64" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="5"/>
-<wire x1="27.94" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
-<label x="33.02" y="93.98" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SHDN_M" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
 <label x="104.14" y="50.8" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SHDN_L" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="5"/>
+<wire x1="27.94" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
+<label x="33.02" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FL_CORNER_EXT_P" class="0">
@@ -7529,6 +7522,11 @@ Dashed line is edge of mated connector.</description>
 <label x="104.14" y="76.2" size="1.27" layer="95" xref="yes"/>
 <pinref part="J9" gate="G$1" pin="1"/>
 <pinref part="J9" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J12" gate="G$1" pin="6"/>
+<wire x1="96.52" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
+<label x="104.14" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CB_VIN" class="0">
