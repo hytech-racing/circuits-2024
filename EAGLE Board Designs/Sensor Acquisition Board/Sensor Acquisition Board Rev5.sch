@@ -12058,32 +12058,32 @@ Thermistors</text>
 <attribute name="VOLTAGE" x="116.84" y="90.17" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="118.618" y="90.17" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="R21" gate="G$1" x="50.8" y="149.86" smashed="yes">
-<attribute name="NAME" x="49.53" y="151.13" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="49.53" y="148.59" size="1.27" layer="96" align="top-center"/>
+<instance part="R21" gate="G$1" x="40.64" y="149.86" smashed="yes">
+<attribute name="NAME" x="39.37" y="151.13" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="39.37" y="148.59" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R22" gate="G$1" x="68.58" y="149.86" smashed="yes">
-<attribute name="NAME" x="67.31" y="151.13" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="67.31" y="148.59" size="1.27" layer="96" align="top-center"/>
+<instance part="R22" gate="G$1" x="58.42" y="149.86" smashed="yes">
+<attribute name="NAME" x="57.15" y="151.13" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="57.15" y="148.59" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="C60" gate="G$1" x="58.42" y="142.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.88" y="140.97" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="60.96" y="140.97" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="62.738" y="140.97" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C60" gate="G$1" x="48.26" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.72" y="140.97" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="50.8" y="140.97" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="52.578" y="140.97" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P116" gate="1" x="58.42" y="129.54" smashed="yes">
-<attribute name="VALUE" x="58.42" y="128.27" size="1.27" layer="96" align="top-center"/>
+<instance part="P116" gate="1" x="48.26" y="129.54" smashed="yes">
+<attribute name="VALUE" x="48.26" y="128.27" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="JP6" gate="G$1" x="76.2" y="152.4" smashed="yes">
-<attribute name="NAME" x="76.2" y="154.94" size="1.27" layer="95"/>
-<attribute name="MPN" x="76.2" y="149.098" size="1.27" layer="96" align="top-left"/>
+<instance part="JP6" gate="G$1" x="66.04" y="152.4" smashed="yes">
+<attribute name="NAME" x="66.04" y="154.94" size="1.27" layer="95"/>
+<attribute name="MPN" x="66.04" y="149.098" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="D9" gate="G$1" x="142.24" y="160.02" smashed="yes">
-<attribute name="NAME" x="138.43" y="164.465" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="MPN" x="138.303" y="155.575" size="1.27" layer="96" align="top-center"/>
+<instance part="D9" gate="G$1" x="119.38" y="160.02" smashed="yes">
+<attribute name="NAME" x="115.57" y="164.465" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="115.443" y="155.575" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P117" gate="1" x="149.86" y="149.86" smashed="yes">
-<attribute name="VALUE" x="149.86" y="148.59" size="1.27" layer="96" align="top-center"/>
+<instance part="P117" gate="1" x="127" y="149.86" smashed="yes">
+<attribute name="VALUE" x="127" y="148.59" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="D8" gate="G$1" x="60.96" y="43.18" smashed="yes">
 <attribute name="NAME" x="57.15" y="47.625" size="1.27" layer="95" align="bottom-center"/>
@@ -12111,9 +12111,9 @@ Thermistors</text>
 <instance part="P80" gate="1" x="68.58" y="170.18" smashed="yes">
 <attribute name="VALUE" x="68.58" y="168.91" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="JP4" gate="G$1" x="35.56" y="152.4" smashed="yes">
-<attribute name="NAME" x="35.56" y="154.94" size="1.27" layer="95"/>
-<attribute name="MPN" x="33.02" y="149.098" size="1.27" layer="96" align="top-left"/>
+<instance part="JP4" gate="G$1" x="25.4" y="152.4" smashed="yes">
+<attribute name="NAME" x="25.4" y="154.94" size="1.27" layer="95"/>
+<attribute name="MPN" x="22.86" y="149.098" size="1.27" layer="96" align="top-left"/>
 </instance>
 <instance part="R20" gate="G$1" x="40.64" y="60.96" smashed="yes">
 <attribute name="NAME" x="39.37" y="62.23" size="1.27" layer="95" align="bottom-center"/>
@@ -12185,12 +12185,12 @@ Thermistors</text>
 <instance part="P123" gate="1" x="68.58" y="10.16" smashed="yes">
 <attribute name="VALUE" x="68.58" y="8.89" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="D11" gate="G$1" x="142.24" y="144.78" smashed="yes">
-<attribute name="NAME" x="138.43" y="149.225" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="MPN" x="138.303" y="140.335" size="1.27" layer="96" align="top-center"/>
+<instance part="D11" gate="G$1" x="119.38" y="144.78" smashed="yes">
+<attribute name="NAME" x="115.57" y="149.225" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="115.443" y="140.335" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P129" gate="1" x="149.86" y="134.62" smashed="yes">
-<attribute name="VALUE" x="149.86" y="133.35" size="1.27" layer="96" align="top-center"/>
+<instance part="P129" gate="1" x="127" y="134.62" smashed="yes">
+<attribute name="VALUE" x="127" y="133.35" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="D12" gate="G$1" x="119.38" y="129.54" smashed="yes">
 <attribute name="NAME" x="115.57" y="133.985" size="1.27" layer="95" align="bottom-center"/>
@@ -12245,13 +12245,13 @@ Thermistors</text>
 <segment>
 <pinref part="C60" gate="G$1" pin="2"/>
 <pinref part="P116" gate="1" pin="GND"/>
-<wire x1="58.42" y1="137.16" x2="58.42" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="137.16" x2="48.26" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D9" gate="G$1" pin="A"/>
-<wire x1="144.78" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="P117" gate="1" pin="GND"/>
-<wire x1="149.86" y1="160.02" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="127" y1="160.02" x2="127" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D8" gate="G$1" pin="A"/>
@@ -12317,9 +12317,9 @@ Thermistors</text>
 </segment>
 <segment>
 <pinref part="D11" gate="G$1" pin="A"/>
-<wire x1="144.78" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P129" gate="1" pin="GND"/>
-<wire x1="149.86" y1="144.78" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="127" y1="144.78" x2="127" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D12" gate="G$1" pin="A"/>
@@ -12440,13 +12440,13 @@ Thermistors</text>
 <net name="CAN_P" class="0">
 <segment>
 <pinref part="JP6" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="149.86" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
-<label x="86.36" y="149.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="71.12" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<label x="76.2" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D9" gate="G$1" pin="C1"/>
-<wire x1="134.62" y1="162.56" x2="129.54" y2="162.56" width="0.1524" layer="91"/>
-<label x="129.54" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="162.56" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
+<label x="106.68" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U13" gate="G$1" pin="CANH"/>
@@ -12455,8 +12455,8 @@ Thermistors</text>
 </segment>
 <segment>
 <pinref part="D11" gate="G$1" pin="C1"/>
-<wire x1="134.62" y1="147.32" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
-<label x="129.54" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
+<label x="106.68" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D12" gate="G$1" pin="C1"/>
@@ -12467,8 +12467,8 @@ Thermistors</text>
 <net name="CAN_N" class="0">
 <segment>
 <pinref part="D9" gate="G$1" pin="C2"/>
-<wire x1="134.62" y1="157.48" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
-<label x="129.54" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="157.48" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
+<label x="106.68" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U13" gate="G$1" pin="CANL"/>
@@ -12477,13 +12477,13 @@ Thermistors</text>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="149.86" x2="30.48" y2="149.86" width="0.1524" layer="91"/>
-<label x="30.48" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="25.4" y1="149.86" x2="20.32" y2="149.86" width="0.1524" layer="91"/>
+<label x="20.32" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D11" gate="G$1" pin="C2"/>
-<wire x1="134.62" y1="142.24" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
-<label x="129.54" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="142.24" x2="106.68" y2="142.24" width="0.1524" layer="91"/>
+<label x="106.68" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D12" gate="G$1" pin="C2"/>
@@ -12580,17 +12580,17 @@ Thermistors</text>
 <segment>
 <pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="149.86" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="149.86" x2="48.26" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C60" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="144.78" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
-<junction x="58.42" y="149.86"/>
+<wire x1="48.26" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="144.78" x2="48.26" y2="149.86" width="0.1524" layer="91"/>
+<junction x="48.26" y="149.86"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="149.86" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -12677,7 +12677,7 @@ Thermistors</text>
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="JP4" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="149.86" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="149.86" x2="30.48" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
