@@ -976,6 +976,16 @@
 <pin name="1" x="10.16" y="-2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="10.16" y="-5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="FUSE">
+<wire x1="-1.27" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="0" x2="0.635" y2="0" width="0.1524" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -1214,6 +1224,21 @@
 <technology name="XXC104-EV-P1ZA">
 <attribute name="MANUFACTURER" value="XINXI"/>
 <attribute name="MPN" value="XXC104-EV-P1ZA"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FUSE" prefix="F">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="15A" constant="no"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -3826,7 +3851,7 @@ Layer: 94 Symbol</description>
 <part name="P4" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P3" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="BSPD_RELAY" library="HyTechSymbols" deviceset="RELAY_DPDT_?*" device="" technology="RT424024" value="RELAY_DPDT_RT424024"/>
-<part name="F1" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="10A"/>
+<part name="F1" library="HyTechSymbols" deviceset="FUSE" device="" value="15A"/>
 <part name="F3" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="3A"/>
 <part name="U$10" library="HyTechSymbols" deviceset="BENDER_IR155-3204" device=""/>
 <part name="U$12" library="HyTechSymbols" deviceset="SEGMENT" device=""/>

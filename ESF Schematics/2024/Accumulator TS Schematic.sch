@@ -427,6 +427,22 @@ LOGIC</text>
 <wire x1="12.192" y1="-4.0132" x2="12.192" y2="-6.1468" width="0.254" layer="94"/>
 <wire x1="11.176" y1="0" x2="11.176" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
 </symbol>
+<symbol name="CURRENT_SHUNT">
+<description>Block representation of the current Shunt
+.</description>
+<wire x1="0" y1="0" x2="0" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="0" y1="-12.7" x2="20.32" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-12.7" x2="20.32" y2="0" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<pin name="CUR_IN" x="22.86" y="-10.16" length="short" direction="out" rot="R180"/>
+<text x="6.096" y="-4.064" size="1.778" layer="95" align="top-left">Current
+Shunt</text>
+<pin name="VDD" x="22.86" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-2.54" y="-10.16" length="short" direction="pwr"/>
+<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
+<text x="0" y="-13.462" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<pin name="CUR_OUT" x="-2.54" y="-2.54" length="short" direction="out"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -641,6 +657,27 @@ LOGIC</text>
 <technology name="BDWVR">
 <attribute name="MANUFACTURER" value="Texas Instruments"/>
 <attribute name="MPN" value="AMC3330DWER"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CURRENT_SHUNT">
+<gates>
+<gate name="G$1" symbol="CURRENT_SHUNT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="SSA-250">
+<attribute name="MANUFACTURER" value="Riedon" constant="no"/>
+<attribute name="MPN" value="SSA-250" constant="no"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -984,6 +1021,12 @@ METER</text>
 <wire x1="1.27" y1="1.905" x2="0" y2="3.81" width="0.254" layer="94"/>
 <text x="0" y="5.08" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
+<symbol name="+3V3">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="0" y="1.27" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="P">
@@ -1064,6 +1107,19 @@ METER</text>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="+24V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="+3V3" prefix="P">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+3V3" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3767,6 +3823,9 @@ Layer: 94 Symbol</description>
 <part name="U$29" library="HyTechSymbols" deviceset="BUCK_CONVERTER" device=""/>
 <part name="U1" library="HyTechSymbols" deviceset="AMC333" device="" technology="BDWVR"/>
 <part name="U2" library="HyTechSymbols" deviceset="AMC333" device="" technology="BDWVR"/>
+<part name="U$43" library="HyTechSymbols" deviceset="CURRENT_SHUNT" device="" technology="SSA-250"/>
+<part name="P3" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P5" library="HyTechSupplies" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3860,7 +3919,11 @@ before TS voltage reaches 60V</text>
 <text x="205.74" y="114.3" size="1.27" layer="97" align="top-left">PCB Trace</text>
 <text x="206.756" y="121.158" size="1.27" layer="97" align="top-left">PCB Trace</text>
 <text x="123.444" y="118.364" size="1.27" layer="97" align="top-left">22AWG</text>
-<text x="89.154" y="122.936" size="1.27" layer="97">17.5mm^2</text>
+<text x="84.074" y="130.556" size="1.27" layer="97">17.5mm^2</text>
+<text x="83.82" y="124.46" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="117.348" y="128.524" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="176.53" y="30.226" size="2.54" layer="95">Shayan Noorani</text>
+<text x="229.87" y="30.226" size="2.54" layer="95">Ethan Su</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="142.24" y="93.98" smashed="yes" rot="MR0"/>
@@ -3887,7 +3950,7 @@ before TS voltage reaches 60V</text>
 <instance part="P4" gate="G$1" x="81.28" y="88.9" smashed="yes">
 <attribute name="VALUE" x="81.28" y="93.98" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$14" gate="G$1" x="55.88" y="142.24" smashed="yes"/>
+<instance part="U$14" gate="G$1" x="55.88" y="139.7" smashed="yes"/>
 <instance part="P8" gate="1" x="147.32" y="93.98" smashed="yes">
 <attribute name="VALUE" x="147.32" y="97.79" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -4113,8 +4176,8 @@ before TS voltage reaches 60V</text>
 <instance part="U$41" gate="G$1" x="208.28" y="124.46" smashed="yes">
 <attribute name="VALUE" x="208.28" y="129.54" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$42" gate="G$1" x="43.18" y="142.24" smashed="yes">
-<attribute name="VALUE" x="43.18" y="147.32" size="1.27" layer="96" align="bottom-center"/>
+<instance part="U$42" gate="G$1" x="43.18" y="139.7" smashed="yes">
+<attribute name="VALUE" x="43.18" y="144.78" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U$29" gate="G$1" x="215.9" y="124.46" smashed="yes"/>
 <instance part="U1" gate="G$1" x="198.12" y="165.1" smashed="yes">
@@ -4124,6 +4187,16 @@ before TS voltage reaches 60V</text>
 <instance part="U2" gate="G$1" x="198.12" y="185.42" smashed="yes">
 <attribute name="MANUFACTURER" x="198.12" y="186.182" size="1.27" layer="96"/>
 <attribute name="MPN" x="198.12" y="174.498" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="U$43" gate="G$1" x="93.98" y="132.08" smashed="yes">
+<attribute name="MANUFACTURER" x="93.98" y="132.842" size="1.27" layer="96"/>
+<attribute name="MPN" x="93.98" y="118.618" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="P3" gate="1" x="88.9" y="116.84" smashed="yes">
+<attribute name="VALUE" x="88.9" y="115.57" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P5" gate="G$1" x="119.38" y="134.62" smashed="yes">
+<attribute name="VALUE" x="119.38" y="135.89" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -4160,6 +4233,12 @@ before TS voltage reaches 60V</text>
 <wire x1="157.48" y1="129.54" x2="160.02" y2="129.54" width="0.0762" layer="91"/>
 <pinref part="P2" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U$43" gate="G$1" pin="GND"/>
+<wire x1="91.44" y1="121.92" x2="88.9" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="121.92" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="P3" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="SHDN" class="0">
 <segment>
@@ -4174,7 +4253,7 @@ before TS voltage reaches 60V</text>
 </segment>
 <segment>
 <pinref part="AIR-" gate="G$1" pin="COIL-"/>
-<wire x1="142.24" y1="129.54" x2="134.62" y2="129.54" width="0.0762" layer="91"/>
+<wire x1="142.24" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
 <label x="134.62" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -4256,9 +4335,9 @@ before TS voltage reaches 60V</text>
 <label x="20.066" y="145.542" size="1.27" layer="95"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="144.78" x2="17.78" y2="147.32" width="0.4445" layer="91"/>
-<wire x1="35.56" y1="144.78" x2="35.56" y2="132.08" width="0.4445" layer="91"/>
+<wire x1="35.56" y1="144.78" x2="35.56" y2="129.54" width="0.4445" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="HV-OUT"/>
-<wire x1="35.56" y1="132.08" x2="53.34" y2="132.08" width="0.4445" layer="91"/>
+<wire x1="35.56" y1="129.54" x2="53.34" y2="129.54" width="0.4445" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="TS-"/>
@@ -4420,9 +4499,8 @@ before TS voltage reaches 60V</text>
 <net name="N$45" class="0">
 <segment>
 <pinref part="U$14" gate="G$1" pin="HV-IN"/>
-<wire x1="83.82" y1="132.08" x2="83.82" y2="121.92" width="0.4445" layer="91"/>
-<pinref part="MAIN_FUSE" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="121.92" x2="121.92" y2="121.92" width="0.4445" layer="91"/>
+<wire x1="83.82" y1="129.54" x2="91.44" y2="129.54" width="0.4445" layer="91"/>
+<pinref part="U$43" gate="G$1" pin="CUR_OUT"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -4649,7 +4727,7 @@ before TS voltage reaches 60V</text>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="HV+IN"/>
-<wire x1="53.34" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="137.16" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="U$42" gate="G$1" pin="TS+FUSED"/>
 </segment>
 <segment>
@@ -4717,6 +4795,21 @@ before TS voltage reaches 60V</text>
 <pinref part="MAIN_FUSE" gate="G$1" pin="2"/>
 <pinref part="AIR-" gate="G$1" pin="CONTACT2"/>
 <wire x1="129.54" y1="121.92" x2="142.24" y2="121.92" width="0.4445" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="U$43" gate="G$1" pin="CUR_IN"/>
+<pinref part="MAIN_FUSE" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="121.92" x2="121.92" y2="121.92" width="0.4445" layer="91"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="U$43" gate="G$1" pin="VDD"/>
+<wire x1="116.84" y1="129.54" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="P5" gate="G$1" pin="+3V3"/>
+<wire x1="119.38" y1="129.54" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
