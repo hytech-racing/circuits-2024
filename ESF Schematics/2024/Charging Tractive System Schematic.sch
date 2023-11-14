@@ -3632,7 +3632,9 @@ Layer: 94 Symbol</description>
 <part name="U$3" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="XXC106-EV-P3Z" value="CONNECTOR-3_XXC106-EV-P3Z"/>
 <part name="U$4" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800" value="CONNECTOR-2_HVP800"/>
 <part name="U$5" library="HyTechSymbols" deviceset="BENDER_IR155-3204" device=""/>
-<part name="F3" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="175A"/>
+<part name="F3" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="175A">
+<attribute name="_EXTERNAL_" value="125A"/>
+</part>
 <part name="F4" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1A"/>
 <part name="F5" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1A"/>
 <part name="U$10" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
@@ -3749,6 +3751,7 @@ EVSE</text>
 <wire x1="64.77" y1="167.64" x2="5.08" y2="167.64" width="0.1524" layer="97" style="shortdash"/>
 <text x="5.588" y="159.512" size="1.778" layer="97">Option 1 for NEMA 5-20:</text>
 <text x="5.08" y="191.008" size="1.778" layer="97">Option 2 for J1772:</text>
+<text x="228.346" y="128.27" size="1.27" layer="97" align="top-left">125A</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="200.66" y="137.16" smashed="yes">
@@ -3766,7 +3769,6 @@ EVSE</text>
 <instance part="U$5" gate="G$1" x="238.76" y="101.6" smashed="yes" rot="MR0"/>
 <instance part="F3" gate="G$1" x="231.14" y="129.54" smashed="yes">
 <attribute name="NAME" x="229.87" y="130.81" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="229.87" y="128.27" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="F4" gate="G$1" x="218.44" y="144.78" smashed="yes">
 <attribute name="NAME" x="217.17" y="146.05" size="1.27" layer="95" align="bottom-center"/>
