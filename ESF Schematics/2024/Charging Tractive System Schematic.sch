@@ -3674,7 +3674,9 @@ Layer: 94 Symbol</description>
 <part name="U$2" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device="">
 <attribute name="DESCRIPTION_1" value="ESF compliant representation of the charging"/>
 <attribute name="DESCRIPTION_2" value="tractive system."/>
+<attribute name="DESIGNER_SCHEMATIC" value="Shayan Noorani"/>
 <attribute name="ENGINEER" value="Shayan Noorani &amp; Liwei Sun"/>
+<attribute name="REVIEWER_SCHEMATIC" value="Ethan Su"/>
 </part>
 </parts>
 <sheets>

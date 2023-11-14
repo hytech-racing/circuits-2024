@@ -4069,6 +4069,8 @@ Layer: 94 Symbol</description>
 Connection</text>
 <text x="198.12" y="15.24" size="2.54" layer="95">ESF compliant reresentation of the HT08 </text>
 <text x="128.27" y="22.352" size="2.54" layer="95">Shayan Noorani &amp; Liwei Sun</text>
+<text x="176.53" y="29.972" size="2.54" layer="95">Shayan Noorani</text>
+<text x="227.33" y="29.972" size="2.54" layer="95">Ethan Su</text>
 </plain>
 <instances>
 <instance part="IMD_RELAY" gate="G$1" x="76.2" y="190.5" smashed="yes">
