@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="20" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -1877,19 +1877,19 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MPN" value="SN74LXC2T45DCUR" x="214.122" y="-178.308" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="168.402" y="-56.558" size="0.254" layer="25" align="bottom-center"/>
 </element>
-<element name="U1" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="142.113" y="-104.267" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="145.605" y="-104.267" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U1" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="188.468" y="-69.215" smashed="yes" rot="MR0">
+<attribute name="DKPN" value="1830-1210-2-ND" x="133.858" y="-167.005" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="133.858" y="-167.005" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="133.858" y="-167.005" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="133.858" y="-167.005" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="191.96" y="-69.215" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
-<element name="U10" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="151.003" y="-96.647" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="154.495" y="-96.647" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U10" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="164.465" y="-48.006" smashed="yes" rot="MR0">
+<attribute name="DKPN" value="1830-1210-2-ND" x="139.065" y="-154.686" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="139.065" y="-154.686" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="139.065" y="-154.686" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="139.065" y="-154.686" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="167.957" y="-48.006" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
 <element name="U11" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="159.893" y="-96.647" smashed="yes" rot="MR0">
 <attribute name="DKPN" value="1830-1210-2-ND" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -1905,26 +1905,26 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="172.275" y="-96.647" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
-<element name="U13" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="177.673" y="-96.647" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="181.165" y="-96.647" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U13" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="2.032" y="-69.088" smashed="yes" rot="MR270">
+<attribute name="DKPN" value="1830-1210-2-ND" x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="2.032" y="-65.596" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 </element>
-<element name="U14" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="186.563" y="-96.647" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="190.055" y="-96.647" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U14" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="2.032" y="-60.198" smashed="yes" rot="MR270">
+<attribute name="DKPN" value="1830-1210-2-ND" x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="2.032" y="-56.706" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 </element>
-<element name="U15" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="195.453" y="-96.647" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="198.945" y="-96.647" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U15" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="2.032" y="-51.308" smashed="yes" rot="MR270">
+<attribute name="DKPN" value="1830-1210-2-ND" x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="108.712" y="-121.158" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="2.032" y="-47.816" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 </element>
 <element name="U16" library="HyTechDevices" package="STM32-FOOTPRINT" value="STM32-LQFP64" x="76.454" y="-52.578" smashed="yes" rot="R135">
 <attribute name="DKPN" value="497-15376-ND" x="48.615203125" y="43.5107375" size="1.778" layer="27" rot="R135" display="off"/>
@@ -1940,12 +1940,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MPN" value="LMS8117AMP-3.3/NOPB" x="-9.271" y="13.843" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="68.326" y="-69.977" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="U2" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="151.003" y="-104.267" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="154.495" y="-104.267" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U2" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="188.468" y="-61.976" smashed="yes" rot="MR0">
+<attribute name="DKPN" value="1830-1210-2-ND" x="124.968" y="-159.766" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="124.968" y="-159.766" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="124.968" y="-159.766" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="124.968" y="-159.766" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="191.96" y="-61.976" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
 <element name="U27" library="HyTechDevices" package="SOIC-08(NARROW,0.15&quot;)" value="TCAN1051HQV-Q1" x="106.045" y="-57.15" smashed="yes" rot="R270">
 <attribute name="DKPN" value="296-49935-1-ND" x="8.255" y="-95.25" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1961,12 +1961,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MPN" value="MCP23S08-E/SS" x="70.104" y="31.496" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-13.716" y="-64.008" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="U4" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="159.893" y="-104.267" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="163.385" y="-104.267" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U4" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="188.468" y="-54.61" smashed="yes" rot="MR0">
+<attribute name="DKPN" value="1830-1210-2-ND" x="116.078" y="-152.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="116.078" y="-152.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="116.078" y="-152.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="116.078" y="-152.4" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="191.96" y="-54.61" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
 <element name="U5" library="HyTechDevices" package="SOIC-08(NARROW,0.15&quot;)" value="RE46C100" x="178.308" y="-57.912" smashed="yes" rot="R180">
 <attribute name="DKPN" value="RE46C100S8TFTR-ND" x="147.828" y="39.878" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1975,33 +1975,33 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MPN" value=" RE46C100S8TF" x="147.828" y="39.878" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="181.483" y="-57.912" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="U6" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="168.783" y="-104.267" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="172.275" y="-104.267" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U6" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="188.341" y="-47.879" smashed="yes" rot="MR0">
+<attribute name="DKPN" value="1830-1210-2-ND" x="107.061" y="-145.669" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="107.061" y="-145.669" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="107.061" y="-145.669" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="107.061" y="-145.669" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="191.833" y="-47.879" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
-<element name="U7" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="177.673" y="-104.267" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="181.165" y="-104.267" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U7" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="164.465" y="-69.469" smashed="yes" rot="MR0">
+<attribute name="DKPN" value="1830-1210-2-ND" x="74.295" y="-167.259" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="74.295" y="-167.259" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="74.295" y="-167.259" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="74.295" y="-167.259" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="167.957" y="-69.469" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
-<element name="U8" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="186.563" y="-104.267" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="87.503" y="-202.057" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="190.055" y="-104.267" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U8" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="164.592" y="-62.103" smashed="yes" rot="MR0">
+<attribute name="DKPN" value="1830-1210-2-ND" x="65.532" y="-159.893" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="65.532" y="-159.893" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="65.532" y="-159.893" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="65.532" y="-159.893" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="168.084" y="-62.103" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
-<element name="U9" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="142.113" y="-96.647" smashed="yes" rot="MR0">
-<attribute name="DKPN" value="1830-1210-2-ND" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" value="Inolux" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="125.603" y="-203.327" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="145.605" y="-96.647" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<element name="U9" library="HyTechDevices" package="NEOPIXEL" value="NEOPIXEL_IN-PI55QATPRPGPBPW-40" x="164.592" y="-54.61" smashed="yes" rot="MR0">
+<attribute name="DKPN" value="1830-1210-2-ND" x="148.082" y="-161.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" value="Inolux" x="148.082" y="-161.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MOPN" value="743-I55QATPRPGPBPW40 " x="148.082" y="-161.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="IN-PI55QATPRPGPBPW-40" x="148.082" y="-161.29" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="168.084" y="-54.61" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 </element>
 <element name="X1" library="HyTechTemp" package="24_MHZ_XTAL_OSCILLATOR" value="24_MHZ_XTAL_OSCILLATOR" x="89.916" y="-44.704" smashed="yes" rot="R90">
 <attribute name="DKPN" value="FL2400022CT-ND" x="201.676" y="-23.114" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2342,19 +2342,19 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="46.736" y="-45.466" extent="1-16" drill="0.45"/>
 <wire x1="46.994" y1="-46.703" x2="46.994" y2="-45.724" width="0.254" layer="1"/>
 <wire x1="46.994" y1="-45.724" x2="46.736" y2="-45.466" width="0.254" layer="1"/>
-<wire x1="144.463" y1="-102.667" x2="144.463" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="153.353" y1="-95.047" x2="144.463" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="153.353" y1="-102.667" x2="153.353" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="162.243" y1="-95.047" x2="153.353" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="162.243" y1="-102.667" x2="162.243" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="171.133" y1="-95.047" x2="162.243" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="171.133" y1="-102.667" x2="171.133" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="180.023" y1="-95.047" x2="171.133" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="180.023" y1="-102.667" x2="180.023" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="188.913" y1="-95.047" x2="180.023" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="188.913" y1="-102.667" x2="188.913" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="197.803" y1="-95.047" x2="188.913" y2="-95.047" width="0" layer="19" extent="1-1"/>
-<wire x1="169.952" y1="-56.908" x2="180.023" y2="-95.047" width="0" layer="19" extent="1-1"/>
+<wire x1="190.818" y1="-53.01" x2="190.691" y2="-46.279" width="0" layer="19" extent="16-16"/>
+<wire x1="190.818" y1="-60.376" x2="190.818" y2="-53.01" width="0" layer="19" extent="16-16"/>
+<wire x1="190.818" y1="-67.615" x2="190.818" y2="-60.376" width="0" layer="19" extent="16-16"/>
+<wire x1="171.704" y1="-55.88" x2="190.818" y2="-53.01" width="0" layer="19" extent="16-16"/>
+<wire x1="166.942" y1="-60.503" x2="169.952" y2="-56.908" width="0" layer="19" extent="1-16"/>
+<wire x1="166.942" y1="-53.01" x2="169.952" y2="-56.908" width="0" layer="19" extent="1-16"/>
+<wire x1="166.815" y1="-46.406" x2="166.942" y2="-53.01" width="0" layer="19" extent="16-16"/>
+<wire x1="166.815" y1="-67.869" x2="166.942" y2="-60.503" width="0" layer="19" extent="16-16"/>
+<wire x1="0.432" y1="-57.848" x2="-7.874" y2="-58.293" width="0" layer="19" extent="16-16"/>
+<wire x1="0.432" y1="-66.738" x2="0.432" y2="-57.848" width="0" layer="19" extent="16-16"/>
+<wire x1="0.432" y1="-48.958" x2="0.432" y2="-57.848" width="0" layer="19" extent="16-16"/>
+<wire x1="171.133" y1="-95.047" x2="166.815" y2="-67.869" width="0" layer="19" extent="16-16"/>
+<wire x1="162.243" y1="-95.047" x2="171.133" y2="-95.047" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND">
 <contactref element="C24" pad="2"/>
@@ -2781,19 +2781,19 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="48.006" y="-47.879" extent="1-16" drill="0.45"/>
 <wire x1="47.494" y1="-46.703" x2="47.494" y2="-47.367" width="0.254" layer="1"/>
 <wire x1="47.494" y1="-47.367" x2="48.006" y2="-47.879" width="0.254" layer="1"/>
-<wire x1="139.763" y1="-105.867" x2="139.763" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="148.653" y1="-98.247" x2="139.763" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="148.653" y1="-105.867" x2="148.653" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="157.543" y1="-98.247" x2="148.653" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="157.543" y1="-105.867" x2="157.543" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="166.433" y1="-98.247" x2="157.543" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="166.433" y1="-105.867" x2="166.433" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="175.323" y1="-98.247" x2="166.433" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="175.323" y1="-105.867" x2="175.323" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="184.213" y1="-98.247" x2="175.323" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="184.213" y1="-105.867" x2="184.213" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="193.103" y1="-98.247" x2="184.213" y2="-98.247" width="0" layer="19" extent="1-1"/>
-<wire x1="137.414" y1="-73.66" x2="193.103" y2="-98.247" width="0" layer="19" extent="1-1"/>
+<wire x1="181.737" y1="-53.086" x2="185.991" y2="-49.479" width="0" layer="19" extent="16-16"/>
+<wire x1="162.242" y1="-56.21" x2="165.1" y2="-58.408" width="0" layer="19" extent="1-16"/>
+<wire x1="3.632" y1="-53.658" x2="7.9319625" y2="-55.300721875" width="0" layer="19" extent="1-16"/>
+<wire x1="186.118" y1="-56.21" x2="181.737" y2="-53.086" width="0" layer="19" extent="16-16"/>
+<wire x1="162.242" y1="-63.703" x2="165.1" y2="-58.408" width="0" layer="19" extent="1-16"/>
+<wire x1="162.115" y1="-49.606" x2="162.242" y2="-56.21" width="0" layer="19" extent="16-16"/>
+<wire x1="3.632" y1="-62.548" x2="8.255" y2="-57.531" width="0" layer="19" extent="16-16"/>
+<wire x1="186.118" y1="-63.576" x2="186.118" y2="-56.21" width="0" layer="19" extent="16-16"/>
+<wire x1="186.118" y1="-70.815" x2="186.118" y2="-63.576" width="0" layer="19" extent="16-16"/>
+<wire x1="162.115" y1="-71.069" x2="162.242" y2="-63.703" width="0" layer="19" extent="16-16"/>
+<wire x1="3.632" y1="-71.438" x2="3.632" y2="-62.548" width="0" layer="19" extent="16-16"/>
+<wire x1="166.433" y1="-98.247" x2="162.115" y2="-71.069" width="0" layer="19" extent="16-16"/>
+<wire x1="157.543" y1="-98.247" x2="166.433" y2="-98.247" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="+12V">
 <contactref element="12V" pad="2"/>
@@ -2947,12 +2947,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="81.00366875" y1="-44.846346875" x2="81.00366875" y2="-44.726328125" width="0.254" layer="1"/>
 <wire x1="74.803" y1="-71.628" x2="99.187" y2="-71.628" width="0.508" layer="15"/>
 <wire x1="99.187" y1="-71.628" x2="157.734" y2="-71.628" width="0.508" layer="15"/>
-<wire x1="162.56" y1="-66.802" x2="162.56" y2="-56.515" width="0.508" layer="15"/>
-<via x="162.56" y="-56.515" extent="1-16" drill="0.65"/>
-<wire x1="157.734" y1="-71.628" x2="162.56" y2="-66.802" width="0.508" layer="15"/>
-<wire x1="165.1" y1="-56.908" x2="164.719" y2="-56.527" width="0.508" layer="1"/>
-<wire x1="164.719" y1="-56.527" x2="162.572" y2="-56.527" width="0.508" layer="1"/>
-<wire x1="162.572" y1="-56.527" x2="162.56" y2="-56.515" width="0.508" layer="1"/>
+<wire x1="165.1" y1="-64.262" x2="165.1" y2="-55.499" width="0.508" layer="15"/>
+<via x="165.1" y="-55.499" extent="1-16" drill="0.65"/>
+<wire x1="157.734" y1="-71.628" x2="165.1" y2="-64.262" width="0.508" layer="15"/>
+<wire x1="165.1" y1="-56.908" x2="165.088" y2="-56.896" width="0.508" layer="1"/>
+<wire x1="165.088" y1="-56.896" x2="165.088" y2="-55.487" width="0.508" layer="1"/>
+<wire x1="165.088" y1="-55.487" x2="165.1" y2="-55.499" width="0.508" layer="1"/>
 <wire x1="85.95666875" y1="-51.28566875" x2="85.44866875" y2="-51.28566875" width="0.508" layer="1"/>
 <wire x1="85.44866875" y1="-51.28566875" x2="85.217" y2="-51.054" width="0.508" layer="1"/>
 <wire x1="85.217" y1="-51.054" x2="84.455" y2="-51.054" width="0.508" layer="1"/>
@@ -3729,9 +3729,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="84.7211" y1="-48.907084375" x2="86.35199375" y2="-47.276190625" width="0.1524" layer="16"/>
 <wire x1="86.35199375" y1="-38.862" x2="86.35199375" y2="-47.276190625" width="0.1524" layer="16"/>
 <wire x1="101.6" y1="-31.369" x2="88.76499375" y2="-31.369" width="0.1524" layer="16"/>
-<wire x1="101.6" y1="-31.369" x2="159.004" y2="-39.497" width="0.1524" layer="16"/>
-<wire x1="159.004" y1="-39.497" x2="172.593" y2="-53.086" width="0.1524" layer="16"/>
-<wire x1="172.593" y1="-53.086" x2="172.593" y2="-54.102" width="0.1524" layer="16"/>
+<wire x1="158.025596875" y1="-39.358465625" x2="101.6" y2="-31.369" width="0.1524" layer="16"/>
+<wire x1="172.593" y1="-50.038" x2="165.6715" y2="-43.1165" width="0.1524" layer="16"/>
+<wire x1="172.593" y1="-50.038" x2="172.593" y2="-54.102" width="0.1524" layer="16"/>
 <wire x1="172.593" y1="-54.102" x2="178.943" y2="-60.452" width="0.1524" layer="16"/>
 <via x="182.118" y="-60.452" extent="1-16" drill="0.3"/>
 <wire x1="182.118" y1="-60.452" x2="181.864" y2="-60.706" width="0.1524" layer="1"/>
@@ -3740,6 +3740,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="88.138" y1="-31.99599375" x2="88.138" y2="-37.07599375" width="0.1524" layer="16"/>
 <wire x1="88.138" y1="-37.07599375" x2="86.35199375" y2="-38.862" width="0.1524" layer="16"/>
 <wire x1="88.76499375" y1="-31.369" x2="88.138" y2="-31.99599375" width="0.1524" layer="16"/>
+<wire x1="165.6715" y1="-43.1165" x2="161.78363125" y2="-43.1165" width="0.1524" layer="16"/>
+<wire x1="161.78363125" y1="-43.1165" x2="158.025596875" y2="-39.358465625" width="0.1524" layer="16"/>
 </signal>
 <signal name="BOTS_READ">
 <contactref element="R12" pad="1"/>
@@ -3993,62 +3995,62 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <signal name="N$5">
 <contactref element="U1" pad="2"/>
 <contactref element="U2" pad="4"/>
-<wire x1="148.653" y1="-102.667" x2="144.463" y2="-105.867" width="0" layer="19" extent="1-1"/>
+<wire x1="190.818" y1="-70.815" x2="186.118" y2="-60.376" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$6">
 <contactref element="U2" pad="2"/>
 <contactref element="U4" pad="4"/>
-<wire x1="157.543" y1="-102.667" x2="153.353" y2="-105.867" width="0" layer="19" extent="1-1"/>
+<wire x1="190.818" y1="-63.576" x2="186.118" y2="-53.01" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="U4" pad="2"/>
 <contactref element="U6" pad="4"/>
-<wire x1="166.433" y1="-102.667" x2="162.243" y2="-105.867" width="0" layer="19" extent="1-1"/>
+<wire x1="190.818" y1="-56.21" x2="185.991" y2="-46.279" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$8">
 <contactref element="U6" pad="2"/>
 <contactref element="U7" pad="4"/>
-<wire x1="175.323" y1="-102.667" x2="171.133" y2="-105.867" width="0" layer="19" extent="1-1"/>
+<wire x1="162.115" y1="-67.869" x2="190.691" y2="-49.479" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="U8" pad="2"/>
 <contactref element="U9" pad="4"/>
-<wire x1="188.913" y1="-105.867" x2="139.763" y2="-95.047" width="0" layer="19" extent="1-1"/>
+<wire x1="166.942" y1="-63.703" x2="162.242" y2="-53.01" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$23">
 <contactref element="U9" pad="2"/>
 <contactref element="U10" pad="4"/>
-<wire x1="148.653" y1="-95.047" x2="144.463" y2="-98.247" width="0" layer="19" extent="1-1"/>
+<wire x1="166.942" y1="-56.21" x2="162.115" y2="-46.406" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$12">
 <contactref element="U14" pad="2"/>
 <contactref element="U15" pad="4"/>
-<wire x1="193.103" y1="-95.047" x2="188.913" y2="-98.247" width="0" layer="19" extent="1-1"/>
+<wire x1="0.432" y1="-53.658" x2="3.632" y2="-57.848" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$20">
 <contactref element="U13" pad="2"/>
 <contactref element="U14" pad="4"/>
-<wire x1="184.213" y1="-95.047" x2="180.023" y2="-98.247" width="0" layer="19" extent="1-1"/>
+<wire x1="0.432" y1="-62.548" x2="3.632" y2="-66.738" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$26">
 <contactref element="U7" pad="2"/>
 <contactref element="U8" pad="4"/>
-<wire x1="184.213" y1="-102.667" x2="180.023" y2="-105.867" width="0" layer="19" extent="1-1"/>
+<wire x1="166.815" y1="-71.069" x2="162.242" y2="-60.503" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$27">
 <contactref element="U12" pad="2"/>
 <contactref element="U13" pad="4"/>
-<wire x1="175.323" y1="-95.047" x2="171.133" y2="-98.247" width="0" layer="19" extent="1-1"/>
+<wire x1="0.432" y1="-71.438" x2="171.133" y2="-98.247" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="U10" pad="2"/>
 <contactref element="U11" pad="4"/>
-<wire x1="157.543" y1="-95.047" x2="153.353" y2="-98.247" width="0" layer="19" extent="1-1"/>
+<wire x1="157.543" y1="-95.047" x2="166.815" y2="-49.606" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$9">
 <contactref element="U11" pad="2"/>
 <contactref element="U12" pad="4"/>
-<wire x1="166.433" y1="-95.047" x2="162.243" y2="-98.247" width="0" layer="19" extent="1-1"/>
+<wire x1="162.243" y1="-98.247" x2="166.433" y2="-95.047" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$13">
 <wire x1="45.72" y1="-74.422" x2="48.768" y2="-74.422" width="0.1524" layer="1"/>
@@ -4104,7 +4106,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="169.952" y1="-57.408" x2="170.819" y2="-57.408" width="0.254" layer="1"/>
 <wire x1="170.819" y1="-57.408" x2="171.069" y2="-57.658" width="0.254" layer="1"/>
 <wire x1="171.069" y1="-57.658" x2="172.72" y2="-57.658" width="0.254" layer="1"/>
-<wire x1="139.763" y1="-102.667" x2="172.72" y2="-57.658" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="-57.658" x2="186.118" y2="-67.615" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$2">
 <via x="62.9158" y="-59.7662" extent="1-16" drill="0.3"/>
