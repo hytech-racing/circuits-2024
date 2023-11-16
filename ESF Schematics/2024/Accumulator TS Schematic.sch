@@ -399,9 +399,10 @@ LOGIC</text>
 <wire x1="27.94" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <pin name="TS+" x="-2.54" y="-2.54" length="short" direction="in"/>
 <pin name="TS-" x="-2.54" y="-12.7" length="short" direction="in"/>
-<text x="4.572" y="-8.89" size="2.032" layer="95" rot="R180" align="top-right">Buck Converter</text>
+<text x="7.366" y="-12.7" size="2.032" layer="95" rot="R180" align="top-right">Buck Converter</text>
 <wire x1="10.16" y1="-15.24" x2="12.7" y2="-15.24" width="0.1524" layer="94" style="shortdash"/>
 <pin name="TS+12V" x="30.48" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="UVLO" x="-2.54" y="-7.62" length="short"/>
 </symbol>
 <symbol name="ISO224">
 <description>ISO224*: Isolated precision amplifier
@@ -4722,7 +4723,7 @@ before TS voltage reaches 60V</text>
 <net name="TS+FUSED" class="0">
 <segment>
 <pinref part="U$41" gate="G$1" pin="TS+FUSED"/>
-<wire x1="208.28" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="121.92" x2="213.36" y2="121.92" width="0.0762" layer="91"/>
 <pinref part="U$29" gate="G$1" pin="TS+"/>
 </segment>
 <segment>
@@ -4739,7 +4740,7 @@ before TS voltage reaches 60V</text>
 <net name="TS-FUSED" class="0">
 <segment>
 <pinref part="U$30" gate="G$1" pin="TS-FUSED"/>
-<wire x1="213.36" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="111.76" x2="208.28" y2="111.76" width="0.0762" layer="91"/>
 <pinref part="U$29" gate="G$1" pin="TS-"/>
 </segment>
 <segment>

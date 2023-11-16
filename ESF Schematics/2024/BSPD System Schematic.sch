@@ -3141,6 +3141,32 @@ Filter</text>
 <vertex x="8.89" y="-1.27"/>
 </polygon>
 </symbol>
+<symbol name="BRAKE_SYSTEM_ENCODER">
+<description>Block representation of the brake system encoder.</description>
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="0" y1="-10.16" x2="20.32" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="20.32" y2="0" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<pin name="BRAKE" x="22.86" y="-7.62" length="short" direction="out" rot="R180"/>
+<text x="2.54" y="-2.54" size="2.286" layer="95" align="top-left">BSE</text>
+<pin name="VDD" x="22.86" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-2.54" y="-7.62" length="short" direction="pwr"/>
+<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
+<text x="0" y="-10.922" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+</symbol>
+<symbol name="SWITCH_SPST">
+<wire x1="-3.175" y1="0" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="3.302" size="1.27" layer="96" align="bottom-center">&gt;MANUFACTURER</text>
+<pin name="P" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="S" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="O" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="-3.302" size="1.27" layer="96" align="top-center">&gt;MPN</text>
+</symbol>
 <symbol name="RELAY_DPDT">
 <circle x="2.54" y="-17.78" radius="0.635" width="0.1524" layer="94"/>
 <circle x="7.62" y="-20.32" radius="0.635" width="0.1524" layer="94"/>
@@ -3191,32 +3217,6 @@ Filter</text>
 <vertex x="6.604" y="-29.464"/>
 <vertex x="7.112" y="-30.226"/>
 </polygon>
-</symbol>
-<symbol name="BRAKE_SYSTEM_ENCODER">
-<description>Block representation of the brake system encoder.</description>
-<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="0" y1="-10.16" x2="20.32" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="-10.16" x2="20.32" y2="0" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<pin name="BRAKE" x="22.86" y="-7.62" length="short" direction="out" rot="R180"/>
-<text x="2.54" y="-2.54" size="2.286" layer="95" align="top-left">BSE</text>
-<pin name="VDD" x="22.86" y="-2.54" length="short" direction="pwr" rot="R180"/>
-<pin name="GND" x="-2.54" y="-7.62" length="short" direction="pwr"/>
-<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
-<text x="0" y="-10.922" size="1.27" layer="96" align="top-left">&gt;MPN</text>
-</symbol>
-<symbol name="SWITCH_SPST">
-<wire x1="-3.175" y1="0" x2="-1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="0" x2="3.175" y2="1.905" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.254" layer="94"/>
-<text x="0" y="3.302" size="1.27" layer="96" align="bottom-center">&gt;MANUFACTURER</text>
-<pin name="P" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="S" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="O" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<text x="0" y="-3.302" size="1.27" layer="96" align="top-center">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3399,31 +3399,6 @@ Filter</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="RELAY_DPDT_?*" prefix="K">
-<description>Dual pole dual throw relay
-&lt;ul&gt;
-&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/12KcB2gZ1-F85lC-w8KP3F9yHGxVaqaUc/view"&gt;RT424009&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="RELAY_DPDT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-<technology name="RT424009">
-<attribute name="MANUFACTURER" value="TE Connectivity Potter &amp; Brumfield Relays"/>
-<attribute name="MPN" value="RT424009"/>
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BSE" prefix="A">
 <description>Brake system encoder
 &lt;ul&gt;
@@ -3501,6 +3476,41 @@ Filter</text>
 <technology name="INERTIA_SWITCH">
 <attribute name="MANUFACTURER" value="Sensata"/>
 <attribute name="MPN" value="Crash Sensor"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RELAY_DPDT_?*" prefix="K">
+<description>Dual pole dual throw relay
+&lt;ul&gt;
+&lt;li&gt;&lt;a href = "https://drive.google.com/file/d/12KcB2gZ1-F85lC-w8KP3F9yHGxVaqaUc/view"&gt;RT424009&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="RELAY_DPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="3-1462039-7">
+<attribute name="MANUFACTURER" value="TE Connectivity" constant="no"/>
+<attribute name="MPN" value="3-1462039-7" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="RT424009">
+<attribute name="MANUFACTURER" value="TE Connectivity Potter &amp; Brumfield Relays"/>
+<attribute name="MPN" value="RT424009"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="RT424024">
+<attribute name="MANUFACTURER" value="TE Connectivity Potter &amp; Brumfield Relays"/>
+<attribute name="MPN" value="RT424024"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -5230,9 +5240,6 @@ Filter</text>
 </class>
 </classes>
 <parts>
-<part name="BSPD_RELAY" library="HyTechSymbols" deviceset="RELAY_DPDT_?*" device="" value="RELAY_DPDT_">
-<attribute name="MPN" value="RT424024"/>
-</part>
 <part name="D4" library="HyTechSymbolsTemp" deviceset="DIODE" device=""/>
 <part name="D5" library="HyTechSymbolsTemp" deviceset="DIODE" device=""/>
 <part name="P12" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -5309,6 +5316,7 @@ Filter</text>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="15K"/>
 <part name="P2" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="BSPD_RELAY" library="HyTechSymbols" deviceset="RELAY_DPDT_?*" device="" technology="3-1462039-7"/>
 </parts>
 <sheets>
 <sheet>
@@ -5353,10 +5361,6 @@ Filter</text>
 <text x="233.68" y="30.48" size="2.54" layer="95">Eric Galluzzi</text>
 </plain>
 <instances>
-<instance part="BSPD_RELAY" gate="G$1" x="238.76" y="86.36" smashed="yes">
-<attribute name="MPN" x="238.76" y="52.578" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="238.76" y="87.122" size="1.27" layer="95"/>
-</instance>
 <instance part="D4" gate="G$1" x="228.6" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="229.87" y="76.835" size="1.27" layer="95" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="229.87" y="80.645" size="1.27" layer="96" rot="R180" align="top-center"/>
@@ -5570,16 +5574,20 @@ Filter</text>
 <instance part="P2" gate="G$1" x="149.86" y="121.92" smashed="yes">
 <attribute name="VALUE" x="149.86" y="123.19" size="1.27" layer="96" align="bottom-center"/>
 </instance>
+<instance part="BSPD_RELAY" gate="G$1" x="238.76" y="86.36" smashed="yes">
+<attribute name="MPN" x="238.76" y="52.578" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="238.76" y="87.122" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="BSPD_RELAY" gate="G$1" pin="4"/>
 <wire x1="251.46" y1="71.12" x2="256.54" y2="71.12" width="0.0762" layer="91"/>
 <wire x1="256.54" y1="71.12" x2="256.54" y2="68.58" width="0.0762" layer="91"/>
 <pinref part="P12" gate="1" pin="GND"/>
+<pinref part="BSPD_RELAY" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="VR1" gate="G$1" pin="1"/>
@@ -5736,20 +5744,19 @@ Filter</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="BSPD_RELAY" gate="G$1" pin="COIL-"/>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="236.22" y1="78.74" x2="233.68" y2="78.74" width="0.0762" layer="91"/>
 <pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="236.22" y1="78.74" x2="236.22" y2="93.98" width="0.0762" layer="91"/>
 <wire x1="236.22" y1="93.98" x2="241.3" y2="93.98" width="0.0762" layer="91"/>
 <junction x="236.22" y="78.74"/>
+<wire x1="236.22" y1="68.58" x2="236.22" y2="68.58" width="0.0762" layer="91"/>
 <pinref part="BSPD_RELAY" gate="G$1" pin="3"/>
-<wire x1="236.22" y1="78.74" x2="236.22" y2="68.58" width="0.0762" layer="91"/>
+<pinref part="BSPD_RELAY" gate="G$1" pin="COIL-"/>
 </segment>
 </net>
 <net name="BSPD_OK" class="0">
 <segment>
-<pinref part="BSPD_RELAY" gate="G$1" pin="COIL+"/>
 <wire x1="251.46" y1="78.74" x2="256.54" y2="78.74" width="0.0762" layer="91"/>
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="256.54" y1="78.74" x2="256.54" y2="93.98" width="0.0762" layer="91"/>
@@ -5759,6 +5766,7 @@ Filter</text>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="266.7" y1="119.38" x2="266.7" y2="93.98" width="0.0762" layer="91"/>
 <wire x1="266.7" y1="93.98" x2="256.54" y2="93.98" width="0.0762" layer="91"/>
+<pinref part="BSPD_RELAY" gate="G$1" pin="COIL+"/>
 </segment>
 <segment>
 <pinref part="U10" gate="G$1" pin="OUT"/>
@@ -5785,9 +5793,9 @@ Filter</text>
 </net>
 <net name="SHUTDOWN_D" class="0">
 <segment>
-<pinref part="BSPD_RELAY" gate="G$1" pin="6"/>
 <wire x1="236.22" y1="58.42" x2="233.68" y2="58.42" width="0.0762" layer="91"/>
 <label x="233.68" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="BSPD_RELAY" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -6074,9 +6082,9 @@ Filter</text>
 </net>
 <net name="SHUTDOWN_E" class="0">
 <segment>
-<pinref part="BSPD_RELAY" gate="G$1" pin="5"/>
 <wire x1="251.46" y1="60.96" x2="254" y2="60.96" width="0.0762" layer="91"/>
 <label x="254" y="60.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="BSPD_RELAY" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="N$15" class="0">
