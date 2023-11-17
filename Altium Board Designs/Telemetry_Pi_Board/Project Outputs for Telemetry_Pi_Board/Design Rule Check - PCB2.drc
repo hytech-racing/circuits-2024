@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\andy8\Documents\GitHub\hytech-racing\circuits-2024\Altium Board Designs\Telemetry_Pi_Board\PCB2.PcbDoc
 Date     : 11/16/2023
-Time     : 8:21:06 PM
+Time     : 9:53:45 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
    Violation between Clearance Constraint: (6.894mil < 12.992mil) Between Pad J1-(1482.559mil,2711.22mil) on Multi-Layer And Pad J1-A1-B12(1524.882mil,2699.016mil) on Bottom Layer(SIG/PWR) 
@@ -53,18 +53,12 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (1229.409mil,2645.079mil)(1229.409mil,3004.921mil) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (1229.409mil,2645.079mil)(1293.386mil,2645.079mil) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (1229.409mil,3004.921mil)(1293.386mil,3004.921mil) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (1246.85mil,3396.299mil)(1246.85mil,3756.142mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (1246.85mil,3396.299mil)(1310.827mil,3396.299mil) on Top Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Track (1246.85mil,3756.142mil)(1310.827mil,3756.142mil) on Top Overlay 
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 16
+Violations Detected : 10
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
