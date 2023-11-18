@@ -11351,19 +11351,19 @@ Layer: 94 Symbol</description>
 <sheet>
 <description>Neopixels</description>
 <plain>
-<text x="180.34" y="177.8" size="1.778" layer="97">GEN_PURP</text>
-<text x="210.82" y="177.8" size="1.778" layer="97">INERTIA</text>
-<text x="88.9" y="137.16" size="1.778" layer="97">BOTS</text>
-<text x="119.38" y="137.16" size="1.778" layer="97">COCKPIT_BRB</text>
-<text x="119.38" y="96.52" size="1.778" layer="97">AMS</text>
-<text x="88.9" y="96.52" size="1.778" layer="97">IMD</text>
-<text x="210.82" y="137.16" size="1.778" layer="97">MC_ERR</text>
-<text x="149.86" y="137.16" size="1.778" layer="97">CRIT_CHARGE</text>
-<text x="182.88" y="114.3" size="1.778" layer="97">TORQUE_MODE</text>
-<text x="149.86" y="96.52" size="1.778" layer="97">RDY_DRIVE</text>
-<text x="180.34" y="137.16" size="1.778" layer="97">GLV</text>
-<text x="185.42" y="132.08" size="1.778" layer="97">BRAKE_ENGAGE</text>
-<text x="182.88" y="96.52" size="1.778" layer="97">LAUNCH_CTRL</text>
+<text x="172.72" y="198.12" size="1.778" layer="97">GEN_PURP</text>
+<text x="180.34" y="177.8" size="1.778" layer="97">INERTIA</text>
+<text x="149.86" y="177.8" size="1.778" layer="97">BOTS</text>
+<text x="119.38" y="177.8" size="1.778" layer="97">COCKPIT_BRB</text>
+<text x="149.86" y="96.52" size="1.778" layer="97">AMS</text>
+<text x="119.38" y="96.52" size="1.778" layer="97">IMD</text>
+<text x="88.9" y="96.52" size="1.778" layer="97">MC_ERR</text>
+<text x="119.38" y="137.16" size="1.778" layer="97">CRIT_CHARGE</text>
+<text x="88.9" y="137.16" size="1.778" layer="97">TORQUE_MODE</text>
+<text x="210.82" y="137.16" size="1.778" layer="97">RDY_DRIVE</text>
+<text x="149.86" y="137.16" size="1.778" layer="97">GLV</text>
+<text x="88.9" y="177.8" size="1.778" layer="97">BRAKE_ENGAGE</text>
+<text x="210.82" y="177.8" size="1.778" layer="97">LAUNCH_CTRL</text>
 <text x="236.22" y="45.72" size="2.54" layer="97">Liwei Sun</text>
 <text x="185.42" y="45.72" size="2.54" layer="97">Youssef Jaafar</text>
 <text x="132.08" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
