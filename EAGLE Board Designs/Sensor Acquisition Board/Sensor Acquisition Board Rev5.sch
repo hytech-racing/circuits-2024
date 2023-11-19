@@ -9197,13 +9197,6 @@ Straight</text>
 <wire x1="35.56" y1="25.4" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="THERM1_EXT" class="0">
-<segment>
-<label x="35.56" y="180.34" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="30.48" y1="180.34" x2="35.56" y2="180.34" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="RXD_232" class="0">
 <segment>
 <pinref part="J10" gate="G$1" pin="2"/>
@@ -9563,25 +9556,11 @@ Straight</text>
 <label x="129.54" y="167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="THERM5_EXT" class="0">
-<segment>
-<label x="78.74" y="180.34" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="G$1" pin="5"/>
-<wire x1="73.66" y1="180.34" x2="78.74" y2="180.34" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="THERM2_EXT" class="0">
 <segment>
 <label x="35.56" y="177.8" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="6"/>
 <wire x1="30.48" y1="177.8" x2="35.56" y2="177.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="THERM3_EXT" class="0">
-<segment>
-<label x="35.56" y="175.26" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="30.48" y1="175.26" x2="35.56" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="THERM4_EXT" class="0">
@@ -9598,13 +9577,6 @@ Straight</text>
 <wire x1="73.66" y1="177.8" x2="78.74" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="THERM7_EXT" class="0">
-<segment>
-<label x="78.74" y="175.26" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="G$1" pin="7"/>
-<wire x1="73.66" y1="175.26" x2="78.74" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="THERM8_EXT" class="0">
 <segment>
 <label x="78.74" y="172.72" size="1.27" layer="95" xref="yes"/>
@@ -9618,6 +9590,34 @@ Straight</text>
 <wire x1="81.28" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="104.14" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
 <label x="83.82" y="109.22" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM3_EXT" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="30.48" y1="180.34" x2="35.56" y2="180.34" width="0.1524" layer="91"/>
+<label x="35.56" y="180.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM1_EXT" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="30.48" y1="175.26" x2="35.56" y2="175.26" width="0.1524" layer="91"/>
+<label x="35.56" y="175.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM7_EXT" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="5"/>
+<wire x1="73.66" y1="180.34" x2="78.74" y2="180.34" width="0.1524" layer="91"/>
+<label x="78.74" y="180.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM5_EXT" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="7"/>
+<wire x1="73.66" y1="175.26" x2="78.74" y2="175.26" width="0.1524" layer="91"/>
+<label x="78.74" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -10457,14 +10457,14 @@ more current output</text>
 <nets>
 <net name="THERM1_EXT" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="28.956" y1="199.898" x2="36.576" y2="199.898" width="0.1524" layer="91"/>
-<label x="36.576" y="199.898" size="1.27" layer="95" xref="yes"/>
+<pinref part="U4" gate="G$1" pin="IN"/>
+<wire x1="53.34" y1="91.44" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
+<label x="38.1" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="IN"/>
-<wire x1="53.34" y1="154.94" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
-<label x="38.1" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="28.956" y1="184.658" x2="36.576" y2="184.658" width="0.1524" layer="91"/>
+<label x="36.576" y="184.658" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="THERM2_EXT" class="0">
@@ -10481,14 +10481,14 @@ more current output</text>
 </net>
 <net name="THERM3_EXT" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="28.956" y1="184.658" x2="36.576" y2="184.658" width="0.1524" layer="91"/>
-<label x="36.576" y="184.658" size="1.27" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="IN"/>
+<wire x1="53.34" y1="154.94" x2="38.1" y2="154.94" width="0.1524" layer="91"/>
+<label x="38.1" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="IN"/>
-<wire x1="53.34" y1="91.44" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
-<label x="38.1" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="28.956" y1="199.898" x2="36.576" y2="199.898" width="0.1524" layer="91"/>
+<label x="36.83" y="199.898" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="THERM4_EXT" class="0">
@@ -10498,21 +10498,21 @@ more current output</text>
 <label x="36.576" y="177.038" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="IN"/>
-<wire x1="53.34" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<label x="38.1" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="THERM5_EXT" class="0">
-<segment>
 <pinref part="U6" gate="G$1" pin="IN"/>
 <wire x1="53.34" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <label x="38.1" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="THERM5_EXT" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="198.12" x2="175.26" y2="198.12" width="0.1524" layer="91"/>
-<label x="175.26" y="198.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="U5" gate="G$1" pin="IN"/>
+<wire x1="53.34" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
+<label x="38.1" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="182.88" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
+<label x="175.26" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11042,17 +11042,6 @@ more current output</text>
 <junction x="45.72" y="17.78"/>
 </segment>
 </net>
-<net name="THERM1" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="OUT"/>
-<wire x1="73.66" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
-<label x="78.74" y="154.94" size="1.27" layer="95" xref="yes"/>
-<pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="154.94" x2="78.74" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="152.4" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
-<junction x="76.2" y="154.94"/>
-</segment>
-</net>
 <net name="THERM2" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="OUT"/>
@@ -11062,39 +11051,6 @@ more current output</text>
 <wire x1="76.2" y1="121.92" x2="78.74" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="119.38" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <junction x="76.2" y="121.92"/>
-</segment>
-</net>
-<net name="THERM3" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="OUT"/>
-<wire x1="73.66" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
-<label x="78.74" y="91.44" size="1.27" layer="95" xref="yes"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="88.9" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
-<junction x="76.2" y="91.44"/>
-</segment>
-</net>
-<net name="THERM4" class="0">
-<segment>
-<pinref part="U5" gate="G$1" pin="OUT"/>
-<wire x1="73.66" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
-<label x="78.74" y="60.96" size="1.27" layer="95" xref="yes"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="58.42" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
-<junction x="76.2" y="60.96"/>
-</segment>
-</net>
-<net name="THERM5" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="OUT"/>
-<wire x1="73.66" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
-<label x="78.74" y="25.4" size="1.27" layer="95" xref="yes"/>
-<pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="22.86" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
-<junction x="76.2" y="25.4"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -11154,17 +11110,6 @@ more current output</text>
 <junction x="177.8" y="81.28"/>
 </segment>
 </net>
-<net name="THERM7" class="0">
-<segment>
-<pinref part="U8" gate="G$1" pin="OUT"/>
-<wire x1="203.2" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
-<label x="208.28" y="121.92" size="1.27" layer="95" xref="yes"/>
-<pinref part="C40" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="121.92" x2="208.28" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="119.38" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
-<junction x="205.74" y="121.92"/>
-</segment>
-</net>
 <net name="THERM6_EXT" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -11179,14 +11124,14 @@ more current output</text>
 </net>
 <net name="THERM7_EXT" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="182.88" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
-<label x="175.26" y="182.88" size="1.27" layer="95" xref="yes"/>
+<pinref part="U9" gate="G$1" pin="IN"/>
+<wire x1="185.42" y1="88.9" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
+<label x="170.18" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="IN"/>
-<wire x1="182.88" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
-<label x="167.64" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="198.12" x2="175.26" y2="198.12" width="0.1524" layer="91"/>
+<label x="175.26" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="THERM8_EXT" class="0">
@@ -11196,9 +11141,9 @@ more current output</text>
 <label x="175.26" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="IN"/>
-<wire x1="185.42" y1="88.9" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
-<label x="170.18" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U8" gate="G$1" pin="IN"/>
+<wire x1="182.88" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
+<label x="167.64" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="THERM6" class="0">
@@ -11212,15 +11157,70 @@ more current output</text>
 <junction x="205.74" y="154.94"/>
 </segment>
 </net>
+<net name="THERM1" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="OUT"/>
+<wire x1="73.66" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="88.9" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
+<junction x="76.2" y="91.44"/>
+<label x="78.74" y="91.44" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM3" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="OUT"/>
+<wire x1="73.66" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="154.94" x2="78.74" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="152.4" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
+<junction x="76.2" y="154.94"/>
+<label x="78.74" y="154.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM4" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="OUT"/>
+<wire x1="73.66" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="22.86" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
+<junction x="76.2" y="25.4"/>
+<label x="78.74" y="25.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM5" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="OUT"/>
+<wire x1="73.66" y1="60.96" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="58.42" x2="76.2" y2="60.96" width="0.1524" layer="91"/>
+<junction x="76.2" y="60.96"/>
+<label x="78.74" y="60.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 <net name="THERM8" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="OUT"/>
+<wire x1="203.2" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C40" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="121.92" x2="208.28" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="119.38" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
+<junction x="205.74" y="121.92"/>
+<label x="208.28" y="121.92" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM7" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="OUT"/>
 <wire x1="205.74" y1="88.9" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
-<label x="210.82" y="88.9" size="1.27" layer="95" xref="yes"/>
 <pinref part="C41" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="88.9" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="86.36" x2="208.28" y2="88.9" width="0.1524" layer="91"/>
 <junction x="208.28" y="88.9"/>
+<label x="210.82" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
