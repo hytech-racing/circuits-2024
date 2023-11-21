@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\andy8\Documents\GitHub\hytech-racing\circuits-2024\Altium Board Designs\Telemetry_Pi_Board\PCB2.PcbDoc
-Date     : 11/16/2023
-Time     : 9:53:45 PM
+Date     : 11/20/2023
+Time     : 8:06:58 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
    Violation between Clearance Constraint: (6.894mil < 12.992mil) Between Pad J1-(1482.559mil,2711.22mil) on Multi-Layer And Pad J1-A1-B12(1524.882mil,2699.016mil) on Bottom Layer(SIG/PWR) 
@@ -61,4 +61,4 @@ Rule Violations :0
 
 Violations Detected : 10
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
