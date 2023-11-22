@@ -1914,6 +1914,7 @@ Note: OPA991 is also a comparator</description>
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf"&gt;RC Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C313-1141758.pdf"&gt;ERJ Low Resistance Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C328-1530132.pdf"&gt;ERJ PB3, PB6 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/Panasonic_Resistors_Thick_Film_Anti_Sulf_Anti_Surg-1825099.pdf"&gt;ERJ UP3, UP6, UP8 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf"&gt;ERJ  PA2, P03, PA3, P06, P08, P14 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.ohmite.com/assets/docs/res_200.pdf?r=false"&gt;B20 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/418/4/NG_DS_1773270_M-604713.pdf"&gt;TE Connectivity/Holsworthy RN73 Series&lt;a/&gt;
@@ -2315,6 +2316,17 @@ Note: OPA991 is also a comparator</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="43.24V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="18.7K_LT">
+<attribute name="DKPN" value="YAG4485CT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RT0603BRD0718K7L"/>
+<attribute name="MPN" value="RT0603BRD0718K7L"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="18.7k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="43.24V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
 <technology name="180">
 <attribute name="DKPN" value="311-180HRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -2436,6 +2448,17 @@ Note: OPA991 is also a comparator</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="47.01V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="225K">
+<attribute name="DKPN" value="764-M55342E12B225BRWS-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale Thin Film"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="M55342E12B225BRWS"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="225K"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
 <technology name="240">
 <attribute name="DKPN" value="311-240HRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -2512,6 +2535,17 @@ Note: OPA991 is also a comparator</description>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="19.75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="30">
+<attribute name="DKPN" value="10-ERJ-UP3F30R0VCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-UP3F30R0V"/>
+<attribute name="MPN" value="ERJ-UP3F30R0V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="30"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="2.74V"/>
+<attribute name="VOLTAGE_MAX" value="150"/>
 </technology>
 <technology name="30.9K">
 <attribute name="DKPN" value="P20140CT-ND"/>
@@ -2700,6 +2734,17 @@ Note: OPA991 is also a comparator</description>
 <attribute name="VOLTAGE_CONTINUOUS" value="65.57V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="43K_LT">
+<attribute name="DKPN" value="YAG4557CT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RT0603BRD0743KL"/>
+<attribute name="MPN" value="RT0603BRD0743KL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="43k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="65.57V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
 <technology name="470">
 <attribute name="DKPN" value="P470BYCT-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -2831,6 +2876,17 @@ Note: OPA991 is also a comparator</description>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="7.87V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="7.5K">
+<attribute name="DKPN" value="P20072CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B7501V"/>
+<attribute name="MPN" value="ERJ-PB3B7501V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="7.5k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="38.73V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
 <technology name="73.2K">
 <attribute name="DKPN" value="P73.2KDBCT-ND"/>
@@ -3400,7 +3456,6 @@ Note: OPA991 is also a comparator</description>
 </deviceset>
 <deviceset name="CAPACITOR_?_*" prefix="C">
 <description>Capacitor, Non-Polarized
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf"&gt;VJ...1BC Series Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"&gt;Samsung Datasheet&lt;/a&gt;&lt;/li&gt;
@@ -3418,6 +3473,7 @@ Note: OPA991 is also a comparator</description>
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/281/1/GRM21BR61H106KE43_01A-1986884.pdf"&gt;GRM21BR61H&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/212/KEM_C1034_X7R_HV_ARC_SMD-1101730.pdf"&gt;C1812W104KDRACTU&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"&gt;CGA series - MLCC Automotive grade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"&gt;TDK C Series Data Sheet
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
@@ -3472,6 +3528,15 @@ Note: OPA991 is also a comparator</description>
 <attribute name="MOPN" value="77-VJ0603Y224JXQCBC"/>
 <attribute name="MPN" value="VJ0603Y224JXQCW1BC"/>
 <attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</technology>
+<technology name="10V_0.47UF">
+<attribute name="CAPACITANCE" value="0.47µF"/>
+<attribute name="DKPN" value="445-13666-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-C0603X5R1A474MBC"/>
+<attribute name="MPN" value="C0603X5R1A474M030BC"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </technology>
 <technology name="10V_10NF">
@@ -3564,6 +3629,15 @@ Note: OPA991 is also a comparator</description>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </technology>
+<technology name="16V_0.47UF">
+<attribute name="CAPACITANCE" value="0.47µF"/>
+<attribute name="DKPN" value="445-5192-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="  TDK Corporation" constant="no"/>
+<attribute name="MOPN" value="810-C1608X7R1C474K" constant="no"/>
+<attribute name="MPN" value="  C1608X7R1C474K080AC" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
 <technology name="25V_0.1UF">
 <attribute name="CAPACITANCE" value="0.1µF"/>
 <attribute name="DKPN" value="1276-1006-1-ND"/>
@@ -3653,6 +3727,15 @@ Note: OPA991 is also a comparator</description>
 <attribute name="MPN" value="C1608X7R1V224K080AB"/>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="35V"/>
+</technology>
+<technology name="35V_0.47UF">
+<attribute name="CAPACITANCE" value="0.47µF" constant="no"/>
+<attribute name="DKPN" value="445-6928-6-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
+<attribute name="MOPN" value="810-CGA3E1X7R1V474K" constant="no"/>
+<attribute name="MPN" value="CGA3E1X7R1V474K080AC" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VOLTAGE" value="35V" constant="no"/>
 </technology>
 <technology name="35V_1UF">
 <attribute name="CAPACITANCE" value="1µF"/>
@@ -7232,10 +7315,10 @@ Layer: 94 Symbol</description>
 <part name="P45" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P16" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P17" library="HyTechSupplies" deviceset="+24V" device=""/>
-<part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="13K"/>
-<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="75K"/>
-<part name="C21" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF"/>
-<part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF"/>
+<part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K" value="RESISTOR_0603_12K"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="7.5K" value="RESISTOR_0603_7.5K"/>
+<part name="C21" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_1UF" value="CAPACITOR_0603_35V_1UF"/>
+<part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.47UF" value="CAPACITOR_0603_35V_0.47UF"/>
 <part name="P27" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U4" library="HyTechDevices" deviceset="OPAMP_2_CHANNEL_*" device="OPA_2991"/>
 <part name="U1" library="HyTechDevices" deviceset="LTC1563*" device=""/>
