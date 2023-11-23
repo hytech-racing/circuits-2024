@@ -8814,9 +8814,7 @@ Layer: 94 Symbol</description>
 <text x="17.78" y="167.64" size="1.778" layer="97">Shutdown Signals</text>
 <text x="17.78" y="129.54" size="1.778" layer="97">Dashboard Buttons</text>
 <text x="17.78" y="76.2" size="1.778" layer="97">Dashboard Dial</text>
-<text x="129.54" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
-<text x="228.6" y="45.72" size="2.54" layer="97">Liwei Sun</text>
-<text x="177.8" y="45.72" size="2.54" layer="97">Youssef Jaafar</text>
+<text x="177.8" y="45.72" size="2.54" layer="97">Ivan Mix</text>
 <text x="210.82" y="147.32" size="1.27" layer="95">correct resistors</text>
 <wire x1="162.56" y1="129.54" x2="162.56" y2="200.66" width="0.1524" layer="94"/>
 <wire x1="162.56" y1="200.66" x2="71.12" y2="200.66" width="0.1524" layer="94"/>
@@ -8849,6 +8847,7 @@ Layer: 94 Symbol</description>
 <text x="15.24" y="40.64" size="1.778" layer="97">Display</text>
 <text x="203.2" y="142.24" size="1.778" layer="91">R10 should be 170ohm for 10mA of current. Check altium for green /3.3v led values
 May need to change LED part number for lower vd</text>
+<text x="177.8" y="38.1" size="2.54" layer="97">Walker Burns</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
@@ -9869,7 +9868,6 @@ May need to change LED part number for lower vd</text>
 </sheet>
 <sheet>
 <plain>
-<text x="180.34" y="45.72" size="2.54" layer="95" font="vector">Ivan Mix</text>
 <text x="17.78" y="162.56" size="1.27" layer="95" rot="R270">Change to 10 pF</text>
 <wire x1="172.72" y1="119.38" x2="254" y2="119.38" width="0.1524" layer="94"/>
 <wire x1="254" y1="119.38" x2="254" y2="152.4" width="0.1524" layer="94"/>
@@ -9886,6 +9884,8 @@ May need to change LED part number for lower vd</text>
 <wire x1="167.64" y1="203.2" x2="167.64" y2="73.66" width="0.1524" layer="94"/>
 <wire x1="167.64" y1="73.66" x2="7.62" y2="73.66" width="0.1524" layer="94"/>
 <text x="7.62" y="205.74" size="2.54" layer="97">MCU</text>
+<text x="177.8" y="45.72" size="2.54" layer="97">Ivan Mix</text>
+<text x="177.8" y="38.1" size="2.54" layer="97">Walker Burns</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="O" x="0" y="0" smashed="yes">
@@ -10588,9 +10588,6 @@ May need to change LED part number for lower vd</text>
 <text x="12.7" y="114.3" size="1.778" layer="97">24V to 3.3V</text>
 <text x="12.7" y="88.9" size="1.778" layer="97">24V to 3.3V</text>
 <text x="15.24" y="63.5" size="1.778" layer="97">24V to 3.3V</text>
-<text x="228.6" y="45.72" size="2.54" layer="97">Liwei Sun</text>
-<text x="177.8" y="45.72" size="2.54" layer="97">Youssef Jaafar</text>
-<text x="132.08" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
 <text x="167.64" y="104.14" size="1.778" layer="97">Error Codes</text>
 <wire x1="10.16" y1="200.66" x2="71.12" y2="200.66" width="0.1524" layer="94"/>
 <wire x1="71.12" y1="200.66" x2="71.12" y2="137.16" width="0.1524" layer="94"/>
@@ -10614,6 +10611,8 @@ May need to change LED part number for lower vd</text>
 <wire x1="170.18" y1="53.34" x2="170.18" y2="60.96" width="0.1524" layer="94"/>
 <wire x1="170.18" y1="60.96" x2="205.74" y2="60.96" width="0.1524" layer="94"/>
 <text x="91.44" y="119.38" size="2.54" layer="97">7-SEG</text>
+<text x="177.8" y="45.72" size="2.54" layer="97">Ivan Mix</text>
+<text x="177.8" y="38.1" size="2.54" layer="97">Walker Burns</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
@@ -11393,9 +11392,8 @@ May need to change LED part number for lower vd</text>
 <text x="149.86" y="137.16" size="1.778" layer="97">GLV</text>
 <text x="88.9" y="177.8" size="1.778" layer="97">BRAKE_ENGAGE</text>
 <text x="210.82" y="177.8" size="1.778" layer="97">LAUNCH_CTRL</text>
-<text x="236.22" y="45.72" size="2.54" layer="97">Liwei Sun</text>
-<text x="185.42" y="45.72" size="2.54" layer="97">Youssef Jaafar</text>
-<text x="132.08" y="22.86" size="2.54" layer="97">Youssef Jaafar</text>
+<text x="177.8" y="45.72" size="2.54" layer="97">Ivan Mix</text>
+<text x="177.8" y="38.1" size="2.54" layer="97">Walker Burns</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
