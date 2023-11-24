@@ -460,6 +460,23 @@ GenerateClassCluster=0
 DocumentUniqueId=RIUGVVXA
 
 [Document25]
+DocumentPath=PCB1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HTVECGKM
+
+[Document26]
 DocumentPath=PCB2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -476,7 +493,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VSSRYXQY
 
-[Document26]
+[Document27]
 DocumentPath=Telemetry_Pi_Board.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
