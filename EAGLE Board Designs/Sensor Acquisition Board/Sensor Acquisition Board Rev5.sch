@@ -9995,22 +9995,6 @@ IMU</text>
 <wire x1="27.94" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="24VIN" class="0">
-<segment>
-<pinref part="XF1" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="190.5" x2="132.08" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="D6" gate="G$1" pin="C"/>
-<wire x1="132.08" y1="190.5" x2="132.08" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="127" y1="190.5" x2="132.08" y2="190.5" width="0.1524" layer="91"/>
-<junction x="132.08" y="190.5"/>
-</segment>
-<segment>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="119.38" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
-<label x="114.3" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -10030,6 +10014,24 @@ IMU</text>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="D3" gate="LED" pin="A"/>
 <wire x1="40.64" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="24VIN" class="0">
+<segment>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="119.38" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
+<label x="111.76" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="D6" gate="G$1" pin="C"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="132.08" y1="187.96" x2="132.08" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="190.5" x2="127" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="XF1" gate="G$1" pin="1"/>
+<wire x1="137.16" y1="190.5" x2="132.08" y2="190.5" width="0.1524" layer="91"/>
+<junction x="132.08" y="190.5"/>
 </segment>
 </net>
 </nets>
