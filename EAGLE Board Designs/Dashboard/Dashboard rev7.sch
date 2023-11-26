@@ -4456,6 +4456,7 @@ Note: Also works for CAT/CAY16 Series.
 &lt;ul&gt;0603
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/216/APT1608VBC_D-246010.pdf"&gt;Blue&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/216/APT1608ZGCK-1173388.pdf"&gt;Green&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SGC.pdf"&gt;Green_2V2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/216/APT1608SECK-6197.pdf"&gt;Orange&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/216/APT1608SECK-J3-PRV-1173336.pdf"&gt;Red&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/50/SM0603UWC-880813.pdf"&gt;White&lt;/a&gt;&lt;/li&gt;
@@ -4487,6 +4488,13 @@ Note: Also works for CAT/CAY16 Series.
 <attribute name="MANUFACTURER" value="Kingbright"/>
 <attribute name="MOPN" value="604-APT1608ZGCK"/>
 <attribute name="MPN" value="APT1608ZGCK"/>
+</technology>
+<technology name="GREEN_2V2">
+<attribute name="COLOR" value="Green"/>
+<attribute name="DKPN" value="754-1121-1-ND"/>
+<attribute name="MANUFACTURER" value="Kingbright"/>
+<attribute name="MOPN" value="604-APT1608SGC"/>
+<attribute name="MPN" value="APT1608SGC"/>
 </technology>
 <technology name="ORANGE">
 <attribute name="COLOR" value="Orange"/>
@@ -8809,15 +8817,12 @@ Layer: 94 Symbol</description>
 <part name="P51" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P52" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P55" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="5V" library="HyTechDevices - Copy" deviceset="LED_?_*" device="0603" technology="BLUE"/>
 <part name="12V" library="HyTechDevices - Copy" deviceset="LED_?_*" device="0603" technology="RED"/>
 <part name="P56" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P57" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P75" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P76" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="3.3V" library="HyTechDevices - Copy" deviceset="LED_?_*" device="0603" technology="GREEN"/>
-<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="R2" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="P110" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P111" library="HyTechSupplies" deviceset="+12V" device=""/>
@@ -8898,8 +8903,6 @@ Layer: 94 Symbol</description>
 <part name="P60" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R16" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="P63" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="3.3V1" library="HyTechDevices - Copy" deviceset="LED_?_*" device="0603" technology="GREEN"/>
-<part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
 <part name="X1" library="HyTechTemp" deviceset="24_MHZ_XTAL_OSCILLATOR" device=""/>
 <part name="P31" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P64" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8992,6 +8995,11 @@ Layer: 94 Symbol</description>
 <part name="U$12" library="HyTechDevices" deviceset="JUMPER_3PIN" device=""/>
 <part name="P43" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P88" library="HyTechSupplies" deviceset="+5V" device=""/>
+<part name="3V3" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN_2V2"/>
+<part name="MCU_LED" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN_2V2"/>
+<part name="R21" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180"/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240"/>
+<part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240"/>
 </parts>
 <sheets>
 <sheet>
@@ -9033,7 +9041,7 @@ Layer: 94 Symbol</description>
 <text x="137.16" y="121.92" size="2.54" layer="97">USB-C</text>
 <text x="101.6" y="114.3" size="1.778" layer="97">Backlight 2</text>
 <text x="15.24" y="40.64" size="1.778" layer="97">Display</text>
-<text x="203.2" y="142.24" size="1.778" layer="91">R10 should be 170ohm for 10mA of current. Check altium for green /3.3v led values
+<text x="180.34" y="134.62" size="1.778" layer="91">R10 should be 170ohm for 10mA of current. Check altium for green /3.3v led values
 May need to change LED part number for lower vd</text>
 <text x="177.8" y="38.1" size="2.54" layer="97">Walker Burns</text>
 <text x="160.02" y="177.8" size="1.778" layer="91" rot="R90">Replace with LSM115JE3/TR13</text>
@@ -9107,10 +9115,6 @@ May need to change LED part number for lower vd</text>
 <instance part="P55" gate="1" x="218.44" y="185.42" smashed="yes">
 <attribute name="VALUE" x="218.44" y="187.96" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="218.44" y="162.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="217.17" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="219.71" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="5V" gate="LED" x="218.44" y="172.72" smashed="yes" rot="R270">
 <attribute name="COLOR" x="216.662" y="173.99" size="1.27" layer="95" rot="R270" align="top-center"/>
 <attribute name="NAME" x="221.996" y="173.99" size="1.27" layer="96" rot="R270" align="bottom-center"/>
@@ -9130,14 +9134,6 @@ May need to change LED part number for lower vd</text>
 </instance>
 <instance part="P76" gate="G$1" x="228.6" y="185.42" smashed="yes">
 <attribute name="VALUE" x="228.6" y="186.69" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="3.3V" gate="LED" x="228.6" y="172.72" smashed="yes" rot="R270">
-<attribute name="COLOR" x="226.822" y="173.99" size="1.27" layer="95" rot="R270" align="top-center"/>
-<attribute name="NAME" x="232.156" y="173.99" size="1.27" layer="96" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="R1" gate="G$1" x="228.6" y="162.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="227.33" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="229.87" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="R2" gate="G$1" x="208.28" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="207.01" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -9231,14 +9227,6 @@ May need to change LED part number for lower vd</text>
 </instance>
 <instance part="P63" gate="1" x="238.76" y="152.4" smashed="yes">
 <attribute name="VALUE" x="238.76" y="151.13" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="3.3V1" gate="LED" x="238.76" y="172.72" smashed="yes" rot="R270">
-<attribute name="COLOR" x="236.982" y="173.99" size="1.27" layer="95" rot="R270" align="top-center"/>
-<attribute name="NAME" x="242.316" y="173.99" size="1.27" layer="96" rot="R270" align="bottom-center"/>
-</instance>
-<instance part="R6" gate="G$1" x="238.76" y="162.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="237.49" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="240.03" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="U17" gate="G$1" x="132.08" y="152.4" smashed="yes">
 <attribute name="NAME" x="132.08" y="153.162" size="1.27" layer="95"/>
@@ -9382,6 +9370,26 @@ May need to change LED part number for lower vd</text>
 <instance part="P88" gate="1" x="241.3" y="124.46" smashed="yes">
 <attribute name="VALUE" x="241.3" y="127" size="1.27" layer="96" align="bottom-center"/>
 </instance>
+<instance part="3V3" gate="LED" x="228.6" y="172.72" smashed="yes" rot="R270">
+<attribute name="COLOR" x="226.822" y="173.99" size="1.27" layer="95" rot="R270" align="top-center"/>
+<attribute name="NAME" x="232.156" y="173.99" size="1.27" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="MCU_LED" gate="LED" x="238.76" y="172.72" smashed="yes" rot="R270">
+<attribute name="COLOR" x="236.982" y="173.99" size="1.27" layer="95" rot="R270" align="top-center"/>
+<attribute name="NAME" x="242.316" y="173.99" size="1.27" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="R21" gate="G$1" x="218.44" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="217.17" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="219.71" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R1" gate="G$1" x="238.76" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="237.49" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="240.03" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R6" gate="G$1" x="228.6" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="227.33" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="229.87" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9478,14 +9486,14 @@ May need to change LED part number for lower vd</text>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="P57" gate="1" pin="GND"/>
 <wire x1="218.44" y1="157.48" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="P75" gate="1" pin="GND"/>
 <wire x1="228.6" y1="157.48" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -9526,7 +9534,7 @@ May need to change LED part number for lower vd</text>
 <segment>
 <pinref part="P63" gate="1" pin="GND"/>
 <wire x1="238.76" y1="157.48" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="C22" gate="G$1" pin="2"/>
@@ -9657,9 +9665,9 @@ May need to change LED part number for lower vd</text>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="3.3V" gate="LED" pin="A"/>
 <pinref part="P76" gate="G$1" pin="+3V3"/>
 <wire x1="228.6" y1="177.8" x2="228.6" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="3V3" gate="LED" pin="A"/>
 </segment>
 <segment>
 <pinref part="TP_3.3V" gate="G$1" pin="1"/>
@@ -9677,16 +9685,16 @@ May need to change LED part number for lower vd</text>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="3.3V" gate="LED" pin="C"/>
 <wire x1="228.6" y1="165.1" x2="228.6" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="3V3" gate="LED" pin="C"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="5V" gate="LED" pin="C"/>
 <wire x1="218.44" y1="170.18" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -9797,16 +9805,16 @@ May need to change LED part number for lower vd</text>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="3.3V1" gate="LED" pin="C"/>
 <wire x1="238.76" y1="165.1" x2="238.76" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="MCU_LED" gate="LED" pin="C"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="MCU_LED" class="0">
 <segment>
-<pinref part="3.3V1" gate="LED" pin="A"/>
 <wire x1="238.76" y1="177.8" x2="238.76" y2="182.88" width="0.1524" layer="91"/>
 <label x="238.76" y="182.88" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
+<pinref part="MCU_LED" gate="LED" pin="A"/>
 </segment>
 </net>
 <net name="LEFT_SHIFTER" class="0">
