@@ -511,6 +511,10 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for Telemetry_Pi_Board\Design Rule Check - PCB1.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=Project Outputs for Telemetry_Pi_Board\Design Rule Check - PCB2.html
 DItemRevisionGUID=
 
