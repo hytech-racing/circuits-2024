@@ -3,13 +3,13 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -4642,7 +4642,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="TE Connectivity Passive Product" x="-49.403" y="82.55" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="279-CPF-A-0603B1K0E" x="-49.403" y="82.55" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value=" CPF-A-0603B1K0E" x="-49.403" y="82.55" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="29.337" y="27.051" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="29.337" y="27.686" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="POWER" value="0.0625W" x="-49.403" y="82.55" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="RESISTANCE" value="1k" x="-49.403" y="82.55" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TOLERANCE" value="0.1%" x="-49.403" y="82.55" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4709,17 +4709,17 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="18.288" y="-50.419" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="18.288" y="-50.419" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R2" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_3.32K" x="30.861" y="29.083" smashed="yes" rot="MR270">
-<attribute name="DKPN" value="YAG1651TR-ND" x="109.601" y="-28.067" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="109.601" y="-28.067" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOPN" value="603-RT0603BRD073K32L" x="109.601" y="-28.067" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RT0603BRD073K32L" x="109.601" y="-28.067" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="30.861" y="27.559" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="109.601" y="-28.067" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="RESISTANCE" value="3.32k" x="109.601" y="-28.067" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="TOLERANCE" value="0.1%" x="109.601" y="-28.067" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="18.22V" x="109.601" y="-28.067" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="109.601" y="-28.067" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="R2" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_3.32K" x="30.861" y="29.21" smashed="yes" rot="MR270">
+<attribute name="DKPN" value="YAG1651TR-ND" x="109.601" y="-27.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="109.601" y="-27.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOPN" value="603-RT0603BRD073K32L" x="109.601" y="-27.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RT0603BRD073K32L" x="109.601" y="-27.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="30.861" y="27.686" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="POWER" value="0.1W" x="109.601" y="-27.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RESISTANCE" value="3.32k" x="109.601" y="-27.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="TOLERANCE" value="0.1%" x="109.601" y="-27.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="18.22V" x="109.601" y="-27.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VOLTAGE_MAX" value="75V" x="109.601" y="-27.94" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R22" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2K" x="56.515" y="29.464" smashed="yes" rot="R90">
 <attribute name="DKPN" value="10-ERJ-UP3F2001VTR-ND" x="139.065" y="67.564" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4871,7 +4871,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Texas Instruments" x="34.036" y="31.242" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MOPN" value="595-OPA2991IDDFR" x="34.036" y="31.242" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="OPA2991IDDFR" x="34.036" y="31.242" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="32.512" y="33.909" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="32.258" y="33.909" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 </element>
 <element name="R3" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_7.5K" x="30.099" y="31.496" smashed="yes" rot="MR180">
 <attribute name="DKPN" value="P20072CT-ND" x="30.099" y="31.496" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -4890,7 +4890,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="37.211" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOPN" value="667-ERJ-PB3B7501V" x="37.211" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="ERJ-PB3B7501V" x="37.211" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="37.211" y="34.671" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="36.957" y="34.671" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="POWER" value="0.2W" x="37.211" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RESISTANCE" value="7.5k" x="37.211" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="0.1%" x="37.211" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -4902,7 +4902,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Yageo" x="27.686" y="32.258" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOPN" value="603-RC0603FR-0712KL" x="27.686" y="32.258" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="RC0603FR-0712KL" x="27.686" y="32.258" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="27.051" y="32.258" size="0.8128" layer="26" font="vector" rot="MR270" align="bottom-center"/>
+<attribute name="NAME" x="27.686" y="33.655" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="27.686" y="32.258" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RESISTANCE" value="12k" x="27.686" y="32.258" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="27.686" y="32.258" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -4937,7 +4937,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Yageo" x="27.813" y="29.21" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOPN" value="603-CC603KRX7R6BB105" x="27.813" y="29.21" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R6BB105" x="27.813" y="29.21" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="27.813" y="27.825" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="27.813" y="27.698" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
 <attribute name="TOLERANCE" value="10%" x="27.813" y="29.21" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="27.813" y="29.21" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -4947,7 +4947,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Yageo" x="37.973" y="30.861" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOPN" value="603-CC603KRX7R6BB105" x="37.973" y="30.861" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R6BB105" x="37.973" y="30.861" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="35.687" y="30.341" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="39.485" y="31.115" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 <attribute name="TOLERANCE" value="10%" x="37.973" y="30.861" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="37.973" y="30.861" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -4957,7 +4957,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Yageo" x="38.862" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOPN" value="603-CC603KRX7R6BB105" x="38.862" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R6BB105" x="38.862" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="39.612" y="33.274" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
+<attribute name="NAME" x="39.116" y="34.532" size="0.8128" layer="26" font="vector" rot="MR0" align="bottom-center"/>
 <attribute name="TOLERANCE" value="10%" x="38.862" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="10V" x="38.862" y="33.274" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
@@ -4966,7 +4966,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MANUFACTURER" value="Yageo" x="37.973" y="29.21" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOPN" value="603-RC0603FR-0720KL " x="37.973" y="29.21" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="RC0603FR-0720KL" x="37.973" y="29.21" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="37.973" y="28.448" size="0.8128" layer="26" font="vector" rot="MR180" align="bottom-center"/>
+<attribute name="NAME" x="39.624" y="29.083" size="0.8128" layer="26" font="vector" rot="MR90" align="bottom-center"/>
 <attribute name="POWER" value="0.1 W" x="37.973" y="29.21" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="RESISTANCE" value="20k" x="37.973" y="29.21" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="37.973" y="29.21" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -5484,10 +5484,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="1"/>
 <contactref element="U1" pad="2"/>
-<wire x1="30.861" y1="29.933" x2="31.845" y2="30.917" width="0.254" layer="16"/>
-<wire x1="31.845" y1="30.917" x2="32.726" y2="30.917" width="0.254" layer="16"/>
-<wire x1="29.337" y1="30.06" x2="30.734" y2="30.06" width="0.254" layer="16"/>
-<wire x1="30.734" y1="30.06" x2="30.861" y2="29.933" width="0.254" layer="16"/>
+<wire x1="30.861" y1="30.06" x2="31.718" y2="30.917" width="0.254" layer="16"/>
+<wire x1="31.718" y1="30.917" x2="32.726" y2="30.917" width="0.254" layer="16"/>
+<wire x1="29.337" y1="30.06" x2="30.861" y2="30.06" width="0.254" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="R4" pad="2"/>
@@ -5536,8 +5535,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="31.669" y1="29.21" x2="32.726" y2="30.267" width="0.254" layer="16"/>
 <wire x1="28.563" y1="29.21" x2="30.988" y2="29.21" width="0.254" layer="16"/>
 <wire x1="30.988" y1="29.21" x2="31.669" y2="29.21" width="0.254" layer="16"/>
-<wire x1="30.988" y1="29.21" x2="30.988" y2="28.36" width="0.254" layer="16"/>
-<wire x1="30.988" y1="28.36" x2="30.861" y2="28.233" width="0.254" layer="16"/>
+<wire x1="30.988" y1="29.21" x2="30.988" y2="28.487" width="0.254" layer="16"/>
+<wire x1="30.988" y1="28.487" x2="30.861" y2="28.36" width="0.254" layer="16"/>
 <wire x1="32.726" y1="30.267" x2="33.569" y2="30.267" width="0.254" layer="16"/>
 <wire x1="33.569" y1="30.267" x2="34.036" y2="30.734" width="0.254" layer="16"/>
 <wire x1="34.036" y1="30.734" x2="34.036" y2="33.694" width="0.254" layer="16"/>
@@ -5631,11 +5630,11 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="R8" pad="2"/>
 <contactref element="C13" pad="1"/>
 <wire x1="37.211" y1="34.124" x2="38.061" y2="33.274" width="0.254" layer="16"/>
-<wire x1="40.132" y1="32.766" x2="40.132" y2="31.496" width="0.254" layer="16"/>
-<wire x1="40.132" y1="31.496" x2="39.497" y2="30.861" width="0.254" layer="16"/>
+<wire x1="39.878" y1="33.02" x2="39.878" y2="31.242" width="0.254" layer="16"/>
+<wire x1="39.878" y1="31.242" x2="39.497" y2="30.861" width="0.254" layer="16"/>
 <wire x1="39.497" y1="30.861" x2="38.723" y2="30.861" width="0.254" layer="16"/>
 <wire x1="38.061" y1="33.274" x2="39.624" y2="33.274" width="0.254" layer="16"/>
-<wire x1="39.624" y1="33.274" x2="40.132" y2="32.766" width="0.254" layer="16"/>
+<wire x1="39.624" y1="33.274" x2="39.878" y2="33.02" width="0.254" layer="16"/>
 <wire x1="35.648" y1="33.782" x2="35.99" y2="34.124" width="0.254" layer="16"/>
 <wire x1="35.99" y1="34.124" x2="37.211" y2="34.124" width="0.254" layer="16"/>
 </signal>
