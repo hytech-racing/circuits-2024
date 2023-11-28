@@ -9271,34 +9271,6 @@ Straight</text>
 <wire x1="220.98" y1="147.32" x2="226.06" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RL_EXT_P" class="0">
-<segment>
-<pinref part="J14" gate="G$1" pin="7"/>
-<wire x1="198.12" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
-<label x="208.28" y="81.28" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RL_EXT_N" class="0">
-<segment>
-<pinref part="J14" gate="G$1" pin="8"/>
-<wire x1="198.12" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
-<label x="208.28" y="78.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RR_EXT_P" class="0">
-<segment>
-<pinref part="J16" gate="G$1" pin="5"/>
-<wire x1="246.38" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
-<label x="254" y="86.36" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="RR_EXT_N" class="0">
-<segment>
-<pinref part="J16" gate="G$1" pin="6"/>
-<wire x1="246.38" y1="83.82" x2="254" y2="83.82" width="0.1524" layer="91"/>
-<label x="254" y="83.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="CAN_P" class="0">
 <segment>
 <pinref part="J15" gate="G$1" pin="2"/>
@@ -9458,14 +9430,14 @@ Straight</text>
 </net>
 <net name="SHDN_K" class="0">
 <segment>
-<pinref part="J16" gate="G$1" pin="8"/>
-<wire x1="246.38" y1="78.74" x2="254" y2="78.74" width="0.1524" layer="91"/>
-<label x="254" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="J14" gate="G$1" pin="8"/>
+<wire x1="198.12" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
+<label x="208.28" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J14" gate="G$1" pin="5"/>
-<wire x1="198.12" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
-<label x="208.28" y="86.36" size="1.27" layer="95" xref="yes"/>
+<pinref part="J16" gate="G$1" pin="5"/>
+<wire x1="246.38" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
+<label x="254" y="86.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHDN_J" class="0">
@@ -9475,9 +9447,9 @@ Straight</text>
 <label x="203.2" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J14" gate="G$1" pin="6"/>
-<wire x1="198.12" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
-<label x="208.28" y="83.82" size="1.27" layer="95" xref="yes"/>
+<pinref part="J14" gate="G$1" pin="7"/>
+<wire x1="198.12" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
+<label x="208.28" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHDN_L" class="0">
@@ -9487,9 +9459,9 @@ Straight</text>
 <label x="203.2" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J16" gate="G$1" pin="7"/>
-<wire x1="246.38" y1="81.28" x2="254" y2="81.28" width="0.1524" layer="91"/>
-<label x="254" y="81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="J16" gate="G$1" pin="6"/>
+<wire x1="246.38" y1="83.82" x2="254" y2="83.82" width="0.1524" layer="91"/>
+<label x="254" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -9618,6 +9590,34 @@ Straight</text>
 <pinref part="J6" gate="G$1" pin="7"/>
 <wire x1="73.66" y1="175.26" x2="78.74" y2="175.26" width="0.1524" layer="91"/>
 <label x="78.74" y="175.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RL_EXT_N" class="0">
+<segment>
+<pinref part="J14" gate="G$1" pin="6"/>
+<wire x1="198.12" y1="83.82" x2="208.28" y2="83.82" width="0.1524" layer="91"/>
+<label x="208.28" y="83.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RL_EXT_P" class="0">
+<segment>
+<pinref part="J14" gate="G$1" pin="5"/>
+<wire x1="198.12" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
+<label x="208.28" y="86.36" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RR_EXT_P" class="0">
+<segment>
+<pinref part="J16" gate="G$1" pin="7"/>
+<wire x1="246.38" y1="81.28" x2="254" y2="81.28" width="0.1524" layer="91"/>
+<label x="254" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="RR_EXT_N" class="0">
+<segment>
+<pinref part="J16" gate="G$1" pin="8"/>
+<wire x1="246.38" y1="78.74" x2="254" y2="78.74" width="0.1524" layer="91"/>
+<label x="254" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
