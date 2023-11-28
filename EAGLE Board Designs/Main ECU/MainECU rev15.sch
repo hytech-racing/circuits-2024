@@ -14970,24 +14970,24 @@ worst case input supply short circuit </text>
 <attribute name="NAME" x="43.053" y="74.168" size="1.27" layer="95"/>
 <attribute name="MPN" x="43.053" y="68.072" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U21" gate="P" x="7.62" y="96.52" smashed="yes">
-<attribute name="NAME" x="7.62" y="97.282" size="1.27" layer="95"/>
-<attribute name="MPN" x="7.62" y="83.058" size="1.27" layer="95" align="top-left"/>
+<instance part="U21" gate="P" x="7.62" y="104.14" smashed="yes">
+<attribute name="NAME" x="7.62" y="104.902" size="1.27" layer="95"/>
+<attribute name="MPN" x="7.62" y="90.678" size="1.27" layer="95" align="top-left"/>
 </instance>
 <instance part="U21" gate="B" x="86.36" y="68.58" smashed="yes">
 <attribute name="NAME" x="88.773" y="71.628" size="1.27" layer="95"/>
 <attribute name="MPN" x="88.773" y="65.532" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="P142" gate="1" x="20.32" y="81.28" smashed="yes">
-<attribute name="VALUE" x="20.32" y="80.01" size="1.27" layer="96" align="top-center"/>
+<instance part="P142" gate="1" x="20.32" y="88.9" smashed="yes">
+<attribute name="VALUE" x="20.32" y="87.63" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P144" gate="G$1" x="20.32" y="101.6" smashed="yes">
-<attribute name="VALUE" x="20.32" y="102.87" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P144" gate="G$1" x="20.32" y="109.22" smashed="yes">
+<attribute name="VALUE" x="20.32" y="110.49" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C46" gate="G$1" x="20.32" y="91.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.78" y="90.17" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="22.86" y="90.17" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="24.638" y="90.17" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C46" gate="G$1" x="20.32" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.78" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="22.86" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="24.638" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="C47" gate="G$1" x="30.48" y="66.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="33.02" y="67.31" size="1.27" layer="95" rot="R270" align="bottom-center"/>
@@ -15053,24 +15053,24 @@ worst case input supply short circuit </text>
 <attribute name="NAME" x="45.593" y="25.908" size="1.27" layer="95"/>
 <attribute name="MPN" x="45.593" y="19.812" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U22" gate="P" x="7.62" y="48.26" smashed="yes">
-<attribute name="NAME" x="7.62" y="49.022" size="1.27" layer="95"/>
-<attribute name="MPN" x="7.62" y="34.798" size="1.27" layer="95" align="top-left"/>
+<instance part="U22" gate="P" x="7.62" y="55.88" smashed="yes">
+<attribute name="NAME" x="7.62" y="56.642" size="1.27" layer="95"/>
+<attribute name="MPN" x="7.62" y="42.418" size="1.27" layer="95" align="top-left"/>
 </instance>
 <instance part="U22" gate="B" x="88.9" y="20.32" smashed="yes">
 <attribute name="NAME" x="91.313" y="23.368" size="1.27" layer="95"/>
 <attribute name="MPN" x="91.313" y="17.272" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="P150" gate="1" x="20.32" y="33.02" smashed="yes">
-<attribute name="VALUE" x="20.32" y="31.75" size="1.27" layer="96" align="top-center"/>
+<instance part="P150" gate="1" x="20.32" y="40.64" smashed="yes">
+<attribute name="VALUE" x="20.32" y="39.37" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P162" gate="G$1" x="20.32" y="53.34" smashed="yes">
-<attribute name="VALUE" x="20.32" y="54.61" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P162" gate="G$1" x="20.32" y="60.96" smashed="yes">
+<attribute name="VALUE" x="20.32" y="62.23" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C70" gate="G$1" x="20.32" y="43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.78" y="41.91" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="22.86" y="41.91" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="24.638" y="41.91" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C70" gate="G$1" x="20.32" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.78" y="49.53" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="22.86" y="49.53" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="24.638" y="49.53" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="C71" gate="G$1" x="33.02" y="17.78" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.56" y="19.05" size="1.27" layer="95" rot="R270" align="bottom-center"/>
@@ -15281,11 +15281,11 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="U21" gate="P" pin="GND"/>
-<wire x1="17.78" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="86.36" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="93.98" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P142" gate="1" pin="GND"/>
 <pinref part="C46" gate="G$1" pin="2"/>
-<junction x="20.32" y="86.36"/>
+<junction x="20.32" y="93.98"/>
 </segment>
 <segment>
 <pinref part="C47" gate="G$1" pin="1"/>
@@ -15309,11 +15309,11 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="U22" gate="P" pin="GND"/>
-<wire x1="17.78" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="38.1" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="45.72" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="P150" gate="1" pin="GND"/>
 <pinref part="C70" gate="G$1" pin="2"/>
-<junction x="20.32" y="38.1"/>
+<junction x="20.32" y="45.72"/>
 </segment>
 <segment>
 <pinref part="C71" gate="G$1" pin="1"/>
@@ -15506,19 +15506,19 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="U21" gate="P" pin="VDD"/>
-<wire x1="17.78" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="93.98" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="101.6" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="101.6" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="P144" gate="G$1" pin="+3V3"/>
 <pinref part="C46" gate="G$1" pin="1"/>
-<junction x="20.32" y="93.98"/>
+<junction x="20.32" y="101.6"/>
 </segment>
 <segment>
 <pinref part="U22" gate="P" pin="VDD"/>
-<wire x1="17.78" y1="45.72" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="45.72" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="53.34" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="P162" gate="G$1" pin="+3V3"/>
 <pinref part="C70" gate="G$1" pin="1"/>
-<junction x="20.32" y="45.72"/>
+<junction x="20.32" y="53.34"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -15526,6 +15526,10 @@ worst case input supply short circuit </text>
 <pinref part="R83" gate="G$1" pin="2"/>
 <pinref part="R85" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="172.72" x2="160.02" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C40" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="172.72" x2="157.48" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="180.34" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
+<junction x="157.48" y="172.72"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -15537,9 +15541,6 @@ worst case input supply short circuit </text>
 <wire x1="170.18" y1="172.72" x2="177.8" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="170.18" x2="170.18" y2="172.72" width="0.1524" layer="91"/>
 <junction x="170.18" y="172.72"/>
-<wire x1="170.18" y1="172.72" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C40" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="180.34" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -15622,13 +15623,6 @@ worst case input supply short circuit </text>
 <label x="185.42" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$51" class="0">
-<segment>
-<pinref part="R90" gate="G$1" pin="2"/>
-<pinref part="R92" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$54" class="0">
 <segment>
 <pinref part="R92" gate="G$1" pin="2"/>
@@ -15638,9 +15632,6 @@ worst case input supply short circuit </text>
 <wire x1="172.72" y1="111.76" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="109.22" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
 <junction x="172.72" y="111.76"/>
-<wire x1="172.72" y1="111.76" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="C45" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$61" class="0">
@@ -15711,6 +15702,11 @@ worst case input supply short circuit </text>
 <junction x="203.2" y="142.24"/>
 <label x="208.28" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R90" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
+<label x="149.86" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ACCEL_2_EXT" class="0">
 <segment>
@@ -15718,17 +15714,17 @@ worst case input supply short circuit </text>
 <wire x1="190.5" y1="142.24" x2="187.96" y2="142.24" width="0.1524" layer="91"/>
 <label x="187.96" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R90" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
-<label x="149.86" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="N$77" class="0">
 <segment>
 <pinref part="R97" gate="G$1" pin="2"/>
 <pinref part="R99" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="73.66" x2="19.05" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="C50" gate="G$1" pin="2"/>
+<wire x1="19.05" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="19.05" y1="73.66" x2="19.05" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="19.05" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
+<junction x="19.05" y="73.66"/>
 </segment>
 </net>
 <net name="N$80" class="0">
@@ -15740,9 +15736,6 @@ worst case input supply short circuit </text>
 <wire x1="30.48" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 <junction x="30.48" y="73.66"/>
-<wire x1="30.48" y1="73.66" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C50" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$82" class="0">
@@ -15829,7 +15822,12 @@ worst case input supply short circuit </text>
 <segment>
 <pinref part="R104" gate="G$1" pin="2"/>
 <pinref part="R106" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="25.4" x2="21.336" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="C74" gate="G$1" pin="2"/>
+<wire x1="21.336" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="21.336" y1="25.4" x2="21.336" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="21.336" y1="33.02" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
+<junction x="21.336" y="25.4"/>
 </segment>
 </net>
 <net name="N$89" class="0">
@@ -15841,9 +15839,6 @@ worst case input supply short circuit </text>
 <wire x1="33.02" y1="25.4" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="22.86" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
 <junction x="33.02" y="25.4"/>
-<wire x1="33.02" y1="25.4" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="C74" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="33.02" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$90" class="0">
@@ -15925,6 +15920,18 @@ worst case input supply short circuit </text>
 <label x="45.72" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="C45" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="119.38" x2="161.036" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="R90" gate="G$1" pin="2"/>
+<pinref part="R92" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="111.76" x2="161.036" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="161.036" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="161.036" y1="119.38" x2="161.036" y2="111.76" width="0.1524" layer="91"/>
+<junction x="161.036" y="111.76"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -15962,24 +15969,24 @@ worst case input supply short circuit </text>
 <attribute name="NAME" x="48.133" y="76.708" size="1.27" layer="95"/>
 <attribute name="MPN" x="48.133" y="70.612" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U23" gate="P" x="17.78" y="101.6" smashed="yes">
-<attribute name="NAME" x="17.78" y="102.362" size="1.27" layer="95"/>
-<attribute name="MPN" x="17.78" y="88.138" size="1.27" layer="95" align="top-left"/>
+<instance part="U23" gate="P" x="10.16" y="104.14" smashed="yes">
+<attribute name="NAME" x="10.16" y="104.902" size="1.27" layer="95"/>
+<attribute name="MPN" x="10.16" y="90.678" size="1.27" layer="95" align="top-left"/>
 </instance>
 <instance part="U23" gate="B" x="91.44" y="71.12" smashed="yes">
 <attribute name="NAME" x="93.853" y="74.168" size="1.27" layer="95"/>
 <attribute name="MPN" x="93.853" y="68.072" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="P171" gate="1" x="30.48" y="86.36" smashed="yes">
-<attribute name="VALUE" x="30.48" y="85.09" size="1.27" layer="96" align="top-center"/>
+<instance part="P171" gate="1" x="22.86" y="88.9" smashed="yes">
+<attribute name="VALUE" x="22.86" y="87.63" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P172" gate="G$1" x="30.48" y="106.68" smashed="yes">
-<attribute name="VALUE" x="30.48" y="107.95" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P172" gate="G$1" x="22.86" y="109.22" smashed="yes">
+<attribute name="VALUE" x="22.86" y="110.49" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C75" gate="G$1" x="30.48" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.94" y="95.25" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="33.02" y="95.25" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="34.798" y="95.25" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C75" gate="G$1" x="22.86" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.32" y="97.79" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="25.4" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="27.178" y="97.79" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="C76" gate="G$1" x="35.56" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.1" y="69.85" size="1.27" layer="95" rot="R270" align="bottom-center"/>
@@ -16045,24 +16052,24 @@ worst case input supply short circuit </text>
 <attribute name="NAME" x="190.373" y="173.228" size="1.27" layer="95"/>
 <attribute name="MPN" x="190.373" y="167.132" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U28" gate="P" x="160.02" y="198.12" smashed="yes">
-<attribute name="NAME" x="160.02" y="198.882" size="1.27" layer="95"/>
-<attribute name="MPN" x="160.02" y="184.658" size="1.27" layer="95" align="top-left"/>
+<instance part="U28" gate="P" x="152.4" y="200.66" smashed="yes">
+<attribute name="NAME" x="152.4" y="201.422" size="1.27" layer="95"/>
+<attribute name="MPN" x="152.4" y="187.198" size="1.27" layer="95" align="top-left"/>
 </instance>
 <instance part="U28" gate="B" x="233.68" y="167.64" smashed="yes">
 <attribute name="NAME" x="236.093" y="170.688" size="1.27" layer="95"/>
 <attribute name="MPN" x="236.093" y="164.592" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="P96" gate="1" x="172.72" y="182.88" smashed="yes">
-<attribute name="VALUE" x="172.72" y="181.61" size="1.27" layer="96" align="top-center"/>
+<instance part="P96" gate="1" x="165.1" y="185.42" smashed="yes">
+<attribute name="VALUE" x="165.1" y="184.15" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P97" gate="G$1" x="172.72" y="203.2" smashed="yes">
-<attribute name="VALUE" x="172.72" y="204.47" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P97" gate="G$1" x="165.1" y="205.74" smashed="yes">
+<attribute name="VALUE" x="165.1" y="207.01" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C53" gate="G$1" x="172.72" y="193.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="170.18" y="191.77" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="175.26" y="191.77" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="177.038" y="191.77" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C53" gate="G$1" x="165.1" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="162.56" y="194.31" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="167.64" y="194.31" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="169.418" y="194.31" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="C54" gate="G$1" x="177.8" y="165.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="180.34" y="166.37" size="1.27" layer="95" rot="R270" align="bottom-center"/>
@@ -16128,24 +16135,24 @@ worst case input supply short circuit </text>
 <attribute name="NAME" x="48.133" y="132.588" size="1.27" layer="95"/>
 <attribute name="MPN" x="48.133" y="126.492" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U32" gate="P" x="17.78" y="157.48" smashed="yes">
-<attribute name="NAME" x="17.78" y="158.242" size="1.27" layer="95"/>
-<attribute name="MPN" x="17.78" y="144.018" size="1.27" layer="95" align="top-left"/>
+<instance part="U32" gate="P" x="12.7" y="160.02" smashed="yes">
+<attribute name="NAME" x="12.7" y="160.782" size="1.27" layer="95"/>
+<attribute name="MPN" x="12.7" y="146.558" size="1.27" layer="95" align="top-left"/>
 </instance>
 <instance part="U32" gate="B" x="91.44" y="127" smashed="yes">
 <attribute name="NAME" x="93.853" y="130.048" size="1.27" layer="95"/>
 <attribute name="MPN" x="93.853" y="123.952" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="P180" gate="1" x="30.48" y="142.24" smashed="yes">
-<attribute name="VALUE" x="30.48" y="140.97" size="1.27" layer="96" align="top-center"/>
+<instance part="P180" gate="1" x="25.4" y="144.78" smashed="yes">
+<attribute name="VALUE" x="25.4" y="143.51" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P181" gate="G$1" x="30.48" y="162.56" smashed="yes">
-<attribute name="VALUE" x="30.48" y="163.83" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P181" gate="G$1" x="25.4" y="165.1" smashed="yes">
+<attribute name="VALUE" x="25.4" y="166.37" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C69" gate="G$1" x="30.48" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.94" y="151.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="33.02" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="34.798" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C69" gate="G$1" x="25.4" y="154.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.86" y="153.67" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="27.94" y="153.67" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="29.718" y="153.67" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="C80" gate="G$1" x="35.56" y="124.46" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.1" y="125.73" size="1.27" layer="95" rot="R270" align="bottom-center"/>
@@ -16211,24 +16218,24 @@ worst case input supply short circuit </text>
 <attribute name="NAME" x="192.913" y="104.648" size="1.27" layer="95"/>
 <attribute name="MPN" x="192.913" y="98.552" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="U5" gate="P" x="162.56" y="129.54" smashed="yes">
-<attribute name="NAME" x="162.56" y="130.302" size="1.27" layer="95"/>
-<attribute name="MPN" x="162.56" y="116.078" size="1.27" layer="95" align="top-left"/>
+<instance part="U5" gate="P" x="157.48" y="132.08" smashed="yes">
+<attribute name="NAME" x="157.48" y="132.842" size="1.27" layer="95"/>
+<attribute name="MPN" x="157.48" y="118.618" size="1.27" layer="95" align="top-left"/>
 </instance>
 <instance part="U5" gate="B" x="236.22" y="99.06" smashed="yes">
 <attribute name="NAME" x="238.633" y="102.108" size="1.27" layer="95"/>
 <attribute name="MPN" x="238.633" y="96.012" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="P187" gate="1" x="175.26" y="114.3" smashed="yes">
-<attribute name="VALUE" x="175.26" y="113.03" size="1.27" layer="96" align="top-center"/>
+<instance part="P187" gate="1" x="170.18" y="116.84" smashed="yes">
+<attribute name="VALUE" x="170.18" y="115.57" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P188" gate="G$1" x="175.26" y="134.62" smashed="yes">
-<attribute name="VALUE" x="175.26" y="135.89" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P188" gate="G$1" x="170.18" y="137.16" smashed="yes">
+<attribute name="VALUE" x="170.18" y="138.43" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="175.26" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="172.72" y="123.19" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="177.8" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="179.578" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C7" gate="G$1" x="170.18" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="167.64" y="125.73" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="172.72" y="125.73" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="174.498" y="125.73" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="C8" gate="G$1" x="180.34" y="96.52" smashed="yes" rot="R270">
 <attribute name="NAME" x="182.88" y="97.79" size="1.27" layer="95" rot="R270" align="bottom-center"/>
@@ -16297,11 +16304,11 @@ worst case input supply short circuit </text>
 <net name="GND" class="0">
 <segment>
 <pinref part="U23" gate="P" pin="GND"/>
-<wire x1="27.94" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="91.44" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="93.98" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P171" gate="1" pin="GND"/>
 <pinref part="C75" gate="G$1" pin="2"/>
-<junction x="30.48" y="91.44"/>
+<junction x="22.86" y="93.98"/>
 </segment>
 <segment>
 <pinref part="C76" gate="G$1" pin="1"/>
@@ -16325,11 +16332,11 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="U28" gate="P" pin="GND"/>
-<wire x1="170.18" y1="187.96" x2="172.72" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="187.96" x2="172.72" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="190.5" x2="165.1" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="190.5" x2="165.1" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="P96" gate="1" pin="GND"/>
 <pinref part="C53" gate="G$1" pin="2"/>
-<junction x="172.72" y="187.96"/>
+<junction x="165.1" y="190.5"/>
 </segment>
 <segment>
 <pinref part="C54" gate="G$1" pin="1"/>
@@ -16353,11 +16360,11 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="U32" gate="P" pin="GND"/>
-<wire x1="27.94" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="147.32" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="149.86" x2="25.4" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="P180" gate="1" pin="GND"/>
 <pinref part="C69" gate="G$1" pin="2"/>
-<junction x="30.48" y="147.32"/>
+<junction x="25.4" y="149.86"/>
 </segment>
 <segment>
 <pinref part="C80" gate="G$1" pin="1"/>
@@ -16381,11 +16388,11 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="U5" gate="P" pin="GND"/>
-<wire x1="172.72" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="119.38" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="121.92" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="121.92" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="P187" gate="1" pin="GND"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<junction x="175.26" y="119.38"/>
+<junction x="170.18" y="121.92"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -16421,35 +16428,35 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="U23" gate="P" pin="VDD"/>
-<wire x1="27.94" y1="99.06" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="99.06" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="101.6" x2="22.86" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="101.6" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="P172" gate="G$1" pin="+3V3"/>
 <pinref part="C75" gate="G$1" pin="1"/>
-<junction x="30.48" y="99.06"/>
+<junction x="22.86" y="101.6"/>
 </segment>
 <segment>
 <pinref part="U28" gate="P" pin="VDD"/>
-<wire x1="170.18" y1="195.58" x2="172.72" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="195.58" x2="172.72" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="198.12" x2="165.1" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="P97" gate="G$1" pin="+3V3"/>
 <pinref part="C53" gate="G$1" pin="1"/>
-<junction x="172.72" y="195.58"/>
+<junction x="165.1" y="198.12"/>
 </segment>
 <segment>
 <pinref part="U32" gate="P" pin="VDD"/>
-<wire x1="27.94" y1="154.94" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="154.94" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="157.48" x2="25.4" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="157.48" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P181" gate="G$1" pin="+3V3"/>
 <pinref part="C69" gate="G$1" pin="1"/>
-<junction x="30.48" y="154.94"/>
+<junction x="25.4" y="157.48"/>
 </segment>
 <segment>
 <pinref part="U5" gate="P" pin="VDD"/>
-<wire x1="172.72" y1="127" x2="175.26" y2="127" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="127" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="129.54" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="P188" gate="G$1" pin="+3V3"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<junction x="175.26" y="127"/>
+<junction x="170.18" y="129.54"/>
 </segment>
 </net>
 <net name="THERM_FL_EXT" class="0">
@@ -16480,7 +16487,12 @@ worst case input supply short circuit </text>
 <segment>
 <pinref part="R111" gate="G$1" pin="2"/>
 <pinref part="R113" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="76.2" x2="24.13" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C79" gate="G$1" pin="2"/>
+<wire x1="24.13" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="24.13" y1="76.2" x2="24.13" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="24.13" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
+<junction x="24.13" y="76.2"/>
 </segment>
 </net>
 <net name="N$97" class="0">
@@ -16492,9 +16504,6 @@ worst case input supply short circuit </text>
 <wire x1="35.56" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="73.66" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
 <junction x="35.56" y="76.2"/>
-<wire x1="35.56" y1="76.2" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C79" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$98" class="0">
@@ -16583,7 +16592,12 @@ worst case input supply short circuit </text>
 <segment>
 <pinref part="R75" gate="G$1" pin="2"/>
 <pinref part="R77" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="172.72" x2="167.64" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="172.72" x2="166.37" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="C66" gate="G$1" pin="2"/>
+<wire x1="166.37" y1="172.72" x2="167.64" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="166.37" y1="172.72" x2="166.37" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="166.37" y1="180.34" x2="185.42" y2="180.34" width="0.1524" layer="91"/>
+<junction x="166.37" y="172.72"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -16595,9 +16609,6 @@ worst case input supply short circuit </text>
 <wire x1="177.8" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="170.18" x2="177.8" y2="172.72" width="0.1524" layer="91"/>
 <junction x="177.8" y="172.72"/>
-<wire x1="177.8" y1="172.72" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C66" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="180.34" x2="185.42" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -16679,7 +16690,12 @@ worst case input supply short circuit </text>
 <segment>
 <pinref part="R82" gate="G$1" pin="2"/>
 <pinref part="R119" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="132.08" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="132.08" x2="24.13" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="C83" gate="G$1" pin="2"/>
+<wire x1="24.13" y1="132.08" x2="25.4" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="24.13" y1="132.08" x2="24.13" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="24.13" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
+<junction x="24.13" y="132.08"/>
 </segment>
 </net>
 <net name="N$87" class="0">
@@ -16691,9 +16707,6 @@ worst case input supply short circuit </text>
 <wire x1="35.56" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="129.54" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
 <junction x="35.56" y="132.08"/>
-<wire x1="35.56" y1="132.08" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C83" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$93" class="0">
@@ -16782,7 +16795,12 @@ worst case input supply short circuit </text>
 <segment>
 <pinref part="R35" gate="G$1" pin="2"/>
 <pinref part="R37" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="104.14" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="104.14" x2="168.91" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C85" gate="G$1" pin="2"/>
+<wire x1="168.91" y1="104.14" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="168.91" y1="104.14" x2="168.91" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="168.91" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
+<junction x="168.91" y="104.14"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -16794,9 +16812,6 @@ worst case input supply short circuit </text>
 <wire x1="180.34" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="101.6" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
 <junction x="180.34" y="104.14"/>
-<wire x1="180.34" y1="104.14" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="C85" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$107" class="0">
