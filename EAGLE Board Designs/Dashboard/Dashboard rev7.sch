@@ -1555,6 +1555,36 @@ Note: Also works for CAT/CAY16 Series.
 <wire x1="5.08" y1="3.81" x2="3.81" y2="5.08" width="0.127" layer="21" curve="-343.739795"/>
 <circle x="2.68990625" y="0.57175625" radius="1.27" width="0.127" layer="21"/>
 </package>
+<package name="1X03">
+<wire x1="0.635" y1="0" x2="1.905" y2="0" width="0.127" layer="21"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.635" x2="0" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0" x2="0" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="0" width="0.127" layer="21"/>
+<wire x1="3.175" y1="0" x2="4.445" y2="0" width="0.127" layer="21"/>
+<wire x1="4.445" y1="0" x2="5.08" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="4.445" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
+<pad name="1" x="1.27" y="-1.27" drill="1.016" first="yes"/>
+<pad name="2" x="3.81" y="-1.27" drill="1.016"/>
+<text x="2.54" y="0.254" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="0.127" width="0" layer="21"/>
+<rectangle x1="-0.254" y1="-2.794" x2="7.874" y2="0.254" layer="39"/>
+<wire x1="5.715" y1="0" x2="6.985" y2="0" width="0.127" layer="21"/>
+<wire x1="6.985" y1="0" x2="7.62" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-0.635" x2="7.62" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.905" x2="6.985" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="5.08" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="5.715" y1="0" x2="5.08" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-1.905" x2="5.715" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="6.985" y1="-2.54" x2="5.715" y2="-2.54" width="0.127" layer="21"/>
+<pad name="3" x="6.35" y="-1.27" drill="1.016" first="yes"/>
+</package>
 <package name="SOD-323">
 <description>SOD-323 Diode Package
 &lt;br&gt;
@@ -1595,35 +1625,19 @@ Note: Also works for CAT/CAY16 Series.
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="39"/>
 <text x="0" y="1.27" size="0.8128" layer="21" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="1X03">
-<wire x1="0.635" y1="0" x2="1.905" y2="0" width="0.127" layer="21"/>
-<wire x1="1.905" y1="0" x2="2.54" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="0" y1="-0.635" x2="0" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="0.635" y1="0" x2="0" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="1.905" y1="-2.54" x2="0.635" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-0.635" x2="3.175" y2="0" width="0.127" layer="21"/>
-<wire x1="3.175" y1="0" x2="4.445" y2="0" width="0.127" layer="21"/>
-<wire x1="4.445" y1="0" x2="5.08" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="4.445" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="4.445" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="3.175" y1="-2.54" x2="2.54" y2="-1.905" width="0.127" layer="21"/>
-<pad name="1" x="1.27" y="-1.27" drill="1.016" first="yes"/>
-<pad name="2" x="3.81" y="-1.27" drill="1.016"/>
-<text x="2.54" y="0.254" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<circle x="0" y="0" radius="0.127" width="0" layer="21"/>
-<rectangle x1="-0.254" y1="-2.794" x2="7.874" y2="0.254" layer="39"/>
-<wire x1="5.715" y1="0" x2="6.985" y2="0" width="0.127" layer="21"/>
-<wire x1="6.985" y1="0" x2="7.62" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-0.635" x2="7.62" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-1.905" x2="6.985" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-0.635" x2="5.08" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="5.715" y1="0" x2="5.08" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-1.905" x2="5.715" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="6.985" y1="-2.54" x2="5.715" y2="-2.54" width="0.127" layer="21"/>
-<pad name="3" x="6.35" y="-1.27" drill="1.016" first="yes"/>
+<package name="DO-214BA">
+<description>DO-214BA Footprint
+&lt;br&gt;
+&lt;a href="https://www.vishay.com/docs/88617/gf1x.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="2" x="1.7" y="0" dx="1.68" dy="1.52" layer="1" rot="R90"/>
+<smd name="1" x="-1.7" y="0" dx="1.68" dy="1.52" layer="1" rot="R90"/>
+<wire x1="-2.375" y1="1.97" x2="2.375" y2="1.97" width="0.127" layer="21"/>
+<wire x1="-2.375" y1="-1.97" x2="2.375" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="2.375" y1="-1.97" x2="2.375" y2="1.97" width="0.127" layer="21"/>
+<wire x1="-2.375" y1="-1.97" x2="-2.375" y2="1.97" width="0.127" layer="21"/>
+<rectangle x1="-3.175" y1="-2.54" x2="3.175" y2="2.54" layer="39"/>
+<text x="0" y="2.54" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="3.175" y1="1.27" x2="3.175" y2="-1.27" width="0.254" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2151,6 +2165,15 @@ Note: Also works for CAT/CAY16 Series.
 <wire x1="3.175" y1="-5.3975" x2="6.985" y2="-7.3025" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-2.54" x2="8.382" y2="-2.54" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="JUMPER_3PIN">
+<pin name="1" x="0" y="0" length="middle" direction="pas" rot="R90"/>
+<pin name="2" x="5.08" y="0" length="middle" direction="pas" rot="R90"/>
+<pin name="3" x="10.16" y="0" length="middle" direction="pas" rot="R90"/>
+<wire x1="0" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="94">JUMP</text>
+<text x="0" y="0" size="1.778" layer="96" align="top-left">&gt;MPN</text>
+<text x="0" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
 <symbol name="DIODE_SCHOTTKY-1">
 <wire x1="0" y1="1.27" x2="0" y2="0" width="0.1524" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94"/>
@@ -2167,15 +2190,6 @@ Note: Also works for CAT/CAY16 Series.
 <wire x1="-0.508" y1="1.27" x2="-0.508" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="0" y1="-1.27" x2="0.508" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="0.508" y1="-1.27" x2="0.508" y2="-1.016" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="JUMPER_3PIN">
-<pin name="1" x="0" y="0" length="middle" direction="pas" rot="R90"/>
-<pin name="2" x="5.08" y="0" length="middle" direction="pas" rot="R90"/>
-<pin name="3" x="10.16" y="0" length="middle" direction="pas" rot="R90"/>
-<wire x1="0" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<text x="0" y="5.08" size="1.778" layer="94">JUMP</text>
-<text x="0" y="0" size="1.778" layer="96" align="top-left">&gt;MPN</text>
-<text x="0" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3734,7 +3748,6 @@ Note: Also works for CAT/CAY16 Series.
 </deviceset>
 <deviceset name="CAPACITOR_?_*" prefix="C">
 <description>Capacitor, Non-Polarized
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/427/vjw1bcbascomseries-1762447.pdf"&gt;VJ...1BC Series Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"&gt;Samsung Datasheet&lt;/a&gt;&lt;/li&gt;
@@ -3752,6 +3765,7 @@ Note: Also works for CAT/CAY16 Series.
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/281/1/GRM21BR61H106KE43_01A-1986884.pdf"&gt;GRM21BR61H&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/212/KEM_C1034_X7R_HV_ARC_SMD-1101730.pdf"&gt;C1812W104KDRACTU&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"&gt;CGA series - MLCC Automotive grade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"&gt;TDK C Series Data Sheet
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
@@ -3806,6 +3820,15 @@ Note: Also works for CAT/CAY16 Series.
 <attribute name="MOPN" value="77-VJ0603Y224JXQCBC"/>
 <attribute name="MPN" value="VJ0603Y224JXQCW1BC"/>
 <attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE" value="10V"/>
+</technology>
+<technology name="10V_0.47UF">
+<attribute name="CAPACITANCE" value="0.47µF"/>
+<attribute name="DKPN" value="445-13666-1-ND"/>
+<attribute name="MANUFACTURER" value="TDK Corporation"/>
+<attribute name="MOPN" value="810-C0603X5R1A474MBC"/>
+<attribute name="MPN" value="C0603X5R1A474M030BC"/>
+<attribute name="TOLERANCE" value="20%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </technology>
 <technology name="10V_10NF">
@@ -3898,6 +3921,15 @@ Note: Also works for CAT/CAY16 Series.
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="10V"/>
 </technology>
+<technology name="16V_0.47UF">
+<attribute name="CAPACITANCE" value="0.47µF"/>
+<attribute name="DKPN" value="445-5192-1-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="  TDK Corporation" constant="no"/>
+<attribute name="MOPN" value="810-C1608X7R1C474K" constant="no"/>
+<attribute name="MPN" value="  C1608X7R1C474K080AC" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
 <technology name="25V_0.1UF">
 <attribute name="CAPACITANCE" value="0.1µF"/>
 <attribute name="DKPN" value="1276-1006-1-ND"/>
@@ -3988,6 +4020,15 @@ Note: Also works for CAT/CAY16 Series.
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="35V"/>
 </technology>
+<technology name="35V_0.47UF">
+<attribute name="CAPACITANCE" value="0.47µF" constant="no"/>
+<attribute name="DKPN" value="445-6928-6-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
+<attribute name="MOPN" value="810-CGA3E1X7R1V474K" constant="no"/>
+<attribute name="MPN" value="CGA3E1X7R1V474K080AC" constant="no"/>
+<attribute name="TOLERANCE" value="10%" constant="no"/>
+<attribute name="VOLTAGE" value="35V" constant="no"/>
+</technology>
 <technology name="35V_1UF">
 <attribute name="CAPACITANCE" value="1µF"/>
 <attribute name="DKPN" value="445-173625-1-ND"/>
@@ -4026,7 +4067,7 @@ Note: Also works for CAT/CAY16 Series.
 </technology>
 <technology name="50V_1UF">
 <attribute name="CAPACITANCE" value="1uF"/>
-<attribute name="DKPN" value="587-2400-1-ND"/>
+<attribute name="DKPN" value="587-2400-2-ND"/>
 <attribute name="MANUFACTURER" value="Taiyo Yuden"/>
 <attribute name="MOPN" value="963-UMK107BJ105KA-T"/>
 <attribute name="MPN" value="UMK107BJ105KA-T"/>
@@ -5582,13 +5623,32 @@ Alps Alpine SPDT
 </device>
 </devices>
 </deviceset>
+<deviceset name="JUMPER_3PIN">
+<gates>
+<gate name="G$1" symbol="JUMPER_3PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="SCHOTTKY_?_*" prefix="D">
 <description>&lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/408/CUS08F30_datasheet_en_20140414-1916097.pdf"&gt;CUS08F30 Shottky Diode Datasheet&lt;/a&gt;
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/68/cmdsh2-3-39086.pdf"&gt;CMDSH2-3 Shottky Diode Datasheet&lt;/a&gt;
 &lt;br&gt;
-&lt;a href = "https://datasheets.kyocera-avx.com/schottky.pdf"&gt;SD1206S040S2R0 Schottky Diode Datasheet&lt;\a&gt;</description>
+&lt;a href = "https://datasheets.kyocera-avx.com/schottky.pdf"&gt;SD1206S040S2R0 Schottky Diode Datasheet&lt;\a&gt;
+&lt;br&gt;
+&lt;a href = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/794/LSM115J.pdf"&gt;LSM115JE3/TR13 Schottky Diode Datasheet&lt;\a&gt;</description>
 <gates>
 <gate name="G$1" symbol="DIODE_SCHOTTKY-1" x="0" y="0"/>
 </gates>
@@ -5656,21 +5716,20 @@ Alps Alpine SPDT
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="JUMPER_3PIN">
-<gates>
-<gate name="G$1" symbol="JUMPER_3PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X03">
+<device name="" package="DO-214BA">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="15V">
+<attribute name="CURRENT" value="1A"/>
+<attribute name="DKPN" value="150-LSM115JE3/TR13CT-ND"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MOPN" value="494-LSM115JE3/TR13"/>
+<attribute name="MPN" value="LSM115JE3/TR13"/>
+<attribute name="VOLTAGE" value="15V"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -8924,8 +8983,6 @@ Layer: 94 Symbol</description>
 <part name="P77" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P78" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P79" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
-<part name="C23" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="P80" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P81" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P82" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -8991,7 +9048,6 @@ Layer: 94 Symbol</description>
 <part name="C28" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="J11" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_S_RA"/>
 <part name="P87" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="D1" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30VV"/>
 <part name="U$12" library="HyTechDevices" deviceset="JUMPER_3PIN" device=""/>
 <part name="P43" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P88" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -9000,6 +9056,9 @@ Layer: 94 Symbol</description>
 <part name="R21" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="180"/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240"/>
 <part name="R6" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="240"/>
+<part name="C29" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
+<part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
+<part name="D2" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="" technology="15V"/>
 </parts>
 <sheets>
 <sheet>
@@ -9044,7 +9103,6 @@ Layer: 94 Symbol</description>
 <text x="180.34" y="134.62" size="1.778" layer="91">R10 should be 170ohm for 10mA of current. Check altium for green /3.3v led values
 May need to change LED part number for lower vd</text>
 <text x="177.8" y="38.1" size="2.54" layer="97">Walker Burns</text>
-<text x="160.02" y="177.8" size="1.778" layer="91" rot="R90">Replace with LSM115JE3/TR13</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
@@ -9241,16 +9299,6 @@ May need to change LED part number for lower vd</text>
 <instance part="P79" gate="G$1" x="154.94" y="152.4" smashed="yes">
 <attribute name="VALUE" x="154.94" y="153.67" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="C22" gate="G$1" x="124.46" y="144.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="121.92" y="143.51" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="127" y="143.51" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="128.778" y="143.51" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="C23" gate="G$1" x="154.94" y="144.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="152.4" y="143.51" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="157.48" y="143.51" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="159.258" y="143.51" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="J7" gate="G$1" x="73.66" y="106.68" smashed="yes">
 <attribute name="NAME" x="73.66" y="107.442" size="1.27" layer="95"/>
 </instance>
@@ -9357,10 +9405,6 @@ May need to change LED part number for lower vd</text>
 <instance part="P87" gate="1" x="33.02" y="48.26" smashed="yes">
 <attribute name="VALUE" x="33.02" y="46.99" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="D1" gate="G$1" x="154.94" y="187.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="153.035" y="186.69" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="MPN" x="156.845" y="186.69" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="U$12" gate="G$1" x="226.06" y="121.92" smashed="yes">
 <attribute name="NAME" x="226.06" y="129.54" size="1.778" layer="95"/>
 </instance>
@@ -9389,6 +9433,20 @@ May need to change LED part number for lower vd</text>
 <instance part="R6" gate="G$1" x="228.6" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="227.33" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="229.87" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C29" gate="G$1" x="154.94" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="152.4" y="143.51" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="157.48" y="143.51" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="159.258" y="143.51" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="C22" gate="G$1" x="124.46" y="144.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="121.92" y="143.51" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="127" y="143.51" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="128.778" y="143.51" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="D2" gate="G$1" x="154.94" y="187.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.035" y="186.69" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="MPN" x="156.845" y="186.69" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -9433,9 +9491,9 @@ May need to change LED part number for lower vd</text>
 <pinref part="U17" gate="G$1" pin="IN"/>
 <wire x1="129.54" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="P78" gate="1" pin="+5V"/>
-<pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="149.86" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
 <junction x="124.46" y="149.86"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="VBUS"/>
@@ -9444,9 +9502,9 @@ May need to change LED part number for lower vd</text>
 <pinref part="P67" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="154.94" y1="193.04" x2="154.94" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="P43" gate="1" pin="+5V"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="3"/>
@@ -9537,8 +9595,6 @@ May need to change LED part number for lower vd</text>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="C22" gate="G$1" pin="2"/>
-<pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U17" gate="G$1" pin="GND"/>
 <wire x1="139.7" y1="139.7" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
@@ -9546,6 +9602,8 @@ May need to change LED part number for lower vd</text>
 <junction x="139.7" y="139.7"/>
 <pinref part="P77" gate="1" pin="GND"/>
 <wire x1="139.7" y1="139.7" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="C29" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
@@ -9678,9 +9736,9 @@ May need to change LED part number for lower vd</text>
 <pinref part="U17" gate="G$1" pin="OUT"/>
 <wire x1="149.86" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="P79" gate="G$1" pin="+3V3"/>
-<pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="149.86" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 <junction x="154.94" y="149.86"/>
+<pinref part="C29" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$31" class="0">
@@ -10010,8 +10068,8 @@ May need to change LED part number for lower vd</text>
 <wire x1="152.4" y1="177.8" x2="152.4" y2="180.34" width="0.1524" layer="91"/>
 <junction x="152.4" y="180.34"/>
 <pinref part="A1" gate="G$1" pin="OUT"/>
-<pinref part="D1" gate="G$1" pin="A"/>
 <label x="149.86" y="180.34" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="1"/>
