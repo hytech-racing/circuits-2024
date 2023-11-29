@@ -10019,8 +10019,12 @@ IMU</text>
 <net name="24VIN" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="119.38" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
 <label x="111.76" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="114.3" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="190.5" x2="114.3" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="198.12" x2="119.38" y2="198.12" width="0.1524" layer="91"/>
+<junction x="114.3" y="190.5"/>
 </segment>
 </net>
 <net name="N$44" class="0">
