@@ -7194,6 +7194,7 @@ Layer: 94 Symbol</description>
 <part name="P41" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P42" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P43" library="HyTechSupplies" deviceset="+3V3" device=""/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
 </parts>
 <sheets>
 <sheet>
@@ -8120,6 +8121,10 @@ Layer: 94 Symbol</description>
 <instance part="P43" gate="G$1" x="55.88" y="187.706" smashed="yes">
 <attribute name="VALUE" x="55.88" y="188.976" size="1.27" layer="96" align="bottom-center"/>
 </instance>
+<instance part="R15" gate="G$1" x="25.4" y="146.304" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.13" y="145.034" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="26.67" y="145.034" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8202,8 +8207,8 @@ Layer: 94 Symbol</description>
 <net name="SIGNAL_P" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="160.02" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
-<label x="22.86" y="157.48" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="22.86" y1="160.02" x2="17.78" y2="157.48" width="0.1524" layer="91"/>
+<label x="17.78" y="157.48" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
@@ -8219,8 +8224,8 @@ Layer: 94 Symbol</description>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="129.54" x2="22.86" y2="132.08" width="0.1524" layer="91"/>
-<label x="22.86" y="132.08" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="22.86" y1="129.54" x2="12.7" y2="132.08" width="0.1524" layer="91"/>
+<label x="12.7" y="132.08" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8265,6 +8270,9 @@ Layer: 94 Symbol</description>
 <wire x1="30.48" y1="141.224" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
 <junction x="30.48" y="139.7"/>
 <pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="141.224" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="139.7" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -8280,6 +8288,9 @@ Layer: 94 Symbol</description>
 <wire x1="30.48" y1="149.86" x2="30.48" y2="148.844" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="149.86" x2="30.48" y2="149.86" width="0.1524" layer="91"/>
 <junction x="30.48" y="149.86"/>
+<wire x1="30.48" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="148.844" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LOAD_CELL_AMPLIFIED" class="0">
