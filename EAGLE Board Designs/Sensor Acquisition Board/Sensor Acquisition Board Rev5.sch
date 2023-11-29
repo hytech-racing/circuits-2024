@@ -8859,6 +8859,10 @@ Straight</text>
 Straight</text>
 <text x="160.02" y="149.86" size="1.778" layer="97">Distinguish connectors</text>
 <text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
+<text x="213.36" y="198.12" size="1.778" layer="97">Do not connect 24V</text>
+<text x="160.02" y="144.78" size="1.778" layer="97">is 24V necessary?</text>
+<text x="213.36" y="111.76" size="1.778" layer="97">24VIN instead</text>
+<text x="223.52" y="121.92" size="1.778" layer="97">make identical pinout/plug in wrong not destructive</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="O" x="0" y="0" smashed="yes">
@@ -9638,6 +9642,7 @@ IMU</text>
 <text x="53.34" y="132.08" size="1.778" layer="97">Always clamping bc same voltage as supply?</text>
 <text x="144.78" y="147.32" size="1.778" layer="97">Might not need this large capacity</text>
 <text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
+<text x="185.42" y="177.8" size="1.778" layer="97">remove shottky/spec new ones</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="O" x="0" y="0" smashed="yes">
@@ -10019,12 +10024,8 @@ IMU</text>
 <net name="24VIN" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="119.38" y1="190.5" x2="114.3" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
 <label x="111.76" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="114.3" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="190.5" x2="114.3" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="198.12" x2="119.38" y2="198.12" width="0.1524" layer="91"/>
-<junction x="114.3" y="190.5"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -10051,6 +10052,8 @@ IMU</text>
 more current output</text>
 <text x="125.476" y="207.518" size="1.778" layer="97">Thermistors</text>
 <text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
+<text x="114.3" y="139.7" size="1.778" layer="97">get rid of max's
+switch to passives</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
@@ -11244,6 +11247,7 @@ RS232
 Voltage wrong, swap chip</text>
 <text x="63.5" y="25.4" size="1.27" layer="97">Protection?</text>
 <text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
+<text x="233.68" y="160.02" size="1.778" layer="97">differential I2C</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
