@@ -13686,7 +13686,7 @@ worst case input supply short circuit </text>
 <segment>
 <pinref part="A2" gate="G$1" pin="A14"/>
 <wire x1="213.36" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
-<label x="205.74" y="116.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="205.74" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="THERM_FR" class="0">
@@ -13808,7 +13808,7 @@ worst case input supply short circuit </text>
 <segment>
 <wire x1="205.74" y1="111.76" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="A2" gate="G$1" pin="A16"/>
-<label x="205.74" y="111.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="205.74" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -15937,7 +15937,7 @@ worst case input supply short circuit </text>
 <sheet>
 <plain>
 <text x="10.16" y="203.2" size="1.778" layer="97">Filter Stage</text>
-<text x="78.74" y="203.2" size="1.778" layer="97">check the beta value</text>
+<text x="35.56" y="203.2" size="1.778" layer="97">check the beta value</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
