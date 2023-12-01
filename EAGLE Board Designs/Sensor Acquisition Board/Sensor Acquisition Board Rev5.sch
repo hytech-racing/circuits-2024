@@ -8505,9 +8505,9 @@ Requires ordering of:
 </classes>
 <parts>
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device=""/>
-<part name="J2" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_S_RA"/>
-<part name="J7" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_S_RA"/>
-<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_S_RA"/>
+<part name="J2" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-4_μF_T_V_BLACK"/>
+<part name="J7" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-4_μF_T_V_BLACK"/>
+<part name="J3" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-4_μF_T_V_BLACK"/>
 <part name="J4" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_S_RA" value="CONNECTOR-4_μF_S_RA_"/>
 <part name="J9" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_S_RA" value="CONNECTOR-4_μF_S_RA_"/>
 <part name="J5" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="μF_S_RA" value="CONNECTOR-4_μF_S_RA_"/>
@@ -8733,8 +8733,8 @@ Requires ordering of:
 <part name="JP24V" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="JUMPER_0603_"/>
 <part name="JP12V" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="JUMPER_0603_"/>
 <part name="JP5V" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603" value="JUMPER_0603_"/>
-<part name="J14" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_S_RA" value="CONNECTOR-8_μF_S_RA_"/>
-<part name="J16" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_S_RA" value="CONNECTOR-8_μF_S_RA_"/>
+<part name="J14" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
+<part name="J16" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
 <part name="P28" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P92" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P104" library="HyTechSupplies" deviceset="+5V" device=""/>
@@ -8796,8 +8796,8 @@ Requires ordering of:
 <part name="P146" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="C41" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
 <part name="P147" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="J1" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_S_RA"/>
-<part name="J6" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_S_RA"/>
+<part name="J1" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
+<part name="J6" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-8_μF_T_V_BLACK"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="8.35K"/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="8.35K"/>
 <part name="R10" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="8.35K"/>
@@ -8815,7 +8815,7 @@ Requires ordering of:
 <part name="P127" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P16" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P54" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="J8" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="MICROFIT_SMD_RIGHTANGLE_02_SINGLE" technology="BLACK"/>
+<part name="J8" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="μF_T_V" technology="BLACK" value="CONNECTOR-2_μF_T_V_BLACK"/>
 <part name="P109" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
