@@ -8504,7 +8504,6 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="diff pairs" width="0.254" drill="0">
-<clearance class="1" value="0.3048"/>
 </class>
 </classes>
 <parts>
