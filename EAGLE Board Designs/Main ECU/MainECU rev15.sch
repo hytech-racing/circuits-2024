@@ -8503,6 +8503,9 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="diff pairs" width="0.254" drill="0">
+<clearance class="1" value="0.3048"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device="">
@@ -9157,8 +9160,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
 </instance>
-<instance part="U$8" gate="G$1" x="90.17" y="111.76" smashed="yes">
-<attribute name="VALUE" x="90.17" y="116.84" size="1.778" layer="96" align="bottom-center"/>
+<instance part="U$8" gate="G$1" x="90.17" y="116.84" smashed="yes">
+<attribute name="VALUE" x="90.17" y="121.92" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C21" gate="G$1" x="195.58" y="144.78" smashed="yes">
 <attribute name="NAME" x="194.31" y="137.16" size="1.27" layer="95" align="bottom-center"/>
@@ -9176,16 +9179,15 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <instance part="P83" gate="1" x="187.96" y="99.06" smashed="yes">
 <attribute name="VALUE" x="187.96" y="97.79" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P25" gate="1" x="78.74" y="114.3" smashed="yes">
-<attribute name="VALUE" x="78.74" y="116.332" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P25" gate="1" x="78.74" y="111.76" smashed="yes">
+<attribute name="VALUE" x="83.82" y="108.712" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D2" gate="G$1" x="68.58" y="109.22" smashed="yes">
-<attribute name="NAME" x="74.93" y="103.505" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="MPN" x="74.93" y="107.315" size="1.27" layer="96" align="top-center"/>
+<instance part="D2" gate="G$1" x="68.58" y="114.3" smashed="yes">
+<attribute name="NAME" x="67.31" y="115.951" size="1.27" layer="95" align="bottom-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="48.26" y="170.18" smashed="yes">
 <attribute name="NAME" x="48.26" y="170.815" size="1.27" layer="95"/>
-<attribute name="MPN" x="48.26" y="106.045" size="1.27" layer="96" align="top-left"/>
+<attribute name="MPN" x="62.23" y="112.141" size="1.27" layer="96" align="top-left"/>
 </instance>
 <instance part="P87" gate="1" x="60.96" y="101.6" smashed="yes">
 <attribute name="VALUE" x="60.96" y="100.33" size="1.27" layer="96" align="top-center"/>
@@ -9228,8 +9230,6 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <pinref part="P83" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="16"/>
-<wire x1="58.42" y1="129.54" x2="60.96" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="58.42" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="4"/>
@@ -9255,19 +9255,21 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <wire x1="58.42" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="139.7" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <junction x="60.96" y="139.7"/>
-<wire x1="60.96" y1="129.54" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <junction x="60.96" y="132.08"/>
-<pinref part="J1" gate="G$1" pin="19"/>
-<wire x1="58.42" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="129.54" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
-<junction x="60.96" y="129.54"/>
-<pinref part="J1" gate="G$1" pin="20"/>
-<wire x1="58.42" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="121.92" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
-<junction x="60.96" y="121.92"/>
-<wire x1="60.96" y1="119.38" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
-<junction x="60.96" y="119.38"/>
+<wire x1="60.96" y1="132.08" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="P87" gate="1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="18"/>
+<wire x1="60.96" y1="124.46" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="116.84" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="111.76" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
+<junction x="60.96" y="124.46"/>
+<pinref part="J1" gate="G$1" pin="21"/>
+<wire x1="58.42" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
+<junction x="60.96" y="116.84"/>
+<pinref part="J1" gate="G$1" pin="23"/>
+<wire x1="58.42" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
+<junction x="60.96" y="111.76"/>
 </segment>
 </net>
 <net name="SHDN_G" class="0">
@@ -9296,7 +9298,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <wire x1="198.12" y1="104.14" x2="203.2" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="FL_CORNER_EXT_P" class="0">
+<net name="FL_CORNER_EXT_P" class="1">
 <segment>
 <wire x1="231.14" y1="127" x2="233.68" y2="127" width="0.1524" layer="91"/>
 <label x="233.68" y="127" size="1.27" layer="95" xref="yes"/>
@@ -9308,7 +9310,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <label x="63.5" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="FL_CORNER_EXT_N" class="0">
+<net name="FL_CORNER_EXT_N" class="1">
 <segment>
 <wire x1="231.14" y1="106.68" x2="233.68" y2="106.68" width="0.1524" layer="91"/>
 <label x="233.68" y="106.68" size="1.27" layer="95" xref="yes"/>
@@ -9320,7 +9322,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <label x="63.5" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="FR_CORNER_EXT_P" class="0">
+<net name="FR_CORNER_EXT_P" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="6"/>
 <wire x1="58.42" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
@@ -9332,7 +9334,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <pinref part="T1" gate="A" pin="MX+"/>
 </segment>
 </net>
-<net name="FR_CORNER_EXT_N" class="0">
+<net name="FR_CORNER_EXT_N" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="58.42" y1="157.48" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
@@ -9344,56 +9346,28 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <pinref part="T1" gate="A" pin="MX-"/>
 </segment>
 </net>
-<net name="CANH_3" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="17"/>
-<wire x1="58.42" y1="127" x2="63.5" y2="127" width="0.1524" layer="91"/>
-<label x="63.5" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="CANL_3" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="18"/>
-<wire x1="58.42" y1="124.46" x2="63.5" y2="124.46" width="0.1524" layer="91"/>
-<label x="63.5" y="124.46" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="CANH_2" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="21"/>
-<wire x1="58.42" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
-<label x="63.5" y="116.84" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="CANL_2" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="22"/>
-<wire x1="58.42" y1="114.3" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
-<label x="63.5" y="114.3" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="RS422_TX_P" class="0">
+<net name="RS422_TX_P" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="9"/>
 <wire x1="58.42" y1="147.32" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
 <label x="63.5" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="RS422_TX_N" class="0">
+<net name="RS422_TX_N" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="10"/>
 <wire x1="58.42" y1="144.78" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
 <label x="63.5" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="RS422_RX_P" class="0">
+<net name="RS422_RX_P" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="13"/>
 <wire x1="58.42" y1="137.16" x2="63.5" y2="137.16" width="0.1524" layer="91"/>
 <label x="63.5" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="RS422_RX_N" class="0">
+<net name="RS422_RX_N" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="14"/>
 <wire x1="58.42" y1="134.62" x2="63.5" y2="134.62" width="0.1524" layer="91"/>
@@ -9403,22 +9377,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <net name="+24V" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="+24V"/>
-<wire x1="90.17" y1="109.22" x2="71.12" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="90.17" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="24"/>
-<wire x1="58.42" y1="109.22" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="P25" gate="1" pin="+5V"/>
-<pinref part="J1" gate="G$1" pin="23"/>
-<wire x1="58.42" y1="111.76" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHDN_B" class="0">
@@ -9529,7 +9489,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <pinref part="J2" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="FL_CORNER_P" class="0">
+<net name="FL_CORNER_P" class="1">
 <segment>
 <wire x1="185.42" y1="124.46" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R55" gate="G$1" pin="2"/>
@@ -9540,7 +9500,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <pinref part="T1" gate="B" pin="TD+"/>
 </segment>
 </net>
-<net name="FL_CORNER_N" class="0">
+<net name="FL_CORNER_N" class="1">
 <segment>
 <wire x1="185.42" y1="109.22" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="R55" gate="G$1" pin="1"/>
@@ -9551,7 +9511,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <pinref part="T1" gate="B" pin="TD-"/>
 </segment>
 </net>
-<net name="FR_CORNER_P" class="0">
+<net name="FR_CORNER_P" class="1">
 <segment>
 <wire x1="185.42" y1="165.1" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R56" gate="G$1" pin="2"/>
@@ -9562,7 +9522,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <label x="180.34" y="165.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="FR_CORNER_N" class="0">
+<net name="FR_CORNER_N" class="1">
 <segment>
 <wire x1="185.42" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R56" gate="G$1" pin="1"/>
@@ -9599,6 +9559,48 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <pinref part="J2" gate="G$1" pin="21"/>
 <wire x1="111.76" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
 <label x="119.38" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CANH_3" class="1">
+<segment>
+<wire x1="58.42" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
+<label x="63.5" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="16"/>
+</segment>
+</net>
+<net name="CANL_3" class="1">
+<segment>
+<wire x1="58.42" y1="127" x2="63.5" y2="127" width="0.1524" layer="91"/>
+<label x="63.5" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="17"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="22"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="58.42" y1="114.3" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<wire x1="58.42" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="24"/>
+<pinref part="P25" gate="1" pin="+5V"/>
+</segment>
+</net>
+<net name="CANL_2" class="1">
+<segment>
+<wire x1="58.42" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
+<label x="63.5" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="19"/>
+</segment>
+</net>
+<net name="CANH_2" class="1">
+<segment>
+<label x="63.5" y="119.38" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="20"/>
+<wire x1="58.42" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -10211,7 +10213,7 @@ CAN_3 - Sensors and anything else</text>
 <pinref part="R142" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="CANH_2" class="0">
+<net name="CANH_2" class="1">
 <segment>
 <pinref part="JP10" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
@@ -10223,7 +10225,7 @@ CAN_3 - Sensors and anything else</text>
 <label x="109.22" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CANH_3" class="0">
+<net name="CANH_3" class="1">
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
@@ -10264,7 +10266,7 @@ CAN_3 - Sensors and anything else</text>
 <junction x="53.34" y="58.42"/>
 </segment>
 </net>
-<net name="CANL_2" class="0">
+<net name="CANL_2" class="1">
 <segment>
 <pinref part="D23" gate="G$1" pin="C1"/>
 <wire x1="111.76" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
@@ -10276,7 +10278,7 @@ CAN_3 - Sensors and anything else</text>
 <label x="27.94" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CANL_3" class="0">
+<net name="CANL_3" class="1">
 <segment>
 <pinref part="D24" gate="G$1" pin="C1"/>
 <wire x1="111.76" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
@@ -13332,28 +13334,28 @@ worst case input supply short circuit </text>
 <junction x="104.14" y="58.42"/>
 </segment>
 </net>
-<net name="CANH_2" class="0">
+<net name="CANH_2" class="1">
 <segment>
 <wire x1="48.26" y1="88.9" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
 <label x="50.8" y="88.9" size="1.27" layer="95" xref="yes"/>
 <pinref part="U30" gate="G$1" pin="CANH"/>
 </segment>
 </net>
-<net name="CANL_2" class="0">
+<net name="CANL_2" class="1">
 <segment>
 <wire x1="48.26" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
 <label x="50.8" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="U30" gate="G$1" pin="CANL"/>
 </segment>
 </net>
-<net name="CANH_3" class="0">
+<net name="CANH_3" class="1">
 <segment>
 <wire x1="116.84" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
 <label x="119.38" y="88.9" size="1.27" layer="95" xref="yes"/>
 <pinref part="U4" gate="G$1" pin="CANH"/>
 </segment>
 </net>
-<net name="CANL_3" class="0">
+<net name="CANL_3" class="1">
 <segment>
 <wire x1="116.84" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
 <label x="119.38" y="86.36" size="1.27" layer="95" xref="yes"/>
@@ -13554,14 +13556,14 @@ worst case input supply short circuit </text>
 <label x="205.74" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="FL_CORNER_P" class="0">
+<net name="FL_CORNER_P" class="1">
 <segment>
 <pinref part="U2" gate="G$1" pin="IP"/>
 <wire x1="119.38" y1="160.02" x2="123.444" y2="160.02" width="0.1524" layer="91"/>
 <label x="123.444" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="FL_CORNER_N" class="0">
+<net name="FL_CORNER_N" class="1">
 <segment>
 <pinref part="U2" gate="G$1" pin="IM"/>
 <wire x1="119.38" y1="157.48" x2="123.444" y2="157.48" width="0.1524" layer="91"/>
@@ -13592,14 +13594,14 @@ worst case input supply short circuit </text>
 <label x="246.38" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="FR_CORNER_P" class="0">
+<net name="FR_CORNER_P" class="1">
 <segment>
 <pinref part="U3" gate="G$1" pin="IP"/>
 <wire x1="185.42" y1="160.02" x2="188.976" y2="160.02" width="0.1524" layer="91"/>
 <label x="188.976" y="160.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="FR_CORNER_N" class="0">
+<net name="FR_CORNER_N" class="1">
 <segment>
 <pinref part="U3" gate="G$1" pin="IM"/>
 <wire x1="185.42" y1="157.48" x2="188.976" y2="157.48" width="0.1524" layer="91"/>
@@ -13630,7 +13632,7 @@ worst case input supply short circuit </text>
 <pinref part="U16" gate="G$1" pin="RO"/>
 </segment>
 </net>
-<net name="RS422_RX_P" class="0">
+<net name="RS422_RX_P" class="1">
 <segment>
 <wire x1="53.34" y1="52.832" x2="55.88" y2="52.832" width="0.1524" layer="91"/>
 <label x="68.58" y="52.832" size="1.27" layer="95" xref="yes"/>
@@ -13641,7 +13643,7 @@ worst case input supply short circuit </text>
 <pinref part="U16" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="RS422_RX_N" class="0">
+<net name="RS422_RX_N" class="1">
 <segment>
 <wire x1="53.34" y1="47.752" x2="55.88" y2="47.752" width="0.1524" layer="91"/>
 <label x="68.58" y="47.752" size="1.27" layer="95" xref="yes"/>
@@ -13654,14 +13656,14 @@ worst case input supply short circuit </text>
 <junction x="65.278" y="47.752"/>
 </segment>
 </net>
-<net name="RS422_TX_N" class="0">
+<net name="RS422_TX_N" class="1">
 <segment>
 <wire x1="55.88" y1="42.672" x2="58.42" y2="42.672" width="0.1524" layer="91"/>
 <label x="58.42" y="42.672" size="1.27" layer="95" xref="yes"/>
 <pinref part="U16" gate="G$1" pin="Z"/>
 </segment>
 </net>
-<net name="RS422_TX_P" class="0">
+<net name="RS422_TX_P" class="1">
 <segment>
 <wire x1="55.88" y1="37.592" x2="58.42" y2="37.592" width="0.1524" layer="91"/>
 <label x="58.42" y="37.592" size="1.27" layer="95" xref="yes"/>
@@ -14379,28 +14381,28 @@ worst case input supply short circuit </text>
 <label x="27.94" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CANH_3" class="0">
+<net name="CANH_3" class="1">
 <segment>
 <wire x1="236.22" y1="86.36" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
 <label x="238.76" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="U14" gate="G$1" pin="CANH"/>
 </segment>
 </net>
-<net name="CANL_3" class="0">
+<net name="CANL_3" class="1">
 <segment>
 <wire x1="236.22" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
 <label x="238.76" y="83.82" size="1.27" layer="95" xref="yes"/>
 <pinref part="U14" gate="G$1" pin="CANL"/>
 </segment>
 </net>
-<net name="CANH_2" class="0">
+<net name="CANH_2" class="1">
 <segment>
 <wire x1="162.56" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
 <label x="165.1" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="U29" gate="G$1" pin="CANH"/>
 </segment>
 </net>
-<net name="CANL_2" class="0">
+<net name="CANL_2" class="1">
 <segment>
 <wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 <label x="165.1" y="83.82" size="1.27" layer="95" xref="yes"/>
