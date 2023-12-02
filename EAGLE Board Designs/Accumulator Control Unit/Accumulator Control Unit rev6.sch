@@ -11527,32 +11527,18 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="J1" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="ISO_PACK+" class="0">
+<net name="ISO_PACK-" class="0">
 <segment>
 <wire x1="20.32" y1="165.1" x2="22.86" y2="165.1" width="0.1524" layer="91"/>
 <label x="22.86" y="165.1" size="1.27" layer="95" xref="yes"/>
 <pinref part="J5" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="ISO_PACK-" class="0">
-<segment>
-<wire x1="20.32" y1="162.56" x2="22.86" y2="162.56" width="0.1524" layer="91"/>
-<label x="22.86" y="162.56" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="ISO_TS+" class="0">
+<net name="ISO_TS-" class="0">
 <segment>
 <wire x1="20.32" y1="160.02" x2="22.86" y2="160.02" width="0.1524" layer="91"/>
 <label x="22.86" y="160.02" size="1.27" layer="95" xref="yes"/>
 <pinref part="J5" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="ISO_TS-" class="0">
-<segment>
-<wire x1="20.32" y1="157.48" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
-<label x="22.86" y="157.48" size="1.27" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -12289,6 +12275,20 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="J6" gate="G$1" pin="9"/>
 <pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="66.04" y1="170.18" x2="68.58" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ISO_TS+" class="0">
+<segment>
+<wire x1="20.32" y1="157.48" x2="22.86" y2="157.48" width="0.1524" layer="91"/>
+<label x="22.86" y="157.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="ISO_PACK+" class="0">
+<segment>
+<wire x1="20.32" y1="162.56" x2="22.86" y2="162.56" width="0.1524" layer="91"/>
+<label x="22.86" y="162.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="J5" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
