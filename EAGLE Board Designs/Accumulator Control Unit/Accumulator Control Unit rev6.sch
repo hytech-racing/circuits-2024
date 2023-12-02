@@ -11483,6 +11483,18 @@ Accumulator GND, both AIR+ and -</text>
 <nets>
 <net name="CANH" class="0">
 <segment>
+<pinref part="J6" gate="G$1" pin="12"/>
+<wire x1="66.04" y1="162.56" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
+<label x="68.58" y="162.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="4"/>
+<wire x1="66.04" y1="182.88" x2="68.58" y2="182.88" width="0.1524" layer="91"/>
+<label x="68.58" y="182.88" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CANL" class="0">
+<segment>
 <pinref part="J6" gate="G$1" pin="11"/>
 <wire x1="66.04" y1="165.1" x2="68.58" y2="165.1" width="0.1524" layer="91"/>
 <label x="68.58" y="165.1" size="1.27" layer="95" xref="yes"/>
@@ -11491,18 +11503,6 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="J6" gate="G$1" pin="3"/>
 <wire x1="66.04" y1="185.42" x2="68.326" y2="185.42" width="0.1524" layer="91"/>
 <label x="68.58" y="185.42" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CANL" class="0">
-<segment>
-<pinref part="J6" gate="G$1" pin="4"/>
-<wire x1="66.04" y1="182.88" x2="68.58" y2="182.88" width="0.1524" layer="91"/>
-<label x="68.58" y="182.88" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J6" gate="G$1" pin="12"/>
-<wire x1="66.04" y1="162.56" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
-<label x="68.58" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SHDN" class="0">
