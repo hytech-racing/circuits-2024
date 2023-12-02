@@ -8,8 +8,8 @@
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -26,13 +26,13 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -5360,11 +5360,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="60.452" y1="35.306" x2="60.452" y2="29.21" width="0.508" layer="15"/>
 <wire x1="60.452" y1="29.21" x2="57.912" y2="26.67" width="0.508" layer="15"/>
 <wire x1="57.912" y1="29.972" x2="57.912" y2="26.67" width="0.254" layer="1"/>
-<wire x1="53.594" y1="37.175" x2="55.027" y2="37.175" width="0.508" layer="1"/>
-<wire x1="55.027" y1="37.175" x2="55.118" y2="37.084" width="0.254" layer="1"/>
-<via x="55.118" y="37.084" extent="1-16" drill="0.35"/>
-<wire x1="55.118" y1="37.084" x2="58.674" y2="37.084" width="0.508" layer="15"/>
-<wire x1="58.674" y1="37.084" x2="60.452" y2="35.306" width="0.508" layer="15"/>
+<wire x1="60.452" y1="35.306" x2="57.785" y2="37.973" width="0.508" layer="15"/>
 <wire x1="52.59" y1="30.1725" x2="52.59" y2="28.206" width="0.254" layer="1"/>
 <wire x1="52.59" y1="28.206" x2="51.59" y2="27.206" width="0.254" layer="1"/>
 <polygon width="0.254" layer="1" thermals="no">
@@ -5390,6 +5386,21 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="39.116" y1="25.654" x2="37.338" y2="25.654" width="0.254" layer="16"/>
 <wire x1="34.786" y1="28.206" x2="34.786" y2="28.575" width="0.254" layer="16"/>
 <wire x1="37.338" y1="25.654" x2="34.786" y2="28.206" width="0.254" layer="16"/>
+<via x="46.609" y="38.608" extent="1-16" drill="0.35"/>
+<via x="47.879" y="38.608" extent="1-16" drill="0.35"/>
+<via x="49.022" y="38.608" extent="1-16" drill="0.35"/>
+<via x="46.609" y="37.338" extent="1-16" drill="0.35"/>
+<via x="47.879" y="37.338" extent="1-16" drill="0.35"/>
+<via x="49.022" y="37.338" extent="1-16" drill="0.35"/>
+<wire x1="57.785" y1="37.973" x2="49.022" y2="37.973" width="0.508" layer="15"/>
+<wire x1="49.022" y1="37.973" x2="49.022" y2="37.338" width="0.508" layer="15"/>
+<wire x1="49.022" y1="38.608" x2="49.022" y2="37.973" width="0.508" layer="15"/>
+<wire x1="46.609" y1="37.973" x2="46.609" y2="38.608" width="0.508" layer="15"/>
+<wire x1="49.022" y1="37.973" x2="47.879" y2="37.973" width="0.508" layer="15"/>
+<wire x1="47.879" y1="37.973" x2="46.609" y2="37.973" width="0.508" layer="15"/>
+<wire x1="46.609" y1="37.338" x2="46.609" y2="37.973" width="0.508" layer="15"/>
+<wire x1="47.879" y1="37.338" x2="47.879" y2="37.973" width="0.508" layer="15"/>
+<wire x1="47.879" y1="38.608" x2="47.879" y2="37.973" width="0.508" layer="15"/>
 </signal>
 <signal name="OUT_P">
 <contactref element="U10" pad="11"/>
