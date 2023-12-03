@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -11726,15 +11726,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <signal name="RS422_TX_N" class="1">
 <contactref element="J1" pad="10"/>
 <contactref element="U16" pad="6"/>
-<<<<<<< Updated upstream
-<wire x1="56.642" y1="77.2795" x2="56.642" y2="81.816275" width="0.254" layer="16"/>
-<wire x1="56.642" y1="81.816275" x2="51.539475" y2="86.9188" width="0.254" layer="16"/>
-=======
 <wire x1="56.007" y1="82.451275" x2="56.007" y2="78.4225" width="0.254" layer="16"/>
 <wire x1="56.642" y1="77.2795" x2="56.642" y2="77.7875" width="0.254" layer="16"/>
 <wire x1="56.642" y1="77.7875" x2="56.007" y2="78.4225" width="0.254" layer="16"/>
 <wire x1="56.007" y1="82.451275" x2="51.539475" y2="86.9188" width="0.254" layer="16"/>
->>>>>>> Stashed changes
 <wire x1="51.539475" y1="86.9188" x2="39.3192" y2="86.9188" width="0.254" layer="16"/>
 <wire x1="39.3192" y1="86.9188" x2="29.083" y2="97.155" width="0.254" layer="16"/>
 <wire x1="29.083" y1="97.155" x2="29.083" y2="100.993275" width="0.254" layer="16"/>
