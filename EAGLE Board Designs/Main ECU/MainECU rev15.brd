@@ -10083,7 +10083,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="86.626" y="61.722" extent="1-16" drill="0.35"/>
 <via x="67.397" y="89.342" extent="1-16" drill="0.35"/>
 <via x="8.636" y="44.997" extent="1-16" drill="0.35"/>
-<via x="60.071" y="78.867" extent="1-16" drill="0.35"/>
+<via x="59.563" y="78.867" extent="1-16" drill="0.35"/>
 <via x="20.955" y="31.535" extent="1-16" drill="0.35"/>
 <wire x1="65.901" y1="79.629" x2="67.056" y2="79.629" width="0.254" layer="1"/>
 <wire x1="65.901" y1="79.629" x2="65.786" y2="79.744" width="0.254" layer="1"/>
@@ -10132,14 +10132,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="7.9275" y1="73.124" x2="6.62" y2="73.124" width="0.254" layer="1"/>
 <wire x1="6.62" y1="73.124" x2="6.592" y2="73.152" width="0.254" layer="1"/>
 <via x="6.592" y="74.041" extent="1-16" drill="0.35"/>
-<via x="60.96" y="78.867" extent="1-16" drill="0.35"/>
-<via x="61.849" y="78.867" extent="1-16" drill="0.35"/>
+<via x="60.452" y="78.867" extent="1-16" drill="0.35"/>
+<via x="61.341" y="78.867" extent="1-16" drill="0.35"/>
 <via x="86.741" y="82.157" extent="1-16" drill="0.35"/>
 <wire x1="86.741" y1="82.157" x2="87.0465" y2="81.8515" width="0.254" layer="16"/>
 <wire x1="87.0465" y1="81.8515" x2="88.392" y2="81.8515" width="0.254" layer="16"/>
-<via x="60.071" y="80.01" extent="1-16" drill="0.35"/>
-<via x="60.96" y="80.01" extent="1-16" drill="0.35"/>
-<via x="61.849" y="80.01" extent="1-16" drill="0.35"/>
+<via x="59.563" y="80.01" extent="1-16" drill="0.35"/>
+<via x="60.452" y="80.01" extent="1-16" drill="0.35"/>
+<via x="61.341" y="80.01" extent="1-16" drill="0.35"/>
 <contactref element="C63" pad="1"/>
 <contactref element="C64" pad="1"/>
 <wire x1="60.718" y1="72.009" x2="60.718" y2="72.644" width="0.254" layer="16"/>
