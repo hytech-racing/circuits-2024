@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -9241,8 +9241,8 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <contactref element="C19" pad="2"/>
 <contactref element="U10" pad="3"/>
 <polygon width="0" layer="15">
-<vertex x="0" y="27.813"/>
-<vertex x="0" y="-1.778"/>
+<vertex x="-0.762" y="27.813"/>
+<vertex x="-0.762" y="-1.778"/>
 <vertex x="84.201" y="-1.778"/>
 <vertex x="84.201" y="27.813"/>
 </polygon>
@@ -10027,7 +10027,6 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="61.214" y1="14.9726" x2="61.8624" y2="14.9726" width="0.3048" layer="1"/>
 <wire x1="61.8624" y1="14.9726" x2="62.611" y2="14.224" width="0.3048" layer="1"/>
 <via x="62.611" y="14.224" extent="1-16" drill="0.35"/>
-<wire x1="59.4995" y1="15.24" x2="59.3725" y2="15.367" width="0.3048" layer="1"/>
 <wire x1="64.35" y1="18.161" x2="64.897" y2="18.161" width="0.3048" layer="1"/>
 <wire x1="64.897" y1="18.161" x2="65.659" y2="17.399" width="0.3048" layer="1"/>
 <via x="65.659" y="17.399" extent="1-16" drill="0.35"/>
