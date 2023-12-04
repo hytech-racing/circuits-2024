@@ -10054,6 +10054,7 @@ more current output</text>
 <text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
 <text x="114.3" y="139.7" size="1.778" layer="97">get rid of max's
 switch to passives</text>
+<text x="101.6" y="193.04" size="1.778" layer="97">1uF 0603 caps</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
