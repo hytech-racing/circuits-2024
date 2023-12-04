@@ -12631,6 +12631,15 @@ current across precharge relay</text>
 <text x="55.88" y="203.2" size="1.778" layer="97">OV fault at 533V</text>
 <text x="73.66" y="20.32" size="1.778" layer="97">UV fault at 377V</text>
 <text x="220.98" y="190.5" size="1.778" layer="97">Trips at 59.95V</text>
+<text x="7.62" y="109.22" size="1.27" layer="97">TSB Outputs:
+TS: 533V -&gt; 2.02954V
+TS: 377V -&gt; 1.43553V</text>
+<text x="27.94" y="109.22" size="1.27" layer="97">OPA991 Gain:
+43k/18.7k 
+= 2.2994652</text>
+<text x="43.18" y="109.22" size="1.27" layer="97">OPA991 Outputs:
+TS/P: 533V -&gt; 4.66686V
+TS/P: 377V -&gt; 3.30095V</text>
 </plain>
 <instances>
 <instance part="U9" gate="A" x="38.1" y="160.02" smashed="yes">
@@ -13614,7 +13623,7 @@ current across precharge relay</text>
 <junction x="104.14" y="83.82"/>
 </segment>
 </net>
-<net name="HV+_OUT_OK" class="0">
+<net name="PRECHARGE+_OUT_OK" class="0">
 <segment>
 <pinref part="U24" gate="A" pin="OUT"/>
 <wire x1="144.78" y1="157.48" x2="152.4" y2="157.48" width="0.1524" layer="91"/>
@@ -13688,7 +13697,7 @@ current across precharge relay</text>
 <label x="81.28" y="137.16" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="PRECHARGE+_OUT_OK" class="0">
+<net name="HV+_OUT_OK" class="0">
 <segment>
 <pinref part="U23" gate="A" pin="OUT"/>
 <wire x1="147.32" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>

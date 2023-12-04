@@ -6385,7 +6385,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="18.3896" y1="8.3194" x2="18.419" y2="8.3488" width="0.254" layer="1"/>
 <wire x1="18.419" y1="8.3488" x2="19.8224" y2="8.3488" width="0.254" layer="1"/>
 </signal>
-<signal name="HV+_OUT_OK">
+<signal name="PRECHARGE+_OUT_OK">
 <contactref element="U24" pad="4"/>
 <contactref element="U25" pad="1"/>
 <contactref element="R88" pad="2"/>
@@ -6422,7 +6422,7 @@ These design rules are designed to pass any PCB fab (JLCPCB, Advanced Circuits, 
 <wire x1="17.4244" y1="14.9724" x2="16.6624" y2="15.7344" width="0.254" layer="1"/>
 <wire x1="16.6624" y1="15.7344" x2="16.6624" y2="16.2188" width="0.254" layer="1"/>
 </signal>
-<signal name="PRECHARGE+_OUT_OK">
+<signal name="HV+_OUT_OK">
 <contactref element="U23" pad="4"/>
 <contactref element="U25" pad="2"/>
 <contactref element="R87" pad="2"/>
