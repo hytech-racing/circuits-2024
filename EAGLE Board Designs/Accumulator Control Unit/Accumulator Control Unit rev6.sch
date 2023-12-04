@@ -6705,6 +6705,37 @@ Pins tied to GND: SLOW
 <text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
 <text x="0" y="-18.542" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
+<symbol name="MOSFET_P-CHANNEL">
+<wire x1="-2.54" y1="2.54" x2="-1.2192" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="3.683" x2="0" y2="1.397" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0.635" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-0.635" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.397" x2="0" y2="-3.683" width="0.254" layer="94"/>
+<wire x1="-1.143" y1="2.54" x2="-1.143" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<pin name="S" x="5.08" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="D" x="5.08" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
+<text x="0" y="-5.08" size="1.27" layer="95" align="top-center">&gt;MPN</text>
+<wire x1="6.35" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="8.89" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="7.62" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="-3.81" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="7.62" y="1.27"/>
+<vertex x="6.35" y="-1.27"/>
+<vertex x="8.89" y="-1.27"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CAPACITOR_?_*" prefix="C">
@@ -10378,6 +10409,38 @@ Note: OPA2991 is also a comparator</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="TRANSISTOR_P_MOS_?_*" prefix="Q">
+<description>P-MOSFET
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/427/si2369d-1764360.pdf"&gt;SI2369DS Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/115/DIOD_S_A0012915142_1-2543925.pdf"&gt;DMP3056L Datasheet&lt;/a&gt;&lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOSFET_P-CHANNEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOT-23" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="DMP3056L-7">
+<attribute name="DKPN" value="DMP3056L-7DITR-ND"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="MOPN" value="621-DMP3056L-7"/>
+<attribute name="MPN" value="DMP3056L-7" constant="no"/>
+</technology>
+<technology name="SI2369DS-T1-GE3">
+<attribute name="DKPN" value="SI2369DS-T1-GE3CT-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Siliconix"/>
+<attribute name="MOPN" value="78-SI2369DS-T1-GE3"/>
+<attribute name="MPN" value="SI2369DS-T1-GE3"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1">
@@ -11020,6 +11083,8 @@ Note: OPA2991 is also a comparator</description>
 <part name="P146" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="R133" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="20K"/>
 <part name="P147" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="Q5" library="HyTechDevices" deviceset="TRANSISTOR_P_MOS_?_*" device="SOT-23" technology="DMP3056L-7"/>
+<part name="P148" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11092,8 +11157,8 @@ Accumulator GND, both AIR+ and -</text>
 <instance part="P14" gate="1" x="180.34" y="198.12" smashed="yes">
 <attribute name="VALUE" x="180.34" y="200.66" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P15" gate="1" x="119.38" y="175.26" smashed="yes">
-<attribute name="VALUE" x="119.38" y="173.99" size="1.27" layer="96" align="top-center"/>
+<instance part="P15" gate="1" x="119.38" y="180.34" smashed="yes">
+<attribute name="VALUE" x="119.38" y="179.07" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P16" gate="G$1" x="139.7" y="198.12" smashed="yes">
 <attribute name="VALUE" x="139.7" y="201.93" size="1.27" layer="96" align="bottom-center"/>
@@ -11438,9 +11503,9 @@ Accumulator GND, both AIR+ and -</text>
 <attribute name="NAME" x="217.17" y="179.07" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="219.71" y="179.07" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="D2" gate="G$1" x="119.38" y="185.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="117.475" y="184.15" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="121.285" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="D2" gate="G$1" x="119.38" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="117.475" y="189.23" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="121.285" y="189.23" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="P7" gate="1" x="40.64" y="121.92" smashed="yes">
 <attribute name="VALUE" x="43.18" y="121.92" size="1.27" layer="96" align="bottom-center"/>
@@ -11474,6 +11539,13 @@ Accumulator GND, both AIR+ and -</text>
 </instance>
 <instance part="P131" gate="1" x="22.86" y="10.16" smashed="yes">
 <attribute name="VALUE" x="22.86" y="8.89" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="Q5" gate="G$1" x="106.68" y="187.96" smashed="yes" rot="MR90">
+<attribute name="NAME" x="111.76" y="187.96" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
+<attribute name="MPN" x="101.6" y="187.96" size="1.27" layer="95" rot="MR90" align="top-center"/>
+</instance>
+<instance part="P148" gate="1" x="109.22" y="177.8" smashed="yes">
+<attribute name="VALUE" x="109.22" y="176.53" size="1.27" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11597,7 +11669,7 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="A2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="180.34" x2="119.38" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="185.42" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="P15" gate="1" pin="GND"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 </segment>
@@ -11758,6 +11830,11 @@ Accumulator GND, both AIR+ and -</text>
 <pinref part="P115" gate="1" pin="GND"/>
 <wire x1="92.456" y1="154.94" x2="92.456" y2="153.67" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="Q5" gate="G$1" pin="G"/>
+<wire x1="109.22" y1="182.88" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="P148" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+12V" class="0">
 <segment>
@@ -11891,13 +11968,9 @@ Accumulator GND, both AIR+ and -</text>
 </net>
 <net name="24VIN" class="0">
 <segment>
-<wire x1="119.38" y1="187.96" x2="119.38" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="193.04" x2="116.84" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="193.04" x2="121.92" y2="193.04" width="0.1524" layer="91"/>
-<junction x="119.38" y="193.04"/>
-<label x="116.84" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="XF1" gate="G$1" pin="1"/>
-<pinref part="D2" gate="G$1" pin="C"/>
+<label x="99.06" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="Q5" gate="G$1" pin="D"/>
+<wire x1="99.06" y1="193.04" x2="101.6" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
@@ -12287,6 +12360,16 @@ Accumulator GND, both AIR+ and -</text>
 <wire x1="20.32" y1="162.56" x2="22.86" y2="162.56" width="0.1524" layer="91"/>
 <label x="22.86" y="162.56" size="1.27" layer="95" xref="yes"/>
 <pinref part="J5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$75" class="0">
+<segment>
+<pinref part="Q5" gate="G$1" pin="S"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="111.76" y1="193.04" x2="119.38" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="XF1" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="193.04" x2="119.38" y2="193.04" width="0.1524" layer="91"/>
+<junction x="119.38" y="193.04"/>
 </segment>
 </net>
 </nets>
