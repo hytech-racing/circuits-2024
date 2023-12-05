@@ -1169,17 +1169,27 @@ Neopixel RGBW LED
 <description>Molex 5051100492&lt;br&gt;
 Mouser number 538-505110-0492&lt;br&gt;
 &lt;a href="https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/505/505110/5051100492_sd.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<smd name="P1" x="-3.05" y="0" dx="2" dy="1.3" layer="1"/>
-<smd name="P2" x="3.05" y="0" dx="2" dy="1.3" layer="1"/>
-<smd name="2" x="-0.25" y="2.7" dx="0.3" dy="1" layer="1"/>
-<smd name="4" x="0.75" y="2.7" dx="0.3" dy="1" layer="1"/>
-<smd name="1" x="-0.75" y="2.7" dx="0.3" dy="1" layer="1"/>
-<smd name="3" x="0.25" y="2.7" dx="0.3" dy="1" layer="1"/>
-<wire x1="-3" y1="2.7" x2="-3" y2="-2" width="0.254" layer="22"/>
-<wire x1="-3" y1="-2" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="3" y1="-2" x2="3" y2="2.7" width="0.254" layer="21"/>
-<wire x1="3" y1="2.7" x2="-3" y2="2.7" width="0.254" layer="21"/>
-<text x="-3" y="3" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<smd name="2" x="-0.25" y="2.05" dx="0.3" dy="1" layer="1"/>
+<smd name="4" x="0.75" y="2.05" dx="0.3" dy="1" layer="1"/>
+<smd name="1" x="-0.75" y="2.05" dx="0.3" dy="1" layer="1"/>
+<smd name="3" x="0.25" y="2.05" dx="0.3" dy="1" layer="1"/>
+<smd name="P1" x="-3.05" y="-0.65" dx="2" dy="1.3" layer="1"/>
+<smd name="P2" x="3.05" y="-0.65" dx="2" dy="1.3" layer="1"/>
+<text x="0" y="2.889" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-4.318" y1="-3.302" x2="4.318" y2="2.794" layer="39"/>
+<wire x1="-3.35" y1="2.25" x2="-3.35" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="2.25" x2="-2.95" y2="1.85" width="0.127" layer="21"/>
+<wire x1="-3.35" y1="-1.7" x2="-2.55" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-1.7" x2="-2.55" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-3" x2="2.55" y2="-3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="2.55" y1="-3" x2="2.55" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-1.7" x2="3.35" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="3.35" y1="2.25" x2="3.35" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-3.35" y1="2.25" x2="-2.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.95" y1="2.25" x2="3.35" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.95" y1="2.25" x2="2.95" y2="1.85" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="1.85" x2="2.95" y2="1.85" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-1.7" x2="2.55" y2="-1.7" width="0.127" layer="21"/>
 </package>
 <package name="8-VSSOP">
 <smd name="4" x="-1.55" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
@@ -1638,6 +1648,24 @@ Note: Also works for CAT/CAY16 Series.
 <rectangle x1="-3.175" y1="-2.54" x2="3.175" y2="2.54" layer="39"/>
 <text x="0" y="2.54" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <wire x1="3.175" y1="1.27" x2="3.175" y2="-1.27" width="0.254" layer="21"/>
+</package>
+<package name="SOT-23-6">
+<description>6-Lead Plastic ThinSOT-23
+&lt;br&gt;
+&lt;a href="https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-sot-23/SOT_6_05-08-1636.pdf"&gt;Footprint Detailing&lt;/a&gt;</description>
+<wire x1="-1.45" y1="0.875" x2="1.45" y2="0.875" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="0.875" x2="-1.45" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.875" x2="1.45" y2="-0.875" width="0.127" layer="21"/>
+<smd name="1" x="-0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="3" x="0.95" y="-1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="6" x="-0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="5" x="0" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<smd name="4" x="0.95" y="1.31" dx="1.22" dy="0.62" layer="1" rot="R90"/>
+<circle x="-1.8" y="-1.31" radius="0.15875" width="0" layer="21"/>
+<text x="-2" y="0" size="0.8128" layer="21" font="vector" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -2190,6 +2218,20 @@ Note: Also works for CAT/CAY16 Series.
 <wire x1="-0.508" y1="1.27" x2="-0.508" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="0" y1="-1.27" x2="0.508" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="0.508" y1="-1.27" x2="0.508" y2="-1.016" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="USBLC6-2">
+<pin name="I/O1-IN" x="-2.54" y="-2.54" length="short"/>
+<pin name="GND" x="-2.54" y="-7.62" length="short" direction="pwr"/>
+<pin name="I/O2-IN" x="-2.54" y="-12.7" length="short"/>
+<pin name="I/O1-OUT" x="25.4" y="-2.54" length="short" rot="R180"/>
+<pin name="V-BUS" x="25.4" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="I/O2-OUT" x="25.4" y="-12.7" length="short" rot="R180"/>
+<wire x1="0" y1="0" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-15.24" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-16.002" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4935,7 +4977,9 @@ Neopixel RGBW LED
 </devices>
 </deviceset>
 <deviceset name="CONNECTOR-4_?_*" prefix="J">
-<description>4 Pin Connector</description>
+<description>4 Pin Connector
+
+&lt;li&gt;&lt;a href="https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/505/505110/5051100492_sd.pdf?inline"&gt;5051100492 Datasheet&lt;/a&gt;&lt;/li&gt;</description>
 <gates>
 <gate name="G$1" symbol="CONNECTOR_04" x="0" y="0"/>
 </gates>
@@ -5017,7 +5061,7 @@ Neopixel RGBW LED
 </technology>
 </technologies>
 </device>
-<device name="538-505110-0492" package="5051100492">
+<device name="FD19_0492" package="5051100492">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5025,7 +5069,12 @@ Neopixel RGBW LED
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DKPN" value="WM12360CT-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-505110-0492"/>
+<attribute name="MPN" value="505110-0492"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -5729,6 +5778,34 @@ Alps Alpine SPDT
 <attribute name="MOPN" value="494-LSM115JE3/TR13"/>
 <attribute name="MPN" value="LSM115JE3/TR13"/>
 <attribute name="VOLTAGE" value="15V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USBLC6-2SC6" prefix="D">
+<description>Double data line ESD detection
+&lt;br&gt;
+&lt;a href="https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf"&gt;USBLC6-2SC6 Datasheet&lt;/a&gt;&lt;br&gt;</description>
+<gates>
+<gate name="G$1" symbol="USBLC6-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="I/O1-IN" pad="1"/>
+<connect gate="G$1" pin="I/O1-OUT" pad="6"/>
+<connect gate="G$1" pin="I/O2-IN" pad="3"/>
+<connect gate="G$1" pin="I/O2-OUT" pad="4"/>
+<connect gate="G$1" pin="V-BUS" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="497-5235-1-ND"/>
+<attribute name="MANUFACTURER" value="STMicroelectronics"/>
+<attribute name="MOPN" value="511-USBLC6-2SC6"/>
+<attribute name="MPN" value="USBLC6-2SC6"/>
 </technology>
 </technologies>
 </device>
@@ -8986,7 +9063,7 @@ Layer: 94 Symbol</description>
 <part name="P80" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P81" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P82" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="J7" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="538-505110-0492"/>
+<part name="J7" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="FD19_0492"/>
 <part name="SPI1_SCK" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="SPI1_MOSI" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="C18" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
@@ -9032,7 +9109,7 @@ Layer: 94 Symbol</description>
 <part name="A2" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="" technology="12V"/>
 <part name="P41" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="J5" library="HyTechDevices" deviceset="CONNECTOR-10_?_*" device=""/>
-<part name="J9" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="538-505110-0492"/>
+<part name="J9" library="HyTechDevices" deviceset="CONNECTOR-4_?_*" device="FD19_0492"/>
 <part name="P84" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="SPI3_SCK" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="SPI3_MOSI" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
@@ -9059,6 +9136,9 @@ Layer: 94 Symbol</description>
 <part name="C29" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
 <part name="C22" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7UF"/>
 <part name="D2" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="" technology="15V"/>
+<part name="D1" library="HyTechDevices" deviceset="USBLC6-2SC6" device=""/>
+<part name="P7" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P42" library="HyTechSupplies" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9094,9 +9174,9 @@ Layer: 94 Symbol</description>
 <text x="73.66" y="114.3" size="1.778" layer="97">Backlight 1</text>
 <text x="73.66" y="83.82" size="1.778" layer="97">Display</text>
 <wire x1="137.16" y1="119.38" x2="137.16" y2="71.12" width="0.1524" layer="94"/>
-<wire x1="137.16" y1="71.12" x2="198.12" y2="71.12" width="0.1524" layer="94"/>
-<wire x1="198.12" y1="71.12" x2="198.12" y2="119.38" width="0.1524" layer="94"/>
-<wire x1="198.12" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="94"/>
+<wire x1="137.16" y1="71.12" x2="248.92" y2="71.12" width="0.1524" layer="94"/>
+<wire x1="248.92" y1="71.12" x2="248.92" y2="119.38" width="0.1524" layer="94"/>
+<wire x1="248.92" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="94"/>
 <text x="137.16" y="121.92" size="2.54" layer="97">USB-C</text>
 <text x="101.6" y="114.3" size="1.778" layer="97">Backlight 2</text>
 <text x="15.24" y="40.64" size="1.778" layer="97">Display</text>
@@ -9326,26 +9406,26 @@ May need to change LED part number for lower vd</text>
 <instance part="P54" gate="1" x="91.44" y="83.82" smashed="yes">
 <attribute name="VALUE" x="91.44" y="82.55" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="J8" gate="G$1" x="167.64" y="109.22" smashed="yes">
-<attribute name="NAME" x="167.64" y="109.728" size="1.27" layer="95"/>
-<attribute name="MPN" x="167.64" y="80.772" size="1.27" layer="96" align="top-left"/>
+<instance part="J8" gate="G$1" x="220.98" y="109.22" smashed="yes">
+<attribute name="NAME" x="220.98" y="109.728" size="1.27" layer="95"/>
+<attribute name="MPN" x="220.98" y="80.772" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="P66" gate="1" x="190.5" y="78.74" smashed="yes">
-<attribute name="VALUE" x="190.5" y="77.47" size="1.27" layer="96" align="top-center"/>
+<instance part="P66" gate="1" x="243.84" y="78.74" smashed="yes">
+<attribute name="VALUE" x="243.84" y="77.47" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P67" gate="1" x="190.5" y="111.76" smashed="yes">
-<attribute name="VALUE" x="190.5" y="114.3" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P67" gate="1" x="243.84" y="111.76" smashed="yes">
+<attribute name="VALUE" x="243.84" y="114.3" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R17" gate="G$1" x="152.4" y="106.68" smashed="yes">
-<attribute name="NAME" x="151.13" y="107.95" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="151.13" y="105.41" size="1.27" layer="96" align="top-center"/>
+<instance part="R17" gate="G$1" x="205.74" y="106.68" smashed="yes">
+<attribute name="NAME" x="204.47" y="107.95" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="204.47" y="105.41" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P68" gate="1" x="142.24" y="99.06" smashed="yes">
-<attribute name="VALUE" x="142.24" y="97.79" size="1.27" layer="96" align="top-center"/>
+<instance part="P68" gate="1" x="195.58" y="99.06" smashed="yes">
+<attribute name="VALUE" x="195.58" y="97.79" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R18" gate="G$1" x="160.02" y="104.14" smashed="yes">
-<attribute name="NAME" x="158.75" y="105.41" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="158.75" y="102.87" size="1.27" layer="96" align="top-center"/>
+<instance part="R18" gate="G$1" x="213.36" y="104.14" smashed="yes">
+<attribute name="NAME" x="212.09" y="105.41" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="212.09" y="102.87" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="A1" gate="G$1" x="129.54" y="182.88" smashed="yes">
 <attribute name="NAME" x="129.54" y="183.642" size="1.27" layer="95"/>
@@ -9405,14 +9485,14 @@ May need to change LED part number for lower vd</text>
 <instance part="P87" gate="1" x="33.02" y="48.26" smashed="yes">
 <attribute name="VALUE" x="33.02" y="46.99" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="U$12" gate="G$1" x="226.06" y="121.92" smashed="yes">
-<attribute name="NAME" x="226.06" y="129.54" size="1.778" layer="95"/>
+<instance part="U$12" gate="G$1" x="256.54" y="121.92" smashed="yes">
+<attribute name="NAME" x="256.54" y="129.54" size="1.778" layer="95"/>
 </instance>
 <instance part="P43" gate="1" x="154.94" y="195.58" smashed="yes">
 <attribute name="VALUE" x="154.94" y="198.12" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P88" gate="1" x="241.3" y="124.46" smashed="yes">
-<attribute name="VALUE" x="241.3" y="127" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P88" gate="1" x="271.78" y="124.46" smashed="yes">
+<attribute name="VALUE" x="271.78" y="127" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="3V3" gate="LED" x="228.6" y="172.72" smashed="yes" rot="R270">
 <attribute name="COLOR" x="226.822" y="173.99" size="1.27" layer="95" rot="R270" align="top-center"/>
@@ -9447,6 +9527,16 @@ May need to change LED part number for lower vd</text>
 <instance part="D2" gate="G$1" x="154.94" y="187.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="153.035" y="186.69" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="MPN" x="156.845" y="186.69" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="D1" gate="G$1" x="162.56" y="96.52" smashed="yes">
+<attribute name="NAME" x="162.56" y="97.282" size="1.27" layer="95"/>
+<attribute name="MPN" x="162.56" y="80.518" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="P7" gate="1" x="157.48" y="76.2" smashed="yes">
+<attribute name="VALUE" x="157.48" y="74.93" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P42" gate="1" x="190.5" y="101.6" smashed="yes">
+<attribute name="VALUE" x="190.5" y="104.14" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -9497,8 +9587,8 @@ May need to change LED part number for lower vd</text>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="VBUS"/>
-<wire x1="187.96" y1="106.68" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="106.68" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="106.68" x2="243.84" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="106.68" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="P67" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -9508,10 +9598,16 @@ May need to change LED part number for lower vd</text>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="3"/>
-<wire x1="236.22" y1="121.92" x2="236.22" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="119.38" x2="241.3" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="119.38" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="121.92" x2="266.7" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="119.38" x2="271.78" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="119.38" x2="271.78" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="P88" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="V-BUS"/>
+<wire x1="187.96" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="88.9" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="P42" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9626,23 +9722,23 @@ May need to change LED part number for lower vd</text>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="GND"/>
-<wire x1="187.96" y1="83.82" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="J8" gate="G$1" pin="SHELL"/>
-<wire x1="190.5" y1="83.82" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="83.82" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
-<junction x="190.5" y="83.82"/>
+<wire x1="243.84" y1="83.82" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="83.82" x2="243.84" y2="81.28" width="0.1524" layer="91"/>
+<junction x="243.84" y="83.82"/>
 <pinref part="P66" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="106.68" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="106.68" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="P68" gate="1" pin="GND"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="104.14" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
-<junction x="142.24" y="104.14"/>
+<wire x1="195.58" y1="104.14" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
+<junction x="195.58" y="104.14"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
@@ -9678,6 +9774,12 @@ May need to change LED part number for lower vd</text>
 <pinref part="P87" gate="1" pin="GND"/>
 <wire x1="27.94" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="53.34" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="GND"/>
+<wire x1="160.02" y1="88.9" x2="157.48" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="88.9" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="P7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -9944,7 +10046,7 @@ May need to change LED part number for lower vd</text>
 <net name="N$28" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="CC1"/>
-<wire x1="165.1" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="106.68" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -9952,31 +10054,14 @@ May need to change LED part number for lower vd</text>
 <segment>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="J8" gate="G$1" pin="CC2"/>
-<wire x1="162.56" y1="104.14" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="104.14" x2="218.44" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCU_USB_P" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="DP1"/>
-<wire x1="165.1" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
-<label x="162.56" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J8" gate="G$1" pin="DP2"/>
-<wire x1="165.1" y1="93.98" x2="162.56" y2="93.98" width="0.1524" layer="91"/>
-<label x="162.56" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MCU_USB_N" class="0">
-<segment>
-<pinref part="J8" gate="G$1" pin="DN1"/>
-<wire x1="165.1" y1="96.52" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
-<label x="162.56" y="96.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J8" gate="G$1" pin="DN2"/>
-<wire x1="165.1" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
-<label x="162.56" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<pinref part="D1" gate="G$1" pin="I/O1-IN"/>
+<wire x1="160.02" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
+<label x="154.94" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MCU_SPI3_SCK" class="0">
@@ -10073,17 +10158,17 @@ May need to change LED part number for lower vd</text>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="121.92" x2="226.06" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="119.38" x2="220.98" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="119.38" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
-<label x="220.98" y="121.92" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="256.54" y1="121.92" x2="256.54" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="119.38" x2="251.46" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="119.38" x2="251.46" y2="121.92" width="0.1524" layer="91"/>
+<label x="251.46" y="121.92" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="DISP_5V" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="121.92" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
-<label x="231.14" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="261.62" y1="121.92" x2="261.62" y2="111.76" width="0.1524" layer="91"/>
+<label x="261.62" y="111.76" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="63.5" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
@@ -10144,6 +10229,42 @@ May need to change LED part number for lower vd</text>
 <wire x1="111.76" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
 <junction x="119.38" y="104.14"/>
 <label x="119.38" y="106.68" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="USB_N" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="DN1"/>
+<wire x1="218.44" y1="96.52" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="96.52" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="I/O2-OUT"/>
+<wire x1="200.66" y1="91.44" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="83.82" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="DN2"/>
+<wire x1="218.44" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<junction x="200.66" y="91.44"/>
+<label x="195.58" y="83.82" size="1.27" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="MCU_USB_N" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="I/O2-IN"/>
+<wire x1="160.02" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
+<label x="154.94" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="USB_P" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="DP1"/>
+<wire x1="218.44" y1="99.06" x2="215.9" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="I/O1-OUT"/>
+<wire x1="187.96" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="93.98" x2="198.12" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="99.06" x2="218.44" y2="99.06" width="0.1524" layer="91"/>
+<junction x="218.44" y="99.06"/>
+<pinref part="J8" gate="G$1" pin="DP2"/>
+<wire x1="218.44" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
+<junction x="198.12" y="93.98"/>
+<label x="195.58" y="93.98" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
