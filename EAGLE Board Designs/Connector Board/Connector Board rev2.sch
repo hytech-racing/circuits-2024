@@ -6610,11 +6610,11 @@ Dashed line is edge of mated connector.</description>
 <instance part="P10" gate="1" x="30.48" y="124.46" smashed="yes">
 <attribute name="VALUE" x="30.48" y="123.19" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P11" gate="1" x="45.72" y="139.7" smashed="yes">
-<attribute name="VALUE" x="45.72" y="142.24" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P11" gate="1" x="45.72" y="135.128" smashed="yes">
+<attribute name="VALUE" x="48.26" y="135.128" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P20" gate="G$1" x="50.8" y="139.7" smashed="yes">
-<attribute name="VALUE" x="50.8" y="144.78" size="1.778" layer="96" align="bottom-center"/>
+<instance part="P20" gate="G$1" x="50.8" y="144.78" smashed="yes">
+<attribute name="VALUE" x="50.8" y="149.86" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="P6" gate="1" x="172.72" y="200.66" smashed="yes">
 <attribute name="VALUE" x="172.72" y="203.2" size="1.27" layer="96" align="bottom-center"/>
@@ -6706,27 +6706,10 @@ Dashed line is edge of mated connector.</description>
 <nets>
 <net name="CANL_3" class="0">
 <segment>
-<pinref part="J12" gate="G$1" pin="3"/>
-<wire x1="96.52" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
-<label x="104.14" y="48.26" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="27.94" y1="147.32" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
-<label x="33.02" y="147.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="G$1" pin="18"/>
-</segment>
-<segment>
 <label x="220.98" y="182.88" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP5" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="182.88" x2="241.3" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="J10" gate="G$1" pin="7"/>
-</segment>
-</net>
-<net name="CANH_3" class="0">
-<segment>
-<pinref part="J12" gate="G$1" pin="4"/>
-<wire x1="96.52" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
-<label x="104.14" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
@@ -6734,18 +6717,30 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="17"/>
 </segment>
 <segment>
+<wire x1="96.52" y1="45.72" x2="104.14" y2="45.72" width="0.1524" layer="91"/>
+<label x="104.14" y="45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="J12" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="CANH_3" class="0">
+<segment>
 <label x="220.98" y="180.34" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP6" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="180.34" x2="248.92" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="J10" gate="G$1" pin="8"/>
 </segment>
+<segment>
+<wire x1="27.94" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
+<label x="33.02" y="152.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="J6" gate="G$1" pin="16"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
+<label x="104.14" y="48.26" size="1.27" layer="95" xref="yes"/>
+<pinref part="J12" gate="G$1" pin="3"/>
+</segment>
 </net>
 <net name="CANL_2" class="0">
-<segment>
-<wire x1="27.94" y1="137.16" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
-<label x="33.02" y="137.16" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="G$1" pin="22"/>
-</segment>
 <segment>
 <label x="220.98" y="195.58" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
@@ -6755,13 +6750,13 @@ Dashed line is edge of mated connector.</description>
 <segment>
 <label x="220.98" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="27.94" y1="142.24" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
+<label x="33.02" y="142.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="J6" gate="G$1" pin="20"/>
+</segment>
 </net>
 <net name="CANH_2" class="0">
-<segment>
-<wire x1="27.94" y1="139.7" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
-<label x="33.02" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="J6" gate="G$1" pin="21"/>
-</segment>
 <segment>
 <label x="220.98" y="198.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="TP1" gate="G$1" pin="1"/>
@@ -6770,6 +6765,11 @@ Dashed line is edge of mated connector.</description>
 </segment>
 <segment>
 <label x="220.98" y="185.42" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="27.94" y1="144.78" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
+<label x="33.02" y="144.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="J6" gate="G$1" pin="19"/>
 </segment>
 </net>
 <net name="SHDN_B" class="0">
@@ -6842,9 +6842,9 @@ Dashed line is edge of mated connector.</description>
 <label x="33.02" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J15" gate="G$1" pin="6"/>
-<wire x1="99.06" y1="144.78" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
-<label x="104.14" y="144.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="99.06" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
+<label x="104.14" y="142.24" size="1.27" layer="95" xref="yes"/>
+<pinref part="J15" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="BRAKE_2_EXT" class="0">
@@ -6854,9 +6854,9 @@ Dashed line is edge of mated connector.</description>
 <label x="33.02" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J15" gate="G$1" pin="7"/>
-<wire x1="99.06" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
-<label x="104.14" y="142.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="99.06" y1="144.78" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
+<label x="104.14" y="144.78" size="1.27" layer="95" xref="yes"/>
+<pinref part="J15" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="ACCEL_1_EXT" class="0">
@@ -6924,25 +6924,25 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="12"/>
 <wire x1="30.48" y1="165.1" x2="30.48" y2="162.56" width="0.1524" layer="91"/>
 <junction x="30.48" y="165.1"/>
-<wire x1="27.94" y1="154.94" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="15"/>
-<wire x1="30.48" y1="162.56" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
 <junction x="30.48" y="162.56"/>
-<pinref part="J6" gate="G$1" pin="16"/>
-<wire x1="27.94" y1="152.4" x2="30.48" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="154.94" x2="30.48" y2="152.4" width="0.1524" layer="91"/>
-<junction x="30.48" y="154.94"/>
-<pinref part="J6" gate="G$1" pin="19"/>
-<wire x1="27.94" y1="144.78" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="152.4" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
-<junction x="30.48" y="152.4"/>
-<pinref part="J6" gate="G$1" pin="20"/>
-<wire x1="27.94" y1="142.24" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="144.78" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
-<junction x="30.48" y="144.78"/>
-<wire x1="30.48" y1="142.24" x2="30.48" y2="127" width="0.1524" layer="91"/>
-<junction x="30.48" y="142.24"/>
+<wire x1="30.48" y1="162.56" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="P10" gate="1" pin="GND"/>
+<pinref part="J6" gate="G$1" pin="23"/>
+<wire x1="30.48" y1="154.94" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="147.32" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="139.7" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="134.62" x2="30.48" y2="127" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
+<junction x="30.48" y="134.62"/>
+<pinref part="J6" gate="G$1" pin="21"/>
+<wire x1="27.94" y1="139.7" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
+<junction x="30.48" y="139.7"/>
+<pinref part="J6" gate="G$1" pin="15"/>
+<wire x1="27.94" y1="154.94" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
+<junction x="30.48" y="154.94"/>
+<pinref part="J6" gate="G$1" pin="18"/>
+<wire x1="27.94" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
+<junction x="30.48" y="147.32"/>
 </segment>
 <segment>
 <pinref part="P2" gate="1" pin="GND"/>
@@ -7064,10 +7064,10 @@ Dashed line is edge of mated connector.</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="23"/>
-<wire x1="27.94" y1="134.62" x2="45.72" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="134.62" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="P11" gate="1" pin="+5V"/>
+<pinref part="J6" gate="G$1" pin="24"/>
+<wire x1="27.94" y1="132.08" x2="45.72" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="132.08" x2="45.72" y2="132.588" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
@@ -7113,12 +7113,6 @@ Dashed line is edge of mated connector.</description>
 <wire x1="99.06" y1="53.34" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="24"/>
-<wire x1="27.94" y1="132.08" x2="50.8" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="132.08" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="P20" gate="G$1" pin="+24V"/>
-</segment>
-<segment>
 <wire x1="213.36" y1="121.92" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="121.92" x2="215.9" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
@@ -7135,6 +7129,12 @@ Dashed line is edge of mated connector.</description>
 <wire x1="215.9" y1="111.76" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="106.68" x2="213.36" y2="106.68" width="0.1524" layer="91"/>
 <junction x="215.9" y="111.76"/>
+</segment>
+<segment>
+<wire x1="27.94" y1="137.16" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="22"/>
+<pinref part="P20" gate="G$1" pin="+24V"/>
+<wire x1="50.8" y1="137.16" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHDN_I" class="0">
@@ -7200,9 +7200,9 @@ Dashed line is edge of mated connector.</description>
 <junction x="215.9" y="193.04"/>
 </segment>
 <segment>
-<pinref part="J12" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
-<label x="104.14" y="50.8" size="1.27" layer="95" xref="yes"/>
+<wire x1="96.52" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
+<label x="104.14" y="40.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="J12" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="SHDN_L" class="0">
@@ -7300,9 +7300,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<pinref part="J14" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
-<label x="160.02" y="91.44" size="1.27" layer="95" xref="yes"/>
+<wire x1="157.48" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
+<label x="160.02" y="88.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="J14" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="STEERING_TX_N" class="0">
@@ -7312,9 +7312,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="10"/>
 </segment>
 <segment>
-<pinref part="J14" gate="G$1" pin="3"/>
-<wire x1="157.48" y1="88.9" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
-<label x="160.02" y="88.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="157.48" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
+<label x="160.02" y="86.36" size="1.27" layer="95" xref="yes"/>
+<pinref part="J14" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="STEERING_RX_P" class="0">
@@ -7324,9 +7324,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="13"/>
 </segment>
 <segment>
-<pinref part="J14" gate="G$1" pin="4"/>
-<wire x1="157.48" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
-<label x="160.02" y="86.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="157.48" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
+<label x="160.02" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="J14" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="STEERING_RX_N" class="0">
@@ -7336,9 +7336,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="14"/>
 </segment>
 <segment>
-<pinref part="J14" gate="G$1" pin="5"/>
 <wire x1="157.48" y1="83.82" x2="160.02" y2="83.82" width="0.1524" layer="91"/>
 <label x="160.02" y="83.82" size="1.27" layer="95" xref="yes"/>
+<pinref part="J14" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="FR_CORNER_EXT_P" class="0">
@@ -7375,9 +7375,9 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J9" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="J12" gate="G$1" pin="6"/>
-<wire x1="96.52" y1="40.64" x2="104.14" y2="40.64" width="0.1524" layer="91"/>
-<label x="104.14" y="40.64" size="1.27" layer="95" xref="yes"/>
+<wire x1="96.52" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
+<label x="104.14" y="50.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="J12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="CB_VIN" class="0">
@@ -7437,6 +7437,12 @@ Dashed line is edge of mated connector.</description>
 <wire x1="213.36" y1="160.02" x2="220.98" y2="160.02" width="0.1524" layer="91"/>
 <label x="220.98" y="160.02" size="1.27" layer="95" xref="yes"/>
 <pinref part="J10" gate="G$1" pin="16"/>
+</segment>
+</net>
+<net name="+24V1" class="0">
+<segment>
+<wire x1="43.18" y1="121.92" x2="66.04" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="121.92" x2="66.04" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
