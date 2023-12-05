@@ -4891,8 +4891,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <signal name="STEERING_1_EXT">
 <contactref element="J7" pad="19"/>
 <contactref element="J14" pad="7"/>
-<wire x1="17.26056875" y1="26.37916875" x2="8.89" y2="18.0086" width="0.254" layer="2"/>
-<wire x1="17.26056875" y1="39.640509375" x2="17.26056875" y2="26.37916875" width="0.254" layer="2"/>
+<wire x1="8.89" y1="18.0086" x2="17.26056875" y2="26.37916875" width="0.254" layer="15"/>
+<wire x1="17.26056875" y1="26.37916875" x2="17.26056875" y2="39.640509375" width="0.254" layer="15"/>
 </signal>
 <signal name="BRAKE_1_EXT">
 <contactref element="J7" pad="18"/>
@@ -4904,11 +4904,13 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="20.7772" y1="3.8608" x2="20.7772" y2="1.905" width="0.254" layer="2"/>
 <wire x1="12.446" y1="37.846" x2="17.399" y2="37.846" width="0.254" layer="2"/>
 <wire x1="17.399" y1="37.846" x2="18.288" y2="38.735" width="0.254" layer="2"/>
-<wire x1="18.288" y1="40.667940625" x2="19.25955" y2="41.639490625" width="0.254" layer="2"/>
 <wire x1="2.921" y1="24.892" x2="8.89" y2="30.861" width="0.254" layer="2"/>
 <wire x1="8.89" y1="30.861" x2="8.89" y2="34.29" width="0.254" layer="2"/>
 <wire x1="8.89" y1="34.29" x2="12.446" y2="37.846" width="0.254" layer="2"/>
-<wire x1="18.288" y1="38.735" x2="18.288" y2="40.667940625" width="0.254" layer="2"/>
+<wire x1="18.288" y1="38.735" x2="18.288" y2="40.64" width="0.254" layer="2"/>
+<wire x1="18.288" y1="40.64" x2="18.288" y2="40.667940625" width="0.254" layer="2"/>
+<wire x1="18.288" y1="40.667940625" x2="18.401028125" y2="40.78096875" width="0.254" layer="2"/>
+<wire x1="18.401028125" y1="40.78096875" x2="19.25955" y2="41.639490625" width="0.254" layer="2"/>
 </signal>
 <signal name="BRAKE_2_EXT">
 <contactref element="J7" pad="17"/>
@@ -5663,12 +5665,13 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="J7" pad="20"/>
 <contactref element="J14" pad="6"/>
 <wire x1="8.89" y1="15.0114" x2="10.795" y2="16.9164" width="0.254" layer="2"/>
-<wire x1="18.288" y1="40.612059375" x2="17.26056875" y2="41.639490625" width="0.254" layer="2"/>
 <wire x1="10.795" y1="16.9164" x2="10.795" y2="18.034" width="0.254" layer="2"/>
 <wire x1="10.795" y1="18.034" x2="19.558" y2="26.797" width="0.254" layer="2"/>
-<wire x1="18.288" y1="36.322" x2="18.288" y2="40.612059375" width="0.254" layer="2"/>
-<wire x1="19.558" y1="26.797" x2="19.558" y2="35.052" width="0.254" layer="2"/>
-<wire x1="19.558" y1="35.052" x2="18.288" y2="36.322" width="0.254" layer="2"/>
+<wire x1="8.89" y1="15.0114" x2="19.812" y2="25.9334" width="0.254" layer="15"/>
+<wire x1="18.288" y1="40.612059375" x2="17.26056875" y2="41.639490625" width="0.254" layer="15"/>
+<wire x1="19.812" y1="25.9334" x2="19.812" y2="37.338" width="0.254" layer="15"/>
+<wire x1="19.812" y1="37.338" x2="18.288" y2="38.862" width="0.254" layer="15"/>
+<wire x1="18.288" y1="38.862" x2="18.288" y2="40.612059375" width="0.254" layer="15"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
