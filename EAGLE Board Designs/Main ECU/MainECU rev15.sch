@@ -9498,14 +9498,14 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <label x="180.34" y="149.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="THERM_FL_EXT" class="0">
+<net name="THERM_FL" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="111.76" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
 <label x="119.38" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="THERM_FR_EXT" class="0">
+<net name="THERM_FR" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="111.76" y1="160.02" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
