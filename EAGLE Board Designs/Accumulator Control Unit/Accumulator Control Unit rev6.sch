@@ -6066,6 +6066,34 @@ Teensy 3.2/4.0 Footprint
 <circle x="-1.651" y="-1.27" radius="0.1524" width="0" layer="21"/>
 <rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
 </package>
+<package name="1.5SMBJ">
+<description>DO-214AA Doide Footprint
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/54/BOURNS_1_5SMBJ_datasheet-2530221.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-1.98" y="0" dx="2.1" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="1.98" y="0" dx="2.1" dy="1.27" layer="1" rot="R90"/>
+<text x="0" y="2.286" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.285" y1="1.97" x2="2.285" y2="1.97" width="0.127" layer="21"/>
+<wire x1="2.285" y1="1.97" x2="2.285" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="2.285" y1="-1.97" x2="-2.285" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="-2.285" y1="-1.97" x2="-2.285" y2="1.97" width="0.127" layer="21"/>
+<rectangle x1="-3.302" y1="-2.286" x2="3.302" y2="2.286" layer="39"/>
+<wire x1="3.302" y1="1.524" x2="3.302" y2="-1.524" width="0.254" layer="21"/>
+</package>
+<package name="SMB(DO-214AA)">
+<description>SMBJ5338B THRU SMBJ5388B DO-214AA Doide Footprint
+&lt;br&gt;
+&lt;a href="https://www.mccsemi.com/pdf/Products/SMBJ5338B-SMBJ5388B(SMB).pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="A" x="-2.15" y="0" dx="2.3" dy="2.5" layer="1" rot="R90"/>
+<smd name="C" x="2.15" y="0" dx="2.3" dy="2.5" layer="1" rot="R90"/>
+<text x="0" y="2.286" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-2.425" y1="1.97" x2="2.425" y2="1.97" width="0.127" layer="21"/>
+<wire x1="2.425" y1="1.97" x2="2.425" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="2.425" y1="-1.97" x2="-2.425" y2="-1.97" width="0.127" layer="21"/>
+<wire x1="-2.425" y1="-1.97" x2="-2.425" y2="1.97" width="0.127" layer="21"/>
+<rectangle x1="-3.75" y1="-2.25" x2="3.75" y2="2.25" layer="39"/>
+<wire x1="3.75" y1="1.524" x2="3.75" y2="-1.524" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -6735,6 +6763,23 @@ Pins tied to GND: SLOW
 <vertex x="6.35" y="-1.27"/>
 <vertex x="8.89" y="-1.27"/>
 </polygon>
+</symbol>
+<symbol name="DIODE_ZENER">
+<wire x1="0" y1="0.762" x2="0" y2="-0.762" width="0.1524" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-1.27" y="1.905" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="1.27" layer="96" align="top-center">&gt;VOLTAGE</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-2.54" y="1.27"/>
+<vertex x="-2.54" y="-1.27"/>
+<vertex x="0" y="0"/>
+</polygon>
+<wire x1="-0.508" y1="1.27" x2="0" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.762" x2="0.508" y2="-1.27" width="0.1524" layer="94"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="96" align="top-center">&gt;MPN</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -10441,6 +10486,66 @@ Note: OPA2991 is also a comparator</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="ZENER_?_*" prefix="D">
+<description>Zener Diode
+ &lt;br&gt;
+&lt;a href="https://www.diodes.com/assets/Datasheets/ds32125.pdf"&gt;1SMB5949B-13&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.mccsemi.com/pdf/Products/SMBJ5338B-SMBJ5388B(SMB).pdf"&gt;SMBJ5350B-TP&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE_ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1.5SMBJ" package="1.5SMBJ">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="100V">
+<attribute name="CURRENT" value="0.03A"/>
+<attribute name="DKPN" value="1SMB5949B-13DICT-ND"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="MOPN" value="621-1SMB5949B-13"/>
+<attribute name="MPN" value="1SMB5949B-13"/>
+<attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="12V">
+<attribute name="CURRENT" value="0.031A"/>
+<attribute name="DKPN" value="1SMB5927B-13DICT-ND"/>
+<attribute name="MANUFACTURER" value="Diodes Incorporated"/>
+<attribute name="MOPN" value="621-1SMB5927B-13"/>
+<attribute name="MPN" value="1SMB5927B-13"/>
+<attribute name="VOLTAGE" value="12V"/>
+</technology>
+</technologies>
+</device>
+<device name="SMB(DO-214AA)" package="SMB(DO-214AA)">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="12V">
+<attribute name="CURRENT" value="0.395A"/>
+<attribute name="DKPN" value="SMBJ5349B-TPMSCT-ND"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co"/>
+<attribute name="MOPN" value="833-SMBJ5349B-TP"/>
+<attribute name="MPN" value="SMBJ5349B-TP "/>
+<attribute name="VOLTAGE" value="12V"/>
+</technology>
+<technology name="13V">
+<attribute name="CURRENT" value="0.385A"/>
+<attribute name="DKPN" value="SMBJ5350B-TPMSCT-ND"/>
+<attribute name="MANUFACTURER" value="Micro Commercial Co"/>
+<attribute name="MOPN" value="833-SMBJ5350B-TP"/>
+<attribute name="MPN" value="SMBJ5350B-TP"/>
+<attribute name="VOLTAGE" value="13V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="supply1">
@@ -11085,6 +11190,8 @@ Note: OPA2991 is also a comparator</description>
 <part name="P147" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="Q5" library="HyTechDevices" deviceset="TRANSISTOR_P_MOS_?_*" device="SOT-23" technology="DMP3056L-7"/>
 <part name="P148" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="D11" library="HyTechDevices" deviceset="ZENER_?_*" device="1.5SMBJ" technology="12V"/>
+<part name="R134" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="360"/>
 </parts>
 <sheets>
 <sheet>
@@ -11540,12 +11647,21 @@ Accumulator GND, both AIR+ and -</text>
 <instance part="P131" gate="1" x="22.86" y="10.16" smashed="yes">
 <attribute name="VALUE" x="22.86" y="8.89" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="Q5" gate="G$1" x="106.68" y="187.96" smashed="yes" rot="MR90">
-<attribute name="NAME" x="111.76" y="187.96" size="1.27" layer="95" rot="MR90" align="bottom-center"/>
-<attribute name="MPN" x="101.6" y="187.96" size="1.27" layer="95" rot="MR90" align="top-center"/>
+<instance part="Q5" gate="G$1" x="104.14" y="187.96" smashed="yes" rot="MR90">
+<attribute name="NAME" x="104.14" y="185.42" size="1.27" layer="95" rot="MR0" align="bottom-center"/>
+<attribute name="MPN" x="99.06" y="187.96" size="1.27" layer="95" rot="MR90" align="top-center"/>
 </instance>
-<instance part="P148" gate="1" x="109.22" y="177.8" smashed="yes">
-<attribute name="VALUE" x="109.22" y="176.53" size="1.27" layer="96" align="top-center"/>
+<instance part="P148" gate="1" x="114.3" y="170.18" smashed="yes">
+<attribute name="VALUE" x="114.3" y="168.91" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="D11" gate="G$1" x="111.76" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="109.855" y="189.23" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="114.935" y="189.23" size="1.27" layer="96" rot="R270" align="top-center"/>
+<attribute name="MPN" x="110.49" y="191.77" size="0.6096" layer="96" align="top-center"/>
+</instance>
+<instance part="R134" gate="G$1" x="106.68" y="177.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="105.41" y="176.53" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="107.95" y="176.53" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11831,9 +11947,9 @@ Accumulator GND, both AIR+ and -</text>
 <wire x1="92.456" y1="154.94" x2="92.456" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="Q5" gate="G$1" pin="G"/>
-<wire x1="109.22" y1="182.88" x2="109.22" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="R134" gate="G$1" pin="1"/>
 <pinref part="P148" gate="1" pin="GND"/>
+<wire x1="106.68" y1="172.72" x2="114.3" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -11968,9 +12084,9 @@ Accumulator GND, both AIR+ and -</text>
 </net>
 <net name="24VIN" class="0">
 <segment>
-<label x="99.06" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="96.52" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="Q5" gate="G$1" pin="D"/>
-<wire x1="99.06" y1="193.04" x2="101.6" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="193.04" x2="99.06" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
@@ -12366,10 +12482,24 @@ Accumulator GND, both AIR+ and -</text>
 <segment>
 <pinref part="Q5" gate="G$1" pin="S"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="111.76" y1="193.04" x2="119.38" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="193.04" x2="111.76" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="XF1" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="193.04" x2="119.38" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="193.04" x2="119.38" y2="193.04" width="0.1524" layer="91"/>
 <junction x="119.38" y="193.04"/>
+<pinref part="D11" gate="G$1" pin="C"/>
+<junction x="111.76" y="193.04"/>
+</segment>
+</net>
+<net name="N$76" class="0">
+<segment>
+<pinref part="Q5" gate="G$1" pin="G"/>
+<pinref part="R134" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="182.88" x2="106.68" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="111.76" y1="185.42" x2="111.76" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="182.88" x2="106.68" y2="182.88" width="0.1524" layer="91"/>
+<junction x="106.68" y="182.88"/>
 </segment>
 </net>
 </nets>
