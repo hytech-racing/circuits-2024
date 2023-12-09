@@ -8976,7 +8976,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P179" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P6" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P47" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="TP5" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="CUR" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="U19" library="HyTechDevices" deviceset="OPAMP_2_CHANNEL_*" device="OPA_2991"/>
 <part name="P115" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P116" library="HyTechSupplies" deviceset="+3V3" device=""/>
@@ -14763,7 +14763,7 @@ worst case input supply short circuit </text>
 <instance part="P179" gate="1" x="109.22" y="114.3" smashed="yes">
 <attribute name="VALUE" x="109.22" y="113.03" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="TP5" gate="G$1" x="96.52" y="175.26" smashed="yes" rot="R90">
+<instance part="CUR" gate="G$1" x="96.52" y="175.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="94.742" y="172.72" size="1.27" layer="95" rot="R90"/>
 <attribute name="MPN" x="98.298" y="172.72" size="1.27" layer="95" rot="R90" align="top-left"/>
 </instance>
@@ -15385,7 +15385,7 @@ worst case input supply short circuit </text>
 <pinref part="R73" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="177.8" x2="99.06" y2="177.8" width="0.1524" layer="91"/>
 <junction x="96.52" y="177.8"/>
-<pinref part="TP5" gate="G$1" pin="1"/>
+<pinref part="CUR" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$50" class="0">
