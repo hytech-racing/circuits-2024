@@ -7437,15 +7437,6 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J10" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="SHDN_K1" class="0">
-<segment>
-<wire x1="248.92" y1="139.7" x2="251.46" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="139.7" x2="256.54" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="137.16" x2="251.46" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="139.7" x2="251.46" y2="137.16" width="0.1524" layer="91"/>
-<junction x="251.46" y="139.7"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
