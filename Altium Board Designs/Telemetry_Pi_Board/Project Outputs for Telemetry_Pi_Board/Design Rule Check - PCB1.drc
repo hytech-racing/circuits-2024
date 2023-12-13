@@ -1,33 +1,26 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\andy8\Documents\GitHub\hytech-racing\circuits-2024\Altium Board Designs\Telemetry_Pi_Board\PCB1.PcbDoc
-Date     : 11/26/2023
-Time     : 12:58:35 AM
+Date     : 12/13/2023
+Time     : 4:27:30 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
-   Violation between Clearance Constraint: (6.894mil < 12.992mil) Between Pad J1-(1492.559mil,2736.22mil) on Multi-Layer And Pad J1-A1-B12(1534.882mil,2724.016mil) on Bottom Layer(SIG/PWR) 
-   Violation between Clearance Constraint: (8.263mil < 12.992mil) Between Pad J1-(1492.559mil,2736.22mil) on Multi-Layer And Pad J1-A4-B9(1534.882mil,2755.512mil) on Bottom Layer(SIG/PWR) 
-   Violation between Clearance Constraint: (6.894mil < 12.992mil) Between Pad J1-(1492.559mil,2963.78mil) on Multi-Layer And Pad J1-B1-A12(1534.882mil,2975.984mil) on Bottom Layer(SIG/PWR) 
-   Violation between Clearance Constraint: (8.263mil < 12.992mil) Between Pad J1-(1492.559mil,2963.78mil) on Multi-Layer And Pad J1-B4-A9(1534.882mil,2944.488mil) on Bottom Layer(SIG/PWR) 
-   Violation between Clearance Constraint: (6.894mil < 12.992mil) Between Pad J2-(1492.559mil,3456.22mil) on Multi-Layer And Pad J2-B1-A12(1534.882mil,3444.016mil) on Top Layer(SIG/PWR) 
-   Violation between Clearance Constraint: (8.263mil < 12.992mil) Between Pad J2-(1492.559mil,3456.22mil) on Multi-Layer And Pad J2-B4-A9(1534.882mil,3475.512mil) on Top Layer(SIG/PWR) 
-   Violation between Clearance Constraint: (9.982mil < 10mil) Between Pad J2-(1492.559mil,3456.22mil) on Multi-Layer And Via (1460mil,3460mil) from Top Layer(SIG/PWR) to Bottom Layer(SIG/PWR) 
-   Violation between Clearance Constraint: (6.894mil < 12.992mil) Between Pad J2-(1492.559mil,3683.78mil) on Multi-Layer And Pad J2-A1-B12(1534.882mil,3695.984mil) on Top Layer(SIG/PWR) 
-   Violation between Clearance Constraint: (8.263mil < 12.992mil) Between Pad J2-(1492.559mil,3683.78mil) on Multi-Layer And Pad J2-A4-B9(1534.882mil,3664.488mil) on Top Layer(SIG/PWR) 
+   Violation between Clearance Constraint: (6.894mil < 12.992mil) Between Pad J1-(1519.882mil,2760.236mil) on Multi-Layer And Pad J1-A1-B12(1562.205mil,2748.031mil) on Bottom Layer(SIG/PWR) 
+   Violation between Clearance Constraint: (8.263mil < 12.992mil) Between Pad J1-(1519.882mil,2760.236mil) on Multi-Layer And Pad J1-A4-B9(1562.205mil,2779.528mil) on Bottom Layer(SIG/PWR) 
+   Violation between Clearance Constraint: (6.894mil < 12.992mil) Between Pad J1-(1519.882mil,2987.795mil) on Multi-Layer And Pad J1-B1-A12(1562.205mil,3000mil) on Bottom Layer(SIG/PWR) 
+   Violation between Clearance Constraint: (8.263mil < 12.992mil) Between Pad J1-(1519.882mil,2987.795mil) on Multi-Layer And Pad J1-B4-A9(1562.205mil,2968.504mil) on Bottom Layer(SIG/PWR) 
+   Violation between Clearance Constraint: (6.894mil < 12.992mil) Between Pad J2-(1519.882mil,3350.787mil) on Multi-Layer And Pad J2-B1-A12(1562.205mil,3338.583mil) on Top Layer(SIG/PWR) 
+   Violation between Clearance Constraint: (8.263mil < 12.992mil) Between Pad J2-(1519.882mil,3350.787mil) on Multi-Layer And Pad J2-B4-A9(1562.205mil,3370.079mil) on Top Layer(SIG/PWR) 
+   Violation between Clearance Constraint: (6.894mil < 12.992mil) Between Pad J2-(1519.882mil,3578.346mil) on Multi-Layer And Pad J2-A1-B12(1562.205mil,3590.551mil) on Top Layer(SIG/PWR) 
+   Violation between Clearance Constraint: (8.263mil < 12.992mil) Between Pad J2-(1519.882mil,3578.346mil) on Multi-Layer And Pad J2-A4-B9(1562.205mil,3559.055mil) on Top Layer(SIG/PWR) 
    Violation between Clearance Constraint: (10.236mil < 19.685mil) Between Pad T1-13(4804.882mil,2539.685mil) on Multi-Layer And Pad T1-15(4804.882mil,2482.205mil) on Multi-Layer 
    Violation between Clearance Constraint: (10.236mil < 19.685mil) Between Pad T1-14(4364.724mil,2539.685mil) on Multi-Layer And Pad T1-16(4364.724mil,2482.205mil) on Multi-Layer 
-Rule Violations :11
+Rule Violations :10
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net J2_CC2 Between Via (1460mil,3500mil) from Top Layer(SIG/PWR) to Bottom Layer(SIG/PWR) And Pad J2-B5(1534.882mil,3501.102mil) on Top Layer(SIG/PWR) 
-   Violation between Un-Routed Net Constraint: Via (2005mil,3935mil) from Top Layer(SIG/PWR) to Bottom Layer(SIG/PWR) Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (2080mil,2235mil) from Top Layer(SIG/PWR) to Bottom Layer(SIG/PWR) Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (2100mil,3960mil) from Top Layer(SIG/PWR) to Bottom Layer(SIG/PWR) Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (2280mil,3940mil) from Top Layer(SIG/PWR) to Bottom Layer(SIG/PWR) Dead Copper - Net Not Assigned.
-   Violation between Un-Routed Net Constraint: Via (2440mil,3975mil) from Top Layer(SIG/PWR) to Bottom Layer(SIG/PWR) Dead Copper - Net Not Assigned.
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -45,27 +38,13 @@ Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=248.031mil) (All)
 Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
-   Violation between Hole To Hole Clearance Constraint: (Collision < 10mil) Between Via (1434.047mil,2304.488mil) from Top Layer(SIG/PWR) to Bottom Layer(SIG/PWR) And Via (1434.047mil,2304.488mil) from Top Layer(SIG/PWR) to Bottom Layer(SIG/PWR) Pad/Via Touching Holes
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=3.15mil) (All),(All)
-   Violation between Minimum Solder Mask Sliver Constraint: (2.879mil < 3.15mil) Between Pad J1-3(1357.52mil,2648.819mil) on Bottom Layer(SIG/PWR) And Via (1410mil,2600mil) from Top Layer(SIG/PWR) to Bottom Layer(SIG/PWR) [Bottom Solder] Mask Sliver [2.879mil]
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5.906mil) (IsPad),(All)
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad C15-1(1840mil,3187.953mil) on Top Layer(SIG/PWR) And Text "C14" (1825.006mil,3344.984mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad D1-1(1650mil,2746.929mil) on Bottom Layer(SIG/PWR) And Text "." (1586.704mil,2688.583mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad D3-2(2494.646mil,2680mil) on Bottom Layer(SIG/PWR) And Text "R21" (2419mil,2771mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad D4-1(2780mil,2440.197mil) on Bottom Layer(SIG/PWR) And Text "GLV--VIN" (2997mil,2381.329mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad D4-2(2780mil,2290mil) on Bottom Layer(SIG/PWR) And Text "GLV--VIN" (2997mil,2381.329mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad D4-2(2780mil,2290mil) on Bottom Layer(SIG/PWR) And Text "MP3" (2798.316mil,2225.006mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad MP3-1(2690mil,2025mil) on Multi-Layer And Text "C17" (2590.006mil,2075.764mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (4.257mil < 5.906mil) Between Pad TP1-1(3206.667mil,3950mil) on Bottom Layer(SIG/PWR) And Text "Don't forget to reset SW1 before turn on ^^" (3666.476mil,3790mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [4.257mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad TP2-1(3453.333mil,3950mil) on Bottom Layer(SIG/PWR) And Text "Don't forget to reset SW1 before turn on ^^" (3666.476mil,3790mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad TP3-1(3700mil,3950mil) on Bottom Layer(SIG/PWR) And Text "Don't forget to reset SW1 before turn on ^^" (3666.476mil,3790mil) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad U2-3(2495mil,2205mil) on Multi-Layer And Track (2419.134mil,2235.354mil)(2458.504mil,2215.669mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 5.906mil) Between Pad U2-3(2495mil,2205mil) on Multi-Layer And Track (2458.504mil,2215.669mil)(2458.504mil,2255.039mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
-Rule Violations :12
+Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
 Rule Violations :0
@@ -74,19 +53,12 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Text "Disconnect JP2 
-before connecting 
-to your laptop" (3615mil,1295mil) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Text "DS1" (2508mil,4122mil) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Text "DS2" (2403mil,4122mil) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Text "DS3" (2278mil,4122mil) on Bottom Overlay 
-   Violation between Board Outline Clearance(Outline Edge): (Collision < 11.811mil) Between Board Edge And Text "DS4" (2153mil,4122mil) on Bottom Overlay 
-Rule Violations :5
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 36
+Violations Detected : 10
 Waived Violations : 0
 Time Elapsed        : 00:00:02
