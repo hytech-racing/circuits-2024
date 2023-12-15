@@ -15630,17 +15630,6 @@ worst case input supply short circuit </text>
 <junction x="204.216" y="109.22"/>
 </segment>
 </net>
-<net name="N$70" class="0">
-<segment>
-<pinref part="R93" gate="G$1" pin="2"/>
-<pinref part="U20" gate="B" pin="VIN+"/>
-<wire x1="213.36" y1="109.22" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C43" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="106.68" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
-<junction x="218.44" y="109.22"/>
-</segment>
-</net>
 <net name="ACCEL_2" class="0">
 <segment>
 <pinref part="U20" gate="B" pin="VOUT"/>
@@ -15897,6 +15886,17 @@ worst case input supply short circuit </text>
 <wire x1="161.036" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="161.036" y1="119.38" x2="161.036" y2="111.76" width="0.1524" layer="91"/>
 <junction x="161.036" y="111.76"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="R93" gate="G$1" pin="2"/>
+<pinref part="U20" gate="B" pin="VIN+"/>
+<wire x1="213.36" y1="109.22" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C43" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="106.68" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
+<junction x="218.44" y="109.22"/>
 </segment>
 </net>
 </nets>
