@@ -188,23 +188,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
-DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\PCBLIB\HyTechManufacturing.PCBLIB
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\PCBLIB\HyTechSymbols.PCBLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,7 +204,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechDevices.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -238,7 +221,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MZQPNAMN
 
-[Document12]
+[Document11]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechExternal.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -255,7 +238,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechFrames.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -272,7 +255,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechSupplies.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -289,7 +272,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=..\..\..\circuits-support-2024\Altium Libraries\SCHLIB\HyTechSymbols.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -306,7 +289,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=Pi_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -323,7 +306,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WKSQNXCV
 
-[Document17]
+[Document16]
 DocumentPath=Pi_Cellular.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -340,7 +323,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JBYWJAMZ
 
-[Document18]
+[Document17]
 DocumentPath=Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -357,7 +340,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TMABZXKS
 
-[Document19]
+[Document18]
 DocumentPath=..\..\..\..\..\Downloads\2199119-3.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -374,7 +357,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document20]
+[Document19]
 DocumentPath=Telemetry_Pi_Board.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -391,7 +374,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document20]
 DocumentPath=Other_Pi.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -408,7 +391,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OOQSAIMR
 
-[Document22]
+[Document21]
 DocumentPath=Other_Pi_2.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -425,7 +408,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BIIRRHYD
 
-[Document23]
+[Document22]
 DocumentPath=GPIO_CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -442,7 +425,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WTFLKUZT
 
-[Document24]
+[Document23]
 DocumentPath=SD_Card.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -459,7 +442,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RIUGVVXA
 
-[Document25]
+[Document24]
 DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -476,7 +459,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HTVECGKM
 
-[Document26]
+[Document25]
 DocumentPath=Telemetry_Pi_Board.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -492,6 +475,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document26]
+DocumentPath=Telemetry_Pi_Board.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IZHOMYBB
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Telemetry_Pi_Board\Design Rule Check - PCB1.html
@@ -828,6 +828,20 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Description=194|Designator=202|Footprint=175|LibRef=169|Quantity=56|Comment=100|Manufacturer Part Number=100|Manufacturer_Part_Number=100|MFR PN=140
+Configuration1_Name7=VisibleOrder_Flat
+Configuration1_Item7=Description=194|Designator=202|Footprint=175|LibRef=169|Quantity=56|Comment=100|Manufacturer Part Number=100|Manufacturer_Part_Number=100|MFR PN=140
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
@@ -1605,4 +1619,7 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+
+[Parameter Manager Custom Column Order]
+<Schematic>=MFR,MPN,DNP,"Arrow Part Number",Capacitance,"Capacitor Type","Case Code (Imperial)","Case Code (Metric)",Case/Package,Case\Package,Category,"Clamping Voltage","Clock Frequency",Color,Colour,ComponentLink1Description,ComponentLink1URL,ComponentLink2Description,ComponentLink2URL,ComponentLink3Description,ComponentLink3URL,ComponentLink4Description,ComponentLink4URL,"Conn Orientation","Connector Type",Construction,"Contact Current Rating","Contact Finish - Mating","Contact Finish - Termination","Contact Material","Contact Plating","Contact Resistance","Current Rating","Datasheet Link","Datasheet URL","Datasheet Version",DatasheetVersion,Density,Depth,"Device Class L1","Device Class L2","Device Class L3",DeviceName,DeviceSetName,Diameter,Dielectric,"Dielectric Material","Digikey Description",Direction,"Dissipation Factor",DKPN,DPKN,"Electrical Life","Element Configuration","ESD Protection","Factory Pack Quantity","Fault Protection","Flammability Rating","Forward Current","Forward Voltage",Frequency,GateName_1,Gender,Height,"Height - Seated (Max)","Housing Material","Illumination Colour",Inductance,"Inner Diameter","Inner Thread Length","Insertion Loss (dB)",Interface,"IR Max (uA)","Is Female","JESD-609 Code","Lead Free",Manufacturer,Manufacturer_Name,"Manufacturer URL","MFR PN","Leakage Current",Length,"Lens Style",LibraryName,"Life (Hours)",LOAD_CAPACITANCE,"Luminous Intensity",Material,"Max Breakdown Voltage","Max Clock Frequency","Max Current Rating","Max Junction Temp","Max Operating Temperature","Max Output Current","Max Power Dissipation","Max Reverse Leakage Current","Max Supply Voltage","Max Surge Current","Max Voltage Rating (DC)","Min Breakdown Voltage","Min Operating Temperature","Min Supply Voltage",MOPN,Mount,"Mounting Technology","Mouser Description","Mouser Part Number","Mouser Price/Stock",NexarPartId,"Nominal Supply Current","Nominal Vf","Number of Bidirectional Channels","Number Of Channels","Number Of Contacts","Number of Cores per Jack","Number of Lines","Number of Outputs","Number of Pins","Number of Ports","Number of Positions","Number of Rows",Octopart,"On-State Resistance","Operating Supply Voltage","Operating Temperature",Orientation,"Outer Diameter","Output Configuration",Package,"Package Description","Package Quantity","Package Reference",PackageDescription,PackageReference,PackageVersion,Packaging,Packing,"Peak Pulse Current","Peak Pulse Power",Pins,Pitch,Polarity,POWER,"Power Line Protection","PPK Max (W)",Price,Pricing,"Product Category","Published Date","Radiation Hardening",Ratings,"REACH SVHC","Reach SVHC Compliant",RESISTANCE,"Resistor Type","Reverse Standoff Voltage","Ripple Current","Ripple Current (AC)",RoHS,"RoHS Compliant",RoHSCompliant,Series,Shielding,SHUNT_CAPACITANCE,"Standoff Height",Stock,Supplier,"Supplier Part Number",Surface,"Switch Function","Switch Travel",SymbolName_1,Temperature,"Temperature Range High","Temperature Range Low",Termination,"Test Current",Thickness,Thread,"Throw Configuration",Tolerance,"Usb Standard","V(BR) Min (V)",Value,"Viewing Angle",Voltage,"Voltage Rating","Voltage Rating (DC)",VOLTAGE_CONTINUOUS,VOLTAGE_MAX,Weight,Width,"Working Voltage",Composition,"Insulation Resistance","Temperature Coefficient"
 
