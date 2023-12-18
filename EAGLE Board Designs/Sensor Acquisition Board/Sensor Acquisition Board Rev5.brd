@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="40" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="10" altunitdist="mil" altunit="mil"/>
@@ -6688,9 +6688,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="128.397" y="26.67" extent="1-16" drill="0.35"/>
 <via x="127.889" y="25.527" extent="1-16" drill="0.35"/>
 <via x="114.046" y="27.94" extent="1-16" drill="0.35"/>
-<via x="55.88" y="70.612" extent="1-16" drill="0.45"/>
+<via x="54.864" y="70.612" extent="1-16" drill="0.45"/>
 <via x="52.07" y="66.802" extent="1-16" drill="0.45"/>
-<via x="43.688" y="54.356" extent="1-16" drill="0.45"/>
+<via x="43.688" y="55.372" extent="1-16" drill="0.45"/>
 <via x="31.496" y="39.116" extent="1-16" drill="0.45"/>
 <via x="21.336" y="24.892" extent="1-16" drill="0.45"/>
 <via x="9.144" y="7.62" extent="1-16" drill="0.45"/>
@@ -6698,14 +6698,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="12.192" y="4.572" extent="1-16" drill="0.45"/>
 <via x="15.24" y="4.572" extent="1-16" drill="0.45"/>
 <via x="55.88" y="67.564" extent="1-16" drill="0.45"/>
-<via x="43.688" y="52.324" extent="1-16" drill="0.45"/>
-<via x="41.656" y="52.324" extent="1-16" drill="0.45"/>
+<via x="37.084" y="46.482" extent="1-16" drill="0.45"/>
+<via x="41.402" y="52.324" extent="1-16" drill="0.45"/>
 <via x="33.528" y="41.148" extent="1-16" drill="0.45"/>
 <via x="33.528" y="39.116" extent="1-16" drill="0.45"/>
-<via x="30.48" y="37.084" extent="1-16" drill="0.45"/>
+<via x="29.464" y="35.052" extent="1-16" drill="0.45"/>
 <via x="23.368" y="25.908" extent="1-16" drill="0.45"/>
-<via x="48.768" y="62.484" extent="1-16" drill="0.45"/>
-<via x="37.592" y="47.244" extent="1-16" drill="0.45"/>
+<via x="49.53" y="63.5" extent="1-16" drill="0.45"/>
+<via x="39.37" y="49.53" extent="1-16" drill="0.45"/>
 <via x="27.432" y="33.02" extent="1-16" drill="0.45"/>
 <via x="15.24" y="16.764" extent="1-16" drill="0.45"/>
 <via x="149.352" y="70.612" extent="1-16" drill="0.45"/>
