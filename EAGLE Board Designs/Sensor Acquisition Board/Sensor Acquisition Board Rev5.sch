@@ -9278,18 +9278,6 @@ Straight</text>
 </net>
 <net name="SHDN_K" class="0">
 <segment>
-<pinref part="J14" gate="G$1" pin="8"/>
-<wire x1="198.12" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
-<label x="208.28" y="78.74" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J16" gate="G$1" pin="7"/>
-<wire x1="246.38" y1="81.28" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
-<label x="256.54" y="81.28" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SHDN_J" class="0">
-<segment>
 <pinref part="J12" gate="G$1" pin="4"/>
 <wire x1="198.12" y1="177.8" x2="203.2" y2="177.8" width="0.1524" layer="91"/>
 <label x="203.2" y="177.8" size="1.27" layer="95" xref="yes"/>
@@ -9300,7 +9288,7 @@ Straight</text>
 <label x="208.28" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SHDN_L" class="0">
+<net name="SHDN_M" class="0">
 <segment>
 <pinref part="J12" gate="G$1" pin="5"/>
 <wire x1="198.12" y1="175.26" x2="203.2" y2="175.26" width="0.1524" layer="91"/>
@@ -9468,6 +9456,18 @@ Straight</text>
 <pinref part="J6" gate="G$1" pin="5"/>
 <wire x1="73.66" y1="180.34" x2="78.74" y2="180.34" width="0.1524" layer="91"/>
 <label x="78.74" y="180.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SHDN_L" class="0">
+<segment>
+<pinref part="J14" gate="G$1" pin="8"/>
+<wire x1="198.12" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
+<label x="208.28" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J16" gate="G$1" pin="7"/>
+<wire x1="246.38" y1="81.28" x2="256.54" y2="81.28" width="0.1524" layer="91"/>
+<label x="256.54" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
