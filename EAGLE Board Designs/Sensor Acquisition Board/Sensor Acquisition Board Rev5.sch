@@ -9307,8 +9307,10 @@ Straight</text>
 <label x="203.2" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J16" gate="G$1" pin="8"/>
-<wire x1="246.38" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="J16" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="93.98" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="93.98" x2="248.92" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="256.54" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
