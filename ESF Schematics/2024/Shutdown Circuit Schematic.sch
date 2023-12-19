@@ -3974,9 +3974,6 @@ Layer: 94 Symbol</description>
 <part name="DISCHARGE_RES2" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="20k"/>
 <part name="J1" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800"/>
 <part name="P7" library="HyTechSupplies" deviceset="+24V" device=""/>
-<part name="S14" library="HyTechSymbols" deviceset="SWITCH_SPST_*" device="">
-<attribute name="MPN" value="HVD Interlock"/>
-</part>
 </parts>
 <sheets>
 <sheet>
@@ -4042,7 +4039,7 @@ Layer: 94 Symbol</description>
 <text x="210.82" y="144.78" size="1.27" layer="97" align="bottom-center">Cockpit BRB</text>
 <text x="226.06" y="144.78" size="1.27" layer="97" align="bottom-center">Inertia Switch</text>
 <text x="17.78" y="170.18" size="1.27" layer="97" align="top-left">16AWG</text>
-<text x="53.34" y="142.24" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="51.308" y="141.732" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="153.67" y="141.224" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="168.91" y="141.224" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="119.38" y="139.7" size="1.27" layer="97" align="top-left">22AWG</text>
@@ -4079,7 +4076,8 @@ Connection</text>
 <text x="128.27" y="22.352" size="2.54" layer="95">Shayan Noorani &amp; Liwei Sun</text>
 <text x="176.53" y="29.972" size="2.54" layer="95">Shayan Noorani</text>
 <text x="227.33" y="29.972" size="2.54" layer="95">Ethan Su</text>
-<text x="35.56" y="142.24" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="36.322" y="141.224" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="21.082" y="141.224" size="1.27" layer="97" align="top-left">22AWG</text>
 </plain>
 <instances>
 <instance part="IMD_RELAY" gate="G$1" x="76.2" y="190.5" smashed="yes">
@@ -4329,13 +4327,13 @@ Connection</text>
 <attribute name="MANUFACTURER" x="149.86" y="143.002" size="1.27" layer="96" rot="MR0" align="bottom-center"/>
 <attribute name="MPN" x="149.86" y="136.398" size="1.27" layer="96" rot="MR0" align="top-center"/>
 </instance>
-<instance part="S6" gate="SPST" x="66.04" y="139.7" smashed="yes" rot="MR0">
-<attribute name="MANUFACTURER" x="66.04" y="143.002" size="1.27" layer="96" rot="MR0" align="bottom-center"/>
-<attribute name="MPN" x="66.04" y="136.398" size="1.27" layer="96" rot="MR0" align="top-center"/>
-</instance>
-<instance part="S7" gate="SPST" x="48.26" y="139.7" smashed="yes" rot="MR0">
+<instance part="S6" gate="SPST" x="48.26" y="139.7" smashed="yes" rot="MR0">
 <attribute name="MANUFACTURER" x="48.26" y="143.002" size="1.27" layer="96" rot="MR0" align="bottom-center"/>
 <attribute name="MPN" x="48.26" y="136.398" size="1.27" layer="96" rot="MR0" align="top-center"/>
+</instance>
+<instance part="S7" gate="SPST" x="33.02" y="139.7" smashed="yes" rot="MR0">
+<attribute name="MANUFACTURER" x="33.02" y="143.002" size="1.27" layer="96" rot="MR0" align="bottom-center"/>
+<attribute name="MPN" x="33.02" y="136.398" size="1.27" layer="96" rot="MR0" align="top-center"/>
 </instance>
 <instance part="S8" gate="SPST" x="132.08" y="139.7" smashed="yes" rot="MR0">
 <attribute name="MANUFACTURER" x="132.08" y="143.002" size="1.27" layer="96" rot="MR0" align="bottom-center"/>
@@ -4416,10 +4414,6 @@ Connection</text>
 </instance>
 <instance part="P7" gate="G$1" x="134.62" y="119.38" smashed="yes">
 <attribute name="VALUE" x="134.62" y="124.46" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="S14" gate="SPST" x="78.74" y="139.7" smashed="yes" rot="MR0">
-<attribute name="MANUFACTURER" x="78.74" y="143.002" size="1.27" layer="96" rot="MR0" align="bottom-center"/>
-<attribute name="MPN" x="78.74" y="136.398" size="1.27" layer="96" rot="MR0" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -4677,7 +4671,7 @@ Connection</text>
 <label x="27.94" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="33.02" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="17.78" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="S8" gate="SPST" pin="S"/>
 <wire x1="127" y1="139.7" x2="127" y2="137.16" width="0.1524" layer="91"/>
 </segment>
@@ -4689,9 +4683,9 @@ Connection</text>
 <segment>
 <pinref part="AIR+" gate="G$1" pin="COIL-"/>
 <wire x1="132.08" y1="81.28" x2="129.54" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="81.28" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
-<label x="134.62" y="86.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="132.08" y1="81.28" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="83.82" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
+<label x="134.62" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PACK+" class="0">
@@ -4901,9 +4895,9 @@ Connection</text>
 </net>
 <net name="N$21" class="0">
 <segment>
-<wire x1="43.18" y1="139.7" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="139.7" x2="17.78" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="S7" gate="SPST" pin="S"/>
-<wire x1="43.18" y1="137.16" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="137.16" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -5028,14 +5022,13 @@ Connection</text>
 </net>
 <net name="N$52" class="0">
 <segment>
-<wire x1="146.05" y1="104.14" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="99.06" y1="88.9" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="88.9" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="99.06" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="99.06" x2="147.32" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="99.06" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="PRECHARGE_OK"/>
-<wire x1="146.05" y1="104.14" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$53" class="0">
@@ -5240,9 +5233,9 @@ Connection</text>
 <net name="N$13" class="0">
 <segment>
 <pinref part="S7" gate="SPST" pin="P"/>
-<wire x1="53.34" y1="139.7" x2="60.96" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="S6" gate="SPST" pin="S"/>
-<wire x1="60.96" y1="139.7" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="139.7" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
