@@ -31,7 +31,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=0
+IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
@@ -493,6 +493,108 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IZHOMYBB
 
+[Document27]
+DocumentPath=Managed\OutputJobs\0E1A75AA-4514-4FEA-964F-C784858F9884\OUT-0001-2.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document28]
+DocumentPath=Managed\OutputJobs\6E55D2EA-086A-4F52-B104-7C4467ED4C2A\OUT-0000-2.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document29]
+DocumentPath=Managed\OutputJobs\AB5A949F-7E3C-47A0-B61E-ABC0BEA84339\OUT-0005-2.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document30]
+DocumentPath=Managed\OutputJobs\D79E0EDA-4565-4105-A3A2-68335932E5F7\OUT-0002-2.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document31]
+DocumentPath=Managed\OutputJobs\DFE1ABF9-7AEB-4819-A125-C020D56C8259\OUT-0004-2.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document32]
+DocumentPath=Managed\OutputJobs\F0F841B4-BEA2-424D-80D7-BACEEE37F26B\OUT-0003-2.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Telemetry_Pi_Board\Design Rule Check - PCB1.html
 DItemRevisionGUID=
@@ -835,13 +937,13 @@ Configuration1_Item2=False
 Configuration1_Name3=General
 Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration1_Name4=GroupOrder
-Configuration1_Item4=Footprint=True
+Configuration1_Item4=MPN=True
 Configuration1_Name5=SortOrder
-Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Item5=Description=Up
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Description=194|Designator=202|Footprint=175|LibRef=169|Quantity=56|Comment=100|Manufacturer Part Number=100|Manufacturer_Part_Number=100|MFR PN=140
+Configuration1_Item6=Description=154|Designator=47|Quantity=56|MFR=100|MPN=100|DNP=100|Footprint=175|LibRef=169|Comment=100|Manufacturer Part Number=100|Manufacturer_Part_Number=100
 Configuration1_Name7=VisibleOrder_Flat
-Configuration1_Item7=Description=194|Designator=202|Footprint=175|LibRef=169|Quantity=56|Comment=100|Manufacturer Part Number=100|Manufacturer_Part_Number=100|MFR PN=140
+Configuration1_Item7=Description=154|Designator=47|Quantity=56|MFR=100|MPN=100|DNP=100|Footprint=175|LibRef=169|Comment=100|Manufacturer Part Number=100|Manufacturer_Part_Number=100
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
@@ -1508,16 +1610,16 @@ SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=CM4.SchLib
-ComponentDesignItemID0=SMBJ5.0A-TR
-ComponentSymbolReference0=SMBJ5.0A-TR
-ComponentUpdate0=0
+ComponentLibIdentifierKind0=Library Name Only
+ComponentLibraryIdentifier0=Hytech Racing
+ComponentDesignItemID0=CMP-001-00001-6
+ComponentSymbolReference0=CAP-NP-2
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name Only
-ComponentLibraryIdentifier1=Altium Content Vault
-ComponentDesignItemID1=CMP-12225-000019-1
-ComponentSymbolReference1=7ddec9f632b8482e96f7745d0fbdf39
+ComponentLibraryIdentifier1=Hytech Racing
+ComponentDesignItemID1=CMP-001-00076-4
+ComponentSymbolReference1=CAP-NP-2
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 FullReplace=1
@@ -1533,75 +1635,56 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Automotive
+ParameterName0=Capacitor Type
 ParameterUpdate0=1
-ParameterName1=Breakdown Voltage
+ParameterName1=Case/Package
 ParameterUpdate1=1
-ParameterName2=Category
+ParameterName2=Comment
 ParameterUpdate2=1
-ParameterName3=Clamping Voltage
+ParameterName3=Component Kind
 ParameterUpdate3=1
-ParameterName4=Comment
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=Component Kind
+ParameterName5=Library Reference
 ParameterUpdate5=1
-ParameterName6=ComponentLink2Description
+ParameterName6=Max Operating Temperature
 ParameterUpdate6=1
-ParameterName7=ComponentLink2URL
+ParameterName7=MFR
 ParameterUpdate7=1
-ParameterName8=Description
+ParameterName8=Min Operating Temperature
 ParameterUpdate8=1
-ParameterName9=Device Class L1
+ParameterName9=Mounting Technology
 ParameterUpdate9=1
-ParameterName10=Device Class L2
+ParameterName10=MPN
 ParameterUpdate10=1
-ParameterName11=Device Class L3
+ParameterName11=Pins
 ParameterUpdate11=1
-ParameterName12=Digikey Description
+ParameterName12=Ripple Current
 ParameterUpdate12=1
-ParameterName13=Direction
+ParameterName13=Ripple Current (AC)
 ParameterUpdate13=1
-ParameterName14=Height
+ParameterName14=RoHS Compliant
 ParameterUpdate14=1
-ParameterName15=Lead Free
+ParameterName15=Tolerance
 ParameterUpdate15=1
-ParameterName16=Library Reference
+ParameterName16=Value
 ParameterUpdate16=1
-ParameterName17=Manufacturer
+ParameterName17=Voltage Rating
 ParameterUpdate17=1
-ParameterName18=Manufacturer Part Number
-ParameterUpdate18=1
-ParameterName19=Max Junction Temp
-ParameterUpdate19=1
-ParameterName20=Mouser Description
-ParameterUpdate20=1
-ParameterName21=Number Of Channels
-ParameterUpdate21=1
-ParameterName22=Octopart
-ParameterUpdate22=1
-ParameterName23=Package
-ParameterUpdate23=1
-ParameterName24=Peak Pulse Current
-ParameterUpdate24=1
-ParameterName25=Peak Pulse Power
-ParameterUpdate25=1
-ParameterName26=Reverse Standoff Voltage
-ParameterUpdate26=1
-ParameterName27=RoHS
-ParameterUpdate27=1
-ParameterName28=Standoff Height
-ParameterUpdate28=1
-ParameterName29=Temperature
-ParameterUpdate29=1
-ParameterName30=Temperature Range High
-ParameterUpdate30=1
-ParameterName31=Temperature Range Low
-ParameterUpdate31=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=FP-SMB-MFG
+ModelName0=CAPC0603(1608)100_L
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=CAPC1005X56X25LL10T15
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=CAPC1005X56X25ML10T15
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=CAPC1005X56X25NL10T15
+ModelUpdate3=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1619,6 +1702,96 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+
+[ManagedOutputJobs1]
+VaultGUID=1C6A6C47-7219-49A5-A86B-42881353E776
+VaultHRID=Hytech Racing
+ItemGUID=993EB10A-8F86-4676-BD0A-10DB9A529BA4
+ItemHRID=OUT-0001
+RevisionGUID=0E1A75AA-4514-4FEA-964F-C784858F9884
+RevisionHRID=OUT-0001-2
+Cached_RevisionCaption=Fabrication Gerber
+Cached_RevisionDescription=Fabrication Gerber
+Cached_LifeCycleStateHRID=Draft
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=00F0F0F0
+Cached_LifeCycleStateTextColor=00606060
+Cached_RevisionReleaseDate=4/20/2018 12:35:23 PM
+
+[ManagedOutputJobs2]
+VaultGUID=1C6A6C47-7219-49A5-A86B-42881353E776
+VaultHRID=Hytech Racing
+ItemGUID=76E93417-FA7F-4347-83EC-7F1152530459
+ItemHRID=OUT-0000
+RevisionGUID=6E55D2EA-086A-4F52-B104-7C4467ED4C2A
+RevisionHRID=OUT-0000-2
+Cached_RevisionCaption=Assembly
+Cached_RevisionDescription=Assembly
+Cached_LifeCycleStateHRID=Draft
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=00F0F0F0
+Cached_LifeCycleStateTextColor=00606060
+Cached_RevisionReleaseDate=4/20/2018 12:32:46 PM
+
+[ManagedOutputJobs3]
+VaultGUID=1C6A6C47-7219-49A5-A86B-42881353E776
+VaultHRID=Hytech Racing
+ItemGUID=98EBFAA0-C16C-463F-A547-557EE6E9DF6E
+ItemHRID=OUT-0005
+RevisionGUID=AB5A949F-7E3C-47A0-B61E-ABC0BEA84339
+RevisionHRID=OUT-0005-2
+Cached_RevisionCaption=Validation
+Cached_RevisionDescription=Validation
+Cached_LifeCycleStateHRID=Draft
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=00F0F0F0
+Cached_LifeCycleStateTextColor=00606060
+Cached_RevisionReleaseDate=4/20/2018 12:37:32 PM
+
+[ManagedOutputJobs4]
+VaultGUID=1C6A6C47-7219-49A5-A86B-42881353E776
+VaultHRID=Hytech Racing
+ItemGUID=97E433EA-D310-435B-BB21-D1AC64E43856
+ItemHRID=OUT-0002
+RevisionGUID=D79E0EDA-4565-4105-A3A2-68335932E5F7
+RevisionHRID=OUT-0002-2
+Cached_RevisionCaption=Fabrication Gerber X2
+Cached_RevisionDescription=Fabrication Gerber X2
+Cached_LifeCycleStateHRID=Draft
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=00F0F0F0
+Cached_LifeCycleStateTextColor=00606060
+Cached_RevisionReleaseDate=4/20/2018 12:36:03 PM
+
+[ManagedOutputJobs5]
+VaultGUID=1C6A6C47-7219-49A5-A86B-42881353E776
+VaultHRID=Hytech Racing
+ItemGUID=B71DED52-6575-4089-A6FE-123F6996A1F7
+ItemHRID=OUT-0004
+RevisionGUID=DFE1ABF9-7AEB-4819-A125-C020D56C8259
+RevisionHRID=OUT-0004-2
+Cached_RevisionCaption=Fabrication ODB++
+Cached_RevisionDescription=Fabrication ODB++
+Cached_LifeCycleStateHRID=Draft
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=00F0F0F0
+Cached_LifeCycleStateTextColor=00606060
+Cached_RevisionReleaseDate=4/20/2018 12:37:01 PM
+
+[ManagedOutputJobs6]
+VaultGUID=1C6A6C47-7219-49A5-A86B-42881353E776
+VaultHRID=Hytech Racing
+ItemGUID=62055C45-337E-4A6E-982B-46FE49B85E61
+ItemHRID=OUT-0003
+RevisionGUID=F0F841B4-BEA2-424D-80D7-BACEEE37F26B
+RevisionHRID=OUT-0003-2
+Cached_RevisionCaption=Fabrication IPC-2581
+Cached_RevisionDescription=Fabrication IPC-2581
+Cached_LifeCycleStateHRID=Draft
+Cached_LifeCycleStateGUID=[Unknown]
+Cached_LifeCycleStateColor=00F0F0F0
+Cached_LifeCycleStateTextColor=00606060
+Cached_RevisionReleaseDate=4/20/2018 12:36:26 PM
 
 [Parameter Manager Custom Column Order]
 <Schematic>=MFR,MPN,DNP,"Arrow Part Number",Capacitance,"Capacitor Type","Case Code (Imperial)","Case Code (Metric)",Case/Package,Case\Package,Category,"Clamping Voltage","Clock Frequency",Color,Colour,ComponentLink1Description,ComponentLink1URL,ComponentLink2Description,ComponentLink2URL,ComponentLink3Description,ComponentLink3URL,ComponentLink4Description,ComponentLink4URL,"Conn Orientation","Connector Type",Construction,"Contact Current Rating","Contact Finish - Mating","Contact Finish - Termination","Contact Material","Contact Plating","Contact Resistance","Current Rating","Datasheet Link","Datasheet URL","Datasheet Version",DatasheetVersion,Density,Depth,"Device Class L1","Device Class L2","Device Class L3",DeviceName,DeviceSetName,Diameter,Dielectric,"Dielectric Material","Digikey Description",Direction,"Dissipation Factor",DKPN,DPKN,"Electrical Life","Element Configuration","ESD Protection","Factory Pack Quantity","Fault Protection","Flammability Rating","Forward Current","Forward Voltage",Frequency,GateName_1,Gender,Height,"Height - Seated (Max)","Housing Material","Illumination Colour",Inductance,"Inner Diameter","Inner Thread Length","Insertion Loss (dB)",Interface,"IR Max (uA)","Is Female","JESD-609 Code","Lead Free",Manufacturer,Manufacturer_Name,"Manufacturer URL","MFR PN","Leakage Current",Length,"Lens Style",LibraryName,"Life (Hours)",LOAD_CAPACITANCE,"Luminous Intensity",Material,"Max Breakdown Voltage","Max Clock Frequency","Max Current Rating","Max Junction Temp","Max Operating Temperature","Max Output Current","Max Power Dissipation","Max Reverse Leakage Current","Max Supply Voltage","Max Surge Current","Max Voltage Rating (DC)","Min Breakdown Voltage","Min Operating Temperature","Min Supply Voltage",MOPN,Mount,"Mounting Technology","Mouser Description","Mouser Part Number","Mouser Price/Stock",NexarPartId,"Nominal Supply Current","Nominal Vf","Number of Bidirectional Channels","Number Of Channels","Number Of Contacts","Number of Cores per Jack","Number of Lines","Number of Outputs","Number of Pins","Number of Ports","Number of Positions","Number of Rows",Octopart,"On-State Resistance","Operating Supply Voltage","Operating Temperature",Orientation,"Outer Diameter","Output Configuration",Package,"Package Description","Package Quantity","Package Reference",PackageDescription,PackageReference,PackageVersion,Packaging,Packing,"Peak Pulse Current","Peak Pulse Power",Pins,Pitch,Polarity,POWER,"Power Line Protection","PPK Max (W)",Price,Pricing,"Product Category","Published Date","Radiation Hardening",Ratings,"REACH SVHC","Reach SVHC Compliant",RESISTANCE,"Resistor Type","Reverse Standoff Voltage","Ripple Current","Ripple Current (AC)",RoHS,"RoHS Compliant",RoHSCompliant,Series,Shielding,SHUNT_CAPACITANCE,"Standoff Height",Stock,Supplier,"Supplier Part Number",Surface,"Switch Function","Switch Travel",SymbolName_1,Temperature,"Temperature Range High","Temperature Range Low",Termination,"Test Current",Thickness,Thread,"Throw Configuration",Tolerance,"Usb Standard","V(BR) Min (V)",Value,"Viewing Angle",Voltage,"Voltage Rating","Voltage Rating (DC)",VOLTAGE_CONTINUOUS,VOLTAGE_MAX,Weight,Width,"Working Voltage",Composition,"Insulation Resistance","Temperature Coefficient"
