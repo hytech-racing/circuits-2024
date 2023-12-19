@@ -8557,8 +8557,8 @@ Requires ordering of:
 <part name="P111" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P112" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P115" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C62" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="C64" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
+<part name="C62" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.1UF" value="CAPACITOR_0603_35V_0.1UF"/>
+<part name="C64" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_1UF" value="CAPACITOR_0603_35V_1UF"/>
 <part name="R21" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="60.4"/>
 <part name="R22" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="60.4"/>
 <part name="C60" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_4.7NF"/>
@@ -8640,16 +8640,16 @@ Requires ordering of:
 <part name="U10" library="HyTechDevices" deviceset="MAX3227" device=""/>
 <part name="P1" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P14" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="C48" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
-<part name="C49" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
-<part name="C50" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
-<part name="C51" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
+<part name="C48" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.1UF" value="CAPACITOR_0603_35V_0.1UF"/>
+<part name="C49" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.1UF" value="CAPACITOR_0603_35V_0.1UF"/>
+<part name="C50" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.1UF" value="CAPACITOR_0603_35V_0.1UF"/>
+<part name="C51" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.1UF" value="CAPACITOR_0603_35V_0.1UF"/>
 <part name="P15" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P24" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P26" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="C52" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
+<part name="C52" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_0.1UF" value="CAPACITOR_0603_35V_0.1UF"/>
 <part name="P27" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C53" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
+<part name="C53" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="35V_1UF" value="CAPACITOR_0603_35V_1UF"/>
 <part name="U15" library="HyTechDevices" deviceset="MCP3208" device=""/>
 <part name="P93" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P95" library="HyTechSupplies" deviceset="GND" device=""/>
