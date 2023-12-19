@@ -2886,7 +2886,7 @@ Dashed line is edge of mated connector.</description>
 <wire x1="-2.9986" y1="-4.4323" x2="-4.8274" y2="-2.6035" width="0.127" layer="21"/>
 <wire x1="2.9986" y1="-4.4323" x2="4.8274" y2="-2.6035" width="0.127" layer="21"/>
 <wire x1="4.8274" y1="-2.6035" x2="4.8274" y2="5.4737" width="0.127" layer="21"/>
-<rectangle x1="-7.85" y1="-5.08" x2="7.85" y2="12.7" layer="39"/>
+<rectangle x1="-7.874" y1="-5.08" x2="7.874" y2="6.096" layer="39"/>
 <text x="0" y="-5.207" size="0.8128" layer="25" rot="R180" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-6.1101" y1="1.8034" x2="-3.6717" y2="3.4036" layer="41"/>
 <rectangle x1="3.6717" y1="1.8034" x2="6.1101" y2="3.4036" layer="41"/>
@@ -2905,6 +2905,7 @@ Dashed line is edge of mated connector.</description>
 </polygon>
 <smd name="1" x="1.5" y="5.4737" dx="1.27" dy="2.921" layer="1"/>
 <smd name="3" x="1.5" y="10.0965" dx="1.27" dy="2.921" layer="1"/>
+<rectangle x1="-3.302" y1="6.096" x2="3.302" y2="12.446" layer="39"/>
 </package>
 <package name="MOLEX_MICROFIT_PTH_VERTICAL_04_DUAL">
 <description>4 Pin Micro-Fit Vertical Header, Through-Hole, Dual Row
@@ -4275,7 +4276,7 @@ Dashed line is edge of mated connector.</description>
 <wire x1="1.45" y1="-0.95" x2="1.45" y2="0.95" width="0.127" layer="21"/>
 <wire x1="-1.45" y1="-0.95" x2="-1.45" y2="0.95" width="0.127" layer="21"/>
 <wire x1="-1.45" y1="0.95" x2="1.45" y2="0.95" width="0.127" layer="21"/>
-<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&lt;NAME</text>
+<text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.54" y1="-1.27" x2="2.54" y2="1.27" layer="39"/>
 <wire x1="2.35" y1="0.9" x2="2.35" y2="-0.9" width="0.127" layer="21"/>
 </package>
@@ -4331,6 +4332,32 @@ Dashed line is edge of mated connector.</description>
 <wire x1="-5.0038" y1="-1.9939" x2="-5.0038" y2="1.9939" width="0.127" layer="21"/>
 <circle x="-5.715" y="-2.54" radius="0.254" width="0" layer="21"/>
 <rectangle x1="-5.334" y1="-3.556" x2="5.334" y2="3.556" layer="39"/>
+</package>
+<package name="5051100492">
+<description>Molex 5051100492&lt;br&gt;
+Mouser number 538-505110-0492&lt;br&gt;
+&lt;a href="https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/505/505110/5051100492_sd.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="2" x="-0.25" y="2.05" dx="0.3" dy="1" layer="1"/>
+<smd name="4" x="0.75" y="2.05" dx="0.3" dy="1" layer="1"/>
+<smd name="1" x="-0.75" y="2.05" dx="0.3" dy="1" layer="1"/>
+<smd name="3" x="0.25" y="2.05" dx="0.3" dy="1" layer="1"/>
+<smd name="P1" x="-3.05" y="-0.65" dx="2" dy="1.3" layer="1"/>
+<smd name="P2" x="3.05" y="-0.65" dx="2" dy="1.3" layer="1"/>
+<text x="0" y="2.889" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-4.318" y1="-3.302" x2="4.318" y2="2.794" layer="39"/>
+<wire x1="-3.35" y1="2.25" x2="-3.35" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="2.25" x2="-2.95" y2="1.85" width="0.127" layer="21"/>
+<wire x1="-3.35" y1="-1.7" x2="-2.55" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-1.7" x2="-2.55" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-3" x2="2.55" y2="-3" width="0.127" layer="21" style="shortdash"/>
+<wire x1="2.55" y1="-3" x2="2.55" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="2.55" y1="-1.7" x2="3.35" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="3.35" y1="2.25" x2="3.35" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-3.35" y1="2.25" x2="-2.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.95" y1="2.25" x2="3.35" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.95" y1="2.25" x2="2.95" y2="1.85" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="1.85" x2="2.95" y2="1.85" width="0.127" layer="21"/>
+<wire x1="-2.55" y1="-1.7" x2="2.55" y2="-1.7" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4854,7 +4881,9 @@ Pulse Transformers 1CT:1 200 UH
 </devices>
 </deviceset>
 <deviceset name="CONNECTOR-4_?_*" prefix="J">
-<description>4 Pin Connector</description>
+<description>4 Pin Connector
+
+&lt;li&gt;&lt;a href="https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/505/505110/5051100492_sd.pdf?inline"&gt;5051100492 Datasheet&lt;/a&gt;&lt;/li&gt;</description>
 <gates>
 <gate name="G$1" symbol="CONNECTOR_04" x="0" y="0"/>
 </gates>
@@ -4933,6 +4962,22 @@ Pulse Transformers 1CT:1 200 UH
 <attribute name="MANUFACTURER" value="JST" constant="no"/>
 <attribute name="MOPN" value="PRT-16766" constant="no"/>
 <attribute name="MPN" value="BM04B-SRSS-TB" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="FD19_0492" package="5051100492">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DKPN" value="WM12360CT-ND"/>
+<attribute name="MANUFACTURER" value="Molex"/>
+<attribute name="MOPN" value="538-505110-0492"/>
+<attribute name="MPN" value="505110-0492"/>
 </technology>
 </technologies>
 </device>
@@ -8552,7 +8597,6 @@ Requires ordering of:
 <part name="P126" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="D2" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="YELLOW"/>
 <part name="D3" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
-<part name="D4" library="HyTechDevices" deviceset="TVS_?_*" device="DO-219AB" technology="14V" value="TVS_DO-219AB_14V"/>
 <part name="GND" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="J10" library="HyTechDevices" deviceset="CONNECTOR-10_?_*" device="MF_T_V"/>
 <part name="P79" library="HyTechSupplies" deviceset="+12V" device=""/>
@@ -8661,6 +8705,7 @@ Requires ordering of:
 <part name="P43" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P44" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P45" library="HyTechSupplies" deviceset="+24V" device=""/>
+<part name="D4" library="HyTechDevices" deviceset="TVS_?_*" device="DO-219AB" technology="14V"/>
 </parts>
 <sheets>
 <sheet>
@@ -9653,13 +9698,13 @@ IMU</text>
 <attribute name="COLOR" x="49.53" y="26.162" size="1.27" layer="95" align="top-center"/>
 <attribute name="NAME" x="49.53" y="31.496" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D4" gate="G$1" x="60.96" y="185.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.055" y="184.15" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="62.865" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="GND" gate="G$1" x="71.12" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.66" y="97.282" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="73.66" y="100.838" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="D4" gate="G$1" x="60.96" y="185.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="59.055" y="184.15" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="62.865" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -9707,10 +9752,10 @@ IMU</text>
 <junction x="50.8" y="190.5"/>
 <pinref part="12V" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="190.5" x2="60.96" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="60.96" y1="190.5" x2="50.8" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="187.96" x2="60.96" y2="190.5" width="0.1524" layer="91"/>
 <junction x="60.96" y="190.5"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <pinref part="P84" gate="1" pin="+12V"/>
@@ -9760,10 +9805,10 @@ IMU</text>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="180.34" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="177.8" x2="35.56" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="60.96" y1="180.34" x2="60.96" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="177.8" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
 <junction x="50.8" y="177.8"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="A2" gate="G$1" pin="GND"/>
