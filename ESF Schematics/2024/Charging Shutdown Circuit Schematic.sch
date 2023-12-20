@@ -814,6 +814,36 @@ Controller</text>
 <pin name="5" x="10.16" y="-12.7" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <text x="0" y="-15.875" size="1.27" layer="96" align="top-left">&gt;MPN</text>
 </symbol>
+<symbol name="MOSFET_N-CHANNEL">
+<wire x1="-2.54" y1="-2.54" x2="-1.2192" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="3.683" x2="0" y2="1.397" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0.635" x2="0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-0.635" x2="0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.397" x2="0" y2="-3.683" width="0.254" layer="94"/>
+<wire x1="-1.143" y1="2.54" x2="-1.143" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="5.08" size="1.27" layer="95">N-MOSFET</text>
+<pin name="D" x="5.08" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<wire x1="6.35" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="8.89" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-3.81" x2="7.62" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="7.62" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="-3.81" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="7.62" y="1.27"/>
+<vertex x="6.35" y="-1.27"/>
+<vertex x="8.89" y="-1.27"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -1160,6 +1190,20 @@ Controller</text>
 <technology name="MICROFIT">
 <attribute name="MANUFACTURER" value="Molex"/>
 <attribute name="MPN" value="Microfit 3.0"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOSFET_N-CHANNEL" prefix="Q">
+<gates>
+<gate name="G$1" symbol="MOSFET_N-CHANNEL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -3827,6 +3871,7 @@ Layer: 94 Symbol</description>
 <part name="J6" library="HyTechSymbols" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
 <part name="J10" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="XXC106-EV-P3Z" value="CONNECTOR-3_XXC106-EV-P3Z"/>
 <part name="J11" library="HyTechSymbols" deviceset="CONNECTOR-5_*" device="" technology="1-2393947-1"/>
+<part name="Q1" library="HyTechSymbols" deviceset="MOSFET_N-CHANNEL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3850,8 +3895,8 @@ Layer: 94 Symbol</description>
 <text x="231.14" y="109.22" size="1.27" layer="97" align="top-left">6mm^2</text>
 <text x="236.22" y="58.42" size="1.27" layer="97" rot="MR0" align="top-left">6mm^2</text>
 <text x="25.4" y="119.38" size="1.27" layer="97" align="top-left">22AWG</text>
-<text x="71.12" y="99.06" size="1.27" layer="97" align="top-left">22AWG</text>
-<text x="71.12" y="111.76" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="71.374" y="98.044" size="1.27" layer="97" align="top-left">22AWG</text>
+<text x="71.12" y="110.998" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="172.72" y="152.4" size="1.27" layer="97" align="top-left">PCB Trace</text>
 <text x="137.16" y="195.58" size="1.27" layer="97" align="top-left">PCB Trace</text>
 <text x="215.9" y="195.58" size="1.27" layer="97" align="top-left">PCB Trace</text>
@@ -3862,7 +3907,7 @@ Layer: 94 Symbol</description>
 <text x="25.4" y="33.02" size="1.778" layer="97">(Busbar)</text>
 <text x="10.16" y="15.24" size="1.778" layer="97" align="top-left">PCB Trace:</text>
 <text x="25.4" y="12.7" size="1.778" layer="97">(&gt;= 20 mil)</text>
-<text x="101.6" y="116.84" size="1.27" layer="97" align="top-left">PCB Trace</text>
+<text x="99.822" y="117.602" size="1.27" layer="97" align="top-left">PCB Trace</text>
 <text x="96.52" y="88.9" size="1.27" layer="97" align="top-left">PCB Trace</text>
 <text x="17.78" y="81.28" size="1.27" layer="97" rot="MR0" align="top-left">22AWG</text>
 <text x="55.88" y="81.28" size="1.27" layer="97" rot="MR0" align="top-right">22AWG</text>
@@ -3881,7 +3926,6 @@ EVSE</text>
 <wire x1="223.52" y1="134.62" x2="223.52" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="223.52" y1="114.3" x2="274.32" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="274.32" y1="114.3" x2="274.32" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="274.32" y1="134.62" x2="223.52" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
 <text x="223.52" y="134.874" size="1.27" layer="97">Option 2 for J1772 </text>
 <wire x1="247.396" y1="112.014" x2="247.396" y2="80.518" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="131.572" y1="69.342" x2="131.572" y2="43.434" width="0.1524" layer="97" style="shortdash"/>
@@ -3896,6 +3940,8 @@ EVSE</text>
 <wire x1="247.396" y1="78.232" x2="247.396" y2="80.772" width="0.1524" layer="97"/>
 <wire x1="274.32" y1="134.62" x2="223.52" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
 <text x="131.318" y="71.628" size="1.27" layer="97">Option 1 for NEMA 5-20</text>
+<text x="71.12" y="118.872" size="1.27" layer="97" align="top-left">PCB Trace</text>
+<text x="56.642" y="120.142" size="1.27" layer="97" align="top-left">PCB Trace</text>
 </plain>
 <instances>
 <instance part="IMD_RELAY" gate="G$1" x="152.4" y="177.8" smashed="yes">
@@ -3933,8 +3979,8 @@ EVSE</text>
 <attribute name="MPN" x="83.82" y="67.818" size="1.27" layer="96" align="top-left"/>
 <attribute name="NAME" x="83.82" y="92.202" size="1.27" layer="95"/>
 </instance>
-<instance part="P7" gate="1" x="78.74" y="116.84" smashed="yes">
-<attribute name="VALUE" x="78.74" y="115.57" size="1.27" layer="96" align="top-center"/>
+<instance part="P7" gate="1" x="71.12" y="115.824" smashed="yes">
+<attribute name="VALUE" x="71.12" y="114.554" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P8" gate="1" x="78.74" y="81.28" smashed="yes">
 <attribute name="VALUE" x="78.74" y="80.01" size="1.27" layer="96" align="top-center"/>
@@ -4071,6 +4117,7 @@ EVSE</text>
 <attribute name="MANUFACTURER" x="266.446" y="133.096" size="1.27" layer="96" rot="MR0"/>
 <attribute name="MPN" x="266.446" y="116.459" size="1.27" layer="96" rot="MR0" align="top-left"/>
 </instance>
+<instance part="Q1" gate="G$1" x="66.04" y="124.46" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4179,11 +4226,6 @@ EVSE</text>
 <pinref part="U$7" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="AIR+" gate="G$1" pin="COIL+"/>
-<wire x1="81.28" y1="119.38" x2="78.74" y2="119.38" width="0.0762" layer="91"/>
-<pinref part="P7" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="AIR-" gate="G$1" pin="COIL+"/>
 <wire x1="81.28" y1="83.82" x2="78.74" y2="83.82" width="0.0762" layer="91"/>
 <pinref part="P8" gate="1" pin="GND"/>
@@ -4192,6 +4234,11 @@ EVSE</text>
 <pinref part="U$12" gate="G$1" pin="GND"/>
 <wire x1="53.34" y1="78.74" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="P10" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="P7" gate="1" pin="GND"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="71.12" y1="118.364" x2="71.12" y2="119.38" width="0.0762" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -4255,6 +4302,11 @@ EVSE</text>
 <wire x1="238.76" y1="71.12" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
 <label x="236.22" y="71.12" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="A2" gate="G$1" pin="EN"/>
+</segment>
+<segment>
+<pinref part="AIR+" gate="G$1" pin="COIL-"/>
+<wire x1="96.52" y1="119.38" x2="99.06" y2="119.38" width="0.0762" layer="91"/>
+<label x="99.06" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PACK-" class="0">
@@ -4497,9 +4549,9 @@ EVSE</text>
 <pinref part="U$7" gate="G$1" pin="PRECHARGE_OK"/>
 </segment>
 <segment>
-<pinref part="AIR+" gate="G$1" pin="COIL-"/>
-<wire x1="96.52" y1="119.38" x2="99.06" y2="119.38" width="0.0762" layer="91"/>
-<label x="99.06" y="119.38" size="1.27" layer="95" xref="yes"/>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="60.96" y1="121.92" x2="58.42" y2="121.92" width="0.0762" layer="91"/>
+<label x="58.42" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -4599,6 +4651,15 @@ EVSE</text>
 <pinref part="J10" gate="G$1" pin="1"/>
 <pinref part="J11" gate="G$1" pin="2"/>
 <wire x1="239.522" y1="127.254" x2="256.286" y2="127.254" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="AIR+" gate="G$1" pin="COIL+"/>
+<wire x1="81.28" y1="119.38" x2="78.74" y2="119.38" width="0.0762" layer="91"/>
+<wire x1="78.74" y1="119.38" x2="78.74" y2="129.54" width="0.0762" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="78.74" y1="129.54" x2="71.12" y2="129.54" width="0.0762" layer="91"/>
 </segment>
 </net>
 </nets>
