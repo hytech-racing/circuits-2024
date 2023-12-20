@@ -2798,7 +2798,7 @@ Layer: 94 Symbol</description>
 </library>
 <library name="HyTechDevices">
 <packages>
-<package name="OKI-78SR">
+<package name="OKI-78SR(VERTICAL)">
 <description>OKI-78SR Regulator
 &lt;br&gt;
 &lt;a href="https://www.mouser.com/datasheet/2/281/oki-78sr-56393.pdf"&gt;Datasheet&lt;/a&gt;</description>
@@ -3945,6 +3945,22 @@ Based on page 10.</description>
 <circle x="-1.651" y="-1.27" radius="0.1524" width="0" layer="21"/>
 <rectangle x1="-1.778" y1="-2.286" x2="1.778" y2="2.286" layer="39"/>
 </package>
+<package name="OKI-78SR(HORIZONTAL)">
+<description>OKI-78SR Horizontal
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/281/oki-78sr-56393.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pad name="1" x="2.54" y="-7.3985" drill="1" first="yes"/>
+<pad name="2" x="0" y="-7.3985" drill="1"/>
+<pad name="3" x="-2.54" y="-7.3985" drill="1"/>
+<wire x1="-5.461" y1="8.8985" x2="5.461" y2="8.8985" width="0.127" layer="21" style="shortdash"/>
+<wire x1="5.461" y1="8.8985" x2="5.461" y2="-8.8985" width="0.127" layer="21" style="shortdash"/>
+<wire x1="5.461" y1="-8.8985" x2="-5.461" y2="-8.8985" width="0.127" layer="21" style="shortdash"/>
+<wire x1="-5.461" y1="-8.8985" x2="-5.461" y2="8.8985" width="0.127" layer="21" style="shortdash"/>
+<text x="0" y="9.652" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-5.75" y1="-9" x2="5.75" y2="9" layer="39"/>
+<rectangle x1="-3.81" y1="-8.8985" x2="3.81" y2="-5.8985" layer="40"/>
+<circle x="0" y="0" radius="4.99030625" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="VOLTAGE_REGULATOR">
@@ -4773,7 +4789,7 @@ Pins tied to GND: SLOW
 <gate name="G$1" symbol="VOLTAGE_REGULATOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="OKI-78SR" package="OKI-78SR">
+<device name="OKI-78SR" package="OKI-78SR(VERTICAL)">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="IN" pad="1"/>
@@ -4791,6 +4807,27 @@ Pins tied to GND: SLOW
 <attribute name="MANUFACTURER" value="Murata Power Solutions Inc."/>
 <attribute name="MOPN" value="580-OKI78SR5/1.5W36C"/>
 <attribute name="MPN" value="OKI-78SR-5/1.5-W36-C"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="OKI-78SR(HORIZONTAL)">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="12V">
+<attribute name="DKPN" value="811-3294-ND"/>
+<attribute name="MANUFACTURER" value="Murata Power Solutions Inc."/>
+<attribute name="MOPN" value="580-OKI78SR12/1W36HC"/>
+<attribute name="MPN" value="OKI-78SR-12/1.0-W36H-C"/>
+</technology>
+<technology name="5V">
+<attribute name="DKPN" value="811-2692-ND"/>
+<attribute name="MANUFACTURER" value="Murata Power Solutions Inc."/>
+<attribute name="MOPN" value="580-OKI78SR51.5W36HC"/>
+<attribute name="MPN" value="OKI-78SR-5/1.5-W36H-C "/>
 </technology>
 </technologies>
 </device>
@@ -8862,7 +8899,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="C23" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_15PF"/>
 <part name="P78" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P83" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="A1" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="12V"/>
+<part name="A1" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V" value="VOLTAGE_REGULATOR_MODULE_OKI-78SR_5V"/>
 <part name="P21" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P22" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="50V_10UF"/>
