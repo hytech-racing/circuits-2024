@@ -1,5 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\andy8\Documents\GitHub\hytech-racing\circuits-2024\Altium Board Designs\Telemetry_Pi_Board\PCB1.PcbDoc
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.50
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
