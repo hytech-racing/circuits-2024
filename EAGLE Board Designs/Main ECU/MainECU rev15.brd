@@ -8828,6 +8828,33 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="36.83" y="10.287" extent="1-16" drill="0.35"/>
 <via x="38.608" y="10.287" extent="1-16" drill="0.35"/>
 <via x="40.64" y="10.287" extent="1-16" drill="0.35"/>
+<via x="2.54" y="14.478" extent="1-16" drill="0.35"/>
+<via x="2.54" y="11.557" extent="1-16" drill="0.35"/>
+<via x="2.032" y="98.298" extent="1-16" drill="0.35"/>
+<via x="2.032" y="89.027" extent="1-16" drill="0.35"/>
+<via x="2.032" y="92.329" extent="1-16" drill="0.35"/>
+<via x="2.032" y="95.377" extent="1-16" drill="0.35"/>
+<via x="2.032" y="86.487" extent="1-16" drill="0.35"/>
+<via x="2.032" y="83.82" extent="1-16" drill="0.35"/>
+<via x="9.144" y="2.794" extent="1-16" drill="0.35"/>
+<via x="11.557" y="2.794" extent="1-16" drill="0.35"/>
+<via x="14.097" y="2.794" extent="1-16" drill="0.35"/>
+<via x="16.764" y="2.794" extent="1-16" drill="0.35"/>
+<via x="26.543" y="2.794" extent="1-16" drill="0.35"/>
+<via x="23.241" y="2.794" extent="1-16" drill="0.35"/>
+<via x="19.685" y="2.794" extent="1-16" drill="0.35"/>
+<via x="29.845" y="2.794" extent="1-16" drill="0.35"/>
+<via x="32.258" y="2.794" extent="1-16" drill="0.35"/>
+<via x="34.798" y="2.794" extent="1-16" drill="0.35"/>
+<via x="36.83" y="2.794" extent="1-16" drill="0.35"/>
+<via x="40.64" y="2.794" extent="1-16" drill="0.35"/>
+<via x="38.608" y="2.794" extent="1-16" drill="0.35"/>
+<via x="42.672" y="4.699" extent="1-16" drill="0.35"/>
+<via x="42.672" y="7.493" extent="1-16" drill="0.35"/>
+<via x="44.704" y="4.699" extent="1-16" drill="0.35"/>
+<via x="44.704" y="7.493" extent="1-16" drill="0.35"/>
+<via x="44.704" y="2.794" extent="1-16" drill="0.35"/>
+<via x="42.672" y="2.794" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="ACCEL_1_EXT">
 <contactref element="J2" pad="15"/>
