@@ -12620,6 +12620,7 @@ worst case input supply short circuit </text>
 <wire x1="214.122" y1="172.466" x2="274.32" y2="172.466" width="0.1524" layer="97"/>
 <text x="261.62" y="205.74" size="1.27" layer="97" font="vector">remove this</text>
 <text x="68.58" y="66.04" size="1.778" layer="97">add decoupling</text>
+<text x="185.42" y="132.08" size="1.778" layer="97">fix shutdown order</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
