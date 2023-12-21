@@ -8714,46 +8714,63 @@ Requires ordering of:
 <text x="15.24" y="198.12" size="1.778" layer="97">Thermistor x8
 2 pin each
 Varied resistance
-Right angle</text>
+Vertical</text>
 <text x="12.7" y="147.32" size="1.778" layer="97">Ride height sensor x4
 RS485 multidrop
-Right angle</text>
+Vertical</text>
 <text x="13.716" y="140.716" size="1.778" layer="97">FL</text>
 <text x="66.802" y="140.462" size="1.778" layer="97">FR</text>
-<text x="13.716" y="108.966" size="1.778" layer="97">RL</text>
+<text x="13.716" y="111.506" size="1.778" layer="97">RL &amp; RR</text>
 <text x="17.78" y="76.2" size="1.778" layer="97">Aero sensors
 CAN
-Right angle</text>
+Vertical</text>
 <text x="17.78" y="70.612" size="1.778" layer="97">8-channel</text>
 <text x="17.526" y="34.798" size="1.778" layer="97">64-channel</text>
 <text x="101.6" y="195.58" size="1.778" layer="97">IMU
 10 pin molex
 1. RS232 data
 2. Power supply
-Straight</text>
+Vertical</text>
 <text x="124.46" y="129.54" size="1.778" layer="97">GLV
-power and gnd
-Right angle</text>
+Power and gnd
+Vertical</text>
 <text x="169.418" y="106.934" size="1.778" layer="97">Corner board
 1. ADC isoSPI master
 2. Power supply
 3. Interlock
-Straight</text>
+Vertical</text>
 <text x="184.658" y="104.394" size="1.778" layer="97">RL</text>
 <text x="231.902" y="103.886" size="1.778" layer="97">RR</text>
 <text x="170.18" y="195.58" size="1.778" layer="97">CAN
 1. Main ECU -&gt; SAB
 2. SAB -&gt; TCU/pi
 3. Spare
-Straight</text>
-<text x="160.02" y="149.86" size="1.778" layer="97">Distinguish connectors</text>
-<text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
-<text x="213.36" y="198.12" size="1.778" layer="97">Do not connect 24V</text>
-<text x="160.02" y="144.78" size="1.778" layer="97">is 24V necessary?</text>
-<text x="213.36" y="111.76" size="1.778" layer="97">24VIN instead</text>
-<text x="223.52" y="121.92" size="1.778" layer="97">make identical pinout/plug in wrong not destructive</text>
+Vertical</text>
+<text x="132.08" y="76.2" size="1.778" layer="97">Distinguish connectors:
+Color markers
+Tapes
+CAN &amp; RS485
+Thermistor &amp; corner board</text>
+<text x="213.36" y="198.12" size="1.778" layer="97">Main ECU
+Do not connect 24V</text>
+<text x="246.38" y="142.24" size="1.778" layer="97">Test rail being used
+Could reduce in next rev</text>
+<text x="203.2" y="111.76" size="1.778" layer="97">24VIN instead
+Consider for future rev</text>
+<text x="233.68" y="111.76" size="1.778" layer="97">Fault prevention:
+Plug in connector from wrong side
+SHDN discontinuous
+GND and supply rails still match</text>
 <text x="177.546" y="45.72" size="2.54" layer="95">Cecilia Yang</text>
 <text x="177.546" y="38.1" size="2.54" layer="95">Cecilia Yang</text>
+<text x="228.6" y="45.72" size="2.54" layer="95">Liwei Sun</text>
+<text x="228.6" y="38.1" size="2.54" layer="95">Liwei Sun</text>
+<text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
+<text x="66.04" y="111.76" size="1.778" layer="95">Pi shutdown button
+Vertical</text>
+<text x="259.08" y="200.66" size="1.778" layer="95">TCU</text>
+<text x="246.38" y="149.86" size="1.778" layer="95">Spare CAN
+Various power choices</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="O" x="0" y="0" smashed="yes">
@@ -8956,12 +8973,12 @@ Straight</text>
 <instance part="P16" gate="1" x="76.2" y="165.1" smashed="yes">
 <attribute name="VALUE" x="76.2" y="163.83" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="J8" gate="G$1" x="71.12" y="106.68" smashed="yes">
-<attribute name="MPN" x="71.12" y="98.425" size="1.27" layer="96" align="top-left"/>
-<attribute name="NAME" x="71.12" y="107.442" size="1.27" layer="95"/>
+<instance part="J8" gate="G$1" x="71.12" y="104.14" smashed="yes">
+<attribute name="MPN" x="71.12" y="95.885" size="1.27" layer="96" align="top-left"/>
+<attribute name="NAME" x="71.12" y="104.902" size="1.27" layer="95"/>
 </instance>
-<instance part="P109" gate="1" x="83.82" y="93.98" smashed="yes">
-<attribute name="VALUE" x="83.82" y="92.71" size="1.27" layer="96" align="top-center"/>
+<instance part="P109" gate="1" x="83.82" y="91.44" smashed="yes">
+<attribute name="VALUE" x="83.82" y="90.17" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P45" gate="G$1" x="261.62" y="99.06" smashed="yes">
 <attribute name="VALUE" x="261.62" y="104.14" size="1.778" layer="96" align="bottom-center"/>
@@ -9039,9 +9056,9 @@ Straight</text>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="99.06" x2="83.82" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="P109" gate="1" pin="GND"/>
-<wire x1="83.82" y1="101.6" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="99.06" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
@@ -9416,9 +9433,9 @@ Straight</text>
 <net name="PI_SHUTDOWN" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="104.14" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
-<label x="83.82" y="109.22" size="1.27" layer="95" xref="yes"/>
+<wire x1="81.28" y1="101.6" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="101.6" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
+<label x="83.82" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RL_EXT_N" class="0">
@@ -9530,12 +9547,16 @@ Thermistor
 IMU</text>
 <text x="116.84" y="203.2" size="1.778" layer="97">Fuse GLV 24V</text>
 <text x="15.24" y="81.28" size="1.778" layer="97">Power indication LEDs</text>
-<text x="53.34" y="88.9" size="1.778" layer="97">Swap for 3.3V</text>
-<text x="66.04" y="175.26" size="1.778" layer="97">Swap for 14V</text>
-<text x="53.34" y="132.08" size="1.778" layer="97">Always clamping bc same voltage as supply?</text>
-<text x="144.78" y="147.32" size="1.778" layer="97">Might not need this large capacity</text>
+<text x="68.58" y="180.34" size="1.778" layer="97">Overvoltage protection
+IMU</text>
+<text x="60.96" y="139.7" size="1.778" layer="97">Cannot add 5V TVS
+Always clamping if same voltage as supply</text>
+<text x="144.78" y="147.32" size="1.778" layer="97">Bulk cap
+Might not need this large capacity</text>
 <text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
-<text x="185.42" y="177.8" size="1.778" layer="97">remove shottky/spec new ones</text>
+<text x="172.72" y="193.04" size="1.778" layer="97">Possible RPPs:
+Shottky with higher current
+MOSFET</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="O" x="0" y="0" smashed="yes">
@@ -9927,14 +9948,19 @@ IMU</text>
 <description>Filters</description>
 <plain>
 <text x="16.256" y="207.518" size="1.778" layer="97">Thermistors</text>
-<text x="134.62" y="177.8" size="1.778" layer="97">Filter analog input</text>
-<text x="134.62" y="200.66" size="1.778" layer="97">geometric mean</text>
-<text x="134.62" y="187.96" size="1.778" layer="97">adjustable lin reg
+<text x="129.54" y="175.26" size="1.778" layer="97">Filter analog input</text>
+<text x="129.54" y="190.5" size="1.778" layer="97">Resistor select:
+Geometric mean
+Largest change in voltage range
+given target temperature range</text>
+<text x="129.54" y="180.34" size="1.778" layer="97">Future consideration:
+adjustable lin reg
 more current output</text>
 <text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
-<text x="134.62" y="170.18" size="1.778" layer="97">get rid of max's
-switch to passives</text>
-<text x="134.62" y="167.64" size="1.778" layer="97">1uF 0603 caps</text>
+<text x="129.54" y="170.18" size="1.778" layer="97">Got rid of max's
+Switched to passives</text>
+<text x="129.54" y="165.1" size="1.778" layer="97">1uF 0603 caps:
+3dB fc @ sub-500Hz</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
@@ -10260,15 +10286,15 @@ switch to passives</text>
 <sheet>
 <description>isoSPI and RS232</description>
 <plain>
-<text x="15.24" y="162.56" size="1.778" layer="97">isoSPI
+<text x="10.16" y="203.2" size="1.778" layer="97">isoSPI
 Rear corner board ADCs</text>
-<text x="20.32" y="205.74" size="1.778" layer="97">DNP</text>
-<text x="15.24" y="170.18" size="1.778" layer="97">Data output needs pull up
+<text x="15.24" y="157.48" size="1.778" layer="97">DNP possible
+Teensy seems to have internal pull-ups</text>
+<text x="15.24" y="162.56" size="1.778" layer="97">Data output needs pull up
 Teensy master -&gt; SDO on LTC</text>
-<text x="35.56" y="91.44" size="1.27" layer="97">IMU
-RS232
-Voltage wrong, swap chip</text>
-<text x="63.5" y="25.4" size="1.27" layer="97">Protection?</text>
+<text x="12.7" y="91.44" size="1.27" layer="97">IMU
+RS232 transceiver/level shifter</text>
+<text x="63.5" y="25.4" size="1.27" layer="97">ESD protection</text>
 <text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
 <text x="233.68" y="160.02" size="1.778" layer="97">differential I2C</text>
 </plain>
@@ -11013,14 +11039,14 @@ Voltage wrong, swap chip</text>
 <plain>
 <text x="15.24" y="200.66" size="1.778" layer="97">CAN transceiver and termination
 Bidirectional TVS/ESD protection</text>
-<text x="22.86" y="104.14" size="1.778" layer="97">RS485 transceiver
+<text x="17.78" y="104.14" size="1.778" layer="97">RS485 transceiver
 Bidirectional TVS/ESD protection
 Ride height sensors</text>
-<text x="144.78" y="205.74" size="1.778" layer="97">4.0</text>
 <text x="78.74" y="172.72" size="1.778" layer="97">s tie to gnd</text>
-<text x="55.88" y="160.02" size="1.778" layer="97">jumper x 2</text>
-<text x="93.98" y="58.42" size="1.778" layer="97">DNP termination resistors
-New chip for 3v3 output</text>
+<text x="17.78" y="160.02" size="1.778" layer="97">Jumper x 2
+Only unjump one side would low pass filter CAN</text>
+<text x="91.44" y="58.42" size="1.778" layer="97">DNP termination resistors
+Stub line length in theory is short enough</text>
 <text x="152.4" y="111.76" size="1.778" layer="97">ADC
 Digitize analog signals
 Thermistors</text>
