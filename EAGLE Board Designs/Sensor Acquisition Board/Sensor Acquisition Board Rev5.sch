@@ -9959,8 +9959,11 @@ more current output</text>
 <text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
 <text x="129.54" y="170.18" size="1.778" layer="97">Got rid of max's
 Switched to passives</text>
-<text x="129.54" y="165.1" size="1.778" layer="97">1uF 0603 caps:
-3dB fc @ sub-500Hz</text>
+<text x="129.54" y="154.94" size="1.778" layer="97">1uF 0603 caps:
+3dB fc @ 35Hz
+fc = (R1+R2)/(2*pi*R1*R2*C)
+R1: resistor in series
+R2: thermistor nominal</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="O" x="0" y="0" smashed="yes">
