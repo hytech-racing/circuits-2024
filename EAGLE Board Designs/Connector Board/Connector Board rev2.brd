@@ -198,7 +198,6 @@
 <wire x1="0" y1="50.8" x2="0" y2="0" width="0" layer="20"/>
 <text x="58.42" y="18.415" size="1.27" layer="21" font="vector" rot="R180" grouprefs="BOARD_LABEL">Connector Board Rev 2
 Designed by Siddharth Lohani</text>
-<dimension x1="91.0082" y1="24.7396" x2="96.266" y2="24.765" x3="93.6371" y3="25.654" textsize="1.778" layer="15" dtype="horizontal"/>
 <text x="12.446" y="13.208" size="1.27" layer="21" font="vector">APPS/BRAKES</text>
 <text x="34.29" y="13.335" size="1.27" layer="21" font="vector" align="bottom-center">BRB</text>
 <text x="46.355" y="13.208" size="1.27" layer="21" font="vector" align="bottom-center">INERTIA</text>
@@ -5045,14 +5044,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="7.366" y1="5.334" x2="7.366" y2="15.24" width="0.508" layer="1"/>
 <wire x1="23.7744" y1="3.9878" x2="27.1272" y2="3.9878" width="0.508" layer="1"/>
 <contactref element="J6" pad="24"/>
-<wire x1="62.5348" y1="3.9878" x2="63.0936" y2="3.9878" width="0.508" layer="1"/>
 <wire x1="27.1272" y1="3.9878" x2="29.591" y2="1.524" width="0.508" layer="1"/>
-<wire x1="29.591" y1="1.524" x2="60.071" y2="1.524" width="0.508" layer="1"/>
-<wire x1="60.071" y1="1.524" x2="62.5348" y2="3.9878" width="0.508" layer="1"/>
-<wire x1="63.0936" y1="3.9878" x2="63.6016" y2="3.9878" width="0.508" layer="1"/>
-<wire x1="66.0654" y1="1.524" x2="63.6016" y2="3.9878" width="0.508" layer="1"/>
-<wire x1="66.0654" y1="1.524" x2="79.6798" y2="1.524" width="0.508" layer="1"/>
-<wire x1="79.6798" y1="1.524" x2="82.1436" y2="3.9878" width="0.508" layer="1"/>
+<wire x1="82.1436" y1="3.9878" x2="79.6798" y2="1.524" width="0.508" layer="1"/>
 <wire x1="62.23" y1="25.908" x2="62.23" y2="36.195" width="0.508" layer="2"/>
 <wire x1="63.0936" y1="3.9878" x2="61.468" y2="5.6134" width="0.508" layer="2"/>
 <wire x1="58.474625" y1="46.719490625" x2="56.769" y2="45.013865625" width="0.508" layer="2"/>
@@ -5060,6 +5053,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="56.769" y1="41.656" x2="62.23" y2="36.195" width="0.508" layer="2"/>
 <wire x1="61.468" y1="25.146" x2="62.23" y2="25.908" width="0.508" layer="2"/>
 <wire x1="61.468" y1="5.6134" x2="61.468" y2="25.146" width="0.508" layer="2"/>
+<wire x1="60.6298" y1="1.524" x2="63.0936" y2="3.9878" width="0.508" layer="1"/>
+<wire x1="29.591" y1="1.524" x2="60.6298" y2="1.524" width="0.508" layer="1"/>
+<wire x1="65.5574" y1="1.524" x2="63.0936" y2="3.9878" width="0.508" layer="1"/>
+<wire x1="79.6798" y1="1.524" x2="65.5574" y2="1.524" width="0.508" layer="1"/>
 </signal>
 <signal name="+24V">
 <contactref element="A1" pad="1"/>
