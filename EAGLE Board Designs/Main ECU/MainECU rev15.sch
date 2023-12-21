@@ -8972,7 +8972,9 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="U25" library="HyTechDevices" deviceset="OPAMP_2_CHANNEL_*" device="OPA_2991"/>
 <part name="U26" library="HyTechDevices" deviceset="OPAMP_2_CHANNEL_*" device="OPA_2991"/>
 <part name="U27" library="HyTechDevices" deviceset="OPAMP_2_CHANNEL_*" device="OPA_2991"/>
-<part name="FRAME5" library="HyTechFrames" deviceset="FRAME" device=""/>
+<part name="FRAME5" library="HyTechFrames" deviceset="FRAME" device="">
+<attribute name="ENGINEER" value="Eric Galluzzi"/>
+</part>
 <part name="R131" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="8.35K"/>
 <part name="R132" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="8.35K"/>
 <part name="P195" library="HyTechSupplies" deviceset="+3V3" device=""/>
