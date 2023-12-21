@@ -200,9 +200,9 @@
 <wire x1="97.536" y1="113.03" x2="94.996" y2="115.57" width="0" layer="20" curve="90"/>
 <wire x1="94.996" y1="115.57" x2="2.54" y2="115.57" width="0" layer="20"/>
 <wire x1="2.54" y1="115.57" x2="0" y2="113.03" width="0" layer="20" curve="90"/>
-<text x="63.754" y="2.54" size="1.397" layer="21" font="vector">HyTech Racing 2024
-Main ECU rev15
-Designed by Eric Galluzzi</text>
+<text x="61.722" y="2.54" size="1.397" layer="21" font="vector">Main ECU rev15
+Designed by Eric Galluzzi 
+Architectured by Mikhail Allen</text>
 <polygon width="0.254" layer="30">
 <vertex x="97.536" y="0"/>
 <vertex x="96.266" y="1.27"/>
