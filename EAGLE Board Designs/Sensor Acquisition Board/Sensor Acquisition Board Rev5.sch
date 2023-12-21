@@ -8752,6 +8752,8 @@ Straight</text>
 <text x="160.02" y="144.78" size="1.778" layer="97">is 24V necessary?</text>
 <text x="213.36" y="111.76" size="1.778" layer="97">24VIN instead</text>
 <text x="223.52" y="121.92" size="1.778" layer="97">make identical pinout/plug in wrong not destructive</text>
+<text x="177.546" y="45.72" size="2.54" layer="95">Cecilia Yang</text>
+<text x="177.546" y="38.1" size="2.54" layer="95">Cecilia Yang</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="O" x="0" y="0" smashed="yes">
