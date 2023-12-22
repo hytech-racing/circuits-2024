@@ -3435,10 +3435,10 @@ KW26-S5-FSE-4Q </text>
 <part name="U$3" library="HyTechSymbols" deviceset="CONNECTOR-2_*" device="" technology="HVP800" value="CONNECTOR-2_HVP800"/>
 <part name="J2" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
 <part name="U$4" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device="">
-<attribute name="DESCRIPTION_1" value="ESF compliant representation of the HT07 "/>
+<attribute name="DESCRIPTION_1" value="ESF compliant representation of the HT08 "/>
 <attribute name="DESCRIPTION_2" value="tractive system."/>
 <attribute name="DESIGNER_SCHEMATIC" value="Liwei Sun"/>
-<attribute name="ENGINEER" value="Liwei Sun"/>
+<attribute name="ENGINEER" value="Shayan Noorani &amp; Liwei Sun"/>
 <attribute name="REVIEWER_SCHEMATIC" value="Zekun Li"/>
 </part>
 <part name="J12" library="HyTechSymbolsTemp" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
@@ -3464,9 +3464,9 @@ KW26-S5-FSE-4Q </text>
 <part name="J22" library="HyTechSymbols" deviceset="CONNECTOR-1_*" device="" technology="LCAX2-14F-E"/>
 <part name="DISCHARGE" library="HyTechSymbols" deviceset="RELAY_SPST_NC_?*" device="" technology="DBR72410" value="RELAY_SPST_NC_DBR72410"/>
 <part name="P13" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="DISCHARGE_RES" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
-<part name="DISCHARGE_RES1" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
-<part name="DISCHARGE_RES2" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="15k"/>
+<part name="DISCHARGE_RES" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="20k"/>
+<part name="DISCHARGE_RES1" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="20k"/>
+<part name="DISCHARGE_RES2" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="20k"/>
 <part name="J19" library="HyTechSymbols" deviceset="RING_TERMINAL_*" device="" technology="10MM2"/>
 <part name="J20" library="HyTechSymbols" deviceset="RING_TERMINAL_*" device="" technology="10MM2"/>
 <part name="J4" library="HyTechSymbols" deviceset="RING_TERMINAL_*" device="" technology="10MM2"/>
@@ -3582,7 +3582,7 @@ Connection</text>
 <attribute name="LAST_DATE_TIME" x="186.69" y="2.54" size="2.54" layer="95"/>
 <attribute name="DRAWING_NAME" x="207.01" y="22.86" size="2.54" layer="95"/>
 <attribute name="SHEET" x="259.08" y="2.54" size="2.54" layer="95"/>
-<attribute name="ENGINEER" x="134.62" y="22.86" size="2.54" layer="95"/>
+<attribute name="ENGINEER" x="129.54" y="22.86" size="2.54" layer="96"/>
 <attribute name="DESIGNER_SCHEMATIC" x="179.07" y="30.48" size="2.54" layer="95"/>
 <attribute name="REVIEWER_SCHEMATIC" x="227.33" y="30.48" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
