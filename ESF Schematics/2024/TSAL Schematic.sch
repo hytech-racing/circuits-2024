@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5156,28 +5157,6 @@ Toshiba
 <packages>
 </packages>
 <symbols>
-<symbol name="60V_THRESHOLD">
-<description>Block reprentation of the logic that indicates when the accumulator has reached 60V.</description>
-<wire x1="0" y1="0" x2="0" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="0" y1="-22.86" x2="10.16" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-22.86" x2="35.56" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="35.56" y1="-22.86" x2="35.56" y2="0" width="0.1524" layer="94"/>
-<wire x1="35.56" y1="0" x2="12.7" y2="0" width="0.1524" layer="94"/>
-<pin name="TS+" x="-2.54" y="-10.16" length="short" direction="in"/>
-<pin name="PACK+" x="-2.54" y="-15.24" length="short" direction="in"/>
-<pin name="TS-" x="-2.54" y="-20.32" length="short" direction="in"/>
-<pin name="GND" x="38.1" y="-20.32" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD" x="38.1" y="-12.7" length="short" direction="pwr" rot="R180"/>
-<wire x1="12.7" y1="0" x2="10.16" y2="0" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="-22.86" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="10.16" y1="-22.86" x2="12.7" y2="-22.86" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="12.7" y1="-22.86" x2="12.7" y2="0" width="0.1524" layer="94" style="shortdash"/>
-<pin name="60V_THRESHOLD" x="38.1" y="-17.78" length="short" direction="out" rot="R180"/>
-<text x="33.02" y="-2.54" size="1.778" layer="95" align="top-right">60V
-THRESHOLD
-LOGIC</text>
-</symbol>
 <symbol name="DIODE_LED_RGBW">
 <description>Inolux IN-505FCHWV RGBW LED
 &lt;br&gt;
@@ -5367,21 +5346,6 @@ LOGIC</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="60V_THRESHOLD" prefix="A">
-<description>Block reprentation of the logic that indicates when the accumulator has reached 60V.</description>
-<gates>
-<gate name="G$1" symbol="60V_THRESHOLD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="_EXTERNAL_" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LED_RGBW_*" prefix="D">
 <description>Inolux IN-505FCHWV RGBW LED
 &lt;br&gt;
@@ -5422,6 +5386,117 @@ LOGIC</text>
 </deviceset>
 </devicesets>
 </library>
+<library name="HyTechSymbols">
+<packages>
+</packages>
+<symbols>
+<symbol name="ISO224">
+<description>ISO224*: Isolated precision amplifier
+&lt;br&gt;
+&lt;a href="https://www.ti.com/lit/ds/symlink/iso224.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<wire x1="0" y1="-10.16" x2="11.176" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="11.176" y1="-10.16" x2="22.86" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-10.16" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="11.176" y2="0" width="0.254" layer="94"/>
+<wire x1="11.176" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="0.762" size="1.27" layer="96">&gt;MANUFACTURER</text>
+<pin name="OUTN" x="25.4" y="-7.62" length="short" direction="out" function="dot" rot="R180"/>
+<pin name="OUTP" x="25.4" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="IN" x="-2.54" y="-5.08" length="short" direction="in"/>
+<text x="0" y="-10.922" size="1.27" layer="96" align="top-left">&gt;MPN</text>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-8.89" x2="10.16" y2="-7.366" width="0.254" layer="94"/>
+<wire x1="12.192" y1="-6.1468" x2="13.97" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="13.97" y1="-5.08" x2="12.192" y2="-4.0132" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.794" x2="7.62" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.794" x2="10.16" y2="-7.366" width="0.254" layer="94"/>
+<wire x1="12.192" y1="-4.0132" x2="12.192" y2="-6.1468" width="0.254" layer="94"/>
+<wire x1="11.176" y1="0" x2="11.176" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
+</symbol>
+<symbol name="OPAMP">
+<text x="2.413" y="3.048" size="1.27" layer="95">OPAMP</text>
+<pin name="VIN-" x="-2.54" y="-2.54" visible="pad" length="short" direction="in"/>
+<pin name="VIN+" x="-2.54" y="2.54" visible="pad" length="short" direction="in"/>
+<pin name="VOUT" x="7.62" y="0" visible="pad" length="point" direction="out"/>
+<wire x1="0" y1="3.81" x2="0" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.81" x2="6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="6.35" y2="0" width="0.1524" layer="94"/>
+<text x="0.889" y="2.286" size="1.778" layer="94" rot="R90" align="center">+</text>
+<rectangle x1="0.3302" y1="-2.3749" x2="1.55448125" y2="-2.1971" layer="94"/>
+</symbol>
+<symbol name="RESISTOR_VALUE">
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
+<wire x1="0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.5875" y1="1.016" x2="-0.9525" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-2.8575" y1="1.016" x2="-2.2225" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.016" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.5875" y1="1.016" x2="-2.2225" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.3175" y1="1.016" x2="-0.9525" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-2.8575" y1="1.016" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.3175" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ISO_224*" prefix="U">
+<description>ISO224*: Isolated precision amplifier
+&lt;br&gt;
+&lt;a href="https://www.ti.com/lit/ds/symlink/iso224.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ISO224" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+<technology name="BDWVR">
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MPN" value="ISO224BDWVR"/>
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPAMP" prefix="U">
+<gates>
+<gate name="G$1" symbol="OPAMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RESISTOR" prefix="R" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="RESISTOR_VALUE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5439,11 +5514,8 @@ LOGIC</text>
 <attribute name="ENGINEER" value="Liwei Sun"/>
 <attribute name="REVIEWER_SCHEMATIC" value="Zekun Li"/>
 </part>
-<part name="U$1" library="HyTechSymbolsTemp" deviceset="60V_THRESHOLD" device=""/>
 <part name="U$2" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="U$3" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
-<part name="P1" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="P2" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="U1" library="HyTechDevices" deviceset="ADG1423" device=""/>
 <part name="U4" library="HyTechDevices" deviceset="*555" device="" technology="LM"/>
 <part name="P3" library="HyTechSupplies" deviceset="+12V" device=""/>
@@ -5478,6 +5550,19 @@ LOGIC</text>
 <part name="R3" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="56"/>
 <part name="R5" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="56"/>
 <part name="R6" library="HyTechSymbolsTemp" deviceset="RESISTOR" device="" value="5.1"/>
+<part name="U2" library="HyTechSymbols" deviceset="ISO_224*" device="" technology="BDWVR"/>
+<part name="U3" library="HyTechSymbols" deviceset="OPAMP" device=""/>
+<part name="U5" library="HyTechSymbols" deviceset="OPAMP" device=""/>
+<part name="R7" library="HyTechSymbols" deviceset="RESISTOR" device=""/>
+<part name="P1" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="R8" library="HyTechSymbols" deviceset="RESISTOR" device="" value="1M"/>
+<part name="R9" library="HyTechSymbols" deviceset="RESISTOR" device="" value="365k"/>
+<part name="R10" library="HyTechSymbols" deviceset="RESISTOR" device="" value="365k"/>
+<part name="R12" library="HyTechSymbols" deviceset="RESISTOR" device=""/>
+<part name="R13" library="HyTechSymbols" deviceset="RESISTOR" device=""/>
+<part name="R14" library="HyTechSymbols" deviceset="RESISTOR" device=""/>
+<part name="R15" library="HyTechSymbols" deviceset="RESISTOR" device=""/>
+<part name="R11" library="HyTechSymbols" deviceset="RESISTOR" device="" value="3.3k"/>
 </parts>
 <sheets>
 <sheet>
@@ -5488,7 +5573,6 @@ LOGIC</text>
 <wire x1="66.04" y1="119.38" x2="27.94" y2="119.38" width="0.8128" layer="97" style="shortdash"/>
 <text x="30.48" y="116.84" size="3.048" layer="97" align="top-left">Wire Gauge Key</text>
 <text x="30.48" y="109.22" size="1.778" layer="97" align="top-left">22AWG:</text>
-<text x="12.7" y="139.7" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="99.06" y="175.26" size="2.54" layer="97">TSAL Circuitry</text>
 <text x="180.594" y="166.624" size="1.778" layer="97">555 Timer Astable Mode
 Frequency: 3.529 Hz
@@ -5512,6 +5596,7 @@ Rules say 2-5Hz</text>
 <wire x1="266.7" y1="119.38" x2="147.32" y2="119.38" width="0.8128" layer="97"/>
 <text x="149.86" y="116.84" size="3.048" layer="97" align="top-left">TSAL</text>
 <text x="154.94" y="86.36" size="1.27" layer="97">PCB Trace</text>
+<text x="73.66" y="144.78" size="1.27" layer="97" rot="R180" align="top-left">PCB Trace</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -5524,18 +5609,11 @@ Rules say 2-5Hz</text>
 <attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
 </instance>
-<instance part="U$1" gate="G$1" x="27.94" y="157.48" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="22.86" y="149.86" smashed="yes">
-<attribute name="VALUE" x="22.86" y="154.94" size="1.27" layer="96" align="bottom-center"/>
+<instance part="U$2" gate="G$1" x="10.16" y="203.2" smashed="yes">
+<attribute name="VALUE" x="10.16" y="208.28" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$3" gate="G$1" x="22.86" y="134.62" smashed="yes">
-<attribute name="VALUE" x="22.86" y="132.08" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P1" gate="1" x="68.58" y="134.62" smashed="yes">
-<attribute name="VALUE" x="68.58" y="133.35" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="P2" gate="1" x="68.58" y="147.32" smashed="yes">
-<attribute name="VALUE" x="68.58" y="151.13" size="1.27" layer="96" align="bottom-center"/>
+<instance part="U$3" gate="G$1" x="10.16" y="152.4" smashed="yes">
+<attribute name="VALUE" x="10.16" y="149.86" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U1" gate="S2" x="99.06" y="165.1" smashed="yes">
 <attribute name="MPN" x="99.06" y="151.638" size="1.27" layer="96" align="top-left"/>
@@ -5671,16 +5749,53 @@ Rules say 2-5Hz</text>
 <attribute name="NAME" x="158.75" y="92.71" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="158.75" y="90.17" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="U2" gate="G$1" x="20.32" y="182.88" smashed="yes"/>
+<instance part="U3" gate="G$1" x="55.88" y="177.8" smashed="yes"/>
+<instance part="U5" gate="G$1" x="63.5" y="162.56" smashed="yes"/>
+<instance part="R7" gate="G$1" x="73.66" y="154.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="72.39" y="153.67" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="74.93" y="153.67" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="P1" gate="1" x="73.66" y="142.24" smashed="yes">
+<attribute name="VALUE" x="73.66" y="140.97" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="R8" gate="G$1" x="10.16" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.89" y="194.31" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="11.43" y="194.31" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R9" gate="G$1" x="10.16" y="185.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.89" y="184.15" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="11.43" y="184.15" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R10" gate="G$1" x="10.16" y="175.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.89" y="173.99" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="11.43" y="173.99" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R12" gate="G$1" x="48.26" y="167.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.53" y="166.37" size="1.27" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="49.53" y="168.91" size="1.27" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="R13" gate="G$1" x="48.26" y="182.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.53" y="181.61" size="1.27" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="49.53" y="184.15" size="1.27" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="R14" gate="G$1" x="60.96" y="170.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="62.23" y="168.91" size="1.27" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="62.23" y="171.45" size="1.27" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="R15" gate="G$1" x="58.42" y="187.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="59.69" y="186.69" size="1.27" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="59.69" y="189.23" size="1.27" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="R11" gate="G$1" x="10.16" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.89" y="161.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="11.43" y="161.29" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="66.04" y1="137.16" x2="68.58" y2="137.16" width="0.0762" layer="91"/>
-<pinref part="P1" gate="1" pin="GND"/>
-</segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
 <wire x1="175.26" y1="139.7" x2="170.18" y2="139.7" width="0.0762" layer="91"/>
@@ -5739,13 +5854,13 @@ Rules say 2-5Hz</text>
 <junction x="154.94" y="142.24"/>
 <pinref part="D15" gate="G$1" pin="A"/>
 </segment>
+<segment>
+<pinref part="P1" gate="1" pin="GND"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="144.78" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+12V" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
-<wire x1="66.04" y1="144.78" x2="68.58" y2="144.78" width="0.0762" layer="91"/>
-<pinref part="P2" gate="1" pin="+12V"/>
-</segment>
 <segment>
 <pinref part="U1" gate="S2" pin="S"/>
 <wire x1="96.52" y1="157.48" x2="93.98" y2="157.48" width="0.0762" layer="91"/>
@@ -5838,33 +5953,16 @@ Rules say 2-5Hz</text>
 <segment>
 <pinref part="U1" gate="S1" pin="IN"/>
 <wire x1="81.28" y1="139.7" x2="96.52" y2="139.7" width="0.0762" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="60V_THRESHOLD"/>
-<wire x1="66.04" y1="139.7" x2="81.28" y2="139.7" width="0.0762" layer="91"/>
 <wire x1="81.28" y1="162.56" x2="81.28" y2="139.7" width="0.0762" layer="91"/>
-<junction x="81.28" y="139.7"/>
 <pinref part="U1" gate="S2" pin="IN"/>
 <wire x1="81.28" y1="162.56" x2="96.52" y2="162.56" width="0.0762" layer="91"/>
-</segment>
-</net>
-<net name="TS+" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="TS+"/>
-<wire x1="25.4" y1="147.32" x2="22.86" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="TS+"/>
-</segment>
-</net>
-<net name="PACK+FUSED" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PACK+"/>
-<wire x1="25.4" y1="142.24" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
-<label x="22.86" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="TS-UNFUSED" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="TS-"/>
-<wire x1="25.4" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="TS-UNFUSED"/>
+<wire x1="71.12" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
+<junction x="81.28" y="162.56"/>
+<pinref part="U5" gate="G$1" pin="VOUT"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="157.48" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
+<junction x="73.66" y="162.56"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5968,6 +6066,47 @@ Rules say 2-5Hz</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="GREEN+"/>
 <wire x1="162.56" y1="91.44" x2="167.64" y2="91.44" width="0.0762" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="IN"/>
+<wire x1="17.78" y1="177.8" x2="15.24" y2="177.8" width="0.0762" layer="91"/>
+<wire x1="15.24" y1="177.8" x2="15.24" y2="167.64" width="0.0762" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="165.1" x2="10.16" y2="167.64" width="0.0762" layer="91"/>
+<wire x1="10.16" y1="167.64" x2="10.16" y2="170.18" width="0.0762" layer="91"/>
+<wire x1="15.24" y1="167.64" x2="10.16" y2="167.64" width="0.0762" layer="91"/>
+<junction x="10.16" y="167.64"/>
+</segment>
+</net>
+<net name="TS-UNFUSED" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="TS-UNFUSED"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="154.94" x2="10.16" y2="157.48" width="0.0762" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="177.8" x2="10.16" y2="180.34" width="0.0762" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="187.96" x2="10.16" y2="190.5" width="0.0762" layer="91"/>
+</segment>
+</net>
+<net name="TS+" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="U$2" gate="G$1" pin="TS+"/>
+<wire x1="10.16" y1="198.12" x2="10.16" y2="200.66" width="0.0762" layer="91"/>
 </segment>
 </net>
 </nets>
