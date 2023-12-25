@@ -11054,6 +11054,8 @@ Stub line length in theory is short enough</text>
 Digitize analog signals
 Thermistors</text>
 <text x="129.286" y="22.86" size="2.54" layer="95">Cecilia Yang</text>
+<text x="149.86" y="167.64" size="1.778" layer="97">TX - pin 17
+EN - pin 18</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="O" x="0" y="0" smashed="yes">
