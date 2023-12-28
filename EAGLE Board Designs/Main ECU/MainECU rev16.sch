@@ -13151,13 +13151,6 @@ worst case input supply short circuit </text>
 <pinref part="U16" gate="G$1" pin="Y"/>
 </segment>
 </net>
-<net name="INERTIA_SENSE" class="0">
-<segment>
-<pinref part="A2" gate="G$1" pin="A9"/>
-<wire x1="213.36" y1="81.28" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
-<label x="205.74" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="C31" gate="G$1" pin="1"/>
@@ -13253,6 +13246,13 @@ worst case input supply short circuit </text>
 <wire x1="238.76" y1="139.7" x2="246.38" y2="139.7" width="0.1524" layer="91"/>
 <label x="246.38" y="139.7" size="1.27" layer="95" xref="yes"/>
 <pinref part="A2" gate="G$1" pin="D33"/>
+</segment>
+</net>
+<net name="INERTIA_SENSE" class="0">
+<segment>
+<wire x1="213.36" y1="83.82" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
+<label x="205.74" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="A2" gate="G$1" pin="A8"/>
 </segment>
 </net>
 </nets>
