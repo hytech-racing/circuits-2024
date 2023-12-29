@@ -6316,9 +6316,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="J2" pad="5"/>
 <wire x1="37.918390625" y1="46.719490625" x2="37.918390625" y2="44.720509375" width="0.508" layer="1"/>
 <wire x1="87.376" y1="38.735" x2="95.885" y2="30.226" width="0.508" layer="1"/>
-<wire x1="87.376" y1="38.735" x2="50.8" y2="38.735" width="0.508" layer="1"/>
-<wire x1="50.8" y1="38.735" x2="48.26" y2="41.275" width="0.508" layer="1"/>
-<wire x1="48.26" y1="41.275" x2="48.26" y2="44.704" width="0.508" layer="1"/>
+<wire x1="87.376" y1="38.735" x2="50.165" y2="38.735" width="0.508" layer="1"/>
+<wire x1="50.165" y1="38.735" x2="48.26" y2="40.64" width="0.508" layer="1"/>
+<wire x1="48.26" y1="40.64" x2="48.26" y2="44.704" width="0.508" layer="1"/>
 <via x="48.26" y="44.704" extent="1-16" drill="0.65"/>
 <wire x1="48.26" y1="44.704" x2="46.244509375" y2="46.719490625" width="0.508" layer="2"/>
 <wire x1="46.244509375" y1="46.719490625" x2="37.918390625" y2="46.719490625" width="0.508" layer="2"/>
@@ -6483,10 +6483,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="53.721" y1="43.815" x2="53.721" y2="41.6687" width="0.508" layer="1"/>
 <wire x1="53.721" y1="45.72" x2="53.721" y2="47.7393" width="0.508" layer="1"/>
 <polygon width="0.508" layer="1" thermals="no">
-<vertex x="51.435" y="49.53"/>
-<vertex x="51.435" y="40.005"/>
-<vertex x="55.88" y="40.005"/>
-<vertex x="55.88" y="49.53"/>
+<vertex x="50.8" y="49.53"/>
+<vertex x="50.8" y="40.005"/>
+<vertex x="57.15" y="40.005"/>
+<vertex x="57.15" y="49.53"/>
 </polygon>
 <wire x1="73.152" y1="34.798" x2="81.661" y2="26.289" width="0.508" layer="1"/>
 <wire x1="81.661" y1="26.289" x2="81.661" y2="21.844" width="0.508" layer="1"/>
@@ -6525,10 +6525,10 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="XF1" pad="3"/>
 <wire x1="43.815" y1="47.7393" x2="43.815" y2="41.6687" width="0.508" layer="1"/>
 <polygon width="0.508" layer="1" thermals="no">
-<vertex x="41.656" y="49.53"/>
-<vertex x="41.656" y="40.005"/>
-<vertex x="45.974" y="40.005"/>
-<vertex x="45.974" y="49.53"/>
+<vertex x="40.386" y="49.53"/>
+<vertex x="40.386" y="40.005"/>
+<vertex x="46.609" y="40.005"/>
+<vertex x="46.609" y="49.53"/>
 </polygon>
 <wire x1="43.815" y1="41.6687" x2="31.5087" y2="41.6687" width="0.508" layer="1"/>
 <wire x1="26.2636" y1="33.3248" x2="27.305" y2="33.3248" width="0.508" layer="1"/>
