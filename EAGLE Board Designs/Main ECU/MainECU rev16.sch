@@ -9208,9 +9208,9 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <label x="119.38" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="17"/>
-<wire x1="111.76" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
-<label x="119.38" y="127" size="1.27" layer="95" xref="yes"/>
+<wire x1="111.76" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
+<label x="119.38" y="124.46" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="18"/>
 </segment>
 </net>
 <net name="CANL_2" class="1">
@@ -9220,9 +9220,9 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <label x="119.38" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="18"/>
-<wire x1="111.76" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
-<label x="119.38" y="124.46" size="1.27" layer="95" xref="yes"/>
+<wire x1="111.76" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
+<label x="119.38" y="127" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="17"/>
 </segment>
 </net>
 <net name="RS422_TX_N" class="1">
@@ -9232,13 +9232,6 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <label x="119.38" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="RS422_RX_P" class="1">
-<segment>
-<pinref part="J2" gate="G$1" pin="21"/>
-<wire x1="111.76" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
-<label x="119.38" y="116.84" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="RS422_TX_P" class="1">
 <segment>
 <pinref part="J2" gate="G$1" pin="19"/>
@@ -9246,11 +9239,18 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <label x="119.38" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="RS422_RX_N" class="1">
+<net name="RS422_RX_P" class="1">
 <segment>
-<pinref part="J2" gate="G$1" pin="22"/>
 <wire x1="111.76" y1="114.3" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
 <label x="119.38" y="114.3" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="22"/>
+</segment>
+</net>
+<net name="RS422_RX_N" class="1">
+<segment>
+<wire x1="111.76" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
+<label x="119.38" y="116.84" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="21"/>
 </segment>
 </net>
 </nets>
