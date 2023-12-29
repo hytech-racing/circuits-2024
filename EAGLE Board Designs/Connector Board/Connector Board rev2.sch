@@ -3084,21 +3084,6 @@ Dashed line is edge of mated connector.</description>
 &lt;br&gt;
 &lt;a href="https://www.yageo.com/upload/website/yageo_PYu-R_Mount_10_19050818_343.pdf"&gt;Datasheet&lt;/a&gt;
 &lt;br&gt;
-&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"&gt;Size&lt;/a&gt;</description>
-<smd name="1" x="-0.85" y="0" dx="0.9" dy="0.8" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="0.9" dy="0.8" layer="1"/>
-<text x="0" y="0.635" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.127" layer="21"/>
-<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.127" layer="21"/>
-<rectangle x1="-1.45" y1="-0.75" x2="1.45" y2="0.75" layer="39"/>
-</package>
-<package name="0603-RES@1">
-<description>0603 Resistor Footprint
-&lt;br&gt;
-&lt;a href="https://www.yageo.com/upload/website/yageo_PYu-R_Mount_10_19050818_343.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
 &lt;a href="https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"&gt;Size&lt;/a&gt;</description>
 <smd name="1" x="-0.85" y="0" dx="0.9" dy="0.8" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="0.9" dy="0.8" layer="1"/>
@@ -3488,21 +3473,6 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <text x="0" y="1.27" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-2.032" y1="-1.27" x2="2.032" y2="1.27" layer="39"/>
 </package>
-<package name="0805-RES">
-<description>0805 Resistor Footprint
-&lt;br&gt;
-&lt;a href="https://www.yageo.com/upload/website/yageo_PYu-R_Mount_10_19050818_343.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-&lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"&gt;Size&lt;/a&gt;</description>
-<smd name="1" x="-1.05" y="0" dx="0.9" dy="1.2" layer="1"/>
-<smd name="2" x="1.05" y="0" dx="0.9" dy="1.2" layer="1"/>
-<text x="0" y="0.85" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="21"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
-<rectangle x1="-1.7" y1="-0.85" x2="1.7" y2="0.85" layer="39"/>
-</package>
 <package name="M12A-08PMMP">
 <description>M12A-08PMMP Amphenol Connector
 &lt;p&gt;
@@ -3617,6 +3587,51 @@ Note: jumper (SPC02SVJN-RC or similar) needs to be ordered separately</descripti
 <pad name="20" x="-13.5" y="0" drill="1.0668"/>
 <rectangle x1="-17.526" y1="-5.842" x2="17.526" y2="2.286" layer="40"/>
 <rectangle x1="-17.526" y1="-5.842" x2="17.526" y2="2.286" layer="39"/>
+</package>
+<package name="0805-RES">
+<description>0805 Resistor Footprint
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/website/yageo_PYu-R_Mount_10_19050818_343.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-1.05" y="0" dx="0.9" dy="1.2" layer="1"/>
+<smd name="2" x="1.05" y="0" dx="0.9" dy="1.2" layer="1"/>
+<text x="0" y="0.85" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
+<rectangle x1="-1.7" y1="-0.85" x2="1.7" y2="0.85" layer="39"/>
+</package>
+<package name="1206-RES">
+<description>1206 Resistor Footprint
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/website/yageo_PYu-R_Mount_10_19050818_343.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-1.6" y="0" dx="1" dy="1.5" layer="1"/>
+<smd name="2" x="1.6" y="0" dx="1" dy="1.5" layer="1"/>
+<text x="0" y="1.016" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.55" y1="0.8" x2="1.55" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.55" y1="0.8" x2="1.55" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-0.8" x2="-1.55" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="-0.8" x2="-1.55" y2="0.8" width="0.127" layer="21"/>
+<rectangle x1="-2.286" y1="-1.016" x2="2.286" y2="1.016" layer="39"/>
+</package>
+<package name="2512-RES">
+<description>2512 Resistor Footprint
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/website/yageo_PYu-R_Mount_10_19050818_343.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;a href="https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"&gt;Size&lt;/a&gt;</description>
+<smd name="1" x="-3.1" y="0" dx="1.8" dy="4" layer="1"/>
+<smd name="2" x="3.1" y="0" dx="1.8" dy="4" layer="1"/>
+<text x="0" y="2.25" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<wire x1="-3.175" y1="1.55" x2="3.175" y2="1.55" width="0.127" layer="21"/>
+<wire x1="3.175" y1="1.55" x2="3.175" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-1.55" x2="-3.175" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-1.55" x2="-3.175" y2="1.55" width="0.127" layer="21"/>
+<rectangle x1="-4.25" y1="-2.25" x2="4.25" y2="2.25" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -4241,11 +4256,14 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/54/pwr163-777985.pdf"&gt;PWR163 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/Yageo_PYu_AC_51_RoHS_L_7_1714230-1874691.pdf"&gt;AC Series&lt;/a&gt;&lt;li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/PYu-PU_51_RoHS_L_6-1504619.pdf"&gt;PU Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ucr-e.pdf"&gt;UCR Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"&gt;ERA Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/54/pwr263s_35-778069.pdf"&gt;PWR263 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/348/ROHM_S_A0011075115_1-2563276.pdf"&gt;KTR Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf"&gt;RC Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C313-1141758.pdf"&gt;ERJ Low Resistance Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C328-1530132.pdf"&gt;ERJ PB3, PB6 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/Panasonic_Resistors_Thick_Film_Anti_Sulf_Anti_Surg-1825099.pdf"&gt;ERJ UP3, UP6, UP8 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/315/AOA0000C331-1141874.pdf"&gt;ERJ  PA2, P03, PA3, P06, P08, P14 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.ohmite.com/assets/docs/res_200.pdf?r=false"&gt;B20 Series&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/418/4/NG_DS_1773270_M-604713.pdf"&gt;TE Connectivity/Holsworthy RN73 Series&lt;a/&gt;
@@ -4305,6 +4323,28 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="0.081V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="0.12">
+<attribute name="DKPN" value="RHM1241CT-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-UCR03EVPFLR120"/>
+<attribute name="MPN" value="UCR03EVPFLR120"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="0.12"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.173V"/>
+<attribute name="VOLTAGE_MAX" value="" constant="no"/>
+</technology>
+<technology name="0.3">
+<attribute name="DKPN" value="P17395CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-3BQFR30V"/>
+<attribute name="MPN" value="ERJ-3BQFR30V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="0.3"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="0.274V"/>
+<attribute name="VOLTAGE_MAX" value="" constant="no"/>
 </technology>
 <technology name="0.5">
 <attribute name="DKPN" value="311-.5QTR-ND"/>
@@ -4625,6 +4665,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="VOLTAGE_CONTINUOUS" value="43.24V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="18.7K_LT">
+<attribute name="DKPN" value="YAG4485CT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RT0603BRD0718K7L"/>
+<attribute name="MPN" value="RT0603BRD0718K7L"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="18.7k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="43.24V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
 <technology name="180">
 <attribute name="DKPN" value="311-180HRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -4746,6 +4797,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="VOLTAGE_CONTINUOUS" value="47.01V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="225K">
+<attribute name="DKPN" value="764-M55342E12B225BRWS-ND"/>
+<attribute name="MANUFACTURER" value="Vishay Dale Thin Film"/>
+<attribute name="MOPN" value="" constant="no"/>
+<attribute name="MPN" value="M55342E12B225BRWS"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="225K"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="150V"/>
+<attribute name="VOLTAGE_MAX" value="200V"/>
+</technology>
 <technology name="240">
 <attribute name="DKPN" value="311-240HRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -4806,7 +4868,7 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
 <attribute name="MOPN" value="667-ERJ-PB3D3301V"/>
 <attribute name="MPN" value="ERJ-PB3D3301V"/>
-<attribute name="POWER" value="0.2W"/>
+<attribute name="POWER" value="0.3W"/>
 <attribute name="RESISTANCE" value="3.3k"/>
 <attribute name="TOLERANCE" value="0.5%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="25.69V"/>
@@ -4822,6 +4884,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="19.75V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="30">
+<attribute name="DKPN" value="10-ERJ-UP3F30R0VCT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-UP3F30R0V"/>
+<attribute name="MPN" value="ERJ-UP3F30R0V"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="30"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="2.74V"/>
+<attribute name="VOLTAGE_MAX" value="150"/>
 </technology>
 <technology name="30.9K">
 <attribute name="DKPN" value="P20140CT-ND"/>
@@ -4944,6 +5017,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="VOLTAGE_CONTINUOUS" value="20.30V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="4.22M">
+<attribute name="DKPN" value="2019-RK73H1JTTD4224FCT-ND"/>
+<attribute name="MANUFACTURER" value="KOA Speer Electronics, Inc."/>
+<attribute name="MOPN" value="660-RK73H1JTTD4224F"/>
+<attribute name="MPN" value="RK73H1JTTD4224F"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="4.22M"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
+<attribute name="VOLTAGE_MAX" value="100V"/>
+</technology>
 <technology name="4.64K">
 <attribute name="DKPN" value="311-4.64KHRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -4999,6 +5083,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="VOLTAGE_CONTINUOUS" value="65.57V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
+<technology name="43K_LT">
+<attribute name="DKPN" value="YAG4557CT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MOPN" value="603-RT0603BRD0743KL"/>
+<attribute name="MPN" value="RT0603BRD0743KL"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="43k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="65.57V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
 <technology name="470">
 <attribute name="DKPN" value="P470BYCT-ND"/>
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
@@ -5009,6 +5104,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="10.84V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
+<technology name="47K">
+<attribute name="DKPN" value="RG16P47.0KBCT-ND"/>
+<attribute name="MANUFACTURER" value="Susumu"/>
+<attribute name="MOPN" value="754-RG1608P-473-BT5"/>
+<attribute name="MPN" value="RG1608P-473-B-T5"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="47k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="68.56V"/>
+<attribute name="VOLTAGE_MAX" value="75V"/>
 </technology>
 <technology name="5.1">
 <attribute name="DKPN" value="P16039TR-ND"/>
@@ -5087,6 +5193,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="VOLTAGE_CONTINUOUS" value="225.83V"/>
 <attribute name="VOLTAGE_MAX" value="350V"/>
 </technology>
+<technology name="5M">
+<attribute name="DKPN" value="HVC0603T5004FETCT-ND"/>
+<attribute name="MANUFACTURER" value="Ohmite"/>
+<attribute name="MOPN" value="588-HVC0603T5004FET"/>
+<attribute name="MPN" value="HVC0603T5004FET"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="RESISTANCE" value="5M"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
+</technology>
 <technology name="60.4">
 <attribute name="DKPN" value="311-60.4HRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -5108,6 +5225,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="7.87V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="7.5K">
+<attribute name="DKPN" value="P20072CT-ND"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components"/>
+<attribute name="MOPN" value="667-ERJ-PB3B7501V"/>
+<attribute name="MPN" value="ERJ-PB3B7501V"/>
+<attribute name="POWER" value="0.2W"/>
+<attribute name="RESISTANCE" value="7.5k"/>
+<attribute name="TOLERANCE" value="0.1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="38.73V"/>
+<attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
 <technology name="73.2K">
 <attribute name="DKPN" value="P73.2KDBCT-ND"/>
@@ -5624,6 +5752,55 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 </technology>
 </technologies>
 </device>
+<device name="1206" package="1206-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="HV4.99K">
+<attribute name="DKPN" value="RHM4.99KAICT-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR18EZPF4991"/>
+<attribute name="MPN" value="KTR18EZPF4991"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="4.99k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="35.32V"/>
+<attribute name="VOLTAGE_MAX" value="500V"/>
+</technology>
+<technology name="HV46.4K">
+<attribute name="DKPN" value="RHM46.4KAICT-ND"/>
+<attribute name="MANUFACTURER" value="Rohm Semiconductor"/>
+<attribute name="MOPN" value="755-KTR18EZPF4642"/>
+<attribute name="MPN" value="KTR18EZPF4642"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="RESISTANCE" value="46.4k"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="107.7V"/>
+<attribute name="VOLTAGE_MAX" value="500V"/>
+</technology>
+</technologies>
+</device>
+<device name="2512" package="2512-RES">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="HV3K">
+<attribute name="DKPN" value="RMCF2512JT3K00CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MOPN" value="708-RMCF2512JT3K00"/>
+<attribute name="MPN" value="RMCF2512JT3K00"/>
+<attribute name="POWER" value="1W"/>
+<attribute name="RESISTANCE" value="3k"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="54.77V"/>
+<attribute name="VOLTAGE_MAX" value="400V"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TRANSISTOR_N_MOS_?_*" prefix="Q">
@@ -5889,7 +6066,7 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 </technology>
 </technologies>
 </device>
-<device name="0603" package="0603-RES@1">
+<device name="0603" package="0603-RES">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6528,8 +6705,6 @@ Dashed line is edge of mated connector.</description>
 <part name="JP2" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
 <part name="P22" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P23" library="HyTechSupplies" deviceset="+12V" device=""/>
-<part name="CANH_2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="CANL_2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="P24" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P25" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="J14" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK"/>
@@ -6545,6 +6720,12 @@ Dashed line is edge of mated connector.</description>
 <part name="J1" library="HyTechDevices" deviceset="CONNECTOR-20_?_*" device="MF_T_V"/>
 <part name="P8" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="P9" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="CANH_2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="CANL_2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="JP3" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="JP4" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="JP5" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="JP6" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
 </parts>
 <sheets>
 <sheet>
@@ -6553,6 +6734,15 @@ Dashed line is edge of mated connector.</description>
 <text x="91.44" y="91.44" size="1.27" layer="97">Inertia</text>
 <text x="91.44" y="71.12" size="1.27" layer="97">BRB</text>
 <text x="50.8" y="111.76" size="1.27" layer="97">ADD stitching vias</text>
+<text x="78.74" y="162.56" size="1.27" layer="97">Accel/brake pedals</text>
+<text x="78.74" y="58.42" size="1.27" layer="97">Dashboard</text>
+<text x="137.16" y="101.6" size="1.27" layer="97">Steering RS422</text>
+<text x="147.32" y="203.2" size="1.27" layer="97">FL corner board</text>
+<text x="147.32" y="160.02" size="1.27" layer="97">FR corner board</text>
+<text x="205.74" y="203.2" size="1.27" layer="97">Firewall</text>
+<text x="12.7" y="200.66" size="1.27" layer="97">Main ECU
+Board dimension line up exactly</text>
+<text x="83.82" y="200.66" size="1.27" layer="97">Thermistors</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="O" x="0" y="0" smashed="yes">
@@ -6642,14 +6832,6 @@ Dashed line is edge of mated connector.</description>
 <instance part="P21" gate="1" x="104.14" y="170.18" smashed="yes">
 <attribute name="VALUE" x="104.14" y="168.91" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="CANH_2" gate="G$1" x="256.54" y="195.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="259.08" y="193.802" size="1.27" layer="95" rot="R180"/>
-<attribute name="MPN" x="259.08" y="197.358" size="1.27" layer="95" rot="R180" align="top-left"/>
-</instance>
-<instance part="CANL_2" gate="G$1" x="264.16" y="193.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="266.7" y="191.262" size="1.27" layer="95" rot="R180"/>
-<attribute name="MPN" x="266.7" y="194.818" size="1.27" layer="95" rot="R180" align="top-left"/>
-</instance>
 <instance part="P24" gate="1" x="160.02" y="99.06" smashed="yes">
 <attribute name="VALUE" x="160.02" y="101.6" size="1.27" layer="96" align="bottom-center"/>
 </instance>
@@ -6700,6 +6882,30 @@ Dashed line is edge of mated connector.</description>
 <instance part="P9" gate="1" x="233.68" y="137.16" smashed="yes">
 <attribute name="VALUE" x="233.68" y="135.89" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="CANH_2" gate="G$1" x="256.54" y="195.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="259.08" y="193.802" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="259.08" y="197.358" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="CANL_2" gate="G$1" x="264.16" y="193.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="266.7" y="191.262" size="1.27" layer="95" rot="R180"/>
+<attribute name="MPN" x="266.7" y="194.818" size="1.27" layer="95" rot="R180" align="top-left"/>
+</instance>
+<instance part="JP3" gate="G$1" x="33.02" y="71.12" smashed="yes">
+<attribute name="NAME" x="29.464" y="69.596" size="1.27" layer="95"/>
+<attribute name="MPN" x="38.862" y="70.612" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="JP4" gate="G$1" x="40.64" y="68.58" smashed="yes">
+<attribute name="NAME" x="36.83" y="66.802" size="1.27" layer="95"/>
+<attribute name="MPN" x="46.99" y="67.818" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="JP5" gate="G$1" x="33.02" y="66.04" smashed="yes">
+<attribute name="NAME" x="29.464" y="64.008" size="1.27" layer="95"/>
+<attribute name="MPN" x="39.116" y="65.024" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="JP6" gate="G$1" x="40.64" y="63.5" smashed="yes">
+<attribute name="NAME" x="36.83" y="61.468" size="1.27" layer="95"/>
+<attribute name="MPN" x="46.736" y="62.484" size="1.27" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6747,15 +6953,15 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="20"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<label x="236.22" y="193.04" size="1.27" layer="95" xref="yes"/>
-<pinref part="CANL_2" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="193.04" x2="220.98" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="220.98" y1="190.5" x2="236.22" y2="190.5" width="0.1524" layer="91"/>
 <label x="236.22" y="190.5" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<label x="236.22" y="193.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="CANL_2" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="193.04" x2="261.62" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH_2" class="0">
@@ -6765,15 +6971,15 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J6" gate="G$1" pin="19"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<label x="236.22" y="195.58" size="1.27" layer="95" xref="yes"/>
-<pinref part="CANH_2" gate="G$1" pin="1"/>
-<wire x1="254" y1="195.58" x2="220.98" y2="195.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="220.98" y1="187.96" x2="236.22" y2="187.96" width="0.1524" layer="91"/>
 <label x="236.22" y="187.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<label x="236.22" y="195.58" size="1.27" layer="95" xref="yes"/>
+<pinref part="CANH_2" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="195.58" x2="254" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHDN_B" class="0">
@@ -6841,50 +7047,50 @@ Dashed line is edge of mated connector.</description>
 </net>
 <net name="BRAKE_1_EXT" class="0">
 <segment>
-<pinref part="J7" gate="G$1" pin="18"/>
-<wire x1="27.94" y1="60.96" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
-<label x="33.02" y="60.96" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <wire x1="99.06" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
 <label x="104.14" y="142.24" size="1.27" layer="95" xref="yes"/>
 <pinref part="J15" gate="G$1" pin="7"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
+<label x="63.5" y="60.96" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="BRAKE_2_EXT" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="17"/>
-<wire x1="27.94" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
-<label x="33.02" y="63.5" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="99.06" y1="144.78" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
 <label x="104.14" y="144.78" size="1.27" layer="95" xref="yes"/>
 <pinref part="J15" gate="G$1" pin="6"/>
 </segment>
+<segment>
+<pinref part="JP5" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
+<label x="55.88" y="63.5" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="ACCEL_1_EXT" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="15"/>
-<wire x1="27.94" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
-<label x="33.02" y="68.58" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="4"/>
 <wire x1="99.06" y1="149.86" x2="104.14" y2="149.86" width="0.1524" layer="91"/>
 <label x="104.14" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
+<label x="55.88" y="68.58" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="ACCEL_2_EXT" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="16"/>
-<wire x1="27.94" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
-<label x="33.02" y="66.04" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="5"/>
 <wire x1="99.06" y1="147.32" x2="104.14" y2="147.32" width="0.1524" layer="91"/>
 <label x="104.14" y="147.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<label x="63.5" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -7404,6 +7610,34 @@ Dashed line is edge of mated connector.</description>
 <pinref part="J1" gate="G$1" pin="17"/>
 <wire x1="220.98" y1="154.94" x2="236.22" y2="154.94" width="0.1524" layer="91"/>
 <label x="236.22" y="154.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="15"/>
+<pinref part="JP3" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="16"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="17"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="18"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="27.94" y1="60.96" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
