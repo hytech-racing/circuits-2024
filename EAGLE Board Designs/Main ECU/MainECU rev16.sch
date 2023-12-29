@@ -8928,6 +8928,18 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="D1" library="HyTechDevices" deviceset="ZENER_?_*" device="1.5SMBJ" technology="12V"/>
 <part name="R127" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K"/>
 <part name="P204" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="JP5" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="JP6" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="JP7" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="JP8" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="R128" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="20K"/>
+<part name="R129" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="20K"/>
+<part name="R130" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="20K"/>
+<part name="R150" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="20K"/>
+<part name="P205" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P206" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P207" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="P208" library="HyTechSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14086,8 +14098,8 @@ worst case input supply short circuit </text>
 0.65x gain</text>
 <text x="83.82" y="116.84" size="1.27" layer="97">4.891 to 3.187
 0.65x gain</text>
-<text x="210.82" y="134.62" size="1.27" layer="97">0.6x gain</text>
-<text x="210.82" y="195.58" size="1.27" layer="97">0.6x gain</text>
+<text x="223.52" y="134.62" size="1.27" layer="97">0.6x gain</text>
+<text x="220.98" y="195.58" size="1.27" layer="97">0.6x gain</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
@@ -14316,16 +14328,16 @@ worst case input supply short circuit </text>
 <instance part="P126" gate="1" x="241.3" y="149.86" smashed="yes">
 <attribute name="VALUE" x="241.3" y="148.59" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R88" gate="G$1" x="193.04" y="203.2" smashed="yes">
-<attribute name="NAME" x="191.77" y="204.47" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="191.77" y="201.93" size="1.27" layer="96" align="top-center"/>
+<instance part="R88" gate="G$1" x="203.2" y="203.2" smashed="yes">
+<attribute name="NAME" x="201.93" y="204.47" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="201.93" y="201.93" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R89" gate="G$1" x="200.66" y="198.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="199.39" y="196.85" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="201.93" y="196.85" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R89" gate="G$1" x="210.82" y="198.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="209.55" y="196.85" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="212.09" y="196.85" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P134" gate="1" x="200.66" y="187.96" smashed="yes">
-<attribute name="VALUE" x="200.66" y="186.69" size="1.27" layer="96" align="top-center"/>
+<instance part="P134" gate="1" x="210.82" y="187.96" smashed="yes">
+<attribute name="VALUE" x="210.82" y="186.69" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U20" gate="A" x="182.88" y="109.22" smashed="yes">
 <attribute name="NAME" x="185.293" y="112.268" size="1.27" layer="95"/>
@@ -14399,16 +14411,16 @@ worst case input supply short circuit </text>
 <instance part="P140" gate="1" x="243.84" y="88.9" smashed="yes">
 <attribute name="VALUE" x="243.84" y="87.63" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R95" gate="G$1" x="195.58" y="142.24" smashed="yes">
-<attribute name="NAME" x="194.31" y="143.51" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="194.31" y="140.97" size="1.27" layer="96" align="top-center"/>
+<instance part="R95" gate="G$1" x="208.28" y="142.24" smashed="yes">
+<attribute name="NAME" x="207.01" y="143.51" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="207.01" y="140.97" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R96" gate="G$1" x="203.2" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="201.93" y="135.89" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="204.47" y="135.89" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R96" gate="G$1" x="215.9" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="214.63" y="135.89" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="217.17" y="135.89" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P141" gate="1" x="203.2" y="127" smashed="yes">
-<attribute name="VALUE" x="203.2" y="125.73" size="1.27" layer="96" align="top-center"/>
+<instance part="P141" gate="1" x="215.9" y="127" smashed="yes">
+<attribute name="VALUE" x="215.9" y="125.73" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U21" gate="A" x="40.64" y="71.12" smashed="yes">
 <attribute name="NAME" x="43.053" y="74.168" size="1.27" layer="95"/>
@@ -14482,16 +14494,16 @@ worst case input supply short circuit </text>
 <instance part="P147" gate="1" x="101.6" y="45.72" smashed="yes">
 <attribute name="VALUE" x="101.6" y="44.45" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R102" gate="G$1" x="48.26" y="93.98" smashed="yes">
-<attribute name="NAME" x="46.99" y="95.25" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="46.99" y="92.71" size="1.27" layer="96" align="top-center"/>
+<instance part="R102" gate="G$1" x="60.96" y="99.06" smashed="yes">
+<attribute name="NAME" x="59.69" y="100.33" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="59.69" y="97.79" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R103" gate="G$1" x="55.88" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.61" y="87.63" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="57.15" y="87.63" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R103" gate="G$1" x="68.58" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="67.31" y="92.71" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="69.85" y="92.71" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P149" gate="1" x="55.88" y="78.74" smashed="yes">
-<attribute name="VALUE" x="55.88" y="77.47" size="1.27" layer="96" align="top-center"/>
+<instance part="P149" gate="1" x="68.58" y="83.82" smashed="yes">
+<attribute name="VALUE" x="68.58" y="82.55" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="U22" gate="A" x="43.18" y="22.86" smashed="yes">
 <attribute name="NAME" x="45.593" y="25.908" size="1.27" layer="95"/>
@@ -14565,16 +14577,32 @@ worst case input supply short circuit </text>
 <instance part="P169" gate="1" x="104.14" y="4.064" smashed="yes">
 <attribute name="VALUE" x="104.14" y="2.794" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R109" gate="G$1" x="53.34" y="45.72" smashed="yes">
-<attribute name="NAME" x="52.07" y="46.99" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="52.07" y="44.45" size="1.27" layer="96" align="top-center"/>
+<instance part="R109" gate="G$1" x="63.5" y="49.53" smashed="yes">
+<attribute name="NAME" x="62.23" y="50.8" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="62.23" y="48.26" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="R110" gate="G$1" x="60.96" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.69" y="39.37" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="62.23" y="39.37" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="R110" gate="G$1" x="71.12" y="44.45" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.85" y="43.18" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="72.39" y="43.18" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P170" gate="1" x="60.96" y="30.48" smashed="yes">
-<attribute name="VALUE" x="60.96" y="29.21" size="1.27" layer="96" align="top-center"/>
+<instance part="P170" gate="1" x="71.12" y="34.29" smashed="yes">
+<attribute name="VALUE" x="71.12" y="33.02" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="JP5" gate="G$1" x="48.26" y="101.6" smashed="yes">
+<attribute name="NAME" x="48.26" y="104.14" size="1.27" layer="95"/>
+<attribute name="MPN" x="43.18" y="93.218" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="JP6" gate="G$1" x="49.022" y="52.07" smashed="yes">
+<attribute name="NAME" x="49.022" y="54.61" size="1.27" layer="95"/>
+<attribute name="MPN" x="49.022" y="58.928" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="JP7" gate="G$1" x="193.04" y="144.78" smashed="yes">
+<attribute name="NAME" x="193.04" y="147.32" size="1.27" layer="95"/>
+<attribute name="MPN" x="193.04" y="151.638" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="JP8" gate="G$1" x="190.5" y="205.74" smashed="yes">
+<attribute name="NAME" x="190.5" y="208.28" size="1.27" layer="95"/>
+<attribute name="MPN" x="187.96" y="194.818" size="1.27" layer="96" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -14692,7 +14720,7 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="R89" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="193.04" x2="200.66" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="193.04" x2="210.82" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="P134" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -14720,7 +14748,7 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="R96" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="132.08" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="132.08" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="P141" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -14748,7 +14776,7 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="R103" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="83.82" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="88.9" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="P149" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -14776,7 +14804,7 @@ worst case input supply short circuit </text>
 </segment>
 <segment>
 <pinref part="R110" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="35.56" x2="60.96" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="39.37" x2="71.12" y2="36.83" width="0.1524" layer="91"/>
 <pinref part="P170" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -15047,24 +15075,17 @@ worst case input supply short circuit </text>
 <net name="ACCEL_1_3V3" class="0">
 <segment>
 <pinref part="R88" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="203.2" x2="200.66" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="203.2" x2="210.82" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="R89" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="203.2" x2="200.66" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="203.2" x2="205.74" y2="203.2" width="0.1524" layer="91"/>
-<junction x="200.66" y="203.2"/>
-<label x="205.74" y="203.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="210.82" y1="203.2" x2="210.82" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="203.2" x2="215.9" y2="203.2" width="0.1524" layer="91"/>
+<junction x="210.82" y="203.2"/>
+<label x="215.9" y="203.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R83" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="172.72" x2="147.32" y2="172.72" width="0.1524" layer="91"/>
 <label x="147.32" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ACCEL_1_EXT" class="0">
-<segment>
-<pinref part="R88" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="203.2" x2="185.42" y2="203.2" width="0.1524" layer="91"/>
-<label x="185.42" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -15128,24 +15149,17 @@ worst case input supply short circuit </text>
 <net name="ACCEL_2_3V3" class="0">
 <segment>
 <pinref part="R95" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="142.24" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R96" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="142.24" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="142.24" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
-<junction x="203.2" y="142.24"/>
-<label x="208.28" y="142.24" size="1.27" layer="95" xref="yes"/>
+<wire x1="215.9" y1="142.24" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="142.24" x2="220.98" y2="142.24" width="0.1524" layer="91"/>
+<junction x="215.9" y="142.24"/>
+<label x="220.98" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R90" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 <label x="149.86" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ACCEL_2_EXT" class="0">
-<segment>
-<pinref part="R95" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="142.24" x2="187.96" y2="142.24" width="0.1524" layer="91"/>
-<label x="187.96" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$77" class="0">
@@ -15231,24 +15245,17 @@ worst case input supply short circuit </text>
 <net name="BRAKE_1_3V3" class="0">
 <segment>
 <pinref part="R102" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R103" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="93.98" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
-<junction x="55.88" y="93.98"/>
-<label x="60.96" y="93.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="68.58" y1="99.06" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
+<junction x="68.58" y="99.06"/>
+<label x="73.66" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R97" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="73.66" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
 <label x="7.62" y="73.66" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="BRAKE_1_EXT" class="0">
-<segment>
-<pinref part="R102" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
-<label x="40.64" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$88" class="0">
@@ -15335,22 +15342,15 @@ worst case input supply short circuit </text>
 <net name="BRAKE_2_3V3" class="0">
 <segment>
 <pinref part="R109" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="49.53" x2="71.12" y2="49.53" width="0.1524" layer="91"/>
 <pinref part="R110" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="45.72" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
-<label x="60.96" y="45.72" size="1.27" layer="95" xref="yes"/>
+<wire x1="71.12" y1="49.53" x2="71.12" y2="46.99" width="0.1524" layer="91"/>
+<label x="71.12" y="49.53" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R104" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="25.4" x2="10.16" y2="25.4" width="0.1524" layer="91"/>
 <label x="10.16" y="25.4" size="1.27" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="BRAKE_2_EXT" class="0">
-<segment>
-<pinref part="R109" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
-<label x="45.72" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$72" class="0">
@@ -15374,6 +15374,62 @@ worst case input supply short circuit </text>
 <wire x1="218.44" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="106.68" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
 <junction x="218.44" y="109.22"/>
+</segment>
+</net>
+<net name="N$103" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="R102" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BRAKE_1_EXT" class="0">
+<segment>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="99.06" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
+<label x="45.72" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$104" class="0">
+<segment>
+<pinref part="R88" gate="G$1" pin="1"/>
+<pinref part="JP8" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="203.2" x2="195.58" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ACCEL_1_EXT" class="0">
+<segment>
+<pinref part="JP8" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="203.2" x2="187.96" y2="203.2" width="0.1524" layer="91"/>
+<label x="187.96" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$105" class="0">
+<segment>
+<pinref part="R95" gate="G$1" pin="1"/>
+<pinref part="JP7" gate="G$1" pin="2"/>
+<wire x1="203.2" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ACCEL_2_EXT" class="0">
+<segment>
+<pinref part="JP7" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="142.24" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
+<label x="190.5" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$106" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="R109" gate="G$1" pin="1"/>
+<wire x1="54.102" y1="49.53" x2="58.42" y2="49.53" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BRAKE_2_EXT" class="0">
+<segment>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="49.022" y1="49.53" x2="45.974" y2="49.53" width="0.1524" layer="91"/>
+<label x="45.72" y="49.53" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -16237,6 +16293,34 @@ signal will change very slowly so no need to mega filter</text>
 <instance part="P202" gate="1" x="170.18" y="71.12" smashed="yes">
 <attribute name="VALUE" x="170.18" y="69.85" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="R128" gate="G$1" x="129.54" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="128.27" y="135.89" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="130.81" y="135.89" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R129" gate="G$1" x="121.92" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="120.65" y="168.91" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="123.19" y="168.91" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R130" gate="G$1" x="264.16" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="262.89" y="151.13" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="265.43" y="151.13" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="R150" gate="G$1" x="261.62" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="260.35" y="74.93" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="262.89" y="74.93" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="P205" gate="1" x="121.92" y="162.56" smashed="yes">
+<attribute name="VALUE" x="121.92" y="161.29" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P206" gate="1" x="129.54" y="129.54" smashed="yes">
+<attribute name="VALUE" x="129.54" y="128.27" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P207" gate="1" x="261.62" y="68.58" smashed="yes">
+<attribute name="VALUE" x="261.62" y="67.31" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="P208" gate="1" x="264.16" y="144.78" smashed="yes">
+<attribute name="VALUE" x="264.16" y="143.51" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16255,6 +16339,9 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="116.84" y1="144.78" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
 <junction x="116.84" y="144.78"/>
 <label x="116.84" y="144.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="116.84" y1="144.78" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="144.78" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R128" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SUS_POT_1" class="0">
@@ -16271,6 +16358,9 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="111.76" y1="190.5" x2="111.76" y2="177.8" width="0.1524" layer="91"/>
 <junction x="111.76" y="177.8"/>
 <label x="111.76" y="177.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="R129" gate="G$1" pin="2"/>
+<wire x1="111.76" y1="177.8" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="177.8" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16371,6 +16461,22 @@ signal will change very slowly so no need to mega filter</text>
 <pinref part="C90" gate="G$1" pin="1"/>
 <pinref part="P200" gate="1" pin="GND"/>
 <wire x1="241.3" y1="152.4" x2="241.3" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R129" gate="G$1" pin="1"/>
+<pinref part="P205" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R128" gate="G$1" pin="1"/>
+<pinref part="P206" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R150" gate="G$1" pin="1"/>
+<pinref part="P207" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R130" gate="G$1" pin="1"/>
+<pinref part="P208" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -16664,6 +16770,9 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="241.3" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="78.74" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
 <junction x="256.54" y="83.82"/>
+<wire x1="256.54" y1="83.82" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R150" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="83.82" x2="261.62" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FL_CORNER" class="0">
@@ -16679,6 +16788,9 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="246.38" y1="154.94" x2="259.08" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="154.94" x2="259.08" y2="160.02" width="0.1524" layer="91"/>
 <junction x="259.08" y="160.02"/>
+<pinref part="R130" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="160.02" x2="264.16" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="160.02" x2="264.16" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
