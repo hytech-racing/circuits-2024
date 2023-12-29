@@ -6722,10 +6722,10 @@ Dashed line is edge of mated connector.</description>
 <part name="P9" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="CANH_2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="CANL_2" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="JP3" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
-<part name="JP4" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
-<part name="JP5" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
-<part name="JP6" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="ACCEL1" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="ACCEL2" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="BRAKE2" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
+<part name="BRAKE1" library="HyTechDevices" deviceset="JUMPER_?_*" device="" technology="1X02"/>
 </parts>
 <sheets>
 <sheet>
@@ -6890,19 +6890,19 @@ Board dimension line up exactly</text>
 <attribute name="NAME" x="266.7" y="191.262" size="1.27" layer="95" rot="R180"/>
 <attribute name="MPN" x="266.7" y="194.818" size="1.27" layer="95" rot="R180" align="top-left"/>
 </instance>
-<instance part="JP3" gate="G$1" x="33.02" y="71.12" smashed="yes">
+<instance part="ACCEL1" gate="G$1" x="33.02" y="71.12" smashed="yes">
 <attribute name="NAME" x="29.464" y="69.596" size="1.27" layer="95"/>
 <attribute name="MPN" x="38.862" y="70.612" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="JP4" gate="G$1" x="40.64" y="68.58" smashed="yes">
+<instance part="ACCEL2" gate="G$1" x="40.64" y="68.58" smashed="yes">
 <attribute name="NAME" x="36.83" y="66.802" size="1.27" layer="95"/>
 <attribute name="MPN" x="46.99" y="67.818" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="JP5" gate="G$1" x="33.02" y="66.04" smashed="yes">
+<instance part="BRAKE2" gate="G$1" x="33.02" y="66.04" smashed="yes">
 <attribute name="NAME" x="29.464" y="64.008" size="1.27" layer="95"/>
 <attribute name="MPN" x="39.116" y="65.024" size="1.27" layer="96" align="top-left"/>
 </instance>
-<instance part="JP6" gate="G$1" x="40.64" y="63.5" smashed="yes">
+<instance part="BRAKE1" gate="G$1" x="40.64" y="63.5" smashed="yes">
 <attribute name="NAME" x="36.83" y="61.468" size="1.27" layer="95"/>
 <attribute name="MPN" x="46.736" y="62.484" size="1.27" layer="96" align="top-left"/>
 </instance>
@@ -7052,7 +7052,7 @@ Board dimension line up exactly</text>
 <pinref part="J15" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="BRAKE1" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
 <label x="63.5" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7064,7 +7064,7 @@ Board dimension line up exactly</text>
 <pinref part="J15" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="BRAKE2" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="63.5" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
 <label x="55.88" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7076,7 +7076,7 @@ Board dimension line up exactly</text>
 <label x="104.14" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="ACCEL1" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
 <label x="55.88" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7088,7 +7088,7 @@ Board dimension line up exactly</text>
 <label x="104.14" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="ACCEL2" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 <label x="63.5" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7615,28 +7615,28 @@ Board dimension line up exactly</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="15"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="ACCEL1" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="68.58" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="16"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="ACCEL2" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="17"/>
-<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="BRAKE2" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="18"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="BRAKE1" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="60.96" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
