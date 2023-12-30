@@ -13044,13 +13044,6 @@ worst case input supply short circuit </text>
 <label x="205.74" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="STEERING_1" class="0">
-<segment>
-<wire x1="48.26" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="CH7"/>
-<label x="50.8" y="147.32" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="SHDN_F_READ" class="0">
 <segment>
 <wire x1="213.36" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
@@ -13171,37 +13164,9 @@ worst case input supply short circuit </text>
 </net>
 <net name="BRAKE_1" class="0">
 <segment>
-<wire x1="48.26" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="CH5"/>
-<label x="50.8" y="152.4" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="BRAKE_2" class="0">
-<segment>
 <wire x1="48.26" y1="157.48" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="CH3"/>
 <label x="50.8" y="157.48" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ACCEL_1" class="0">
-<segment>
-<wire x1="48.26" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="CH2"/>
-<label x="50.8" y="160.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ACCEL_2" class="0">
-<segment>
-<wire x1="48.26" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="CH1"/>
-<label x="50.8" y="162.56" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="24V_SENSE_ECU" class="0">
-<segment>
-<wire x1="48.26" y1="154.94" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="CH4"/>
-<label x="50.8" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKELIGHT_EN" class="0">
@@ -13216,20 +13181,6 @@ worst case input supply short circuit </text>
 <wire x1="238.76" y1="96.52" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
 <label x="246.38" y="96.52" size="1.27" layer="95" xref="yes"/>
 <pinref part="A2" gate="G$1" pin="D8"/>
-</segment>
-</net>
-<net name="CURRENT_3V3" class="0">
-<segment>
-<wire x1="48.26" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="CH6"/>
-<label x="50.8" y="149.86" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="REFERENCE_3V3" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="CH0"/>
-<wire x1="48.26" y1="165.1" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
-<label x="50.8" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -13257,6 +13208,103 @@ worst case input supply short circuit </text>
 <wire x1="213.36" y1="83.82" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
 <label x="205.74" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="A2" gate="G$1" pin="A8"/>
+</segment>
+</net>
+<net name="STEERING_2" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="CH0"/>
+<wire x1="48.26" y1="165.1" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
+<label x="50.8" y="165.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SUS_POT_2" class="0">
+<segment>
+<wire x1="48.26" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH1"/>
+<label x="50.8" y="162.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CURRENT" class="0">
+<segment>
+<wire x1="48.26" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH2"/>
+<label x="50.8" y="160.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="REFERENCE" class="0">
+<segment>
+<wire x1="48.26" y1="154.94" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH4"/>
+<label x="50.8" y="154.94" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BRAKE_2" class="0">
+<segment>
+<wire x1="48.26" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH5"/>
+<label x="50.8" y="152.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM_FL" class="0">
+<segment>
+<wire x1="48.26" y1="149.86" x2="50.8" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH6"/>
+<label x="50.8" y="149.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="THERM_FR" class="0">
+<segment>
+<wire x1="48.26" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="CH7"/>
+<label x="50.8" y="147.32" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="CH0"/>
+<wire x1="119.38" y1="165.1" x2="121.92" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$107" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="CH1"/>
+<wire x1="119.38" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$108" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="CH2"/>
+<wire x1="119.38" y1="160.02" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$109" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="CH3"/>
+<wire x1="119.38" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$110" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="CH4"/>
+<wire x1="119.38" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$111" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="CH5"/>
+<wire x1="119.38" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$112" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="CH6"/>
+<wire x1="119.38" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$113" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="CH7"/>
+<wire x1="119.38" y1="147.32" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
