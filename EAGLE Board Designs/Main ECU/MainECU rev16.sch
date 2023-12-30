@@ -12743,6 +12743,12 @@ worst case input supply short circuit </text>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="P50" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="P12" gate="1" pin="GND"/>
+<wire x1="121.92" y1="142.24" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="AGND"/>
+<wire x1="121.92" y1="144.78" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAN_ECU_RX2" class="0">
 <segment>
@@ -12912,13 +12918,6 @@ worst case input supply short circuit </text>
 <wire x1="116.84" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
 <label x="119.38" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="U4" gate="G$1" pin="CANL"/>
-</segment>
-</net>
-<net name="WATCHDOG" class="0">
-<segment>
-<wire x1="238.76" y1="124.46" x2="246.38" y2="124.46" width="0.1524" layer="91"/>
-<label x="246.38" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="A2" gate="G$1" pin="D32"/>
 </segment>
 </net>
 <net name="ECU_SDO" class="0">
@@ -13176,21 +13175,6 @@ worst case input supply short circuit </text>
 <label x="246.38" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SOFTWARE_OK" class="0">
-<segment>
-<wire x1="238.76" y1="96.52" x2="246.38" y2="96.52" width="0.1524" layer="91"/>
-<label x="246.38" y="96.52" size="1.27" layer="95" xref="yes"/>
-<pinref part="A2" gate="G$1" pin="D8"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<wire x1="119.38" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="144.78" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="P12" gate="1" pin="GND"/>
-<pinref part="U2" gate="G$1" pin="AGND"/>
-</segment>
-</net>
 <net name="!AD2_CS" class="0">
 <segment>
 <wire x1="93.98" y1="152.4" x2="91.44" y2="152.4" width="0.1524" layer="91"/>
@@ -13312,6 +13296,20 @@ worst case input supply short circuit </text>
 <wire x1="48.26" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
 <label x="50.8" y="147.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="U6" gate="G$1" pin="CH7"/>
+</segment>
+</net>
+<net name="WATCHDOG" class="0">
+<segment>
+<wire x1="238.76" y1="134.62" x2="246.38" y2="134.62" width="0.1524" layer="91"/>
+<label x="246.38" y="134.62" size="1.27" layer="95" xref="yes"/>
+<pinref part="A2" gate="G$1" pin="D35"/>
+</segment>
+</net>
+<net name="SOFTWARE_OK" class="0">
+<segment>
+<wire x1="238.76" y1="116.84" x2="246.38" y2="116.84" width="0.1524" layer="91"/>
+<label x="246.38" y="116.84" size="1.27" layer="95" xref="yes"/>
+<pinref part="A2" gate="G$1" pin="D29"/>
 </segment>
 </net>
 </nets>
