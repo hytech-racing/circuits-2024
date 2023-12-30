@@ -8881,22 +8881,12 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P97" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P53" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P55" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="U28" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
-<part name="U33" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
-<part name="U34" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
-<part name="U35" library="HyTechDevices" deviceset="OPAMP_1_CHANNEL_*" device="" technology="OPA991"/>
 <part name="P99" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C54" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P125" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P130" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C55" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="P131" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="P133" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="C65" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
 <part name="P187" library="HyTechSupplies" deviceset="+3V3" device=""/>
-<part name="P188" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="C66" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_0.1UF"/>
-<part name="P189" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="R55" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="R75" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
 <part name="R76" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="7.5K"/>
@@ -8940,6 +8930,8 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P206" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P207" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P208" library="HyTechSupplies" deviceset="GND" device=""/>
+<part name="U28" library="HyTechDevices" deviceset="OPAMP_2_CHANNEL_*" device="OPA_2991"/>
+<part name="U33" library="HyTechDevices" deviceset="OPAMP_2_CHANNEL_*" device="OPA_2991"/>
 </parts>
 <sheets>
 <sheet>
@@ -16111,38 +16103,6 @@ signal will change very slowly so no need to mega filter</text>
 <instance part="P55" gate="G$1" x="33.02" y="195.58" smashed="yes">
 <attribute name="VALUE" x="33.02" y="196.85" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U28" gate="A" x="203.2" y="86.36" smashed="yes">
-<attribute name="NAME" x="205.613" y="89.408" size="1.27" layer="95"/>
-<attribute name="MPN" x="205.613" y="83.312" size="1.27" layer="96" align="top-left"/>
-</instance>
-<instance part="U28" gate="P" x="167.64" y="121.92" smashed="yes">
-<attribute name="NAME" x="167.64" y="122.682" size="1.27" layer="95"/>
-<attribute name="MPN" x="167.64" y="108.458" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="U33" gate="A" x="243.84" y="83.82" smashed="yes">
-<attribute name="NAME" x="246.253" y="86.868" size="1.27" layer="95"/>
-<attribute name="MPN" x="246.253" y="80.772" size="1.27" layer="96" align="top-left"/>
-</instance>
-<instance part="U33" gate="P" x="187.96" y="121.92" smashed="yes">
-<attribute name="NAME" x="187.96" y="122.682" size="1.27" layer="95"/>
-<attribute name="MPN" x="187.96" y="108.458" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="U34" gate="A" x="210.82" y="162.56" smashed="yes">
-<attribute name="NAME" x="213.233" y="165.608" size="1.27" layer="95"/>
-<attribute name="MPN" x="213.233" y="159.512" size="1.27" layer="96" align="top-left"/>
-</instance>
-<instance part="U34" gate="P" x="152.4" y="203.2" smashed="yes">
-<attribute name="NAME" x="152.4" y="203.962" size="1.27" layer="95"/>
-<attribute name="MPN" x="152.4" y="189.738" size="1.27" layer="95" align="top-left"/>
-</instance>
-<instance part="U35" gate="A" x="248.92" y="160.02" smashed="yes">
-<attribute name="NAME" x="251.333" y="163.068" size="1.27" layer="95"/>
-<attribute name="MPN" x="251.333" y="156.972" size="1.27" layer="96" align="top-left"/>
-</instance>
-<instance part="U35" gate="P" x="172.72" y="203.2" smashed="yes">
-<attribute name="NAME" x="172.72" y="203.962" size="1.27" layer="95"/>
-<attribute name="MPN" x="172.72" y="189.738" size="1.27" layer="95" align="top-left"/>
-</instance>
 <instance part="P99" gate="1" x="182.88" y="104.14" smashed="yes">
 <attribute name="VALUE" x="182.88" y="102.87" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -16154,17 +16114,6 @@ signal will change very slowly so no need to mega filter</text>
 <instance part="P125" gate="G$1" x="182.88" y="124.46" smashed="yes">
 <attribute name="VALUE" x="182.88" y="125.73" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P130" gate="1" x="203.2" y="104.14" smashed="yes">
-<attribute name="VALUE" x="203.2" y="102.87" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="C55" gate="G$1" x="203.2" y="116.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="200.66" y="115.57" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="205.74" y="115.57" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="207.518" y="115.57" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="P131" gate="G$1" x="203.2" y="124.46" smashed="yes">
-<attribute name="VALUE" x="203.2" y="125.73" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="P133" gate="1" x="167.64" y="185.42" smashed="yes">
 <attribute name="VALUE" x="167.64" y="184.15" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -16175,17 +16124,6 @@ signal will change very slowly so no need to mega filter</text>
 </instance>
 <instance part="P187" gate="G$1" x="167.64" y="205.74" smashed="yes">
 <attribute name="VALUE" x="167.64" y="207.01" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P188" gate="1" x="187.96" y="185.42" smashed="yes">
-<attribute name="VALUE" x="187.96" y="184.15" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="C66" gate="G$1" x="187.96" y="198.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="185.42" y="196.85" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="190.5" y="196.85" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="192.278" y="196.85" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="P189" gate="G$1" x="187.96" y="205.74" smashed="yes">
-<attribute name="VALUE" x="187.96" y="207.01" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R55" gate="G$1" x="175.26" y="165.1" smashed="yes">
 <attribute name="NAME" x="173.99" y="166.37" size="1.27" layer="95" align="bottom-center"/>
@@ -16321,6 +16259,30 @@ signal will change very slowly so no need to mega filter</text>
 <instance part="P208" gate="1" x="264.16" y="144.78" smashed="yes">
 <attribute name="VALUE" x="264.16" y="143.51" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="U28" gate="A" x="210.82" y="162.56" smashed="yes">
+<attribute name="NAME" x="213.233" y="165.608" size="1.27" layer="95"/>
+<attribute name="MPN" x="213.233" y="159.512" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="U28" gate="P" x="152.4" y="203.2" smashed="yes">
+<attribute name="NAME" x="152.4" y="203.962" size="1.27" layer="95"/>
+<attribute name="MPN" x="152.4" y="189.738" size="1.27" layer="95" align="top-left"/>
+</instance>
+<instance part="U28" gate="B" x="248.92" y="160.02" smashed="yes">
+<attribute name="NAME" x="251.333" y="163.068" size="1.27" layer="95"/>
+<attribute name="MPN" x="251.333" y="156.972" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="U33" gate="A" x="203.2" y="86.36" smashed="yes">
+<attribute name="NAME" x="205.613" y="89.408" size="1.27" layer="95"/>
+<attribute name="MPN" x="205.613" y="83.312" size="1.27" layer="96" align="top-left"/>
+</instance>
+<instance part="U33" gate="P" x="167.64" y="121.92" smashed="yes">
+<attribute name="NAME" x="167.64" y="122.682" size="1.27" layer="95"/>
+<attribute name="MPN" x="167.64" y="108.458" size="1.27" layer="95" align="top-left"/>
+</instance>
+<instance part="U33" gate="B" x="243.84" y="83.82" smashed="yes">
+<attribute name="NAME" x="246.253" y="86.868" size="1.27" layer="95"/>
+<attribute name="MPN" x="246.253" y="80.772" size="1.27" layer="96" align="top-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16406,14 +16368,6 @@ signal will change very slowly so no need to mega filter</text>
 <pinref part="P99" gate="1" pin="GND"/>
 <wire x1="182.88" y1="111.76" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
 <junction x="182.88" y="111.76"/>
-<pinref part="U28" gate="P" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C55" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="111.76" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="P130" gate="1" pin="GND"/>
-<wire x1="203.2" y1="111.76" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
-<junction x="203.2" y="111.76"/>
 <pinref part="U33" gate="P" pin="GND"/>
 </segment>
 <segment>
@@ -16422,15 +16376,7 @@ signal will change very slowly so no need to mega filter</text>
 <pinref part="P133" gate="1" pin="GND"/>
 <wire x1="167.64" y1="193.04" x2="167.64" y2="187.96" width="0.1524" layer="91"/>
 <junction x="167.64" y="193.04"/>
-<pinref part="U34" gate="P" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C66" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="193.04" x2="182.88" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="P188" gate="1" pin="GND"/>
-<wire x1="187.96" y1="193.04" x2="187.96" y2="187.96" width="0.1524" layer="91"/>
-<junction x="187.96" y="193.04"/>
-<pinref part="U35" gate="P" pin="GND"/>
+<pinref part="U28" gate="P" pin="GND"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="152.4" x2="180.34" y2="154.94" width="0.1524" layer="91"/>
@@ -16580,14 +16526,6 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="182.88" y1="119.38" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
 <junction x="182.88" y="119.38"/>
 <pinref part="P125" gate="G$1" pin="+3V3"/>
-<pinref part="U28" gate="P" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="C55" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="119.38" x2="203.2" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="119.38" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
-<junction x="203.2" y="119.38"/>
-<pinref part="P131" gate="G$1" pin="+3V3"/>
 <pinref part="U33" gate="P" pin="VDD"/>
 </segment>
 <segment>
@@ -16596,15 +16534,7 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="167.64" y1="200.66" x2="167.64" y2="203.2" width="0.1524" layer="91"/>
 <junction x="167.64" y="200.66"/>
 <pinref part="P187" gate="G$1" pin="+3V3"/>
-<pinref part="U34" gate="P" pin="VDD"/>
-</segment>
-<segment>
-<pinref part="C66" gate="G$1" pin="1"/>
-<wire x1="182.88" y1="200.66" x2="187.96" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="200.66" x2="187.96" y2="203.2" width="0.1524" layer="91"/>
-<junction x="187.96" y="200.66"/>
-<pinref part="P189" gate="G$1" pin="+3V3"/>
-<pinref part="U35" gate="P" pin="VDD"/>
+<pinref part="U28" gate="P" pin="VDD"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -16613,9 +16543,9 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="203.2" y1="165.1" x2="208.28" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="162.56" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
 <junction x="203.2" y="165.1"/>
-<pinref part="U34" gate="A" pin="VIN+"/>
 <pinref part="R76" gate="G$1" pin="2"/>
 <pinref part="C84" gate="G$1" pin="2"/>
+<pinref part="U28" gate="A" pin="VIN+"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -16628,7 +16558,7 @@ signal will change very slowly so no need to mega filter</text>
 <pinref part="C85" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$55" class="0">
+<net name="FL_CORNER_PRE" class="0">
 <segment>
 <wire x1="177.8" y1="165.1" x2="180.34" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="165.1" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
@@ -16652,9 +16582,9 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="195.58" y1="88.9" x2="200.66" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="86.36" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
 <junction x="195.58" y="88.9"/>
-<pinref part="U28" gate="A" pin="VIN+"/>
 <pinref part="R80" gate="G$1" pin="2"/>
 <pinref part="C86" gate="G$1" pin="2"/>
+<pinref part="U33" gate="A" pin="VIN+"/>
 </segment>
 </net>
 <net name="N$69" class="0">
@@ -16674,7 +16604,7 @@ signal will change very slowly so no need to mega filter</text>
 <label x="154.94" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="REFERNECE_PRE1" class="0">
+<net name="FR_CORNER_PRE" class="0">
 <segment>
 <wire x1="167.64" y1="88.9" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="88.9" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
@@ -16691,9 +16621,9 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="233.68" y1="83.82" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R124" gate="G$1" pin="2"/>
 <pinref part="C88" gate="G$1" pin="2"/>
-<pinref part="U33" gate="A" pin="VIN+"/>
 <wire x1="233.68" y1="86.36" x2="241.3" y2="86.36" width="0.1524" layer="91"/>
 <junction x="233.68" y="86.36"/>
+<pinref part="U33" gate="B" pin="VIN+"/>
 </segment>
 </net>
 <net name="N$71" class="0">
@@ -16706,19 +16636,19 @@ signal will change very slowly so no need to mega filter</text>
 <pinref part="C89" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="REFERNECE_PRE2" class="0">
+<net name="FR_CORNER_STAGE1" class="0">
 <segment>
 <wire x1="213.36" y1="86.36" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R81" gate="G$1" pin="2"/>
-<pinref part="U28" gate="A" pin="VOUT"/>
 <pinref part="C87" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="86.36" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="99.06" x2="193.04" y2="99.06" width="0.1524" layer="91"/>
 <junction x="213.36" y="86.36"/>
-<pinref part="U28" gate="A" pin="VIN-"/>
 <wire x1="200.66" y1="83.82" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="78.74" x2="213.36" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="78.74" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U33" gate="A" pin="VIN-"/>
+<pinref part="U33" gate="A" pin="VOUT"/>
 </segment>
 </net>
 <net name="N$76" class="0">
@@ -16727,9 +16657,9 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="241.3" y1="160.02" x2="241.3" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R126" gate="G$1" pin="2"/>
 <pinref part="C90" gate="G$1" pin="2"/>
-<pinref part="U35" gate="A" pin="VIN+"/>
 <wire x1="241.3" y1="162.56" x2="246.38" y2="162.56" width="0.1524" layer="91"/>
 <junction x="241.3" y="162.56"/>
+<pinref part="U28" gate="B" pin="VIN+"/>
 </segment>
 </net>
 <net name="N$85" class="0">
@@ -16745,16 +16675,16 @@ signal will change very slowly so no need to mega filter</text>
 <net name="N$101" class="0">
 <segment>
 <pinref part="R125" gate="G$1" pin="2"/>
-<pinref part="U34" gate="A" pin="VOUT"/>
 <wire x1="220.98" y1="162.56" x2="218.44" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C85" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="162.56" x2="220.98" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="175.26" x2="200.66" y2="175.26" width="0.1524" layer="91"/>
 <junction x="220.98" y="162.56"/>
-<pinref part="U34" gate="A" pin="VIN-"/>
 <wire x1="208.28" y1="160.02" x2="208.28" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="157.48" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="157.48" x2="220.98" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U28" gate="A" pin="VIN-"/>
+<pinref part="U28" gate="A" pin="VOUT"/>
 </segment>
 </net>
 <net name="FR_CORNER" class="0">
@@ -16762,10 +16692,8 @@ signal will change very slowly so no need to mega filter</text>
 <pinref part="C89" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="96.52" x2="256.54" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="96.52" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U33" gate="A" pin="VOUT"/>
 <wire x1="256.54" y1="83.82" x2="251.46" y2="83.82" width="0.1524" layer="91"/>
 <label x="256.54" y="83.82" size="1.27" layer="95" xref="yes"/>
-<pinref part="U33" gate="A" pin="VIN-"/>
 <wire x1="241.3" y1="81.28" x2="241.3" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="78.74" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
@@ -16773,6 +16701,8 @@ signal will change very slowly so no need to mega filter</text>
 <wire x1="256.54" y1="83.82" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R150" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="83.82" x2="261.62" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U33" gate="B" pin="VIN-"/>
+<pinref part="U33" gate="B" pin="VOUT"/>
 </segment>
 </net>
 <net name="FL_CORNER" class="0">
@@ -16780,10 +16710,8 @@ signal will change very slowly so no need to mega filter</text>
 <pinref part="C91" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="172.72" x2="259.08" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="172.72" x2="259.08" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U35" gate="A" pin="VOUT"/>
 <wire x1="259.08" y1="160.02" x2="256.54" y2="160.02" width="0.1524" layer="91"/>
 <label x="259.08" y="160.02" size="1.27" layer="95" xref="yes"/>
-<pinref part="U35" gate="A" pin="VIN-"/>
 <wire x1="246.38" y1="157.48" x2="246.38" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="154.94" x2="259.08" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="154.94" x2="259.08" y2="160.02" width="0.1524" layer="91"/>
@@ -16791,6 +16719,8 @@ signal will change very slowly so no need to mega filter</text>
 <pinref part="R130" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="160.02" x2="264.16" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="160.02" x2="264.16" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U28" gate="B" pin="VIN-"/>
+<pinref part="U28" gate="B" pin="VOUT"/>
 </segment>
 </net>
 </nets>
