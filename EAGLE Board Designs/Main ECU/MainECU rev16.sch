@@ -8624,7 +8624,6 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P22" library="HyTechSupplies" deviceset="+24V" device=""/>
 <part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0805" technology="50V_10UF"/>
 <part name="C28" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
-<part name="P25" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="R62" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.2K"/>
 <part name="R63" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K"/>
 <part name="R64" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.13K"/>
@@ -8932,6 +8931,7 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <part name="P208" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="U28" library="HyTechDevices" deviceset="OPAMP_2_CHANNEL_*" device="OPA_2991"/>
 <part name="U33" library="HyTechDevices" deviceset="OPAMP_2_CHANNEL_*" device="OPA_2991"/>
+<part name="P25" library="HyTechSupplies" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8958,12 +8958,9 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
 </instance>
-<instance part="P25" gate="1" x="78.74" y="111.76" smashed="yes">
-<attribute name="VALUE" x="83.82" y="108.712" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="J1" gate="G$1" x="48.26" y="170.18" smashed="yes">
 <attribute name="NAME" x="48.26" y="170.815" size="1.27" layer="95"/>
-<attribute name="MPN" x="62.23" y="112.141" size="1.27" layer="96" align="top-left"/>
+<attribute name="MPN" x="46.99" y="173.101" size="1.27" layer="96" align="top-left"/>
 </instance>
 <instance part="P87" gate="1" x="60.96" y="101.6" smashed="yes">
 <attribute name="VALUE" x="60.96" y="100.33" size="1.27" layer="96" align="top-center"/>
@@ -8975,21 +8972,14 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <instance part="P52" gate="1" x="114.3" y="101.6" smashed="yes">
 <attribute name="VALUE" x="114.3" y="100.33" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="P25" gate="1" x="78.74" y="119.38" smashed="yes">
+<attribute name="VALUE" x="83.82" y="116.332" size="1.27" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="P87" gate="1" pin="GND"/>
-<wire x1="60.96" y1="116.84" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="111.76" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="21"/>
-<wire x1="58.42" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="23"/>
-<wire x1="58.42" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
-<junction x="60.96" y="111.76"/>
-</segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="13"/>
 <wire x1="111.76" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
@@ -8999,6 +8989,16 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <wire x1="114.3" y1="129.54" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
 <junction x="114.3" y="129.54"/>
 <pinref part="P52" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="22"/>
+<wire x1="58.42" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="24"/>
+<wire x1="58.42" y1="109.22" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="114.3" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="P87" gate="1" pin="GND"/>
+<wire x1="60.96" y1="104.14" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
+<junction x="60.96" y="109.22"/>
 </segment>
 </net>
 <net name="SHDN_G" class="0">
@@ -9107,20 +9107,6 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <pinref part="J1" gate="G$1" pin="12"/>
 <wire x1="58.42" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
 <label x="63.5" y="139.7" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="24VIN" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="22"/>
-<wire x1="58.42" y1="114.3" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
-<label x="63.5" y="114.3" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="+5V" class="0">
-<segment>
-<wire x1="58.42" y1="109.22" x2="78.74" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="24"/>
-<pinref part="P25" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="FR_CORNER_EXT" class="0">
@@ -9255,6 +9241,20 @@ Recommended clock capacitor for the MAX7400/MAX7404:
 <wire x1="111.76" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
 <label x="119.38" y="116.84" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="21"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<wire x1="58.42" y1="116.84" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="P25" gate="1" pin="+5V"/>
+<pinref part="J1" gate="G$1" pin="21"/>
+</segment>
+</net>
+<net name="24VIN" class="0">
+<segment>
+<wire x1="58.42" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
+<label x="63.5" y="111.76" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="23"/>
 </segment>
 </net>
 </nets>
