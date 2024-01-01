@@ -7650,10 +7650,6 @@ Dashed line is edge of mated connector.</description>
 <part name="J4" library="HyTechDevices - Copy" deviceset="CONNECTOR-2_?_*" device="MF_T_V"/>
 <part name="J13" library="HyTechDevices - Copy" deviceset="CONNECTOR-2_?_*" device="MF_T_V"/>
 <part name="P2" library="HyTechSupplies" deviceset="GND" device=""/>
-<part name="JP1" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
-<part name="JP2" library="HyTechDevices" deviceset="JUMPER_?_*" device="0603"/>
-<part name="P22" library="HyTechSupplies" deviceset="+24V" device=""/>
-<part name="P23" library="HyTechSupplies" deviceset="+12V" device=""/>
 <part name="P24" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="P25" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="J14" library="HyTechDevices" deviceset="CONNECTOR-8_?_*" device="μF_T_V" technology="BLACK"/>
@@ -8586,11 +8582,6 @@ Board dimension line up exactly</text>
 <wire x1="152.4" y1="175.26" x2="157.48" y2="175.26" width="0.1524" layer="91"/>
 <label x="157.48" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="J16" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="177.8" x2="157.48" y2="177.8" width="0.1524" layer="91"/>
-<label x="157.48" y="177.8" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="INVERTER_EN_BOOSTED" class="0">
 <segment>
@@ -8654,11 +8645,17 @@ Board dimension line up exactly</text>
 <label x="157.48" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="SUS_POT_1_PRE" class="0">
+<segment>
+<pinref part="J16" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="177.8" x2="157.48" y2="177.8" width="0.1524" layer="91"/>
+<label x="157.48" y="177.8" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
 <plain>
-<text x="162.56" y="195.58" size="1.27" layer="97">power consumption could potentially be too high at 24V for the voltage reference on the corner board</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="O" x="0" y="0" smashed="yes">
@@ -8793,20 +8790,6 @@ Board dimension line up exactly</text>
 <instance part="P19" gate="1" x="78.74" y="66.04" smashed="yes">
 <attribute name="VALUE" x="78.74" y="69.85" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP1" gate="G$1" x="144.78" y="193.04" smashed="yes">
-<attribute name="NAME" x="144.78" y="195.58" size="1.27" layer="95"/>
-<attribute name="MPN" x="144.78" y="189.738" size="1.27" layer="96" align="top-left"/>
-</instance>
-<instance part="JP2" gate="G$1" x="144.78" y="182.88" smashed="yes">
-<attribute name="NAME" x="144.78" y="185.42" size="1.27" layer="95"/>
-<attribute name="MPN" x="144.78" y="179.578" size="1.27" layer="96" align="top-left"/>
-</instance>
-<instance part="P22" gate="G$1" x="139.7" y="195.58" smashed="yes">
-<attribute name="VALUE" x="139.7" y="200.66" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="P23" gate="1" x="139.7" y="185.42" smashed="yes">
-<attribute name="VALUE" x="139.7" y="189.23" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="U1" gate="G$1" x="213.36" y="190.5" smashed="yes">
 <attribute name="NAME" x="213.36" y="191.262" size="1.27" layer="95"/>
 <attribute name="MPN" x="213.36" y="174.498" size="1.27" layer="95" align="top-left"/>
@@ -8934,12 +8917,6 @@ Board dimension line up exactly</text>
 <junction x="78.74" y="127"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="190.5" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="190.5" x2="139.7" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="P22" gate="G$1" pin="+24V"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="VIN"/>
 <wire x1="233.68" y1="187.96" x2="238.76" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="187.96" x2="238.76" y2="193.04" width="0.1524" layer="91"/>
@@ -9016,12 +8993,6 @@ Board dimension line up exactly</text>
 <wire x1="78.74" y1="60.96" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <junction x="78.74" y="60.96"/>
 <pinref part="P19" gate="1" pin="+12V"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="180.34" x2="139.7" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="180.34" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="P23" gate="1" pin="+12V"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -9113,19 +9084,6 @@ Board dimension line up exactly</text>
 <wire x1="78.74" y1="172.72" x2="78.74" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="170.18" x2="81.28" y2="170.18" width="0.1524" layer="91"/>
 <label x="81.28" y="170.18" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CB_VIN" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="190.5" x2="157.48" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="190.5" x2="157.48" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="185.42" x2="157.48" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="180.34" x2="149.86" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="185.42" x2="165.1" y2="185.42" width="0.1524" layer="91"/>
-<junction x="157.48" y="185.42"/>
-<label x="165.1" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="10V_FR" class="0">
