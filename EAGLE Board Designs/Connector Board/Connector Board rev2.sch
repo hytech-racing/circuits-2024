@@ -8032,9 +8032,9 @@ Board dimension line up exactly</text>
 <label x="297.18" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="19"/>
-<wire x1="220.98" y1="149.86" x2="236.22" y2="149.86" width="0.1524" layer="91"/>
-<label x="236.22" y="149.86" size="1.27" layer="95" xref="yes"/>
+<wire x1="220.98" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
+<label x="236.22" y="152.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="18"/>
 </segment>
 </net>
 <net name="REFERENCE_EXT" class="0">
@@ -8048,9 +8048,9 @@ Board dimension line up exactly</text>
 <label x="297.18" y="167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="18"/>
-<wire x1="220.98" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
-<label x="236.22" y="152.4" size="1.27" layer="95" xref="yes"/>
+<wire x1="220.98" y1="177.8" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
+<label x="236.22" y="177.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="STEERING_1_EXT" class="0">
@@ -8173,10 +8173,12 @@ Board dimension line up exactly</text>
 <segment>
 <wire x1="220.98" y1="175.26" x2="233.68" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="175.26" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="149.86" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="149.86" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="9"/>
 <pinref part="P9" gate="1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="19"/>
+<wire x1="233.68" y1="149.86" x2="233.68" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="149.86" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
+<junction x="233.68" y="149.86"/>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="3"/>
@@ -8234,13 +8236,8 @@ Board dimension line up exactly</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="220.98" y1="180.34" x2="223.52" y2="180.34" width="0.1524" layer="91"/>
 <label x="236.22" y="180.34" size="1.27" layer="95" xref="yes"/>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="223.52" y1="180.34" x2="236.22" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="177.8" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="177.8" x2="223.52" y2="180.34" width="0.1524" layer="91"/>
-<junction x="223.52" y="180.34"/>
+<wire x1="220.98" y1="180.34" x2="236.22" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OKHS_IN" class="0">
@@ -8374,11 +8371,6 @@ Board dimension line up exactly</text>
 <pinref part="J9" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
-<label x="101.6" y="45.72" size="1.27" layer="95" xref="yes"/>
-<pinref part="J12" gate="G$1" pin="4"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="11"/>
 <wire x1="220.98" y1="170.18" x2="223.52" y2="170.18" width="0.1524" layer="91"/>
 <label x="236.22" y="170.18" size="1.27" layer="95" xref="yes"/>
@@ -8387,6 +8379,11 @@ Board dimension line up exactly</text>
 <wire x1="220.98" y1="167.64" x2="223.52" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="167.64" x2="223.52" y2="170.18" width="0.1524" layer="91"/>
 <junction x="223.52" y="170.18"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
+<label x="101.6" y="50.8" size="1.27" layer="95" xref="yes"/>
+<pinref part="J12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="THERM_FL_EXT" class="0">
@@ -8473,11 +8470,6 @@ Board dimension line up exactly</text>
 <pinref part="J9" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<label x="101.6" y="50.8" size="1.27" layer="95" xref="yes"/>
-<pinref part="J12" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <wire x1="96.52" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="96.52" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
@@ -8486,6 +8478,11 @@ Board dimension line up exactly</text>
 <label x="104.14" y="96.52" size="1.27" layer="95" xref="yes"/>
 <pinref part="J8" gate="G$1" pin="1"/>
 <pinref part="J8" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="45.72" x2="101.6" y2="45.72" width="0.1524" layer="91"/>
+<label x="101.6" y="45.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="J12" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="STEERING_2_EXT" class="0">
@@ -8537,11 +8534,6 @@ Board dimension line up exactly</text>
 </segment>
 </net>
 <net name="FR_SIGNAL+" class="0">
-<segment>
-<pinref part="J11" gate="G$1" pin="3"/>
-<wire x1="154.94" y1="142.24" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
-<label x="157.48" y="142.24" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J11" gate="G$1" pin="4"/>
 <wire x1="154.94" y1="139.7" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
@@ -8653,6 +8645,13 @@ Board dimension line up exactly</text>
 <wire x1="154.94" y1="147.32" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="147.32" x2="160.02" y2="152.4" width="0.1524" layer="91"/>
 <label x="160.02" y="152.4" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="FR_SIGNAL-" class="0">
+<segment>
+<pinref part="J11" gate="G$1" pin="3"/>
+<wire x1="154.94" y1="142.24" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
+<label x="157.48" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
