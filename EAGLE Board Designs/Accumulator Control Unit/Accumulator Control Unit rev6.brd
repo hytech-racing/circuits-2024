@@ -10168,9 +10168,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="31.242" y1="4.66" x2="31.584" y2="4.66" width="0.254" layer="1"/>
 <wire x1="31.584" y1="4.66" x2="32.258" y2="5.334" width="0.254" layer="1"/>
 <via x="32.258" y="5.334" extent="1-16" drill="0.35"/>
-<wire x1="70.573" y1="56.896" x2="71.247" y2="56.896" width="0.254" layer="1"/>
-<wire x1="71.247" y1="56.896" x2="71.755" y2="56.388" width="0.254" layer="1"/>
-<via x="71.755" y="56.388" extent="1-16" drill="0.35"/>
+<wire x1="70.573" y1="56.896" x2="71.247" y2="56.896" width="0.7112" layer="1"/>
+<wire x1="71.247" y1="56.896" x2="72.136" y2="56.007" width="0.7112" layer="1"/>
+<via x="72.136" y="56.007" extent="1-16" drill="0.9"/>
 </signal>
 <signal name="+12V">
 <contactref element="U27" pad="5"/>
