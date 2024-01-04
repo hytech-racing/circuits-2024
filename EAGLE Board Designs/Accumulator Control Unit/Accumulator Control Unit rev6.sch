@@ -10786,7 +10786,6 @@ Note: OPA2991 is also a comparator</description>
 <part name="R81" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="P51" library="HyTechSupplies" deviceset="+5V" device=""/>
-<part name="P52" library="HyTechSupplies" deviceset="+3V3" device=""/>
 <part name="U6" library="HyTechDevices" deviceset="TCAN1051*V-Q1" device="" technology="HQ"/>
 <part name="P53" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="P54" library="HyTechSupplies" deviceset="GND" device=""/>
@@ -14968,9 +14967,6 @@ TS/P: 377V -&gt; 3.30095V</text>
 <instance part="P51" gate="1" x="71.12" y="200.66" smashed="yes">
 <attribute name="VALUE" x="71.12" y="203.2" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P52" gate="G$1" x="76.2" y="200.66" smashed="yes">
-<attribute name="VALUE" x="76.2" y="201.93" size="1.27" layer="96" align="bottom-center"/>
-</instance>
 <instance part="U6" gate="G$1" x="81.28" y="132.08" smashed="yes">
 <attribute name="NAME" x="81.28" y="132.842" size="1.27" layer="95"/>
 <attribute name="MPN" x="81.28" y="113.538" size="1.27" layer="95" align="top-left"/>
@@ -15646,12 +15642,6 @@ TS/P: 377V -&gt; 3.30095V</text>
 </segment>
 </net>
 <net name="+3V3" class="0">
-<segment>
-<pinref part="A3" gate="G$1" pin="3.3V"/>
-<wire x1="68.58" y1="193.04" x2="76.2" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="193.04" x2="76.2" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="P52" gate="G$1" pin="+3V3"/>
-</segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="VIO"/>
 <pinref part="P55" gate="G$1" pin="+3V3"/>

@@ -10151,7 +10151,6 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="116.332" y1="64.135" x2="116.332" y2="61.976" width="0.8128" layer="1"/>
 <via x="116.332" y="61.976" extent="1-16" drill="0.9"/>
 <contactref element="U6" pad="5"/>
-<contactref element="A3" pad="3.3V"/>
 <wire x1="97.917" y1="19.685" x2="99.695" y2="19.685" width="0.254" layer="1"/>
 <wire x1="99.695" y1="19.685" x2="100.838" y2="18.542" width="0.254" layer="1"/>
 <via x="100.838" y="18.542" extent="1-16" drill="0.35"/>
@@ -11727,6 +11726,9 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="29.729" y1="2.96" x2="31.242" y2="2.96" width="0.254" layer="1"/>
 <wire x1="31.242" y1="2.96" x2="33.5779" y2="2.96" width="0.254" layer="1"/>
 <wire x1="33.5779" y1="2.96" x2="33.6042" y2="2.9337" width="0.254" layer="1"/>
+</signal>
+<signal name="3.3V">
+<contactref element="A3" pad="3.3V"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
