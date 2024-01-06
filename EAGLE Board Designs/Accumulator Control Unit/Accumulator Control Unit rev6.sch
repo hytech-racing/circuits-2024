@@ -11140,7 +11140,7 @@ Note: OPA2991 is also a comparator</description>
 <part name="Q5" library="HyTechDevices" deviceset="TRANSISTOR_P_MOS_?_*" device="SOT-23" technology="DMP3056L-7"/>
 <part name="P148" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="D11" library="HyTechDevices" deviceset="ZENER_?_*" device="1.5SMBJ" technology="12V"/>
-<part name="R134" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="360"/>
+<part name="R134" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K" value="RESISTOR_0603_100K"/>
 <part name="Q6" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="DMG3406L-7"/>
 <part name="R135" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
 </parts>

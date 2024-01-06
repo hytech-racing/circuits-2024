@@ -8784,16 +8784,16 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="NAME" x="64.897" y="54.61" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VOLTAGE" value="12V" x="64.897" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R134" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_360" x="69.723" y="56.896" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-360HRTR-ND" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R134" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_100K" x="69.723" y="56.896" smashed="yes" rot="R180">
+<attribute name="DKPN" value="311-100KHRTR-ND" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-07360RL" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-07360RL" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="603-RC0603FR-07100KL " x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100KL" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="69.723" y="56.261" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCE" value="360" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RESISTANCE" value="100k" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="6.00V" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="Q6" library="HyTechDevices" package="SOT-23" value="TRANSISTOR_N_MOS__DMG3406L-7" x="34.544" y="3.937" smashed="yes">
