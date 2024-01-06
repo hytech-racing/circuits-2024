@@ -11141,8 +11141,8 @@ Note: OPA2991 is also a comparator</description>
 <part name="P148" library="HyTechSupplies" deviceset="GND" device=""/>
 <part name="D11" library="HyTechDevices" deviceset="ZENER_?_*" device="1.5SMBJ" technology="12V"/>
 <part name="R134" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K" value="RESISTOR_0603_100K"/>
-<part name="Q6" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="" technology="DMG3406L-7"/>
 <part name="R135" library="HyTechDevices - Copy" deviceset="RESISTOR_?_*" device="0603" technology="10K"/>
+<part name="Q6" library="HyTechDevices" deviceset="TRANSISTOR_P_MOS_?_*" device="SOT-23" technology="DMP3056L-7"/>
 </parts>
 <sheets>
 <sheet>
@@ -13254,13 +13254,13 @@ TS/P: 377V -&gt; 3.30095V</text>
 <attribute name="NAME" x="29.21" y="46.99" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="RESISTANCE" x="29.21" y="44.45" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="Q6" gate="G$1" x="218.44" y="132.08" smashed="yes">
-<attribute name="NAME" x="218.44" y="137.16" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="MPN" x="218.44" y="127" size="1.27" layer="95" align="top-center"/>
-</instance>
 <instance part="R135" gate="G$1" x="203.2" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="201.93" y="123.19" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="204.47" y="123.19" size="1.27" layer="96" rot="R90" align="top-center"/>
+</instance>
+<instance part="Q6" gate="G$1" x="218.44" y="132.08" smashed="yes">
+<attribute name="NAME" x="218.44" y="137.16" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="MPN" x="218.44" y="127" size="1.27" layer="95" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -13625,7 +13625,7 @@ TS/P: 377V -&gt; 3.30095V</text>
 <segment>
 <wire x1="223.52" y1="137.16" x2="223.52" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
-<pinref part="Q6" gate="G$1" pin="D"/>
+<pinref part="Q6" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -13810,9 +13810,9 @@ TS/P: 377V -&gt; 3.30095V</text>
 <wire x1="241.3" y1="134.62" x2="233.68" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="134.62" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="PC_OK" gate="G$1" pin="P$1"/>
-<pinref part="Q6" gate="G$1" pin="S"/>
 <wire x1="223.52" y1="127" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="121.92" x2="233.68" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="Q6" gate="G$1" pin="D"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -13948,12 +13948,13 @@ TS/P: 377V -&gt; 3.30095V</text>
 <net name="N$41" class="0">
 <segment>
 <pinref part="U25" gate="A" pin="OUT"/>
-<pinref part="Q6" gate="G$1" pin="G"/>
 <wire x1="190.5" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="129.54" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="127" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
 <junction x="203.2" y="129.54"/>
 <pinref part="R135" gate="G$1" pin="2"/>
+<pinref part="Q6" gate="G$1" pin="G"/>
+<wire x1="213.36" y1="129.54" x2="213.36" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
