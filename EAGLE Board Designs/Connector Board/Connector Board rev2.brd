@@ -4788,12 +4788,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MPN" value="5015" x="33.655" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="32.512" y="38.1" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
-<element name="CANL_2" library="HyTechDevices" package="5015" value="TEST_POINT" x="36.576" y="38.1" smashed="yes" rot="R90">
-<attribute name="DKPN" value="36-5015CT-ND" x="36.576" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Keystone Electronics" x="36.576" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOPN" value="534-5015" x="36.576" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="5015" x="36.576" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="37.719" y="38.1" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
+<element name="CANL_2" library="HyTechDevices" package="5015" value="TEST_POINT" x="37.084" y="38.1" smashed="yes" rot="R90">
+<attribute name="DKPN" value="36-5015CT-ND" x="37.084" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Keystone Electronics" x="37.084" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOPN" value="534-5015" x="37.084" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="5015" x="37.084" y="38.1" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="38.227" y="38.1" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
 <element name="ACCEL1" library="HyTechDevices" package="1X02" value="JUMPER__1X02" x="9.779" y="36.576" smashed="yes" rot="R180">
 <attribute name="DKPN" value="S1011EC-02-ND" x="9.779" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5552,10 +5552,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="38.268" y1="32.337" x2="38.903" y2="31.702" width="0.254" layer="15"/>
 <wire x1="40.633" y1="31.702" x2="38.903" y2="31.702" width="0.254" layer="15"/>
 <wire x1="40.633" y1="31.702" x2="41.268" y2="32.337" width="0.254" layer="15"/>
-<wire x1="36.576" y1="38.1" x2="36.83" y2="37.846" width="0.254" layer="1"/>
-<wire x1="36.83" y1="37.846" x2="36.83" y2="33.655" width="0.254" layer="1"/>
-<wire x1="36.83" y1="33.655" x2="38.148" y2="32.337" width="0.254" layer="1"/>
-<wire x1="38.148" y1="32.337" x2="38.268" y2="32.337" width="0.254" layer="1"/>
+<wire x1="37.084" y1="38.1" x2="37.084" y2="33.521" width="0.254" layer="1"/>
+<wire x1="37.084" y1="33.521" x2="38.268" y2="32.337" width="0.254" layer="1"/>
 </signal>
 <signal name="CANH_2">
 <contactref element="J6" pad="19"/>
