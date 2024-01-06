@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -4881,14 +4881,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="J6" pad="18"/>
 <contactref element="J1" pad="9"/>
 <contactref element="J1" pad="19"/>
-<via x="62.484" y="16.637" extent="1-16" drill="0.35"/>
+<via x="62.484" y="16.637" extent="1-16" drill="0.45"/>
 <via x="59.817" y="17.526" extent="1-16" drill="0.25"/>
-<via x="60.071" y="21.336" extent="1-16" drill="0.25"/>
+<via x="60.071" y="21.336" extent="1-16" drill="0.4"/>
 <via x="54.356" y="18.161" extent="1-16" drill="0.25"/>
-<via x="50.673" y="17.399" extent="1-16" drill="0.25"/>
-<via x="50.8" y="21.209" extent="1-16" drill="0.25"/>
-<via x="42.291" y="18.288" extent="1-16" drill="0.2"/>
-<via x="39.497" y="18.669" extent="1-16" drill="0.2"/>
+<via x="50.673" y="17.399" extent="1-16" drill="0.4"/>
+<via x="50.8" y="21.209" extent="1-16" drill="0.35"/>
+<via x="42.291" y="18.288" extent="1-16" drill="0.35"/>
+<via x="39.497" y="18.669" extent="1-16" drill="0.35"/>
 <via x="37.973" y="21.209" extent="1-16" drill="0.35"/>
 <via x="1.016" y="49.784" extent="1-16" drill="0.35"/>
 <via x="4.064" y="49.784" extent="1-16" drill="0.35"/>
