@@ -8796,24 +8796,24 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VOLTAGE_CONTINUOUS" value="75V" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="69.723" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R135" library="HyTechDevices - Copy" package="0603-RES" value="RESISTOR_0603_10K" x="31.242" y="3.81" smashed="yes" rot="R270">
-<attribute name="DKPN" value="311-10.0KHRCT-ND" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-0710KL" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603FR-0710KL" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R135" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_470" x="31.242" y="3.81" smashed="yes" rot="R270">
+<attribute name="DKPN" value="P470BYCT-ND" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="667-ERJ-PA3F4700V" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ERJ-PA3F4700V" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="31.877" y="3.81" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="POWER" value="0.1W" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RESISTANCE" value="10k" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POWER" value="0.25W" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RESISTANCE" value="470" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="31.62V" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="10.84V" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="31.242" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q6" library="HyTechDevices" package="SOT-23" value="TRANSISTOR_P_MOS_SOT-23_DMP3056L-7" x="34.29" y="3.048" smashed="yes" rot="R270">
-<attribute name="DKPN" value="DMP3056L-7DITR-ND" x="34.29" y="3.048" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Diodes Incorporated" x="34.29" y="3.048" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="621-DMP3056L-7" x="34.29" y="3.048" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="DMP3056L-7" x="34.29" y="3.048" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="36.068" y="3.048" size="0.635" layer="25" font="vector" rot="R90" align="top-center"/>
+<element name="K1" library="HyTechDevices" package="DIP-4" value="RELAY_SOLIDSTATE_NO_DIP-4" x="37.592" y="7.62" smashed="yes">
+<attribute name="DKPN" value="255-1436-5-ND " x="37.592" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic" x="37.592" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="769-AQY214EHA" x="37.592" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="AQY214EHA" x="37.592" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="33.782" y="7.62" size="1.27" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
 </elements>
 <signals>
@@ -9111,9 +9111,7 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="8.751" y1="17.7546" x2="9.0304" y2="18.034" width="0.3048" layer="1"/>
 <wire x1="9.0304" y1="18.034" x2="9.9596" y2="18.034" width="0.3048" layer="1"/>
 <via x="9.9596" y="18.034" extent="1-16" drill="0.35"/>
-<wire x1="33.0708" y1="11.6706" x2="33.8194" y2="10.922" width="0.3048" layer="1"/>
-<wire x1="33.8194" y1="10.922" x2="34.417" y2="10.922" width="0.3048" layer="1"/>
-<via x="34.417" y="10.922" extent="1-16" drill="0.35"/>
+<wire x1="33.0708" y1="11.6706" x2="33.147" y2="11.5944" width="0.3048" layer="1"/>
 <wire x1="19.558" y1="24.726" x2="18.034" y2="24.726" width="0.8128" layer="1"/>
 <wire x1="18.034" y1="24.726" x2="17.233" y2="25.527" width="0.254" layer="1"/>
 <wire x1="17.233" y1="25.527" x2="16.51" y2="25.527" width="0.254" layer="1"/>
@@ -9123,10 +9121,13 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <via x="23.241" y="24.384" extent="1-16" drill="0.35"/>
 <wire x1="82.55" y1="67.437" x2="85.512" y2="64.475" width="0.7112" layer="15"/>
 <wire x1="85.512" y1="64.475" x2="91.59" y2="64.475" width="0.7112" layer="15"/>
-<contactref element="Q6" pad="2"/>
-<wire x1="33.2867" y1="2.1082" x2="33.9598" y2="2.1082" width="0.254" layer="1"/>
-<wire x1="33.9598" y1="2.1082" x2="34.29" y2="1.778" width="0.254" layer="1"/>
-<via x="34.29" y="1.778" extent="1-16" drill="0.35"/>
+<contactref element="K1" pad="4"/>
+<wire x1="38.862" y1="11.77" x2="40.132" y2="13.04" width="0.3048" layer="1"/>
+<wire x1="40.132" y1="13.04" x2="40.132" y2="13.208" width="0.3048" layer="1"/>
+<via x="40.132" y="13.208" extent="1-16" drill="0.45"/>
+<wire x1="33.0708" y1="11.6706" x2="33.0708" y2="10.8712" width="0.254" layer="1"/>
+<wire x1="33.0708" y1="10.8712" x2="33.147" y2="10.795" width="0.254" layer="1"/>
+<via x="33.147" y="10.795" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="GND">
 <contactref element="EM" pad="4"/>
@@ -9767,19 +9768,19 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="197.27" y1="52.793" x2="196.5198" y2="53.5432" width="0.254" layer="1"/>
 <via x="196.5198" y="53.5432" extent="1-16" drill="0.35"/>
 <contactref element="R134" pad="1"/>
-<contactref element="R135" pad="1"/>
 <wire x1="122.085" y1="39.131" x2="121.412" y2="39.804" width="0.254" layer="1"/>
 <wire x1="121.412" y1="39.804" x2="121.412" y2="40.259" width="0.254" layer="1"/>
 <via x="121.412" y="40.259" extent="1-16" drill="0.35"/>
-<wire x1="31.242" y1="4.66" x2="31.584" y2="4.66" width="0.254" layer="1"/>
-<wire x1="31.584" y1="4.66" x2="32.258" y2="5.334" width="0.254" layer="1"/>
-<via x="32.258" y="5.334" extent="1-16" drill="0.35"/>
 <wire x1="70.573" y1="56.896" x2="71.247" y2="56.896" width="0.7112" layer="1"/>
 <wire x1="71.247" y1="56.896" x2="72.136" y2="56.007" width="0.7112" layer="1"/>
 <via x="72.136" y="56.007" extent="1-16" drill="0.7"/>
 <wire x1="23.876" y1="22.1352" x2="23.876" y2="22.606" width="0.254" layer="1"/>
 <wire x1="23.876" y1="22.606" x2="24.511" y2="23.241" width="0.254" layer="1"/>
 <via x="24.511" y="23.241" extent="1-16" drill="0.35"/>
+<contactref element="K1" pad="2"/>
+<wire x1="38.862" y1="3.47" x2="39.837" y2="3.47" width="0.3048" layer="1"/>
+<wire x1="39.837" y1="3.47" x2="40.513" y2="2.794" width="0.3048" layer="1"/>
+<via x="40.513" y="2.794" extent="1-16" drill="0.45"/>
 </signal>
 <signal name="+12V">
 <contactref element="U27" pad="5"/>
@@ -10303,17 +10304,17 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <wire x1="88.138" y1="37.973" x2="88.773" y2="37.338" width="0.3048" layer="1"/>
 <wire x1="100.203" y1="37.338" x2="101.092" y2="36.449" width="0.3048" layer="1"/>
 <via x="30.861" y="15.875" extent="1-16" drill="0.35"/>
-<wire x1="30.861" y1="15.875" x2="30.861" y2="11.176" width="0.254" layer="16"/>
-<wire x1="30.861" y1="11.176" x2="35.052" y2="6.985" width="0.254" layer="16"/>
-<via x="35.052" y="6.985" extent="1-16" drill="0.35"/>
 <wire x1="50.7902" y1="27.3812" x2="30.7848" y2="27.3812" width="0.254" layer="1"/>
 <wire x1="30.861" y1="15.875" x2="30.861" y2="27.305" width="0.254" layer="1"/>
 <wire x1="30.861" y1="27.305" x2="30.7848" y2="27.3812" width="0.254" layer="1"/>
 <wire x1="30.7848" y1="27.3812" x2="24.15566875" y2="34.01033125" width="0.254" layer="1"/>
 <wire x1="24.15566875" y1="34.01033125" x2="24.15566875" y2="34.58266875" width="0.254" layer="1"/>
-<contactref element="Q6" pad="3"/>
-<wire x1="35.2933" y1="3.048" x2="35.2933" y2="6.7437" width="0.254" layer="1"/>
-<wire x1="35.2933" y1="6.7437" x2="35.052" y2="6.985" width="0.254" layer="1"/>
+<contactref element="K1" pad="3"/>
+<wire x1="30.861" y1="15.875" x2="33.401" y2="15.875" width="0.254" layer="16"/>
+<wire x1="33.401" y1="15.875" x2="35.687" y2="13.589" width="0.254" layer="16"/>
+<via x="35.687" y="13.589" extent="1-16" drill="0.45"/>
+<wire x1="35.687" y1="13.589" x2="36.322" y2="12.954" width="0.254" layer="1"/>
+<wire x1="36.322" y1="12.954" x2="36.322" y2="11.77" width="0.254" layer="1"/>
 </signal>
 <signal name="ACCUMULATOR_GND">
 <contactref element="IMD" pad="5"/>
@@ -11720,12 +11721,15 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <contactref element="R135" pad="2"/>
 <wire x1="29.675" y1="2.906" x2="29.729" y2="2.96" width="0.254" layer="1"/>
 <wire x1="29.729" y1="2.96" x2="31.242" y2="2.96" width="0.254" layer="1"/>
-<contactref element="Q6" pad="1"/>
-<wire x1="31.242" y1="2.96" x2="32.2698" y2="3.9878" width="0.254" layer="1"/>
-<wire x1="32.2698" y1="3.9878" x2="33.2867" y2="3.9878" width="0.254" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="A3" pad="3.3V"/>
+</signal>
+<signal name="N$35">
+<contactref element="R135" pad="1"/>
+<contactref element="K1" pad="1"/>
+<wire x1="31.242" y1="4.66" x2="35.132" y2="4.66" width="0.254" layer="1"/>
+<wire x1="35.132" y1="4.66" x2="36.322" y2="3.47" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
