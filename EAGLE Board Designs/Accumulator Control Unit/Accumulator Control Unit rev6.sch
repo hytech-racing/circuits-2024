@@ -13979,6 +13979,7 @@ TS/P: 377V -&gt; 3.30095V</text>
 <text x="152.4" y="203.2" size="2.54" layer="97">Analog Filtering</text>
 <text x="50.8" y="50.8" size="1.778" layer="97">5V to 24.16V</text>
 <text x="210.82" y="104.14" size="1.778" layer="97">5V to 24.16V</text>
+<text x="172.72" y="147.32" size="1.4224" layer="97">SSA-250 Current Sensor</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="O" x="0" y="0" smashed="yes">
