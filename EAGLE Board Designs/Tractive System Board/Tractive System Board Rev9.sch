@@ -10944,7 +10944,6 @@ Note: OPA991 is also a comparator</description>
 <part name="R7" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K"/>
 <part name="R8" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.55K"/>
 <part name="R9" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
-<part name="P2" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="P11" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="P12" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="C1" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF"/>
@@ -10960,6 +10959,7 @@ Note: OPA991 is also a comparator</description>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K_0.1%"/>
 <part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
 <part name="L1" library="HyTechDevices" deviceset="INDUCTOR_?_*" device="CDEEH13D90-102LC" technology="1MH"/>
+<part name="P2" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11352,9 +11352,6 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <attribute name="NAME" x="85.09" y="34.29" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="87.63" y="34.29" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="P2" gate="G$1" x="148.336" y="149.098" smashed="yes">
-<attribute name="VALUE" x="148.336" y="146.558" size="1.27" layer="96" align="top-center"/>
-</instance>
 <instance part="P11" gate="G$1" x="48.26" y="28.194" smashed="yes">
 <attribute name="VALUE" x="48.26" y="25.654" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -11412,6 +11409,9 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <attribute name="NAME" x="100.33" y="110.49" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="INDUCTANCE" x="100.33" y="108.585" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="P2" gate="G$1" x="48.26" y="73.66" smashed="yes">
+<attribute name="VALUE" x="48.26" y="78.74" size="1.27" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11460,6 +11460,11 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <wire x1="43.18" y1="182.88" x2="43.18" y2="188.214" width="0.6096" layer="91"/>
 <junction x="43.18" y="188.214"/>
 <label x="53.34" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="68.58" x2="48.26" y2="71.12" width="0.6096" layer="91"/>
+<pinref part="P2" gate="G$1" pin="TS+FUSED"/>
 </segment>
 </net>
 <net name="SOURCE" class="0">
@@ -11556,7 +11561,7 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <wire x1="22.86" y1="38.1" x2="22.86" y2="40.64" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="TS-FUSED" class="0">
+<net name="TS-FUSED" class="1">
 <segment>
 <pinref part="D11" gate="G$1" pin="A"/>
 <wire x1="96.52" y1="96.52" x2="96.52" y2="91.44" width="0.6096" layer="91"/>
@@ -12000,11 +12005,6 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <wire x1="143.002" y1="146.05" x2="143.002" y2="147.574" width="0.1524" layer="91"/>
 <label x="143.002" y="147.574" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="68.58" x2="48.26" y2="71.12" width="0.6096" layer="91"/>
-<label x="48.26" y="71.12" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="PACK_INP" class="0">
 <segment>
@@ -12147,7 +12147,7 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <wire x1="96.52" y1="154.94" x2="96.52" y2="121.92" width="0.6096" layer="91"/>
 </segment>
 </net>
-<net name="PGND" class="0">
+<net name="SW" class="0">
 <segment>
 <wire x1="32.004" y1="109.22" x2="31.75" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="D11" gate="G$1" pin="C"/>
@@ -12881,7 +12881,7 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <wire x1="205.74" y1="106.68" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TS-FUSED" class="0">
+<net name="TS-FUSED" class="1">
 <segment>
 <pinref part="F2" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="71.12" x2="248.92" y2="68.58" width="0.6096" layer="91"/>
