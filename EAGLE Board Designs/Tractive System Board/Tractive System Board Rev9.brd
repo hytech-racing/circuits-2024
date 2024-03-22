@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -5662,11 +5662,11 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MPN" value="430450814" x="-78.486" y="-126.746" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="44.704" y="-50.546" size="1.27" layer="25" font="vector" rot="R270" align="bottom-center"/>
 </element>
-<element name="K1" library="HyTechDevices" package="D" value="RELAY_SPST_NO_D_24" x="138.938" y="-46.99" smashed="yes" rot="R180">
-<attribute name="DKPN" value="725-1048-ND" x="95.758" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="K1" library="HyTechDevices" package="D" value="RELAY_SPST_NO_D_200W_24" x="138.938" y="-46.99" smashed="yes" rot="R180">
+<attribute name="DKPN" value="725-1362-ND" x="95.758" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Sensata-Cynergy3" x="95.758" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="285-DAR72410" x="95.758" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="DAR72410" x="95.758" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="285-DAT200-24" x="95.758" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="DAT200-24" x="95.758" y="-5.08" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="169.9" y="-47.018" size="0.8128" layer="21" font="vector" rot="R270" align="bottom-center"/>
 </element>
 <element name="R30" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_3.3K" x="96.52" y="-47.879" smashed="yes" rot="R90">
@@ -7349,8 +7349,8 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <vertex x="55.88" y="-16.256"/>
 <vertex x="55.88" y="-21.59"/>
 <vertex x="52.07" y="-25.4"/>
-<vertex x="36.83" y="-25.4"/>
-<vertex x="36.322" y="-24.892"/>
+<vertex x="36.576" y="-25.4"/>
+<vertex x="36.322" y="-25.146"/>
 <vertex x="36.322" y="-21.844"/>
 <vertex x="35.814" y="-21.336"/>
 <vertex x="30.988" y="-21.336"/>
