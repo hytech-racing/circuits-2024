@@ -10844,7 +10844,7 @@ Note: OPA991 is also a comparator</description>
 <part name="D6" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN" value="LED_0603_GREEN"/>
 <part name="P19" library="HyTechSupplies" deviceset="+5V" device=""/>
 <part name="U5" library="HyTechDevices" deviceset="RELAY_SOLIDSTATE_NO_*" device="AB38S-Q-AIRGAP" value="RELAY_SOLIDSTATE_NO_AB38S-Q-AIRGAP"/>
-<part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.3K"/>
+<part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K" value="RESISTOR_0603_12K"/>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20-SHORTENED" technology="1.5K" value="RESISTOR_B20-SHORTENED_1.5K"/>
@@ -10857,7 +10857,7 @@ Note: OPA991 is also a comparator</description>
 <part name="A1" library="HyTechDevices" deviceset="VOLTAGE_REGULATOR_MODULE_?_*" device="OKI-78SR" technology="5V"/>
 <part name="C24" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="C27" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_1UF"/>
-<part name="R42" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
+<part name="R42" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K" value="RESISTOR_0603_12K"/>
 <part name="FRAME1" library="HyTechFrames" deviceset="FRAME" device="">
 <attribute name="DESCRIPTION_1" value="AIL Driver &amp; Precharge Isolation"/>
 <attribute name="DESIGNER_BOARD" value="Ethan Su"/>
@@ -10875,7 +10875,6 @@ Note: OPA991 is also a comparator</description>
 <part name="C32" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="R40" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="22.1K"/>
 <part name="U$19" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
-<part name="R49" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="5.9K"/>
 <part name="C33" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="D11" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD-123FA" technology="800V"/>
 <part name="U$20" library="HyTechSupplies" deviceset="TS+12V" device=""/>
@@ -10884,7 +10883,6 @@ Note: OPA991 is also a comparator</description>
 <part name="LED_+12V1" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
 <part name="U$26" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="P25" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
-<part name="P26" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="P27" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="C35" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1812" technology="1000V_0.1UF"/>
 <part name="TS+12V" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
@@ -10901,7 +10899,6 @@ Note: OPA991 is also a comparator</description>
 <part name="C41" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_1NF"/>
 <part name="C42" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF"/>
 <part name="C43" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="100V_10NF"/>
-<part name="U$27" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="U$28" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="R52" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV365K"/>
 <part name="R53" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="HV365K"/>
@@ -10935,7 +10932,6 @@ Note: OPA991 is also a comparator</description>
 <part name="C54" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="630V_47PF"/>
 <part name="TS_HLDO" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="PACK_HLDO" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="C56" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_10NF"/>
 <part name="R51" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="0.12"/>
 <part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="35V_22UF" value="CAPACITOR_1206_35V_22UF"/>
 <part name="R56" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV4.99K"/>
@@ -10965,7 +10961,12 @@ Note: OPA991 is also a comparator</description>
 <part name="R11" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="100K_0.1%"/>
 <part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_0.1UF"/>
 <part name="L1" library="HyTechDevices" deviceset="INDUCTOR_?_*" device="CDEEH13D90-102LC" technology="1MH"/>
+<part name="P15" library="HyTechSupplies" deviceset="TS+UNFUSED" device=""/>
 <part name="P2" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
+<part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
+<part name="U$5" library="HyTechSupplies" deviceset="TS+12V" device=""/>
+<part name="D1" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD-123FA" technology="800V"/>
+<part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF"/>
 </parts>
 <sheets>
 <sheet>
@@ -11040,12 +11041,8 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <attribute name="NAME" x="44.45" y="130.81" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="46.99" y="130.81" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="U$19" gate="G$1" x="20.828" y="192.278" smashed="yes">
-<attribute name="VALUE" x="20.828" y="197.358" size="1.27" layer="96" align="bottom-center"/>
-</instance>
-<instance part="R49" gate="G$1" x="58.42" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="57.15" y="118.11" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="RESISTANCE" x="59.69" y="118.11" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="U$19" gate="G$1" x="13.208" y="199.898" smashed="yes">
+<attribute name="VALUE" x="13.208" y="204.978" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C33" gate="G$1" x="32.004" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.464" y="118.11" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -11077,16 +11074,13 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <instance part="P25" gate="G$1" x="112.776" y="174.498" smashed="yes">
 <attribute name="VALUE" x="112.776" y="171.958" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P26" gate="G$1" x="101.092" y="199.39" smashed="yes">
-<attribute name="VALUE" x="101.092" y="204.47" size="1.27" layer="96" align="bottom-center"/>
+<instance part="P27" gate="G$1" x="22.606" y="174.752" smashed="yes">
+<attribute name="VALUE" x="22.606" y="172.212" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="P27" gate="G$1" x="101.092" y="183.642" smashed="yes">
-<attribute name="VALUE" x="101.092" y="181.102" size="1.27" layer="96" align="top-center"/>
-</instance>
-<instance part="C35" gate="G$1" x="101.092" y="192.786" smashed="yes" rot="R90">
-<attribute name="NAME" x="98.552" y="191.516" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="104.14" y="195.58" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="104.14" y="187.96" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C35" gate="G$1" x="22.606" y="183.896" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.066" y="182.626" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="25.654" y="186.69" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="25.654" y="179.07" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="TS+12V" gate="G$1" x="134.62" y="109.22" smashed="yes" rot="R180">
 <attribute name="NAME" x="137.16" y="107.442" size="1.27" layer="95" rot="R180"/>
@@ -11152,9 +11146,6 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <attribute name="NAME" x="148.336" y="167.64" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="153.416" y="167.64" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="155.194" y="167.64" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
-<instance part="U$27" gate="G$1" x="143.002" y="196.85" smashed="yes">
-<attribute name="VALUE" x="143.002" y="201.93" size="1.27" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U$28" gate="G$1" x="143.002" y="161.29" smashed="yes">
 <attribute name="VALUE" x="143.002" y="158.75" size="1.27" layer="96" align="top-center"/>
@@ -11294,11 +11285,6 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <attribute name="NAME" x="165.1" y="95.758" size="1.27" layer="95"/>
 <attribute name="MPN" x="165.1" y="92.202" size="1.27" layer="95" align="top-left"/>
 </instance>
-<instance part="C56" gate="G$1" x="96.52" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="93.98" y="118.11" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="99.06" y="118.11" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="100.838" y="118.11" size="1.27" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="R51" gate="G$1" x="81.28" y="119.38" smashed="yes" rot="R90">
 <attribute name="NAME" x="80.01" y="118.11" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="82.55" y="118.11" size="1.27" layer="96" rot="R90" align="top-center"/>
@@ -11392,10 +11378,10 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <attribute name="VOLTAGE" x="35.56" y="59.69" size="1.27" layer="96" rot="R90" align="top-center"/>
 <attribute name="CAPACITANCE" x="37.338" y="59.69" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="C8" gate="G$1" x="91.694" y="192.786" smashed="yes" rot="R90">
-<attribute name="NAME" x="89.154" y="191.516" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="94.234" y="195.326" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="94.234" y="187.706" size="1.27" layer="96" rot="R90" align="top-center"/>
+<instance part="C8" gate="G$1" x="13.208" y="183.896" smashed="yes" rot="R90">
+<attribute name="NAME" x="10.668" y="182.626" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="15.748" y="186.436" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="15.748" y="178.816" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="C4" gate="G$1" x="22.86" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.32" y="59.69" size="1.27" layer="95" rot="R90" align="bottom-center"/>
@@ -11415,8 +11401,28 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <attribute name="NAME" x="100.33" y="110.49" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="INDUCTANCE" x="100.33" y="108.585" size="1.27" layer="96" align="top-center"/>
 </instance>
+<instance part="P15" gate="G$1" x="143.002" y="198.12" smashed="yes">
+<attribute name="VALUE" x="143.002" y="203.2" size="1.27" layer="96" align="bottom-center"/>
+</instance>
 <instance part="P2" gate="G$1" x="48.26" y="73.66" smashed="yes">
 <attribute name="VALUE" x="48.26" y="78.74" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R1" gate="G$1" x="80.01" y="15.24" smashed="yes">
+<attribute name="NAME" x="78.74" y="16.51" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="RESISTANCE" x="78.74" y="13.97" size="1.27" layer="96" align="top-center"/>
+</instance>
+<instance part="U$5" gate="G$1" x="69.85" y="19.05" smashed="yes">
+<attribute name="VALUE" x="69.85" y="22.606" size="1.27" layer="96" align="bottom-center"/>
+</instance>
+<instance part="D1" gate="G$1" x="13.208" y="191.516" smashed="yes" rot="R270">
+<attribute name="NAME" x="15.113" y="192.786" size="1.27" layer="95" rot="R270" align="bottom-center"/>
+<attribute name="VOLTAGE" x="11.303" y="192.786" size="1.27" layer="96" rot="R270" align="top-center"/>
+<attribute name="MPN" x="9.398" y="192.786" size="1.27" layer="96" rot="R270" align="top-center"/>
+</instance>
+<instance part="C10" gate="G$1" x="58.42" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.88" y="118.11" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VOLTAGE" x="60.96" y="118.11" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="60.96" y="113.538" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -11425,9 +11431,9 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <net name="IREG/SS" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="IREG/SS"/>
-<pinref part="R49" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="127" x2="58.42" y2="121.92" width="0.6096" layer="91"/>
 <label x="58.42" y="124.46" size="1.27" layer="95" rot="R180"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VC" class="0">
@@ -11441,31 +11447,9 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 </net>
 <net name="TS+FUSED" class="0">
 <segment>
-<pinref part="P26" gate="G$1" pin="TS+FUSED"/>
-<pinref part="C35" gate="G$1" pin="1"/>
-<wire x1="101.092" y1="196.85" x2="101.092" y2="195.326" width="0.6096" layer="91"/>
-<wire x1="101.092" y1="195.326" x2="101.092" y2="195.58" width="0.1524" layer="91"/>
-<junction x="101.092" y="195.326"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="101.092" y1="195.326" x2="91.694" y2="195.326" width="0.6096" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$27" gate="G$1" pin="TS+FUSED"/>
-<pinref part="R54" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="U$19" gate="G$1" pin="TS+FUSED"/>
-<wire x1="20.828" y1="189.738" x2="20.828" y2="188.214" width="0.6096" layer="91"/>
-<wire x1="81.28" y1="188.214" x2="81.28" y2="144.78" width="0.6096" layer="91"/>
-<pinref part="U6" gate="G$1" pin="DRAIN"/>
-<wire x1="81.28" y1="144.78" x2="78.74" y2="144.78" width="0.6096" layer="91"/>
-<wire x1="20.828" y1="188.214" x2="43.18" y2="188.214" width="0.6096" layer="91"/>
-<pinref part="R61" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="188.214" x2="81.28" y2="188.214" width="0.6096" layer="91"/>
-<wire x1="45.72" y1="182.88" x2="43.18" y2="182.88" width="0.6096" layer="91"/>
-<wire x1="43.18" y1="182.88" x2="43.18" y2="188.214" width="0.6096" layer="91"/>
-<junction x="43.18" y="188.214"/>
-<label x="53.34" y="187.96" size="1.778" layer="95"/>
+<wire x1="13.208" y1="197.358" x2="13.208" y2="196.596" width="0.6096" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -11566,6 +11550,12 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <pinref part="U$4" gate="G$1" pin="TS+12V"/>
 <wire x1="22.86" y1="38.1" x2="22.86" y2="40.64" width="0.6096" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="TS+12V"/>
+<wire x1="69.85" y1="16.51" x2="69.85" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="69.85" y1="15.24" x2="74.93" y2="15.24" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="TS-FUSED" class="1">
 <segment>
@@ -11604,10 +11594,10 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <segment>
 <pinref part="P27" gate="G$1" pin="TS-FUSED"/>
 <pinref part="C35" gate="G$1" pin="2"/>
-<wire x1="101.092" y1="187.706" x2="101.092" y2="186.182" width="0.1524" layer="91"/>
+<wire x1="22.606" y1="178.816" x2="22.606" y2="177.292" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="91.694" y1="187.706" x2="101.092" y2="187.706" width="0.6096" layer="91"/>
-<junction x="101.092" y="187.706"/>
+<wire x1="13.208" y1="178.816" x2="22.606" y2="178.816" width="0.6096" layer="91"/>
+<junction x="22.606" y="178.816"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="INN"/>
@@ -12061,6 +12051,7 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="30.48" x2="86.36" y2="27.94" width="0.6096" layer="91"/>
 <label x="86.36" y="27.94" size="1.27" layer="95" xref="yes"/>
+<label x="85.09" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -12149,15 +12140,12 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <wire x1="96.52" y1="154.94" x2="95.25" y2="154.94" width="0.6096" layer="91"/>
 <wire x1="96.52" y1="170.18" x2="96.52" y2="154.94" width="0.6096" layer="91"/>
 <junction x="96.52" y="154.94"/>
-<pinref part="C56" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="154.94" x2="96.52" y2="121.92" width="0.6096" layer="91"/>
 </segment>
 </net>
 <net name="SW" class="0">
 <segment>
 <wire x1="32.004" y1="109.22" x2="31.75" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="D11" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="114.3" x2="96.52" y2="109.22" width="0.6096" layer="91"/>
 <wire x1="96.52" y1="109.22" x2="96.52" y2="104.14" width="0.6096" layer="91"/>
 <junction x="96.52" y="109.22"/>
 <wire x1="86.106" y1="109.22" x2="86.106" y2="114.3" width="0.6096" layer="91"/>
@@ -12174,7 +12162,6 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <wire x1="63.5" y1="127" x2="63.5" y2="109.22" width="0.6096" layer="91"/>
 <wire x1="68.58" y1="109.22" x2="63.5" y2="109.22" width="0.6096" layer="91"/>
 <junction x="68.58" y="109.22"/>
-<pinref part="R49" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="114.3" x2="58.42" y2="109.22" width="0.6096" layer="91"/>
 <wire x1="63.5" y1="109.22" x2="58.42" y2="109.22" width="0.6096" layer="91"/>
 <junction x="63.5" y="109.22"/>
@@ -12193,12 +12180,47 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <wire x1="32.004" y1="109.22" x2="40.64" y2="109.22" width="0.6096" layer="91"/>
 <wire x1="20.828" y1="114.3" x2="20.828" y2="109.22" width="0.6096" layer="91"/>
 <pinref part="R51" gate="G$1" pin="1"/>
-<pinref part="C56" gate="G$1" pin="2"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="C33" gate="G$1" pin="2"/>
 <wire x1="32.004" y1="114.3" x2="32.004" y2="109.22" width="0.6096" layer="91"/>
 <junction x="32.004" y="109.22"/>
 <label x="49.53" y="109.22" size="1.778" layer="95"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="TS+UNFUSED" class="0">
+<segment>
+<pinref part="R54" gate="G$1" pin="2"/>
+<pinref part="P15" gate="G$1" pin="TS+UNFUSED"/>
+<wire x1="143.002" y1="194.31" x2="143.002" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DRAIN" class="0">
+<segment>
+<wire x1="81.28" y1="188.214" x2="81.28" y2="144.78" width="0.6096" layer="91"/>
+<pinref part="U6" gate="G$1" pin="DRAIN"/>
+<wire x1="81.28" y1="144.78" x2="78.74" y2="144.78" width="0.6096" layer="91"/>
+<pinref part="R61" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="188.214" x2="81.28" y2="188.214" width="0.6096" layer="91"/>
+<wire x1="45.72" y1="182.88" x2="43.18" y2="182.88" width="0.6096" layer="91"/>
+<wire x1="43.18" y1="182.88" x2="43.18" y2="188.214" width="0.6096" layer="91"/>
+<label x="53.34" y="187.96" size="1.778" layer="95"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="13.208" y1="188.976" x2="13.208" y2="188.214" width="0.6096" layer="91"/>
+<pinref part="C35" gate="G$1" pin="1"/>
+<wire x1="13.208" y1="188.214" x2="13.208" y2="186.436" width="0.6096" layer="91"/>
+<wire x1="13.208" y1="186.436" x2="22.606" y2="186.436" width="0.6096" layer="91"/>
+<junction x="13.208" y="186.436"/>
+<wire x1="43.18" y1="188.214" x2="13.208" y2="188.214" width="0.6096" layer="91"/>
+<junction x="43.18" y="188.214"/>
+<junction x="13.208" y="188.214"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="82.55" y1="15.24" x2="85.09" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
