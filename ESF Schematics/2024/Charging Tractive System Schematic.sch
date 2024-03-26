@@ -3680,6 +3680,9 @@ Layer: 94 Symbol</description>
 <attribute name="ENGINEER" value="Shayan Noorani &amp; Liwei Sun"/>
 <attribute name="REVIEWER_SCHEMATIC" value="Ethan Su"/>
 </part>
+<part name="F1" library="HyTechSymbolsTemp" deviceset="FUSE" device="" value="1A">
+<attribute name="_EXTERNAL_" value="15A"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -3699,7 +3702,7 @@ Layer: 94 Symbol</description>
 <text x="114.3" y="68.58" size="1.778" layer="97" align="top-left">22AWG:</text>
 <text x="114.3" y="83.82" size="1.778" layer="97" align="top-left">17.5mm^2:</text>
 <text x="111.76" y="137.16" size="1.27" layer="97" align="top-left">6mm^2</text>
-<text x="154.94" y="139.7" size="1.27" layer="97" align="top-right">6mm^2</text>
+<text x="152.4" y="137.16" size="1.27" layer="97" align="top-right">6mm^2</text>
 <text x="218.44" y="132.08" size="1.27" layer="97" align="top-left">17.5mm^2</text>
 <text x="73.66" y="144.78" size="1.27" layer="97" align="top-left">6mm^2</text>
 <text x="116.84" y="124.46" size="1.27" layer="97" align="top-left">22AWG</text>
@@ -3719,7 +3722,7 @@ AC Power</text>
 <text x="78.74" y="96.52" size="1.27" layer="97" align="top-left">12AWG</text>
 <text x="33.02" y="96.52" size="1.27" layer="97" align="top-left">12AWG</text>
 <text x="147.32" y="111.76" size="1.778" layer="97">Charger TSMPs</text>
-<text x="185.42" y="139.7" size="1.27" layer="97" align="top-right">35mm^2</text>
+<text x="185.42" y="125.73" size="1.27" layer="97" align="top-right">35mm^2</text>
 <wire x1="111.76" y1="129.54" x2="111.76" y2="109.22" width="0.1524" layer="94"/>
 <wire x1="114.3" y1="119.38" x2="114.3" y2="134.62" width="0.1524" layer="94"/>
 <wire x1="114.3" y1="134.62" x2="111.76" y2="134.62" width="0.1524" layer="94"/>
@@ -3863,13 +3866,13 @@ EVSE</text>
 <attribute name="NAME" x="128.27" y="110.49" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="128.27" y="107.95" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="J1" gate="G$1" x="165.1" y="134.62" smashed="yes" rot="R180">
-<attribute name="MPN" x="165.1" y="140.335" size="1.27" layer="96" rot="R180" align="top-left"/>
-<attribute name="MANUFACTURER" x="165.1" y="133.858" size="1.27" layer="96" rot="R180"/>
+<instance part="J1" gate="G$1" x="165.1" y="137.16" smashed="yes" rot="R180">
+<attribute name="MPN" x="165.1" y="142.875" size="1.27" layer="96" rot="R180" align="top-left"/>
+<attribute name="MANUFACTURER" x="165.1" y="136.398" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="J2" gate="G$1" x="167.64" y="139.7" smashed="yes">
-<attribute name="MPN" x="167.64" y="133.985" size="1.27" layer="96" align="top-left"/>
-<attribute name="MANUFACTURER" x="167.64" y="140.462" size="1.27" layer="96"/>
+<instance part="J2" gate="G$1" x="167.64" y="142.24" smashed="yes">
+<attribute name="MPN" x="167.64" y="136.525" size="1.27" layer="96" align="top-left"/>
+<attribute name="MANUFACTURER" x="167.64" y="143.002" size="1.27" layer="96"/>
 </instance>
 <instance part="J3" gate="G$1" x="165.1" y="124.46" smashed="yes" rot="R180">
 <attribute name="MPN" x="165.1" y="130.175" size="1.27" layer="96" rot="R180" align="top-left"/>
@@ -3904,6 +3907,9 @@ EVSE</text>
 <attribute name="REVIEWER_SCHEMATIC" x="227.33" y="30.48" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
+</instance>
+<instance part="F1" gate="G$1" x="182.88" y="137.16" smashed="yes">
+<attribute name="NAME" x="181.61" y="138.43" size="1.27" layer="95" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -4175,7 +4181,7 @@ EVSE</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="J18" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="137.16" x2="154.94" y2="134.62" width="0.3048" layer="91"/>
+<wire x1="154.94" y1="139.7" x2="154.94" y2="134.62" width="0.3048" layer="91"/>
 <wire x1="154.94" y1="134.62" x2="144.78" y2="134.62" width="0.3048" layer="91"/>
 </segment>
 </net>
@@ -4195,12 +4201,12 @@ EVSE</text>
 <wire x1="185.42" y1="127" x2="185.42" y2="132.08" width="0.889" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="15A" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
 <pinref part="U$4" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="137.16" x2="185.42" y2="137.16" width="0.889" layer="91"/>
 <wire x1="185.42" y1="137.16" x2="185.42" y2="134.62" width="0.889" layer="91"/>
+<pinref part="F1" gate="G$1" pin="2"/>
+<label x="180.34" y="134.62" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -4268,6 +4274,14 @@ EVSE</text>
 <pinref part="J11" gate="G$1" pin="4"/>
 <pinref part="J12" gate="G$1" pin="3"/>
 <wire x1="27.94" y1="175.26" x2="50.8" y2="175.26" width="0.635" layer="91"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="139.7" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="139.7" x2="177.8" y2="137.16" width="0.889" layer="91"/>
 </segment>
 </net>
 </nets>
