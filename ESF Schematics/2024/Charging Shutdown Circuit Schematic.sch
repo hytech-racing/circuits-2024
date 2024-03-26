@@ -844,6 +844,16 @@ Controller</text>
 <vertex x="8.89" y="-1.27"/>
 </polygon>
 </symbol>
+<symbol name="FUSE">
+<wire x1="-1.27" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="0" x2="0.635" y2="0" width="0.1524" layer="94" curve="-180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-1.27" y="1.27" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="96" align="top-center">&gt;VALUE</text>
+<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BENDER_IR155-3204">
@@ -1204,6 +1214,21 @@ Controller</text>
 <device name="">
 <technologies>
 <technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FUSE" prefix="F">
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="15A" constant="no"/>
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
 </technologies>
@@ -3872,6 +3897,7 @@ Layer: 94 Symbol</description>
 <part name="J10" library="HyTechSymbols" deviceset="CONNECTOR-3_*" device="" technology="XXC106-EV-P3Z" value="CONNECTOR-3_XXC106-EV-P3Z"/>
 <part name="J11" library="HyTechSymbols" deviceset="CONNECTOR-5_*" device="" technology="1-2393947-1"/>
 <part name="Q1" library="HyTechSymbols" deviceset="MOSFET_N-CHANNEL" device=""/>
+<part name="F2" library="HyTechSymbols" deviceset="FUSE" device="" value="15A"/>
 </parts>
 <sheets>
 <sheet>
@@ -3917,7 +3943,7 @@ Layer: 94 Symbol</description>
 <text x="132.08" y="50.8" size="1.778" layer="97">To external
 AC Power</text>
 <text x="193.04" y="101.6" size="1.27" layer="97" align="top-left">6mm^2</text>
-<text x="134.62" y="106.68" size="1.27" layer="97">35mm^2</text>
+<text x="134.62" y="88.9" size="1.27" layer="97">35mm^2</text>
 <text x="254" y="142.24" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="45.72" y="139.7" size="1.27" layer="97" align="top-left">22AWG</text>
 <text x="266.7" y="121.92" size="1.778" layer="97">To
@@ -4118,6 +4144,10 @@ EVSE</text>
 <attribute name="MPN" x="266.446" y="116.459" size="1.27" layer="96" rot="MR0" align="top-left"/>
 </instance>
 <instance part="Q1" gate="G$1" x="66.04" y="124.46" smashed="yes"/>
+<instance part="F2" gate="G$1" x="139.7" y="106.68" smashed="yes">
+<attribute name="NAME" x="138.43" y="107.95" size="1.27" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="138.43" y="105.41" size="1.27" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4595,10 +4625,16 @@ EVSE</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="2"/>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="99.06" x2="137.16" y2="104.14" width="0.4445" layer="91"/>
-<wire x1="137.16" y1="104.14" x2="142.24" y2="104.14" width="0.4445" layer="91"/>
+<wire x1="142.24" y1="106.68" x2="142.24" y2="104.14" width="0.4445" layer="91"/>
+<pinref part="F2" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="137.16" y1="102.87" x2="137.16" y2="99.06" width="0.4445" layer="91"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="102.87" x2="137.16" y2="102.87" width="0.4445" layer="91"/>
+<wire x1="134.62" y1="106.68" x2="134.62" y2="102.87" width="0.4445" layer="91"/>
+<pinref part="F2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
