@@ -11344,6 +11344,7 @@ Note: OPA991 is also a comparator</description>
 <part name="P18" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="J1" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="MICROFIT_PTH_VERTICAL_02_SINGLE"/>
 <part name="D10" library="HyTechDevices" deviceset="TVS_?_*" device="TPSMB" technology="522.5"/>
+<part name="R12" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP" value="RESISTOR_0603_DNP"/>
 </parts>
 <sheets>
 <sheet>
@@ -11441,15 +11442,15 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <attribute name="NAME" x="111.506" y="191.516" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="114.046" y="191.516" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="12VTS" gate="LED" x="112.776" y="181.102" smashed="yes" rot="R270">
-<attribute name="COLOR" x="110.998" y="182.372" size="1.27" layer="95" rot="R270" align="top-center"/>
-<attribute name="NAME" x="116.332" y="182.372" size="1.27" layer="96" rot="R270" align="bottom-center"/>
+<instance part="12VTS" gate="LED" x="112.776" y="179.832" smashed="yes" rot="R270">
+<attribute name="COLOR" x="110.998" y="181.102" size="1.27" layer="95" rot="R270" align="top-center"/>
+<attribute name="NAME" x="116.332" y="181.102" size="1.27" layer="96" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="U$26" gate="G$1" x="112.776" y="199.39" smashed="yes">
 <attribute name="VALUE" x="112.776" y="202.946" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="P25" gate="G$1" x="112.776" y="174.498" smashed="yes">
-<attribute name="VALUE" x="112.776" y="171.958" size="1.27" layer="96" align="top-center"/>
+<instance part="P25" gate="G$1" x="112.776" y="173.228" smashed="yes">
+<attribute name="VALUE" x="112.776" y="170.688" size="1.27" layer="96" align="top-center"/>
 </instance>
 <instance part="P27" gate="G$1" x="35.306" y="174.752" smashed="yes">
 <attribute name="VALUE" x="35.306" y="172.212" size="1.27" layer="96" align="top-center"/>
@@ -11804,6 +11805,10 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <attribute name="NAME" x="13.335" y="186.69" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VOLTAGE" x="17.145" y="186.69" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="R12" gate="G$1" x="100.33" y="186.69" smashed="yes" rot="R180">
+<attribute name="NAME" x="101.6" y="185.42" size="1.27" layer="95" rot="R180" align="bottom-center"/>
+<attribute name="RESISTANCE" x="101.6" y="187.96" size="1.27" layer="96" rot="R180" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11973,7 +11978,7 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 </segment>
 <segment>
 <pinref part="12VTS" gate="LED" pin="C"/>
-<wire x1="112.776" y1="178.562" x2="112.776" y2="177.038" width="0.6096" layer="91"/>
+<wire x1="112.776" y1="177.292" x2="112.776" y2="175.768" width="0.6096" layer="91"/>
 <pinref part="P25" gate="G$1" pin="TS-FUSED"/>
 </segment>
 <segment>
@@ -12103,13 +12108,6 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <wire x1="63.5" y1="167.64" x2="63.5" y2="172.72" width="0.6096" layer="91"/>
 <pinref part="C54" gate="G$1" pin="2"/>
 <label x="63.5" y="172.72" size="1.27" layer="95"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="R50" gate="G$1" pin="1"/>
-<pinref part="12VTS" gate="LED" pin="A"/>
-<wire x1="112.776" y1="186.182" x2="112.776" y2="187.706" width="0.6096" layer="91"/>
 </segment>
 </net>
 <net name="INTVCC" class="0">
@@ -12443,11 +12441,17 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <wire x1="33.02" y1="95.25" x2="25.4" y2="95.25" width="0.6096" layer="91"/>
 <label x="33.02" y="95.25" size="1.778" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="1"/>
+<label x="96.52" y="190.5" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="82.55" y1="15.24" x2="85.09" y2="15.24" width="0.1524" layer="91"/>
 <label x="85.09" y="15.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="190.5" x2="96.52" y2="186.69" width="0.6096" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="186.69" x2="97.79" y2="186.69" width="0.6096" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -12611,6 +12615,18 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <pinref part="R54" gate="G$1" pin="2"/>
 <wire x1="143.002" y1="195.58" x2="143.002" y2="194.31" width="0.6096" layer="91"/>
 <pinref part="P15" gate="G$1" pin="TS+UNFUSED"/>
+</segment>
+</net>
+<net name="12VTS_A" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="105.41" y1="186.69" x2="112.776" y2="186.69" width="0.6096" layer="91"/>
+<pinref part="R50" gate="G$1" pin="1"/>
+<pinref part="12VTS" gate="LED" pin="A"/>
+<wire x1="112.776" y1="184.912" x2="112.776" y2="186.69" width="0.6096" layer="91"/>
+<junction x="112.776" y="186.69"/>
+<wire x1="112.776" y1="186.69" x2="112.776" y2="187.706" width="0.6096" layer="91"/>
+<label x="106.68" y="186.69" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
