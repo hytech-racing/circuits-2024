@@ -11267,7 +11267,7 @@ Isolated Flyback Controller
 <attribute name="REVIEWER_SCHEMATIC" value="Liwei Sun"/>
 </part>
 <part name="D2" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30VV"/>
-<part name="D9" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD-123FA" technology="800V"/>
+<part name="D9" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD-123W" technology="800V_ACTIVE" value="RECTIFIER_800V_ACTIVE_SOD-123W"/>
 <part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K" value="RESISTOR_0603_10.5K"/>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
 <part name="C30" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_47NF"/>
@@ -11275,7 +11275,7 @@ Isolated Flyback Controller
 <part name="R40" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="22.1K"/>
 <part name="U$19" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="C33" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
-<part name="D11" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD-123FA" technology="800V"/>
+<part name="D11" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD-123W" technology="800V_ACTIVE" value="RECTIFIER_800V_ACTIVE_SOD-123W"/>
 <part name="U$20" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="U$23" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="R50" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
@@ -11359,7 +11359,7 @@ Isolated Flyback Controller
 <part name="P2" library="HyTechSupplies" deviceset="TS+FUSED" device=""/>
 <part name="R1" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP"/>
 <part name="U$5" library="HyTechSupplies" deviceset="TS+12V" device=""/>
-<part name="D1" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD-123FA" technology="800V"/>
+<part name="D1" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD-123W" technology="800V_ACTIVE" value="RECTIFIER_800V_ACTIVE_SOD-123W"/>
 <part name="C10" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF"/>
 <part name="P18" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="J1" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="MICROFIT_PTH_VERTICAL_02_SINGLE"/>

@@ -6013,12 +6013,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="NAME" x="59.4995" y="-0.59360625" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VOLTAGE" value="30V" x="59.456321875" y="-1.402084375" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D9" library="HyTechDevices" package="SOD-123W" value="RECTIFIER_800V_SOD-123FA" x="52.054759375" y="-1.907540625" smashed="yes">
+<element name="D9" library="HyTechDevices" package="SOD-123W" value="RECTIFIER_800V_ACTIVE_SOD-123W" x="52.054759375" y="-1.907540625" smashed="yes">
 <attribute name="CURRENT" value="1A" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
-<attribute name="DKPN" value="US1KFACT-ND" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="onsemi" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="512-US1KFA" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="US1KFA" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="1801-HS1KLWCT-ND" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Taiwan Semiconductor Corporation" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="821-HS1KLW" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="HS1KLW" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="51.503578125" y="-4.061459375" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VOLTAGE" value="800V" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
 </element>
@@ -6088,12 +6088,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="TOLERANCE" value="20%" x="61.981075" y="-1.714496875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="61.981075" y="-1.714496875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="D11" library="HyTechDevices" package="SOD-123W" value="RECTIFIER_800V_SOD-123FA" x="53.279040625" y="-19.66468125" smashed="yes" rot="R90">
+<element name="D11" library="HyTechDevices" package="SOD-123W" value="RECTIFIER_800V_ACTIVE_SOD-123W" x="53.279040625" y="-19.66468125" smashed="yes" rot="R90">
 <attribute name="CURRENT" value="1A" x="53.279040625" y="-19.66468125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DKPN" value="US1KFACT-ND" x="53.279040625" y="-19.66468125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="onsemi" x="53.279040625" y="-19.66468125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOPN" value="512-US1KFA" x="53.279040625" y="-19.66468125" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="US1KFA" x="53.279040625" y="-19.66468125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DKPN" value="1801-HS1KLWCT-ND" x="53.279040625" y="-19.66468125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Taiwan Semiconductor Corporation" x="53.279040625" y="-19.66468125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOPN" value="821-HS1KLW" x="53.279040625" y="-19.66468125" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="HS1KLW" x="53.279040625" y="-19.66468125" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="53.52288125" y="-22.362159375" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VOLTAGE" value="800V" x="53.279040625" y="-19.66468125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -6760,12 +6760,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VOLTAGE_CONTINUOUS" value="" x="26.416" y="-7.62" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VOLTAGE_MAX" value="" x="26.416" y="-7.62" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="D1" library="HyTechDevices" package="SOD-123W" value="RECTIFIER_800V_SOD-123FA" x="90.8304" y="-9.8552" smashed="yes" rot="R180">
+<element name="D1" library="HyTechDevices" package="SOD-123W" value="RECTIFIER_800V_ACTIVE_SOD-123W" x="90.8304" y="-9.8552" smashed="yes" rot="R180">
 <attribute name="CURRENT" value="1A" x="90.8304" y="-9.8552" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DKPN" value="US1KFACT-ND" x="90.8304" y="-9.8552" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="onsemi" x="90.8304" y="-9.8552" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="512-US1KFA" x="90.8304" y="-9.8552" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="US1KFA" x="90.8304" y="-9.8552" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DKPN" value="1801-HS1KLWCT-ND" x="90.8304" y="-9.8552" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Taiwan Semiconductor Corporation" x="90.8304" y="-9.8552" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="821-HS1KLW" x="90.8304" y="-9.8552" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="HS1KLW" x="90.8304" y="-9.8552" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="90.8304" y="-11.1252" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VOLTAGE" value="800V" x="90.8304" y="-9.8552" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
