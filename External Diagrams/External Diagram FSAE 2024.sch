@@ -2619,7 +2619,7 @@ Orange: HV High Current Path</text>
 <wire x1="43.18" y1="27.94" x2="43.18" y2="53.34" width="1.27" layer="97"/>
 <wire x1="43.18" y1="53.34" x2="91.44" y2="53.34" width="1.27" layer="97"/>
 <wire x1="91.44" y1="53.34" x2="91.44" y2="27.94" width="1.27" layer="97"/>
-<text x="124.46" y="294.64" size="10.16" layer="97">HyTech Racing 2023 FSAE Electrical Diagram</text>
+<text x="124.46" y="294.64" size="10.16" layer="97">HyTech Racing 2024 FSAE Electrical Diagram</text>
 <wire x1="309.88" y1="261.62" x2="309.88" y2="271.78" width="0.6096" layer="156"/>
 <wire x1="309.88" y1="271.78" x2="302.26" y2="271.78" width="0.6096" layer="156"/>
 <wire x1="302.26" y1="271.78" x2="302.26" y2="251.46" width="0.6096" layer="156"/>
@@ -5946,6 +5946,27 @@ Orange: HV High Current Path</text>
 <wire x1="586.74" y1="22.86" x2="586.74" y2="27.94" width="0.1524" layer="91"/>
 <portref moduleinst="GPS1" port="COAX"/>
 <wire x1="586.74" y1="27.94" x2="591.82" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SAB_12V" class="0">
+<segment>
+<pinref part="J22" gate="G$1" pin="34"/>
+<wire x1="254" y1="-22.86" x2="187.96" y2="-22.86" width="0.1524" layer="91"/>
+<label x="190.5" y="-22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INS_TX" class="0">
+<segment>
+<pinref part="J22" gate="G$1" pin="32"/>
+<wire x1="254" y1="-17.78" x2="187.96" y2="-17.78" width="0.1524" layer="91"/>
+<label x="190.5" y="-17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INS_RX" class="0">
+<segment>
+<pinref part="J22" gate="G$1" pin="33"/>
+<wire x1="254" y1="-20.32" x2="187.96" y2="-20.32" width="0.1524" layer="91"/>
+<label x="190.5" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
