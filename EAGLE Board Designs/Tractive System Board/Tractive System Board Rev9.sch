@@ -9129,6 +9129,8 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/210/WTC_MLCC_General_Purpose-1534899.pdf"&gt;Walsin Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/281/1/GRM188R61A226ME15_02A-1985787.pdf"&gt;GRM188R61A226ME15D&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/281/1/GRM188R61E106MA73_01A-1985806.pdf"&gt;GRM188R61E106MA73D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR61C476ME44-01A.pdf"&gt;GRM31CR61C476ME44K&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=https://www.digikey.com/en/products/detail/murata-electronics/GRM31A5C2J100JW01D/4358998?s=N4IgTCBcDaIOICUCyBmAjAQQKwGEwCk0AGI-AdSLQBEQBdAXyA"&gt;GRM31A5C2J100JW01D&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/445/885012006013-1726946.pdf"&gt;885012006013&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/218/SMD_High_and_Std_StackiCap_P62-1825512.pdf"&gt;2220Y6300105KXTWS2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/447/UPY_GPHC_X5R_4V_to_50V_26-1827097.pdf"&gt;Yageo Class 2, X5R&lt;/a&gt;&lt;/li&gt;
@@ -9590,6 +9592,15 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE" value="100V"/>
 </technology>
+<technology name="16V_47UF">
+<attribute name="CAPACITANCE" value="47µF" constant="no"/>
+<attribute name="DKPN" value="490-GRM31CR61C476ME44KTR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" constant="no"/>
+<attribute name="MOPN" value="81-GRM31CR61C476ME4K" constant="no"/>
+<attribute name="MPN" value="GRM31CR61C476ME44K" constant="no"/>
+<attribute name="TOLERANCE" value="20%" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
+</technology>
 <technology name="250V_0.1UF">
 <attribute name="CAPACITANCE" value="0.1μF"/>
 <attribute name="DKPN" value="445-6079-2-ND"/>
@@ -9652,6 +9663,15 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="MPN" value="CGA5L4C0G2J103J160AA"/>
 <attribute name="TOLERANCE" value="5%"/>
 <attribute name="VOLTAGE" value="630V"/>
+</technology>
+<technology name="630V_10PF">
+<attribute name="CAPACITANCE" value="10pF" constant="no"/>
+<attribute name="DKPN" value="490-11620-2-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" constant="no"/>
+<attribute name="MOPN" value="81-GRM31A5C2J100JW1D" constant="no"/>
+<attribute name="MPN" value="GRM31A5C2J100JW01D" constant="no"/>
+<attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="VOLTAGE" value="630V" constant="no"/>
 </technology>
 <technology name="630V_47PF">
 <attribute name="CAPACITANCE" value="47pF"/>
@@ -11622,8 +11642,8 @@ Isolated Flyback Controller
 </part>
 <part name="D2" library="HyTechDevices" deviceset="SCHOTTKY_?_*" device="SOD323" technology="30VV"/>
 <part name="D9" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD-123W" technology="800V_ACTIVE" value="RECTIFIER_800V_ACTIVE_SOD-123W"/>
-<part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="10.5K" value="RESISTOR_0603_10.5K"/>
-<part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1.24K" value="RESISTOR_0603_1.24K"/>
+<part name="R15" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2.49K" value="RESISTOR_0603_2.49K"/>
+<part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="21.5K" value="RESISTOR_0603_21.5K"/>
 <part name="C30" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_47NF"/>
 <part name="C32" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_10UF"/>
 <part name="R40" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="22.1K"/>
@@ -11682,7 +11702,7 @@ Isolated Flyback Controller
 <part name="IT-" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TS_ISO_DIAG" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="PACK_ISO_DIAG" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
-<part name="C54" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="630V_47PF"/>
+<part name="C54" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="630V_10PF" value="CAPACITOR_1206_630V_10PF"/>
 <part name="R51" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="0.12"/>
 <part name="R56" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV4.99K"/>
 <part name="R61" library="HyTechDevices" deviceset="RESISTOR_?_*" device="1206" technology="HV4.99K"/>
@@ -11701,7 +11721,7 @@ Isolated Flyback Controller
 <part name="C1" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF"/>
 <part name="C2" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF"/>
 <part name="U$4" library="HyTechSupplies" deviceset="TS+12V" device=""/>
-<part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="35V_22UF"/>
+<part name="C5" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="16V_47UF" value="CAPACITOR_1206_16V_47UF"/>
 <part name="C7" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_1UF"/>
 <part name="C8" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="2220" technology="630V_0.47UF"/>
 <part name="C4" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="50V_0.1UF"/>
@@ -11723,8 +11743,8 @@ Isolated Flyback Controller
 <part name="Q1" library="HyTechDevices" deviceset="TRANSISTOR_N_MOS_?_*" device="2-7K1S" technology="TK3P80E" value="TRANSISTOR_N_MOS_2-7K1S_TK3P80E"/>
 <part name="R14" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="3.3"/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="25V_4.7UF"/>
-<part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="35V_22UF"/>
-<part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="35V_22UF" value="CAPACITOR_1206_35V_22UF"/>
+<part name="C9" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="16V_47UF" value="CAPACITOR_1206_16V_47UF"/>
+<part name="C3" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="1206" technology="16V_47UF" value="CAPACITOR_1206_16V_47UF"/>
 <part name="D13" library="HyTechDevices" deviceset="TVS_?_*" device="TPSMB" technology="522.5"/>
 <part name="P20" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
 <part name="TS/3" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
@@ -13831,6 +13851,10 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <text x="116.84" y="198.12" size="1.778" layer="97">Molex Microfit 4-pin</text>
 <text x="152.4" y="198.12" size="1.778" layer="97">Molex Microfit 6-pin, spaced</text>
 <text x="193.04" y="198.12" size="1.778" layer="97">Molex Microfit 7-pin, spaced</text>
+<text x="27.94" y="156.21" size="2.54" layer="91">Placement Notes:
+1. R9: Stack two 2Kohm resistors on top of each other to make the 1K ohm resistor due to power ratings.
+2. R2-4: Need to be HV resistors (the same ones used for U7 and U8). Most likely need to be in 0805 packages. 
+    Footprints on the board is 0603. Use 0805 resistors on 0603 pad. It should work. DO NOT use the R2-4 currently on the schematic.</text>
 </plain>
 <instances>
 <instance part="U$49" gate="G$1" x="0" y="0" smashed="yes">

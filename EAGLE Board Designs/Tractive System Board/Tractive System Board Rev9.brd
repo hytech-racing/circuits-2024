@@ -6019,29 +6019,29 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="NAME" x="51.503578125" y="-4.061459375" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="VOLTAGE" value="800V" x="52.054759375" y="-1.907540625" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R15" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_10.5K" x="56.78678125" y="-2.077721875" smashed="yes" rot="R90">
-<attribute name="DKPN" value="P10.5KDBCT-ND" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOPN" value="677-ERA-3AEB1052V" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="ERA-3AEB1052V" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R15" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_2.49K" x="56.78678125" y="-2.077721875" smashed="yes" rot="R90">
+<attribute name="DKPN" value="541-2.49KHTR-ND" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOPN" value="71-CRCW0603-2.49K-E3" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRCW06032K49FKEA" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="55.02401875" y="-2.057396875" size="0.8128" layer="25" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RESISTANCE" value="10.5k" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TOLERANCE" value="0.1%" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="32.40V" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RESISTANCE" value="2.49K" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE_MAX" value="100V" x="56.78678125" y="-2.077721875" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R18" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_1.24K" x="59.463946875" y="-3.266440625" smashed="yes" rot="R180">
-<attribute name="DKPN" value="311-1.24KHRCT-ND" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOPN" value="603-RC0603FR-071K24L" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0603FR-071K24L" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R18" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_21.5K" x="59.463946875" y="-3.266440625" smashed="yes" rot="R180">
+<attribute name="DKPN" value="P21.5KHTR-ND" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOPN" value="667-ERJ-3EKF2152V" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value=" ERJ-3EKF2152V" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="59.0575375" y="-3.7871375" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POWER" value="0.1W" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RESISTANCE" value="1.24k" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RESISTANCE" value="21.5K" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_CONTINUOUS" value="11.14V" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE_MAX" value="75V" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE_MAX" value="150V" x="59.463946875" y="-3.266440625" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C30" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_25V_47NF" x="55.5091625" y="-6.61161875" smashed="yes" rot="R270">
 <attribute name="CAPACITANCE" value="47nF" x="55.5091625" y="-6.61161875" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6493,12 +6493,12 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="MPN" value="5015" x="90.17" y="-62.484" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="90.17" y="-61.214" size="0.762" layer="25" font="vector" align="bottom-center"/>
 </element>
-<element name="C54" library="HyTechDevices" package="1206-CAP" value="CAPACITOR_1206_630V_47PF" x="67.490340625" y="-3.164840625" smashed="yes" rot="R270">
-<attribute name="CAPACITANCE" value="47pF" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DKPN" value="490-5041-1-ND" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C54" library="HyTechDevices" package="1206-CAP" value="CAPACITOR_1206_630V_10PF" x="67.490340625" y="-3.164840625" smashed="yes" rot="R270">
+<attribute name="CAPACITANCE" value="10pF" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="490-11620-2-ND" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="81-GCM31A7U2J470JX1D" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="GCM31A7U2J470JX01D" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="81-GRM31A5C2J100JW1D" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GRM31A5C2J100JW01D" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="67.779578125" y="-6.4135" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="TOLERANCE" value="5%" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="630V" x="67.490340625" y="-3.164840625" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6666,15 +6666,15 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="TOLERANCE" value="10%" x="100.660196875" y="-18.2981625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="100.660196875" y="-18.2981625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C5" library="HyTechDevices" package="1206-CAP" value="CAPACITOR_1206_35V_22UF" x="31.920178125" y="-21.638259375" smashed="yes" rot="R270">
-<attribute name="CAPACITANCE" value="22µF" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DKPN" value="445-8045-1-ND" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="TDK Corporation" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="810-C3216X5R1V226M" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="C3216X5R1V226M160AC" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C5" library="HyTechDevices" package="1206-CAP" value="CAPACITOR_1206_16V_47UF" x="31.920178125" y="-21.638259375" smashed="yes" rot="R270">
+<attribute name="CAPACITANCE" value="47µF" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="490-GRM31CR61C476ME44KTR-ND" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="81-GRM31CR61C476ME4K" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GRM31CR61C476ME44K" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="31.963040625" y="-19.184621875" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="TOLERANCE" value="20%" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE" value="35V" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="31.920178125" y="-21.638259375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C7" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_25V_1UF" x="99.065078125" y="-19.057621875" smashed="yes" rot="R90">
 <attribute name="CAPACITANCE" value="1µF" x="99.065078125" y="-19.057621875" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6839,25 +6839,25 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="TOLERANCE" value="10%" x="27.3304" y="-21.717" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="27.3304" y="-21.717" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C9" library="HyTechDevices" package="1206-CAP" value="CAPACITOR_1206_35V_22UF" x="29.38271875" y="-21.6408" smashed="yes" rot="R270">
-<attribute name="CAPACITANCE" value="22µF" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DKPN" value="445-8045-1-ND" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="TDK Corporation" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="810-C3216X5R1V226M" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="C3216X5R1V226M160AC" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C9" library="HyTechDevices" package="1206-CAP" value="CAPACITOR_1206_16V_47UF" x="29.38271875" y="-21.6408" smashed="yes" rot="R270">
+<attribute name="CAPACITANCE" value="47µF" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="490-GRM31CR61C476ME44KTR-ND" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="81-GRM31CR61C476ME4K" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GRM31CR61C476ME44K" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="29.464" y="-19.20208125" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="TOLERANCE" value="20%" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE" value="35V" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="29.38271875" y="-21.6408" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C3" library="HyTechDevices" package="1206-CAP" value="CAPACITOR_1206_35V_22UF" x="34.4424" y="-21.6154" smashed="yes" rot="R270">
-<attribute name="CAPACITANCE" value="22µF" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DKPN" value="445-8045-1-ND" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="TDK Corporation" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOPN" value="810-C3216X5R1V226M" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="C3216X5R1V226M160AC" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C3" library="HyTechDevices" package="1206-CAP" value="CAPACITOR_1206_16V_47UF" x="34.4424" y="-21.6154" smashed="yes" rot="R270">
+<attribute name="CAPACITANCE" value="47µF" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DKPN" value="490-GRM31CR61C476ME44KTR-ND" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOPN" value="81-GRM31CR61C476ME4K" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GRM31CR61C476ME44K" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="34.5186" y="-19.0954" size="0.8128" layer="25" font="vector" align="bottom-center"/>
 <attribute name="TOLERANCE" value="20%" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOLTAGE" value="35V" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="34.4424" y="-21.6154" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D13" library="HyTechDevices" package="SMB(DO-214AA)" value="TVS_TPSMB_522.5" x="85.785959375" y="-7.802878125" smashed="yes" rot="R270">
 <attribute name="DKPN" value="F10341CT-ND" x="85.785959375" y="-7.802878125" size="1.778" layer="27" rot="R270" display="off"/>
