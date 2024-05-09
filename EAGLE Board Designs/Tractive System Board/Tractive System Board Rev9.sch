@@ -8015,6 +8015,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="VOLTAGE_CONTINUOUS" value="16.51V"/>
 <attribute name="VOLTAGE_MAX" value="150V"/>
 </technology>
+<technology name="2.49K">
+<attribute name="DKPN" value="541-2.49KHTR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" constant="no"/>
+<attribute name="MOPN" value="71-CRCW0603-2.49K-E3" constant="no"/>
+<attribute name="MPN" value="CRCW06032K49FKEA" constant="no"/>
+<attribute name="POWER" value="0.1W" constant="no"/>
+<attribute name="RESISTANCE" value="2.49K" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V" constant="no"/>
+<attribute name="VOLTAGE_MAX" value="100V" constant="no"/>
+</technology>
 <technology name="2.55K">
 <attribute name="DKPN" value="311-2.55KHRCT-ND"/>
 <attribute name="MANUFACTURER" value="Yageo"/>
@@ -8047,6 +8058,17 @@ Littelfuse 122 Fuse Holder and Fuse&lt;li&gt;
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="44.72V"/>
 <attribute name="VOLTAGE_MAX" value="75V"/>
+</technology>
+<technology name="21.5K">
+<attribute name="DKPN" value="P21.5KHTR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MOPN" value="667-ERJ-3EKF2152V" constant="no"/>
+<attribute name="MPN" value=" ERJ-3EKF2152V" constant="no"/>
+<attribute name="POWER" value="0.1W" constant="no"/>
+<attribute name="RESISTANCE" value="21.5K" constant="no"/>
+<attribute name="TOLERANCE" value="1%" constant="no"/>
+<attribute name="VOLTAGE_CONTINUOUS" value="75V" constant="no"/>
+<attribute name="VOLTAGE_MAX" value="150V" constant="no"/>
 </technology>
 <technology name="210">
 <attribute name="DKPN" value="P19892CT-ND"/>
@@ -11610,7 +11632,7 @@ Isolated Flyback Controller
 <part name="D11" library="HyTechDevices" deviceset="RECTIFIER_*_?" device="SOD-123W" technology="800V_ACTIVE" value="RECTIFIER_800V_ACTIVE_SOD-123W"/>
 <part name="U$20" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="U$23" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
-<part name="R50" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
+<part name="R50" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K" value="RESISTOR_0603_2K"/>
 <part name="12VTS" library="HyTechDevices" deviceset="LED_?_*" device="0603" technology="GREEN"/>
 <part name="U$26" library="HyTechSupplies" deviceset="TS+12V" device=""/>
 <part name="P25" library="HyTechSupplies" deviceset="TS-FUSED" device=""/>
@@ -12136,8 +12158,8 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 </instance>
 <instance part="C10" gate="G$1" x="44.45" y="123.19" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.91" y="121.92" size="1.27" layer="95" rot="R90" align="bottom-center"/>
-<attribute name="VOLTAGE" x="46.99" y="121.92" size="1.27" layer="96" rot="R90" align="top-center"/>
-<attribute name="CAPACITANCE" x="46.99" y="117.348" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="VOLTAGE" x="49.53" y="121.92" size="1.27" layer="96" rot="R90" align="top-center"/>
+<attribute name="CAPACITANCE" x="47.498" y="121.92" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="P18" gate="G$1" x="32.766" y="87.122" smashed="yes">
 <attribute name="VALUE" x="32.766" y="84.582" size="1.27" layer="96" align="top-center"/>
