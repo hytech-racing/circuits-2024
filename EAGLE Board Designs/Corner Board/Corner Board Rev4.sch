@@ -7400,9 +7400,9 @@ Layer: 94 Symbol</description>
 <instance part="P13" gate="1" x="163.83" y="72.39" smashed="yes">
 <attribute name="VALUE" x="163.83" y="74.93" size="1.27" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="85.09" y="-45.974" smashed="yes">
-<attribute name="NAME" x="83.82" y="-44.704" size="1.27" layer="95" align="bottom-center"/>
-<attribute name="RESISTANCE" x="83.82" y="-47.244" size="1.27" layer="96" align="top-center"/>
+<instance part="R10" gate="G$1" x="83.82" y="-43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="82.55" y="-44.45" size="1.27" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="RESISTANCE" x="85.09" y="-44.45" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="T1" gate="G$1" x="106.68" y="-45.72" smashed="yes">
 <attribute name="NAME" x="106.68" y="-34.798" size="1.27" layer="95" align="bottom-center"/>
@@ -7776,7 +7776,7 @@ Layer: 94 Symbol</description>
 <wire x1="86.36" y1="-35.56" x2="83.82" y2="-35.56" width="0.1524" layer="91"/>
 <label x="83.82" y="-35.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="87.63" y1="-45.974" x2="83.82" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-40.64" x2="83.82" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="PRI_1"/>
 </segment>
 </net>
@@ -7790,7 +7790,7 @@ Layer: 94 Symbol</description>
 <wire x1="86.36" y1="-55.88" x2="83.82" y2="-55.88" width="0.1524" layer="91"/>
 <label x="83.82" y="-55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="-55.88" x2="80.01" y2="-45.974" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="-55.88" x2="83.82" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="PRI_2"/>
 </segment>
 </net>
