@@ -11766,11 +11766,13 @@ Min Input: 377V * 0.001904 = 0.71776V &lt; 1.25V</text>
 <text x="228.854" y="151.13" size="1.27" layer="97">Nominal Gain: 2
 Max Output = Max Input * 2 = 2.02954V &lt; 2.5V
 Min Output = Min Input * 2 = 1.43553V &lt; 2.5V</text>
-<text x="56.134" y="54.61" size="1.27" layer="97">U1+ Divider Ratio: 0.019139
+<text x="54.864" y="57.15" size="1.27" layer="97">U1+ Divider Ratio: 0.019139
 U1- Divider Ratio: 0.09462
 
 U1- Input: 12V * 0.09462 = 1.1354V 
-AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
+AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V
+
+***R2~R4 are incorrectly sized, see sheet 3 for possible fixes</text>
 <wire x1="7.62" y1="2.54" x2="101.6" y2="2.54" width="0.254" layer="97" style="longdash"/>
 <wire x1="101.6" y1="78.74" x2="101.6" y2="2.54" width="0.254" layer="97" style="longdash"/>
 <wire x1="101.6" y1="78.74" x2="208.026" y2="78.74" width="0.254" layer="97" style="longdash"/>
@@ -13854,7 +13856,8 @@ AIL Powered: 1.1354V / 0.019139 = 59.3258V &lt; 60V</text>
 <text x="27.94" y="156.21" size="2.54" layer="91">Placement Notes:
 1. R9: Stack two 2Kohm resistors on top of each other to make the 1K ohm resistor due to power ratings.
 2. R2-4: Need to be HV resistors (the same ones used for U7 and U8). Most likely need to be in 0805 packages. 
-    Footprints on the board is 0603. Use 0805 resistors on 0603 pad. It should work. DO NOT use the R2-4 currently on the schematic.</text>
+    Footprints on the board is 0603. Use 0805 resistors on 0603 pad. It should work. DO NOT use the R2-4 currently on the schematic.
+    Possible combination: 3x365K, 27K on U1+; 12+12.4K+3.3K on U1-</text>
 </plain>
 <instances>
 <instance part="U$49" gate="G$1" x="0" y="0" smashed="yes">
