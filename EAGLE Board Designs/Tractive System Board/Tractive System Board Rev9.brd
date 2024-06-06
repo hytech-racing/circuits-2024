@@ -5839,14 +5839,14 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <attribute name="VOLTAGE_CONTINUOUS" value="1.97V" x="-29.464" y="49.911" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VOLTAGE_MAX" value="75V" x="-29.464" y="49.911" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R23" library="HyTechDevices" package="B20-SHORTENED" value="RESISTOR_B20-SHORTENED_1.5K" x="141.478" y="-31.242" smashed="yes">
+<element name="R23" library="HyTechDevices" package="B20-SHORTENED" value="3K" x="141.478" y="-31.242" smashed="yes">
 <attribute name="DKPN" value="B20J1K5E-ND" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Ohmite" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="588-B20J1K5E" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="B20J1K5E" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="588-B20J3K0E" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B20J3K0E" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="170.053" y="-30.734" size="1.27" layer="21" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="POWER" value="20W" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="1.5K" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="3K" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="173V" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="750V" x="192.278" y="-89.662" size="1.778" layer="27" display="off"/>
@@ -5854,11 +5854,11 @@ Source: &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;J
 <element name="R13" library="HyTechDevices" package="B20-SHORTENED" value="RESISTOR_B20-SHORTENED_1.5K" x="141.478" y="-18.034" smashed="yes">
 <attribute name="DKPN" value="B20J1K5E-ND" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Ohmite" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
-<attribute name="MOPN" value="588-B20J1K5E" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="B20J1K5E" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="588-B20J3K0E" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="B20J3K0E" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="170.053" y="-18.034" size="1.27" layer="21" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="POWER" value="20W" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
-<attribute name="RESISTANCE" value="1.5K" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="3K" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_CONTINUOUS" value="173V" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="750V" x="192.278" y="-91.694" size="1.778" layer="27" display="off"/>

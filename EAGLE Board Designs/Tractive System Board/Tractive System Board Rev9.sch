@@ -11621,8 +11621,16 @@ Isolated Flyback Controller
 <part name="R30" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="12K" value="RESISTOR_0603_12K"/>
 <part name="R25" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
 <part name="R27" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="2K"/>
-<part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20-SHORTENED" technology="1.5K" value="RESISTOR_B20-SHORTENED_1.5K"/>
-<part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20-SHORTENED" technology="1.5K" value="RESISTOR_B20-SHORTENED_1.5K"/>
+<part name="R23" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20-SHORTENED" technology="1.5K" value="3K">
+<attribute name="MOPN" value="588-B20J3K0E"/>
+<attribute name="MPN" value="B20J3K0E"/>
+<attribute name="RESISTANCE" value="3K"/>
+</part>
+<part name="R13" library="HyTechDevices" deviceset="RESISTOR_?_*" device="B20-SHORTENED" technology="1.5K" value="RESISTOR_B20-SHORTENED_1.5K">
+<attribute name="MOPN" value="588-B20J3K0E"/>
+<attribute name="MPN" value="B20J3K0E"/>
+<attribute name="RESISTANCE" value="3K"/>
+</part>
 <part name="K1" library="HyTechDevices" deviceset="RELAY_SPST_NO_?*" device="D_" technology="200W_24" value="RELAY_SPST_NO_D_200W_24"/>
 <part name="R34" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0805" technology="1M"/>
 <part name="R24" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="39"/>
