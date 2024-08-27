@@ -12059,12 +12059,6 @@ We choose to use a 1kΩ for part commonality.</text>
 <part name="O38" library="HyTechExternal" deviceset="CRIMP_*" device="" technology="MICROFIT_20-24"/>
 <part name="P96" library="HyTechSupplies" deviceset="V-U" device=""/>
 <part name="P97" library="HyTechSupplies" deviceset="VREGU" device=""/>
-<part name="U$34" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device="">
-<attribute name="DESCRIPTION_1" value="Ordering Information for off board components"/>
-<attribute name="DESIGNER_SCHEMATIC" value="Cody Kaminsky"/>
-<attribute name="ENGINEER" value="Cody Kaminsky"/>
-<attribute name="REVIEWER_SCHEMATIC" value="Ethan Weinstock"/>
-</part>
 <part name="J11" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="MICROFIT_SMD_RIGHTANGLE_02_SINGLE" technology="BLACK" value="CONNECTOR-2_MICROFIT_SMD_RIGHTANGLE_02_SINGLE_BLACK"/>
 <part name="C34" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
 <part name="J12" library="HyTechDevices" deviceset="CONNECTOR-2_?_*" device="MICROFIT_SMD_RIGHTANGLE_02_SINGLE" technology="BLACK" value="CONNECTOR-2_MICROFIT_SMD_RIGHTANGLE_02_SINGLE_BLACK"/>
@@ -12102,6 +12096,7 @@ We choose to use a 1kΩ for part commonality.</text>
 <part name="TP14" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP15" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP16" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
+<part name="U$34" library="HyTechFrames" deviceset="FRAME_SCHEMATIC_ONLY" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12124,18 +12119,6 @@ The datasheet recommends 0.675x derating. The 1A fuse fits perfectly.</text>
 of one to isolate the upper IC from
 the lower IC in a situation where a
 fuse blows. The behavior of floating voltage is unknown.</text>
-<text x="119.38" y="119.38" size="1.27" layer="97">The parts inside the dotted
-line box are galvanically
-isolated from the cell voltages,
-but is still considered tractive
-system because the FSAE
-spacing requirements are not
-met for the footprint.
-The transformer is used to
-meet the galvanic isolation
-requirement of EV.8.3.2.
-We skip an air-gap footprint to
-avoid exposed conductor.</text>
 <text x="226.06" y="127" size="1.27" layer="97">The thermistors are done on the
 pull-up side as to not overload
 the GPIO pins when they are not present.</text>
@@ -12159,6 +12142,8 @@ per the datasheet to maximize GPIO analog accuracy.</text>
 <text x="172.72" y="71.12" size="1.27" layer="97">The LT3990-5 implementation
 precisely follows the LTC6811-2
 datasheet recommendation.</text>
+<text x="129.54" y="22.86" size="2.54" layer="95">Rajan Sandhu</text>
+<text x="177.8" y="45.72" size="2.54" layer="95">Rajan Sandhu</text>
 </plain>
 <moduleinsts>
 <moduleinst name="CELL1" module="CELL" x="48.26" y="20.32">
@@ -12617,12 +12602,7 @@ datasheet recommendation.</text>
 <attribute name="LAST_DATE_TIME" x="186.69" y="2.54" size="2.54" layer="95"/>
 <attribute name="DRAWING_NAME" x="207.01" y="22.86" size="2.54" layer="95"/>
 <attribute name="SHEET" x="259.08" y="2.54" size="2.54" layer="95"/>
-<attribute name="ENGINEER" x="129.54" y="22.86" size="2.54" layer="95"/>
-<attribute name="DESIGNER_SCHEMATIC" x="176.53" y="45.72" size="2.54" layer="95"/>
-<attribute name="DESIGNER_BOARD" x="176.53" y="38.1" size="2.54" layer="95"/>
 <attribute name="DESIGNER_FURTHER" x="176.53" y="30.48" size="2.54" layer="95"/>
-<attribute name="REVIEWER_SCHEMATIC" x="227.33" y="45.72" size="2.54" layer="95"/>
-<attribute name="REVIEWER_BOARD" x="227.33" y="38.1" size="2.54" layer="95"/>
 <attribute name="REVIEWER_FURTHER" x="227.33" y="30.48" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
 <attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
@@ -15083,18 +15063,11 @@ meet the galvanic isolation
 requirement of EV.8.3.2.
 We skip an air-gap footprint to
 avoid exposed conductor.</text>
+<text x="177.8" y="30.48" size="2.54" layer="95">Rajan Sandhu</text>
+<text x="195.58" y="10.16" size="2.54" layer="95">Circuitry for daisy chain connection between
+boards.</text>
 </plain>
 <instances>
-<instance part="U$34" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="186.69" y="2.54" size="2.54" layer="95"/>
-<attribute name="DRAWING_NAME" x="207.01" y="22.86" size="2.54" layer="95"/>
-<attribute name="SHEET" x="259.08" y="2.54" size="2.54" layer="95"/>
-<attribute name="ENGINEER" x="129.54" y="22.86" size="2.54" layer="95"/>
-<attribute name="DESIGNER_SCHEMATIC" x="176.53" y="30.48" size="2.54" layer="95"/>
-<attribute name="REVIEWER_SCHEMATIC" x="227.33" y="30.48" size="2.54" layer="95"/>
-<attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
-<attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
-</instance>
 <instance part="J11" gate="G$1" x="139.7" y="157.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="139.7" y="158.242" size="1.27" layer="95" rot="MR0"/>
 </instance>
@@ -15226,6 +15199,16 @@ avoid exposed conductor.</text>
 <instance part="TP16" gate="G$1" x="142.24" y="48.26" smashed="yes">
 <attribute name="NAME" x="139.7" y="50.038" size="1.27" layer="95"/>
 <attribute name="MPN" x="139.7" y="46.482" size="1.27" layer="95" align="top-left"/>
+</instance>
+<instance part="U$34" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="186.69" y="2.54" size="2.54" layer="95"/>
+<attribute name="DRAWING_NAME" x="207.01" y="22.86" size="2.54" layer="95"/>
+<attribute name="SHEET" x="259.08" y="2.54" size="2.54" layer="95"/>
+<attribute name="ENGINEER" x="129.54" y="22.86" size="2.54" layer="95"/>
+<attribute name="DESIGNER_SCHEMATIC" x="176.53" y="30.48" size="2.54" layer="95"/>
+<attribute name="REVIEWER_SCHEMATIC" x="227.33" y="30.48" size="2.54" layer="95"/>
+<attribute name="DESCRIPTION_1" x="196.85" y="15.24" size="2.54" layer="95"/>
+<attribute name="DESCRIPTION_2" x="176.53" y="10.16" size="2.54" layer="95"/>
 </instance>
 </instances>
 <busses>
