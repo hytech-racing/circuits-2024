@@ -11090,6 +11090,26 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <attribute name="VOLTAGE_CONTINUOUS" value="" x="-4.318" y="-258.318" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE_MAX" value="" x="-4.318" y="-258.318" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C15" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="-5.08" y="-261.366" smashed="yes">
+<attribute name="CAPACITANCE" value="10nF" x="-4.318" y="-261.366" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="-4.318" y="-261.366" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="-4.318" y="-261.366" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="-4.318" y="-261.366" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="-4.318" y="-261.366" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.08" y="-260.616" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="TOLERANCE" value="10%" x="-4.318" y="-261.366" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-4.318" y="-261.366" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C16" library="HyTechDevices" package="0603-CAP" value="CAPACITOR_0603_10V_10NF" x="-5.08" y="-264.414" smashed="yes">
+<attribute name="CAPACITANCE" value="10nF" x="-4.318" y="-264.414" size="1.778" layer="27" display="off"/>
+<attribute name="DKPN" value="311-4054-1-ND" x="-4.318" y="-264.414" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="-4.318" y="-264.414" size="1.778" layer="27" display="off"/>
+<attribute name="MOPN" value="603-CC603KRX7R6BB103" x="-4.318" y="-264.414" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R6BB103" x="-4.318" y="-264.414" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-5.08" y="-263.664" size="0.8128" layer="25" font="vector" align="bottom-center"/>
+<attribute name="TOLERANCE" value="10%" x="-4.318" y="-264.414" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="10V" x="-4.318" y="-264.414" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="IMBU">
@@ -14714,22 +14734,30 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="18.5166" y1="-89.2683" x2="3.285996875" y2="-136.43101875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMAU" class="5">
-<contactref element="R65" pad="1"/>
 <contactref element="U$35" pad="P$3"/>
 <contactref element="U5" pad="41"/>
 <contactref element="R12" pad="1"/>
+<contactref element="C16" pad="1"/>
+<contactref element="R65" pad="1"/>
+<contactref element="C16" pad="2"/>
 <wire x1="-0.472" y1="-207.694" x2="-3.393" y2="-205.886" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.93" y1="-196.088" x2="-3.393" y2="-205.886" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.93" y1="-258.318" x2="-0.472" y2="-207.694" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.83" y1="-264.414" x2="-5.93" y2="-258.318" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.33" y1="-264.414" x2="-5.83" y2="-264.414" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IPAU" class="5">
-<contactref element="R64" pad="2"/>
 <contactref element="U$35" pad="P$4"/>
 <contactref element="U5" pad="42"/>
 <contactref element="R12" pad="2"/>
+<contactref element="C15" pad="1"/>
+<contactref element="R64" pad="2"/>
+<contactref element="C15" pad="2"/>
 <wire x1="-0.972" y1="-207.694" x2="-3.393" y2="-205.086" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.468" y1="-193.04" x2="-3.393" y2="-205.086" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.23" y1="-258.318" x2="-0.972" y2="-207.694" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.33" y1="-261.366" x2="-4.23" y2="-258.318" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.83" y1="-261.366" x2="-4.33" y2="-261.366" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="R66" pad="2"/>
