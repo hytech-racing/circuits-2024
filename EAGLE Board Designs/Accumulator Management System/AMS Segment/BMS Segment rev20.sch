@@ -12074,7 +12074,7 @@ We choose to use a 1kΩ for part commonality.</text>
 <part name="R65" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="49.9"/>
 <part name="P100" library="HyTechSupplies" deviceset="V-U" device=""/>
 <part name="R69" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="DNP" value="RESISTOR_0603_DNP"/>
-<part name="U$35" library="HyTechDevices" deviceset="ACM2012-361-2P-T002" device=""/>
+<part name="T3" library="HyTechDevices" deviceset="ACM2012-361-2P-T002" device=""/>
 <part name="U5" library="HyTechDevices" deviceset="LTC6811-1" device=""/>
 <part name="U2" library="HyTechDevices" deviceset="LTC6811-1" device=""/>
 <part name="R16" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="1K"/>
@@ -15144,7 +15144,7 @@ These suffixes are necessary for differential pair routing in EAGLE.</text>
 <attribute name="NAME" x="125.73" y="118.11" size="1.27" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="RESISTANCE" x="128.27" y="118.11" size="1.27" layer="96" rot="R90" align="top-center"/>
 </instance>
-<instance part="U$35" gate="G$1" x="99.06" y="78.74" smashed="yes">
+<instance part="T3" gate="G$1" x="99.06" y="78.74" smashed="yes">
 <attribute name="NAME" x="99.06" y="87.122" size="1.27" layer="95" align="bottom-center"/>
 <attribute name="MPN" x="99.06" y="69.85" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -15210,7 +15210,7 @@ These suffixes are necessary for differential pair routing in EAGLE.</text>
 <wire x1="60.96" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
 <label x="58.42" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R66" gate="G$1" pin="1"/>
-<pinref part="U$35" gate="G$1" pin="2"/>
+<pinref part="T3" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 <junction x="60.96" y="71.12"/>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -15233,7 +15233,7 @@ These suffixes are necessary for differential pair routing in EAGLE.</text>
 <wire x1="60.96" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
 <label x="58.42" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R63" gate="G$1" pin="2"/>
-<pinref part="U$35" gate="G$1" pin="1"/>
+<pinref part="T3" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 <junction x="60.96" y="86.36"/>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -15418,7 +15418,7 @@ These suffixes are necessary for differential pair routing in EAGLE.</text>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="86.36" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$35" gate="G$1" pin="4"/>
+<pinref part="T3" gate="G$1" pin="4"/>
 <wire x1="116.84" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
 <junction x="116.84" y="86.36"/>
 </segment>
@@ -15429,7 +15429,7 @@ These suffixes are necessary for differential pair routing in EAGLE.</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="71.12" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$35" gate="G$1" pin="3"/>
+<pinref part="T3" gate="G$1" pin="3"/>
 <wire x1="116.84" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
 <junction x="116.84" y="71.12"/>
 </segment>
