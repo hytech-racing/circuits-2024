@@ -10874,7 +10874,7 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <attribute name="MANUFACTURER" value="Pulse Electronics" x="107.442" y="-58.674" size="1.778" layer="27" display="off"/>
 <attribute name="MOPN" value="673-HM2112ZNLT" x="107.442" y="-58.674" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="HM2112ZNLT" x="107.442" y="-58.674" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="131.572" y="-58.928" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="131.318" y="-58.928" size="0.8128" layer="25" font="vector" rot="R90" align="bottom-center"/>
 </element>
 <element name="R63" library="HyTechDevices" package="0603-RES" value="RESISTOR_0603_49.9" x="192.826640625" y="-47.8942375" smashed="yes">
 <attribute name="DKPN" value="311-49.9HRCT-ND" x="192.826640625" y="-47.8942375" size="1.778" layer="27" display="off"/>
