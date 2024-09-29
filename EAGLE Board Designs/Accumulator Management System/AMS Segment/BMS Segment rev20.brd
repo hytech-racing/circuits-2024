@@ -729,22 +729,15 @@ By Liwei Sun
 <rectangle x1="-5.6025" y1="10.7625" x2="5.6025" y2="14.9875" layer="29"/>
 <rectangle x1="-4.1025" y1="4.2625" x2="4.1025" y2="10.865" layer="29"/>
 </package>
-<package name="0885">
-<description>0885 Fuse
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-Keepout is 0.8 mm around fuse to get 1.6 mmbetween fuses.</description>
-<smd name="1" x="-5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
-<smd name="2" x="5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
-<wire x1="-5.43" y1="2.39" x2="-5.43" y2="-2.39" width="0.127" layer="21"/>
-<wire x1="-5.43" y1="-2.39" x2="5.43" y2="-2.39" width="0.127" layer="21"/>
-<wire x1="5.43" y1="-2.39" x2="5.43" y2="2.39" width="0.127" layer="21"/>
-<wire x1="5.43" y1="2.39" x2="-5.43" y2="2.39" width="0.127" layer="21"/>
-<text x="0" y="3.65" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-8.85" y1="-4.415" x2="8.85" y2="4.415" layer="39"/>
-<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="43"/>
-<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="41"/>
+<package name="2-SMD">
+<smd name="1" x="-2.455" y="0" dx="3.15" dy="1.96" layer="1" rot="R90"/>
+<smd name="2" x="2.455" y="0" dx="3.15" dy="1.96" layer="1" rot="R90"/>
+<wire x1="-3.05" y1="1.27" x2="3.05" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.05" y1="1.27" x2="3.05" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.05" y1="-1.27" x2="-3.05" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="-1.27" x2="-3.05" y2="1.27" width="0.127" layer="21"/>
+<rectangle x1="-4" y1="-2" x2="4" y2="2" layer="39"/>
+<text x="0" y="2" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="5222">
 <description>5222 Spring
@@ -9731,212 +9724,235 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <attribute name="VOLTAGE_CONTINUOUS" value="7.9V" x="187.071" y="-44.968159375" size="0.7112" layer="27" font="vector" display="off"/>
 <attribute name="VOLTAGE_MAX" value="50V" x="187.071" y="-44.968159375" size="0.7112" layer="27" font="vector" display="off"/>
 </element>
-<element name="F1" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="268.8336" y="-19.1262" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="268.8336" y="-19.1262" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="268.8336" y="-19.1262" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="268.8336" y="-19.1262" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="268.8336" y="-19.1262" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="268.8336" y="-19.1262" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="NAME" x="273.4486" y="-19.1262" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="268.8336" y="-19.1262" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F1" library="HyTechDevices" package="2-SMD" value="FUSE__" x="268.8336" y="-20.3962" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="268.8336" y="-20.3962" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="268.8336" y="-20.3962" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="268.8336" y="-20.3962" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="268.8336" y="-20.3962" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="268.8336" y="-20.3962" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="268.8336" y="-20.3962" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="273.4486" y="-20.3962" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
+<attribute name="VOLTAGE" value="125V" x="268.8336" y="-20.3962" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F4" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="242.2144" y="-9.4615" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F4" library="HyTechDevices" package="2-SMD" value="FUSE__" x="242.2144" y="-9.4615" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="242.2144" y="-9.4615" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="NAME" x="246.8294" y="-9.4615" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="242.2144" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F8" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="208.248946875" y="-75.9841" smashed="yes" rot="R90">
-<attribute name="CURRENT" value="1A" x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<element name="F8" library="HyTechDevices" package="2-SMD" value="FUSE__" x="208.248946875" y="-75.9841" smashed="yes" rot="R90">
+<attribute name="CURRENT" value="3A" x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="I2T" value="1.8" x="208.248946875" y="-75.9841" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="203.633946875" y="-75.9841" size="0.7112" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="208.248946875" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 </element>
-<element name="F13" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="138.5316" y="-9.4615" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F13" library="HyTechDevices" package="2-SMD" value="FUSE__" x="138.5316" y="-9.4615" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="138.5316" y="-9.4615" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="NAME" x="143.1466" y="-9.4615" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="138.5316" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F15" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="90.7034" y="-75.9841" smashed="yes" rot="R90">
-<attribute name="CURRENT" value="1A" x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<element name="F15" library="HyTechDevices" package="2-SMD" value="FUSE__" x="90.7034" y="-75.9841" smashed="yes" rot="R90">
+<attribute name="CURRENT" value="3A" x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="I2T" value="1.8" x="90.7034" y="-75.9841" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="95.1054" y="-75.9841" size="0.7112" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="90.7034" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 </element>
-<element name="F14" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="113.8174" y="-9.5885" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F14" library="HyTechDevices" package="2-SMD" value="FUSE__" x="113.8174" y="-9.5885" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="113.8174" y="-9.5885" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="NAME" x="118.4324" y="-9.5885" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="113.8174" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F17" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="56.582728125" y="-75.9841" smashed="yes" rot="R90">
-<attribute name="CURRENT" value="1A" x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<element name="F17" library="HyTechDevices" package="2-SMD" value="FUSE__" x="56.582728125" y="-75.9841" smashed="yes" rot="R90">
+<attribute name="CURRENT" value="3A" x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="I2T" value="1.8" x="56.582728125" y="-75.9841" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="51.967728125" y="-75.9841" size="0.7112" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="56.582728125" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 </element>
-<element name="F16" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="81.8134" y="-9.3345" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F16" library="HyTechDevices" package="2-SMD" value="FUSE__" x="81.8134" y="-9.3345" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="81.8134" y="-9.3345" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="NAME" x="86.4284" y="-9.3345" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="81.8134" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F19" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="47.244" y="-75.9841" smashed="yes" rot="R90">
-<attribute name="CURRENT" value="1A" x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<element name="F19" library="HyTechDevices" package="2-SMD" value="FUSE__" x="47.244" y="-75.9841" smashed="yes" rot="R90">
+<attribute name="CURRENT" value="3A" x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="I2T" value="1.8" x="47.244" y="-75.9841" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="42.629" y="-75.9841" size="0.7112" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="47.244" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 </element>
-<element name="F18" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="51.5366" y="-9.5885" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F18" library="HyTechDevices" package="2-SMD" value="FUSE__" x="51.5366" y="-9.5885" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="51.5366" y="-9.5885" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="NAME" x="56.1516" y="-9.5885" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="51.5366" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F21" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="30.734" y="-75.9841" smashed="yes" rot="R90">
-<attribute name="CURRENT" value="1A" x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<element name="F21" library="HyTechDevices" package="2-SMD" value="FUSE__" x="30.734" y="-75.9841" smashed="yes" rot="R90">
+<attribute name="CURRENT" value="3A" x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="I2T" value="1.8" x="30.734" y="-75.9841" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="26.119" y="-75.9841" size="0.7112" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="30.734" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 </element>
-<element name="F20" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="42.2656" y="-9.5885" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F20" library="HyTechDevices" package="2-SMD" value="FUSE__" x="42.2656" y="-9.5885" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="42.2656" y="-9.5885" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="NAME" x="46.8806" y="-9.5885" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="42.2656" y="-9.5885" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F2" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="252.755384375" y="-75.9841" smashed="yes" rot="R90">
-<attribute name="CURRENT" value="1A" x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<element name="F2" library="HyTechDevices" package="2-SMD" value="FUSE__" x="252.755384375" y="-75.9841" smashed="yes" rot="R90">
+<attribute name="CURRENT" value="3A" x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="I2T" value="1.8" x="252.755384375" y="-75.9841" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="248.140384375" y="-75.9841" size="0.7112" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="252.755384375" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 </element>
-<element name="F22" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="21.463" y="-75.9841" smashed="yes" rot="R90">
-<attribute name="CURRENT" value="1A" x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<element name="F22" library="HyTechDevices" package="2-SMD" value="FUSE__" x="21.463" y="-75.9841" smashed="yes" rot="R90">
+<attribute name="CURRENT" value="3A" x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="I2T" value="1.8" x="21.463" y="-75.9841" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="16.848" y="-75.9841" size="0.7112" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="21.463" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 </element>
-<element name="F23" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="9.7536" y="-9.4742" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="9.7536" y="-9.4742" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="9.7536" y="-9.4742" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="9.7536" y="-9.4742" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="9.7536" y="-9.4742" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="9.7536" y="-9.4742" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="NAME" x="14.3686" y="-9.4742" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="9.7536" y="-9.4742" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F23" library="HyTechDevices" package="2-SMD" value="FUSE__" x="9.7536" y="-10.9982" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="9.7536" y="-10.9982" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="9.7536" y="-10.9982" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="9.7536" y="-10.9982" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="9.7536" y="-10.9982" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="9.7536" y="-10.9982" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="9.7536" y="-10.9982" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="14.3686" y="-10.9982" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
+<attribute name="VOLTAGE" value="125V" x="9.7536" y="-10.9982" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F12" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="141.7447" y="-31.8318375" smashed="yes">
-<attribute name="CURRENT" value="1A" x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
+<element name="F12" library="HyTechDevices" package="2-SMD" value="FUSE__" x="141.7447" y="-31.8318375" smashed="yes">
+<attribute name="CURRENT" value="3A" x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
+<attribute name="I2T" value="1.8" x="141.7447" y="-31.8318375" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="141.7447" y="-37.3768375" size="0.7112" layer="25" font="vector" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="141.7447" y="-31.8318375" size="0.7112" layer="27" font="vector" display="off"/>
 </element>
-<element name="F5" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="232.9434" y="-9.4615" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F5" library="HyTechDevices" package="2-SMD" value="FUSE__" x="232.9434" y="-9.4615" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="232.9434" y="-9.4615" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="NAME" x="237.5584" y="-9.4615" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="232.9434" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F3" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="243.470275" y="-75.9841" smashed="yes" rot="R90">
-<attribute name="CURRENT" value="1A" x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<element name="F3" library="HyTechDevices" package="2-SMD" value="FUSE__" x="243.470275" y="-75.9841" smashed="yes" rot="R90">
+<attribute name="CURRENT" value="3A" x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="I2T" value="1.8" x="243.470275" y="-75.9841" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="238.855275" y="-75.9841" size="0.7112" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="243.470275" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 </element>
-<element name="F9" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="204.3176" y="-9.3345" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F9" library="HyTechDevices" package="2-SMD" value="FUSE__" x="204.3176" y="-9.3345" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="204.3176" y="-9.3345" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="NAME" x="208.9326" y="-9.3345" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="204.3176" y="-9.3345" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F6" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="226.692165625" y="-75.9841" smashed="yes" rot="R90">
-<attribute name="CURRENT" value="1A" x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<element name="F6" library="HyTechDevices" package="2-SMD" value="FUSE__" x="226.692165625" y="-75.9841" smashed="yes" rot="R90">
+<attribute name="CURRENT" value="3A" x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="I2T" value="1.8" x="226.692165625" y="-75.9841" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="222.077165625" y="-75.9841" size="0.7112" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="226.692165625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 </element>
-<element name="F10" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="172.5676" y="-9.4615" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="NAME" x="177.1826" y="-9.4615" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F10" library="HyTechDevices" package="2-SMD" value="FUSE__" x="172.5676" y="-9.4615" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="172.5676" y="-9.4615" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="177.1826" y="-6.6675" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
+<attribute name="VOLTAGE" value="125V" x="172.5676" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
-<element name="F7" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="217.53405625" y="-75.9841" smashed="yes" rot="R90">
-<attribute name="CURRENT" value="1A" x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<element name="F7" library="HyTechDevices" package="2-SMD" value="FUSE__" x="217.53405625" y="-75.9841" smashed="yes" rot="R90">
+<attribute name="CURRENT" value="3A" x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="I2T" value="1.8" x="217.53405625" y="-75.9841" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="212.91905625" y="-75.9841" size="0.7112" layer="25" font="vector" rot="R90" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="125V" x="217.53405625" y="-75.9841" size="0.7112" layer="27" font="vector" rot="R90" display="off"/>
 </element>
-<element name="F11" library="HyTechDevices" package="0885" value="FUSE_0885_1" x="147.8026" y="-9.4615" smashed="yes" rot="R270">
-<attribute name="CURRENT" value="1A" x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DKPN" value="F10985CT-ND" x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc." x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MOPN" value="576-0885001.DR" x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="0885001.DR" x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="NAME" x="152.7986" y="-9.4615" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
-<attribute name="VOLTAGE" value="500V" x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<element name="F11" library="HyTechDevices" package="2-SMD" value="FUSE__" x="147.8026" y="-9.4615" smashed="yes" rot="R270">
+<attribute name="CURRENT" value="3A" x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DKPN" value="507-1991-1-ND" x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="I2T" value="1.8" x="147.8026" y="-9.4615" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MOPN" value="530-0679L3000-05" x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="0679L3000-05" x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="152.5446" y="-5.3975" size="0.7112" layer="25" font="vector" rot="R270" align="top-center"/>
+<attribute name="VOLTAGE" value="125V" x="147.8026" y="-9.4615" size="0.7112" layer="27" font="vector" rot="R270" display="off"/>
 </element>
 <element name="J100" library="HyTechDevices" package="5222" value="CONNECTOR-1_5222_" x="268.478" y="-22.86" locked="yes" smashed="yes" rot="MR0">
 <attribute name="DKPN" value="36-5222-ND" x="268.478" y="-22.86" locked="yes" size="0.7112" layer="28" font="vector" rot="MR0" display="off"/>
@@ -11174,10 +11190,10 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="36.51885" y1="-57.58725" x2="36.51885" y2="-58.98515" width="0.4064" layer="1"/>
 <wire x1="36.576" y1="-59.0423" x2="36.576" y2="-63.37870625" width="0.4064" layer="1"/>
 <wire x1="36.576" y1="-63.37870625" x2="35.5796" y2="-64.37510625" width="0.4064" layer="1"/>
-<wire x1="35.5796" y1="-64.37510625" x2="35.5796" y2="-66.4727" width="0.4064" layer="1"/>
+<wire x1="35.5796" y1="-64.37510625" x2="35.5796" y2="-69.0127" width="0.4064" layer="1"/>
 <wire x1="26.7462" y1="-43.0784" x2="23.387" y2="-39.7192" width="0.4064" layer="1"/>
-<wire x1="35.5796" y1="-66.4727" x2="31.3182" y2="-70.7341" width="0.4064" layer="1"/>
-<wire x1="31.3182" y1="-70.7341" x2="30.734" y2="-70.7341" width="0.4064" layer="1"/>
+<wire x1="35.5796" y1="-69.0127" x2="31.0632" y2="-73.5291" width="0.4064" layer="1"/>
+<wire x1="30.734" y1="-73.5291" x2="31.0632" y2="-73.5291" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE16" class="3">
 <contactref element="F19" pad="2"/>
@@ -11204,10 +11220,9 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="53.1114" y1="-57.6698" x2="53.1114" y2="-59.1566" width="0.4064" layer="1"/>
 <wire x1="53.1114" y1="-59.1566" x2="53.086" y2="-59.182" width="0.4064" layer="1"/>
 <wire x1="53.1114" y1="-62.13410625" x2="53.1114" y2="-59.1566" width="0.4064" layer="1"/>
-<wire x1="52.2166" y1="-63.02890625" x2="53.1114" y2="-62.13410625" width="0.4064" layer="1"/>
-<wire x1="52.2166" y1="-66.5997" x2="52.2166" y2="-63.02890625" width="0.4064" layer="1"/>
-<wire x1="52.2166" y1="-66.5997" x2="48.0822" y2="-70.7341" width="0.4064" layer="1"/>
-<wire x1="48.0822" y1="-70.7341" x2="47.244" y2="-70.7341" width="0.4064" layer="1"/>
+<wire x1="53.1114" y1="-62.13410625" x2="52.2166" y2="-63.02890625" width="0.4064" layer="1"/>
+<wire x1="52.2166" y1="-68.5565" x2="47.244" y2="-73.5291" width="0.4064" layer="1"/>
+<wire x1="52.2166" y1="-63.02890625" x2="52.2166" y2="-68.5565" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE15" class="3">
 <contactref element="F16" pad="2"/>
@@ -11231,7 +11246,6 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="54.6816" y1="-31.30849375" x2="54.6816" y2="-26.65610625" width="0.4064" layer="1"/>
 <wire x1="54.6816" y1="-26.65610625" x2="55.55670625" y2="-25.781" width="0.4064" layer="1"/>
 <wire x1="55.55670625" y1="-25.781" x2="66.354825" y2="-25.781" width="0.4064" layer="1"/>
-<wire x1="81.607871875" y1="-14.378971875" x2="81.8134" y2="-14.5845" width="0.4064" layer="1"/>
 <wire x1="62.183" y1="-53.9712" x2="64.9732" y2="-51.181" width="0.4064" layer="1"/>
 <wire x1="64.9732" y1="-51.1048" x2="64.9732" y2="-49.0728" width="0.4064" layer="1"/>
 <wire x1="64.9732" y1="-49.0728" x2="58.82" y2="-42.9196" width="0.4064" layer="1"/>
@@ -11240,7 +11254,9 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="66.354825" y1="-25.781" x2="70.9003625" y2="-21.2354625" width="0.4064" layer="1"/>
 <wire x1="70.9003625" y1="-21.2354625" x2="70.9003625" y2="-20.7083375" width="0.4064" layer="1"/>
 <wire x1="70.9003625" y1="-20.7083375" x2="77.229728125" y2="-14.378971875" width="0.4064" layer="1"/>
-<wire x1="77.229728125" y1="-14.378971875" x2="81.607871875" y2="-14.378971875" width="0.4064" layer="1"/>
+<wire x1="77.229728125" y1="-14.378971875" x2="80.337871875" y2="-14.378971875" width="0.4064" layer="1"/>
+<wire x1="80.337871875" y1="-14.378971875" x2="81.8134" y2="-12.90344375" width="0.4064" layer="1"/>
+<wire x1="81.8134" y1="-12.90344375" x2="81.8134" y2="-11.7895" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE14" class="3">
 <contactref element="F17" pad="2"/>
@@ -11272,10 +11288,10 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="72.55749375" y1="-62.4032" x2="73.14629375" y2="-62.992" width="0.4064" layer="1"/>
 <wire x1="77.3557" y1="-62.992" x2="78.8298" y2="-62.992" width="0.4064" layer="1"/>
 <wire x1="78.8298" y1="-62.992" x2="78.9822" y2="-63.1444" width="0.4064" layer="1"/>
-<wire x1="64.149" y1="-70.8103" x2="56.658928125" y2="-70.8103" width="0.4064" layer="1"/>
-<wire x1="56.658928125" y1="-70.8103" x2="56.582728125" y2="-70.7341" width="0.4064" layer="1"/>
 <wire x1="61.2902" y1="-41.7322" x2="62.738" y2="-41.7322" width="0.4064" layer="1"/>
 <wire x1="62.738" y1="-41.7322" x2="64.00010625" y2="-41.7322" width="0.4064" layer="1"/>
+<wire x1="56.582728125" y1="-73.5291" x2="59.301528125" y2="-70.8103" width="0.4064" layer="1"/>
+<wire x1="59.301528125" y1="-70.8103" x2="64.149" y2="-70.8103" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE13" class="3">
 <contactref element="F14" pad="2"/>
@@ -11297,7 +11313,7 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="91.6686" y1="-56.2492" x2="91.6686" y2="-54.1401" width="0.4064" layer="1"/>
 <wire x1="91.6686" y1="-54.1401" x2="91.694" y2="-54.1147" width="0.4064" layer="1"/>
 <wire x1="91.694" y1="-53.4797" x2="91.694" y2="-54.1147" width="0.4064" layer="1"/>
-<wire x1="113.8174" y1="-14.8385" x2="113.8174" y2="-31.3563" width="0.4064" layer="1"/>
+<wire x1="113.8174" y1="-12.0435" x2="113.8174" y2="-31.3563" width="0.4064" layer="1"/>
 <wire x1="113.8174" y1="-31.3563" x2="91.694" y2="-53.4797" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE11" class="4">
@@ -11309,8 +11325,6 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="162.433" y1="-38.9518" x2="162.4076" y2="-38.9772" width="0.4064" layer="1"/>
 <wire x1="163.8554" y1="-60.198" x2="163.8554" y2="-59.4106" width="0.4064" layer="1"/>
 <wire x1="162.433" y1="-37.2237" x2="162.433" y2="-37.465" width="0.4064" layer="1"/>
-<wire x1="138.5316" y1="-14.7115" x2="139.6795" y2="-14.7115" width="0.4064" layer="1"/>
-<wire x1="139.6795" y1="-14.7115" x2="162.433" y2="-37.465" width="0.4064" layer="1"/>
 <wire x1="162.433" y1="-37.2237" x2="162.433" y2="-38.9518" width="0.4064" layer="1"/>
 <wire x1="163.19609375" y1="-43.4268" x2="161.2972" y2="-43.4268" width="0.4064" layer="1"/>
 <wire x1="161.2972" y1="-43.4268" x2="159.512" y2="-45.212" width="0.4064" layer="1"/>
@@ -11327,6 +11341,8 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="161.2692" y1="-62.7842" x2="163.8554" y2="-60.198" width="0.4064" layer="1"/>
 <wire x1="163.8554" y1="-59.4106" x2="162.814" y2="-59.4106" width="0.4064" layer="1"/>
 <wire x1="162.814" y1="-59.4106" x2="159.512" y2="-56.1086" width="0.4064" layer="1"/>
+<wire x1="138.5316" y1="-13.5636" x2="138.5316" y2="-11.9165" width="0.4064" layer="1"/>
+<wire x1="162.433" y1="-37.465" x2="138.5316" y2="-13.5636" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE10" class="4">
 <contactref element="F8" pad="2"/>
@@ -11352,7 +11368,6 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="181.8134" y1="-55.804" x2="186.944" y2="-60.9346" width="0.6096" layer="15"/>
 <wire x1="185.7756" y1="-66.548" x2="186.72020625" y2="-66.548" width="0.4064" layer="1"/>
 <wire x1="186.72020625" y1="-66.548" x2="192.16260625" y2="-71.9904" width="0.4064" layer="1"/>
-<wire x1="192.16260625" y1="-71.9904" x2="202.83279375" y2="-71.9904" width="0.4064" layer="1"/>
 <wire x1="185.7756" y1="-66.548" x2="185.7756" y2="-66.31429375" width="0.4064" layer="1"/>
 <wire x1="185.7756" y1="-66.31429375" x2="186.1376" y2="-65.95229375" width="0.4064" layer="1"/>
 <wire x1="186.1376" y1="-64.2548" x2="186.1376" y2="-65.95229375" width="0.4064" layer="1"/>
@@ -11362,8 +11377,8 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="185.2812" y1="-63.3984" x2="186.1376" y2="-64.2548" width="0.4064" layer="1"/>
 <wire x1="186.944" y1="-61.4816" x2="185.2812" y2="-63.1444" width="0.4064" layer="1"/>
 <wire x1="185.2812" y1="-63.3984" x2="185.2812" y2="-63.1444" width="0.4064" layer="1"/>
-<wire x1="204.08909375" y1="-70.7341" x2="208.248946875" y2="-70.7341" width="0.4064" layer="1"/>
-<wire x1="202.83279375" y1="-71.9904" x2="204.08909375" y2="-70.7341" width="0.4064" layer="1"/>
+<wire x1="206.710246875" y1="-71.9904" x2="208.248946875" y2="-73.5291" width="0.4064" layer="1"/>
+<wire x1="192.16260625" y1="-71.9904" x2="206.710246875" y2="-71.9904" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE9" class="4">
 <contactref element="F11" pad="2"/>
@@ -11372,7 +11387,7 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <contactref element="CELL10:R3" pad="1"/>
 <contactref element="CELL10:R4" pad="1"/>
 <via x="187.452" y="-48.1762" extent="1-16" drill="0.6096"/>
-<via x="154.6858" y="-14.148" extent="1-16" drill="0.6096"/>
+<via x="154.1778" y="-13.894" extent="1-16" drill="0.6096"/>
 <wire x1="176.6824" y1="-65.2898" x2="176.6824" y2="-70.358" width="0.4064" layer="1"/>
 <wire x1="176.6824" y1="-70.358" x2="178.4604" y2="-72.136" width="0.4064" layer="1"/>
 <wire x1="178.4604" y1="-72.136" x2="182.1434" y2="-72.136" width="0.4064" layer="1"/>
@@ -11393,10 +11408,11 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="187.452" y1="-48.1762" x2="187.198" y2="-48.1762" width="0.6096" layer="15"/>
 <wire x1="187.198" y1="-48.1762" x2="186.69" y2="-47.6682" width="0.6096" layer="15"/>
 <wire x1="186.69" y1="-47.6682" x2="185.674" y2="-47.6682" width="0.6096" layer="15"/>
-<wire x1="185.674" y1="-47.6682" x2="154.6858" y2="-16.68" width="0.6096" layer="15"/>
-<wire x1="154.6858" y1="-14.148" x2="154.6858" y2="-16.68" width="0.6096" layer="15"/>
-<wire x1="154.6858" y1="-14.148" x2="154.1223" y2="-14.7115" width="0.4064" layer="1"/>
-<wire x1="154.1223" y1="-14.7115" x2="147.8026" y2="-14.7115" width="0.4064" layer="1"/>
+<wire x1="185.674" y1="-47.6682" x2="154.1778" y2="-16.172" width="0.6096" layer="15"/>
+<wire x1="154.1778" y1="-13.894" x2="154.1778" y2="-16.172" width="0.6096" layer="15"/>
+<wire x1="154.1778" y1="-13.894" x2="153.6698" y2="-13.386" width="0.4064" layer="1"/>
+<wire x1="153.6698" y1="-13.386" x2="149.2721" y2="-13.386" width="0.4064" layer="1"/>
+<wire x1="149.2721" y1="-13.386" x2="147.8026" y2="-11.9165" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE8" class="4">
 <contactref element="F7" pad="2"/>
@@ -11424,13 +11440,14 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="195.0838" y1="-65.7742" x2="194.64365625" y2="-66.21434375" width="0.4064" layer="1"/>
 <wire x1="192.86565625" y1="-66.21434375" x2="194.64365625" y2="-66.21434375" width="0.4064" layer="1"/>
 <wire x1="196.5833" y1="-65.278" x2="195.1092" y2="-65.278" width="0.4064" layer="1"/>
-<wire x1="212.852" y1="-71.882" x2="216.38615625" y2="-71.882" width="0.4064" layer="1"/>
-<wire x1="216.38615625" y1="-71.882" x2="217.53405625" y2="-70.7341" width="0.4064" layer="1"/>
+<wire x1="212.852" y1="-71.882" x2="214.376" y2="-71.882" width="0.4064" layer="1"/>
 <wire x1="198.08731875" y1="-71.882" x2="190.1319" y2="-71.882" width="0.6096" layer="15"/>
 <wire x1="189.5985" y1="-72.4154" x2="190.1319" y2="-71.882" width="0.6096" layer="15"/>
 <wire x1="178.10193125" y1="-72.6948" x2="175.9268" y2="-70.51966875" width="0.4064" layer="1"/>
 <wire x1="175.9268" y1="-70.51966875" x2="175.9268" y2="-62.99250625" width="0.4064" layer="1"/>
 <wire x1="189.3191" y1="-72.6948" x2="178.10193125" y2="-72.6948" width="0.4064" layer="1"/>
+<wire x1="214.376" y1="-71.882" x2="215.88695625" y2="-71.882" width="0.4064" layer="1"/>
+<wire x1="215.88695625" y1="-71.882" x2="217.53405625" y2="-73.5291" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE7" class="4">
 <contactref element="F10" pad="2"/>
@@ -11460,8 +11477,6 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <via x="202.7172" y="-37.973" extent="1-16" drill="0.6096"/>
 <wire x1="202.7172" y1="-37.973" x2="202.7172" y2="-37.1602" width="0.6096" layer="15"/>
 <wire x1="202.7172" y1="-37.1602" x2="179.451" y2="-13.894" width="0.6096" layer="15"/>
-<wire x1="173.3851" y1="-13.894" x2="179.451" y2="-13.894" width="0.4064" layer="1"/>
-<wire x1="173.3851" y1="-13.894" x2="172.5676" y2="-14.7115" width="0.4064" layer="1"/>
 <wire x1="208.2918" y1="-45.72" x2="208.2918" y2="-51.7516" width="0.4064" layer="1"/>
 <wire x1="205.2438" y1="-42.672" x2="208.2918" y2="-45.72" width="0.4064" layer="1"/>
 <wire x1="202.946" y1="-42.672" x2="205.2438" y2="-42.672" width="0.4064" layer="1"/>
@@ -11471,6 +11486,8 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="207.01" y1="-64.4466125" x2="207.01" y2="-54.2036" width="0.6096" layer="15"/>
 <wire x1="205.105" y1="-66.802" x2="205.74" y2="-67.437" width="0.4064" layer="1"/>
 <wire x1="205.105" y1="-64.2502" x2="205.105" y2="-66.802" width="0.4064" layer="1"/>
+<wire x1="172.5676" y1="-11.9165" x2="174.5451" y2="-13.894" width="0.4064" layer="1"/>
+<wire x1="174.5451" y1="-13.894" x2="179.451" y2="-13.894" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE6" class="4">
 <contactref element="F6" pad="2"/>
@@ -11503,14 +11520,14 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="214.52050625" y1="-54.4322" x2="213.48395625" y2="-53.39565" width="0.4064" layer="1"/>
 <wire x1="221.1002" y1="-55.31910625" x2="220.53709375" y2="-54.756" width="0.4064" layer="1"/>
 <wire x1="217.90946875" y1="-54.4322" x2="214.52050625" y2="-54.4322" width="0.4064" layer="1"/>
-<wire x1="222.8532" y1="-66.907834375" x2="226.679465625" y2="-70.7341" width="0.4064" layer="1"/>
-<wire x1="226.679465625" y1="-70.7341" x2="226.692165625" y2="-70.7341" width="0.4064" layer="1"/>
 <wire x1="210.66249375" y1="-40.767" x2="211.074" y2="-41.17850625" width="0.4064" layer="1"/>
 <wire x1="211.074" y1="-42.2402" x2="210.6422" y2="-42.672" width="0.4064" layer="1"/>
 <wire x1="209.423" y1="-42.672" x2="209.3214" y2="-42.7736" width="0.4064" layer="1"/>
 <wire x1="209.3214" y1="-42.7736" x2="209.3214" y2="-45.9994" width="0.4064" layer="1"/>
 <wire x1="211.074" y1="-41.17850625" x2="211.074" y2="-42.2402" width="0.4064" layer="1"/>
 <wire x1="210.6422" y1="-42.672" x2="209.423" y2="-42.672" width="0.4064" layer="1"/>
+<wire x1="226.692165625" y1="-70.7468" x2="226.692165625" y2="-73.5291" width="0.4064" layer="1"/>
+<wire x1="222.8532" y1="-66.907834375" x2="226.692165625" y2="-70.7468" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE5" class="4">
 <contactref element="F9" pad="2"/>
@@ -11527,8 +11544,7 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="222.53575625" y1="-39.2468" x2="222.826578125" y2="-38.955978125" width="0.4064" layer="1"/>
 <wire x1="222.826578125" y1="-38.955978125" x2="225.506278125" y2="-36.276278125" width="0.4064" layer="1"/>
 <wire x1="215.35490625" y1="-39.2468" x2="222.53575625" y2="-39.2468" width="0.4064" layer="1"/>
-<wire x1="208.45993125" y1="-14.148" x2="204.7541" y2="-14.148" width="0.4064" layer="1"/>
-<wire x1="204.7541" y1="-14.148" x2="204.3176" y2="-14.5845" width="0.4064" layer="1"/>
+<wire x1="208.45993125" y1="-14.148" x2="207.518" y2="-14.148" width="0.4064" layer="1"/>
 <wire x1="222.826578125" y1="-38.955978125" x2="223.6715" y2="-39.8009" width="0.4064" layer="1"/>
 <wire x1="223.6715" y1="-39.8009" x2="226.3013" y2="-39.8009" width="0.4064" layer="1"/>
 <wire x1="226.3013" y1="-39.8009" x2="226.5934" y2="-39.5088" width="0.4064" layer="1"/>
@@ -11542,6 +11558,8 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="221.40043125" y1="-26.0344" x2="224.2651" y2="-26.0344" width="0.4064" layer="1"/>
 <wire x1="224.2651" y1="-26.0344" x2="225.506278125" y2="-27.275578125" width="0.4064" layer="1"/>
 <wire x1="225.506278125" y1="-27.275578125" x2="225.506278125" y2="-36.276278125" width="0.4064" layer="1"/>
+<wire x1="207.518" y1="-14.148" x2="206.6761" y2="-14.148" width="0.4064" layer="1"/>
+<wire x1="206.6761" y1="-14.148" x2="204.3176" y2="-11.7895" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE4" class="4">
 <contactref element="F3" pad="2"/>
@@ -11567,12 +11585,13 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="236.3652" y1="-65.2598" x2="235.966" y2="-65.659" width="0.4064" layer="1"/>
 <wire x1="235.966" y1="-65.659" x2="235.966" y2="-68.199" width="0.4064" layer="1"/>
 <wire x1="235.966" y1="-68.199" x2="238.5138" y2="-70.7468" width="0.4064" layer="1"/>
-<wire x1="238.5138" y1="-70.7468" x2="243.457575" y2="-70.7468" width="0.4064" layer="1"/>
+<wire x1="238.5138" y1="-70.7468" x2="242.441575" y2="-70.7468" width="0.4064" layer="1"/>
 <wire x1="237.5852" y1="-63.4946" x2="237.5852" y2="-65.12509375" width="0.4064" layer="1"/>
 <wire x1="222.1992" y1="-47.3964" x2="226.6832" y2="-47.3964" width="0.4064" layer="1"/>
 <wire x1="224.917" y1="-49.022" x2="226.5426" y2="-47.3964" width="0.4064" layer="1"/>
 <wire x1="226.5426" y1="-47.3964" x2="226.6832" y2="-47.3964" width="0.4064" layer="1"/>
-<wire x1="243.457575" y1="-70.7468" x2="243.470275" y2="-70.7341" width="0.4064" layer="1"/>
+<wire x1="242.441575" y1="-70.7468" x2="243.470275" y2="-71.7755" width="0.4064" layer="1"/>
+<wire x1="243.470275" y1="-71.7755" x2="243.470275" y2="-73.5291" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE3" class="4">
 <contactref element="F5" pad="2"/>
@@ -11598,8 +11617,8 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="242.9764" y1="-23.8878" x2="240.6786" y2="-21.59" width="0.4064" layer="1"/>
 <wire x1="240.6786" y1="-21.59" x2="240.6786" y2="-19.0636" width="0.4064" layer="1"/>
 <wire x1="240.6786" y1="-19.0636" x2="240.03" y2="-18.415" width="0.4064" layer="1"/>
-<wire x1="240.03" y1="-18.415" x2="236.6469" y2="-18.415" width="0.4064" layer="1"/>
-<wire x1="236.6469" y1="-18.415" x2="232.9434" y2="-14.7115" width="0.4064" layer="1"/>
+<wire x1="232.9434" y1="-11.9165" x2="239.4419" y2="-18.415" width="0.4064" layer="1"/>
+<wire x1="239.4419" y1="-18.415" x2="240.03" y2="-18.415" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE2" class="4">
 <contactref element="F2" pad="2"/>
@@ -11628,22 +11647,25 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="254.889" y1="-57.55169375" x2="253.8662" y2="-56.52889375" width="0.4064" layer="1"/>
 <wire x1="254.889" y1="-61.2267" x2="254.889" y2="-62.7008" width="0.4064" layer="1"/>
 <wire x1="254.889" y1="-62.7008" x2="254.8636" y2="-62.7262" width="0.4064" layer="1"/>
-<wire x1="255.9494" y1="-63.52410625" x2="255.9494" y2="-67.540084375" width="0.4064" layer="1"/>
-<wire x1="255.9494" y1="-67.540084375" x2="252.755384375" y2="-70.7341" width="0.4064" layer="1"/>
+<wire x1="255.9494" y1="-66.365278125" x2="255.9494" y2="-63.52410625" width="0.4064" layer="1"/>
+<wire x1="255.9494" y1="-66.365278125" x2="252.755384375" y2="-69.55929375" width="0.4064" layer="1"/>
+<wire x1="252.755384375" y1="-69.55929375" x2="252.755384375" y2="-73.5291" width="0.4064" layer="1"/>
 </signal>
 <signal name="CC0" class="2">
 <contactref element="F1" pad="1"/>
 <contactref element="J100" pad="1"/>
-<wire x1="268.8336" y1="-13.8762" x2="271.9148" y2="-10.795" width="0.6096" layer="1"/>
-<wire x1="271.9148" y1="-10.795" x2="273.558" y2="-10.795" width="0.6096" layer="1"/>
-<via x="273.558" y="-10.795" extent="1-16" drill="0.6858"/>
-<wire x1="273.558" y1="-10.795" x2="273.558" y2="-17.78" width="0.6096" layer="16"/>
+<wire x1="272.796" y1="-13.335" x2="273.558" y2="-14.097" width="0.6096" layer="1"/>
+<wire x1="270.58294375" y1="-13.335" x2="272.796" y2="-13.335" width="0.6096" layer="1"/>
+<via x="273.558" y="-14.097" extent="1-16" drill="0.6858"/>
+<wire x1="273.558" y1="-14.097" x2="273.558" y2="-17.78" width="0.6096" layer="16"/>
 <wire x1="273.558" y1="-17.78" x2="268.478" y2="-22.86" width="0.6096" layer="16"/>
+<wire x1="268.8336" y1="-17.9412" x2="268.8336" y2="-15.08434375" width="0.6096" layer="1"/>
+<wire x1="268.8336" y1="-15.08434375" x2="270.58294375" y2="-13.335" width="0.6096" layer="1"/>
 </signal>
 <signal name="CC2" class="2">
 <contactref element="F2" pad="1"/>
 <contactref element="J102" pad="1"/>
-<wire x1="252.755384375" y1="-81.2341" x2="252.755384375" y2="-84.823315625" width="0.6096" layer="1"/>
+<wire x1="252.755384375" y1="-78.4391" x2="252.755384375" y2="-84.823315625" width="0.6096" layer="1"/>
 <wire x1="252.755384375" y1="-84.823315625" x2="252.73" y2="-84.8487" width="0.6096" layer="1"/>
 <via x="252.73" y="-84.8487" extent="1-16" drill="0.6858"/>
 <wire x1="252.73" y1="-84.8487" x2="252.73" y2="-66.802" width="0.6096" layer="16"/>
@@ -11652,16 +11674,17 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <signal name="CC3" class="2">
 <contactref element="F5" pad="1"/>
 <contactref element="J103" pad="1"/>
-<wire x1="232.9434" y1="-4.2115" x2="229.8622" y2="-1.1303" width="0.6096" layer="1"/>
-<wire x1="229.8622" y1="-1.1303" x2="228.473" y2="-1.1303" width="0.6096" layer="1"/>
-<via x="228.473" y="-1.1303" extent="1-16" drill="0.6858"/>
-<wire x1="228.473" y1="-1.1303" x2="228.473" y2="-21.717" width="0.6096" layer="16"/>
-<wire x1="228.473" y1="-21.717" x2="229.616" y2="-22.86" width="0.6096" layer="16"/>
+<via x="228.727" y="-5.9563" extent="1-16" drill="0.6858"/>
+<wire x1="228.727" y1="-5.9563" x2="228.727" y2="-21.971" width="0.6096" layer="16"/>
+<wire x1="228.727" y1="-21.971" x2="229.616" y2="-22.86" width="0.6096" layer="16"/>
+<wire x1="231.1312" y1="-5.1943" x2="232.9434" y2="-7.0065" width="0.6096" layer="1"/>
+<wire x1="228.727" y1="-5.9563" x2="229.489" y2="-5.1943" width="0.6096" layer="1"/>
+<wire x1="231.1312" y1="-5.1943" x2="229.489" y2="-5.1943" width="0.6096" layer="1"/>
 </signal>
 <signal name="CC4" class="2">
 <contactref element="F3" pad="1"/>
 <contactref element="J104" pad="1"/>
-<wire x1="243.470275" y1="-81.2341" x2="243.470275" y2="-84.837425" width="0.6096" layer="1"/>
+<wire x1="243.470275" y1="-78.4391" x2="243.470275" y2="-84.837425" width="0.6096" layer="1"/>
 <wire x1="243.470275" y1="-84.837425" x2="243.459" y2="-84.8487" width="0.6096" layer="1"/>
 <via x="243.459" y="-84.8487" extent="1-16" drill="0.6858"/>
 <wire x1="243.459" y1="-84.8487" x2="243.459" y2="-83.439" width="0.6096" layer="16"/>
@@ -11671,12 +11694,12 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <signal name="CC5" class="2">
 <contactref element="F9" pad="1"/>
 <contactref element="J105" pad="1"/>
-<wire x1="208.788" y1="-1.1303" x2="208.788" y2="-1.1381" width="0.6096" layer="1"/>
-<wire x1="204.3176" y1="-4.0845" x2="205.8416" y2="-4.0845" width="0.6096" layer="1"/>
-<wire x1="208.788" y1="-1.1381" x2="205.8416" y2="-4.0845" width="0.6096" layer="1"/>
-<via x="208.788" y="-1.1303" extent="1-16" drill="0.6858"/>
-<wire x1="208.788" y1="-1.1303" x2="208.788" y2="-19.05" width="0.6096" layer="16"/>
-<wire x1="208.788" y1="-19.05" x2="204.978" y2="-22.86" width="0.6096" layer="16"/>
+<wire x1="204.3176" y1="-6.8795" x2="206.8576" y2="-4.3395" width="0.6096" layer="1"/>
+<wire x1="208.534" y1="-4.9403" x2="207.9332" y2="-4.3395" width="0.6096" layer="1"/>
+<wire x1="207.9332" y1="-4.3395" x2="206.8576" y2="-4.3395" width="0.6096" layer="1"/>
+<via x="208.534" y="-4.9403" extent="1-16" drill="0.6858"/>
+<wire x1="208.534" y1="-4.9403" x2="208.534" y2="-19.304" width="0.6096" layer="16"/>
+<wire x1="208.534" y1="-19.304" x2="204.978" y2="-22.86" width="0.6096" layer="16"/>
 </signal>
 <signal name="CC6" class="2">
 <contactref element="F6" pad="1"/>
@@ -11685,23 +11708,25 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="200.914" y1="-63.246" x2="200.914" y2="-63.6016" width="0.6096" layer="16"/>
 <wire x1="226.695" y1="-84.8487" x2="222.1611" y2="-84.8487" width="0.6096" layer="16"/>
 <wire x1="222.1611" y1="-84.8487" x2="200.914" y2="-63.6016" width="0.6096" layer="16"/>
-<wire x1="226.695" y1="-84.8487" x2="226.695" y2="-81.236934375" width="0.6096" layer="1"/>
-<wire x1="226.695" y1="-81.236934375" x2="226.692165625" y2="-81.2341" width="0.6096" layer="1"/>
+<wire x1="226.695" y1="-84.8487" x2="226.695" y2="-81.534" width="0.6096" layer="1"/>
+<wire x1="226.695" y1="-81.534" x2="226.692165625" y2="-81.531165625" width="0.6096" layer="1"/>
+<wire x1="226.692165625" y1="-81.531165625" x2="226.692165625" y2="-78.4391" width="0.6096" layer="1"/>
 </signal>
 <signal name="CC7" class="2">
 <contactref element="F10" pad="1"/>
 <contactref element="J107" pad="1"/>
-<wire x1="176.9872" y1="-1.1557" x2="176.8934" y2="-1.1557" width="0.6096" layer="1"/>
-<wire x1="176.8934" y1="-1.1557" x2="173.8376" y2="-4.2115" width="0.6096" layer="1"/>
-<wire x1="172.5676" y1="-4.2115" x2="173.8376" y2="-4.2115" width="0.6096" layer="1"/>
-<via x="176.9872" y="-1.1557" extent="1-16" drill="0.6858"/>
-<wire x1="176.9872" y1="-1.1557" x2="176.9872" y2="-19.5072" width="0.6096" layer="16"/>
-<wire x1="176.9872" y1="-19.5072" x2="180.34" y2="-22.86" width="0.6096" layer="16"/>
+<via x="176.7332" y="-5.9817" extent="1-16" drill="0.6858"/>
+<wire x1="176.7332" y1="-5.9817" x2="176.7332" y2="-19.2532" width="0.6096" layer="16"/>
+<wire x1="176.7332" y1="-19.2532" x2="180.34" y2="-22.86" width="0.6096" layer="16"/>
+<wire x1="176.7332" y1="-5.9817" x2="175.9712" y2="-5.2197" width="0.6096" layer="1"/>
+<wire x1="175.9712" y1="-5.2197" x2="173.5924" y2="-5.2197" width="0.6096" layer="1"/>
+<wire x1="172.5676" y1="-7.0065" x2="172.5676" y2="-6.2445" width="0.6096" layer="1"/>
+<wire x1="173.5924" y1="-5.2197" x2="172.5676" y2="-6.2445" width="0.6096" layer="1"/>
 </signal>
 <signal name="CC8" class="2">
 <contactref element="F7" pad="1"/>
 <contactref element="J108" pad="1"/>
-<wire x1="217.53405625" y1="-81.2341" x2="217.53405625" y2="-84.83175625" width="0.6096" layer="1"/>
+<wire x1="217.53405625" y1="-78.4391" x2="217.53405625" y2="-84.83175625" width="0.6096" layer="1"/>
 <wire x1="217.53405625" y1="-84.83175625" x2="217.551" y2="-84.8487" width="0.6096" layer="1"/>
 <via x="217.551" y="-84.8487" extent="1-16" drill="0.6858"/>
 <wire x1="217.551" y1="-84.8487" x2="204.4571" y2="-71.7548" width="0.6096" layer="16"/>
@@ -11712,17 +11737,18 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <signal name="CC9" class="2">
 <contactref element="F11" pad="1"/>
 <contactref element="J109" pad="1"/>
-<wire x1="152.273" y1="-1.1303" x2="152.1538" y2="-1.1303" width="0.6096" layer="1"/>
-<wire x1="152.1538" y1="-1.1303" x2="149.0726" y2="-4.2115" width="0.6096" layer="1"/>
-<wire x1="147.8026" y1="-4.2115" x2="149.0726" y2="-4.2115" width="0.6096" layer="1"/>
-<via x="152.273" y="-1.1303" extent="1-16" drill="0.6858"/>
-<wire x1="155.702" y1="-22.86" x2="152.273" y2="-19.431" width="0.6096" layer="16"/>
-<wire x1="152.273" y1="-19.431" x2="152.273" y2="-1.1303" width="0.6096" layer="16"/>
+<wire x1="147.8026" y1="-7.0065" x2="147.8026" y2="-5.9905" width="0.6096" layer="1"/>
+<wire x1="149.1068" y1="-4.6863" x2="147.8026" y2="-5.9905" width="0.6096" layer="1"/>
+<wire x1="151.511" y1="-5.7023" x2="150.495" y2="-4.6863" width="0.6096" layer="1"/>
+<wire x1="150.495" y1="-4.6863" x2="149.1068" y2="-4.6863" width="0.6096" layer="1"/>
+<via x="151.511" y="-5.7023" extent="1-16" drill="0.6858"/>
+<wire x1="155.702" y1="-22.86" x2="151.511" y2="-18.669" width="0.6096" layer="16"/>
+<wire x1="151.511" y1="-18.669" x2="151.511" y2="-5.7023" width="0.6096" layer="16"/>
 </signal>
 <signal name="CC10" class="2">
 <contactref element="F8" pad="1"/>
 <contactref element="J110" pad="1"/>
-<wire x1="208.248946875" y1="-81.2341" x2="208.248946875" y2="-84.8487" width="0.6096" layer="1"/>
+<wire x1="208.248946875" y1="-78.4391" x2="208.248946875" y2="-84.8487" width="0.6096" layer="1"/>
 <wire x1="208.248946875" y1="-84.8487" x2="208.28" y2="-84.8487" width="0.6096" layer="1"/>
 <via x="208.28" y="-84.8487" extent="1-16" drill="0.6858"/>
 <wire x1="208.28" y1="-84.8487" x2="202.2217" y2="-78.7904" width="0.6096" layer="16"/>
@@ -11735,21 +11761,23 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <signal name="CC11" class="2">
 <contactref element="F13" pad="1"/>
 <contactref element="J111" pad="1"/>
-<wire x1="138.5316" y1="-4.2115" x2="137.3886" y2="-4.2115" width="0.6096" layer="1"/>
-<wire x1="137.3886" y1="-4.2115" x2="134.3074" y2="-1.1303" width="0.6096" layer="1"/>
-<wire x1="134.3074" y1="-1.1303" x2="134.112" y2="-1.1303" width="0.6096" layer="1"/>
-<via x="134.112" y="-1.1303" extent="1-16" drill="0.6858"/>
+<wire x1="138.5316" y1="-7.0065" x2="138.5316" y2="-5.7365" width="0.6096" layer="1"/>
+<wire x1="138.5316" y1="-5.7365" x2="137.2274" y2="-4.4323" width="0.6096" layer="1"/>
+<wire x1="137.2274" y1="-4.4323" x2="135.382" y2="-4.4323" width="0.6096" layer="1"/>
+<wire x1="135.382" y1="-4.4323" x2="134.112" y2="-5.7023" width="0.6096" layer="1"/>
+<via x="134.112" y="-5.7023" extent="1-16" drill="0.6858"/>
 <wire x1="131.064" y1="-22.86" x2="134.112" y2="-19.812" width="0.6096" layer="16"/>
-<wire x1="134.112" y1="-19.812" x2="134.112" y2="-1.1303" width="0.6096" layer="16"/>
+<wire x1="134.112" y1="-19.812" x2="134.112" y2="-5.7023" width="0.6096" layer="16"/>
 </signal>
 <signal name="CC13" class="1">
 <contactref element="F14" pad="1"/>
 <contactref element="J113" pad="1"/>
-<via x="109.22" y="-1.1303" extent="1-16" drill="0.6858"/>
-<wire x1="106.172" y1="-22.86" x2="109.22" y2="-19.812" width="0.6096" layer="16"/>
-<wire x1="109.22" y1="-19.812" x2="109.22" y2="-1.1303" width="0.6096" layer="16"/>
-<wire x1="109.22" y1="-1.1303" x2="112.4282" y2="-4.3385" width="0.6096" layer="1"/>
-<wire x1="112.4282" y1="-4.3385" x2="113.8174" y2="-4.3385" width="0.6096" layer="1"/>
+<via x="109.728" y="-5.4483" extent="1-16" drill="0.6858"/>
+<wire x1="106.172" y1="-22.86" x2="109.728" y2="-19.304" width="0.6096" layer="16"/>
+<wire x1="109.728" y1="-19.304" x2="109.728" y2="-5.4483" width="0.6096" layer="16"/>
+<wire x1="113.8174" y1="-7.1335" x2="111.5314" y2="-4.8475" width="0.6096" layer="1"/>
+<wire x1="109.728" y1="-5.4483" x2="110.3288" y2="-4.8475" width="0.6096" layer="1"/>
+<wire x1="111.5314" y1="-4.8475" x2="110.3288" y2="-4.8475" width="0.6096" layer="1"/>
 </signal>
 <signal name="CC14" class="1">
 <contactref element="F17" pad="1"/>
@@ -11760,22 +11788,23 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="75.2475" y1="-72.009" x2="62.4078" y2="-84.8487" width="0.6096" layer="16"/>
 <wire x1="56.5658" y1="-84.8487" x2="62.4078" y2="-84.8487" width="0.6096" layer="16"/>
 <wire x1="89.535" y1="-72.009" x2="75.2475" y2="-72.009" width="0.6096" layer="16"/>
-<wire x1="56.582728125" y1="-81.2341" x2="56.582728125" y2="-84.831771875" width="0.6096" layer="1"/>
+<wire x1="56.582728125" y1="-78.4391" x2="56.582728125" y2="-84.831771875" width="0.6096" layer="1"/>
 <wire x1="56.582728125" y1="-84.831771875" x2="56.5658" y2="-84.8487" width="0.6096" layer="1"/>
 </signal>
 <signal name="CC15" class="1">
 <contactref element="F16" pad="1"/>
 <contactref element="J115" pad="1"/>
-<wire x1="81.8134" y1="-4.0845" x2="80.2972" y2="-4.0845" width="0.6096" layer="1"/>
-<wire x1="80.2972" y1="-4.0845" x2="77.343" y2="-1.1303" width="0.6096" layer="1"/>
-<via x="77.343" y="-1.1303" extent="1-16" drill="0.6858"/>
-<wire x1="77.343" y1="-1.1303" x2="77.343" y2="-18.669" width="0.6096" layer="16"/>
-<wire x1="77.343" y1="-18.669" x2="81.534" y2="-22.86" width="0.6096" layer="16"/>
+<wire x1="77.851" y1="-5.1943" x2="78.4518" y2="-4.5935" width="0.6096" layer="1"/>
+<wire x1="81.8134" y1="-6.8795" x2="79.5274" y2="-4.5935" width="0.6096" layer="1"/>
+<wire x1="79.5274" y1="-4.5935" x2="78.4518" y2="-4.5935" width="0.6096" layer="1"/>
+<via x="77.851" y="-5.1943" extent="1-16" drill="0.6858"/>
+<wire x1="77.851" y1="-5.1943" x2="77.851" y2="-19.177" width="0.6096" layer="16"/>
+<wire x1="77.851" y1="-19.177" x2="81.534" y2="-22.86" width="0.6096" layer="16"/>
 </signal>
 <signal name="CC16" class="1">
 <contactref element="F19" pad="1"/>
 <contactref element="J116" pad="1"/>
-<wire x1="47.244" y1="-81.2341" x2="47.244" y2="-84.8487" width="0.6096" layer="1"/>
+<wire x1="47.244" y1="-78.4391" x2="47.244" y2="-84.8487" width="0.6096" layer="1"/>
 <via x="47.244" y="-84.8487" extent="1-16" drill="0.6858"/>
 <wire x1="47.244" y1="-84.8487" x2="47.244" y2="-84.79929375" width="0.6096" layer="16"/>
 <wire x1="47.244" y1="-84.79929375" x2="68.79729375" y2="-63.246" width="0.6096" layer="16"/>
@@ -11786,17 +11815,19 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <signal name="CC17" class="1">
 <contactref element="F18" pad="1"/>
 <contactref element="J117" pad="1"/>
-<wire x1="55.7354" y1="-1.1557" x2="52.5526" y2="-4.3385" width="0.6096" layer="1"/>
-<wire x1="51.5366" y1="-4.3385" x2="52.5526" y2="-4.3385" width="0.6096" layer="1"/>
-<wire x1="55.88" y1="-1.1557" x2="55.7354" y2="-1.1557" width="0.6096" layer="1"/>
-<via x="55.88" y="-1.1557" extent="1-16" drill="0.6858"/>
-<wire x1="56.896" y1="-22.86" x2="56.896" y2="-2.1717" width="0.6096" layer="16"/>
-<wire x1="56.896" y1="-2.1717" x2="55.88" y2="-1.1557" width="0.6096" layer="16"/>
+<wire x1="55.7354" y1="-4.7117" x2="55.72025" y2="-4.69655" width="0.6096" layer="1"/>
+<wire x1="55.72025" y1="-4.69655" x2="52.19455" y2="-4.69655" width="0.6096" layer="1"/>
+<wire x1="55.88" y1="-4.7117" x2="55.7354" y2="-4.7117" width="0.6096" layer="1"/>
+<via x="55.88" y="-4.7117" extent="1-16" drill="0.6858"/>
+<wire x1="56.896" y1="-22.86" x2="56.896" y2="-5.7277" width="0.6096" layer="16"/>
+<wire x1="56.896" y1="-5.7277" x2="55.88" y2="-4.7117" width="0.6096" layer="16"/>
+<wire x1="52.19455" y1="-4.69655" x2="51.5366" y2="-5.3545" width="0.6096" layer="1"/>
+<wire x1="51.5366" y1="-5.3545" x2="51.5366" y2="-7.1335" width="0.6096" layer="1"/>
 </signal>
 <signal name="CC18" class="1">
 <contactref element="F21" pad="1"/>
 <contactref element="J118" pad="1"/>
-<wire x1="30.734" y1="-81.2341" x2="30.734" y2="-84.8487" width="0.6096" layer="1"/>
+<wire x1="30.734" y1="-78.4391" x2="30.734" y2="-84.8487" width="0.6096" layer="1"/>
 <via x="30.734" y="-84.8487" extent="1-16" drill="0.6858"/>
 <wire x1="50.5587" y1="-63.627" x2="30.734" y2="-83.4517" width="0.6096" layer="16"/>
 <wire x1="30.734" y1="-83.4517" x2="30.734" y2="-84.8487" width="0.6096" layer="16"/>
@@ -11806,17 +11837,17 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <signal name="CC1" class="2">
 <contactref element="F4" pad="1"/>
 <contactref element="J101" pad="1"/>
-<wire x1="242.2144" y1="-4.2115" x2="245.2956" y2="-1.1303" width="0.6096" layer="1"/>
-<wire x1="245.2956" y1="-1.1303" x2="246.634" y2="-1.1303" width="0.6096" layer="1"/>
-<via x="246.634" y="-1.1303" extent="1-16" drill="0.6858"/>
-<wire x1="249.0978" y1="-16.51" x2="249.0978" y2="-17.4498" width="0.6096" layer="16"/>
+<wire x1="242.2144" y1="-5.9905" x2="244.0266" y2="-4.1783" width="0.6096" layer="1"/>
+<wire x1="242.2144" y1="-7.0065" x2="242.2144" y2="-5.9905" width="0.6096" layer="1"/>
+<via x="245.364" y="-4.1783" extent="1-16" drill="0.6858"/>
 <wire x1="249.0978" y1="-17.4498" x2="249.555" y2="-17.907" width="0.6096" layer="16"/>
 <wire x1="249.555" y1="-17.907" x2="249.555" y2="-18.161" width="0.6096" layer="16"/>
 <wire x1="249.555" y1="-18.161" x2="254.254" y2="-22.86" width="0.6096" layer="16"/>
-<wire x1="246.634" y1="-1.1303" x2="246.9642" y2="-1.4605" width="0.6096" layer="16"/>
-<wire x1="246.9642" y1="-1.4605" x2="246.9642" y2="-10.17395625" width="0.6096" layer="16"/>
-<wire x1="249.0978" y1="-12.30755625" x2="249.0978" y2="-16.51" width="0.6096" layer="16"/>
-<wire x1="246.9642" y1="-10.17395625" x2="249.0978" y2="-12.30755625" width="0.6096" layer="16"/>
+<wire x1="245.364" y1="-4.1783" x2="245.6942" y2="-4.5085" width="0.6096" layer="16"/>
+<wire x1="245.6942" y1="-4.5085" x2="245.6942" y2="-8.90395625" width="0.6096" layer="16"/>
+<wire x1="249.0978" y1="-12.30755625" x2="249.0978" y2="-17.4498" width="0.6096" layer="16"/>
+<wire x1="245.6942" y1="-8.90395625" x2="249.0978" y2="-12.30755625" width="0.6096" layer="16"/>
+<wire x1="244.0266" y1="-4.1783" x2="245.364" y2="-4.1783" width="0.6096" layer="1"/>
 </signal>
 <signal name="SENSE1" class="4">
 <contactref element="F4" pad="2"/>
@@ -11846,7 +11877,7 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="261.1002" y1="-30.4918" x2="261.112" y2="-30.48" width="0.4064" layer="1"/>
 <wire x1="257.048" y1="-26.416" x2="253.0856" y2="-26.416" width="0.4064" layer="1"/>
 <wire x1="253.0856" y1="-26.416" x2="242.2144" y2="-15.5448" width="0.4064" layer="1"/>
-<wire x1="242.2144" y1="-15.5448" x2="242.2144" y2="-14.7115" width="0.4064" layer="1"/>
+<wire x1="242.2144" y1="-15.5448" x2="242.2144" y2="-11.9165" width="0.4064" layer="1"/>
 <wire x1="261.112" y1="-30.48" x2="257.048" y2="-26.416" width="0.4064" layer="1"/>
 </signal>
 <signal name="IBL_N" class="5">
@@ -11886,12 +11917,12 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <signal name="CC21" class="1">
 <contactref element="J121" pad="1"/>
 <contactref element="F23" pad="1"/>
-<wire x1="9.7536" y1="-4.2242" x2="6.6597" y2="-1.1303" width="0.6096" layer="1"/>
-<wire x1="6.6597" y1="-1.1303" x2="5.334" y2="-1.1303" width="0.6096" layer="1"/>
-<via x="5.334" y="-1.1303" extent="1-16" drill="0.6858"/>
-<wire x1="5.334" y1="-1.1303" x2="6.985" y2="-2.7813" width="0.6096" layer="16"/>
-<wire x1="6.985" y1="-2.7813" x2="6.985" y2="-21.717" width="0.6096" layer="16"/>
+<via x="8.382" y="-5.4483" extent="1-16" drill="0.6858"/>
+<wire x1="8.382" y1="-5.4483" x2="6.985" y2="-6.8453" width="0.6096" layer="16"/>
+<wire x1="6.985" y1="-6.8453" x2="6.985" y2="-21.717" width="0.6096" layer="16"/>
 <wire x1="6.985" y1="-21.717" x2="5.842" y2="-22.86" width="0.6096" layer="16"/>
+<wire x1="8.382" y1="-5.4483" x2="9.7536" y2="-6.8199" width="0.6096" layer="1"/>
+<wire x1="9.7536" y1="-6.8199" x2="9.7536" y2="-8.5432" width="0.6096" layer="1"/>
 </signal>
 <signal name="CC20" class="1">
 <contactref element="J120" pad="1"/>
@@ -11899,20 +11930,21 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <via x="21.4376" y="-84.8487" extent="1-16" drill="0.6858"/>
 <wire x1="21.4376" y1="-70.2564" x2="28.448" y2="-63.246" width="0.6096" layer="16"/>
 <wire x1="21.4376" y1="-84.8487" x2="21.4376" y2="-70.2564" width="0.6096" layer="16"/>
-<wire x1="21.4376" y1="-84.8487" x2="21.4376" y2="-81.2595" width="0.6096" layer="1"/>
-<wire x1="21.4376" y1="-81.2595" x2="21.463" y2="-81.2341" width="0.6096" layer="1"/>
+<wire x1="21.4376" y1="-84.8487" x2="21.4376" y2="-78.4645" width="0.6096" layer="1"/>
+<wire x1="21.4376" y1="-78.4645" x2="21.463" y2="-78.4391" width="0.6096" layer="1"/>
 </signal>
 <signal name="CC19" class="1">
 <contactref element="J119" pad="1"/>
 <contactref element="F20" pad="1"/>
-<wire x1="42.2656" y1="-4.3385" x2="40.9018" y2="-4.3385" width="0.6096" layer="1"/>
-<wire x1="40.9018" y1="-4.3385" x2="37.846" y2="-1.2827" width="0.6096" layer="1"/>
+<wire x1="39.37" y1="-1.2827" x2="37.846" y2="-1.2827" width="0.6096" layer="1"/>
 <via x="37.846" y="-1.2827" extent="1-16" drill="0.6858"/>
 <wire x1="37.846" y1="-1.2827" x2="35.052" y2="-4.0767" width="0.6096" layer="16"/>
 <wire x1="34.544" y1="-19.685" x2="35.052" y2="-19.177" width="0.6096" layer="16"/>
 <wire x1="35.052" y1="-4.0767" x2="35.052" y2="-19.177" width="0.6096" layer="16"/>
 <wire x1="32.258" y1="-22.86" x2="34.544" y2="-20.574" width="0.6096" layer="16"/>
 <wire x1="34.544" y1="-20.574" x2="34.544" y2="-19.685" width="0.6096" layer="16"/>
+<wire x1="42.2656" y1="-4.1783" x2="42.2656" y2="-7.1335" width="0.6096" layer="1"/>
+<wire x1="39.37" y1="-1.2827" x2="42.2656" y2="-4.1783" width="0.6096" layer="1"/>
 </signal>
 <signal name="SENSE20" class="3">
 <contactref element="F22" pad="2"/>
@@ -11929,8 +11961,8 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="3.6948" y1="-29.298" x2="8.509" y2="-34.1122" width="0.4064" layer="1"/>
 <wire x1="8.509" y1="-34.1122" x2="18.720678125" y2="-44.323878125" width="0.4064" layer="1"/>
 <wire x1="18.720678125" y1="-44.323878125" x2="18.720678125" y2="-56.299078125" width="0.4064" layer="1"/>
-<wire x1="18.9692" y1="-68.2403" x2="21.463" y2="-70.7341" width="0.4064" layer="1"/>
-<wire x1="18.9692" y1="-63.96750625" x2="18.9692" y2="-68.2403" width="0.4064" layer="1"/>
+<wire x1="18.9692" y1="-71.0353" x2="21.463" y2="-73.5291" width="0.4064" layer="1"/>
+<wire x1="18.9692" y1="-63.96750625" x2="18.9692" y2="-71.0353" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE19" class="3">
 <contactref element="F20" pad="2"/>
@@ -11959,14 +11991,14 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="22.8282" y1="-43.5292" x2="22.8282" y2="-38.30190625" width="0.4064" layer="1"/>
 <wire x1="22.0726" y1="-37.4024" x2="22.0726" y2="-35.3949" width="0.4064" layer="1"/>
 <wire x1="22.0726" y1="-35.3949" x2="22.098" y2="-35.3695" width="0.4064" layer="1"/>
-<wire x1="42.2656" y1="-14.8385" x2="42.291" y2="-14.8639" width="0.4064" layer="1"/>
-<wire x1="42.291" y1="-14.8639" x2="42.291" y2="-18.415" width="0.4064" layer="1"/>
 <wire x1="42.291" y1="-18.415" x2="41.0591" y2="-19.6469" width="0.6096" layer="15"/>
 <wire x1="26.2255" y1="-19.6469" x2="41.0591" y2="-19.6469" width="0.6096" layer="15"/>
 <wire x1="21.1328" y1="-36.3474" x2="21.1328" y2="-24.7396" width="0.6096" layer="15"/>
 <wire x1="22.098" y1="-35.3695" x2="22.098" y2="-35.3822" width="0.4064" layer="1"/>
 <wire x1="22.098" y1="-35.3822" x2="21.1328" y2="-36.3474" width="0.4064" layer="1"/>
 <wire x1="21.1328" y1="-24.7396" x2="26.2255" y2="-19.6469" width="0.6096" layer="15"/>
+<wire x1="42.291" y1="-12.0689" x2="42.2656" y2="-12.0435" width="0.4064" layer="1"/>
+<wire x1="42.291" y1="-18.415" x2="42.291" y2="-12.0689" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE17" class="3">
 <contactref element="F18" pad="2"/>
@@ -11990,7 +12022,6 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="44.3543" y1="-32.3029" x2="44.4051" y2="-32.3029" width="0.4064" layer="1"/>
 <wire x1="41.3766" y1="-29.3252" x2="41.3766" y2="-27.7241" width="0.4064" layer="1"/>
 <wire x1="41.3766" y1="-27.7241" x2="41.402" y2="-27.6987" width="0.4064" layer="1"/>
-<wire x1="46.9123" y1="-19.4628" x2="51.5366" y2="-14.8385" width="0.4064" layer="1"/>
 <wire x1="39.14190625" y1="-19.4628" x2="38.6796" y2="-19.92510625" width="0.4064" layer="1"/>
 <wire x1="39.14190625" y1="-19.4628" x2="46.9123" y2="-19.4628" width="0.4064" layer="1"/>
 <wire x1="41.402" y1="-27.6987" x2="40.9067" y2="-27.6987" width="0.4064" layer="1"/>
@@ -11998,6 +12029,8 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="38.6796" y1="-25.4716" x2="40.9067" y2="-27.6987" width="0.4064" layer="1"/>
 <wire x1="48.387" y1="-51.2318" x2="48.4886" y2="-51.3334" width="0.4064" layer="1"/>
 <wire x1="48.4886" y1="-51.3334" x2="48.4886" y2="-52.0954" width="0.4064" layer="1"/>
+<wire x1="46.9123" y1="-19.4628" x2="51.5366" y2="-14.8385" width="0.4064" layer="1"/>
+<wire x1="51.5366" y1="-14.8385" x2="51.5366" y2="-12.0435" width="0.4064" layer="1"/>
 </signal>
 <signal name="C1L" class="4">
 <contactref element="CELL1:R1" pad="2"/>
@@ -13146,7 +13179,7 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="267.5636" y1="-33.2098" x2="268.5408" y2="-33.2098" width="0.1524" layer="1"/>
 <wire x1="268.5408" y1="-33.2098" x2="268.605" y2="-33.274" width="0.1524" layer="1"/>
 <via x="268.605" y="-33.274" extent="1-16" drill="0.254"/>
-<via x="266.446" y="-31.699" extent="1-16" drill="0.6096"/>
+<via x="268.861540625" y="-31.66851875" extent="1-16" drill="0.6096"/>
 <wire x1="264.3886" y1="-34.1002" x2="264.3886" y2="-35.1536" width="0.1524" layer="1"/>
 <wire x1="264.3886" y1="-35.1536" x2="264.414" y2="-35.179" width="0.1524" layer="1"/>
 <via x="264.414" y="-35.179" extent="1-16" drill="0.254"/>
@@ -13268,8 +13301,8 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <via x="153.416" y="-84.074" extent="1-16" drill="0.254"/>
 <wire x1="191.326" y1="-26.924" x2="190.818" y2="-27.432" width="0.1524" layer="1"/>
 <wire x1="190.818" y1="-27.432" x2="187.9725" y2="-27.432" width="0.1524" layer="1"/>
-<wire x1="268.8336" y1="-24.3762" x2="266.446" y2="-26.7638" width="0.4064" layer="1"/>
-<wire x1="266.446" y1="-26.7638" x2="266.446" y2="-31.699" width="0.4064" layer="1"/>
+<wire x1="268.8336" y1="-22.8512" x2="268.861540625" y2="-22.879140625" width="0.4064" layer="1"/>
+<wire x1="268.861540625" y1="-22.879140625" x2="268.861540625" y2="-31.66851875" width="0.4064" layer="1"/>
 <wire x1="247.2182" y1="-44.8564" x2="244.6274" y2="-44.8564" width="0.4064" layer="1"/>
 <contactref element="R3" pad="1"/>
 <contactref element="C3" pad="1"/>
@@ -13684,7 +13717,7 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="82.2706" y1="-64.8342" x2="84.0112" y2="-63.0936" width="0.1524" layer="1"/>
 <wire x1="84.0112" y1="-63.0936" x2="85.7375" y2="-63.0936" width="0.1524" layer="1"/>
 <via x="85.7375" y="-63.0936" extent="1-16" drill="0.254"/>
-<wire x1="90.7034" y1="-67.056" x2="90.7034" y2="-70.7341" width="0.4064" layer="1"/>
+<wire x1="90.7034" y1="-67.056" x2="90.7034" y2="-73.5291" width="0.4064" layer="1"/>
 <wire x1="52.2478" y1="-45.3764" x2="51.9938" y2="-45.6304" width="0.1524" layer="1"/>
 <wire x1="51.9938" y1="-45.6304" x2="50.7812" y2="-45.6304" width="0.1524" layer="1"/>
 <wire x1="78.5876" y1="-60.2876" x2="78.5622" y2="-60.313" width="0.254" layer="1"/>
@@ -13987,8 +14020,7 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="96.8856" y1="-28.2278875" x2="98.6218" y2="-26.4916875" width="0.1524" layer="1"/>
 <wire x1="91.8745" y1="-29.746" x2="90.17005" y2="-28.04155" width="0.1524" layer="1"/>
 <wire x1="86.9442" y1="-22.86" x2="86.9442" y2="-22.6695" width="0.1524" layer="1"/>
-<wire x1="83.2104" y1="-52.9338" x2="83.44681875" y2="-52.69738125" width="0.1524" layer="1"/>
-<wire x1="91.428003125" y1="-52.69738125" x2="83.44681875" y2="-52.69738125" width="0.1524" layer="1"/>
+<wire x1="83.3503" y1="-52.7939" x2="91.331484375" y2="-52.7939" width="0.1524" layer="1"/>
 <wire x1="64.71659375" y1="-24.8158" x2="64.48108125" y2="-24.5802875" width="0.1524" layer="1"/>
 <wire x1="64.6555" y1="-20.193" x2="64.48108125" y2="-20.36741875" width="0.1524" layer="1"/>
 <wire x1="64.48108125" y1="-20.36741875" x2="64.48108125" y2="-24.5802875" width="0.1524" layer="1"/>
@@ -14061,10 +14093,11 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="76.89088125" y1="-57.05528125" x2="76.9266" y2="-57.091" width="0.1524" layer="1"/>
 <wire x1="76.8945" y1="-56.0578125" x2="76.454" y2="-56.4983125" width="0.1524" layer="1"/>
 <wire x1="76.454" y1="-56.4983125" x2="76.454" y2="-57.05528125" width="0.1524" layer="1"/>
-<wire x1="91.428003125" y1="-52.69738125" x2="91.915" y2="-52.210384375" width="0.1524" layer="1"/>
+<wire x1="91.331484375" y1="-52.7939" x2="91.915" y2="-52.210384375" width="0.1524" layer="1"/>
 <wire x1="91.915" y1="-36.957" x2="91.915" y2="-52.210384375" width="0.1524" layer="1"/>
 <wire x1="91.915" y1="-36.957" x2="91.407" y2="-36.449" width="0.1524" layer="1"/>
 <wire x1="78.3945" y1="-57.8527875" x2="78.3945" y2="-57.05528125" width="0.1524" layer="1"/>
+<wire x1="83.2104" y1="-52.9338" x2="83.3503" y2="-52.7939" width="0.1524" layer="1"/>
 </signal>
 <signal name="CC12" class="1">
 <contactref element="J112" pad="1"/>
@@ -14079,12 +14112,13 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="131.699" y1="-45.6454875" x2="127" y2="-50.3444875" width="0.6096" layer="16"/>
 <wire x1="127" y1="-63.246" x2="127" y2="-50.3444875" width="0.6096" layer="16"/>
 <wire x1="131.699" y1="-37.465" x2="131.699" y2="-36.6275375" width="0.6096" layer="1"/>
-<wire x1="131.699" y1="-36.6275375" x2="136.4947" y2="-31.8318375" width="0.6096" layer="1"/>
-<wire x1="90.805" y1="-84.8487" x2="90.805" y2="-81.3357" width="0.6096" layer="1"/>
-<wire x1="90.805" y1="-81.3357" x2="90.7034" y2="-81.2341" width="0.6096" layer="1"/>
 <wire x1="90.805" y1="-84.8487" x2="90.805" y2="-77.07783125" width="0.6096" layer="16"/>
 <wire x1="90.805" y1="-77.07783125" x2="96.12803125" y2="-71.7548" width="0.6096" layer="16"/>
 <wire x1="96.12803125" y1="-71.7548" x2="108.80249375" y2="-71.7548" width="0.6096" layer="16"/>
+<wire x1="90.805" y1="-78.5407" x2="90.7034" y2="-78.4391" width="0.6096" layer="1"/>
+<wire x1="90.805" y1="-84.8487" x2="90.805" y2="-78.5407" width="0.6096" layer="1"/>
+<wire x1="131.699" y1="-36.6275375" x2="136.4947" y2="-31.8318375" width="0.6096" layer="1"/>
+<wire x1="136.4947" y1="-31.8318375" x2="139.2897" y2="-31.8318375" width="0.6096" layer="1"/>
 </signal>
 <signal name="CELL1:QG">
 <contactref element="CELL1:R2" pad="1"/>
@@ -14628,16 +14662,11 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <contactref element="R41" pad="1"/>
 <via x="83.693" y="-46.863" extent="1-16" drill="0.6096"/>
 <via x="14.605" y="-14.732" extent="1-16" drill="0.6096"/>
-<wire x1="14.5972" y1="-14.7242" x2="14.605" y2="-14.732" width="0.4064" layer="1"/>
-<wire x1="0.8954" y1="-13.69030625" x2="1.31970625" y2="-13.266" width="0.4064" layer="1"/>
 <wire x1="0.8954" y1="-13.69030625" x2="0.8954" y2="-16.40969375" width="0.4064" layer="1"/>
 <wire x1="1.8034" y1="-17.31769375" x2="1.8034" y2="-17.6648" width="0.4064" layer="1"/>
 <wire x1="0.8954" y1="-16.40969375" x2="1.8034" y2="-17.31769375" width="0.4064" layer="1"/>
 <wire x1="1.8034" y1="-17.6648" x2="1.8034" y2="-19.2659" width="0.4064" layer="1"/>
 <wire x1="1.8034" y1="-19.2659" x2="1.778" y2="-19.2913" width="0.4064" layer="1"/>
-<wire x1="8.2954" y1="-13.266" x2="9.7536" y2="-14.7242" width="0.4064" layer="1"/>
-<wire x1="1.31970625" y1="-13.266" x2="8.2954" y2="-13.266" width="0.4064" layer="1"/>
-<wire x1="9.7536" y1="-14.7242" x2="14.5972" y2="-14.7242" width="0.4064" layer="1"/>
 <wire x1="14.605" y1="-14.732" x2="15.875" y2="-13.462" width="0.6096" layer="15"/>
 <wire x1="61.0118625" y1="-13.462" x2="66.421" y2="-18.8711375" width="0.6096" layer="15"/>
 <wire x1="15.875" y1="-13.462" x2="61.0118625" y2="-13.462" width="0.6096" layer="15"/>
@@ -14653,6 +14682,12 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="78.867" y1="-32.004" x2="79.336" y2="-31.535" width="0.4064" layer="1"/>
 <wire x1="79.336" y1="-31.535" x2="87.63" y2="-31.535" width="0.4064" layer="1"/>
 <wire x1="82.296" y1="-39.624" x2="78.867" y2="-36.195" width="0.4064" layer="1"/>
+<wire x1="1.38650625" y1="-13.1992" x2="0.8954" y2="-13.69030625" width="0.4064" layer="1"/>
+<wire x1="9.7536" y1="-13.4532" x2="8.6272" y2="-13.4532" width="0.4064" layer="1"/>
+<wire x1="8.3732" y1="-13.1992" x2="1.38650625" y2="-13.1992" width="0.4064" layer="1"/>
+<wire x1="8.6272" y1="-13.4532" x2="8.3732" y2="-13.1992" width="0.4064" layer="1"/>
+<wire x1="9.7536" y1="-13.4532" x2="11.0324" y2="-14.732" width="0.4064" layer="1"/>
+<wire x1="11.0324" y1="-14.732" x2="14.605" y2="-14.732" width="0.4064" layer="1"/>
 </signal>
 <signal name="SENSE12" class="4">
 <contactref element="F12" pad="2"/>
@@ -14673,8 +14708,8 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="166.4208" y1="-65.9638" x2="166.4208" y2="-65.9892" width="0.4064" layer="1"/>
 <wire x1="166.4208" y1="-65.9892" x2="166.3146" y2="-66.0954" width="0.4064" layer="1"/>
 <wire x1="166.3146" y1="-66.0954" x2="160.59030625" y2="-66.0954" width="0.4064" layer="1"/>
-<wire x1="158.5087" y1="-45.1492375" x2="146.9947" y2="-33.6352375" width="0.4064" layer="1"/>
-<wire x1="146.9947" y1="-31.8318375" x2="146.9947" y2="-33.6352375" width="0.4064" layer="1"/>
+<wire x1="158.5087" y1="-45.1492375" x2="147.48473125" y2="-34.12526875" width="0.4064" layer="1"/>
+<wire x1="147.48473125" y1="-34.12526875" x2="146.9947" y2="-33.6352375" width="0.4064" layer="1"/>
 <wire x1="158.5087" y1="-45.1492375" x2="158.5087" y2="-64.01379375" width="0.4064" layer="1"/>
 <wire x1="190.627" y1="-58.9966" x2="190.0301" y2="-59.5935" width="0.6096" layer="15"/>
 <wire x1="188.6839" y1="-60.0969875" x2="188.6839" y2="-61.6960125" width="0.6096" layer="15"/>
@@ -14693,6 +14728,8 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <wire x1="197.739" y1="-36.488" x2="194.6266" y2="-36.488" width="0.6096" layer="15"/>
 <wire x1="194.6266" y1="-36.488" x2="189.1411" y2="-41.9735" width="0.6096" layer="15"/>
 <wire x1="196.342" y1="-36.488" x2="197.739" y2="-36.488" width="0.4064" layer="1"/>
+<wire x1="146.9947" y1="-33.6352375" x2="145.1913" y2="-31.8318375" width="0.4064" layer="1"/>
+<wire x1="145.1913" y1="-31.8318375" x2="144.1997" y2="-31.8318375" width="0.4064" layer="1"/>
 </signal>
 <signal name="VREF2L" class="4">
 <contactref element="C6" pad="1"/>
@@ -15063,9 +15100,7 @@ Source: &lt;a href = &quot;https://www.sunstone.com/pcb-resources/cad-tools/eagl
 <contactref element="R65" pad="2"/>
 <wire x1="86.194" y1="-53.9369" x2="86.843421875" y2="-54.586321875" width="0.3048" layer="1"/>
 <wire x1="86.194" y1="-53.4289" x2="86.194" y2="-53.9369" width="0.3048" layer="1"/>
-<wire x1="87.34228125" y1="-54.561740625" x2="87.4620125" y2="-54.442009375" width="0.3048" layer="1"/>
-<wire x1="87.4620125" y1="-54.442009375" x2="87.62238125" y2="-54.281640625" width="0.3048" layer="1"/>
-<wire x1="87.326840625" y1="-54.561740625" x2="87.34228125" y2="-54.561740625" width="0.3048" layer="1"/>
+<wire x1="87.34228125" y1="-54.561740625" x2="87.62238125" y2="-54.281640625" width="0.3048" layer="1"/>
 <wire x1="86.2067" y1="-55.539640625" x2="86.2067" y2="-55.223040625" width="0.3048" layer="1"/>
 <wire x1="86.2067" y1="-55.223040625" x2="86.843421875" y2="-54.586321875" width="0.3048" layer="1"/>
 <wire x1="86.843421875" y1="-54.586321875" x2="87.3177" y2="-54.586321875" width="0.3048" layer="1"/>

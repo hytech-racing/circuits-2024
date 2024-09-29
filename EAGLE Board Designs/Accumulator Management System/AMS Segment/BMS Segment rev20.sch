@@ -267,22 +267,15 @@
 <rectangle x1="-1.025" y1="0.5" x2="-0.625" y2="0.75" layer="21"/>
 <rectangle x1="-1.025" y1="-0.75" x2="-0.625" y2="-0.5" layer="21"/>
 </package>
-<package name="0885">
-<description>0885 Fuse
-&lt;br&gt;
-&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-Keepout is 0.8 mm around fuse to get 1.6 mmbetween fuses.</description>
-<smd name="1" x="-5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
-<smd name="2" x="5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
-<wire x1="-5.43" y1="2.39" x2="-5.43" y2="-2.39" width="0.127" layer="21"/>
-<wire x1="-5.43" y1="-2.39" x2="5.43" y2="-2.39" width="0.127" layer="21"/>
-<wire x1="5.43" y1="-2.39" x2="5.43" y2="2.39" width="0.127" layer="21"/>
-<wire x1="5.43" y1="2.39" x2="-5.43" y2="2.39" width="0.127" layer="21"/>
-<text x="0" y="3.65" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
-<rectangle x1="-8.85" y1="-4.415" x2="8.85" y2="4.415" layer="39"/>
-<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="43"/>
-<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="41"/>
+<package name="2-SMD">
+<smd name="1" x="-2.455" y="0" dx="3.15" dy="1.96" layer="1" rot="R90"/>
+<smd name="2" x="2.455" y="0" dx="3.15" dy="1.96" layer="1" rot="R90"/>
+<wire x1="-3.05" y1="1.27" x2="3.05" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.05" y1="1.27" x2="3.05" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.05" y1="-1.27" x2="-3.05" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="-1.27" x2="-3.05" y2="1.27" width="0.127" layer="21"/>
+<rectangle x1="-4" y1="-2" x2="4" y2="2" layer="39"/>
+<text x="0" y="2" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="5222">
 <description>5222 Spring
@@ -832,6 +825,72 @@ Dashed line is edge of mated connector.</description>
 <wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.127" layer="21"/>
 <rectangle x1="-1.6" y1="-1.05" x2="1.6" y2="1.05" layer="39"/>
 <text x="0" y="1.104" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="885">
+<description>885 Fuse
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
+<smd name="1" x="-5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
+<smd name="2" x="5.25" y="0" dx="5.6" dy="7.23" layer="1"/>
+<wire x1="-5.43" y1="2.39" x2="-5.43" y2="-2.39" width="0.127" layer="21"/>
+<wire x1="-5.43" y1="-2.39" x2="5.43" y2="-2.39" width="0.127" layer="21"/>
+<wire x1="5.43" y1="-2.39" x2="5.43" y2="2.39" width="0.127" layer="21"/>
+<wire x1="5.43" y1="2.39" x2="-5.43" y2="2.39" width="0.127" layer="21"/>
+<text x="0" y="3.65" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-8.85" y1="-4.415" x2="8.85" y2="4.415" layer="39"/>
+<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="43"/>
+<rectangle x1="-2.45" y1="-4.415" x2="2.45" y2="4.415" layer="41"/>
+</package>
+<package name="MST_250">
+<description>Footprint for Schurter MST 250 Series fuse.&lt;br&gt;
+&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_MST_250-1772502.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<pad name="1" x="-2.54" y="0" drill="1"/>
+<pad name="2" x="2.54" y="0" drill="1"/>
+<text x="0" y="4.445" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<circle x="0" y="0" radius="4.2418" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.2418" width="0" layer="39"/>
+<circle x="0" y="0" radius="4.2418" width="0" layer="40"/>
+</package>
+<package name="OMF_125">
+<description>Footprint for Schurter OMF 125 Series Fuse.&lt;br&gt;
+&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_OMF_125-1275954.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-3.25" y="0" dx="3" dy="2.8" layer="1"/>
+<smd name="2" x="3.25" y="0" dx="3" dy="2.8" layer="1"/>
+<wire x1="-3.7" y1="1.6" x2="-3.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-1.6" x2="3.7" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-1.6" x2="3.7" y2="1.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="1.6" x2="-3.7" y2="1.6" width="0.127" layer="21"/>
+<text x="0" y="1.905" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-5.08" y1="-1.905" x2="5.08" y2="1.905" layer="39"/>
+<rectangle x1="-1.75" y1="-1.905" x2="1.75" y2="1.905" layer="43"/>
+<rectangle x1="-1.75" y1="-1.905" x2="1.75" y2="1.905" layer="41"/>
+</package>
+<package name="0603-FUSE">
+<description>&lt;ul&gt;&lt;li&gt;&lt;a href = "https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c2f-series.pdf"&gt;C2F 0603 Fuse Footprint Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+<smd name="1" x="-0.8382" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="0.8382" y="0" dx="1.27" dy="0.9144" layer="1" rot="R90" thermals="no"/>
+<rectangle x1="-1.524" y1="-1.016" x2="1.524" y2="1.016" layer="39"/>
+<wire x1="-0.8128" y1="0.4064" x2="0.8128" y2="0.4064" width="0.127" layer="21"/>
+<wire x1="0.8128" y1="0.4064" x2="0.8128" y2="-0.4064" width="0.127" layer="21"/>
+<wire x1="0.8128" y1="-0.4064" x2="-0.8128" y2="-0.4064" width="0.127" layer="21"/>
+<wire x1="-0.8128" y1="-0.4064" x2="-0.8128" y2="0.4064" width="0.127" layer="21"/>
+<text x="0" y="1.016" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
+<package name="485">
+<description>485 Fuse
+&lt;br&gt;
+&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_485_Datasheet_pdf-1372450.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;</description>
+<smd name="1" x="-6.9" y="0" dx="5.6" dy="3.5" layer="1" rot="R90" thermals="no"/>
+<smd name="2" x="6.9" y="0" dx="5.6" dy="3.5" layer="1" rot="R90" thermals="no"/>
+<wire x1="-6.05" y1="2.25" x2="6.05" y2="2.25" width="0.127" layer="21"/>
+<wire x1="6.05" y1="2.25" x2="6.05" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="6.05" y1="-2.25" x2="-6.05" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-6.05" y1="-2.25" x2="-6.05" y2="2.25" width="0.127" layer="21"/>
+<rectangle x1="-9.398" y1="-3.302" x2="9.398" y2="3.302" layer="39"/>
+<text x="0" y="3.302" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -3147,41 +3206,138 @@ Pins tied to VREG: ISOMD, DTEN
 <deviceset name="FUSE_?_*" prefix="F">
 <description>Fuse
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;0885 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_Fuse_885_Datasheet_pdf-1371443.pdf"&gt;885 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_MST_250-1772502.pdf"&gt;MST 250 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/358/typ_OMF_125-1275954.pdf"&gt;OMF 125 Series&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.mouser.com/datasheet/2/643/ds-CP-c2f-series-1291054.pdf"&gt;0686F0750-01&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href = "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0679l -series.pdf"&gt;2-SMD&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="0885" package="0885">
+<device name="885" package="885">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="1">
-<attribute name="CURRENT" value="1A"/>
-<attribute name="DKPN" value="F10985CT-ND"/>
-<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
-<attribute name="MOPN" value="576-0885001.DR"/>
-<attribute name="MPN" value="0885001.DR"/>
-<attribute name="VOLTAGE" value="500V"/>
-</technology>
-<technology name="1.25">
+<technology name="1.25A">
 <attribute name="CURRENT" value="1.25A"/>
 <attribute name="DKPN" value="F10986CT-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="1.25"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc."/>
 <attribute name="MOPN" value="576-08851.25DR"/>
 <attribute name="MPN" value="08851.25DR"/>
 <attribute name="VOLTAGE" value="500V"/>
 </technology>
-<technology name="1.6">
+<technology name="1.6A">
 <attribute name="CURRENT" value="1.6A"/>
 <attribute name="DKPN" value="F10987CT-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="2.30"/>
 <attribute name="MANUFACTURER" value="Littelfuse Inc."/>
 <attribute name="MOPN" value="576-088501.6DR"/>
 <attribute name="MPN" value="088501.6DR"/>
 <attribute name="VOLTAGE" value="500V"/>
+</technology>
+<technology name="1A">
+<attribute name="CURRENT" value="1A"/>
+<attribute name="DKPN" value="F10985CT-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="0.80"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MOPN" value="576-0885001.DR"/>
+<attribute name="MPN" value="0885001.DR"/>
+<attribute name="VOLTAGE" value="500V"/>
+</technology>
+</technologies>
+</device>
+<device name="MST_250" package="MST_250">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=".8A">
+<attribute name="CURRENT" value="800mA"/>
+<attribute name="DKPN" value="486-1470-ND"/>
+<attribute name="FUSE_TYPE" value="THT"/>
+<attribute name="I2T" value="8"/>
+<attribute name="MANUFACTURER" value="Schurter Inc."/>
+<attribute name="MOPN" value="693-0034.6614"/>
+<attribute name="MPN" value="0034.6614"/>
+<attribute name="VOLTAGE" value="63V"/>
+</technology>
+</technologies>
+</device>
+<device name="OMF_125" package="OMF_125">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=".63A">
+<attribute name="CURRENT" value="630mA"/>
+<attribute name="DKPN" value="486-2997-ND"/>
+<attribute name="FUSE_TYPE" value="SMD"/>
+<attribute name="I2T" value="0.02"/>
+<attribute name="MANUFACTURER" value="Schurter Inc."/>
+<attribute name="MOPN" value="693-3404.0008.11"/>
+<attribute name="MPN" value="3404.0008.11"/>
+<attribute name="VOLTAGE" value="125V"/>
+</technology>
+</technologies>
+</device>
+<device name="0603" package="0603-FUSE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=".75A">
+<attribute name="CURRENT" value="0.75A"/>
+<attribute name="DKPN" value="507-2159-2-ND"/>
+<attribute name="I2T" value="0.0013"/>
+<attribute name="MANUFACTURER" value="Bel Fuse"/>
+<attribute name="MOPN" value="530-0686F0750-01"/>
+<attribute name="MPN" value="0686F0750-01"/>
+<attribute name="VOLTAGE" value="63V"/>
+</technology>
+</technologies>
+</device>
+<device name="485" package="485">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="1A">
+<attribute name="CURRENT" value="1A"/>
+<attribute name="DKPN" value="F5921TR-ND"/>
+<attribute name="I2T" value="0.3044"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc."/>
+<attribute name="MOPN" value="576-0485001.DR"/>
+<attribute name="MPN" value="0485001.DR"/>
+<attribute name="VOLTAGE" value="600VDC"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="2-SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="2-SMD_3A">
+<attribute name="CURRENT" value="3A"/>
+<attribute name="DKPN" value="507-1991-1-ND"/>
+<attribute name="I2T" value="1.8"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc."/>
+<attribute name="MOPN" value="530-0679L3000-05"/>
+<attribute name="MPN" value="0679L3000-05"/>
+<attribute name="VOLTAGE" value="125V"/>
 </technology>
 </technologies>
 </device>
@@ -11787,25 +11943,25 @@ We choose to use a 1kΩ for part commonality.</text>
 <parts>
 <part name="P-4" library="HyTechSupplies" deviceset="V-L" device=""/>
 <part name="P+1" library="HyTechSupplies" deviceset="V+U" device=""/>
-<part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F4" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F5" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F3" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F9" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F6" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F10" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F7" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F11" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F8" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F13" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F15" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F14" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F17" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F16" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F19" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F18" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F21" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
+<part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F4" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F5" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F3" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F9" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F6" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F10" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F7" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F11" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F8" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F13" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F15" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F14" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F17" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F16" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F19" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F18" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F21" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
 <part name="J101" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
 <part name="J100" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
 <part name="J102" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
@@ -11828,9 +11984,9 @@ We choose to use a 1kΩ for part commonality.</text>
 <part name="J119" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
 <part name="J120" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
 <part name="J121" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
-<part name="F20" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F22" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
-<part name="F23" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
+<part name="F20" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F22" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F23" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
 <part name="P26" library="HyTechSupplies" deviceset="V-U" device=""/>
 <part name="P28" library="HyTechSupplies" deviceset="V-U" device=""/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
@@ -11934,7 +12090,7 @@ We choose to use a 1kΩ for part commonality.</text>
 <part name="P64" library="HyTechSupplies" deviceset="VREGU" device=""/>
 <part name="P65" library="HyTechSupplies" deviceset="VREGU" device=""/>
 <part name="P66" library="HyTechSupplies" deviceset="VREGU" device=""/>
-<part name="F12" library="HyTechDevices" deviceset="FUSE_?_*" device="0885" technology="1" value="FUSE_0885_1"/>
+<part name="F12" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
 <part name="TP9" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP8" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
