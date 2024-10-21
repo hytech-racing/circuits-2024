@@ -892,6 +892,16 @@ Keepout is 0.8 mm around fuse to get 1.6 mm between fuses.</description>
 <rectangle x1="-9.398" y1="-3.302" x2="9.398" y2="3.302" layer="39"/>
 <text x="0" y="3.302" size="0.8128" layer="21" font="vector" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="BMS-FUSE-UNIVERSAL">
+<smd name="1" x="-4.725" y="0" dx="7.23" dy="6.65" layer="1" rot="R90"/>
+<smd name="2" x="4.725" y="0" dx="7.23" dy="6.65" layer="1" rot="R90"/>
+<wire x1="-3.05" y1="1.27" x2="3.05" y2="1.27" width="0.127" layer="21"/>
+<wire x1="3.05" y1="1.27" x2="3.05" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="3.05" y1="-1.27" x2="-3.05" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.05" y1="-1.27" x2="-3.05" y2="1.27" width="0.127" layer="21"/>
+<rectangle x1="-9" y1="-4" x2="9" y2="4" layer="39"/>
+<text x="0" y="4" size="0.8128" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAPACITOR">
@@ -3331,6 +3341,23 @@ Pins tied to VREG: ISOMD, DTEN
 </connects>
 <technologies>
 <technology name="2-SMD_3A">
+<attribute name="CURRENT" value="3A"/>
+<attribute name="DKPN" value="507-1991-1-ND"/>
+<attribute name="I2T" value="1.8"/>
+<attribute name="MANUFACTURER" value="Bel Fuse Inc."/>
+<attribute name="MOPN" value="530-0679L3000-05"/>
+<attribute name="MPN" value="0679L3000-05"/>
+<attribute name="VOLTAGE" value="125V"/>
+</technology>
+</technologies>
+</device>
+<device name="BMS-UNIVERSAL" package="BMS-FUSE-UNIVERSAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
 <attribute name="CURRENT" value="3A"/>
 <attribute name="DKPN" value="507-1991-1-ND"/>
 <attribute name="I2T" value="1.8"/>
@@ -11943,25 +11970,25 @@ We choose to use a 1kΩ for part commonality.</text>
 <parts>
 <part name="P-4" library="HyTechSupplies" deviceset="V-L" device=""/>
 <part name="P+1" library="HyTechSupplies" deviceset="V+U" device=""/>
-<part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F4" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F5" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F3" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F9" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F6" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F10" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F7" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F11" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F8" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F13" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F15" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F14" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F17" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F16" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F19" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F18" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F21" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F1" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F4" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F2" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F5" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F3" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F9" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F6" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F10" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F7" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F11" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F8" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F13" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F15" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F14" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F17" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F16" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F19" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F18" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F21" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
 <part name="J101" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
 <part name="J100" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
 <part name="J102" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
@@ -11984,9 +12011,9 @@ We choose to use a 1kΩ for part commonality.</text>
 <part name="J119" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
 <part name="J120" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
 <part name="J121" library="HyTechDevices" deviceset="CONNECTOR-1_?_*" device="5222"/>
-<part name="F20" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F22" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
-<part name="F23" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F20" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F22" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
+<part name="F23" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
 <part name="P26" library="HyTechSupplies" deviceset="V-U" device=""/>
 <part name="P28" library="HyTechSupplies" deviceset="V-U" device=""/>
 <part name="C6" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_1UF"/>
@@ -12090,7 +12117,7 @@ We choose to use a 1kΩ for part commonality.</text>
 <part name="P64" library="HyTechSupplies" deviceset="VREGU" device=""/>
 <part name="P65" library="HyTechSupplies" deviceset="VREGU" device=""/>
 <part name="P66" library="HyTechSupplies" deviceset="VREGU" device=""/>
-<part name="F12" library="HyTechDevices" deviceset="FUSE_?_*" device="" technology="2-SMD_3A" value="FUSE__"/>
+<part name="F12" library="HyTechDevices" deviceset="FUSE_?_*" device="BMS-UNIVERSAL" value="FUSE__"/>
 <part name="TP9" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP8" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
 <part name="TP1" library="HyTechDevices" deviceset="TEST_POINT" device=""/>
