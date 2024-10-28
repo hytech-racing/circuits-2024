@@ -12532,8 +12532,8 @@ We choose to use a 1kΩ for part commonality.</text>
 <part name="P24" library="HyTechSupplies" deviceset="V-L" device=""/>
 <part name="C18" library="HyTechDevices" deviceset="CAPACITOR_?_*" device="0603" technology="10V_10NF"/>
 <part name="P25" library="HyTechSupplies" deviceset="V-U" device=""/>
-<part name="U$35" library="HyTechDevices" deviceset="MCP9701T-E/LT" device=""/>
-<part name="U$36" library="HyTechDevices" deviceset="MCP9701T-E/LT" device=""/>
+<part name="U6" library="HyTechDevices" deviceset="MCP9701T-E/LT" device=""/>
+<part name="U7" library="HyTechDevices" deviceset="MCP9701T-E/LT" device=""/>
 <part name="P29" library="HyTechSupplies" deviceset="V-L" device=""/>
 <part name="R18" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="210"/>
 <part name="R19" library="HyTechDevices" deviceset="RESISTOR_?_*" device="0603" technology="210"/>
@@ -13423,8 +13423,8 @@ Celcius</text>
 <instance part="P23" gate="G$1" x="129.54" y="91.44" smashed="yes">
 <attribute name="VALUE" x="129.54" y="90.17" size="1.27" layer="96" align="top-center"/>
 </instance>
-<instance part="U$35" gate="G$1" x="182.88" y="142.24" smashed="yes"/>
-<instance part="U$36" gate="G$1" x="182.88" y="116.84" smashed="yes"/>
+<instance part="U6" gate="G$1" x="182.88" y="142.24" smashed="yes"/>
+<instance part="U7" gate="G$1" x="182.88" y="116.84" smashed="yes"/>
 <instance part="P29" gate="G$1" x="172.72" y="104.14" smashed="yes">
 <attribute name="VALUE" x="172.72" y="102.87" size="1.27" layer="96" align="top-center"/>
 </instance>
@@ -14172,7 +14172,7 @@ Celcius</text>
 </net>
 <net name="TOUTU" class="0">
 <segment>
-<pinref part="U$35" gate="G$1" pin="VOUT"/>
+<pinref part="U6" gate="G$1" pin="VOUT"/>
 <wire x1="177.8" y1="139.7" x2="172.72" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="139.7" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
@@ -14274,7 +14274,7 @@ Celcius</text>
 </net>
 <net name="TOUTL" class="0">
 <segment>
-<pinref part="U$36" gate="G$1" pin="VOUT"/>
+<pinref part="U7" gate="G$1" pin="VOUT"/>
 <wire x1="177.8" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="114.3" x2="167.64" y2="114.3" width="0.1524" layer="91"/>
@@ -14541,7 +14541,7 @@ Celcius</text>
 <segment>
 <pinref part="P41" gate="G$1" pin="V-L"/>
 <wire x1="175.26" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$36" gate="G$1" pin="GND"/>
+<pinref part="U7" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="P71" gate="G$1" pin="V-L"/>
@@ -14805,7 +14805,7 @@ Celcius</text>
 <segment>
 <pinref part="P72" gate="G$1" pin="V-U"/>
 <wire x1="175.26" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U$35" gate="G$1" pin="GND"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="P69" gate="G$1" pin="V-U"/>
@@ -15307,7 +15307,7 @@ Celcius</text>
 </net>
 <net name="N$12" class="3">
 <segment>
-<pinref part="U$35" gate="G$1" pin="VDD"/>
+<pinref part="U6" gate="G$1" pin="VDD"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="139.7" x2="208.28" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -15317,7 +15317,7 @@ Celcius</text>
 </net>
 <net name="N$14" class="4">
 <segment>
-<pinref part="U$36" gate="G$1" pin="VDD"/>
+<pinref part="U7" gate="G$1" pin="VDD"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
